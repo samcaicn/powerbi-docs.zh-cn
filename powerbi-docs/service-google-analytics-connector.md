@@ -1,0 +1,58 @@
+---
+title: "第三方服务：适用于 Power BI Desktop 的 Google Analytics 连接器"
+description: "第三方服务：适用于 Power BI Desktop 的 Google Analytics 连接器"
+services: powerbi
+documentationcenter: 
+author: davidiseminger
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 07/20/2017
+ms.author: davidi
+ms.openlocfilehash: 3c1c5ede054c129aad06e7047d8e03e5dfc307b8
+ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/15/2017
+---
+# <a name="google-analytics-connector-for-power-bi-desktop"></a>适用于 Power BI Desktop 的 Google Analytics 连接器
+> [!NOTE]
+> Power BI Desktop 中的 Google Analytics 内容包和连接器依赖于 Google Analytics Core Reporting API。 同样，功能和可用性可能会随着时间推移有所不同。
+> 
+> 
+
+可以使用 **Google Analytics（分析）**连接器连接 Google Analytics（分析）数据。 若要连接，请执行以下步骤：
+
+1. 在 **Power BI Desktop** 中，选择“**主页**”功能区选项卡中的“**获取数据**”。
+2. 在**获取数据**窗口中，从左侧窗格中的类别选择**其他**。
+3. 从右侧窗格中的选择中选择 **Google Analytics**。
+4. 在窗口底部，选择**连接**。  
+   ![](media/service-google-analytics-connector/tps_googleanalytics_1.png)
+
+你将看到一个提示对话框，说明连接器是一种第三方服务，并警告功能和可用性可能会随着时间推移有所不同，以及其他说明。  
+![](media/service-google-analytics-connector/tps_googleanalytics_2.png)
+
+选择“**继续**”后，系统会提示你登录 Google Analytics（分析）。  
+![](media/service-google-analytics-connector/tps_googleanalytics_3.png)
+
+当你输入凭据时，系统会提示你希望你脱机访问 Power BI。 这便是如何使用 **Power BI Desktop** 访问 Google Analytics（分析）数据。  
+
+接受后，**Power BI Desktop** 会立即显示你当前已登录。  
+![](media/service-google-analytics-connector/tps_googleanalytics_5.png)
+
+选择“**连接**”后，你的 Google Analytics（分析）数据会与 **Power BI Desktop** 连接并加载。  
+![](media/service-google-analytics-connector/tps_googleanalytics_6.png)
+
+## <a name="changes-to-the-api"></a>API 的更改
+尽管我们尝试依照任何更改发布更新，API 可能会以影响我们生成的查询的结果的方式进行更改。 在某些情况下，某些查询可能不再受支持。 由于此依赖关系，使用此连接器时，我们无法保证你的查询的结果。
+
+有关 Google Analytics API 的更改的详细信息可在[更改日志](https://developers.google.com/analytics/devguides/changelog)中找到。
+

@@ -1,0 +1,113 @@
+---
+title: "在 Power BI 移动应用中浏览报表"
+description: "了解如何在手机或平板电脑上查看 Power BI 移动应用中的报表，并与之交互。 可以在 Power BI 服务或 Power BI Desktop 中创建报表，然后在移动应用中与报表进行交互。 "
+services: powerbi
+documentationcenter: 
+author: maggiesMSFT
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 10/13/2017
+ms.author: maggies
+ms.openlocfilehash: 3515a57f88db1c8a7b12706680c0aade8b2cdbfa
+ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/15/2017
+---
+# <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
+适用于：
+
+| ![iPhone](media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android 手机](media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Android 平板电脑](media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Windows 10 设备](media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
+|:--- |:--- |:--- |:--- |:--- |
+| iPhone |iPad |Android 手机 |Android 平板电脑 |Windows 10 设备 |
+
+Power BI 报表是交互式数据视图，使用视觉对象来表示不同的数据发现和见解。 在 Power BI 移动应用中查看报表是三步流程中的第三步。
+
+1. [在 Power BI Desktop 中创建报表](desktop-report-view.md)。 甚至可以在 Power BI Desktop 中[优化报表，使之更适合在手机中显示](mobile-apps-view-phone-report.md)。 
+2. 将这些报表发布到 Power BI 服务 [(https://powerbi.com)](https://powerbi.com) 或 [Power BI 报表服务器](report-server/get-started.md)。  
+3. 然后，与 Power BI 移动应用中的报表进行交互。
+
+## <a name="open-a-power-bi-report-in-the-mobile-app"></a>在移动应用中打开 Power BI 报表
+Power BI 报表存储在移动应用中的不同位置，具体取决于从何处获取。 可以位于“应用”、“与我共享”、“工作区”（包括“我的工作区”）或报表服务器中。 有时，可以通过相关仪表板转到报表；有时，其中也会列出报表。
+
+* 在仪表板中，依次点击磁贴右上角的省略号 (...) 和“打开报表”。
+  
+  ![打开报表](media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
+  
+  并非所有磁贴都包含报表打开选项。 例如，通过在问答框中提问而创建的磁贴就无法在获得点击后打开报表。 
+  
+  在手机上，报表将在横向模式下打开，除非[经过优化，更适合在手机上查看](mobile-reports-in-the-mobile-apps.md#view-reports-optimized-for-phones)。
+  
+  ![横向模式下的手机报表](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
+
+## <a name="view-reports-optimized-for-phones"></a>查看针对手机优化后的报表
+Power BI 报表作者可以创建专门针对手机进行优化的报表布局。 在报表列表中，优化后的报表具有特殊图标 ![手机报表图标](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)：
+
+![打开手机报表](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
+
+在手机上查看此类报表时，将在纵向视图中打开。
+
+![纵向视图下的报表](media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
+
+报表可能混合了针对或未针对手机进行优化的报表页。 如果是这样，浏览报表时，每个报表页的视图都会从纵向模式切换为横向模式。
+
+阅读有关[针对手机视图进行优化的报表](mobile-apps-view-phone-report.md)的详细信息。
+
+## <a name="use-slicers-to-filter-a-report-page"></a>使用切片器筛选报表页
+在 Power BI 服务 [(https://powerbi.com)](https://powerbi.com) 中设计报表时，请注意，在手机上看不到“筛选器”窗格，但可以[在报表页上看到切片器](power-bi-visualization-slicers.md)。 向报表添加切片器，以便你和同事可以使用切片器在手机上筛选报表页。
+
+* 在报表页上的切片器中选择值后，便会筛选报表页上的其他视觉对象。
+  
+  ![报表切片器](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-slicer.png)
+  
+  在此插图中，切片器将在列图表中筛选出 7 月的值。
+
+## <a name="cross-filter-and-highlight-a-power-bi-report-page"></a>交叉筛选并突出显示 Power BI 报表页
+在视觉对象中选择值后，便不会筛选其他视觉对象。 而是会突出显示其他视觉对象中的相关值。
+
+* 点击视觉对象中的值。
+  
+  ![交叉筛选页面](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-highlight.png)
+  
+  点击一个视觉对象中的大型列将突出显示其他视觉对象中的相关值。 
+
+## <a name="sort-a-visual-on-an-ipad-or-a-tablet"></a>在 iPad 或平板电脑上对视觉对象进行排序
+* 点击图表，点击省略号 (**...**)，然后点击字段名。
+  
+   ![对视觉对象排序](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
+* 若要反向排序，请依次重新点击省略号 (...) 和相同的字段名称。
+
+## <a name="drill-down-and-up-in-a-visual-on-an-ipad-or-a-tablet"></a>在 iPad 或平板电脑上向上和向下钻取视觉对象
+如果报表作者已将此功能添加到视觉对象，可以在 iPad 或平板电脑上向下钻取视觉对象，以查看其中所包含的值。 在 Power BI Desktop 或 Power BI 服务中[向视觉对象添加向下钻取功能](power-bi-visualization-drill-down.md)。 
+
+> [!NOTE]
+> 暂无法在 iPad 或平板电脑中向下钻取地图。
+> 
+> 
+
+* 点击一个视觉对象。 如果左上角或右上角有向上和向下箭头 ![向上钻取图标、向下钻取图标](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png)，则可以向下钻取。 若要向下钻取一个值，请依次点击右上角的箭头和视觉对象中的值（在此示例中，为深蓝色 FD-04 气泡）。
+  
+  ![在视觉对象中向下钻取](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
+* 若要返回向上钻取，点击左上角的向上箭头。
+  
+  ![向上钻取](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+
+## <a name="go-back-to-my-workspace"></a>回到我的工作区
+* 依次点击报表名称旁边的箭头和“我的工作区”。
+  
+  ![返回顶部](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+
+## <a name="next-steps"></a>后续步骤
+* [查看手机优化版 Power BI 报表并与之交互](mobile-apps-view-phone-report.md)
+* [创建手机优化版报表](desktop-create-phone-report.md)
+* 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+

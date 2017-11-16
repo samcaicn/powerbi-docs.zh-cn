@@ -1,0 +1,74 @@
+---
+title: "Power BI 报表中的文本框和形状"
+description: "介绍了如何使用 Microsoft Power BI 服务在报表中添加和创建文本框和形状的文档。"
+services: powerbi
+documentationcenter: 
+author: mihart
+manager: kfile
+backup: 
+editor: 
+featuredvideoid: _3q6VEBhGew
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 10/28/2017
+ms.author: mihart
+ms.openlocfilehash: f2edc291c28b865eb956361cf0f9b4740f59c77c
+ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/13/2017
+---
+# <a name="static-content-in-power-bi-reports"></a>Power BI 报表中的静态内容
+在编辑视图中，向 Power BI 服务中的报表添加文本框和形状。 
+
+> 注意：在 Power BI Desktop 中，还可以按照下面视频中的说明操作，[向报表添加静态图像](guided-learning/visualizations.yml#step-11)。
+> 
+> <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
+> 
+> 
+
+## <a name="add-a-text-box-to-a-report"></a>向报表添加文本框
+1. 将光标置于报表画布中的任意位置，然后选择**文本框**。
+   
+   ![](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
+2. 在文本框中键入文本，可以选择设置字体格式、颜色和文本对齐方式。 
+   
+   ![](media/power-bi-reports-add-text-and-shapes/pbi_textbox2new.png)
+3. 若要放置文本框，可选择顶部的灰色区域并拖动。 若要调整文本框大小，可选择并拖动任意边框手柄。 
+   
+   ![](media/power-bi-reports-add-text-and-shapes/textboxsmaller.gif)
+4. 若要关闭文本框，可选择报表画布上的任意空白区域。
+5. 选择“大头针”图标 ![](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) 以将文本框固定到仪表板。 
+
+## <a name="add-a-shape-to-a-report"></a>向报表添加形状
+1. 将光标置于报表画布中的任意位置，然后选择“形状”。
+   
+   ![](media/power-bi-reports-add-text-and-shapes/power-bi-shapes.png)
+2. 在下拉列表中，选择要向报表画布添加的形状。 我们将添加一个箭头，指向总销售额差异最高的气泡。 
+   
+   在“设置形状格式”窗格中，自定义形状。 在此示例中，我们创建的是具有深红色边框且旋转了 90 度的红色箭头。
+   
+   ![](media/power-bi-reports-add-text-and-shapes/power-bi-arrrow.png)
+3. 若要放置形状，请选择顶部的灰色区域，然后拖动。 若要重设形状大小，请选择并拖动任意边框图柄。 
+
+> 注意：不能将形状固定到仪表板中。 
+> 
+> 
+
+### <a name="next-steps"></a>后续步骤
+[向文本框添加超链接](service-add-hyperlink-to-text-box.md)
+
+[Power BI 中的报表](service-reports.md)
+
+[Power BI 报表中的可视化效果](power-bi-report-visualizations.md)
+
+[Power BI - 基本概念](service-basic-concepts.md)
+
+更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+
