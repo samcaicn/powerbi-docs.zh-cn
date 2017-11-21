@@ -1,0 +1,101 @@
+---
+title: "使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户"
+description: "Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成后，即可将 Power BI 内容安全地分发给组织外的来宾用户。"
+services: powerbi
+documentationcenter: 
+author: guyinacube
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 11/14/2017
+ms.author: asaxton
+ms.openlocfilehash: 5dabaa09923203c31572b413f8674b76028b7483
+ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/15/2017
+---
+# <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户
+
+Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成后，即可将 Power BI 内容安全地分发给组织外的来宾用户，同时仍然可以控制内部数据。
+
+> [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
+
+## <a name="invite-guest-users"></a>邀请来宾用户
+
+有两种方法可将来宾用户邀请到 Power BI 租户：计划性邀请或临时邀请。 第一次将外部用户邀请到组织时才需要邀请。
+
+### <a name="planned-invites"></a>计划性邀请
+
+计划性邀请在 Microsoft Azure 门户的 Azure AD 中或使用 PowerShell 执行。 如果知道必须要邀请的用户，则使用此选项。 
+
+只有成为租户管理员才能在 Azure AD 门户中创建来宾用户。
+
+1. 导航到 [Azure 门户](https://portal.azure.com)，选择“Azure Active Directory”。
+
+2. 导航到“用户和组” > “所有用户” > “新来宾用户”。
+
+    ![Azure AD 门户 - 新来宾用户](media/service-admin-azure-ad-b2b/azuread-portal-new-guest-user.png)
+
+3. 输入“电子邮件地址”和“个人消息”。
+
+    ![Azure AD 门户 - 新来宾用户邀请消息](media/service-admin-azure-ad-b2b/azuread-portal-invite-message.png)
+
+4. 选择“邀请”。
+
+若要邀请多个来宾用户，请使用 PowerShell。 有关详细信息，请参阅 [Azure Active Directory B2B 协作代码和 PowerShell 示例](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-code-samples)。
+
+来宾用户需要在他们收到的电子邮件邀请中选择“开始”。 然后就会将该来宾用户添加到租户。
+
+![来宾用户电子邮件邀请](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
+
+### <a name="ad-hoc-invites"></a>临时邀请
+
+若要在任意时间执行邀请，在发布应用前将外部用户添加到该应用的访问列表中。
+
+![被添加到应用访问列表的外部用户](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
+
+该来宾用户将收到指示已与其共享应用的电子邮件。
+
+![指示已与来宾用户共享应用的电子邮件](media/service-admin-azure-ad-b2b/guest-user-invite-email2.png)
+
+该来宾用户必须使用其组织电子邮件地址进行登录。 完成登录后，将提示他们接受邀请。 登录后，系统会将来宾用户重定向到对应的应用内容。 若要返回该应用，可将链接设置为书签或保存该电子邮件。
+
+## <a name="licensing"></a>许可
+
+来宾用户需要获得相应的许可才能查看已共享的应用。 有三种获得许可的方式。
+
+### <a name="use-power-bi-premium"></a>使用 Power BI Premium
+
+将应用工作区分配到 Power BI Premium 容量后，来宾用户无需获取 Power BI Pro 许可证就能使用此应用。 使用 Power BI Premium 时，应用还可以使用其他功能（例如加快刷新速度、专用容量及较大的模型大小）。
+
+![使用 Power BI Premium](media/service-admin-azure-ad-b2b/license-approach1.png)
+
+### <a name="assign-power-bi-pro-license-to-guest-user"></a>向来宾用户分配 Power BI Pro 许可证
+
+向租户内来宾用户分配 Power BI Pro 许可证后，该来宾用户即可查看内容。
+
+> [!NOTE]
+> 只有在来宾用户访问你的租户内的内容时，你的租户的 Power BI Pro 许可证才适用于来宾用户。
+
+![分配租户的 Pro 许可证](media/service-admin-azure-ad-b2b/license-approach2.png)
+
+### <a name="guest-user-brings-their-own-power-bi-pro-license"></a>来宾用户拥有自己的 Power BI Pro 许可证
+
+在来宾用户的租户中已向来宾用户分配 Power BI Pro 许可证。
+
+![来宾用户拥有自己的许可证](media/service-admin-azure-ad-b2b/license-approach3.png)
+
+## <a name="next-steps"></a>后续步骤
+
+有关详细信息（包括行级别安全性的工作方式），请查看[白皮书](https://aka.ms/powerbi-b2b-whitepaper)。
+
+有关 Azure Active Directory B2B 的信息，请参阅[什么是 Azure AD B2B 协作？](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)

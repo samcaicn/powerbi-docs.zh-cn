@@ -1,0 +1,16 @@
+- name: 开始使用
+  href: 'gettingstarted.yml#step-0'
+- name: 获取数据
+  href: 'gettingdata.yml#step-0'
+- name: 建模
+  href: 'modeling.yml#step-0'
+- name: 可视化
+  href: 'visualizations.yml#step-0'
+- name: 研究数据
+  href: 'exploringdata.yml#step-0'
+- name: Power BI 和 Excel
+  href: 'powerbiandexcel.yml#step-0'
+- name: 发布和共享
+  href: 'publishingandsharing.yml#step-0'
+- name: DAX 简介
+  href: 'introductiontodax.yml#step-0'

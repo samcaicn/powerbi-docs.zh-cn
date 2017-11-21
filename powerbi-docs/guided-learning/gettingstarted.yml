@@ -1,0 +1,51 @@
+documentType: Tutorial
+title: "开始使用"
+metadata:
+  title: "入门 | Microsoft Power BI"
+  description: "了解什么是 Power BI、它的构建基块如何协同工作以及如何使用它们来获取对数据的见解。"
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: gettingdata
+  nextTutorialTitle: "获取数据"
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "了解什么是 Power BI、它的构建基块如何协同工作以及如何使用它们来获取对数据的见解。\n"
+  ms.openlocfilehash: 398c10dfbcd935276b98f3d50df172d6b0d2af48
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 11/15/2017
+- title: "Power BI 简介"
+  durationInMinutes: 5
+  content: >
+    [!INCLUDE [](includes/0-0-what-is-power-bi.md)]
+- title: "使用 Power BI"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/1c01r_pAZdk?rel=0]
+
+
+    [!INCLUDE [](includes/0-1-intro-using-power-bi.md)]
+- title: "Power BI 的构建基块"
+  durationInMinutes: 6
+  content: >
+    [!INCLUDE [](includes/0-0b-building-blocks-power-bi.md)]
+- title: "快速了解一下 Power BI 服务"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/5srP3h3RJf8?rel=0]
+
+
+    [!INCLUDE [](includes/0-3-dashboards-cloud-services.md)]
+- title: "回顾和后续操作"
+  durationInMinutes: 5
+  content: >
+    [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
+- content: "你已完成 Microsoft Power BI 指导式学习的“入门”部分。\0"

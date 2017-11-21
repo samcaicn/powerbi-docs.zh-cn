@@ -1,0 +1,65 @@
+documentType: Tutorial
+title: "DAX 简介"
+metadata:
+  title: "DAX 简介 | Microsoft Power BI"
+  description: "向知名专家学习如何创建和使用 DAX。"
+  audience: Business User
+  level: Beginner
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "向知名专家学习如何创建和使用 DAX。\n"
+  ms.openlocfilehash: 5723e4a56974ab25eb43f3130755f6bccb71214c
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 11/15/2017
+- title: "DAX 简介"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/lRhOJP3bZCo?rel=0]
+
+
+    [!INCLUDE [](includes/7-1-intro-to-dax.md)]
+- title: "DAX 计算类型"
+  durationInMinutes: 22
+  content: >
+    > [!Video https://www.youtube.com/embed/BVlijY68wp8?rel=0]
+
+
+    [!INCLUDE [](includes/7-2-dax-calculation-types.md)]
+- title: "DAX 函数"
+  durationInMinutes: 17
+  content: >
+    > [!Video https://www.youtube.com/embed/siTnzquk1SU?rel=0]
+
+
+    [!INCLUDE [](includes/7-3-dax-functions.md)]
+- title: "在 DAX 表达式中使用变量"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/kd4tgKxhRTU?rel=0]
+
+
+    [!INCLUDE [](includes/7-4-dax-expressions.md)]
+- title: "表关系和 DAX"
+  durationInMinutes: 13
+  content: >
+    > [!Video https://www.youtube.com/embed/yec1f5A08mc?rel=0]
+
+
+    [!INCLUDE [](includes/7-5-table-relationships-and-dax.md)]
+- title: "DAX 表和筛选"
+  durationInMinutes: 32
+  content: >
+    > [!Video https://www.youtube.com/embed/6eAoDI4VDFs?rel=0]
+
+
+    [!INCLUDE [](includes/7-6-dax-tables-and-filtering.md)]
+- content: "你已完成 Microsoft Power BI 指导式学习的“DAX 简介”部分。\0"
