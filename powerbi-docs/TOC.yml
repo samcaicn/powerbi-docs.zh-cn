@@ -12,10 +12,6 @@
           href: service-free-vs-pro.md
         - name: Power BI 数据源
           href: service-get-data.md
-        - name: Power BI 视频
-          href: videos.md
-        - name: Power BI 网络研讨会
-          href: webinars.md
         - name: 新的 Power BI 导航体验
           href: service-the-new-power-bi-experience.md
         - name: 10 条关于如何获取帮助的提示
@@ -58,7 +54,7 @@
           href: sample-supplier-quality.md
         - name: Power BI 的 IT 支出分析示例教程
           href: sample-it-spend.md
-        - name: Power BI 的销售与市场营销示例：教程
+        - name: Power BI 销售与市场营销示例：教程
           href: sample-sales-and-marketing.md
         - name: Power BI 的客户盈利率示例：教程
           href: sample-customer-profitability.md
@@ -322,7 +318,7 @@
           href: service-organizational-content-pack-manage-update-delete.md
         - name: 查找并连接组织内容包
           href: service-organizational-content-pack-find-and-open.md
-        - name: 组织内容包：复制、刷新和获取访问
+        - name: 组织内容包：复制、刷新和获取访问权限
           href: service-organizational-content-pack-copy-refresh-access.md
         - name: 删除与组织内容包的连接
           href: service-organizational-content-pack-disconnect.md
@@ -406,10 +402,6 @@
           href: power-bi-visualization-export-data.md
         - name: 更改 Power BI 报表中的可视化效果类型
           href: power-bi-report-change-visualization-type.md
-        - name: 向 Power BI 报表添加自定义可视化效果
-          href: power-bi-report-add-custom-visual.md
-        - name: 从 Office 应用商店下载和使用自定义视觉对象
-          href: service-custom-visuals-office-store.md
         - name: 颜色格式设置和轴属性入门
           href: service-getting-started-with-color-formatting-and-axis-properties.md
         - name: Power BI 中颜色格式设置的提示和技巧
@@ -450,7 +442,7 @@
           href: power-bi-visualization-funnel-charts.md
         - name: KPI 视觉对象
           href: power-bi-visualization-kpi.md
-        - name: 教程：Power BI 中的径向仪表盘
+        - name: 教程：Power BI 中的径向仪表图表
           href: power-bi-visualization-radial-gauge-charts.md
         - name: 教程：Power BI 中的散点图
           href: power-bi-visualization-scatter.md
@@ -478,7 +470,7 @@
           href: service-excel-workbook-files.md
         - name: 从 Power BI Desktop 文件获取数据
           href: service-desktop-files.md
-        - name: 从逗号分隔值 (.CSV) 文件中获取数据。
+        - name: 从逗号分隔值 (.csv) 文件中获取数据
           href: service-comma-separated-value-files.md
         - name: Power BI 中的实时流式处理（预览）
           href: service-real-time-streaming.md
@@ -532,7 +524,7 @@
           href: service-gateway-onprem-faq.md
         - name: 本地数据网关（个人模型）
           href: service-gateway-personal-mode.md
-        - name: 本地数据网关疑难解答
+        - name: 本地数据网关故障排查
           href: service-gateway-onprem-tshoot.md
         - name: Power BI Gateway - Personal
           href: personal-gateway.md
@@ -556,9 +548,9 @@
           href: service-admin-service-free-in-your-organization.md
         - name: 购买 Power BI Pro
           href: service-admin-purchasing-power-bi-pro.md
-        - name: Power BI 管理和部署办法
+        - name: Power BI 管理和部署方法
           href: service-admin-governance.md
-        - name: Power BI 安全
+        - name: Power BI 安全性
           href: service-admin-power-bi-security.md
         - name: 通过新 Office 365 试用版注册 Power BI
           href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
@@ -572,6 +564,8 @@
           href: service-admin-portal.md
         - name: Auditing Power BI
           href: service-admin-auditing.md
+        - name: 使用 Azure AD B2B
+          href: service-admin-azure-ad-b2b.md
         - name: 找到已登录的用户
           href: service-admin-access-usage.md
         - name: Power BI 的行级安全性
@@ -600,11 +594,11 @@
           href: service-admin-how-to-use-the-same-account-as-azure.md
         - name: Office 365 专用 - 已知问题
           href: service-admin-office-365-dedicated-known-issues.md
-        - name: Analyze in Excel 故障排除
+        - name: “在 Excel 中分析”故障排查
           href: desktop-troubleshooting-analyze-in-excel.md
-        - name: 本地数据网关疑难解答
+        - name: 本地数据网关故障排查
           href: service-gateway-onprem-tshoot.md
-        - name: Power BI 网关故障排除 - 个人
+        - name: Power BI Gateway - Personal 故障排查
           href: service-admin-troubleshooting-power-bi-personal-gateway.md
         - name: 刷新不支持的数据源故障排除
           href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
@@ -682,9 +676,9 @@
           href: desktop-use-directquery.md
         - name: Power BI 和 DirectQuery
           href: desktop-directquery-about.md
-        - name: 受 DirectQuery 支持的数据源
+        - name: DirectQuery 支持的数据源
           href: desktop-directquery-data-sources.md
-        - name: 适用于 Oracle 和 Teradata 数据库的 DirectQuery
+        - name: Oracle 和 Teradata 数据库的 DirectQuery
           href: desktop-directquery-for-oracle-teradata.md
         - name: DirectQuery 和 SAP Business Warehouse (BW)
           href: desktop-directquery-sap-bw.md
@@ -758,11 +752,9 @@
           href: desktop-insights.md
         - name: Power BI 中的书签
           href: desktop-bookmarks.md
-        - name: 将自定义视觉对象添加到报表中 (Desktop)
-          href: power-bi-custom-visuals-use.md
         - name: 使用报表主题
           href: desktop-report-themes.md
-        - name: 使用快速测量
+        - name: 使用快速测量值
           href: desktop-quick-measures.md
         - name: 使用 What if 参数
           href: desktop-what-if.md
@@ -772,7 +764,7 @@
           href: desktop-grouping-and-binning.md
         - name: 功能区图表
           href: desktop-ribbon-charts.md
-        - name: 使用新的矩阵可视化
+        - name: 使用新的矩阵视觉对象
           href: desktop-matrix-visual.md
         - name: 使用 R 创建 Power BI 视觉对象
           href: desktop-r-visuals.md
@@ -794,7 +786,7 @@
           href: desktop-inline-hierarchy-labels.md
         - name: 使用数字范围切片器
           href: desktop-slicer-numeric-range.md
-        - name: 使用相关的数据切片器
+        - name: 使用相对日期切片器
           href: desktop-slicer-filter-date-range.md
         - name: 为 Cortana 创建自定义 Power BI 答案卡
           href: service-cortana-answer-cards.md
@@ -828,9 +820,9 @@
           href: desktop-send-smile-privacy-statement.md
     - name: 故障排除
       items:
-        - name: 解决在 Power BI Desktop 和 Power Query 中导入 Access 数据库和 .XLS 电子表格出现的问题
+        - name: 解决在 Power BI Desktop 和 Power Query 中导入 Access 数据库和 Excel 电子表格时出现的问题
           href: desktop-access-database-errors.md
-        - name: 解决启动 Power BI Desktop 时的问题
+        - name: 解决启动 Power BI Desktop 时出现的问题
           href: desktop-error-launching-desktop.md
 - name: Power BI 移动应用
   items:
@@ -924,7 +916,7 @@
       items:
         - name: 开发人员可以使用 Power BI 做什么？
           href: developer/what-can-you-do.md
-        - name: 借助 Power BI API 可以做什么
+        - name: 借助 Power BI API 可以做什么？
           href: developer/overview-of-power-bi-rest-api.md
     - name: 嵌入
       items:
@@ -964,8 +956,6 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: 检查自定义视觉对象以保障安全和隐私
           href: service-custom-visuals-review-for-security-and-privacy.md
-        - name: 将自定义视觉对象发布到 Office 应用商店
-          href: developer/office-store.md
         - name: 完成自定义视觉对象认证
           href: power-bi-custom-visuals-certified.md
     - name: 将数据推送到仪表板
@@ -1024,7 +1014,7 @@
       items:
         - name: 开始使用
           href: report-server/get-started.md
-        - name: 新增内容
+        - name: 最近更新
           href: report-server/whats-new.md
         - name: 发行说明
           href: report-server/release-notes.md
@@ -1104,6 +1094,8 @@
           href: report-server/quickstart-embed.md
     - name: 参考
       items:
+        - name: REST API
+          href: report-server/rest-api.md
         - name: WMI
           href: 'https://go.microsoft.com/fwlink/?linkid=848719'
         - name: SOAP API
@@ -1114,5 +1106,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848723'
 - name: 资源
   items:
+    - name: Power BI 视频
+      href: videos.md
+    - name: Power BI 网络研讨会
+      href: webinars.md
     - name: 白皮书
       href: whitepapers.md
