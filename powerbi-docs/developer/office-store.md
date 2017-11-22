@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/20/2017
 ms.author: asaxton
-ms.openlocfilehash: ab2d4518fbc16c857f6c2e4c3257f3b82e02e1c0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="publish-custom-visuals-to-the-office-store"></a>将自定义视觉对象发布到 Office 应用商店
 了解如何将自定义视觉对象发布到 Office 应用商店以供他人发现和使用。
@@ -133,7 +133,6 @@ ms.lasthandoff: 11/13/2017
 
 ## <a name="next-steps"></a>后续步骤
 [使用开发人员工具创建自定义视觉对象](../service-custom-visuals-getting-started-with-developer-tools.md)  
-[从 Office 应用商店下载和使用自定义视觉对象](../service-custom-visuals-office-store.md)  
 [Power BI 中的可视化效果](../power-bi-report-visualizations.md)  
 [Power BI 中的自定义可视化效果](../power-bi-custom-visuals.md)  
 [让自定义视觉对象取得认证](../power-bi-custom-visuals-certified.md)

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/01/2017
+ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: ee26744fe74fa536b7310ae0d1fbbc40d51e86a9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81a52b1810b2c35f67420741f3f89585626aa577
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能。 有关相关的“新增功能”的信息，请参阅：
@@ -601,7 +601,6 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 **2015年 5 月 7 日**
 
-* 现在你可以使用 Power BI 的 **Visual Studio Online** 内容包来深入了解 git 和 TFVC 团队项目。 你可以阅读[文档](service-connect-to-visual-studio.md)或[博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/05/07/gain-understanding-and-insights-into-projects-in-visual-studio-online-with-power-bi.aspx)来获取更多信息。
 * 我们将产品外观更新为一种新型设计，此外观全新而独特，同时可让你关注有意义的东西：数据和洞察。
 
 **2015 年 4 月 28 日**

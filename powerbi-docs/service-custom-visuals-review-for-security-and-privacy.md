@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 40c2c713615f6e9e5378d36b6b228dc864bcb57c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 20a697cbc4698e237f3ac09b031ea0c4cb734a52
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="review-custom-visuals-for-security-and-privacy"></a>检查自定义视觉对象以保障安全和隐私
 在启用自定义视觉对象之前，应查看有关视觉对象的安全性和隐私以确保它适合组织的标准。
@@ -102,9 +102,6 @@ pbiviz 文件的内容如下：
 ## <a name="next-steps"></a>后续步骤
 [Power BI 中的可视化效果](power-bi-report-visualizations.md)  
 [Power BI 中的自定义可视化效果](power-bi-custom-visuals.md)  
-[从 Office 应用商店下载和使用自定义视觉对象](service-custom-visuals-office-store.md)  
-[向报表 (Power BI Desktop) 添加自定义视觉对象](power-bi-custom-visuals-use.md)  
-[向报表（Power BI 服务）添加自定义视觉对象](power-bi-report-add-custom-visual.md)  
 [将自定义视觉对象发布到 Office 应用商店](developer/office-store.md)  
 [自定义视觉对象开发人员工具入门](service-custom-visuals-getting-started-with-developer-tools.md)  
 [如何认证自定义视觉对象](power-bi-custom-visuals-certified.md)    

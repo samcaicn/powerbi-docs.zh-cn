@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 1ef54451275b1c7fe1e84c330a4bea95f0bca820
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2663c9f2adf69ce224de90feb822b7cfedc935a5
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>本地数据网关疑难解答
 本文介绍了使用**本地数据网关**时可能会遇到的一些常见问题。
@@ -170,10 +170,6 @@ ms.lasthandoff: 11/15/2017
 2. 网关配置中数据源的**用户**选项卡上未列出你的帐户。 必须与要添加到相应列表的网关的管理员联系。
 3. Power BI Desktop 文件中有多个数据源，并不是所有这些数据源都配置为网关数据源。 必须定义每个网关数据源，这样相应网关才能在计划的刷新内显示。
 
-> [!WARNING]
-> 如果任一数据源要求进行 OAuth 身份验证，则无法将它配置为本地数据网关数据源。 本地数据网关暂不支持 OAuth 身份验证。 必须从 Power BI Desktop 中删除要求进行 OAuth 身份验证的数据源，才能配置计划的刷新。
-> 
-> 
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>错误：网关客户端上收到的未压缩数据已超出限制。
 每个表的未压缩数据量的确切限制为 10GB。 如果遇到此问题，可以使用实用选项来优化和避免此类问题发生。 具体而言，减少使用高度重复内容、过长的字符串值，并改用规范化的键或删除列（如果不使用）将会有所帮助。

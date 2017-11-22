@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 4cf0ed9326d59d3282b3a512aa65f239f4ee0490
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: eb5a41c75e26c0c9c5a6644b2ad0122d2d9623b9
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (Beta) 中连接到 Azure 使用情况见解
 借助 Azure 使用情况见解连接器，可以使用 Power BI Desktop 连接到 Azure，并获取有关组织 Azure 服务使用情况更详细的数据和信息。 还可以创建度量值、自定义列和视觉对象来报告和共享组织的 Azure 使用情况。 此版本的 Azure 使用情况和见解连接器处于测试阶段，随时可能更改。
@@ -135,7 +135,7 @@ Azure 还包括一些可以使用空查询检索的示例自定义查询的集�
 ### <a name="step-4-re-link-tables-that-had-relationships"></a>步骤 4：重新关联具有关系的表
 许多仪表板包含用于查找或筛选的其他表，可使用这类日期表或表自定义项目。 重新建立这些关系可解决大部分遗留问题。 下面介绍如何执行该操作。
 
-1. 在 Power BI Desktop 的“建模”选项卡中，选择“管理关系”会弹出允许你管理模型中关系的窗口。 根据需要重新关联表。
+- 在 Power BI Desktop 的“建模”选项卡中，选择“管理关系”会弹出允许你管理模型中关系的窗口。 根据需要重新关联表。
    
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 

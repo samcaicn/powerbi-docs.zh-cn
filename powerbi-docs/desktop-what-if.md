@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: 39de6173c88beb1b56092677887b71e603888143
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5b02f55a14592020e73005e44f8692cdb01693c7
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>创建和使用 What if 参数可视化 Power BI Desktop 中的变量
 从 Power BI Desktop 2017 年 8 月版开始，用户可以为报表创建 What if 变量、以切片器的形式与变量交互，从而可视化并量化报表中的不同键值。
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/15/2017
 
 可以在 Power BI Desktop 中的“建模”选项卡上找到 What if 参数。 执行此操作时，会显示一个对话框，可在其中配置该参数。
 
-### <a name="creating-a-what-if-parameter"></a>创建 What if 参数
+## <a name="creating-a-what-if-parameter"></a>创建 What if 参数
 要创建 What if 参数，请在 Power BI Desktop 中的“建模”选项卡上选择“What if”按钮。 在下图中，我们已创建名为“折扣率”的参数，并将其数据类型设置为十进制数字。 最小值为零，最大值为 0.50 (50%)。 我们还将增量设置为 0.05 或 5%。 这就是在报表中交互时将会调整的参数量。
 
 ![](media/desktop-what-if/what-if_02.png)
