@@ -17,21 +17,21 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: f7e7f0df4791fb4f9af67c4a5d885aa0e830f7df
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 06abac9ceba037769f9720dfbc4f0b32d5486686
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常见查询任务
 使用 Power BI Desktop 的**查询编辑器**窗口时，可执行很多常用任务。 本文档演示了这些常见的任务，并提供其他信息的链接。 
 
-此处演示的常见查询任务如下所示：
+本文展示了下列常见查询任务：
 
 * 连接到数据
 * 调整和合并数据
-* 对行进行分组
-* 对列进行透视
+* 行分组
+* 列透视
 * 创建自定义列
 * 查询公式
 
@@ -83,7 +83,7 @@ ms.lasthandoff: 11/15/2017
 
 还有多种方式可用于调整此查询中的数据；可从顶部或底部删除任意数量的行；可添加列、拆分列、替换值，并执行其他调整任务以指示查询编辑器按所需方式获取数据。
 
-## <a name="group-rows"></a>对行进行分组
+## <a name="group-rows"></a>行分组
 在查询编辑器中，可将多个行中的值聚集为单个值。 在汇总所提供的产品数、总销售额或学生计数时，这会很有用。
 
 在此示例中，我们对教育注册数据集中的行进行分组。 数据来自 Excel 工作簿，并已在查询编辑器中进行调整以仅获取所需的列、重命名表格并执行一些其他转换。
@@ -107,7 +107,7 @@ ms.lasthandoff: 11/15/2017
 
 此外，借助查询编辑器，可通过选择刚刚完成的步骤旁边的 **X** 随时删除最后一次调整操作。 因此前去试一下，如果结果不合你意，可恢复此步骤，直到查询编辑器恰好按所需的方式调整数据。
 
-## <a name="pivot-columns"></a>对列进行透视
+## <a name="pivot-columns"></a>列透视
 通过 Power BI Desktop，可对列进行透视，并创建包含某列中每个唯一值的聚合值的表格。 例如，如果需要知道在每个产品类别中具有多少种不同的产品，可快速创建一个表来精确执行此操作。
 
 我们来看一个示例。 以下**产品**表已调整为仅显示每个唯一产品（按名称）以及每种产品所属的类别。 若要新建一个表格来显示每个类别的产品计数（基于 *CategoryName* 列），请选中该列，然后在功能区上选择**转换**选项卡的**透视列**。

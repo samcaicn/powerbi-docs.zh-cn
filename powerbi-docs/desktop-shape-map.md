@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 4f3e8c0c8090eb8e5bba9f6058b579c843cfa79c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 772b1959433b3ba8a4d76ac04103f5a479546d0d
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop 中的形状地图（预览版）
 在 Power BI Desktop 中，可以创建**形状地图**视觉对象，以便通过向不同区域应用不同颜色，在地图上显示区域的相对比较。 与**地图**视觉对象相反，**形状地图**无法在地图上显示数据点的准确地理位置；其主要用途是通过对区域应用不同的颜色，在地图上显示其相对比较。
@@ -91,7 +91,7 @@ Power BI Desktop 将创建一个空的“形状地图”视觉对象设计画布
 > 
 > 
 
-## <a name="preview-behavior-and-requirements"></a>预览版的行为和要求
+## <a name="preview-behavior-and-requirements"></a>预览版行为和要求
 使用此预览版的“形状地图”时有几条注意事项和要求：
 
 * **形状地图**视觉对象为预览功能，必须在 Power BI Desktop 中启用。 若要启用**形状地图**，请选择“文件”>“选项和设置”>“选项”>“预览功能”，然后选中“形状地图”复选框。

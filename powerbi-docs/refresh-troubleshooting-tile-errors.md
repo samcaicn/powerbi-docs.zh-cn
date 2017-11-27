@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bb48c764214ba5fbcf1ac825caca798bcf129ba7
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ed75e0eea452f73017259ec9c86c5a8371853fa3
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="troubleshooting-tile-errors"></a>磁贴错误故障排除
 下面是使用磁贴可能会遇到的常见错误以及错误说明。
@@ -35,7 +35,7 @@ ms.lasthandoff: 11/15/2017
 **Power BI 加载模型时遇到意外错误。请稍后再试。**
 或**无法检索数据模型。请联系仪表板所有者，确保数据源和模型存在并且可访问。**
 
-我们无法访问你的数据，因为数据源不可访问。 如果数据源已删除、重命名、移动、脱机或权限已更改，则可能会发生这种情况。 确认源是否仍处于我们指向的位置，你是否仍有权访问该源。 如果这不是问题，可能是源速度比较慢。 请稍后在源上的负载较小时重试。 如果它是本地源，数据源所有者可能能够提供详细信息。
+我们无法访问你的数据，因为数据源不可访问。 如果数据源已删除、重命名、移动、脱机或权限已更改，则可能会发生这种情况。 确认源是否仍处于我们指向的位置，你是否仍有权访问该源。 如果这不是问题，可能是源速度比较慢。 请稍后在源上的负载较小时重试。 如果是本地源，数据源所有者可以提供详细信息。
 
 **你没有权限查看此磁贴或打开该工作簿。**
 

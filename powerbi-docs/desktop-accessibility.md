@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 7f5b5114951265e2dd76dbbd8a33045d44e21989
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9bff028c0db75e4c0e4f3b2fe97b4ed19c0d1518
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 报表中的辅助功能
 Power BI Desktop 具有使残疾人士能够更轻松地使用 Power BI Desktop 报表并与之进行交互的功能。 这些功能包括通过键盘或屏幕阅读器使用报表、通过按 Tab 键将焦点移动到页面中的各个对象以及在可视化效果中方便地使用标记。
@@ -76,7 +76,7 @@ Power BI Desktop 具有使残疾人士能够更轻松地使用 Power BI Desktop 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 辅助功能存在一些已知问题和限制，如以下列表所述：
 
-* 仅在 Power BI 服务中查看的报表（包括任何嵌入的报表）支持 JAWS。 Power BI Desktop 团队正在努力解决此问题，让在 Power BI Desktop 中查看的报表也支持 JAWS。
+* 在 Power BI 服务中查看的报表（包括任何嵌入的报表）支持 JAWS。 虽然 Power BI Desktop 也支持 JAWS，但在打开任何 Power BI Desktop 文件前，必须先打开屏幕阅读器，这样屏幕阅读功能才能正常发挥作用。
 
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI Desktop 中使用报表主题（预览版）](desktop-report-themes.md)

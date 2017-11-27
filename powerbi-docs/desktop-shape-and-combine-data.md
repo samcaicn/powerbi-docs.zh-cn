@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: b222addc2e72308e94a3d8836c8e9039c7208bae
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22c5b8f64ef24f6ef6ff918058a56dc36fefddfa
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>在 Power BI Desktop 中调整和合并数据
 借助 **Power BI Desktop**，可连接到多个不同类型的数据源，然后调整数据以满足你的需求。 *调整* 意味着转换数据 - 如重命名列或表格、将文本更改为数字、删除行、将第一行设为标题等等。 合并数据意味着连接到两个或多个数据源，根据需要调整它们，然后将其合并到一个有用的查询中。
@@ -160,11 +160,11 @@ ms.lasthandoff: 11/15/2017
 
 ![](media/desktop-shape-and-combine-data/shapecombine_usefirstrowasheaders.png)
 
-    >[!NOTE]
-    >This is a good time to point out that the *sequence* of applied steps in Query Editor is important, and can affect how the data is shaped. It’s also important to consider how one step may impact another subsequent step; if you remove a step from the Applied Steps, subsequent steps may not behave as originally intended, because of the impact of the query’s sequence of steps.
+>[!NOTE]
+>此时非常适合指出，查询编辑器中已应用步骤的序列很重要，可能会影响数据调整方式。 同时也必须考虑一个步骤对另一个后续步骤可能会有什么影响；如果你从“所应用步骤”中删除一个步骤，则由于查询中步骤序列的影响，后续步骤可能不会按原本所期望的进行操作。
 
-    >[!NOTE]
-    >When you resize the Query Editor window to make the width smaller, some ribbon items are condensed to make the best use of visible space. When you increase the width of the Query Editor window, the ribbon items expand to make the most use of the increased ribbon area.
+>[!NOTE]
+>如果将查询编辑器窗口大小重设为宽度缩小，部分功能区项会进行简缩，以充分利用可视空间。 在增加查询编辑器窗口的宽度时，功能区项将展开以充分利用已增加的功能区区域。
 
 * 重命名列，然后重命名表格本身 - 同样的，有几种方式可用于重命名列；首先选择此列，然后选择功能区上**转换**选项卡中的**重命名**，或者右键单击并从显示的菜单中选择**重命名…** 。 下图具有指向这两个选项的箭头；只需任选其一。
 

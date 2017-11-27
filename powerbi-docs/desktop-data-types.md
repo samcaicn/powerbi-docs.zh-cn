@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 71822f5d3e40eae4f43df5ab7129796e2a9d87b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da685cf95adb9d9f5bd4891f9447cbfe76759182
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的数据类型
 本文介绍 Power BI Desktop 和数据分析表达式 (DAX) 中支持的数据类型。 
@@ -30,6 +30,7 @@ ms.lasthandoff: 11/15/2017
 
 这一点很重要，因为某些 DAX 函数具有特殊的数据类型要求。 虽然在许多情况下 DAX 会为你隐式转换数据类型，但在某些情况下，它不会进行转换。  例如，如果 DAX 函数需要日期数据类型，而你的列的数据类型为文本，DAX 函数将不能正常工作。  因此，获取适用于列的正确数据类型是重要并且有用的。 隐式转换将会在本文的后一部分进行介绍。
 
+## <a name="determine-and-specify-a-columns-data-type"></a>确定并指定列的数据类型
 在 Power BI Desktop 中，你可以在查询编辑器（或数据视图和报表视图中）确定并指定列的数据类型：
 
 **查询编辑器中的数据类型**
@@ -86,7 +87,7 @@ DAX 在许多函数中使用表数据类型，例如聚合和时间智能计算�
 * 如果在两个列中添加值，其中一个值恰好以文本方式表示 ("12")，而另一个值以数字方式表示 (12)，DAX 会将字符串隐式转换为数字，然后执行加法并获得数值结果。 下面的表达式将返回 44: = "22" + 22。
 * 如果尝试连接两个数字，Excel 会将其以字符串表示并进行连接。 下面的表达式将返回 "1234": = 12 & 34。
 
-### <a name="table-of-implicit-data-conversions"></a>隐式数据转换的表
+### <a name="table-of-implicit-data-conversions"></a>隐式数据转换表
 执行的转换的类型由运算符确定，它在执行所请求的操作之前会将值转换为所需的值。 这些表列出了运算符，并指示当其与交叉行内的数据类型配对时，对列中每种数据类型执行的转换。
 
 > [!NOTE]

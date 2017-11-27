@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: cea38a880ac67208e3b153d9259fd563a3bb8d50
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ecbbcd29a2273810d2e5be5700164008b52c06bd
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop 中的查询概述
 借助 **Power BI Desktop**，可以连接到世界上的数据，创建具有吸引力的基础报表，与依赖你的工作、扩展自身商业智能工作的其他人共享你的工作。
@@ -123,7 +123,7 @@ Power BI Desktop 还附带有**查询编辑器**，其中你可连接到一个�
 ![](media/desktop-query-overview/queryoverview_querysettings_rename.png)
 
 ## <a name="the-advanced-editor"></a>高级编辑器
-如果想要查看查询编辑器正使用每个步骤创建的代码，或想要创建自己的调整代码，可以使用**高级编辑器**。 若要启动高级编辑器，从功能区中选择**视图**，然后选择**高级编辑器**。 将出现一个窗口，显示现有的查询代码。  
+如果想要查看查询编辑器正使用每个步骤创建的代码，或想要创建自己的调整代码，可以使用**高级编辑器**。 若要启动高级编辑器，从功能区中选择**视图**，然后选择**高级编辑器**。 此时，将会显示包含现有查询代码的窗口。  
 ![](media/desktop-query-overview/queryoverview_advancededitor.png)
 
 可以直接编辑**高级编辑器** 窗口中的代码。 若要关闭该窗口，请选择**完成**或**取消**按钮。  

@@ -17,18 +17,18 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 149018786ee97606fafdf075e56152e79e6b7bc5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: bbc0b90c36272c5a30865d92d78039c20f667ee9
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>将外部 R IDE 与 Power BI 一起使用
 借助 **Power BI Desktop**，可以使用外部的 R IDE（集成开发环境）创建并优化 R 脚本，然后将这些脚本用于 Power BI 中。
 
 ![](media/desktop-r-ide/r-ide_1a.png)
 
-### <a name="enabling-an-external-r-ide"></a>启用外部 R IDE
+## <a name="enable-an-external-r-ide"></a>启用外部 R IDE
 在这之前，需使用 **Power BI Desktop** 中的 R 脚本编辑器创建并运行 R 脚本。 借助此版本，可以从 **Power BI Desktop** 启动外部 R IDE，然后自动导入数据并显示在 R IDE 中。 之后，可以修改此外部 R IDE 中的脚本，然后将其重新粘贴至 **Power BI Desktop** 中来创建 Power BI 视觉对象和报表。
 
 从 **Power BI Desktop**（版本 2.39.4526.362）的 2016 年 9 月发行版开始，你可以指定使用哪个 R IDE，并使其在 **Power BI Desktop** 中自动启动。
@@ -51,7 +51,7 @@ ms.lasthandoff: 11/15/2017
 
 如果 **.R** 文件不存在任何关联，则可以在“ **选项** ”对话框的“ *浏览到你的首选 R IDE* ”部分中指定自定义 IDE 的路径。 通过选择 **Power BI Desktop** 中“**启动 R IDE**”箭头图标旁边的“**设置**”齿轮图标，你还可以启动不同的 R IDE。
 
-### <a name="launching-an-r-ide-from-power-bi-desktop"></a>从 Power BI Desktop 启动 R IDE
+## <a name="launch-an-r-ide-from-power-bi-desktop"></a>通过 Power BI Desktop 启动 R IDE
 要从 **Power BI Desktop** 启动 R IDE，请执行以下步骤。
 
 1. 将数据加载至 **Power BI Desktop**。
@@ -66,7 +66,7 @@ ms.lasthandoff: 11/15/2017
    ![](media/desktop-r-ide/r-ide_5.png)
    
    > [!NOTE]
-> R 视觉对象的默认聚合类型是“不汇总”。
+   > R 视觉对象的默认聚合类型是“不汇总”。
    > 
    > 
 5. 现在可以直接从 **Power BI Desktop** 中启动 R IDE。 如下图所示，从“**R 脚本编辑器**”标题栏的右侧找到并选中“**启动 R IDE**”按钮。
@@ -77,7 +77,7 @@ ms.lasthandoff: 11/15/2017
    ![](media/desktop-r-ide/r-ide_7.png)
    
    > [!NOTE]
-> Power BI Desktop 会添加脚本的前三行，这样一旦运行该脚本，就可以从 Power BI Desktop 中导入数据。
+   > Power BI Desktop 会添加脚本的前三行，这样一旦运行该脚本，就可以从 Power BI Desktop 中导入数据。
    > 
    > 
 7. 在 **Power BI Desktop** 的 **R 脚本编辑器窗格**中创建的任何脚本都会从 R IDE 的第 4 行开始显示。 此时，可以在 R IDE 中创建自己的 R 脚本。 在 R IDE 中完成 R 脚本后，必须将其复制并重新粘贴至 **Power BI Desktop** 的 **R 脚本编辑器** 窗格中，注意 *不包括*  **Power BI Desktop** 自动生成的前三行脚本。 请勿将脚本的前三行复制到 **Power BI Desktop**，这三行仅用于将数据从 **Power BI Desktop** 导入到 R IDE。
@@ -88,7 +88,7 @@ ms.lasthandoff: 11/15/2017
 * 不支持自动将脚本从 R IDE 中导出到 **Power BI Desktop**。
 * 不支持 **R 客户端**编辑器 (RGui.exe)，因为该编辑器自身不支持打开文件。
 
-### <a name="next-steps"></a>后续步骤
+## <a name="next-steps"></a>后续步骤
 查看以下更多信息，了解有关 Power BI 中的 R。
 
 * [在 Power BI Desktop 中运行 R 脚本](desktop-r-scripts.md)

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/09/2017
 ms.author: asaxton
-ms.openlocfilehash: dafd1d7891410818cc2c23031bf1a5f8c750438e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b09c497f04a59819f42e1841dd79912d19303041
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>以个人身份注册 Power BI
 了解如何注册 Power BI 并开始使用，以满足你个人的报表和可视化需求。
@@ -57,7 +57,7 @@ Power BI 要求使用工作或学校电子邮件地址才能注册。 Power BI �
 > 
 > 
 
-## <a name="which-one-do-i-need"></a>需要哪一种
+## <a name="which-one-do-you-need"></a>需要哪一种？
 可以通过查看每种许可证类型的内容确定需要哪一种许可证。 除共享和协作功能外，免费用户可以使用服务的大部分功能。 Power BI Pro 用户可以使用服务中的所有功能，但不是免费使用。 如果不需要共享任何内容，则可能更适合使用免费版。 有关详细信息，请参阅 [Power BI 定价页](https://powerbi.microsoft.com//pricing/)。
 
 本文的其余部分将介绍如何针对每个选择进行注册。
@@ -93,7 +93,7 @@ Power BI 要求使用工作或学校电子邮件地址才能注册。 Power BI �
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup7.png)
 
-### <a name="what-if-im-already-part-of-an-existing-organization"></a>我已经是现有组织的成员
+### <a name="what-if-youre-already-part-of-an-existing-organization"></a>如果已是现有组织成员，情况又如何？
 如果你的帐户属于现有组织，你将获得要求你使用该帐户登录的消息。 选择**继续**并使用 Office 365 登录名进行登录。
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup5.png)
@@ -132,7 +132,7 @@ Power BI 要求使用工作或学校电子邮件地址才能注册。 Power BI �
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial3.png)
 
-## <a name="what-if-you-want-the-full-power-bi-pro"></a>想要完整的 Power BI Pro
+## <a name="what-if-you-want-the-full-power-bi-pro"></a>如果需要完整的 Power BI Pro，该怎么办？
 个人身份不能获取 Power BI Pro 许可证。 你需要告知 IT 管理员，让其购买许可证并分配给你的帐户。 有关详细信息，请参阅[购买 Power BI Pro](service-admin-purchasing-power-bi-pro.md)。
 
 ## <a name="troubleshooting"></a>故障排除

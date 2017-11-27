@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 68df3ee83a8a9b8268cbced98830a467066add92
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f372903886ab8f92e6954b5bdb370e7f48c204eb
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 创建 Power BI 视觉对象
 借助 **Power BI Desktop**，可以使用 **R** 将数据可视化。
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/15/2017
 **Power BI Desktop** 既不包括，也不会部署或安装 **R** 引擎。 若要在 **Power BI Desktop** 中运行 R 脚本，必须在本地计算机上单独安装 **R**。 可以从很多位置免费下载并安装 **R**，其中包括 [Revolution Open 下载页](https://mran.revolutionanalytics.com/download/)，以及 [CRAN 存储库](https://cran.r-project.org/bin/windows/base/)。 **Power BI Desktop** 中的最新版 R 脚本支持在安装路径中使用 Unicode 字符以及空格（空字符）。
 
 ## <a name="enable-r-visuals"></a>启用 R 视觉对象
-1. 若要启用 R 视觉对象，请选择**文件 > 选项和设置 > 选项**，并在出现的**选项**页中确保本地 R 安装在**选项**窗口的 **R 脚本**部分中指定，如下图所示。 下图中，R 的本地安装路径是 **C:\Program Files\R\R-3.2.0**，并在文本框中显式提供该路径。 请确保显示的路径正确地反映了想要 **Power BI Desktop** 使用的本地 R 安装。
+若要启用 R 视觉对象，请选择**文件 > 选项和设置 > 选项**，并在出现的**选项**页中确保本地 R 安装在**选项**窗口的 **R 脚本**部分中指定，如下图所示。 下图中，R 的本地安装路径是 **C:\Program Files\R\R-3.2.0**，并在文本框中显式提供该路径。 请确保显示的路径正确地反映了想要 **Power BI Desktop** 使用的本地 R 安装。
    
    ![](media/desktop-r-visuals/r-visuals-2.png)
 
@@ -42,18 +42,18 @@ ms.lasthandoff: 11/15/2017
    ![](media/desktop-r-visuals/r-visuals-3.png)
 2. 向报表添加 R 视觉对象后，**Power BI Desktop** 执行以下任务：
    
-   a) 占位符 R 视觉对象图像显示在报表画布上。
+   - 占位符 R 视觉对象图像位于报表画布上。
    
-   b) **R 脚本编辑器**显示在中央窗格底部旁。
+   - R 脚本编辑器位于中央窗格底部边缘处。
    
    ![](media/desktop-r-visuals/r-visuals-4.png)
 3. 接下来，在“**字段**”的“**值**”部分中添加要在 R 脚本中使用的字段，就像处理其他任何 **Power BI Desktop** 视觉对象一样。 只有已添加到“**字段**”的字段才可供 R 脚本使用。可以在 **Power BI Desktop R 脚本编辑器**中处理 R 脚本的同时，添加新字段，或从“**字段**”中删除不必要的字段。 **Power BI Desktop** 会自动检测已添加或删除的字段。
-
-> [!NOTE]
-> R 视觉对象的默认聚合类型是“不汇总”。
-> 
-> 
-
+   
+   > [!NOTE]
+   > R 视觉对象的默认聚合类型是“不汇总”。
+   > 
+   > 
+   
 1. 现在你可以使用你选择用来创建绘图的数据。 选择了字段，**R 脚本编辑器**将基于编辑器窗格顶部旁边灰色部分中的选择生成支持 R 脚本绑定代码。 随着你选择或删除其他字段，R 脚本编辑器中的支持代码将相应地被自动生成或删除。
    
    下图所示示例中，选择了三个字段：hp、gear 和 drat。 由于这些选择，R 脚本编辑器将生成以下绑定代码：
@@ -66,7 +66,7 @@ ms.lasthandoff: 11/15/2017
    ![](media/desktop-r-visuals/r-visuals-5.png)
    
    > [!TIP]
-> 在某些情况下，你可能不希望进行自动分组，或者可能希望所有行都出现，包括重复项。 在这种情况下，你可以向将导致所有行被视为唯一且阻止分组的数据集添加索引字段。
+   > 在某些情况下，你可能不希望进行自动分组，或者可能希望所有行都出现，包括重复项。 在这种情况下，你可以向将导致所有行被视为唯一且阻止分组的数据集添加索引字段。
    > 
    > 
    
@@ -76,7 +76,7 @@ ms.lasthandoff: 11/15/2017
     选择“**运行**”后，**Power BI Desktop** 会识别绘图，并在画布上予以呈现。
    由于该过程是在本地 R 安装上执行，请确保安装了所需的包。
    
-    当以下任一事件发生时，**Power BI Desktop** 会重新绘制视觉对象：
+   当以下任一事件发生时，**Power BI Desktop** 会重新绘制视觉对象：
    
    * 从 **R 脚本编辑器**标题栏选择**运行**
    * 每当数据更改发生时（由于数据刷新、筛选或突出显示所导致）

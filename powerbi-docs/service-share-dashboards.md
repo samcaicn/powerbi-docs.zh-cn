@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/14/2017
 ms.author: maggies
-ms.openlocfilehash: 9c88c70de013679ea27faae17a3672c0d172b2a9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>与同事和其他人共享 Power BI 仪表板
 共享是一种使多人能够访问你的仪表板和报表的有效方式。 Power BI 提供了[多种开展协作和分发仪表板的方式](service-how-to-collaborate-distribute-dashboards-reports.md)，共享只是其中之一。
@@ -63,7 +63,7 @@ ms.lasthandoff: 11/15/2017
    
    当组织外部的收件人单击该链接时，他们会看到仪表板，但不是在常用的 Power BI 门户中。 请参阅下面的[与组织外部的人员共享仪表板](service-share-dashboards.md#share-a-dashboard-with-people-outside-your-organization)获取详细信息。
 
-## <a name="who-has-access-to-a-dashboard-i-shared"></a>谁有权限访问我共享的仪表板？
+## <a name="who-has-access-to-a-dashboard-you-shared"></a>谁有权访问你共享的仪表板？
 有时，需要查看与之共享仪表板的人员，了解他们与哪些人共享了仪表板。
 
 1. 在仪表板列表或仪表板中，选择“共享” ![Share icon](media/service-share-dashboards/power-bi-share-icon.png)。 
@@ -113,9 +113,7 @@ ms.lasthandoff: 11/15/2017
 * 每个人都可以手动[刷新仪表板数据](refresh-data.md)。
 * 如果使用 Office 365 收发电子邮件，可以通过输入与通讯组关联的电子邮件地址，与通讯组成员进行共享。
 * 电子邮件域与你相同的同事，以及域不同但在相同租户中注册的同事可以与他人共享仪表板。 例如，假设域 contoso.com 和 contoso2.com 是在同一租户中注册的。 如果你的电子邮件地址为 konrads@contoso.com，则 ravali@contoso.com 和 gustav@contoso2.com 均可以共享（只要你向它们授予了共享权限）。
-* 如果你的同事已经有权访问特定仪表板，则当你在仪表板上时，可以通过复制 URL 发送指向该仪表板的直接链接。 例如：   
-  
-    https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx
+* 如果你的同事已经有权访问特定仪表板，则当你在仪表板上时，可以通过复制 URL 发送指向该仪表板的直接链接。 例如：`https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * 同样，如果你的同事已经有权访问特定仪表板，你可以[将直接链接发送到基础报表](service-share-reports.md)。 
 
 ## <a name="next-steps"></a>后续步骤

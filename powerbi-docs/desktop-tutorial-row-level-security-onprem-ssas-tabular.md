@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
-ms.openlocfilehash: efbf5998bfc419dbcf5d7f685da128f26fcd70dd
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: faaa96ad889b650d1902aa5916c0d9b35c7b49a5
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>教程︰通过 Analysis Services 表格模型实现动态行级别安全性
 本教程演示在 **Analysis Services 表格模型**中实现**行级别安全性**而需执行的步骤，以及如何将其用于 Power BI 报表中。 本教程中的步骤在示例数据集上完成，旨在让您了解必需的步骤。
@@ -166,6 +166,6 @@ ms.lasthandoff: 11/13/2017
 ## <a name="considerations"></a>注意事项
 使用行级别安全性、SSAS 和 Power BI 时需要牢记几个注意事项。
 
-1. Power BI 的本地行级别安全性仅适用于实时连接。
+1. Power BI 的本地行级别安全性只能用于实时连接。
 2. 基于 Power BI 服务中的**实时连接**访问报表的用户可以立即获得处理模型后的任何数据更改。
 

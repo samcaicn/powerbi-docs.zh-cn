@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bf1ac9f953dc00422e65f84d25f74bfa54c05628
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8f009e382321d296191d861245e005c1ffb7ee33
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 入门
 欢迎使用 **Power BI Desktop 入门指南**。 此 Power BI Desktop 简短教学课程能让你熟悉它的运作方式、示范它的功能以及加速你构建稳固数据模型的能力 - 以令人惊叹的报表增强你的商业智慧工作。 
@@ -43,7 +43,7 @@ Power BI Desktop 可让你创建查询、数据连接和报表的集合，轻松
 
 若要更深入了解，你也可以阅读每一部分、执行这些步骤，然后带走你自己的 Power BI Desktop 文件，该文件随时都可发布到 **Power BI** 服务，并与他人共享。
 
-## <a name="how-power-bi-desktop-works"></a>Power BI Desktop 的运作方式
+## <a name="how-power-bi-desktop-works"></a>Power BI Desktop 工作原理
 使用 Power BI Desktop，你可以 *连接到数据* （通常多个数据源）， *调整该数据* （使用能生成具洞察力、吸引力的数据模型的查询），以及使用该模型来 *创建报表* （他人可以利用、以其为基础构建并共享）。
 
 按你要求完成步骤后（连接、调整和报表），你可以将工作保存为 Power BI Desktop 文件格式，其扩展名为 .pbix。 Power BI Desktop 文件可以像其他文件一样共享，但共享 Power BI Desktop 文件最引人注目的方式是将其上传（共享）到 [**Power BI 服务**](https://preview.powerbi.com/)。 
@@ -111,7 +111,7 @@ Power BI Desktop 中有三种视图：**报表**视图、**数据**视图和**�
 ## <a name="shape-and-combine-data"></a>调整和合并数据
 由于我们已经连接到数据源，我们需要调整数据以符合我们的需求。 有时候调整意味着 *转换* 数据，例如重命名列或表格、将文字更改为数字、删除行、将第一列设置为标题列等。
 
-Power BI Desktop 中的查询编辑器除能在功能区中提供可用的工作，还能够充分利用右键菜单。 你可以在**转换**功能区中选择的大多数功能，也可以通过右键单击项目（例如数据列）并从显示的菜单中进行选择。
+Power BI Desktop 中的查询编辑器除能在功能区中提供可用的工作，还能够充分利用右键菜单。 大部分可在**转换**功能区选择的内容也可通过右键单击项目（如某列）并从所显示的菜单中进行选择。
 
 ## <a name="shape-data"></a>调整数据
 如果在**查询编辑器**中调整数据，你将在**查询编辑器**加载并呈现数据时提供分步说明（**查询编辑器**将为你执行此操作）以调整数据。 原始数据源不受影响，将仅调整或 *整理* 这一特定的数据视图。
@@ -182,8 +182,8 @@ Power BI Desktop 中的查询编辑器除能在功能区中提供可用的工作
 
 * *将第一行用作标题* - 由于已删除前 3 行，所以当前的首行就是所需的标题。
 
->[!NOTE]
->此时非常适合指出：查询编辑器所应用步骤的序列是至关重要的，可能会影响数据调整的方式。 同时也必须考虑一个步骤对另一个后续的步骤可能会有什么影响；如果你从**所应用步骤**中删除一个步骤，则由于查询中步骤顺序的影响，后续步骤可能不会按原本所期望的方式进行。
+    >[!NOTE]
+    >此时非常适合指出：查询编辑器所应用步骤的序列是至关重要的，可能会影响数据调整的方式。 同时也必须考虑一个步骤对另一个后续的步骤可能会有什么影响；如果你从**所应用步骤**中删除一个步骤，则由于查询中步骤顺序的影响，后续步骤可能不会按原本所期望的方式进行。
 
 * *重命名列和表格本身* – 通常会有几种方式可以重命名列，你可以选择你偏好的方式。
 

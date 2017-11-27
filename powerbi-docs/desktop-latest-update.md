@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/08/2017
 ms.author: davidi
-ms.openlocfilehash: b08cf6b2f01252773fdeec07b6a2e135e14101a5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a4a348d88bc9613c2d18766ff1ea398538088c9b
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新 Power BI Desktop 更新中有哪些新增功能？
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/15/2017
 
 下面介绍了本月新推出的 Power BI Desktop 更新：
 
-### <a name="reporting"></a>报表：
+### <a name="reporting"></a>报表
 
 -   适用于表和矩阵视觉对象的基于规则的条件格式 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=55s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting) 
 -   适用于表和矩阵视觉对象的单元格对齐方式 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=4m16s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
@@ -54,17 +54,17 @@ ms.lasthandoff: 11/15/2017
 -   最近发布的自定义视觉对象 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=20m50s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>分析：
+### <a name="analytics"></a>分析
 
 -   适用于多行卡片的多维 AS 模型的单元格级格式设置 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=27m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
 
 
-### <a name="data-connectivity"></a>数据连接：
+### <a name="data-connectivity"></a>数据连接
 
 -   对 Impala 连接器的 Windows 身份验证支持 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
 
 
-### <a name="other"></a>其他：
+### <a name="other"></a>其他
 
 -   查询编辑 -“通过示例添加列”功能改进 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=28m34s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 48b0899d27e41cbc1d33d018696dd57d7c6f989a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e4cd07ca9917e7039fa2d179bbeeaf7962492f93
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
@@ -115,9 +115,8 @@ Power BI 数据源的列表很广泛，但它可以分为以下几种：
 * [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
 * [Windows 应用商店](http://go.microsoft.com/fwlink/?LinkId=526478)
 
-## <a name="power-bi-desktops-software-license-terms-say-you-may-install-and-use-one-copy-of-the-software-on-your-premises"></a>Power BI Desktop 软件许可条款有说明，“你可以在本地安装和使用软件的一个副本。”
-### <a name="does-this-mean-i-am-limited-to-one-copy-of-power-bi-desktop-for-the-entire-company"></a>这是否意味着只限于我安装和使用整个公司的 Power BI Desktop 的一个副本？
-Power BI Desktop 的使用权限并非仅限你安装和使用整个公司的 Power BI Desktop 的一个副本。 公司的每位用户都可以在其本地安装和使用一个副本。
+## <a name="am-i-limited-to-one-copy-of-power-bi-desktop-for-my-entire-company"></a>我只能安装和使用整个公司的一个 Power BI Desktop 副本吗？
+Power BI Desktop 软件许可条款有说明，“你可以在本地安装和使用软件的一个副本。” 这并不意味着只能安装和使用整个公司的一个 Power BI Desktop 副本。 公司的每位用户都可以在其本地安装和使用一个副本。
 
 ## <a name="where-do-i-get-started-with-power-bi"></a>从哪里可以获得 Power BI Desktop 入门教程？
 以下资源可以用来帮助你入门：

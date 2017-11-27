@@ -16,23 +16,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 11/20/2017
 ms.author: mihart
-ms.openlocfilehash: 27af387a6d789b00837e6bbf8c6be9aa219c7198
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3d51475b300fadc55f33960b03c3adc0031a39b8
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="getting-a-custom-visual-certified"></a>让自定义视觉对象取得认证
 ## <a name="what-is-meant-by-certified"></a>取得认证是指什么？
 取得认证的自定义视觉对象是指已满足一系列代码要求且已通过严格的安全测试。  自定义视觉对象取得认证后，它可以[导出到 PowerPoint 中](service-publish-to-powerpoint.md)，并显示在用户[订阅报表页](service-report-subscribe.md)后收到的电子邮件中。
 
-* 你是 Web 开发人员吗？对创建自己的可视化效果，并将其添加到应用商店感兴趣吗？ 请参阅[开发人员工具入门](service-custom-visuals-getting-started-with-developer-tools.md)，并访问 [Office 应用商店](service-custom-visuals-office-store.md)，了解具体的操作方法。
-* 是否有定期使用的 Office 应用商店视觉对象？ 询问视觉对象开发人员以验证 Microsoft 的视觉对象。  开发者的联系信息位于视觉对象的“了解详细信息”页中，作为“提供商”列出。
+你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 [Microsoft AppSource](https://appsource.microsoft.com) 感兴趣吗？ 请参阅[开发人员工具入门](service-custom-visuals-getting-started-with-developer-tools.md)，了解具体操作。
+
 
 ## <a name="certification-requirements"></a>认证要求
-* 经 Office 应用商店批准    
+* Microsoft AppSource 已批准    
 * 自定义视觉对象是使用经版本控制的 API 1.2 或更高版本进行编写    
 * 代码存储库可供审核（例如，可通过 GitHub 审核视觉对象代码）    
 * 仅使用可审核的公共 OSS 组件    
@@ -57,58 +57,57 @@ ms.lasthandoff: 11/13/2017
 Microsoft 可能会自行从“取得认证”列表中删除视觉对象。  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>取得认证的自定义视觉对象的列表
-| 链接到 Office 应用商店 | 链接到视频 |
+| AppSource 链接 | 链接到视频 |
 | --- | --- |
-| [关联规则](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380815) | |
-| [星状体图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759?src=office&tab=Overview) | |
-| [BciCalendar] 即将推出 | |
+| [星状体图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380759?src=office&tab=Overview) | |
+| [MAQ Software 的蝴蝶结图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380838?src=office&tab=Overview) |[视频](https://youtu.be/So5xKMSpVJI) |
+| [BciCalendar（Beyondsoft 日历）](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096?src=office&tab=Overview)  | |
 | [框和须线](https://appsource.microsoft.com/product/power-bi-visuals/WA104380831?src=office&tab=Overview) | |
-| [项目符号图表](https://store.office.com/en-us/app.aspx?assetid=WA104380755) |[视频 1](https://youtu.be/AOlsFYkfkcw)   [视频 2](https://youtu.be/AQvd2FhRyCI) |
+| [项目符号图表](https://store.office.com/app.aspx?assetid=WA104380755) |[视频 1](https://youtu.be/AOlsFYkfkcw)   [视频 2](https://youtu.be/AQvd2FhRyCI) |
 | [Bullet Chart by OKViz](https://store.office.com/bullet-chart-by-okviz-WA104380953.aspx) |[视频](https://youtu.be/mtvUNl9bMjA) |
-| [Card with States by OKViz](https://store.office.com/card-with-states-by-okviz-WA104380967.aspx) |[视频 1](https://youtu.be/myiX0BmZd8U) [视频 2](https://youtu.be/AOlsFYkfkcw) |
+| [Tallan 的日历](https://appsource.microsoft.com/product/power-bi-visuals/WA104381146?src=office&tab=Overview) | |
 | [条切片器](https://store.office.com/chiclet-slicer-WA104380756.aspx) |[视频](https://youtu.be/iYOkJ1APueY) |
+| [和弦图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380761?src=office&tab=Overview) |[视频](https://youtu.be/AQvd2FhRyCI) |
 | [MAQ 软件绘制的圆形仪表](https://appsource.microsoft.com/product/power-bi-visuals/WA104380837?tab=Overview) | |
-| [圆柱仪表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380874) | |
-| [度盘式指示表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381184) |[视频](https://youtu.be/AOlsFYkfkcw) |
+| [圆柱仪表](https://appsource.microsoft.com/product/power-bi-visuals/WA104380874) | |
+| [度盘式指示表](https://appsource.microsoft.com/product/power-bi-visuals/WA104381184) |[视频](https://youtu.be/AOlsFYkfkcw) |
 | [MAQ 软件绘制的环形图（环形图表）](https://appsource.microsoft.com/product/power-bi-visuals/WA104380824?tab=Overview) |[视频](https://youtu.be/pDToHDFHnq8) |
-| [深化环形图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380858) | |
+| [OKViz 的点阵图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381101?src=office&tab=Overview) |[视频](https://youtu.be/4lskRgcpFJY) |
+| [ZoomCharts 向下钻取式环形图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380858) | |
 | [双 KPI](https://store.office.com/dual-kpi-WA104380774.aspx) |[视频](https://youtu.be/821o0-eVBXo?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x) |
-| 飞轮 - 即将推出 | |
+| [Enlighten 水族馆](https://appsource.microsoft.com/product/power-bi-visuals/WA104381112?src=office&tab=Overview) | |
+| Enlighten 世界国旗 - 即将推出 | |
+| Enlighten 洗牌排序法 - 即将推出 | |
 | [甘特图](https://store.office.com/gantt-WA104380765.aspx) |[视频](https://youtu.be/qJ7s_KrGiUU) |
 | [直方图](https://store.office.com/histogram-chart-WA104380776.aspx) | |
-| [水平漏斗图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380846) |[视频](https://youtu.be/SudZei68PPo) |
-| [图像时间线](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381254) | |
+| [水平漏斗图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380846) |[视频](https://youtu.be/SudZei68PPo) |
 | [KPI 指示器](https://store.office.com/kpi-indicator-WA104380832.aspx) | |
-| Liquid Fill Gauge - 即将推出 |[视频](https://youtu.be/wQ51TTqIZc4) |
-| [MAQ 软件绘制的线性仪表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821?src=office&tab=Overview) |[视频](https://youtu.be/AOlsFYkfkcw) |
-| 长文本查看器 - 即将推出 | |
+| [MAQ 软件绘制的线性仪表](https://appsource.microsoft.com/product/power-bi-visuals/WA104380821?src=office&tab=Overview) |[视频](https://youtu.be/AOlsFYkfkcw) |
+| [马赛克图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380785?src=office&tab=Overview)  | [视频](https://youtu.be/90FLCKpgicA)|
 | [播放轴（动态切片器）](https://store.office.com/play-axis-dynamic-slicer-WA104380981.aspx) | |
 | [Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083) |[视频](https://youtu.be/IvfIP3E6-1Q) |
-| [脉冲图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381006?src=office&tab=Overview) |[视频](https://www.youtube.com/watch?v=DQWdcQtjDVw) |
 | [雷达图](https://store.office.com/radar-chart-WA104380771.aspx) | |
+| [MAQSoftware 的圆环图（环形图）](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824?src=office&tab=Overview) | [视频](https://youtu.be/pDToHDFHnq8)|
 | [桑基图](https://store.office.com/app.aspx?assetid=WA104380777.aspx) |[视频](https://youtu.be/WWP9wVUHGaA) |
-| [MAQ Software 绘制的环形图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) |[视频](https://youtu.be/pDToHDFHnq8) |
 | [滚动条](https://store.office.com/scroller-WA104381018.aspx) |[视频](https://youtu.be/uhRFQF2cGSY) |
-| [Smart Filter by OKViz](https://store.office.com/smart-filter-by-okviz-WA104380859.aspx) |[视频](https://youtu.be/gcJsDDRQq28) |
-| [Sparkline by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910?src=office&tab=Overview) |[视频](https://youtu.be/0m3Vnvso9tY) |
-| [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767?src=office&tab=Overview) | |
+| [SQLBI 的智能筛选器](https://store.office.com/smart-filter-by-okviz-WA104380859.aspx) |[视频](https://youtu.be/gcJsDDRQq28) |
+| [Sparkline by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910?src=office&tab=Overview) |[视频](https://youtu.be/0m3Vnvso9tY) |
+| [Sunburst](https://appsource.microsoft.com/product/power-bi-visuals/WA104380767?src=office&tab=Overview) | |
 | [转速计](https://store.office.com/tachometer-WA104380937.aspx?) |[视频](https://www.youtube.com/watch?v=C3OXdETbS9o) |
-| [时序分解](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |
+| [温度计](https://appsource.microsoft.com/product/power-bi-visuals/WA104380847?src=office&tab=Overview) | [视频](https://youtu.be/SPX9mgrAdBc)|
+| [时序分解](https://appsource.microsoft.com/product/power-bi-visuals/WA104380897) | |
 | [热度地图表](https://store.office.com/table-heatmap-WA104380818.aspx) | |
-| [文本包装器](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
+| [文本包装器](https://appsource.microsoft.com/product/power-bi-visuals/WA104380826) | |
 | [时间线切片器](https://store.office.com/timeline-slicer-WA104380786.aspx) |[视频](https://youtu.be/ozMtZ4_NZ10) |
 | [飓风图](https://store.office.com/tornado-chart-WA104380768.aspx) |[视频](https://youtu.be/AQvd2FhRyCI) |
-| [Visio 视觉对象（预览版）](https://store.office.com/visio-visual-preview-WA104381132.aspx) |[视频](https://www.youtube.com/watch?v=dCcd7rftjZA&list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x&index=2) |
-| [Waffle 图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381049?src=office&tab=Overview) |[视频](https://youtu.be/1vRqYUsm3Vk) |
+| [Waffle 图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049?src=office&tab=Overview) |[视频](https://youtu.be/1vRqYUsm3Vk) |
 | [Word Cloud](https://store.office.com/word-cloud-WA104380752.aspx?) |[视频](https://www.youtube.com/watch?v=AblTenl9fqo) |
 
 ## <a name="next-steps"></a>后续步骤
-[从 Office 应用商店下载和使用自定义视觉对象](service-custom-visuals-office-store.md)  
 [自定义视觉对象开发者工具（预览版）入门](service-custom-visuals-getting-started-with-developer-tools.md)      
 [YouTube 上的 Microsoft 自定义视觉对象播放列表](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 [Power BI 中的可视化效果](power-bi-report-visualizations.md)  
 [Power BI 中的自定义可视化效果](power-bi-custom-visuals.md)  
-[在 Power BI Desktop 中使用自定义可视化效果](power-bi-custom-visuals-use.md)  
-[将自定义视觉对象发布到 Office 应用商店](developer/office-store.md)  
+[将自定义视觉对象发布到 Microsoft AppSource](developer/office-store.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

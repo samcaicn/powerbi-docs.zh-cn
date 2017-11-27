@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: b425e7ea2cffeff31cc8cf49330ca3835d92165c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f82bcc9d9add1683f593da6457fde2a4bbce2e02
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>在 Power BI Desktop 中通过示例添加列
 自 2017 年 4 月发布的 **Power BI Desktop** 起，只需提供新列的一个或多个示例值，即可使用**查询编辑器**向模型添加新的数据列。 可以根据当前所选内容，或通过根据给定表中的所有（或选定）列提供输入数据，创建新列示例。
@@ -83,26 +83,29 @@ ms.lasthandoff: 11/15/2017
 
 * **引用**
   
-  * 引用特定列（包含截断、清理（截至 2017 年 6 月）和大小写转换）
+  * 引用特定列（包含修整、清理和大小写转换）
+
 * **文本转换**
   
   * 合并（支持合并文本字符串和整个列值）
   * 替换
   * 长度
-  * 提取
-    
+  * 提取   
     * 第一个字符
     * 最后一个字符
     * 范围
     * 分隔符前的文本
     * 分隔符后的文本
     * 分隔符之间的文本
-  * 以下受支持的文本转换从 Power BI Desktop 2017 年 6 月版本开始提供：
-    
     * 长度
 
+* 自 2017 年 11 月版 Power BI Desktop 起，支持下列文本转换：
+    
+  * 删除字符
+  * 保留字符
+
 > [!NOTE]
-> 对于所有“文本”转换，都要考虑是否可能需要截断、清理（截至 2017 年 6 月）或对列值应用大小写转换。
+> 对于所有文本转换，都要考虑是否需要进行修整、清理或对列值应用大小写转换。
 > 
 > 
 
@@ -118,8 +121,6 @@ ms.lasthandoff: 11/15/2017
   * 每月的某一周
   * 每年的某一周
   * 年份
-* 以下受支持的其他日期转换从 Power BI Desktop 2017 年 6 月版本开始提供：
-  
   * 年限
   * 年份开始值
   * 年份结束值
@@ -133,13 +134,13 @@ ms.lasthandoff: 11/15/2017
   * 每月的某一日
   * 一天开始值
   * 一天结束值
+
+
 * **时间转换**
   
   * 小时
   * 分钟
-  * 秒
-* **日期/时间/时区转换** - 以下受支持的转换从 Power BI Desktop 2017 年 7 月版本开始提供：
-  
+  * 秒  
   * 本地时间
 
 > [!NOTE]
@@ -147,7 +148,8 @@ ms.lasthandoff: 11/15/2017
 > 
 > 
 
-* **数字转换** - 以下受支持的转换从 Power BI Desktop 2017 年 7 月版本开始提供：
+* **数字转换** 
+
   * 绝对值
   * 反余弦
   * 反正弦
@@ -175,3 +177,10 @@ ms.lasthandoff: 11/15/2017
   * 求和
   * 正切
 
+* 自 2017 年 11 月版 Power BI Desktop 起，支持下列数字转换：
+
+  * Bucket/范围
+
+* **常规**
+  
+  * 条件列

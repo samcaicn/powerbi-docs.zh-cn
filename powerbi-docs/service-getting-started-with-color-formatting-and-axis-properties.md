@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: a40f1fba503ca9bc76f77381fe977d6944b595a1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 04b9a745d3969ab42c2a02c9b3cc28a65cd4d69c
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>颜色格式设置和轴属性入门
 在 Power BI 中，可以更改数据系列、数据点和可视化效果背景的颜色。 如果你能完全控制仪表板和报表的显示方式，你还可以更改 X 轴和 Y 轴的显示方式。
@@ -87,7 +87,7 @@ ms.lasthandoff: 11/15/2017
 
 如果你想要折叠 **X 轴**选项，只需选择**X 轴**旁边的向上箭头图标。
 
-通过切换 **X 轴**旁边的单选按钮，便可以整个删除 X 轴标签。 还可以通过选择**标题**旁的单选按钮来选择是否打开或关闭轴标题。  
+通过切换 X 轴旁边的单选按钮，可以完全删除 X 轴标签。 还可以通过选择**标题**旁的单选按钮来选择是否打开或关闭轴标题。  
 
 有各种类型的颜色可供选择，并且可以对 Power BI 报表和仪表板应用更多的自定义项。
 
@@ -97,6 +97,7 @@ ms.lasthandoff: 11/15/2017
 > 
 > 
 
+## <a name="next-step"></a>下一步
 有关详细信息，请参阅以下文章：  
 
 * [Power BI 中颜色格式设置的提示和技巧](service-tips-and-tricks-for-color-formatting.md)  
