@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: c676fafe2274139efdc7b4a5be5174b86ade5b50
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: c00281d6b9e8a75df3b08cf1f99d0c9357129816
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 进行从 Power BI 到本地数据源的 SSO（单一登录）
 通过使用 Kerberos 配置本地数据网关，可以获得无缝的单一登录连接，从而使 Power BI 报表和仪表板可以从本地数据进行更新。 本地数据网关使用用于连接到本地数据源的 DirectQuery 实现单一登录 (SSO)。
@@ -97,7 +97,7 @@ ms.lasthandoff: 11/22/2017
 * 如果从以前版本的本地数据网关开始，请准确地按照以下文章中所述的顺序执行所有 5 个步骤（包括在步骤 3 中运行网关配置程序）：
   
   * [将网关服务帐户更改为域用户](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/#changing-the-gateway-service-account-to-a-domain-user)
-  * 如果你已经安装了本地数据网关的预览版本，则会有一个新的用户界面指导方法直接从网关的配置器中切换服务帐户。 请参阅本文末尾处的“将本网关切换到域帐户”部分。
+  * 如果你已经安装了本地数据网关的预览版本，则会有一个新的用户界面指导方法直接从网关的配置程序中切换服务帐户。 请参阅本文末尾处的“将本网关切换到域帐户”部分。
 
 > [!NOTE]
 > 如果配置了 AAD DirSync / Connect 并且用户帐户已同步，则网关服务不需要在运行时执行本地 AD 查找，并且可以将本地服务 SID（而不是请求域帐户）用于网关服务。 本文所述的 Kerberos 约束委派配置步骤与该配置相同（它们只需基于服务 SID 应用，而不是域帐户）。
@@ -187,7 +187,7 @@ ms.lasthandoff: 11/22/2017
 此配置将在大多数情况下有效。 但是，使用 Kerberos 时，根据你的环境可以有不同的配置。 如果报表仍无法加载，则需要联系你的域管理员进一步调查。
 
 ## <a name="switching-the-gateway-to-a-domain-account"></a>将网关切换到域帐户
-在本文前面部分，我们讨论了使用本地数据网关用户界面将网关从本地服务帐户切换为域帐户进行运行。 以下是执行此操作必需的步骤。
+在本文前面部分，我们讨论了使用本地数据网关用户界面将网关从本地服务帐户切换为作为域帐户运行。 以下是执行此操作必需的步骤。
 
 1. 启动“本地数据网关”配置工具。
    

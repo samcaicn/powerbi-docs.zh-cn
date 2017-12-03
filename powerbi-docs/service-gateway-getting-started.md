@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/25/2017
 ms.author: davidi
-ms.openlocfilehash: 617dcbf1d149966369aa0d1566094f6ce820a40a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a93f24dc621dc5b044473fd16cc635fdef987a62
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Power BI 网关入门
-欢迎使用 **Power BI 网关入门**指南。 本文中简短的分步过程可帮助你熟悉网关概念、它的工作原理，以及如何安装、配置和运行你自己的网关。  
+欢迎使用 Power BI Gateway 入门指南。 本文中简短的分步过程可帮助你熟悉网关概念、它的工作原理，以及如何安装、配置和运行你自己的网关。  
 
 ![](media/service-gateway-getting-started/gw_gettingstarted_0a.png)
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/15/2017
 幸运的是，Power BI 提供了两种网关，分别适用于这两种情况。 Power BI 提供的这两种网关服务如下所示：
 
 * 本地数据网关（个人模式）– 允许一位用户连接到源，且无法与其他人共享。 只能与 Power BI 协同使用。
-* **本地数据网关** – 允许多个用户连接到多个本地数据源，可由 Power BI、**PowerApps**、Flow 和 Azure 逻辑应用使用，只需安装一个网关即可实现。
+* **本地数据网关** – 允许多个用户连接到多个本地数据源，可由 Power BI、PowerApps、Flow 和 Azure 逻辑应用使用，只需安装一个网关即可实现。
 
 这两种网关执行类似的功能：方便对驻留在本地专用网络上的数据进行访问，从而在 Power BI 等基于云的服务中使用该数据。 个人网关只能由一个人使用，并且只能由 Power BI 使用，本地数据网关可由多个用户和多个服务使用。
 
@@ -162,7 +162,7 @@ ms.lasthandoff: 11/15/2017
 [使用本地数据网关](service-gateway-onprem.md)  
 [深入了解本地数据网关](service-gateway-onprem-indepth.md)  
 [本地数据网关（个人模式）](service-gateway-personal-mode.md)
+[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
 
-[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

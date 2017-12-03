@@ -17,24 +17,24 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/14/2017
 ms.author: davidi
-ms.openlocfilehash: fd5c155df233024b8b8989c2a02ee786904d7749
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 4162ebf02ad401242d724cb90b0f68920db435f6
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>本地数据网关（个人模型）
-可以通过网关使用本地数据源以及创建 Power BI 报表和仪表板。 网关是一种软件，不仅有助于用户访问存储在专用、本地网络的数据，还使用户能够使用联机服务（如 Power BI 服务）中的数据。 本地数据网关（个人模式）是最新发布的对 Power BI 网关的更新，它允许个人在自己的计算机上安装网关并获取对本地数据的访问权限。
+可以通过网关使用本地数据源以及创建 Power BI 报表和仪表板。 网关是一种软件，不仅有助于用户访问存储在专用、本地网络的数据，还使用户能够使用联机服务（如 Power BI 服务）中的数据。 “本地数据网关（个人模式）”是最新发布的对 Power BI Gateway 的更新，它允许个人在自己的计算机上安装网关并获取对本地数据的访问权限。
 
 ![](media/service-gateway-personal-mode/gateway-personal-mode_00.png)
 
 > [!NOTE]
-> 本地数据网关（个人模式）将替代之前支持的个人网关版本（称为“Power BI Gateway - Personal”。 以前的个人网关仅可在 2017 年 7 月 31 日之前可用。 请参阅以下部分，了解有关如何更新到新版本的信息。
+> “本地数据网关（个人模式）”将替代之前支持的个人网关版本（称为“Power BI Gateway - Personal”）。 以前的个人网关仅可在 2017 年 7 月 31 日之前可用。 请参阅以下部分，了解有关如何更新到新版本的信息。
 > 
 > 
 
 ## <a name="features-of-the-on-premises-data-gateway-personal-mode"></a>本地数据网关（个人模式）的功能
-随着本地数据网关（个人模式）的发布，将提供一系列改进和功能。 以前版本的个人网关（名为“Power BI 网关 - 个人版”）在实现时存在一些限制。 与许多 Power BI 产品一样，我们了解了客户需求、诉求及其使用产品的方式。 因此，本地数据网关（个人模式）经过完全重新设计，现包括以下功能和改进：
+随着“本地数据网关（个人模式）”的发布，将提供一系列改进和功能。 以前版本的个人网关（名为“Power BI 网关 - 个人版”）在实现时存在一些限制。 与许多 Power BI 产品一样，我们了解了客户需求、诉求及其使用产品的方式。 因此，“本地数据网关（个人模式）”经过完全重新设计，现包括以下功能和改进：
 
 * 可靠性提高 - 新版个人网关改进了代码和结构化软件，因而比以前的版本可靠性更高。
 * 扩展性增强 - 发布其他功能时，可将其轻松添加到个人网关，从而改进结构化软件。
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/15/2017
 * 配置和服务日志 - 在新版本中，用户仅需单击即可将配置和服务日志轻松导出到 .zip 文件。
 
 ## <a name="installing-on-premises-data-gateway-personal-mode"></a>安装本地数据网关（个人模式）
-若要在未安装以前版本网关的情况下安装本地数据网关（个人模式），请选择 Power BI 服务中的齿轮图标，然后选择“数据网关”。
+若要在未安装以前版本网关的情况下安装本地数据网关（个人模式），请选择“Power BI 服务”中的齿轮图标，然后选择“数据网关”。
 
 ![](media/service-gateway-personal-mode/gateway-personal-mode_02.png)
 
@@ -123,7 +123,7 @@ ms.lasthandoff: 11/15/2017
   * 回答：可以，使用新版本时二者可以同时运行。
 * 是否可以将本地数据网关（个人模式）作为服务运行？
   
-  * 回答：不能。 本地数据网关（个人模式）只能作为应用程序运行。 如果需要将网关作为服务并/或在管理模式下运行，请考虑使用[本地数据网关](service-gateway-onprem.md)（以前称为“企业网关”）。
+  * 回答：不能。 本地数据网关（个人模式）只能作为应用程序运行。 如果需要将网关作为服务并/或在管理模式下运行，请考虑使用[**本地数据网关**](service-gateway-onprem.md)（以前称为“企业网关”）。
 * 本地数据网关（个人模式）多久更新一次？
   
   * 回答：我们计划每月更新一次个人网关。

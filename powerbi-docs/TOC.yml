@@ -950,6 +950,10 @@
           href: developer/migrate-tool.md
         - name: 迁移代码片段
           href: developer/migrate-code-snippets.md
+        - name: 嵌入式应用程序疑难解答
+          href: developer/embedded-troubleshoot.md
+        - name: 常见问题解答
+          href: developer/embedded-faq.md
     - name: 创建自定义视觉对象
       items:
         - name: 使用开发人员工具创建自定义视觉对象

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 053e12ec2afbf2647569922d0b469ec1a985612b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c94d21c725846dfbe0e2fe86692166d9fe855a47
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>刷新 OneDrive 或 SharePoint Online 上存储的数据集
 将文件从 OneDrive 或 SharePoint Online 导入 Power BI 服务是确保在 **Power BI Desktop** 上所做的工作与 Power BI 服务保持同步的好方法。
@@ -77,7 +77,7 @@ ms.lasthandoff: 11/13/2017
 ## <a name="troubleshooting"></a>故障排除
 有时可能不会按预期方式刷新数据。 通常，这会是与网关连接出现的问题。 请查看网关故障排除文章，了解相关工具和已知问题。
 
-[本地数据网关故障排除](service-gateway-onprem-tshoot.md)
+[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)
 
 [Power BI Gateway - Personal 故障排除](service-admin-troubleshooting-power-bi-personal-gateway.md)
 

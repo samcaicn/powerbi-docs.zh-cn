@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/26/2017
 ms.author: davidi
-ms.openlocfilehash: e7f14ea9334ebaf3b1b42facf03f0ad8055e5bd7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 373a903ceac0e0ff9290a231d5e6eda42a2dcfc1
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>刷新方案故障排除
 此处介绍了关于在 Power BI 服务中刷新数据时可能会遇到的各种情况的信息。
@@ -66,7 +66,7 @@ Microsoft 正在研究一个解决方案，允许数据加载过程刷新令牌�
 
 ## <a name="next-steps"></a>后续步骤
 [数据刷新](refresh-data.md)  
-[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
+[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
 [Power BI Gateway - Personal 故障排除](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

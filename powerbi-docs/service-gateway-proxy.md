@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 77ae086d4b9c86f0d5ec4c0515ad96919160059d
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 1598a2580c24623abc1bbb5fb5a3590ab0f2a6f6
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>为本地数据网关配置代理设置
 你的工作环境可能要求你通过代理访问 Internet。 这会阻止本地数据网关连接到该服务。
@@ -58,7 +58,7 @@ superuser.com 上的以下文章讨论了尝试确定网络上有无代理的可
 
 默认配置适用于 Windows 身份验证。 如果你的代理服务器使用另一种形式的身份验证，则你将需要更改设置。 如果你不确定，则应与你的网络管理员联系。
 
-若要了解有关 .NET 配置文件代理元素配置的详细信息，请参阅 [defaultProxy 元素（网络设置）](https://msdn.microsoft.com/library/kd3cf2ex.aspx)
+若要了解有关 .NET 配置文件代理元素配置的详细信息，请参阅 [defaultProxy 元素（网络设置）](https://msdn.microsoft.com/library/kd3cf2ex.aspx)。
 
 ## <a name="changing-the-gateway-service-account-to-a-domain-user"></a>将网关服务帐户更改为域用户
 当配置代理设置以使用默认凭据时，如上文所述，你可能会遇到关于代理的身份验证问题。 这是因为默认服务帐户是服务 SID，而不是经过身份验证的域用户。 你可以更改网关的服务帐户，以允许对代理进行正确的身份验证。
@@ -69,19 +69,19 @@ superuser.com 上的以下文章讨论了尝试确定网络上有无代理的可
 > 
 
 ### <a name="change-the-on-premises-data-gateway-service-account"></a>更改本地数据网关服务帐户
-1. 更改**本地数据网关服务**的 Windows 服务帐户。
+1. 更改本地数据网关服务的 Windows 服务帐户。
    
     此服务的默认帐户是 NT SERVICE\PBIEgwService。 你会想要在 Active Directory 域内将其更改为域用户帐户。 或者，你会想要使用托管服务帐户以避免更改密码。
    
     你会想要在 Windows 服务属性中的“登录”选项卡上更改帐户。
-2. 重启**本地数据网关服务**。
+2. 重启本地数据网关服务。
    
     从管理员命令提示符中，发出以下命令。
    
         net stop PBIEgwService
    
         net start PBIEgwService
-3. 重启**本地数据网关服务配置器**。 可选择 Windows“开始”按钮，然后搜索*本地数据网关*。
+3. 启动本地数据网关配置器。 可选择 Windows“开始”按钮，然后搜索“本地数据网关”。
 4. 登录到 Power BI。
 5. 使用恢复密钥还原网关。
    

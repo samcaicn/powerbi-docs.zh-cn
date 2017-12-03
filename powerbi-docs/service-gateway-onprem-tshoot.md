@@ -1,5 +1,5 @@
 ---
-title: "本地数据网关疑难解答"
+title: "本地数据网关故障排查"
 description: "本文为你提供关于你遇到的本地数据网关问题的疑难解答。 它提供了针对已知问题的可能方法，也提供了能够帮助你的工具。"
 services: powerbi
 documentationcenter: 
@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 2663c9f2adf69ce224de90feb822b7cfedc935a5
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 62405898f06a75fdad9da1f635f01bebdb445d2e
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
-# <a name="troubleshooting-the-on-premises-data-gateway"></a>本地数据网关疑难解答
-本文介绍了使用**本地数据网关**时可能会遇到的一些常见问题。
+# <a name="troubleshooting-the-on-premises-data-gateway"></a>本地数据网关故障排查
+本文介绍了使用本地数据网关时可能会遇到的一些常见问题。
 
 <!-- Shared Community & support links Include -->
 [!INCLUDE [gateway-onprem-tshoot-support-links-include](./includes/gateway-onprem-tshoot-support-links-include.md)]
@@ -114,7 +114,7 @@ ms.lasthandoff: 11/22/2017
 
 在**显示详细信息**中，你将看到错误代码 **DM_GWPipeline_UnknownError**。
 
-你还可以查看“事件日志”>“**应用程序和服务日志**” > “**本地数据网关服务**”，了解更多详细信息。
+你还可以查看“事件日志”>“应用程序和服务日志” > “本地数据网关服务”，了解更多详细信息。
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>错误：我们在尝试连接到<server>时遇到错误。 详细信息：“我们已连接到数据网关，但此网关无法访问本地数据源。”
 我们无法连接指定的数据源。 请务必验证为该数据源所提供的信息。
@@ -169,7 +169,6 @@ ms.lasthandoff: 11/22/2017
 1. 你在 Power BI Desktop 中输入的服务器和数据库名称和网关数据源中的名称不一致。 值必须相同。 不区分大小写。
 2. 网关配置中数据源的**用户**选项卡上未列出你的帐户。 必须与要添加到相应列表的网关的管理员联系。
 3. Power BI Desktop 文件中有多个数据源，并不是所有这些数据源都配置为网关数据源。 必须定义每个网关数据源，这样相应网关才能在计划的刷新内显示。
-
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>错误：网关客户端上收到的未压缩数据已超出限制。
 每个表的未压缩数据量的确切限制为 10GB。 如果遇到此问题，可以使用实用选项来优化和避免此类问题发生。 具体而言，减少使用高度重复内容、过长的字符串值，并改用规范化的键或删除列（如果不使用）将会有所帮助。

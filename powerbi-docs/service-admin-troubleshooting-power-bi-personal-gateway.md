@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bcb859fe6364f28a59607f28f675f89e1a562f8e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7774153ff73fb67a434ac79016507a2e94cf40f1
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI 网关故障排除 - 个人
 以下介绍使用 Power BI 个人网关时可能遇到的一些常见问题。
@@ -86,7 +86,10 @@ ms.lasthandoff: 11/15/2017
 如果有大于 4 MB 大小的单个行，则会出现此错误。 需要从数据源确定行是什么，并尝试将其筛选出或减少该行的大小。
 
 ## <a name="data-sources"></a>数据源
-**缺少数据提供程序** – 个人网关只有 64 位版。 它需要在已安装个人网关的同一台计算机上安装 64 位版本数据提供程序。 例如，如果数据集中的数据源是 Microsoft Access，必须在已安装个人网关的同一台计算机上安装 64 位 ACE 提供程序。  **注意：**如果有 32 位 Excel，则无法在同一台计算机上安装 64 位 ACE 提供程序。
+**缺少数据提供程序** – 个人网关只有 64 位版。 它需要在已安装个人网关的同一台计算机上安装 64 位版本数据提供程序。 例如，如果数据集中的数据源是 Microsoft Access，必须在已安装个人网关的同一台计算机上安装 64 位 ACE 提供程序。  
+
+>[!NOTE]
+>如果有 32 位 Excel，则无法在同一台计算机上安装 64 位 ACE 提供程序。
 
 **Access 数据库不支持 Windows 身份验证** - 对于 Access 数据库，Power BI 当前仅支持匿名访问。 对于 Access 数据库，我们将启用 Windows 身份验证。
 
@@ -151,6 +154,6 @@ ms.lasthandoff: 11/15/2017
 [数据刷新](refresh-data.md)  
 [Power BI Gateway - Personal](personal-gateway.md)  
 [磁贴错误故障排除](refresh-troubleshooting-tile-errors.md)  
-[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
+[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

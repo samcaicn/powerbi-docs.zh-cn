@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: bbe163f310eb839a3e815d34c72c981257f5b627
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 820bd1fabbb2770b938160420ac0e5bf97ece703
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---oracle"></a>管理数据源 - Oracle
 安装本地数据网关之后，需要添加可与该网关结合使用的数据源。 本文将探讨如何使用网关和数据源。 你可以使用 Oracle 数据源进行计划刷新或 DirectQuery。
@@ -41,7 +41,7 @@ ms.lasthandoff: 11/15/2017
 
 * [32 位 Oracle Data Access Components (ODAC) 和 Oracle Developer Tools for Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
-有关 **64 位**版本的 Power BI Desktop 或本地数据网关，请使用以下链接下载并安装 **64 位** Oracle 客户端：
+有关 64 位版本的 Power BI Desktop 或本地数据网关，请使用以下链接下载并安装 64 位 Oracle 客户端：
 
 * [适用于 Windows x64 的 64 位 ODAC 12.2c Release 1 (12.2.0.1.0)](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
@@ -176,12 +176,12 @@ CONTOSO =
 > 
 > 
 
-有关与网关相关的其他疑难解答信息，请参阅 [本地数据网关的疑难解答](service-gateway-onprem-tshoot.md)。
+有关与网关相关的其他疑难解答信息，请参阅 [本地数据网关疑难解答](service-gateway-onprem-tshoot.md)。
 
 ## <a name="next-steps"></a>后续步骤
 [本地数据网关](service-gateway-onprem.md)  
 [本地数据网关 - 深入了解](service-gateway-onprem-indepth.md)  
-[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
+[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
 [Power BI Premium](service-premium.md)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

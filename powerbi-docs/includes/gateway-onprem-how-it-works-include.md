@@ -1,5 +1,5 @@
 ## <a name="how-the-gateway-works"></a>网关的工作原理
-![on-prem-data-gateway-how-it-works](./media/gateway-onprem-how-it-works-include/on-prem-data-gateway-how-it-works.png)
+![On-prem-data-gateway-how-it-works](./media/gateway-onprem-how-it-works-include/on-prem-data-gateway-how-it-works.png)
 
 让我们首先看一下当用户与连接到本地数据源的元素交互时，会发生什么情况。 
 

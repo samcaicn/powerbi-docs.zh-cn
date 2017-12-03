@@ -55,7 +55,7 @@
 
 ServiceBusSystemConnectivityModeString 参数的值区分大小写。 有效值为 AutoDetect 和 Https。
 
-或者，从 [2017 年 3 月](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/)版本开始，用户可以使用网关用户界面来强制网关采用此行为。 在网关用户界面中，选择“**网络**”，然后将“**Azure 服务总线连接模式**”切换至“**启用**”。
+或者，从 [2017 年 3 月](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/)版本开始，用户可以使用网关用户界面来强制网关采用此行为。 在网关用户界面中，选择“网络”，然后将“Azure 服务总线连接模式”切换至“启用”。
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_01.png)
 

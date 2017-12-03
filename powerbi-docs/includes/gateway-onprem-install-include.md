@@ -20,7 +20,7 @@
 * 可以在不同计算机上安装多个本地数据网关，并通过同一 Power BI 网关管理界面管理所有这些网关（个人网关除外，见下一注意点）
 * 只能为每个 Power BI 用户运行一个个人模式网关。 如果为同一用户安装另一个人模式网关，即使是在其他计算机上，最新安装也会替换现有旧安装。
 
-![on-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
+![On-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
 
 以下是安装网关之前需要考虑的一些事项。
 
@@ -29,11 +29,11 @@
 
 安装网关后，需要使用工作或学校帐户登录。
 
-![on-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
+![On-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
 
 登录后，必须选择配置新的网关，或迁移、还原或接管现有网关。
 
-![on-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
+![On-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
 
 ## <a name="configure-a-new-gateway"></a>配置新网关
 1. 输入网关“名称”
@@ -45,7 +45,7 @@
 > 
 > 
 
-![on-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
+![On-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
 
 ### <a name="migrate-restore-or-take-over-an-existing-gateway"></a>迁移、还原或接管现有网关
 你需要选择想要恢复的网关，并提供用于首次创建网关的恢复密钥。

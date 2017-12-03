@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: 063fd92829c6b642fc33e578026d109d891b8fd5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: bf814b03c4e973afce7115ae111da520af498347
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="on-premises-data-gateway-faq"></a>本地数据网关常见问题
 <!-- Shared FAQ shared Include -->
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/15/2017
 **答：**不能。 这一次不支持此项。
 
 **问：**我是否可以使用网关连接到多维 (OLAP) 实例。  
-**答：**是的！ 本地数据网关支持实时连接 Analysis Services 表格和多维模型。
+**答：**是的！ 本地数据网关支持实时连接 Analysis Services 表格模型和多维模型。
 
 **问：**如果将网关从使用 Windows 身份验证的本地服务器安装在其他域中的计算机上，该怎么办？  
 **答：**这里不能保证。 这完全取决于两个域之间的信任关系。 如果两个不同的域在受信任的域模型中，则网关可能会连接到 Analysis Services 服务器，且有效的用户名可以得到解析。 如果没有，你可能会遇到登录失败。
@@ -78,6 +78,6 @@ ms.lasthandoff: 11/15/2017
 ## <a name="next-steps"></a>后续步骤
 [本地数据网关](service-gateway-onprem.md)  
 [深入了解本地数据网关](service-gateway-onprem-indepth.md)  
-[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
+[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

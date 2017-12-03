@@ -1,5 +1,5 @@
 ## <a name="firewall-or-proxy"></a>防火墙或代理
-有关为你的网关提供代理信息的信息，请参阅[为 Power BI 网关配置代理设置](../service-gateway-proxy.md)。
+有关为你的网关提供代理信息的信息，请参阅[为 Power BI Gateway 配置代理设置](../service-gateway-proxy.md)。
 
 可以在 PowerShell 提示符处运行 [Test-NetConnection](https://technet.microsoft.com/library/dn372891.aspx) 以进行测试，从而确定防火墙或代理是否可能会阻止连接。 这将测试与 Azure 服务总线的连接性。 这仅测试网络连接，与云服务器服务或网关没有任何关系。 它有助于确定你的计算机是否可以实际连接到互联网。
 

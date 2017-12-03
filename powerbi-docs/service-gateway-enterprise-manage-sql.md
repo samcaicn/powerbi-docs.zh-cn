@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/02/2017
 ms.author: davidi
-ms.openlocfilehash: 644078dc61a69cf27cb93b29409546d61e1706f2
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 95fccd70b536a26baf93bf4735750e5599e3021f
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---sql-server"></a>管理数据源 - SQL Server
 安装本地数据网关之后，可以添加可与该网关结合使用的数据源。 本文将探讨如何使用网关和数据源。 你可以使用 SQL Server 数据源进行计划刷新或 DirectQuery。
@@ -128,7 +128,7 @@ ms.lasthandoff: 11/15/2017
 ## <a name="next-steps"></a>后续步骤
 * [本地数据网关](service-gateway-onprem.md)  
 * [本地数据网关 - 深入了解](service-gateway-onprem-indepth.md)  
-* [本地数据网关故障排除](service-gateway-onprem-tshoot.md)
+* [本地数据网关疑难解答](service-gateway-onprem-tshoot.md)
 * [使用 Kerberos 进行从 Power BI 到本地数据源的 SSO（单一登录）](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)。 
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

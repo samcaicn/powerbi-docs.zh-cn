@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: e03538061190290b251319a6919b918edc6c38fc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 58cfc6feb510dc9dc335b473b40ee4a7f341ee10
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理数据源 - Analysis Services
 安装本地数据网关之后，需要添加可与该网关结合使用的数据源。 本文将探讨如何使用网关和数据源。 你可以使用 Analysis Services 数据源进行计划刷新或实时连接。
@@ -158,7 +158,7 @@ Power BI 服务中将发生以下事件：
 > 
 > 
 
-在包含可配置自定义用户映射的本地数据网关中，执行以下操作：
+在具有可配置自定义用户映射的本地数据网关上，请执行以下操作：
 
 1. 查找搜索 Active Directory（自动或可配置）
 2. 根据 Power BI 服务中的传入 UPN 字符串（“firstName.lastName@contoso.com”），查找 AD 人员的属性（如电子邮件地址）。
@@ -169,14 +169,14 @@ Power BI 服务中将发生以下事件：
 如何将网关配置为执行 AD 查找：
 
 1. 下载和安装最新网关
-2. 在网关中，需要将“本地数据网关服务”更改为使用域帐户（而不是本地服务帐户，否则 AD 查找将无法在运行时正常工作）运行。 需要重启网关服务，这样更改才能生效。  转到计算机上的网关应用（搜索“本地数据网关”）。 为此，请依次转到“服务设置”>“更改服务帐户”。 请确保自己拥有此网关的恢复密钥，因为需要在同一台计算机上还原它，除非要改为新建网关。 
+2. 在网关中，需要将“本地数据网关服务”更改为使用域帐户（而不是本地服务帐户，否则 AD 查找将无法在运行时正常工作）运行。 你将需要重启网关服务才能使更改生效。  转到你的计算机上的网关应用（搜索“本地数据网关”）。 为此，请依次转到“服务设置”>“更改服务帐户”。 请确保自己拥有此网关的恢复密钥，因为需要在同一台计算机上还原它，除非要改为新建网关。 
 3. 以管理员身份转到此网关的安装文件夹 C:\Program Files\On-premises data gateway，以确保自己拥有写入权限并编辑下列文件：
    
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. 根据自己设定的 AD 用户 Active Directory 属性配置，编辑以下两个配置值。 下面显示的配置值只是示例，需要根据自己的 Active Directory 配置指定它们。 
    
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
-5. 重启“本地数据网关”服务，以便配置更改生效。
+5. 重启本地数据网关服务才能使配置更改生效。
 
 ### <a name="working-with-mapping-rules"></a>使用映射规则
 若要创建映射规则，请输入**原始名字**和**新名字**的值，然后选择**添加**。
@@ -192,7 +192,7 @@ Power BI 服务中将发生以下事件：
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard"></a>使用通配符 (*)
+### <a name="using-wildcard-"></a>使用通配符 (*)
 可以将通配符用于“**Replace（原始名称）**”字符串。 它只能用于自身而不能与任何其他字符串部分一起使用。 这样可以使你获取所有用户，并将单个值传递到数据源。 当你希望组织中的所有用户都能够在本地环境中使用相同的用户，那么这非常有用。
 
 ### <a name="test-a-mapping-rule"></a>测试映射规则
@@ -211,7 +211,7 @@ Power BI 服务中将发生以下事件：
 ## <a name="remove-a-data-source"></a>删除数据源
 删除数据源将中断依赖于给定的数据源的所有仪表板或报表。  
 
-若要删除数据源，请转到“数据源”> **删除**。
+要删除数据源，请转到“数据源”>“删除”
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings6.png)
 
@@ -221,7 +221,7 @@ Power BI 服务中将发生以下事件：
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings8.png)
 
 ## <a name="manage-users"></a>管理用户
-在数据源的“用户”选项卡上，可以添加和删除可使用此数据源的用户或安全组。
+在数据源的“用户”选项卡上，可以添加和删除能使用此数据源的用户或安全组。
 
 > [!NOTE]
 > 用户列表仅控制允许发布报表的人员。 报表所有者可以创建仪表板（或内容包），并与其他用户共享它们。
@@ -255,6 +255,6 @@ Power BI 服务中将发生以下事件：
 ## <a name="next-steps"></a>后续步骤
 [本地数据网关](service-gateway-onprem.md)  
 [本地数据网关 - 深入了解](service-gateway-onprem-indepth.md)  
-[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
+[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

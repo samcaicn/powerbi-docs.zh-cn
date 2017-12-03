@@ -16,11 +16,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: f3ebba5d1f8e47094865b51edd60f1f036098af4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c8e97f43089f5fd803b8c15ddf60927da7353797
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="configuring-scheduled-refresh"></a>配置计划刷新
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/15/2017
 
 如果你的数据集支持使用“立即刷新”和“计划刷新”进行计划刷新，要想刷新成功，有几个要求和设置非常重要。 这些设置包括“网关连接”、“数据源凭据”和“计划刷新”。 让我们仔细了解下每个设置。
 
-这将描述同时可用于 [Power BI 网关 - 个人](personal-gateway.md)和[本地数据网关](service-gateway-onprem.md)的选项。
+这将描述同时可用于 [Power BI Gateway – Personal](personal-gateway.md) 和[本地数据网关](service-gateway-onprem.md)的选项。
 
 若要进入计划刷新屏幕，你可以执行以下操作。
 
@@ -122,7 +122,7 @@ ms.lasthandoff: 11/15/2017
 ## <a name="troubleshooting"></a>故障排除
 有时可能不会按预期方式刷新数据。 通常，这会是与网关连接出现的问题。 请查看网关故障排除文章，了解相关工具和已知问题。
 
-[本地数据网关故障排除](service-gateway-onprem-tshoot.md)
+[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)
 
 [Power BI Gateway - Personal 故障排除](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
@@ -130,7 +130,7 @@ ms.lasthandoff: 11/15/2017
 [Power BI 中的数据刷新](refresh-data.md)  
 [Power BI Gateway - Personal](personal-gateway.md)  
 [本地数据网关](service-gateway-onprem.md)  
-[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
+[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
 [Power BI Gateway - Personal 故障排除](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

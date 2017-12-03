@@ -4,7 +4,7 @@
 ### <a name="collecting-logs-from-the-gateway-configurator"></a>从网关配置器收集日志
 可以收集多个网关日志，应始终从日志入手。 在安装网关后收集日志的最简单方法是通过用户界面。 在“本地数据网关”用户界面中，依次选择“诊断”和页面底部附近的“导出日志”链接，如下图所示。
 
-![on-prem-data-gateway-UI-logs](./media/gateway-onprem-tshoot-tools-include/gateway-onprem-UI-logs.png)
+![On-prem-data-gateway-UI-logs](./media/gateway-onprem-tshoot-tools-include/gateway-onprem-UI-logs.png)
 
 **安装程序日志**
 
@@ -12,16 +12,16 @@
 
 **配置日志**
 
-    %localappdata%\Microsoft\on-premises data gateway\GatewayConfigurator*.log
+    %localappdata%\Microsoft\On-premises Data Gateway\GatewayConfigurator*.log
 
 **本地数据网关服务日志**
 
-    C:\Users\PBIEgwService\AppData\Local\Microsoft\on-premises data gateway\Gateway*.log
+    C:\Users\PBIEgwService\AppData\Local\Microsoft\On-premises Data Gateway\Gateway*.log
 
 ### <a name="event-logs"></a>事件日志
 **本地数据网关服务**事件日志位于“应用程序和服务日志”下。
 
-![on-prem-data-gateway-event-logs](./media/gateway-onprem-tshoot-tools-include/on-prem-data-gateway-event-logs.png)
+![On-prem-data-gateway-event-logs](./media/gateway-onprem-tshoot-tools-include/on-prem-data-gateway-event-logs.png)
 
 <a name="fiddler" />
 

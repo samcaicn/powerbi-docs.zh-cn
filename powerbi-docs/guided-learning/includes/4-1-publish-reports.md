@@ -8,8 +8,8 @@
 
 ![](media/4-1-publish-reports/4-1_2.png)
 
-> 注意：Power BI Desktop 报表常称为 **.pbix** 文件（Windows 中为其提供的扩展名）。
-> 
+> [!NOTE]
+> 注意：Power BI Desktop 报表常称为 .pbix 文件（Windows 中为其提供的扩展名）。
 > 
 
 上传完成后，对话框将提示你发布进程已成功，并在该对话框中提供一个链接，在 Web 浏览器中将你直接转到 Power BI 服务中的报表。

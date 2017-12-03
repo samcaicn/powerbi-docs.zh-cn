@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: f9deff0161796e5c72c3b5819a2506432b6077f3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6bbe9242c724ae026e3b1a64bf8457b79072456d
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服务数据源
 数据是 Power BI 的核心。 当你研究数据、创建图表和仪表板，以及使用问答进行提问时，你所看到的所有这些可视化效果和答案实际上是从数据集获得其基础数据的。 但是，数据集来自何处呢？ 它来自数据源。
@@ -59,7 +59,7 @@ ms.lasthandoff: 11/13/2017
 
 **云中的数据库** – 从 Power BI 服务中，你可以实时连接到 Azure SQL 数据库、Azure SQL 数据仓库、Azure HD Insight 上的 Spark，以及使用 DirectQuery 的 SQL Server Analysis Services。 从 Power BI 连接到这些数据库都是实时的，也就是说，当连接到，例如 Azure SQL 数据库时，你将开始通过在 Power BI 中创建报表来浏览其数据，每当你切片数据或将另一个字段添加到可视化效果时，将直接对数据库进行查询。 若要了解详细信息，请参阅 [Azure 和 Power BI](service-azure-and-power-bi.md)。
 
-**本地数据库** – 从 Power BI 服务中，你可以直接连接到 SQL Server Analysis Services 表格模型数据库。 Power BI 企业网关是必需的。 如果你不确定如何连接到你的组织的表格模型数据库，请联系你的管理员或 IT 部门。 若要了解详细信息，请参阅[Power BI 中的 SQL Server Analysis Services 表格数据](sql-server-analysis-services-tabular-data.md)。
+**本地数据库** – 从 Power BI 服务中，你可以直接连接到 SQL Server Analysis Services 表格模型数据库。 Power BI Enterprise Gateway 是必需的。 如果你不确定如何连接到你的组织的表格模型数据库，请联系你的管理员或 IT 部门。 若要了解详细信息，请参阅[Power BI 中的 SQL Server Analysis Services 表格数据](sql-server-analysis-services-tabular-data.md)。
 
 对于你的组织中的其他类型的数据库，需要先使用 Power BI Desktop 或 Excel 连接到数据模型，并在数据模型中查询和加载数据。 然后，可以将文件导入在其中创建数据集的 Power BI。 如果设置了计划刷新，Power BI 将使用来自文件的连接信息和你所配置的刷新设置，以直接连接到数据源，并查询更新。 然后，这些更新将加载到 Power BI 中的数据集。 若要了解详细信息，请参阅[连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)。
 
@@ -70,7 +70,7 @@ ms.lasthandoff: 11/13/2017
 
 在其他情况下，可能需要查询并加载你希望添加到某个文件中的数据。 例如，假设在组织中的服务器上的数据仓库数据库中有你的物流数据。 在 Power BI 服务中，你不能直接连接到该数据库并开始浏览其数据（除非它是表格模型数据库）。 但是，你可以使用 Power BI Desktop 或 Excel 查询该物流数据，并将其加载到你稍后要保存为文件的数据模型中。 然后，可以将文件导入在其中创建数据集的 Power BI。
 
-你可能会想：“但是，数据库上的物流数据每天都会改变。 如何确保我在 Power BI 中的数据集是刷新了的呢？” 来自 Power BI Desktop 或 Excel 文件的连接信息将随数据导入到数据集中。 如果设置了计划刷新或在数据集上执行手动刷新，Power BI 将使用来自数据集的连接信息和一些其他设置，直接连接到数据库、查询更新并将更新加载到数据集。 可能需要 Power BI 网关以保护在本地服务器和 Power BI 之间的任何数据传输。 报表和仪表板中的所有可视化效果都将自动刷新。
+你可能会想：“但是，数据库上的物流数据每天都会改变。 如何确保我在 Power BI 中的数据集是刷新了的呢？” 来自 Power BI Desktop 或 Excel 文件的连接信息将随数据导入到数据集中。 如果设置了计划刷新或在数据集上执行手动刷新，Power BI 将使用来自数据集的连接信息和一些其他设置，直接连接到数据库、查询更新并将更新加载到数据集。 可能需要 Power BI Gateway 以保护本地服务器和 Power BI 之间的任何数据传输。 报表和仪表板中的所有可视化效果都将自动刷新。
 
 你可以看到，不能直接从 Power BI 服务连接到你的数据源并不意味着无法将该数据导入 Power BI。 只是可能需要几个更多的步骤，以及来自 IT 部门的一些帮助。 若要了解详细信息，请参阅 [Power BI Desktop 中的数据源](desktop-data-sources.md)。
 
@@ -82,7 +82,7 @@ ms.lasthandoff: 11/13/2017
 ***数据源***是指数据集中的数据的实际来源。 例如，联机服务（如 Google Analytics 或 QuickBooks）、云中的数据库（如 Azure SQL 数据库）或者自己组织中的本地计算机或服务器上的数据库或文件。
 
 ### <a name="data-refresh"></a>数据刷新
-如果你将文件存储在本地驱动器或位于组织中的某个位置的驱动器上，可能需要 Power BI 网关以刷新 Power BI 中的数据集。 并且，进行刷新时，保存文件的计算机必须处于开机状态。 你还可以重新导入你的文件，或使用 Excel 或 Power BI Desktop 中的“发布”，但这些均不是自动的过程。
+如果你将文件存储在本地驱动器或位于组织中的某个位置的驱动器上，可能需要 Power BI Gateway 以刷新 Power BI 中的数据集。 并且，进行刷新时，保存文件的计算机必须处于开机状态。 你还可以重新导入你的文件，或使用 Excel 或 Power BI Desktop 中的“发布”，但这些均不是自动的过程。
 
 如果你将文件保存在 OneDrive for Business 或 SharePoint - 团队网站上，然后连接到 Power BI，或将文件导入 Power BI，则你的数据集、报表和仪表板将始终保持最新。 由于 OneDrive 和 Power BI 均位于云中，Power BI 可直接连接到你所保存的文件（约每隔一小时一次），并检查是否有更新。 如果发现任何更新，将自动刷新数据集和任何可视化效果。
 
@@ -90,7 +90,7 @@ ms.lasthandoff: 11/13/2017
 
 Azure SQL 数据库、Azure SQL 数据仓库和 Azure HDInsight 上的 Spark 的独特之处在于，它们都是云中的数据源。 因为 Power BI 服务也位于云中，Power BI 可使用 DirectQuery，实时地与它们进行连接。 在 Power BI 中看到的内容始终是同步的，并且无需设置刷新。
 
-SQL Server Analysis Services 的独特之处在于，当你从 Power BI 连接到它时，此连接类似于云中的 Azure 数据库的实时连接，但数据库本身位于你的组织中的服务器上。 此类型的连接需要 Power BI 网关，其通常由 IT 部门配置。
+SQL Server Analysis Services 的独特之处在于，当你从 Power BI 连接到它时，此连接类似于云中的 Azure 数据库的实时连接，但数据库本身位于你的组织中的服务器上。 此类型的连接需要 Power BI Gateway，其通常由 IT 部门配置。
 
 数据刷新是 Power BI 中非常重要的一部分，十分深奥，因此在本文中无法一一介绍。 如果你想要全面地了解数据刷新，则请务必查看[Power BI 中的数据刷新](refresh-data.md)。
 

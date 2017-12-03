@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/05/2017
 ms.author: mihart
-ms.openlocfilehash: 901193f396e38a7bce640db36a13dc0e7b998de6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f189ab5b195a945b6a21ea868cf29257e30c0d20
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>用于 Power BI 地图可视化效果的提示和技巧
 Power BI 与必应地图集成，提供默认地图坐标（一种称为“地理位置编码”的过程），以便用户可以创建地图。 集成后，它们使用算法共同确定正确的位置，但有时只是一种最佳猜测。 如果 Power BI 无法尝试自行创建地图可视化效果，则会借助必应地图的帮助。  
@@ -76,7 +76,7 @@ Power BI 使用必应的[非结构化 URL 模板服务](https://msdn.microsoft.c
 
 ![纬度和经度](media/power-bi-map-tips-and-tricks/pbi_latitude.png) 
 
-## <a name="use-geo-hierarchies-so-you-can-drilldown-to-different-levels-of-location"></a>使用地理位置层次结构，以便可以向下钻取到不同的位置“级别”
+## <a name="use-geo-hierarchies-so-you-can-drill-down-to-different-levels-of-location"></a>使用地理位置层次结构，以便可以向下钻取到不同的位置“级别”
 如果数据集已有不同级别的位置数据，你和同事可以使用 Power BI 创建地理位置层次结构。 为此，请将多个字段拖到“位置”Bucket 中。 通过这种方式结合使用，字段将构成地理位置层次结构。 在下面的示例中，我们已添加了“国家/地区”、“州/省/自治区/直辖市”和“城市”地理位置字段。 在 Power BI 中，你和同事可以使用此地理位置层次结构，向上和向下钻取到不同的位置级别。
 
   ![位置字段](media/power-bi-map-tips-and-tricks/power-bi-hierarchy.png)

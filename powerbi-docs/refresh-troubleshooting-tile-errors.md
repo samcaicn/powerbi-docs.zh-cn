@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: ed75e0eea452f73017259ec9c86c5a8371853fa3
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: acdf174ecf580593e05a784f49122dd33b484cfa
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="troubleshooting-tile-errors"></a>磁贴错误故障排除
 下面是使用磁贴可能会遇到的常见错误以及错误说明。
@@ -69,7 +69,7 @@ ms.lasthandoff: 11/17/2017
 如果你仍然有问题，请[与支持部门联系](https://support.powerbi.com)做进一步调查。
 
 ## <a name="next-steps"></a>后续步骤
-[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
+[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
 [Power BI Personal Gateway 故障排除](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

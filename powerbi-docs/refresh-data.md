@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: ab8b9810029691c13e668710b651843e685006e4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 中的数据刷新
 确保始终获得最新数据对于制定正确决策通常是至关重要的。 你可能已在 Power BI 中使用“获取数据”连接到并上载一些数据，创建了一些报表和仪表板。 现在，你要确保数据确实是最新且最好的。
@@ -181,7 +181,7 @@ Power BI 中有两种类型的内容包：
 | Oracle |是 |是 |是 |
 | Teradata |是 |是 |是 |
 
-若要了解详细信息，请参阅[本地数据网关](service-gateway-onprem.md)
+若要了解详细信息，请参阅[本地数据网关](service-gateway-onprem.md)。
 
 ## <a name="databases-in-the-cloud"></a>云中的数据库
 使用 DirectQuery 时，Power BI 与云中的数据源之间存在直接连接。 与可视化效果交互时，查询会从 Power BI 直接发送到数据库。 随后会返回更新的数据并更新可视化效果。 而且，由于 Power BI 服务和数据源都处于云中，因此不需要个人网关。

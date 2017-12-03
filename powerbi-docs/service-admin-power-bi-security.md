@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: davidi
-ms.openlocfilehash: b5f1122d405f35df8690390167fbdab2efd8ee8d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b4e0e67158237acc70bad5bd3c9528f457cd94b5
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="power-bi-security"></a>Power BI 安全
 有关 Power BI 安全的详细说明，请[下载 Power BI 安全白皮书](http://go.microsoft.com/fwlink/?LinkId=829185)：
@@ -63,5 +63,5 @@ Power BI 的平台安全还包括多租户环境安全、网络安全和添加�
 
 如本文前面部分中所述，用户的 Power BI 登录名由本地 Active Directory 服务器使用以映射到凭据的 UPN。 但是，**必须**注意的是，用户将负责管理共享的数据：如果用户使用自己的凭据连接到数据源，然后基于这些数据（用户所共享的仪表板未针对原始数据源进行身份验证）共享报表（或仪表板、数据集），并将被授予访问报表的权限。
 
-例外情况是使用**本地数据网关**连接到 **SQL Server Analysis Services**；仪表板缓存在 Power BI 中，但对基础报表或数据集的访问会对尝试访问报表（或数据集）启动用户身份验证，且仅当用户有足够的凭据访问数据时才被授予访问权限。 有关详细信息，请参阅[深入了解本地数据网关](service-gateway-onprem-indepth.md)。
+例外情况是使用本地数据网关连接到 SQL Server Analysis Services；仪表板缓存在 Power BI 中，但对基础报表或数据集的访问会对尝试访问报表（或数据集）启动用户身份验证，且仅当用户有足够的凭据访问数据时才被授予访问权限。 有关详细信息，请参阅[深入了解本地数据网关](service-gateway-onprem-indepth.md)。
 

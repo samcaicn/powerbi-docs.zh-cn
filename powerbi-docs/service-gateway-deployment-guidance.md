@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: a96651f55860fd057d50d77dc4dffab4da91cdc5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 3caf9f8aef802e8423f6a3940e55aba99331b912
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>部署 Power BI 数据网关指南
 本文提供在网络环境中部署数据网关的指南和注意事项。 **网关**是一种便于访问驻留在本地专用网络上的数据的软件，方便后续在 Power BI 等云服务中使用这些数据。 本文将指导你完成部署，并为本地数据网关设置提供指南。
@@ -90,7 +90,7 @@ Power BI 提供了两种连接类型：DirectQuery 和 Import。 并非所有数
 #### <a name="logs"></a>日志
 配置和服务日志提供了网关所发生情况的另一层面的信息。 当连接未按预期方式工作时，要记得检查网关日志，因为并非所有的错误信息都会出现在 Power BI 服务上。
 
-在本地计算机上查看所有日志文件的一种简单方法是在初始安装完成后，重新打开网关时，使用 **本地数据网关上的“导出日志”按钮，然后选择“诊断”>“导出日志”。
+在本地计算机上查看所有日志文件的一种简单方法是在初始安装完成后，重新打开网关时，使用本地数据网关上的“导出日志”按钮，然后选择“诊断”>“导出日志”。
 
 #### <a name="additional-logging"></a>附加日志记录
 默认情况下，网关执行基本日志记录。 如果正在调查网关问题，且需要有关查询连接细节的详细信息，可暂时启用“详细日志记录”来收集其他日志信息。 为此，请在已安装的网关中选择“诊断程序”>“其他日志记录”。
@@ -134,7 +134,7 @@ Power BI 提供了两种连接类型：DirectQuery 和 Import。 并非所有数
 登录后，选择“迁移现有网关”选项。 然后，需要选择要恢复或迁移的网关，最后提供恢复密钥并点击配置。 完成该步骤后，旧网关将被新网关替代，新网关将继承其以前配置的名称和所有数据源。 所有数据源现在将通过新计算机，而无需重新发布任何内容。 尚不支持自动故障转移，但网关团队正在积极考虑提供此功能。
 
 #### <a name="administrators"></a>管理员
-可在 Power BI 服务中找到网关管理员列表。 登录 **Power BI 服务时，选择“设置”（齿轮图标）>“管理网关”->“网关 UI”。  
+可在 Power BI 服务中找到网关管理员列表。 登录 Power BI 服务时，请选择“设置”（齿轮图标）>“管理网关”->“网关 UI”。  
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_05.png)
 
@@ -144,7 +144,7 @@ Power BI 提供了两种连接类型：DirectQuery 和 Import。 并非所有数
 
 ## <a name="next-steps"></a>后续步骤
 [配置代理设置](service-gateway-proxy.md)  
-[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
+[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
 [本地数据网关常见问题解答](service-gateway-onprem-faq.md)  
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 11/27/2017
 ms.author: maikelson
-ms.openlocfilehash: a9f825afa7fedcec43626ba9b2f26e20a6408b6d
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 57b1f5dd0e62ce6119201059b01d81294c8d826c
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -29,9 +29,11 @@ ms.lasthandoff: 11/22/2017
 
 ## <a name="featured-webinars"></a>特别推荐的网络研讨会
 
-开始加入这些受欢迎的网络研讨会
+开始加入这些受欢迎的按需网络研讨会
 
 - [开始使用 Power BI](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
+
+- [另请参阅：使用 Power BI 的 Excel 用户可以获得的 5 个优势](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 - [如何设计具有极佳视觉效果的 Power BI 报表](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
@@ -45,8 +47,6 @@ ms.lasthandoff: 11/22/2017
 注册以听取 Power BI 专家的建议并参加实时问答会话
 
 >[从 Power BI 社区参加即将举行的网络研讨会](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-- [另请参阅：使用 Power BI 的 Excel 用户可以获得的 5 个优势 - 2017 年 11 月 27 日](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 - [制造商：你的行业正在经历数字化转型 - 通过利用分析来保持领先地位，实现利润最大化 - 2017 年 12 月 5 日](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
