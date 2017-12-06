@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/20/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 48dfe5b996ff222af0939020c29c95caad3abf73
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 62df61502a6892b359b29d4f3af5b9bccddb044e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI 中颜色格式设置的提示和技巧
 Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介绍了一些技巧，可以让你的 Power BI 可视化效果更引人注目、生动有趣，并可根据你的需求进行自定义。

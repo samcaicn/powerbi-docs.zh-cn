@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 06abac9ceba037769f9720dfbc4f0b32d5486686
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: a707a7b590804d24d60d17590408afbdf8f81f4c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常见查询任务
 使用 Power BI Desktop 的**查询编辑器**窗口时，可执行很多常用任务。 本文档演示了这些常见的任务，并提供其他信息的链接。 

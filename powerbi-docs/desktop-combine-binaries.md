@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 0909056569bb353a720ddd4e8563a37542b90cca
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d0c4f3afb7b8b103dfa59a982b067bbad24251fb
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="combine-binaries-in-power-bi-desktop"></a>合并 Power BI Desktop 中的二进制文件
 向 **Power BI Desktop** 导入数据的一个强大的方法是将具有同一架构的多个文件合并到一个逻辑表中。 随着 2016 年 11 月 **Power BI Desktop**（及后续版本）的发行，这一方便且受欢迎的方法变得更为便捷并被更广泛地使用，如本文中所述。

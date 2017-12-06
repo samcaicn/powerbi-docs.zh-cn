@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 2ffa8a59a13989a4b7cc974d9fa10ad71414e8dd
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 4d7a000095fb954c6b186ab4b2dccab790cd2073
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中创建和管理关系
 导入多个表时，你很可能要使用所有这些表中的数据来执行一些分析。 为准确计算结果并在报表中显示正确信息，这些表格之间的关系是必需的。 Power BI Desktop 可轻松创建这些关系。 事实上，在大多数情况下你无需执行任何操作，自动检测功能将替你执行。 但在某些情况下，你可能需要自行创建关系，或者可能需要对关系进行一些更改。 无论哪种方法，都有必要了解 Power BI Desktop 中的关系及其创建和编辑方式。

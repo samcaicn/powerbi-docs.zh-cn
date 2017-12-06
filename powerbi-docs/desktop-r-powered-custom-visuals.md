@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: d1c247b1c01d87dd273c5a3caca19d4e84ac5392
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: f2887b5d93a6f88c00f8ab8d21676ed53776b9f2
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>在 Power BI 中使用 R 驱动的自定义视觉对象
 在 Power BI Desktop 和 Power BI 服务中，无需掌握任何 R 知识，也无需使用任何 R 脚本，即可使用 R 驱动的自定义视觉对象。 这样一来，无需学习任何 R 知识，也无需自行进行任何编程，即可利用 R 视觉对象和 R 脚本的分析和视觉功能。

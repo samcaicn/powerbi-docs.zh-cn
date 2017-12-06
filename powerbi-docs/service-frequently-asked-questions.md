@@ -15,18 +15,17 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 61d74fb9c25abb0cbc5135795d5567016f88b0c0
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
 * 仍有问题？ 请访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)。
-* 或单击此浏览器窗口右下角的**联系我**图标 ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png)。
 
 ## <a name="what-is-microsoft-power-bi"></a>什么是 Microsoft Power BI？
 [Power BI](https://powerbi.microsoft.com/) 是一种基于云的业务分析服务，使任何人能够用更快的速度、更高的效率以及在更深入了解的情况下，可视化和分析数据。 它通过生动展示数据的易用仪表板、交互式报表和引人注目的可视化效果，让用户看到更广泛的数据。
@@ -156,5 +155,4 @@ Power BI for Office 365 体验已被弃用。
 ## <a name="next-steps"></a>后续步骤
 * 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 * 仍有问题？ 请访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)
-* 或单击此浏览器窗口右下角的**联系我**图标 ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png)。
 

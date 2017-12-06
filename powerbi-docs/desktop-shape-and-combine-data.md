@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 22c5b8f64ef24f6ef6ff918058a56dc36fefddfa
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: bb4f910f0ac6240ed2dab987a7076b3f996b86fe
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>在 Power BI Desktop 中调整和合并数据
 借助 **Power BI Desktop**，可连接到多个不同类型的数据源，然后调整数据以满足你的需求。 *调整* 意味着转换数据 - 如重命名列或表格、将文本更改为数字、删除行、将第一行设为标题等等。 合并数据意味着连接到两个或多个数据源，根据需要调整它们，然后将其合并到一个有用的查询中。

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 5daed750b6e9b80c04f568c39b4e0931c01bbc05
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ea68f787fc59b2f672767fcf49c30761ee4db8cb
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>将 Excel 工作簿导入 Power BI Desktop
 使用 **Power BI Desktop**，你可以轻松将 Excel 工作簿导入 Power BI Desktop（包含 Power Query 查询、Power Pivot 模型和 Power View 工作表）。 报表和可视化效果均基于 Excel 工作簿自动创建，导入后，你可以使用 Power BI Desktop 的现有功能以及其每月更新的新功能继续改善和优化报表。

@@ -1,7 +1,6 @@
 ## <a name="list-of-available-data-source-types"></a>可用数据源类型的列表
 | **数据源** | **实时/DirectQuery** | **用户配置的手动或计划的刷新** |
 | --- | --- | --- | --- |
-| Amazon Redshift |是 |是 |
 | Analysis Services 表格 |是 |是 |
 | Analysis Services 多维 |是 |是 |
 | 文件 |否 |是 |

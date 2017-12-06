@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 3642a252467d504b61eb81f82d0b96f64a24f22b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4e60e63791b1e839eb12c05dd089c5b24c0d63a6
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教程︰使用 Power BI Desktop 进行 Facebook 分析
 在本教程中，你将学习如何导入和可视化来自 **Facebook** 的数据。 在本教程中，你将了解如何连接到特定 Facebook 页面（Power BI 页面）、应用数据转换步骤以及创建某些可视化效果。

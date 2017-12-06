@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: bbc0b90c36272c5a30865d92d78039c20f667ee9
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 5132f34182664327c608a96cd6c2a63ae335a21f
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>将外部 R IDE 与 Power BI 一起使用
 借助 **Power BI Desktop**，可以使用外部的 R IDE（集成开发环境）创建并优化 R 脚本，然后将这些脚本用于 Power BI 中。

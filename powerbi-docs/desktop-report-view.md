@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 3715f2b877073357975af76495f955ff204cbc73
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 1750fc9bec6de6caf17ff3ae6f514efe050f48f1
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop 中的报表视图
 如果你一直在使用 Power BI，就知道它非常便于创建可为数据提供动态透视和深入见解的报表。 在 Power BI Desktop 中，Power BI 还具有更高级的功能。 通过 Power BI Desktop，可创建高级查询、混合多个源中的数据和创建表格之间的关系等。

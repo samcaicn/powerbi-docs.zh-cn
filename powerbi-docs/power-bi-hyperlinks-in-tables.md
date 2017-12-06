@@ -74,7 +74,7 @@ ms.lasthandoff: 11/15/2017
    ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot3.png)
 4. 将光标置于包含你想要将其转换为 Power BI 表中的超链接的 URL 的列。
    
-   > **请注意**：URL 必须以 **http://、https://** 或 **www** 开头。
+   > **请注意**：URL 必须以 **http:// 、https://** 或 **www** 开头。
    > 
    > 
 5. 在 **Reporting 属性**组中，选择**数据类别**下拉列表，然后选择 **Web URL**。 

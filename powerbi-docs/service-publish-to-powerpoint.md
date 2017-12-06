@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 879d142cba4af026cc23188173a380340b4c245b
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ec5d5de3d29ccbe857f6fd40320353c357e6539e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>将报表从 Power BI 导出到 PowerPoint（预览版）
 借助 Power BI，现在可将报表发布到 **Microsoft PowerPoint**，并根据 Power BI 报表轻松地创建幻灯片平台。 **导出到 PowerPoint** 时，会发生以下情况：

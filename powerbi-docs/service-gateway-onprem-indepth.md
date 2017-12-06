@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ca1761c0708681e6b413ba679980bacb3931e01d
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: fbb1b22b930a00fa9e090b3ebc5ab9fd1ffc88c0
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解本地数据网关
 你的组织中的用户可以访问本地数据（他们已经具有该数据的访问授权），但在这些用户可以连接到你的本地数据源之前，需要安装和配置本地数据网关。 该网关便于云中的用户与你的本地数据源相互进行快速安全的后台通信，然后返回到云。

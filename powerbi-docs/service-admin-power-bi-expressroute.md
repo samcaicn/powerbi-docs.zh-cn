@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: cad995ba0abbcc475a28dbddbf060b1017f9da90
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 28380e13646d941a66c0950d0b99ad6ca1ceffe8
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI 和 ExpressRoute
 借助 **Power BI** 和 **ExpressRoute**，可以创建从组织到 Power BI 的专用网络连接（或使用 ISP 的主机托管设施），从而绕过 Internet 以更好地保护敏感 Power BI 数据和连接。

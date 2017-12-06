@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: c4482b8a8b7510b54b317ef9731057a52501d47c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e4655326b731c118265003ba1f530c5c62ac8bfa
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>在 Power BI Desktop 中使用钻取
 通过在 Power BI Desktop 中使用钻取，可以在报表中创建一个侧重于特定实体（如供应商、客户或制造商）的页。 在此针对性报表页上，用户可以右键单击其他报表页上的数据点，并钻取到具有针对性的页，来获取对此上下文进行筛选后的详细信息。

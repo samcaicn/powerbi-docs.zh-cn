@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/20/2017
+ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: f157a5efad5af44d4b97149c379211695800cfd9
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 69e4d89f4118e6ea34ddbd4308965a90a662a970
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 创建报表的相关提示和技巧
 若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop *及*启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。 

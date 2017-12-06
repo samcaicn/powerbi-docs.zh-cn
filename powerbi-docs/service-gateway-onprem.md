@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/27/2017
 ms.author: davidi
-ms.openlocfilehash: e905fa099537f49a9a8e69a9d3121f955b74864f
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 4693349715e7a38ae936318e9a8750e0b2f3fab0
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="on-premises-data-gateway"></a>本地数据网关
 本地数据网关的作用好似一架桥，提供本地数据（不在云中的数据）与 Power BI、Microsoft Flow、逻辑应用以及 PowerApps 服务之间快速且安全的数据传输。

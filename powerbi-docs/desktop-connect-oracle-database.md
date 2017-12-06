@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 5ea1a98c650a789f2b9a9a9383c4fd25a0bb0c73
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 462f4eb939ce34368afe9f4a247166a55b554e24
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="connect-to-an-oracle-database"></a>连接到 Oracle 数据库
 若要将 Oracle 数据库与 **Power BI Desktop** 连接，运行 Power BI Desktop 的计算机上必须安装了正确的 Oracle 客户端软件。 你使用的 Oracle 客户端软件取决于已安装的 Power BI Desktop 版本 - **32 位**版本或 **64 位**版本。

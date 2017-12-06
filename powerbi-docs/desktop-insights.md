@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: d4b1d1866fc56d48960539a420819d99afc13eb1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e32cf08625d6d36013175ad9533eac8791e76814
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>在 Power BI Desktop（预览版）中使用见解
 可以让 Power BI Desktop 解释图表中出现的增加或减少情况，并获得有关数据的快速、自动化且深入的分析。 只需右键单击数据点，然后选择“分析”>“解释此减少情况”（或者如果前一栏较低，则选择“解释此增长情况”），就可以在易用窗口中收到见解。
