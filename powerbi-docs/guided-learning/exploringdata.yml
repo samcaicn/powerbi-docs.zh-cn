@@ -12,16 +12,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
 items:
 - durationInMinutes: 1
-  content: "了解如何在 Power BI 中查找数据、连接到数据并与数据交互。\n"
-  ms.openlocfilehash: 04fc3f0a47ab4194031b6e2bb65eacc0ac89d5f5
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  content: "欢迎学习**探索数据**教程。 本教程介绍如何在 Power BI 中查找数据、连接数据以及与数据交互。\n"
+  ms.openlocfilehash: 67e0b44ff76a8e32de0e6f460afe1fb45954dbb7
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
 - title: "Power BI 服务简介"
   durationInMinutes: 2
   content: >
@@ -92,4 +92,4 @@ items:
 
 
     [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
-- content: "你已完成 Microsoft Power BI 指导式学习的“研究数据”部分。\0"
+- content: "引导式学习教程的本“探索数据”部分已让你为使用各种不同的数据类型做好准备。 下一篇教程介绍如何使用常见的数据源 - Excel。\0"

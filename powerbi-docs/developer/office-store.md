@@ -1,6 +1,6 @@
 ---
-title: "将自定义视觉对象发布到 Office 应用商店"
-description: "了解如何将自定义视觉对象发布到 Office 应用商店以供他人发现和使用。"
+title: "将自定义视觉对象发布到 AppSource"
+description: "了解如何将自定义视觉对象发布到 AppSource 供其他人发现和使用。"
 services: powerbi
 documentationcenter: 
 author: guyinacube
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/20/2017
+ms.date: 12/5/2017
 ms.author: asaxton
-ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: 0d3608d30fdf689c2121e65c5c4cafb861c88c2e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="publish-custom-visuals-to-the-office-store"></a>将自定义视觉对象发布到 Office 应用商店
-了解如何将自定义视觉对象发布到 Office 应用商店以供他人发现和使用。
+# <a name="publish-custom-visuals-to-appsource"></a>将自定义视觉对象发布到 AppSource
+了解如何将自定义视觉对象发布到 AppSource 供其他人发现和使用。 office
 
-在创建自定义视觉对象后，你可能想要将其发布到 Office 应用商店以供他人发现和使用。 在执行该操作之前，必须完成一些准备工作。 有关如何创建自定义视觉对象的详细信息，请参阅[使用开发人员工具创建自定义视觉对象](../service-custom-visuals-getting-started-with-developer-tools.md)。
+在创建自定义视觉对象后，你可能想要将其发布到 AppSource 供其他人发现和使用。 在执行该操作之前，必须完成一些准备工作。 有关如何创建自定义视觉对象的详细信息，请参阅[使用开发人员工具创建自定义视觉对象](../service-custom-visuals-getting-started-with-developer-tools.md)。
 
-![](media/office-store/powerbi-custom-visual-store.png)
+![](media/office-store/AppSource_01.jpg)
 
-什么是 Office 应用商店？ 简单地说，它是查找 Office 365 软件的应用（外接程序）地方。 [Office 应用商店](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)为数百万 Office 365 用户提供解决方案，帮助他们完成工作更加高效、比之前更完美，或者更有见地。
+什么是 AppSource？ 简而言之，可以在其中查找 Microsoft 产品和服务的 SaaS 应用与加载项。 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 为 Office 365、Dynamics 365、Cortana Intelligence 和其他产品的数百万用户提供解决方案，帮助他们更高效、更有见地或更为完美地完成工作。
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>准备提交自定义视觉对象
 在完成编码、测试自定义视觉对象，并将其打包到 pbiviz 文件后，还应准备好以下内容以供提交。
@@ -53,18 +53,18 @@ ms.lasthandoff: 11/21/2017
 在电子邮件中附加 .pbiviz 文件和示例报表 .pbix 文件。 Power BI 团队会回复你，并在回复邮件中添加说明以及要上载的应用包 XML 文件。 必须有此 XML 应用包，才能通过 Office 开发人员中心提交视觉对象。
 
 > [!NOTE]
-> 为了提高质量并确保现有报表不会中断，在应用商店中得到批准后，还将需要 2 周时间更新现有视觉对象，然后再步入生产环境。
+> 为了提高质量并确保现有报表不会中断，在应用商店中得到批准后，还将需要两周时间更新现有视觉对象，然后再步入生产环境。
 > 
 > 
 
-## <a name="submitting-to-the-office-store"></a>提交到 Office 应用商店
-从 Power BI 团队获得应用包 XML 后，请转到 [“Office 开发人员中心”](https://sellerdashboard.microsoft.com/Application/Summary)，将视觉对象提交到 Office 应用商店。
+## <a name="submitting-to-appsource"></a>提交到 AppSource
+从 Power BI 团队获得应用包 XML 后，请转到[开发人员中心](https://sellerdashboard.microsoft.com/Application/Summary)，将视觉对象提交到 AppSource。
 
 > [!NOTE]
 > 必须具有有效的 Office 开发人员帐户才能登录到[“Office 开发人员中心”](https://dev.office.com/)。 Office 开发人员帐户必须是 Microsoft 帐户（Live ID，例如 hotmail.com 或 outlook.com)。
 > 
 > [!IMPORTANT]
-> 在将视觉对象提交到 Office 应用商店之前，必须先将附带 .pbiviz 文件和 .pbix 文件的电子邮件发送到 Power BI 团队。 这是因为 Power BI 团队会将这些文件上载到公共共享服务器。 否则，Office 应用商店将无法检索这些文件。 必须在每次提交新视觉对象时发送这些文件，针对被 Office 应用商店拒绝的提交更新到现有视觉对象和修补程序。
+> 在将视觉对象提交到 AppSource 之前，必须先将附带 .pbiviz 文件和 .pbix 文件的电子邮件发送到 Power BI 团队。 这样，Power BI 团队便可将这些文件上传到公共共享服务器。 否则，应用商店将无法检索这些文件。 每次提交新视觉对象、更新现有视觉对象和修复被拒绝的提交内容时，都必须发送这些文件。
 > 
 > 
 

@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 58af226f6c3d93fffc805e23fcf1bda0d055058d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 29a089e13c2dd687a2caf19f43b1aae28e397a20
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中创建和发布包含仪表板和报表的应用
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/15/2017
 
 利用 Power BI 应用（现为预览版），可以创建各组仪表板和报表，并向整个组织或特定人员或组发布这些应用。 对于报表创建者或管理员，应用能使管理仪表板集合的权限变得更轻松。
 
-业务用户可以通过多种不同的方式获取你的应用。 如果 Power BI 管理员已授予你权限，则可以将这些应用自动安装到同事的 Power BI 帐户中。 或者，他们可以从 Microsoft AppSource 安装这些应用，也可以直接向他们发送一个链接。 他们可以轻松地找到并返回到你的内容，因为所有内容都在同一个位置。 他们将自动获得更新，你可以控制数据刷新的频率。 详细了解[业务用户的应用体验](service-install-use-apps.md)。
+业务用户可以从 Microsoft AppSource 安装这些应用，或者你可以向他们发送直接链接。 他们可以轻松地找到并返回到你的内容，因为所有内容都在同一个位置。 他们将自动获得更新，你可以控制数据刷新的频率。 详细了解[业务用户的应用体验](service-install-use-apps.md)。
 
 ### <a name="apps-and-organizational-content-packs"></a>应用和组织内容包
 应用由组织内容包演变而来。 如果你已具有组织内容包，它们将继续与应用并行工作。
@@ -119,7 +119,7 @@ ms.lasthandoff: 11/15/2017
    
      ![应用内容](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. 最后，在“访问”中，决定有权访问应用的人员：要么是组织中的所有人，要么是特定人员或者电子邮件通讯组列表。 如果具有相应的权限，则可以决定是否为收件人自动安装应用。
+4. 最后，在“访问”中，决定有权访问应用的人员：要么是组织中的所有人，要么是特定人员或者 Active Directory 安全组。 
    
      ![应用访问](media/service-create-distribute-apps/power-bi-apps-access.png)
 
@@ -127,7 +127,7 @@ ms.lasthandoff: 11/15/2017
    
      ![应用完成](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-已向其发布应用的业务用户可以通过多种不同的方式找到它。 首先，如果你可以为用户自动安装应用，则该应用将在其 Power BI 帐户的“应用”下出现。  你可以向他们发送应用的直接链接，或者他们可以在 Microsoft AppSource 中进行搜索，在那里他们将看到可以访问的所有应用。 在转到“应用”后，都可以在列表中看到此应用。
+已向其发布应用的业务用户可以通过两种不同的方式找到它。 你可以向他们发送应用的直接链接，或者他们可以在 Microsoft AppSource 中进行搜索，在那里他们将看到可以访问的所有应用。 在转到“应用”后，都可以在列表中看到此应用。
 
 详细了解[业务用户的应用体验](service-install-use-apps.md)。
 

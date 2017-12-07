@@ -12,16 +12,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
 items:
 - durationInMinutes: 1
   content: "结合使用 Excel 和 Power BI，创建强大的连接报表和视觉对象。\n"
-  ms.openlocfilehash: 2d734b12d3ff197addff0a0cf39b1f399d70e3a6
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: 696459a8cd0ea243c0eb59548bac4379b403764d
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
 - title: "在 Power BI 中使用 Excel 数据简介"
   durationInMinutes: 2
   content: >
@@ -57,4 +57,4 @@ items:
 
 
     [!INCLUDE [](includes/5-8-excel-data-summary.md)]
-- content: "你已经完成了 Power BI 指导式学习的“Power BI 和 Excel”部分。\0"
+- content: "现已顺利完成 Power BI 引导式学习教程的“Power BI 和 Excel”部分。 接下来请学习如何发布和共享。\0"

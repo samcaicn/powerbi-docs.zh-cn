@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 3e48f08237767a4c0cc5e1a8ddfc70a9087fbc1c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/2017
+ms.author: mihart
+ms.openlocfilehash: 22d939dbd0a582611f2f4e90e2306456376e211b
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>创建要用于 Power BI 的 Azure Active Directory 租户
 了解如何使用 Power BI REST API 新建用于自定义应用程序的 Azure Active Directory (Azure AD) 租户。
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/13/2017
 你的组织可能已拥有你可用于应用程序的 Azure AD 租户。 你的应用程序可以使用该租户，你也可以专门为你的应用程序创建新租户。 本文讨论如何创建新租户。
 
 ## <a name="create-an-azure-active-directory-tenant"></a>创建 Azure Active Directory 租户
-若要将 Power BI 集成到自定义应用程序内，需要在 Azure AD 中定义应用程序。 若要执行此操作，需要一个 Azure AD 内的目录。 这是你的租户。 如果组织未使用 Power BI 或 Office 365，还没有租户，你将需要创建一个新租户。 如果不希望你的应用程序与组织的租户混合，可能也需要创建一个新租户。 这可以使内容保持独立。
+若要将 Power BI 集成到自定义应用程序内，需要在 Azure AD 中定义应用程序。 若要执行此操作，需要一个 Azure AD 内的目录。 这是你的租户。 如果组织未使用 Power BI 或 Office 365，因此没有租户，则[需要创建一个新租户](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)。 如果不希望你的应用程序与组织的租户混合，可能也需要创建一个新租户。 这可以使内容保持独立。
 
 或者，你可能只是出于测试目的创建租户。
 

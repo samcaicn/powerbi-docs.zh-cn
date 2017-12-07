@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 7774153ff73fb67a434ac79016507a2e94cf40f1
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 6fbd9f56099e4053524a04680c0d4c0c366ce068
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI 网关故障排除 - 个人
 以下介绍使用 Power BI 个人网关时可能遇到的一些常见问题。
 
 > [!NOTE]
-> 如果遇到上文未列出的问题，可以通过[社区网站](http://community.powerbi.com/)寻求进一步的支持，或者可以创建[支持票证](https://powerbi.microsoft.com/support/)。
+> 最新版本的个人用网关为**本地数据网关（个人版）**。 请更新安装以使用该版本。
 > 
 > 
 

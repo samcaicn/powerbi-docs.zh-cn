@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: dcb262d110025f2c36c4029227b353132c4dafb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2c249cac17e8fe6da35634c78837e3ca16e70a5c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 OneDrive for Business 链接
 很多人将 Excel 工作簿存储在 OneDrive for Business 驱动器上，这在 OneDrive 中使用起来非常方便。 通过 **Power BI Desktop**，你可以使用 **OneDrive for Business** 中存储的 **Excel** 文件的联机链接来创建报表和视觉对象。 你可以使用 **OneDrive for Business** 组帐户或 **OneDrive for Business** 个人帐户。
@@ -37,7 +37,7 @@ ms.lasthandoff: 11/15/2017
    > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. 在 **Excel** 中，选择**文件 > 信息**，然后选择**保护工作簿**按钮上面的链接。 选择**将链接复制到剪贴板**。
+2. 在 **Excel** 中，选择**文件 > 信息**，然后选择**保护工作簿**按钮上面的链接。 选择“将链接复制到剪贴板”（版本中可能显示“将路径复制到剪贴板”）。
    
    ![](media/desktop-use-onedrive-business-links/odb-links_03.png)
 

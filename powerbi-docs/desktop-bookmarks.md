@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a5542e7a4c0b1d5014a6fce0042c07fec7398ab4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e60ff6d06e4ac0cddf398ccfc1d30e4d97e0773c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>使用书签在 Power BI 中共享见解和创建情景（预览版）
 使用 Power BI 中的“书签”，可以捕获当前配置的报表页视图（包括视觉对象的筛选器和状态），然后只需选择保存的书签即可恢复相应状态。 
@@ -152,7 +152,8 @@ ms.lasthandoff: 11/15/2017
 * 创建书签时，报表窗格的交叉突出显示状态不会一起保存。 
 * 如果在创建书签后在报表页上添加视觉对象，此视觉对象将以默认状态显示。 也就是说，如果在之前创建书签的页面中引入切片器，此切片器将在默认状态下运行。
 * 创建书签后，如果移动视觉对象，书签中也会予以反映。 
-* 将报表发布到 Power BI 服务时，报表中至少必须有一个书签，才能在此服务中使用书签。 发布的每个报表都必须满足此要求。
+* 将报表发布到 **Power BI 服务**时，报表中至少必须有一个书签，才能在此服务中使用书签。 发布的每个报表都必须满足此要求。
+* 由于书签目前是一项预览版功能，它们尚不能在[**适用于报表服务器的 Power BI Desktop**](report-server/quickstart-create-powerbi-report.md) 中使用。
 
 ## <a name="next-steps"></a>后续步骤
 若要详细了解与书签类似的功能或如何与书签交互，请参阅以下文章：

@@ -1,5 +1,5 @@
 ---
-title: "在 Power BI Desktop（预览版）中进行双向交叉筛选"
+title: "在 Power BI Desktop 中进行双向交叉筛选"
 description: "在 Power BI Desktop 中使用 DirectQuery 启用交叉筛选"
 services: powerbi
 documentationcenter: 
@@ -15,15 +15,15 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 7946a9389897c4401e581482c0630547a764616d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 59004a6d9baa0e83c94da7394e269bb50797d37b
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop-preview"></a>在 Power BI Desktop（预览版）中使用 DirectQuery 启用双向交叉筛选
+# <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery 启用双向交叉筛选
 
 筛选表创建相应数据视图时，报表创建者（和数据建模者）会在确定如何将筛选应用于报表时面临挑战；表的筛选上下文只处于关系的一方，另一方却没有，并且通常需要复杂的 DAX 公式来获取所需结果。
 
@@ -34,16 +34,6 @@ ms.lasthandoff: 11/15/2017
 * 下载[ Power BI Desktop 的双向交叉筛选](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)白皮书
 
 ### <a name="enabling-bidirectional-cross-filtering-for-directquery"></a>启用 DirectQuery 的双向交叉筛选
-若要使用 DirectQuery 的交叉筛选，必须先启用它。 这是预览功能，意味着在即将发布的 Power BI Desktop 版本中，其可用性和行为将发生更改。
-
-若要启用 Power BI Desktop 中的 DirectQuery 的交叉筛选，请选择“文件”>“选项和设置”>“选项”，然后选中“为 DirectQuery 启用双向交叉筛选”旁边的框，如下图所示。
-
-![](media/desktop-bidirectional-filtering/bidirectional-filtering_1.png)
-
-> [!NOTE]
-> 在 Power BI Desktop 中创建交叉筛选 DAX 公式时，请使用 UserPrincipalName（通常与用户登录名相同，如 joe@contoso.com）而不是 UserName。 正因如此，你可能需要创建一个可将 *UserName* （或 EmployeeID）映射到 *UserPrincipleName* 的相关表。
-> 
-> 
 
 若要启用交叉筛选，在关系的“编辑关系”对话框中，必须选择以下项：
 
@@ -51,6 +41,11 @@ ms.lasthandoff: 11/15/2017
 * 还必须选择“应用双向安全筛选器”
   
   ![](media/desktop-bidirectional-filtering/bidirectional-filtering_2.png)
+
+> [!NOTE]
+> 在 Power BI Desktop 中创建交叉筛选 DAX 公式时，请使用 UserPrincipalName（通常与用户登录名相同，如 joe@contoso.com）而不是 UserName。 正因如此，你可能需要创建一个可将 *UserName* （或 EmployeeID）映射到 *UserPrincipleName* 的相关表。
+> 
+> 
 
 有关详细信息以及双向交叉筛选工作方式的示例，请查看本文前面部分提及的[白皮书](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)。
 

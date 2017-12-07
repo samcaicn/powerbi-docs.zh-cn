@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 022f085d12d7dc872052ca9205deca264b1c0418
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2a7b4cc652e600b9a368f6f7eda657c06e131da3
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="share-power-bi-reports-with-your-coworkers"></a>与同事共享 Power BI 报表
 共享是一种使多人能够访问你的仪表板和报表的有效方式。 Power BI 提供了[多种开展协作和分发报表的方式](service-how-to-collaborate-distribute-dashboards-reports.md)，共享只是其中之一。
@@ -68,13 +68,14 @@ ms.lasthandoff: 11/15/2017
    
    在本示例中，表的名称是 **Store**，字段的名称是 **Territory**，我们要筛选的依据值是 **NC**：
    
-    ?filter=Store/Territory eq NC
+    ?filter=Store/Territory eq 'NC'
    
    ![已筛选的报表 URL](media/service-share-reports/power-bi-filter-url3.png)
    
-   浏览器会添加特殊字符来表示斜杠和空格，因此最终会得到：
+   浏览器会添加特殊字符来表示斜杠、空格和撇号，因此最终会看到：
    
-   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Store%252FTerritory%20eq%20NC
+   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
+
 3. 将此 URL 发送给同事。 
    
    当他们选中此链接时，Power BI 将打开已筛选报表的只读版本。

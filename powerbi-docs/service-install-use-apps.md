@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 72cfae29d00d5612abed6e5de7475dd1c62ab1b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中安装和使用包含仪表板和报表的应用
 在 Power BI 中，应用将相关仪表板和报表汇总到一处。 组织中的人员可以创建并分发包含关键业务信息的应用。 可能已使用的[外部服务](service-connect-to-services.md)（如 Google Analytics 和 Microsoft Dynamics CRM）也提供 Power BI 应用。 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/15/2017
 计划创作应用？ 请参阅[在 Power BI 中构建和发布应用](service-create-distribute-apps.md)，了解详细信息。
 
 ## <a name="get-a-new-app"></a>获取新的应用
-可以通过多种不同的方式获取应用。 应用作者可以在 Power BI 帐户中自动安装应用或向你发送应用的直接链接，或者，你也可以在 AppSource 中进行搜索，在其中可以看到所有可以访问的应用。 在移动设备上的 Power BI 中，只能通过直接链接（而不是 AppSource）安装应用。 如果应用作者自动安装应用，将能够在你的应用列表中看到它。
+可以通过两种不同的方式获取应用。 应用作者可以向你发送应用的直接链接，或者，你也可以在 AppSource 中进行搜索，在其中可以看到所有可以访问的应用。 在移动设备上的 Power BI 中，只能通过直接链接（而不是 AppSource）安装应用。 
 
 ### <a name="install-an-app-from-a-direct-link"></a>通过直接链接安装应用
 自行安装新应用的最简单方法是从应用作者处获取直接链接。 Power BI 创建安装链接，作者可以发送此链接。

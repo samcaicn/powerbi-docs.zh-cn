@@ -15,15 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/27/2017
 ms.author: asaxton
-ms.openlocfilehash: 339e3bc6f5a8acda20313e2f99e1b9b041bc2225
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d831363d6afa88aa94d78776f59f81ba8ba96299
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理门户
+
 通过管理门户允许对组织中的 Power BI 进行租户管理。 它包括诸如使用情况指标、对 Office 365 管理中心的访问以及设置这类项目。
 
 针对公司的 Power BI 租户管理通过 Power BI 管理门户进行。 Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的用户都可以访问管理门户。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。
@@ -31,6 +32,7 @@ ms.lasthandoff: 11/13/2017
 所有用户都将看到齿轮图标下的“管理员门户”。 如果他们不是管理员，他们将只能看到“Premium 设置”部分，并且将只能看到他们有权管理的容量。
 
 ## <a name="how-to-get-to-the-admin-portal"></a>如何访问管理门户
+
 帐户必须标记为 Office 365 或 Azure Active Directory 中的 **全局管理员** ，或者已分配到 Power BI 服务管理员角色，才能获取对 Power BI 管理门户的访问权限。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。 若要访问 Power BI 管理门户，请执行以下操作。
 
 1. 在 Power BI 服务右上角选择设置齿轮。
@@ -45,6 +47,7 @@ ms.lasthandoff: 11/13/2017
 * [审核日志](#audit-logs)
 * [租户设置](#tenant-settings)
 * [Premium 设置](#premium-settings)
+* [嵌入代码](#embed-codes)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -53,8 +56,6 @@ ms.lasthandoff: 11/13/2017
 
 > [!NOTE]
 > 首次访问仪表板时，或在长时间未查看仪表板后再次进行访问之后，你可能会在我们加载仪表板时看到加载屏幕。
-> 
-> 
 
 仪表板加载之后，你会看到两个部分的磁贴。 第一个部分包含单个用户的使用情况数据，第二个部分包含有关组织中的组的类似信息。
 
@@ -63,15 +64,19 @@ ms.lasthandoff: 11/13/2017
 * 用户工作区中的所有仪表板、报表和数据集的非重复计数
   
     ![](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
+
 * 按可以进行访问的用户数划分的使用量最大的仪表板。 例如，如果你将 1 个仪表板与 3 个用户共享，并且还将它添加到 2 个不同用户连接到的内容包，则其计数会是 6 (1 + 3 + 2)
   
     ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
+
 * 用户连接到的最受欢迎内容。 这是用户可以通过“获取数据”过程访问的任何内容，如 SaaS 内容包、组织内容包、文件或数据库。
   
     ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
+
 * 基于用户具有的仪表板数（他们自己创建的仪表板以及与他们共享的仪表板）的排名靠前用户视图。
   
     ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
+
 * 基于用户具有的报表数的排名靠前用户视图
   
     ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
@@ -81,6 +86,7 @@ ms.lasthandoff: 11/13/2017
 借助此信息，你能够真正地深入了解用户在组织中如何使用 Power BI，并能够识别在组织中非常活跃的用户和组。
 
 ## <a name="users"></a>用户
+
 管理门户中的第二个选项卡是**管理用户**。 针对 Power BI 的用户管理在 Office 365 管理中心中进行，因此通过此部分可以快速访问用于在 Office 365 中管理用户、管理员和组的区域。
 
 ![](media/service-admin-portal/powerbi-admin-manage-users.png)
@@ -90,33 +96,36 @@ ms.lasthandoff: 11/13/2017
 ![](media/service-admin-portal/powerbi-admin-o365-admin-center.png)
 
 ## <a name="audit-logs"></a>审核日志
+
 管理门户中的第三张选项卡为“审核日志”。 这些日志位于 Office 365 安全与合规中心内。 通过此分区，可在 Office 365 内快速访问该区域。 
 
 有关审核日志的详细信息，请参阅[在组织中审核 Power BI](service-admin-auditing.md)
 
 ## <a name="tenant-settings"></a>租户设置
+
 管理门户中的第三个选项卡是**租户设置**。 租户设置使你可以更好地控制向组织提供的功能。 如果你担心敏感数据、我们的某些功能可能不适合你的组织，或者你只需要为特定组提供给定的功能。 如果出现这种情况，则可以在租户中关闭它。
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
 > 可能需要 10 分钟才会使设置对租户中的每个人生效。
-> 
-> 
 
 根据你提供的设置，设置可以有三种状态。
 
 ### <a name="disabled-for-the-entire-organization"></a>为整个组织禁用
+
 可以禁用某个功能，使用户不能使用它。
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
 ### <a name="enabled-for-the-entire-organization"></a>为整个组织启用
+
 可以为整个组织启用某个功能，这会使所有用户拥有访问该功能的权限。
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
 ### <a name="enabled-for-a-subset-of-the-organization"></a>为组织的子集启用
+
 还可以为组织的一部分启用某个功能。 这可以以多种不同的方式来实现。 可以为除特定用户组之外的整个组织启用功能。
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
@@ -126,37 +135,45 @@ ms.lasthandoff: 11/13/2017
 ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 ## <a name="export-and-sharing-settings"></a>导出和共享设置
+
 ### <a name="share-content-to-external-users"></a>向外部用户共享内容
+
 组织中的用户可以与组织外部的用户共享仪表板。
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
 ### <a name="publish-to-web"></a>发布到 Web
+
 组织中的用户可以将报表发布到 Web。 [了解详细信息](service-publish-to-web.md)
 
 ![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
 
-> [!NOTE]
-> 此设置应用于整个组织，并且不能限制为特定组。
-> 
-> 
+根据发布到 Web 设置的内容，用户会在 UI 中看到不同的选项。
+
+|功能 |为整个组织启用 |为整个组织禁用 |特定的安全组   |
+|---------|---------|---------|---------|
+|报表“文件”菜单下的“发布到 Web”。|为所有对象启用|向所有对象隐藏|仅向已授权的用户或组显示。|
+|“设置”下的“管理嵌入代码”|为所有对象启用|为所有对象启用|为所有对象启用<br><br>仅向已授权的用户或组显示“删除”选项。* <br>为所有对象启用“获取代码”。* |
+|管理门户中的“嵌入代码”|“状态”将反映以下状态之一：<br>* 活动<br>* 不支持<br>* 已阻止|状态将显示“已禁用”|“状态”将反映以下状态之一：<br>* 活动<br>* 不支持<br>* 已阻止<br><br>如果未根据租户设置为某个用户授权，状态将显示为“侵权”。|
+|现有的已发布报表|全部已启用|全部已禁用|继续向所有对象呈现报表。|
 
 ### <a name="export-data"></a>导出数据
+
 组织中的用户可以从磁贴或可视化效果导出数据。 [了解详细信息](power-bi-visualization-export-data.md)
 
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
 > 禁用“导出数据”还会阻止用户使用“在 Excel 中分析”功能，同时也会阻止用户使用 Power BI 服务实时连接。
-> 
-> 
 
 ### <a name="export-reports-as-powerpoint-presentations"></a>将报表导出为 PowerPoint 演示文稿
+
 组织中的用户可以将 Power BI 报表导出为 PowerPoint 文件。 [了解详细信息](service-publish-to-powerpoint.md)
 
 ![](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>打印仪表板和报表
+
 组织中的用户可以打印仪表板和报表。 [了解详细信息](service-print.md)
 
 ![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
@@ -164,79 +181,89 @@ ms.lasthandoff: 11/13/2017
 ![](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ## <a name="content-pack-settings"></a>内容包设置
+
 ### <a name="publish-content-packs-to-the-entire-organization"></a>向整个组织发布内容包
+
 组织中的用户可以向整个组织发布内容包。
 
 ![](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
 ### <a name="create-template-organizational-content-packs"></a>创建模板组织内容包
+
 组织中的用户可以创建特定的模板内容包，这些内容包使用基于 Power BI Desktop 中某个数据源生成的数据集。
 
 ## <a name="integration-settings"></a>集成设置
+
 ### <a name="ask-questions-about-data-using-cortana"></a>使用 Cortana 询问有关数据的问题
 组织中的用户可以使用 Cortana 询问有关其数据的问题。
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
-> 
-> 
 
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>结合使用“在 Excel 中分析”功能和本地数据集
 组织中的用户可以使用 Excel 查看本地 Power BI 数据集，并与其进行交互。 [了解详细信息](service-analyze-in-excel.md)
 
 > [!NOTE]
 > 禁用“**导出数据**”还会阻止用户使用“**在 Excel 中分析**”功能。
-> 
-> 
 
 ### <a name="user-arcgis-maps-for-power-bi-preview"></a>使用适用于 Power BI 的 ArcGIS 地图（预览）
+
 组织中的用户可以使用 Esri 提供的适用于 Power BI 的 ArcGIS 地图（预览）可视化效果。 [了解详细信息](power-bi-visualization-arcgis.md)
 
 ## <a name="r-visuals-settings"></a>R 视觉对象设置
+
 ### <a name="interact-with-an-dshare-r-visuals"></a>与 dshare R 视觉对象进行交互
+
 组织中的用户可以与使用 R 脚本创建的视觉对象进行交互并共享。 [了解详细信息](service-r-visuals.md)
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
-> 
-> 
 
 ## <a name="audit-settings"></a>审核设置
+
 ### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>为实现内部活动审核和符合性而创建审核日志
+
 组织中的用户可以使用审核来监视组织中的其他用户在 Power BI 中执行的操作。 [了解详细信息](service-admin-auditing.md)
 
 需要为审核日志条目启用此设置，才能对其进行记录。
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
-> 
-> 
 
 ## <a name="dashboard-settings"></a>仪表板设置
+
 ### <a name="data-classification-for-dashboards"></a>仪表板的数据分类
+
 组织中的用户可以通过分类标记仪表板，指示仪表板的安全级别。 [了解详细信息](service-data-classification.md)
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
-> 
-> 
 
 ## <a name="developer-settings"></a>开发人员设置
+
 ### <a name="embed-content-in-apps"></a>在应用中嵌入内容
+
 组织中的用户可以在软件即服务 (SaaS) 应用程序中嵌入 Power BI 仪表板和报表。 禁用此设置将阻止用户使用 REST API 将 Power BI 内容嵌入到其应用程序中。
 
 ## <a name="premium-settings"></a>Premium 设置
+
 通过“Premium 设置”选项卡，可以管理已为组织购买的任何 Power BI Premium 容量。 组织中的所有用户将看到“Premium 设置”选项卡，但如果将他们分配为容量管理员或具有分配权限的用户，他们将只看到其中的内容。 如果用户没有任何权限，他们会看到以下消息。
 
 ![](media/service-admin-portal/premium-settings-no-access.png "没有访问 Premium 设置的权限")
 
 有关如何管理 Premium 设置的详细信息，请参阅[管理 Power BI Premium](service-admin-premium-manage.md)。
 
+## <a name="embed-codes"></a>嵌入代码
+
+![在 Power BI 管理门户中嵌入代码](media/service-admin-portal/embed-codes.png)
+
+管理员可以查看针对其租户生成的嵌入代码。 可以执行相应的操作来查看报表，以及删除嵌入代码以将其撤消。
+
 ## <a name="next-steps"></a>后续步骤
+
 [了解 Power BI 管理员角色](service-admin-role.md)  
 [在组织中审核 Power BI](service-admin-auditing.md)  
 [管理 Power BI Premium](service-admin-premium-manage.md)  
 [在组织中管理 Power BI](service-admin-administering-power-bi-in-your-organization.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
-

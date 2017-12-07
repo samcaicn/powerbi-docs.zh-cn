@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>对 Power BI 已嵌入内容使用行级别安全性
 行级别安全性 (RLS) 可用于限制用户对报表或数据集中的数据的访问，从而允许多个不同的用户在同时查看不同的数据时使用相同的报表。 当嵌入 Power BI 中的报表时，可以利用 RLS。
@@ -145,7 +145,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 * 虽然 Power BI 服务不会将 RLS 设置应用于管理员或具有编辑权限的成员，当提供具有嵌入令牌的标识时，它将应用于数据。
 * 调用 GenerateToken 时，报表读/写仅支持传递标识信息。 稍后将推出对其他资源的支持。
 * 本地服务器支持 Analysis Services 实时连接。
-* 不支持 Azure Analysis Services 实时连接。
+* Azure Analysis Services 实时连接支持按角色筛选，但不支持按用户名动态筛选。
 * 如果基础数据集不需要 RLS，则 GenerateToken 请求不得包含有效的标识。
 * 如果基础数据集是云模型（缓存的模型或 DirectQuery），则有效的标识必须至少包含一个角色。 否则，不会进行角色分配。
 * 标识列表中只能提供一个标识。 未来，将针对仪表板嵌入，使用列表启用多标识令牌。

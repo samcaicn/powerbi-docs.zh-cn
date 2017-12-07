@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 8f009e382321d296191d861245e005c1ffb7ee33
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: c0689b969c1956d0344afb2bc8aef7bda32c159e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 入门
 欢迎使用 **Power BI Desktop 入门指南**。 此 Power BI Desktop 简短教学课程能让你熟悉它的运作方式、示范它的功能以及加速你构建稳固数据模型的能力 - 以令人惊叹的报表增强你的商业智慧工作。 
@@ -43,6 +43,10 @@ Power BI Desktop 可让你创建查询、数据连接和报表的集合，轻松
 
 若要更深入了解，你也可以阅读每一部分、执行这些步骤，然后带走你自己的 Power BI Desktop 文件，该文件随时都可发布到 **Power BI** 服务，并与他人共享。
 
+>[!NOTE]
+>此外，还有一个称作 [**Power BI 报表服务器**](report-server/get-started.md)的 **Power BI** 独立专业版本，它面向需要在本地保留数据和报表的客户。 与该专业版本配合使用的，还有一个称作**适用于 Power BI 报表服务器的 Power BI Desktop** 的 **Power BI Desktop** 独立专业版本，该版本仅适用于 Power BI 的报表服务器版本。 本文介绍标准版 **Power BI Desktop**。
+
+
 ## <a name="how-power-bi-desktop-works"></a>Power BI Desktop 工作原理
 使用 Power BI Desktop，你可以 *连接到数据* （通常多个数据源）， *调整该数据* （使用能生成具洞察力、吸引力的数据模型的查询），以及使用该模型来 *创建报表* （他人可以利用、以其为基础构建并共享）。
 
@@ -51,6 +55,8 @@ Power BI Desktop 可让你创建查询、数据连接和报表的集合，轻松
 Power BI Desktop 会集中、简化并效率化设计与创建商业智能存储库和报表的程序，这些程序可能是散乱、不相关且棘手的。
 
 准备好要试一试吗？ 让我们开始吧。
+
+
 
 ## <a name="install-and-run-power-bi-desktop"></a>安装并运行 Power BI Desktop
 你可以在 **Power BI** 服务中下载 Power BI Desktop，方法是先选择**齿轮**图标，然后选择 **Power BI Desktop**。
