@@ -252,8 +252,6 @@
           href: service-insight-types.md
         - name: 面向 Power BI Quick Insights 优化数据
           href: service-insights-optimize.md
-        - name: 在全屏模式（电视模式）下显示仪表板磁贴
-          href: service-tile-fullscreen-mode.md
         - name: Power BI 中的特色仪表板
           href: service-dashboard-featured.md
         - name: 创建仪表板电话视图
