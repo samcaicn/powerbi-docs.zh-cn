@@ -15,32 +15,47 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: e492d31a8e1ed57a769c9a36f515d99369f6d6dc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fa844004911f41a179542dcfff702f371cc951f8
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>快速入门：为 Power BI 报表服务器创建 Power BI 报表
 可以在 Power BI 报表服务器 Web 门户中在本地存储和管理 Power BI 报表，就像在 Power BI 服务 (https://powerbi.com) 中的云中存储 Power BI 报表一样。 可以在 Power BI Desktop 中创建和编辑报表，并将其发布到 Web 门户中。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。
 
 ![Web 门户中的 Power BI 报表](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
-如果已在 Power BI Desktop 中创建 Power BI 报表，便可以为 Power BI 报表服务器创建 Power BI 报表。 如果还没有，可以参阅下面的四个快速入门步骤。
+可以遵循以下四个步骤入门。
 
-## <a name="step-1-install-power-bi-desktop-report-server"></a>第 1 步：安装 Power BI Desktop（报表服务器）
-可能已安装 Power BI Desktop 来为 Power BI 服务创建报表。 建议安装更适合 Power BI 报表服务器的 Power BI Desktop 版本，这样就能确定服务器和应用始终同步。可以在同一台计算机上安装两个版本的 Power BI Desktop。
+## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>步骤 1：安装已针对 Power BI 报表服务器进行优化的 Power BI Desktop
 
-1. 在 Power BI 报表服务器 Web 门户中，选择“新建” > “Power BI 报表”。
+如果已在 Power BI Desktop 中创建 Power BI 报表，便可以开始为 Power BI 报表服务器创建 Power BI 报表。 建议安装更适合 Power BI 报表服务器的 Power BI Desktop 版本，这样就能确定服务器和应用始终同步。可以在同一台计算机上安装两个版本的 Power BI Desktop。
+
+1. 在报表服务器 Web 门户中，选择“下载”箭头 >“Power BI Desktop”。
+
+    ![从 Web 门户下载 Power BI Desktop](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
+
+    或者，可以在 Microsoft 下载中心直接转到[“Microsoft Power BI Desktop”](https://go.microsoft.com/fwlink/?linkid=861076)（已针对 Power BI 报表服务器进行优化 - 2017 年 10 月版）。
+
+2. 在“下载中心”页中，选择“下载”。
+
+3. 根据所用的计算机选择：
+
+    - **PBIDesktopRS.msi**（32 位版本）或
+
+    - **PBIDesktopRS_x64.msi**（64 位版本）。
+
+4. 下载安装程序后，运行 Power BI Desktop（2017 年 10 月版）安装向导。
+
+2. 安装结束时，请选中“立即启动 Power BI Desktop”。
    
-    ![新建 Power BI 报表](media/quickstart-create-powerbi-report/report-server-web-portal-new-powerbi-report.png)
-   
-    如果没有访问 Power BI 报表服务器 Web 门户的权限，则转到 Microsoft 下载中心并下载 [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=837581)（针对 2017 年 6 月 GA 版本 Power BI 报表服务器进行了优化）。
-2. 在安装过程结束时，请选中“立即启动 Power BI Desktop”。
-   
-    此时，它会自动启动，可以开始使用了。 可以看到你拥有正确的版本，因为“Power BI Desktop（报表服务器）”位于标题栏中。
+    此时，它会自动启动，可以开始使用了。 根据标题栏中显示的“Power BI Desktop (2017 年 10 月版)”，便知道使用了正确的版本。
+
+    ![Power BI Desktop 2017 年 10 月版](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+
 3. 如果不熟悉 Power BI Desktop，请考虑观看欢迎屏幕上的视频。
    
     ![Power BI Desktop 开始屏幕](media/quickstart-create-powerbi-report/report-server-powerbi-desktop-start.png)
