@@ -92,6 +92,8 @@
           href: service-admin-premium-purchase.md
         - name: 管理 Power BI Premium
           href: service-admin-premium-manage.md
+        - name: 支持大型数据集
+          href: service-premium-large-datasets.md
         - name: Power BI Premium 常见问题解答
           href: service-premium-faq.md
         - name: Power BI Premium 发行说明
