@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 29a089e13c2dd687a2caf19f43b1aae28e397a20
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中创建和发布包含仪表板和报表的应用
 
@@ -120,8 +120,6 @@ ms.lasthandoff: 12/06/2017
      ![应用内容](media/service-create-distribute-apps/power-bi-apps-content.png)
 
 4. 最后，在“访问”中，决定有权访问应用的人员：要么是组织中的所有人，要么是特定人员或者 Active Directory 安全组。 
-   
-     ![应用访问](media/service-create-distribute-apps/power-bi-apps-access.png)
 
 5. 选择“完成”时，将看到一条消息，确认已准备好发布。 在成功对话框中，你可以复制直接链接到此应用的 URL 并将其发送给共享的人员。
    

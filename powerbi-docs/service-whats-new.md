@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 7f01ed805358b5b74a32ae26fb757f592c617088
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能。 有关相关的“新增功能”的信息，请参阅：
@@ -167,7 +167,7 @@ ms.lasthandoff: 11/27/2017
 
 **2016 年 4 月 28 日**
 
-* [仪表板磁贴上的 Quick Insights](service-insights.md#run-quick-insights-on-a-dashboard-tile)：当在“焦点”模式中查看磁贴时，单击“获得见解”可在几秒内自动搜索磁贴及其相关项、离群值、趋势、季节性、趋势变化点和主要因素的相关数据。
+* [仪表板磁贴上的 Quick Insights](service-insights.md)：当在“焦点”模式中查看磁贴时，单击“获得见解”可在几秒内自动搜索磁贴及其相关项、离群值、趋势、季节性、趋势变化点和主要因素的相关数据。
 
 有关所有详细信息，[请访问 Power BI 团队博客](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)
 
