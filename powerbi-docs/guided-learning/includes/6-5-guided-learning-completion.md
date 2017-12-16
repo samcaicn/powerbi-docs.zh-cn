@@ -4,13 +4,13 @@
 
 这是本课程的最后一节（也是最后一个主题 - 除非你想学习 DAX），所以如果你按顺序学习了所有这些章节，现在是时候给自己点个赞了。 做得好！ 现在你已经熟悉了所有这些**重要概念**：
 
-* 什么是 [Power BI](0-0-what-is-power-bi.md)
-* Power BI 的[构建块](0-0b-building-blocks-power-bi.md)
-* [获取](1-2-connect-to-data-sources-in-power-bi-desktop.md)和[建模](2-1-intro-modeling-data.md)数据
-* [可视化效果](3-1-intro-visualizations.md)
-* 在 Power BI 服务中[浏览数据](4-0-intro-power-bi-service.md)
-* 结合使用 [Excel 和 Power BI](5-1-intro-excel-data.md)
-* [发布和共享](6-0-intro-content-packs-groups.md)你的工作
+* 什么是 [Power BI](../gettingstarted.yml#step-1)
+* Power BI 的[构建块](../gettingstarted.yml#step-3)
+* [获取](../gettingdata.yml#step-3)和[建模](../modeling.yml#step-1)数据
+* [可视化效果](../visualizations.yml#step-1)
+* 在 Power BI 服务中[浏览数据](../exploringdata.yml#step-1)
+* 结合使用 [Excel 和 Power BI](../powerbiandexcel.yml#step-1)
+* [发布和共享](../publishingandsharing.yml#step-1)你的工作
 
 知识很多，既然所有这些知识都已经在你的脑子里，那么准备将它们付诸于实践吧！ 下面是一些“下载链接”或将你的浏览器“连接到 Power BI 服务”的链接：
 

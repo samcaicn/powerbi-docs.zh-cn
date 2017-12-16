@@ -1,4 +1,4 @@
-documentType: Tutorial
+### YamlMime:Tutorial
 title: "开始使用"
 metadata:
   title: "入门 | Microsoft Power BI"
@@ -6,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: gettingdata
-  nextTutorialTitle: "获取数据"
+  nextTutorialTitle: Getting data
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -14,14 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "**引导式学习教程**的本第一部分介绍是 Power BI、它的构建基块如何协同工作以及如何使用它们来获取对数据的见解。\n"
-  ms.openlocfilehash: 79bcf9e9e40e89149bbb9c8ffcc584e160a89386
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: 0a7456720b041b9dda176a5182f945a0b1fa63b5
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
+items:
+- durationInMinutes: 1
+  content: >
+    In this initial section of **Guided Learning**, you learn what Power BI is, how its building blocks work together, and how you can use them to gain insights to your data.
 - title: "Power BI 简介"
   durationInMinutes: 5
   content: >
@@ -48,4 +49,4 @@ items:
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
-- content: "你已完成 Microsoft Power BI 指导式学习的“入门”部分。 我们继续！ 现在，可以转到引导式学习教程的下一部分，即“获取数据”。 选择下面的“获取数据”按钮继续。\0"
+- content: "You've completed the **Getting started** section of Microsoft Power BI Guided learning. Way to go! Now you can move on to the next part of Guided Learning, which is **Getting data**. Select the **Getting data** button below to keep going.\0"
