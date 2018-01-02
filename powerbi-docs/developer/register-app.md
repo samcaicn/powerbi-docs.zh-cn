@@ -77,7 +77,7 @@ ms.lasthandoff: 11/13/2017
     ![](media/register-app/azuread-new-app-registration.png)
 5. 按照提示进行操作，并创建新的应用程序。
    
-   * 对于 Web 应用，请输入“登录 URL”，即用户可以登录的应用基 URL（例如，http://localhost:13526）。
+   * 对于 Web 应用，请输入“登录 URL”，即用户可以登录的应用基 URL（例如， http://localhost:13526 ）。
    * 对于本机应用程序，请提供“重定向 URI”，Azure AD 用其返回令牌响应。 输入应用的专属值（例如，http://myapplication/redirect）
 
 有关如何在 Azure Active Directory 中注册应用程序的详细信息，请参阅 [Azure Active Directory 集成应用程序](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
