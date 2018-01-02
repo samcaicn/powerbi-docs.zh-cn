@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>与同事和其他人共享 Power BI 仪表板
 共享是一种使多人能够访问你的仪表板和报表的有效方式。 Power BI 提供了[多种开展协作和分发仪表板的方式](service-how-to-collaborate-distribute-dashboards-reports.md)，共享只是其中之一。
@@ -91,6 +91,8 @@ ms.lasthandoff: 11/17/2017
    * 阅读以防止该用户与其他人进行共享。
    * 删除访问权限以防止该用户查看仪表板。
 
+4. 在“移除访问权限”对话框中，决定是否要同时删除对相关内容（例如报告和数据集）的访问权限。 如果删除带有警告图标 ![Power BI 警告图标](media/service-share-dashboards/power-bi-warning-icon.png)的项目，则最好删除相关内容，因为它将无法正常显示。
+
 ## <a name="share-a-dashboard-with-people-outside-your-organization"></a>与组织外部的人员共享仪表板
 与组织外的人员共享时，他们会收到带有指向共享仪表板的链接的电子邮件，而且他们必须登录 Power BI 才能查看仪表板。 如果他们没有 Power BI Pro 许可证，则可以在单击链接后进行注册。
 
@@ -115,6 +117,33 @@ ms.lasthandoff: 11/17/2017
 * 电子邮件域与你相同的同事，以及域不同但在相同租户中注册的同事可以与他人共享仪表板。 例如，假设域 contoso.com 和 contoso2.com 是在同一租户中注册的。 如果你的电子邮件地址为 konrads@contoso.com，则 ravali@contoso.com 和 gustav@contoso2.com 均可以共享（只要你向它们授予了共享权限）。
 * 如果你的同事已经有权访问特定仪表板，则当你在仪表板上时，可以通过复制 URL 发送指向该仪表板的直接链接。 例如：`https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * 同样，如果你的同事已经有权访问特定仪表板，你可以[将直接链接发送到基础报表](service-share-reports.md)。 
+
+## <a name="troubleshoot-sharing"></a>故障排除共享
+
+### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>我的仪表板收件人在磁贴或“所需的权限”消息中看到一个锁图标
+
+如果你与之共享的人员尝试查看报表时在仪表板或“所需的权限”消息中看到锁定磁贴，则需要向他们授予对基础数据集的权限。 下面介绍如何操作。
+
+1. 转到内容列表中的“数据集”选项卡。
+
+1. 选择数据集旁边的省略号 (**...**) >“管理权限”。
+
+    ![管理权限](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
+
+3. 选择“添加用户”。
+
+    ![选择“添加用户”。](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
+
+1. 输入个人、通讯组或安全组的完整电子邮件地址。 不能与动态通讯组列表共享。
+
+    ![添加电子邮件地址](media/service-share-dashboards/power-bi-add-user-dataset.png)
+
+5. 选择**添加**。
+
+### <a name="i-cant-share-a-dashboard"></a>我无法共享仪表板
+
+要共享仪表板，你必须具有重新共享基础内容（任何相关的报表和数据集）的权限。 如果你看到一条消息，指示无法共享，请要求报表作者给予你重新共享这些报表和数据集的权限。
+
 
 ## <a name="next-steps"></a>后续步骤
 * 想提供反馈？ 请转到 [Power BI 社区站点](https://community.powerbi.com/)提出你的建议。

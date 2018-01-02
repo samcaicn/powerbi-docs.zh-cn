@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 12/4/2017
 ms.author: mihart
-ms.openlocfilehash: 6858f85cb08c493f7a73dc888a4bb21f66c5f217
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 在 Power BI 服务中打开报表时，报表的每一页都有自己的专属 URL。 若要筛选报表页，可以使用报表画布上的“筛选器”窗格。  也可以向 URL 添加查询字符串参数来筛选报表。 你可能有一个要向同事展示的报表，你希望为同事预筛选报表。 方法之一是，从报表的默认 URL 入手，向 URL 添加筛选参数，然后通过电子邮件向同事发送完整的 URL。
@@ -107,7 +107,7 @@ https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/R
 ## <a name="limitations-and-troubleshooting"></a>限制和疑难解答
 使用查询字符串参数时，需要注意两点。
 
-* 查询字符串筛选不适用于[发布到 Web](service-publish-to-web.md) URL。
+* 查询字符串筛选不适用于[发布到 Web](service-publish-to-web.md) 或 Power BI Embedded。   
 * 字段类型必须是字符串。
 * 表和字段名称中不能有任何空格。
 

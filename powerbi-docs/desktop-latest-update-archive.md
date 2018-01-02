@@ -1,5 +1,5 @@
 ---
-title: "此前的每月 Power BI Desktop 更新"
+title: "此前的 Power BI Desktop 月度更新"
 description: "Power BI Desktop 此前各版本的功能更新"
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
+ms.date: 12/12/2017
 ms.author: davidi
-ms.openlocfilehash: 1ad6621683d6f28b63af373372c1d5100a0abd16
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 48ba3e679214283875abe27d06032fee20598347
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -30,6 +30,66 @@ ms.lasthandoff: 11/23/2017
 以下各节描述了 **Power BI Desktop** 之前月份的更新。
 
 你始终可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop。 无论采用哪种方式安装 Power BI Desktop，每月版本都相同。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
+
+
+
+## <a name="november-2017-update-2524921202"></a>2017 年 11 月更新 (2.52.4921.202)
+
+11 月份已推出大量 Power BI Desktop 更新。 
+
+每个更新旁边的链接表示以下含义：
+
+-   当讨论某项功能时，将会在新的浏览器选项卡上播放 **[视频]** 片段。
+-   某些功能通过 **[文章]** 来提供更多详细信息。
+-   大多数功能在每月更新的 **[博客]** 文章中均有说明。
+-   最后，一些明白易懂的功能则不需要文章或视频。
+
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的**最新更新**视频。
+
+下面介绍了本月新推出的 Power BI Desktop 更新：
+
+### <a name="reporting"></a>报表
+
+-   适用于表和矩阵视觉对象的基于规则的条件格式 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=55s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting) 
+-   适用于表和矩阵视觉对象的单元格对齐方式 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=4m16s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
+-   通过选择窗格控制视觉对象排序 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=6m21s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane) 
+-   锁定报表上的对象 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=9m2s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock) 
+-   Esri Plus 订阅适用于 ArcGIS Maps for Power BI [[视频]](https://youtu.be/sI3yRjdnJ7w?t=10m31s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
+-   适用于慢数据源的报表选项 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=16m11s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
+-   筛选功能性能改进 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
+-   最近发布的自定义视觉对象 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=20m50s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
+
+
+### <a name="analytics"></a>分析
+
+-   适用于多行卡片的多维 AS 模型的单元格级格式设置 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=27m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
+
+
+### <a name="data-connectivity"></a>数据连接
+
+-   对 Impala 连接器的 Windows 身份验证支持 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
+
+
+### <a name="other"></a>其他
+
+-   查询编辑 -“通过示例添加列”功能改进 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=28m34s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
+
+
+
+> [!NOTE]
+> 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
+
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+
+以下视频介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+
+
+
 
 
 ## <a name="october-2017-update-2514885543"></a>2017 年 10 月更新 (2.51.4885.543)
@@ -77,7 +137,7 @@ ms.lasthandoff: 11/23/2017
 > [!NOTE]
 > 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
 
-想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
 
 以下视频介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
 

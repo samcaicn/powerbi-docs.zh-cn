@@ -248,11 +248,11 @@
           href: service-dashboard-edit-tile.md
         - name: 设计出色 Power BI 仪表板的提示
           href: service-dashboards-design-tips.md
-        - name: Power BI 中的 Quick Insights
+        - name: Power BI 中的快速见解
           href: service-insights.md
-        - name: Power BI 支持的 Quick Insights 类型
+        - name: Power BI 支持的快速见解类型
           href: service-insight-types.md
-        - name: 面向 Power BI Quick Insights 优化数据
+        - name: 面向 Power BI 快速见解优化数据
           href: service-insights-optimize.md
         - name: Power BI 中的特色仪表板
           href: service-dashboard-featured.md
@@ -380,6 +380,8 @@
           href: service-export-to-pbix.md
         - name: 通过在 URL 中添加查询字符串参数来筛选报表
           href: service-url-filters.md
+        - name: 在 Power BI 中生成快速可靠报表的最佳做法
+          href: power-bi-reports-performance.md
     - name: 可视化
       items:
         - name: Power BI 中的可视化效果
@@ -746,6 +748,8 @@
       items:
         - name: Power BI Desktop 中的报表视图
           href: desktop-report-view.md
+        - name: Power BI Desktop 中的问答
+          href: desktop-qna-in-reports.md
         - name: Power BI Desktop 中的分析窗格
           href: desktop-analytics-pane.md
         - name: 使用 Power BI Desktop 中的 Insights

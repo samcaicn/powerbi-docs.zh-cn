@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: cff6a984f4c3d47bbf7dcd3df43253c318b2bf50
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 97fb3625848210f6222317cf3fc48eea305ef04d
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>适用于 Windows 10 的 Power BI 移动应用入门
 适用于 Windows 10 的 Power BI 移动应用让你可以在平板电脑或手机上使用 Power BI，可提供对业务信息的最新的、可触控移动式访问。 在任何地方查看公司仪表板并与之进行交互&#151;就在 [Windows 开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上查看。
@@ -35,10 +35,8 @@ ms.lasthandoff: 11/13/2017
 ## <a name="first-things-first"></a>要做的第一件事
 * 从 Windows 应用商店中[**获取适用于 Windows 10 的 Power BI 移动应用**](http://go.microsoft.com/fwlink/?LinkID=526478)
   
-  > [!NOTE]
-  > 设备需要运行 Windows 10。 该应用在至少具有 2 GB RAM 和 8 GB 内部存储的设备上运行最佳。 它可以在至少具有 1 GB RAM 的设备上运行。
-  > 
-  > 
+  设备需要运行 Windows 10。 该应用可在至少具有 3 GB RAM 和 8 GB 内部存储的设备上运行。
+   
 * 查找 [Power BI 移动应用中的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>在 Web 上注册 Power BI 服务
