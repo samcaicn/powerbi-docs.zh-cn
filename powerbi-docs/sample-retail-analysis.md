@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: cfd085913ea1ef2cf08942ca4570f98eba34a3d4
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 09e245e625c9e0859f93837e56b564218e327926
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的零售分析示例：教程
 
 此行业示例仪表板和基础报表分析了跨多个商店和地区销售的商品的零售数据。 指标将本年度的绩效与去年在以下领域的绩效进行比较：销售、单位、毛利和方差，以及新店铺分析。 这是来自 obviEnce ([www.obvience.com](http://www.obvience.com)) 的真实数据，已进行匿名处理。
 
-你还可以[仅下载本示例的数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529778)。
+[!Note] 还可以[仅下载本示例的数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529778)。 该工作簿包含你可以查看和修改的 Power View 工作表。  若要查看原始数据，请选择“Power Pivot”>“管理”。 
 
 ![](media/sample-retail-analysis/retail1.png)
 
@@ -135,7 +135,7 @@ ms.lasthandoff: 11/17/2017
 这是一个安全的试验环境。 你可以始终选择不保存所做的更改。 但是，如果保存更改，则可以始终转到“获取数据”来获得本示例的新副本。
 
 ## <a name="connect-to-your-data"></a>连接到数据
-我们希望本教程已经演示 Power BI 仪表板、问题解答和报表如何能够帮助深入了解零售数据。 现在轮到你了 — 连接到你自己的数据 借助 Power BI，你可以连接到各种数据源。 了解 [Power BI 入门](service-get-started.md)的详细信息。
+我们希望本教程已经演示 Power BI 仪表板、问题解答和报表如何能够帮助深入了解零售数据。 现在轮到你了 - 连接到你自己的数据。 借助 Power BI，你可以连接到各种数据源。 了解 [Power BI 入门](service-get-started.md)的详细信息。
 
 ## <a name="next-steps"></a>后续步骤
 * [下载零售分析示例内容包](sample-tutorial-connect-to-the-samples.md)    

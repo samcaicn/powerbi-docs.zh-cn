@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
+ms.date: 12/12/2017
 ms.author: davidi
-ms.openlocfilehash: a4a348d88bc9613c2d18766ff1ea398538088c9b
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 1eff7cbb6fd54993440d309cb14622295daa3d19
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新 Power BI Desktop 更新中有哪些新增功能？
 
-## <a name="november-2017-update-2524921202"></a>2017 年 11 月更新 (2.52.4921.202)
+## <a name="december-2017-update-2534954481-"></a>2017 年 12 月更新 (2.53.4954.481 )
 
 你现在可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop。 无论采用哪种方式安装 Power BI Desktop，每月版本都相同。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
 
-本月有大量的 Power BI Desktop 更新。 
+十二月将发布大量 Power BI Desktop 更新，其中不乏所有喜欢商业智能的孩子（及成年人）可尽享的各种惊喜功能。 并且我们保证，任何人都是平等的。
 
 每个更新旁边的链接表示以下含义：
 
@@ -44,40 +44,39 @@ ms.lasthandoff: 11/17/2017
 
 ### <a name="reporting"></a>报表
 
--   适用于表和矩阵视觉对象的基于规则的条件格式 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=55s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting) 
--   适用于表和矩阵视觉对象的单元格对齐方式 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=4m16s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
--   通过选择窗格控制视觉对象排序 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=6m21s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane) 
--   锁定报表上的对象 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=9m2s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock) 
--   Esri Plus 订阅适用于 ArcGIS Maps for Power BI [[视频]](https://youtu.be/sI3yRjdnJ7w?t=10m31s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
--   适用于慢数据源的报表选项 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=16m11s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
--   筛选功能性能改进 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
--   最近发布的自定义视觉对象 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=20m50s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
+-   有关报表创建的问答[[视频]](https://youtu.be/ZPU8B-1BxjI?t=8s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) 
+-   有关书签的交叉突出显示[[视频]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting) 
+-   更多书签灵活性[[视频]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility) 
+-   字段属性窗格和字段说明[[视频]](https://youtu.be/ZPU8B-1BxjI?t=13m19s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane) 
+-   基于 x 轴和 y 轴分组的散点图视觉对象[[视频]](https://youtu.be/ZPU8B-1BxjI?t=15m12s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
+-   地图基于纬度和经度的高密度抽样[[视频]](https://youtu.be/ZPU8B-1BxjI?t=17m3s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
+-   响应式切片器[[视频]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
+-   最近发布的自定义视觉对象 [[视频]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>分析
 
--   适用于多行卡片的多维 AS 模型的单元格级格式设置 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=27m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
+-   钻取筛选其他视觉对象[[视频]](https://youtu.be/ZPU8B-1BxjI?t=28m53s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
 
 
 ### <a name="data-connectivity"></a>数据连接
 
--   对 Impala 连接器的 Windows 身份验证支持 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
-
-
-### <a name="other"></a>其他
-
--   查询编辑 -“通过示例添加列”功能改进 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=28m34s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
+-   Adobe Analytics 连接器[[视频]](https://youtu.be/ZPU8B-1BxjI?t=30m35s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#AdobeAnalytics) 
+-   HDInsight 交互式查询连接器[[视频]](https://youtu.be/ZPU8B-1BxjI?t=31m13s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#HDInsightInteractiveQuery) 
+-   Data.World 连接器[[视频]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#Data.World) 
+-   SAP BW 连接器改进[[视频]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#SAPBW) 
+-   IBM Netezza 连接器现已正式发布[[视频]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#IBMNetezza) 
 
 
 
 > [!NOTE]
 > 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
 
-想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
 
 以下视频介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
 > 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。

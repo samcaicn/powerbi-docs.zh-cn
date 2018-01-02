@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: ef064c636880db5d1b6c6106fe742972a7ed3a3c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0bb540a4c27729999bbb1780a7d5a203d67d3a7c
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI 的人力资源示例：教程
 即使是在不同公司，甚至处于不同行业或规模的公司，HR 部门均使用相同报表模型。 此示例研究新员工、在职员工和已离职员工，并试图找出雇佣策略存在的趋势。 我们的主要目标是要了解：
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/13/2017
 
 想要跟着做吗？ 在 [Power BI 服务](https://powerbi.com)中，转到**获取数据 > 示例 > 人力资源示例 > 连接**以获取自己的示例副本。
 
-还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529780)。
+还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529780)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”。
 
 ## <a name="new-hires"></a>新员工
 首先来了解一下新员工。

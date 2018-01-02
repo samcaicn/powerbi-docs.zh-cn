@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/08/2017
 ms.author: maggies
-ms.openlocfilehash: 7a32885efb0813cc430f37952ca4fc9c5e435121
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0dd906bc1b165793e9ff91f64324eeb8e1d1266c
+ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>创建针对 Power BI 手机应用的优化报表
-[在 Power BI Desktop 中创建报表时](desktop-report-view.md)，通过创建专用于手机的报表版本，可以改善在手机的移动应用中使用此报表的体验。 通过重新排列和调整视觉对象（或许不包括所有视觉对象）可以为手机调整报表，以便获得最佳体验。 此外，还可以[创建响应式视觉对象](desktop-create-responsive-visuals.md)。此类对象可以流畅地重设大小，以供在手机上显示。 另外，如果向报表添加筛选器，这些筛选器会自动显示在 iPhone 的手机报表中。 报表阅读者可以查看它们，并使用这些筛选器筛选报表。
+[在 Power BI Desktop 中创建报表时](desktop-report-view.md)，通过创建专用于手机的报表版本，可以改善在手机的移动应用中使用此报表的体验。 通过重新排列和调整视觉对象（或许不包括所有视觉对象）可以为手机调整报表，以便获得最佳体验。 此外，还可以创建[响应式视觉对象](#optimize-a-visual-for-any-size)和[响应式切片器](#enhance-slicers-to-to-work-well-in-phone-reports)，它们可以流畅地重设大小，以供在手机上显示。 另外，如果向报表添加筛选器，这些筛选器会自动显示在手机报表中。 报表阅读者可以查看它们，并使用这些筛选器筛选报表。
 
 ![更适合在手机上显示的报表](media/desktop-create-phone-report/07-power-bi-phone-report-portrait.png)
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 11/13/2017
    ![重设视觉对象大小](media/desktop-create-phone-report/03_resizing_a_viz_to_grid.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>将视觉对象优化为适应任意大小
-可以将仪表板或报表中的视觉对象设置为响应式，即动态缩放，尽可能显示最多的数据和见解，无论屏幕大小如何。
+可以将仪表板或报表中的视觉对象设置为响应式，即动态缩放，尽可能显示最多的数据和见解，无论屏幕大小如何。 
 
 在视觉对象缩放时，Power BI 会优先确保显示数据视图。例如，自动删除填充，并将图例移至视觉对象顶部，这样即便视觉对象变小，也仍可提供信息。
 
@@ -82,10 +82,14 @@ ms.lasthandoff: 11/13/2017
 切片器提供在画布上筛选报表数据的功能。 在常规报表创作模式下设计切片器时，可以修改某些切片器设置以使其在手机报表中更易于使用：
 
 * 确定报表读取器仅可以选择一个还是可以选择多个项。
-* 使切片器垂直或水平。 
 * 在切片器周围放置一个框，以使报表更易于扫描。
+* 使切片器呈垂直、水平或响应式。 
 
-阅读有关[在 Power BI 服务中创建切片器](guided-learning/visualizations.yml#step-4)的详细信息。
+如果将切片器设置为响应式，则在改变它大小和形状时，它显示更多或更少的选项。 它可以是调高、调短、调宽或调窄。 如果将其调整得足够小，它将变为报表页上的一个筛选器图标。 
+
+![Power BI 响应式切片器](media/desktop-create-phone-report/power-bi-slicer-2-rows.png)
+
+详细了解有关[创建响应式切片器](power-bi-slicer-filter-responsive.md)的信息。
 
 ## <a name="publish-a-phone-report"></a>发布手机报表
 * 要发布报表的手机版本，请[将主报表从 Power BI Desktop 发布到 Power BI 服务](desktop-upload-desktop-files.md)，并同时发布手机版本。

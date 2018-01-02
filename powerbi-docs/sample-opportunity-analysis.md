@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: c51984aed112b62143ab132672b331cd0f97c7a1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的机会分析示例：教程
 **机会跟踪示例** 包含一个仪表板（和关联的报表），介绍了具有以下 2 种销售渠道的软件公司： *直接销售*  和 *合作伙伴销售* 。 销售经理创建此仪表板以按照区域、成交额和渠道来跟踪商机和收入。
@@ -38,7 +38,8 @@ ms.lasthandoff: 11/13/2017
 
 此示例是一系列教程的一部分，该系列教程阐明如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 这些来自 obviEnce [(www.obvience.com)](http://www.obvience.com/) 的真实数据都已进行匿名处理。
 
-你还可以[仅下载本示例的数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529782)。  
+>[!Note] 
+还可以[仅下载本示例的数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529782)。 该工作簿包含你可以查看和修改的 Power View 工作表。  若要查看原始数据，请选择“Power Pivot”>“管理”。 
 
 ![](media/sample-opportunity-analysis/opportunity1.png)
 
@@ -97,7 +98,7 @@ ms.lasthandoff: 11/13/2017
 这是一个安全的试验环境。 你可以始终选择不保存所做的更改。 但是，如果保存更改，则可以始终转到**获取数据**来获取本示例的新副本。
 
 ## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
-本教程讨论了 Power BI 仪表板、问答和报表如何能够帮助深入了解机会跟踪数据。 现在轮到你了 — 连接到你自己的数据 借助 Power BI，你可以连接到各种数据源。 了解 [Power BI 入门](service-get-started.md)的详细信息。
+本教程讨论了 Power BI 仪表板、问答和报表如何能够帮助深入了解机会跟踪数据。 现在轮到你了 - 连接到你自己的数据。 借助 Power BI，你可以连接到各种数据源。 了解 [Power BI 入门](service-get-started.md)的详细信息。
 
 [下载示例](sample-datasets.md)  
 

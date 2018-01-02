@@ -5,7 +5,7 @@
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX 以及此指导学习视频系列
 此**指导学习**部分的目标是教授 DAX 基础知识和基本原理 - 如何看待 DAX，它的工作原理，以及如一位知名的 DAX 专家 [Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) 所解释（且凭借大量经验而学得）的那些最有用的功能。
 
-![](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
+![Alberto Ferrari 的画像](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
 在此**指导学习**部分中的关于 **DAX** 的视频将从 DAX 公式语言如何工作的视角来讲解 DAX 基础知识。 如果是从零开始创建 DAX 公式时，这就很有用，而且这对于理解当你在**查询编辑器**中创建查询时 Power BI 如何创建这些 DAX 公式也非常有用。
 

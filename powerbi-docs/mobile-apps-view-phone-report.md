@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/06/2017
 ms.author: maggies
-ms.openlocfilehash: 54a1b81cc4281db7a622668ba205c1c57d5e396d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3e02da2c0e793f3eb334c39852f5cd23534ad3f
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>查看针对你的手机进行优化的 Power BI 报表
 在 Power BI Desktop 中创建 Power BI 报表时，还可以创建[该报表经过优化，以便在手机上的 Power BI 应用中查看的](desktop-create-phone-report.md)版本。
@@ -39,8 +39,8 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
 * [iPhone 上的报表](mobile-reports-in-the-mobile-apps.md)。 
 * [Android 手机上的报表](mobile-reports-in-the-mobile-apps.md)。
 
-## <a name="filter-the-report-page-on-an-iphone"></a>筛选 iPhone 上的报表页
-如果已针对手机优化的报表已定义筛选器，则在 iPhone 上查看报表时可以使用这些筛选器。 
+## <a name="filter-the-report-page-on-a-phone"></a>筛选手机上的报表页
+如果针对手机优化的报表已定义筛选器，则在手机上查看报表时可以使用这些筛选器。 
 
 1. 点击筛选器图标 ![页面底部的](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) 手机筛选器图标。 
 2. 使用基本筛选或高级筛选查看你感兴趣的结果。
