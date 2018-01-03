@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a622c3f0402e0f8216f64a93cf687eaa63fd8067
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>禁用 Power BI Gateway - Personal 中的隐私设置
 > [!NOTE]
@@ -59,7 +59,8 @@ ms.lasthandoff: 12/06/2017
     如果你不是管理员，则将是以下位置。
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
-2. 将值为 true 的 ****&lt;EnableFastCombine&gt; 元素添加到配置文件。 添加此元素将启用**快速合并**。
+    
+2. 将值为 true 的 **&lt;EnableFastCombine&gt;** 元素添加到配置文件。 添加此元素将启用**快速合并**。
    
    <pre><code>&lt;EnableFastCombine&gt;true&lt;/EnableFastCombine&gt;</code></pre>
    
@@ -77,7 +78,8 @@ ms.lasthandoff: 12/06/2017
     如果你不是管理员，则将是以下位置。
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
-2. 删除配置文件中的 ****&lt;EnableFastCombine&gt; 元素。 删除此元素将禁用**快速合并**。
+
+2. 删除配置文件中的 **&lt;EnableFastCombine&gt;** 元素。 删除此元素将禁用**快速合并**。
 3. 退出并重新启动网关配置屏幕。
 4. 你将不再看到让你知晓**快速合并**已启用的状态。
 
