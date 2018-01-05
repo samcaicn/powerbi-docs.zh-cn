@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/02/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 30fc0731f819f063aa04e856e8acc75a69f64a59
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3750d733967301f952fd092d2d1d0a2b9d1b2238
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="analytics-pane-in-power-bi-service"></a>Power BI 服务中的分析窗格
 通过 **Power BI 服务**的“**分析**”窗格，可以向可视化效果添加动态参考行，并重点关注重要趋势或见解。
@@ -44,33 +44,34 @@ ms.lasthandoff: 11/13/2017
 * 中线
 * 百分位数线
 
-以下各部分介绍如何在可视化效果中使用“**分析**”窗格和动态参考行。
 
 若要查看视觉对象的可用动态参考行，请按照下列步骤操作：
 
 1. 选择或创建视觉对象，然后从“**可视化效果**”窗格选择“**分析**”图标 ![](media/service-analytics-pane/power-bi-analytics-icon.png)。
+
 2. 为想要创建的行类型选择向下箭头以展开其选项。 本示例中将选择“**平均线**”。
    
-   ![](media/service-analytics-pane/power-bi-add.png)
-3. 若要创建一个新行，请选择“**+ 添加**”。 然后，可以通过双击文本框，键入名称来为行指定名称。
+   ![添加平均线](media/service-analytics-pane/power-bi-add.png)
+
+3. 若要创建新行，请选择“+ 添加”并确定用于创建行的度量值。  “度量值”下拉列表中会自动填充来自选定可视化对象的可用数据。 让我们使用“打开商店计数”。
+
+5. 对于线条提供了各种选项，例如可以颜色、透明度、样式和位置（与视觉对象的数据元素相关）。 若要为线条添加标签，请为它提供一个标题，然后将“数据标签”滑块移至“开”。  在本示例中，我们为该线条指定标题“平均# 打开商店”，并对其他几个选项进行自定义，如下所示。
    
-   对于行提供了各种选项，例如可以选择其“颜色”、“透明度”、“样式”和“位置”（与视觉对象的数据元素有关），以及是否包括标签。 重要的是，通过选择“**度量值**”下拉列表，可以选择想要行基于视觉对象中的哪个**度量值**，它会自动使用视觉对象中的数据元素予以填充。 本示例中将选择“打开商店数”作为度量值，对其设置“平均# 打开商店”标签，并对其他几个选项进行自定义，如下所示。
-   
-   ![](media/service-analytics-pane/power-bi-average-line.png)
-4. 如果想要显示数据标签，请将“**数据标签**”滑块移至开启状态。 执行此操作可以为数据标签获取大量其他选项。
-5. 请注意“**分析**”窗格中的“**平均线**”项旁显示的数目。 它指出目前在视觉对象上所拥有的动态行的数量和类型。 如果添加了“常量行”作为商店数目标 9，则可以看到“分析”窗格显示现在也有适用于此视觉对象的“常量行”参考。
+   ![自定义平均线分析](media/service-analytics-pane/power-bi-average-line2.png)
+
+1. 请注意“**分析**”窗格中的“**平均线**”项旁显示的数目。 它指出目前在视觉对象上所拥有的动态行的数量和类型。 如果添加了“常量行”作为商店数目标 9，则可以看到“分析”窗格显示现在也有适用于此视觉对象的“常量行”参考。
    
    ![](media/service-analytics-pane/power-bi-reference-lines.png)
    
-   如果所选择的视觉对象不能具有对其适用的动态参考行（本示例中为**映射**视觉对象），则会在选择“**分析**”窗格时看到以下信息。
-   
-   ![](media/service-analytics-pane/power-bi-no-lines.png)
 
 通过使用“**分析**”窗格创建动态参考行，可以突出显示各种有趣的见解。
 
-我们正在计划开发更多的特性和功能，其中包括扩展可以具有适用动态参考行的视觉对象，因此请经常查看其新增功能。
+## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 
-## <a name="limitations"></a>限制
+如果所选择的视觉对象不能具有对其适用的动态参考行（本示例中为**映射**视觉对象），则会在选择“**分析**”窗格时看到以下信息。
+   
+![分析不可用](media/service-analytics-pane/power-bi-no-lines.png)
+
 是否能使用动态参考行取决于正在使用的视觉对象的类型。 下表显示动态行当前适用的视觉对象：
 
 动态行完全适用于以下视觉对象：

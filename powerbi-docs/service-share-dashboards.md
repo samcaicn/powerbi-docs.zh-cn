@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>与同事和其他人共享 Power BI 仪表板
 共享是一种使多人能够访问你的仪表板和报表的有效方式。 Power BI 提供了[多种开展协作和分发仪表板的方式](service-how-to-collaborate-distribute-dashboards-reports.md)，共享只是其中之一。
@@ -122,7 +122,11 @@ ms.lasthandoff: 12/12/2017
 
 ### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>我的仪表板收件人在磁贴或“所需的权限”消息中看到一个锁图标
 
-如果你与之共享的人员尝试查看报表时在仪表板或“所需的权限”消息中看到锁定磁贴，则需要向他们授予对基础数据集的权限。 下面介绍如何操作。
+与其共享的人员尝试查看报表时，可能会在仪表板中看到锁定的磁贴或“需要权限”消息。
+
+![Power BI 锁定磁贴](media/service-share-dashboards/power-bi-locked_tile_small.png)
+
+如果是这样，则需要向他们授予对基础数据集的权限。 下面介绍如何操作。
 
 1. 转到内容列表中的“数据集”选项卡。
 

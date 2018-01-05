@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 99fceab5904deaa510edd213c349dcfb2e38ac28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5bbd2f09187e9fac16f6cc4b9ac3ff59a888ed7f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看本地报表服务器报表和 KPI
 适用于：
@@ -63,7 +63,14 @@ ms.lasthandoff: 11/13/2017
 3. 点击“连接到服务器”。
    
     ![连接到服务器](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
-4. 填写服务器地址以及用户名和密码。 对服务器地址使用如下格式：
+
+     移动应用需要以某种方式访问服务器。 可通过多种方法实现此目的：
+
+    - 使用相同的网络/VPN 是最简单的方法。
+    - 可以使用 Web 应用程序代理从组织外部建立连接。 有关详细信息，请参阅[使用 OAuth 连接到 Reporting Services](mobile-oauth-ssrs.md)。 
+    - 在防火墙中打开连接（端口）。
+
+1. 填写服务器地址以及用户名和密码。 对服务器地址使用如下格式：
    
      `http://<servername>/reports`
    
@@ -71,10 +78,7 @@ ms.lasthandoff: 11/13/2017
    
      `https://<servername>/reports`
    
-   > [!NOTE]
-   > 在连接字符串前面加上 http 或 https。
-   > 
-   > 
+   在连接字符串前面加上 http 或 https。
    
     ![“连接到服务器”对话框](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. （可选）在“高级选项”下，可以为服务器命名易记名称（如果需要的话）。
@@ -100,7 +104,7 @@ Power BI 报表、Reporting Services 移动报表和 KPI 的文件夹与它们�
 
 * 点击**收藏夹**。
   
-   ![左侧导航窗格中的收藏夹](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server.png)
+   ![左侧导航窗格中的收藏夹](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    你在 Web 门户中收藏的 KPI 和报表，以及 Power BI 服务中的 Power BI 仪表板全都在此页上：
   

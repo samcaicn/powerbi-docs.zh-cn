@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: c82b5c302511d5c82ae0048b8dce4f227f6fc5b1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
@@ -125,7 +125,7 @@ Power BI Desktop 软件许可条款有说明，“你可以在本地安装和使
 * 我们 [YouTube 频道](https://www.youtube.com/user/mspowerbi)上的入门视频
 * [Power BI Desktop 入门](service-get-started.md)文章
 * [加入我们的社区](https://community.powerbi.com/)并提出问题
-* 有关详细建议，请参阅[如何获取帮助的 10 条提示](service-tips-for-finding-help.md)。
+* 有关更多建议，请参阅[如何获取帮助的 10 条提示](service-tips-for-finding-help.md)
 
 ## <a name="what-browsers-does-power-bi-support"></a>Power BI 支持哪些浏览器？
 以下是 [Power BI 支持的浏览器](service-browser-support.md)的完整列表。
@@ -137,6 +137,11 @@ Power BI Desktop 软件许可条款有说明，“你可以在本地安装和使
 可以直接购买或者通过在 [www.powerbi.com](http://www.powerbi.com) 与代表聊天的方式购买 Power BI Pro 许可证。
 
 你还可以找到 [Microsoft 合作伙伴](https://partner.microsoft.com/)以帮助你实现 Power BI。
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>如果我的 Power BI Pro 许可证已过期，会发生什么情况？
+Power BI Pro 许可证过期后，还有 30 天宽限期。
+
+Power BI Pro 的订阅生命周期与 Office 365 相同。 有关详细信息，请参阅 [Office 365 商业版订阅过期时，我的数据和访问权限会发生什么变化？](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI 是否满足特定于国家、地区和行业的合规性要求？
 在 [Microsoft 信任中心](http://go.microsoft.com/fwlink/?LinkId=785324)了解有关 Power BI 合规性的详细信息。

@@ -1,6 +1,6 @@
 ---
-title: "Power BI 支持的 Quick Insights 类型"
-description: "Power BI 中的 Quick Insights。"
+title: "Power BI 支持的见解类型"
+description: "使用 Power BI 查看快速见解和视图见解。"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/03/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 13f5614cf121b17d8ae4dff9653f5789372f7f49
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="types-of-quick-insights-supported-by-power-bi"></a>Power BI 支持的 Quick Insights 类型
-## <a name="how-does-quick-insights-work"></a>Quick Insights 的工作原理
+# <a name="types-of-insights-supported-by-power-bi"></a>Power BI 支持的见解类型
+## <a name="how-does-insights-work"></a>见解的工作原理
 Power BI 可快速搜索数据集的不同子集，同时应用一组复杂的算法来发现潜在相关的见解。 Power BI 会在预定时间内扫描数据集中尽可能多的内容。
 
-可以对数据集或磁贴运行快速数据分析（相关数据分析）。   
+可以针对数据集或仪表板磁贴运行见解。   
 
-## <a name="what-types-of-quick-insights-can-we-find"></a>我们可以找到哪些类型的快速见解？
+## <a name="what-types-of-insights-can-we-find"></a>我们可以发现哪些类型的见解？
 以下是我们所使用的一些算法：
 
 ## <a name="category-outliers-topbottom"></a>类别离群值（上/下）
@@ -78,9 +78,9 @@ Power BI 可快速搜索数据集的不同子集，同时应用一组复杂的�
 ![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 快速见解](service-insights.md)
+[Power BI 见解](service-insights.md)
 
-如果你拥有一个数据集，请[对其进行优化以用于 Quick Insights](service-insights-optimize.md)
+如果你拥有一个数据集，可[对其进行优化以生成见解](service-insights-optimize.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

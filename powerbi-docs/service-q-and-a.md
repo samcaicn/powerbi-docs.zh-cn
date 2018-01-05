@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 3f78d19a5a28f096279a4fe25881ae26ffbae3cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 44a825e548ae55fa0ce13ba6eed57b860be6fe8f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="qa-in-power-bi"></a>Power BI 中的问答
 有时从你的数据中获得答案的最快方法是使用自然语言提问。 例如，“去年的销售总额是多少”。  使用“问答”来利用直观、自然的语言功能浏览数据并接收图表和图形形式的答案。 “问答”与搜索引擎不同 --“问答”仅提供有关 Power BI 中的数据的结果。
 
 > [!NOTE]
-> [iPad、iPhone 和 iPod Touch 设备上的 iOS 版 Microsoft Power BI 应用](mobile-apps-ios-qna.md)也支持问答。
+> [iPad、iPhone 和 iPod Touch 设备上的 iOS 版 Microsoft Power BI 应用](mobile-apps-ios-qna.md)和 [Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) 中也提供了“问答”。
 > 
 > 
 
@@ -51,11 +51,6 @@ iPad、iPhone 和 iPod Touch 设备上的 iOS 版 [Microsoft Power BI 移动应�
 [教程：将 Power BI 问答用于零售销售样本](power-bi-visualization-introduction-to-q-and-a.md)：在实际行业教程中使用“问答”。
 
 [将你的数据与“问答”很好地配合使用](service-prepare-data-for-q-and-a.md)：你是创建数据集和数据模型的人员吗？  那么本主题适合你。
-
-## <a name="next-steps"></a>后续步骤
-[Power BI - 基本概念](service-basic-concepts.md)
-
-[Power BI 入门](service-get-started.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

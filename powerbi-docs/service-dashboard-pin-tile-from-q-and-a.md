@@ -1,5 +1,5 @@
 ---
-title: "从问答将磁贴固定到 Power BI 仪表板"
+title: "从问答将磁贴固定到仪表板"
 description: "关于如何从“问答”问题框将磁贴固定到 Power BI 仪表板的文档"
 services: powerbi
 documentationcenter: 
@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f37c0f9e433f1ac8c6bb8f7f3fa4b513fb4b4652
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8a876c5a05fcdadff1a874148f5d56465bcc8c62
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>从问答将磁贴固定到仪表板
 ## <a name="how-to-pin-a-tile-from-qa"></a>如何从“问答”中固定磁贴
 问答是 Power BI 即席报表工具。 需要查找特定见解？ 对你的数据提问，然后就会收到以可视化效果形式显示的答案。
 
-> **注意**：要遵循示例执行操作，请打开[零售分析示例](sample-retail-analysis.md)。
+可以从仪表板和报表访问“问答”。 本文从仪表板打开“问答”。 仪表板在 Power BI 服务中提供，但未在 Power BI Desktop 中提供。 要继续学习，请打开[零售分析示例仪表板](sample-retail-analysis.md)。
 > 
 > 
 
@@ -40,8 +40,10 @@ ms.lasthandoff: 11/13/2017
    问题框将提供建议。
 4. 若要将图表作为磁贴添加到仪表板，请选择画布右上方的大头针 ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png)。
 5. 将磁贴固定到现有仪表板或新仪表板。 
-   
-   * 现有仪表板：从下拉列表中选择仪表板的名称。 你的选择仅限当前工作区中的这些仪表板。
+
+   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+
+   * 现有仪表板：从下拉列表中选择仪表板的名称。 所做的选择仅限当前工作区中的这些仪表板。
    * 新仪表板：键入新仪表板的名称，它将被添加到当前工作区。
 6. 选择“固定”。
    

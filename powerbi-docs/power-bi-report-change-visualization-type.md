@@ -1,6 +1,6 @@
 ---
-title: "更改 Power BI 报表中的可视化效果类型"
-description: "更改 Power BI 报表中的可视化效果类型"
+title: "更改报表中的可视化对象类型"
+description: "在 Power BI 服务和 Power BI Desktop 中更改报表可视化对象的类型"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 629163044a48e15cbd5b2412f4da886cd373c56d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 40ca8c24ec79f61bf0c8b3db71fdd84cdbb6a109
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>更改 Power BI 报表中的可视化效果类型
-请在 Power BI 中尝试不同类型的可视化效果，看哪一种最能阐释数据。 
+请在 Power BI 服务和 Power BI Desktop 中尝试不同类型的可视化对象，看哪一种最能阐释数据。 
 
-1. 如果报表还没有可视化效果，请[在“编辑视图”中打开报表](service-reading-view-and-editing-view.md)，并[创建可视化效果](power-bi-report-add-visualizations-i.md)。
+1. 打开至少包含一个可视化对象的报表。   
 2. 在“可视化效果”窗格中选择新的可视化效果类型。  
    
    ![](media/power-bi-report-change-visualization-type/changeviz.gif)

@@ -248,11 +248,11 @@
           href: service-dashboard-edit-tile.md
         - name: 设计出色 Power BI 仪表板的提示
           href: service-dashboards-design-tips.md
-        - name: Power BI 中的快速见解
+        - name: Power BI 中的 Quick Insights
           href: service-insights.md
-        - name: Power BI 支持的快速见解类型
+        - name: Power BI 支持的 Quick Insights 类型
           href: service-insight-types.md
-        - name: 面向 Power BI 快速见解优化数据
+        - name: 面向 Power BI Quick Insights 优化数据
           href: service-insights-optimize.md
         - name: Power BI 中的特色仪表板
           href: service-dashboard-featured.md
@@ -454,10 +454,8 @@
           href: power-bi-visualization-treemaps.md
         - name: 教程：Power BI 中的瀑布图
           href: power-bi-visualization-waterfall-charts.md
-        - name: 通过提问为 Power BI 仪表板创建大量磁贴
-          href: power-bi-visualization-big-number.md
-        - name: 从 Power BI 报表创建大量磁贴
-          href: power-bi-visualization-big-number-report.md
+        - name: 教程：Power BI 中的卡片（大数字磁贴）
+          href: power-bi-visualization-card.md
         - name: 使用 Power BI 中的 R 脚本创建高级分析和可视化效果
           href: service-r-visuals.md
     - name: 文件中的数据
@@ -938,6 +936,8 @@
           href: developer/integrate-report.md
         - name: 将内容集成到应用程序（应用拥有数据）
           href: developer/embed-sample-for-customers.md
+        - name: 在应用中嵌入自定义布局
+          href: developer/embedded-custom-layout.md
         - name: 创建 Azure Active Directory 租户
           href: developer/create-an-azure-active-directory-tenant.md
         - name: 注册应用程序

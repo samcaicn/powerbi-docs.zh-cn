@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: d29008365ab7df8f0bcd8297bfd5dc2f41c0e3a4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>创建 Power BI 问答的精选问题
 如果你拥有一个数据集，你可以向该数据集添加自己精选的问题。  Power BI 问答将对使用你的数据集的同事展示这些问题。  精选问题会让你的同事了解他们可以就数据集询问哪些类型的问题。 你添加的精选问题都由你决定 -- 可以添加常见问题、显示有趣结果的问题，或可能会很难组织描述的问题。
@@ -32,13 +32,13 @@ ms.lasthandoff: 11/15/2017
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [iPad、iPhone 和 iPod Touch 设备上的 iOS 版 Microsoft Power BI 应用](mobile-apps-ios-qna.md)也支持问答精选问题。
+> [iPad、iPhone 和 iPod Touch 设备上的 iOS 版 Microsoft Power BI 应用](mobile-apps-ios-qna.md)和 Power BI Desktop 问答预览版中提供了问答精选问题。 但只能在 Power BI 服务 (app.powerbi.com) 中创建问题。
 > 
 > 
 
 本文使用[“零售分析销售额”示例](sample-datasets.md)。
 
-1. 选择“问答”问题框。   请注意，通过显示数据集中的术语列表，“问答”已很有帮助。
+1. 在仪表板上，选择“问答”问题框。   请注意，通过显示数据集中的术语列表，“问答”已很有帮助。
 2. 若要添加到此列表，请选择 Power BI 右上角的齿轮图标。  
    ![](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. 选择**设置** &gt; **数据集** &gt; **零售分析示例** &gt; **精选问答问题**。  

@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/30/2017
+ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
-ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
+ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>对 Power BI 已嵌入内容使用行级别安全性
-行级别安全性 (RLS) 可用于限制用户对报表或数据集中的数据的访问，从而允许多个不同的用户在同时查看不同的数据时使用相同的报表。 当嵌入 Power BI 中的报表时，可以利用 RLS。
+行级安全性 (RLS) 可用于限制用户对仪表板、磁贴、报表和数据集中数据的访问。 多个不同的用户都可以在查看不同的数据时处理这些相同的项目。 嵌入支持 RLS。
 
 如果要为非 Power BI 用户（应用拥有数据）嵌入（通常是 ISV 方案），那本文很适合你！ 将需要配置用于用户和角色的嵌入令牌。 继续阅读以了解如何执行此操作。
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/01/2017
 
 要利用 RLS，务必要了解三个主要概念：用户、角色和规则。 让我们仔细了解每个概念：
 
-**用户** – 这些是查看报表的实际最终用户。 在 Power BI Embedded 中，用户由嵌入令牌中的 username 属性进行标识。
+**用户** – 查看项目（仪表板、磁贴、报表或数据集）的最终用户。 在 Power BI Embedded 中，用户由嵌入令牌中的 username 属性进行标识。
 
 **角色** – 用户属于角色。 角色是规则的容器，并可以命名为“销售经理”或“销售代表”之类的名称。可以在 Power BI Desktop 中创建角色。 有关详细信息，请参阅 [Power BI Desktop 行级别安全性 (RLS)](../desktop-rls.md)。
 
@@ -85,11 +85,11 @@ RLS 在 Power BI Desktop 中进行编写。 当打开数据集和报表时，我
 
 用户由应用程序进行身份验证和授权，而嵌入令牌用于授予用户对特定 Power BI Embedded 报表的访问权限。 Power BI Embedded 不具备有关用户身份的任何特定信息。 要使 RLS 正常工作，需要以标识的形式，将一些其他上下文作为嵌入令牌的一部分进行传递。 这会通过 [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API 的方式完成。
 
-[GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API 接受具有相关数据集指示的标识列表。 当前只能提供一个标识。 未来，将针对仪表板嵌入，添加对多个数据集的支持。 要使 RLS 正常工作，需要将以下内容作为标识的一部分进行传递。
+[GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API 接受具有相关数据集指示的标识列表。 要使 RLS 正常工作，需要将以下内容作为标识的一部分进行传递。
 
 * **用户名（必填）** – 这是一个字符串，可用于在应用 RLS 规则时帮助标识用户。 只能列出单个用户。
 * **角色（必填）** – 一个字符串，包含在应用“行级别安全性”规则时要选择的角色。 如果传递多个角色，则这些角色应该作为字符串数组传递。
-* **数据集（必填）** – 适用于要嵌入的报表的数据集。 数据集列表中只能提供一个数据集。 未来，将针对仪表板嵌入，提供对多个数据集的支持。
+* **数据集（必需）**– 适用于要嵌入的项目的数据集。 
 
 可以通过使用 PowerBIClient.Reports 上的 GenerateTokenInGroup 创建嵌入令牌。 目前，仅支持报表。
 
@@ -125,7 +125,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 }
 ```
 
-现在，将所有组合在一起后，当有人登录应用程序查看此报表时，他们将只能查看允许他们查看的数据，正如我们的行级别安全性所定义的那样。
+现在，将所有组合在一起后，当有人登录应用程序查看此项目时，他们将只能查看允许他们查看的数据，正如我们的行级别安全性所定义的那样。
 
 ## <a name="working-with-analysis-services-live-connections"></a>使用 Analysis Services 实时连接
 行级别安全性可用于本地服务器的 Analysis Services 实时连接。 使用这种类型的连接时，应该了解一些具体的概念。
@@ -143,12 +143,11 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 * 使用嵌入令牌时，在 Power BI 服务中向角色分配用户不会影响 RLS。
 * 虽然 Power BI 服务不会将 RLS 设置应用于管理员或具有编辑权限的成员，当提供具有嵌入令牌的标识时，它将应用于数据。
-* 调用 GenerateToken 时，报表读/写仅支持传递标识信息。 稍后将推出对其他资源的支持。
 * 本地服务器支持 Analysis Services 实时连接。
 * Azure Analysis Services 实时连接支持按角色筛选，但不支持按用户名动态筛选。
 * 如果基础数据集不需要 RLS，则 GenerateToken 请求不得包含有效的标识。
-* 如果基础数据集是云模型（缓存的模型或 DirectQuery），则有效的标识必须至少包含一个角色。 否则，不会进行角色分配。
-* 标识列表中只能提供一个标识。 未来，将针对仪表板嵌入，使用列表启用多标识令牌。
+* 如果基础数据集是云模型（缓存的模型或 DirectQuery），则有效的标识必须至少包含一个角色，否则不会发生角色分配。
+* 使用标识列表可以嵌入仪表板的多个标识标记。 对于其他所有项目，该列表包含单个标识。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

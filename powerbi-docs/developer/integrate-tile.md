@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 8527ffb7d9e16bcf55216bc6e0bcd60feec12e16
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>将磁贴集成到应用中（用户拥有数据）
 了解如何在为组织嵌入内容时，通过调用 REST API 和 Power BI JavaScript API，将磁贴集成到或嵌入 Web 应用中。
@@ -236,9 +236,11 @@ https://app.powerbi.com/embed?dashboardId={dashboard_id}&tileId={tile_id}&groupI
 ```
 
 ## <a name="next-steps"></a>后续步骤
-可以参考 GitHub 上的示例应用。 有关详细信息，请参阅 [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app)。
+在 PowerBI 中[嵌入磁贴](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Tile-Embed) - JavaScript Wiki
 
-若要详细了解 JavaScript API，请参阅 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
+[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
+
+GitHub 上的 [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) 示例。
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

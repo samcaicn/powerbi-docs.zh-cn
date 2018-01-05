@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/29/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 2abaa2ae00b353af46c267083f879cbf9536b397
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 79e10c7d47eb5105e0c3e79bd3451315eae6d27e
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>使用 Power BI 服务或 Power BI Desktop 为 Cortana 创建自定义回复页
 使用 Power BI 的全部功能创建专为回答 Cortana 问题而设计的专用报表页，称为“Cortana 回复页”（有时称为“Cortana 回复卡”）。
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
-> [!NOTE]
+> [!IMPORTANT]
 > 如果你尝试预览 Cortana 和 Power BI 仪表板，则可以跳过本文的其余部分。 无需对 Cortana 进行任何设置即可搜索 Power BI 仪表板。
 > 
 > 
@@ -63,7 +63,7 @@ ms.lasthandoff: 11/15/2017
    > 若要改进结果，应避免使用还是列名称的词汇。
    > 
    > 
-6. 如果报表有页面级别筛选器，可选择性地设置**需要单项选择**。 如果问题中只指定了一个，唯一一个筛选器项，则 Cortana 仅会将此报表显示为答案。
+6. 如果报表有页面级别筛选器，可选择性地设置“需要单选”。 如果问题中只指定了一个，唯一一个筛选器项，则 Cortana 仅会将此报表显示为答案。 可以在“筛选器”窗格的底部找到“需要单选”。
    
    > [!NOTE]
    > 无需设置“需要单选”即可要求 Cortana 显示带有页面级筛选器的报表。  例如，无论“需要单选”设置如何，说出“显示 Charlotte Lindseys 的销售额”都可以显示答案页。

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 12/15/2017
 ms.author: maggies
-ms.openlocfilehash: 589a77624169e9fb59999109668439c5f729c5f5
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: c1c38d9d98c92963534081049cdcc6a557313639
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安装更适合 Power BI 报表服务器的 Power BI Desktop
 了解如何安装更适合 Power BI 报表服务器的 Power BI Desktop。
@@ -69,6 +69,36 @@ Power BI 服务的 Power BI Desktop 版本不会在标题栏中显示发行月�
 始终可以打开要优先使用的 Power BI Desktop 版本。 然后，在 Power BI Desktop 中打开文件。
 
 在 Power BI 报表服务器中编辑 Power BI 报表或在 Web 门户中新建 Power BI 报表时，始终都会打开正确版本的 Power BI Destop。
+
+## <a name="considerations-and-limitations"></a>注意事项和限制
+Power BI 报表服务器和 Power BI 服务 (http://powerbi.com) 中报表的行为几乎完全相同，但有一些功能不同。
+
+### <a name="in-a-browser"></a>在浏览器中
+Power BI 报表服务器报表支持所有可视化效果，包括：
+
+* 自定义视觉对象
+
+Power BI 报表服务器报表不支持：
+
+* R 视觉对象
+* ArcGIS 地图
+* 痕迹导航栏
+* Power BI Desktop 预览功能
+
+### <a name="in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中
+Power BI 报表服务器报表支持 [Power BI 移动应用](../mobile-apps-for-mobile-devices.md)中的所有基本功能，其中包括：
+
+* [手机报表布局](../desktop-create-phone-report.md)：可以优化 Power BI 移动应用的报表。 在你的移动手机上，已优化的报表都具有一个特殊的图标 ![手机报表布局图标](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) 和布局。
+  
+    ![针对手机优化后的报表](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+
+Power BI 报表服务器报表不支持 Power BI 移动应用中的如下功能：
+
+* R 视觉对象
+* ArcGIS 地图
+* 自定义视觉对象
+* 痕迹导航栏
+* 地理位置筛选或条码
 
 ## <a name="next-steps"></a>后续步骤
 至此，已安装 Power BI Desktop，可以开始创建 Power BI 报表了。
