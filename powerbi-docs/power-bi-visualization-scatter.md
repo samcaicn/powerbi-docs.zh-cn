@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: c1801db4135d6d97a940e593de37ca2886194b53
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI 中的散点图和气泡图（教程）
 散点图始终具有两个数值轴以显示水平轴上的一组数值数据和垂直轴上的另一组数值数据。 图表在 x 和 y 数值的交叉处显示点，将这些值单独合并到各个数据点。 根据数据，这些数据点可能均衡或不均衡地分布在水平轴上。
@@ -47,25 +47,30 @@ ms.lasthandoff: 11/13/2017
 * 要使用象限。
 
 ## <a name="create-a-scatter-chart"></a>创建散点图
+观看此视频了解 Will 如何创建散点图，然后遵循以下步骤自行创建一个。
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. 在[“编辑视图”](service-interact-with-a-report-in-editing-view.md)中打开零售分析示例，然后[添加一个新的报表页](power-bi-report-add-page.md)。
-2. 从字段窗格中，依次选择“销售额” > “每平方英尺的销售额”和“销售额” > “总销售额的方差 %”。
-3. 从字段窗格中，选择“地区>地区”。
+
+以下说明使用零售分析示例。 若要继续学习，请[下载](sample-datasets.md)适用于 Power BI 服务 (app.powerbi.com) 或 Power BI Desktop 的示例。   
+
+1. 从[空白报表页](power-bi-report-add-page.md)开始，选择“销售额”\>“每平方英尺销售额”和“销售” > “总销售额差异百分比”字段。 如果使用的是 Power BI 服务，请确保在 [“编辑视图”](service-interact-with-a-report-in-editing-view.md) 中打开报表。
+ 
+2. 从字段窗格中，选择“地区>地区”。
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_pre_convert.png)
+    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 4. 转换为散点图。 在可视化组件窗格中，选择散点图图标
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
 5. 将“地区”从“详细信息”拖动到“图例”。
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_new.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
 现在，我们绘制了一个散点图，其中销售总额方差 % 沿 Y 轴绘制，每平方英尺的销售额沿 X 轴绘制。  数据点的颜色表示地区。  现在让我们添加第三个维度。
 
 ## <a name="create-a-bubble-chart"></a>创建气泡图
 1. 从字段窗格中，依次将“销售额” > “今年销售额” > “值”拖动到“大小”区域。 
    
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_size.png)
+   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
 2. 将鼠标悬停在一个气泡上。  该气泡的大小反映了“今年销售额”的值。
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)

@@ -1,6 +1,6 @@
 ---
-title: "Power BI 报表中的页面显示设置"
-description: "Power BI 报表中的页面显示设置"
+title: "页面显示报表的设置和页面视图设置"
+description: "页面显示报表的设置和页面视图设置"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 1dd9c77d0af4c3f606f195c3f4199f774292d668
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 报表中的页面显示设置
 我们了解保持报表布局像素完美的重要性。 有时候这会有点困难，因为你和你的同事会使用纵横比和大小不同的屏幕查看这些报表。 
@@ -32,21 +32,43 @@ ms.lasthandoff: 11/13/2017
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
 
 
-## <a name="page-view-settings"></a>“页面视图”设置
-![](media/power-bi-report-display-settings/power-bi-change-page-view-new.png)
+## <a name="where-to-find-page-view-settings-in-power-bi-service-and-power-bi-desktop"></a>在哪里可以找到 Power BI 服务和 Power BI Desktop 中的页面视图设置
+Power BI 服务和 Power BI Desktop 中都提供了页面视图设置，但界面稍有不同。 以下两个部分解释了可以在每个 Power BI 工具中的哪个位置找到视图设置。
 
-“页面视图”设置可以控制报表页面相对于浏览器窗口的显示。  可以选择：
+### <a name="in-power-bi-desktop"></a>在 Power BI Desktop 中
+在报表视图中，选择“视图”选项卡打开页面视图设置，以及手机布局设置。
+
+  ![选择窗格](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
+
+### <a name="in-power-bi-service-apppowerbicom"></a>在 Power BI 服务 (app.powerbi.com) 中
+在 Power BI 服务中打开报表，然后从左上角菜单栏中选择“视图”。
+
+![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
+
+[阅读视图](service-interact-with-a-report-in-reading-view.md)和[编辑视图](service-interact-with-a-report-in-editing-view.md)都提供“页面视图”设置。 在“编辑视图”中，报表所有者可以将页面视图设置分配给个别报表页面，而这些设置会随报表一起保存。 当同事在“阅读视图”中打开该报表时，他们看到的是以所有者设置显示的报表页面。  在“阅读视图”中，同事可以更改某些页面视图设置，但退出报表时，所做的更改不会保存。
+
+##    <a name="page-view-settings"></a>页面视图设置
+第一组“页面视图”设置可以控制报表页面相对于浏览器窗口的显示。  可以选择：
 
 * **调整到页面大小**（默认值）：将内容调整到最适合页面的程度
 * **适应宽度**：将内容调整到适应页面的宽度
 * **实际大小**：内容以完整大小显示
 
-[阅读视图](service-interact-with-a-report-in-reading-view.md)和[编辑视图](service-interact-with-a-report-in-editing-view.md)都提供“页面视图”设置。 在“编辑视图”中，报表所有者可以将“页面视图”设置分配给个别报表页面，而这些设置会随报表一起保存。 当同事在“阅读视图”中打开该报表时，她看到的是以所有者设置显示的报表页面。  不过，在“阅读视图”中使用报表时，她可以暂时更改“页面视图”设置。  一旦离开报表，“页面视图”设置就会还原到报表所有者所设的那些设置。
+第二组“页面视图”设置控制对象在报表画布上的位置
+
+* **显示网格线**：打开网格，以帮助你在报表画布上定位对象
+* **网格线对齐**：与“显示网格线”配合使用，在报表画布上精确定位和对齐对象 
+* **锁定对象**：锁定画布上的所有对象，以便可以移动或调整对象
+* **选择窗格**：“选择”窗格列出画布上的所有对象；可以确定要显示和隐藏哪个对象
+
+    ![选择窗格](media/power-bi-report-display-settings/power-bi-selection-pane.png)
+
+
 
 ## <a name="page-size-settings"></a>“页面大小”设置
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-*页面大小*设置可控制显示比例和实际大小（以像素为单位）。  只有“编辑视图”才提供“页面大小”设置。
+“页面大小”设置仅供报表所有者使用。 在 Power BI 服务 (app.powerbi.com) 中，这意味着可在 [“编辑视图”](service-reading-view-and-editing-view.md) 中打开报表。 这些设置控制报表画布的显示比例和实际大小（以像素为单位）。   
 
 * 4:3 比例
 * 16:9 比例（默认值）
