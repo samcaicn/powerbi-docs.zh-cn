@@ -350,14 +350,10 @@
           href: service-analyze-in-excel.md
         - name: 更改视觉对象在报表中的交互方式
           href: service-reports-visual-interactions.md
-        - name: 在阅读视图中打开 Power BI 报表
-          href: service-report-open-in-reading-view.md
-        - name: 在 Power BI 中从“阅读视图”转到“编辑视图”
+        - name: 在阅读视图或编辑视图中打开 Power BI 报表
           href: service-reading-view-and-editing-view.md
         - name: 与 Power BI 中的编辑视图中的报表进行交互
           href: service-interact-with-a-report-in-editing-view.md
-        - name: 与 Power BI 中阅读视图中的报表进行交互
-          href: service-interact-with-a-report-in-reading-view.md
         - name: 在 Power BI 服务中创建报表的提示和技巧
           href: power-bi-reports-tips-and-tricks-for-creating.md
         - name: 分析窗格
