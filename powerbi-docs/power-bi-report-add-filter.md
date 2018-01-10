@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d409633129c6c203e897d76c0acf043bf09ea29d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: bd358b8e986313ba665326de0ff2722e0113554d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="add-a-filter-to-a-power-bi-report-in-editing-view"></a>向 Power BI 报表添加筛选器（在“编辑视图”中）
 > [!TIP]
@@ -30,13 +30,13 @@ ms.lasthandoff: 11/13/2017
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>“编辑视图”和“阅读视图”中报表筛选器的区别是什么
-可使用下列两种模式与报表交互：[阅读视图](service-interact-with-a-report-in-reading-view.md)和[编辑视图](service-interact-with-a-report-in-editing-view.md)。  而筛选功能会根据你所用的模式来提供。
+可使用下列两种模式与报表交互：[阅读视图](service-reading-view-and-editing-view.md)和[编辑视图](service-interact-with-a-report-in-editing-view.md)。  而筛选功能会根据你所用的模式来提供。
 
 * 在“编辑视图”中，可以添加报表、页面和视觉对象筛选器。 保存报表时，筛选器将随之一起保存。 而在“阅读视图”中查看报表的人可以与你添加的筛选器交互，但不能保存他们所做的更改。
 * 在“阅读视图”中，可以与报表中已存在的任意报表、页面和视觉对象筛选器进行交互，但不能保存筛选器更改。
 
 > [!NOTE]
-> 本文介绍了如何在报表“**编辑视图**”中创建筛选器。  有关“阅读视图”中的筛选器的详细信息，请参阅 [在报表“阅读视图”中与筛选器交互](service-interact-with-a-report-in-reading-view.md)。
+> 本文介绍了如何在报表“**编辑视图**”中创建筛选器。  有关“阅读视图”中的筛选器的详细信息，请参阅 [在报表“阅读视图”中与筛选器交互](service-reading-view-and-editing-view.md)。
 > 
 > 
 
@@ -146,7 +146,7 @@ ms.lasthandoff: 11/13/2017
 
   [报表中的筛选器和突出显示](power-bi-reports-filters-and-highlighting.md)
 
-[在报表的“阅读视图”中与筛选器和突出显示交互](service-interact-with-a-report-in-reading-view.md)
+[在报表的“阅读视图”中与筛选器和突出显示交互](service-reading-view-and-editing-view.md)
 
 [更改报表视觉对象相互交叉筛选和交叉突出显示的方式](service-reports-visual-interactions.md)
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 68e1fdfe5fd86b247d05c5d93d9e6b724a8b07ba
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>显示已与我共享的 Power BI 仪表板
 ## <a name="shared-with-me"></a>与我共享
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/13/2017
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
-与仪表板和基础报表进行交互有多个选项，具体取决于所有者为你提供的权限。 其中包括能够创建仪表板的副本、在[阅读视图](service-interact-with-a-report-in-reading-view.md)中打开报表，以及重新与其他同事共享。
+与仪表板和基础报表进行交互有多个选项，具体取决于所有者为你提供的权限。 其中包括能够创建仪表板的副本、在[阅读视图](service-reading-view-and-editing-view.md)中打开报表，以及重新与其他同事共享。
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>可在“与我共享的内容”屏幕中执行的操作
 * 选择星形图标[将仪表板添加到收藏夹](service-dashboard-favorite.md)。

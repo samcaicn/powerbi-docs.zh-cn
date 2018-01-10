@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: asaxton
-ms.openlocfilehash: a10cd93a06d14e3e66fd9cce480dc0ec99e67aeb
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c5dfbbf5150dbf8ddb4388ac64f6c313eedd578e
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>开发人员可以使用 Power BI 做什么？
 Power BI 为开发人员提供了大量选项。 此范围涉及从嵌入到自定义视觉对象到流式处理数据集。
@@ -51,7 +51,6 @@ Azure 中的 Power BI 服务和 Power BI Embedded 一起提供单个 API，用�
 [将自定义视觉对象发布到 Office 应用商店](office-store.md)  
 [Power BI 视觉对象 Git 存储库](https://github.com/Microsoft/PowerBI-visuals)  
 [JavaScript 嵌入示例](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[Apiary 上的 Power BI API](http://docs.powerbi.apiary.io/#)  
 [Power BI Premium 白皮书](https://aka.ms/pbipremiumwhitepaper)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

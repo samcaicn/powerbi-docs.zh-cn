@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 4dd18fba5b5e3da0f8973a77166551086cc3f3cf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8285cbbc2d8dee653863cad50036da58362c32d1
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>为组织将报表集成到应用中
 了解如何在为组织嵌入内容时，通过调用 REST API 和 Power BI JavaScript API，将报表集成到或嵌入 Web 应用中。
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/13/2017
 若要获取 **Power BI** 报表，请使用[获取报表](https://msdn.microsoft.com/library/mt634543.aspx)操作，它将获取 **Power BI** 报表的列表。 在报表列表中，可以获取报表 ID。
 
 ### <a name="get-reports-using-an-access-token"></a>使用访问令牌获取报表
-使用在[第 2 步](#step-2-get-an-access-token-from-azure-ad)中检索的访问令牌，可以调用[获取报表](https://msdn.microsoft.com/library/mt634543.aspx)操作。 [获取报表](https://msdn.microsoft.com/library/mt634543.aspx)操作将返回报表的列表。 可以获取报表列表中的一个报表。 下面是获取报表的完整 C# 方法。 有关如何使用 Power BI REST API 的示例，请参阅 [APIARY 上的 Power BI REST API](http://docs.powerbi.apiary.io/)。
+使用在[第 2 步](#step-2-get-an-access-token-from-azure-ad)中检索的访问令牌，可以调用[获取报表](https://msdn.microsoft.com/library/mt634543.aspx)操作。 [获取报表](https://msdn.microsoft.com/library/mt634543.aspx)操作将返回报表的列表。 可以获取报表列表中的一个报表。 下面是获取报表的完整 C# 方法。 
 
 若要执行 REST API 调用，必须添加格式为“持有者 {访问令牌}”的授权标头。
 

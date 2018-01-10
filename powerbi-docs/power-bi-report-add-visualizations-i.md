@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: c8baa19eef8210a375e77acee379389ccd5dbade
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 82519877ac9a9603d87f20fc3f1155af34421078
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>第 I 部分，向 Power BI 报表添加可视化效果（教程）
 本文简要介绍如何在报表中创建可视化效果。  有关更进一步的内容，请[参阅第 II 部分](power-bi-report-add-visualizations-ii.md)。 观看 Amanda 演示在报表画布上创建、编辑视觉对象并对其进行格式设置的一些不同的方法。 然后使用[销售和市场营销示例](sample-datasets.md)创建自己的报表并自行体验。
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/13/2017
    
    继续[第 2 部分：向 Power BI 报表添加可视化效果](power-bi-report-add-visualizations-ii.md)
    
-   在报表中[与可视化效果交互](service-interact-with-a-report-in-reading-view.md)。
+   在报表中[与可视化效果交互](service-reading-view-and-editing-view.md)。
    
    [对可视化效果执行更多操作](power-bi-report-visualizations.md)。
    

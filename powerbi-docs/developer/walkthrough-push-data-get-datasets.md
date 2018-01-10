@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: f0ca594b6f87ab2e186909f10a8ba4b7e1bce062
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a9dd782931904ada208b68ccbceeb7e1c0d95ec6
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步骤 4：获取数据集以向 Power BI 表中添加行
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
 
-在将数据推送到数据集的**步骤 3**（[在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)）中，你调用了[创建数据集](https://msdn.microsoft.com/library/mt203562.aspx)操作以在 Power BI 中创建数据集。 在此步骤中，你将使用[获取数据集](https://msdn.microsoft.com/library/mt203567.aspx)操作和 Newtonsoft.Json 来获取数据集 ID。在步骤 4 中使用数据集 ID 向数据集添加行。 有关如何使用 Power BI REST API 的示例，请参阅 [APIARY 上的 Power BI REST API](http://docs.powerbi.apiary.io/)。
+在将数据推送到数据集的**步骤 3**（[在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)）中，你调用了[创建数据集](https://msdn.microsoft.com/library/mt203562.aspx)操作以在 Power BI 中创建数据集。 在此步骤中，你将使用[获取数据集](https://msdn.microsoft.com/library/mt203567.aspx)操作和 Newtonsoft.Json 来获取数据集 ID。在步骤 4 中使用数据集 ID 向数据集添加行。 
 
 要将数据推送到 Power BI 数据集，需要引用数据集中的表。 要引用数据集中的表，首先需要获取**数据集 ID**。 使用[获取数据集](https://msdn.microsoft.com/library/mt203567.aspx)操作获取**数据集 ID**。 **获取数据集**操作将返回一个 JSON 字符串，它包含 Power BI 中所有数据集的列表。 对 JSON 字符串进行反序列化的推荐的方法是使用 [Newtonsoft.Json](http://www.newtonsoft.com/json)。
 
@@ -278,7 +278,6 @@ ms.lasthandoff: 11/15/2017
 [将数据推送到 Power BI](walkthrough-push-data.md)  
 [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
 [Power BI REST API 引用](https://msdn.microsoft.com/library/mt147898.aspx)  
-[APIARY 上的 Power BI REST API](http://docs.powerbi.apiary.io/)  
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

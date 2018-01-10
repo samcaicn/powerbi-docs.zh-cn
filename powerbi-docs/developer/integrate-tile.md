@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>将磁贴集成到应用中（用户拥有数据）
 了解如何在为组织嵌入内容时，通过调用 REST API 和 Power BI JavaScript API，将磁贴集成到或嵌入 Web 应用中。
@@ -56,7 +56,7 @@ ms.lasthandoff: 12/20/2017
 必须先检索仪表板 ID，然后才能获取磁贴。 若要了解如何检索仪表板，请参阅[将仪表板集成到应用中（用户拥有数据）](integrate-dashboard.md)。
 
 ### <a name="get-tiles-using-an-access-token"></a>使用访问令牌获取磁贴
-使用在[第 2 步](#step-2-get-an-access-token-from-azure-ad)中检索的访问令牌，可以调用[获取磁贴](https://msdn.microsoft.com/library/mt465741.aspx)操作。 [获取磁贴](https://msdn.microsoft.com/library/mt465741.aspx)操作可返回磁贴列表。 可以获取磁贴列表中的一个磁贴。 下面展示了用于获取磁贴的完整 C# 方法。 有关如何使用 Power BI REST API 的示例，请参阅 [APIARY 上的 Power BI REST API](http://docs.powerbi.apiary.io/)。
+使用在[第 2 步](#step-2-get-an-access-token-from-azure-ad)中检索的访问令牌，可以调用[获取磁贴](https://msdn.microsoft.com/library/mt465741.aspx)操作。 [获取磁贴](https://msdn.microsoft.com/library/mt465741.aspx)操作可返回磁贴列表。 可以获取磁贴列表中的一个磁贴。 下面展示了用于获取磁贴的完整 C# 方法。 
 
 若要执行 REST API 调用，必须添加格式为“持有者 {访问令牌}”的授权标头。
 

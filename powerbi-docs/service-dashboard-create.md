@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/09/2017
 ms.author: mihart
-ms.openlocfilehash: dac5628756898a20fe139447bc2d165ba804320c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 67cc9508d71fa29303d09e8901294a2d6b7f8a56
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>从报表创建 Power BI 仪表板
 你已经阅读了 [Power BI 中的仪表板](service-dashboards.md)，并且现在想要创建你自己的仪表板。 有许多不同的方法可用于创建仪表板：从报表、从头开始、从数据集、通过复制现有仪表板等。  本主题和视频演示了如何从现有报表中固定可视化效果来创建新仪表板。
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/15/2017
 1. 在同一工作区中，选择“报表”选项卡。新导入的报表显示有黄色星号。 选择报表名称以打开它。
    
     ![](media/service-dashboard-create/power-bi-reports.png)
-2. 报表会在[阅读视图](service-interact-with-a-report-in-reading-view.md)中打开。 请注意，它的底部包含两个选项卡：折扣分析和支出概况。 每个选项卡表示报表的一页。
+2. 报表会在[阅读视图](service-reading-view-and-editing-view.md)中打开。 请注意，它的底部包含两个选项卡：折扣分析和支出概况。 每个选项卡表示报表的一页。
    
     ![](media/service-dashboard-create/power-bi-reading-view.png)
 3. 将鼠标悬停在可视化效果上方以显示可用的选项。 要将可视化效果添加到仪表板，请选择固定 ![](media/service-dashboard-create/power-bi-pin-icon.png) 图标。

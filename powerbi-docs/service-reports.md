@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d974fbac281fc8f1d74553d1342f7056fa8d7b03
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的报表
 ## <a name="what-is-a-power-bi-report"></a>什么是 Power BI 报表？
@@ -71,7 +71,7 @@ Power BI ***报表***是数据集的多角度视图，使用可视化效果表�
 
 ### <a name="if-you-will-be-receiving-and-consuming-reports"></a>如果你要接收和使用报表
 * 通过 [Power BI 服务教程](service-basic-concepts.md)入门，这样便知道从哪里找到报表和报表工具。
-* 了解如何[打开报表](service-report-open-in-reading-view.md)以及[阅读视图](service-dashboard-tiles.md)中所有可用的交互。
+* 了解如何[打开报表](service-report-open.md)以及[阅读视图](service-reading-view-and-editing-view.md)中所有可用的交互。
 * 通过查看我们的任一[示例](sample-tutorial-connect-to-the-samples.md)轻松了解报表的使用。  
 * 不再需要报表？ 可以将其[删除](service-delete.md)。
 * 若要查看报表正在使用哪个数据集及哪个仪表板从报表固定磁贴，请[查看相关内容](service-related-content.md)。

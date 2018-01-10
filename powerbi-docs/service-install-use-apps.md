@@ -16,11 +16,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中安装和使用包含仪表板和报表的应用
 在 Power BI 中，应用将相关仪表板和报表汇总到一处。 组织中的人员可以创建并分发包含关键业务信息的应用。 可能已使用的[外部服务](service-connect-to-services.md)（如 Google Analytics 和 Microsoft Dynamics CRM）也提供 Power BI 应用。 
@@ -63,7 +63,7 @@ ms.lasthandoff: 12/06/2017
 3. 选择“立即获取”将其添加到你的应用页。 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>与应用中的仪表板和报表进行交互
-现在你可以浏览仪表板中的数据和应用中的报表。 有权执行所有标准 Power BI 交互，如筛选、突出显示、排序和向下钻取。 阅读如何[与 Power BI 中的报表进行交互](service-interact-with-a-report-in-reading-view.md)。 
+现在你可以浏览仪表板中的数据和应用中的报表。 有权执行所有标准 Power BI 交互，如筛选、突出显示、排序和向下钻取。 阅读如何[与 Power BI 中的报表进行交互](service-reading-view-and-editing-view.md)。 
 
 无法保存所做的更改，但始终可以从表或报表中的其他视觉对象[将数据导出到 Excel](power-bi-visualization-export-data.md)。
 

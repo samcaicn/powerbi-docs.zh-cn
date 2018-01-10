@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能。 有关相关的“新增功能”的信息，请参阅：
@@ -589,10 +589,6 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 * 使用我们的[内容包](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx)快速深入了解 QuickBooks Online 帐户数据。 有关该内容包如何连接和入门的更多详细信息，请参阅 Power BI QuickBooks Online 内容包的[文档](service-connect-to-quickbooks-online.md)。
 
-**2015 年 5 月 19 日**
-
-* 凭借此更新，[你现在可以通过我们的内容包连接到 Twilio](service-connect-to-twilio.md)
-* Power BI API 具有新增功能！ 你现在可以[列出所有表](http://docs.powerbi.apiary.io/#reference/datasets/tables-collection/list-all-tables)和[更新现有的表架构](http://docs.powerbi.apiary.io/#reference/datasets/table/update-an-existing-tables-schema)
 
 **2015 年 5 月 13 日**
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 01/05/2017
 ms.author: asaxton
-ms.openlocfilehash: e62b08614a38502fb79f48f369013d32fd538659
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: aba135a0a790025f732379ecb07157f1150d999c
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>将数据推送到 Power BI 数据集
 借助 Power BI API，你可以将数据推送到 Power BI 数据集。 例如，想要扩展现有业务工作流以将关键数据推送到数据集时，即可使用它。 在本例中，你想要将带有“产品”表的“市场部市场营销”数据集推送到数据集。
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/15/2017
 下一部分是关于推送数据的 Power BI API 操作的一般讨论。
 
 ## <a name="power-bi-api-operations-to-push-data"></a>推送数据的 Power BI API 操作
-借助 Power BI REST API，你可以将数据源推送到 Power BI。 当应用向数据集添加行时，将使用更新的数据自动更新仪表板上的磁贴。 若要推送数据，请使用[创建数据集](https://msdn.microsoft.com/library/mt203562.aspx)操作和[添加行](https://msdn.microsoft.com/library/mt203561.aspx)操作。 若要查找数据集，请使用[获取数据集](https://msdn.microsoft.com/library/mt203567.aspx)操作。 进行以上任意操作时，可以传递组 ID 以将其用于组。 使用[获取组](https://msdn.microsoft.com/library/mt243842.aspx)操作以获取组 ID 的列表。 有关如何使用 Power BI REST API 的示例，请参阅 [APIARY 上的 Power BI REST API](http://docs.powerbi.apiary.io/)。
+借助 Power BI REST API，你可以将数据源推送到 Power BI。 当应用向数据集添加行时，将使用更新的数据自动更新仪表板上的磁贴。 若要推送数据，请使用[创建数据集](https://msdn.microsoft.com/library/mt203562.aspx)操作和[添加行](https://msdn.microsoft.com/library/mt203561.aspx)操作。 若要查找数据集，请使用[获取数据集](https://msdn.microsoft.com/library/mt203567.aspx)操作。 进行以上任意操作时，可以传递组 ID 以将其用于组。 使用[获取组](https://msdn.microsoft.com/library/mt243842.aspx)操作以获取组 ID 的列表。
 
 将数据推送到数据集的操作如下：
 
@@ -126,6 +126,5 @@ ms.lasthandoff: 11/15/2017
 [获取组](https://msdn.microsoft.com/library/mt243842.aspx)  
 [JSON 简介](http://json.org/)  
 [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
-[APIARY 上的 Power BI REST API](http://docs.powerbi.apiary.io/)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

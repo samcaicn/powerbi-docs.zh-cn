@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: b45a6f76a710bc158d0d1763ca10f2125164952a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 92409e447bf9bc32b83c22650d5b41aef6bb4414
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>步骤 3：在 Power BI 中创建数据集
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/15/2017
 
 若要对 Power BI REST 操作进行身份验证，请将[获取身份验证访问令牌](walkthrough-push-data-get-token.md)中获得的令牌添加到请求头中：
 
-当调用[创建数据集](https://msdn.microsoft.com/library/mt203562.aspx)操作时，将创建新的数据集。 有关如何使用 Power BI REST API 的示例，请参阅 [APIARY 上的 Power BI REST API](http://docs.powerbi.apiary.io/)。
+当调用[创建数据集](https://msdn.microsoft.com/library/mt203562.aspx)操作时，将创建新的数据集。 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -239,7 +239,6 @@ ms.lasthandoff: 11/15/2017
 [将数据推送到 Power BI 仪表板](walkthrough-push-data.md)  
 [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
 [Power BI REST API 引用](https://msdn.microsoft.com/library/mt147898.aspx)  
-[APIARY 上的 Power BI REST API](http://docs.powerbi.apiary.io/)  
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 
