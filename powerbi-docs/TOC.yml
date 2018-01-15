@@ -12,7 +12,7 @@
           href: service-free-vs-pro.md
         - name: Power BI 数据源
           href: service-get-data.md
-        - name: 新的 Power BI 导航体验
+        - name: Power BI 基本操作 - 导航体验
           href: service-the-new-power-bi-experience.md
         - name: 10 条关于如何获取帮助的提示
           href: service-tips-for-finding-help.md
@@ -68,7 +68,7 @@
           href: sample-retail-analysis.md
     - name: 常见任务
       items:
-        - name: Power BI 中的收藏仪表板
+        - name: 在 Power BI 中收藏仪表板、报表和应用
           href: service-dashboard-favorite.md
         - name: '打印仪表板, 打印仪表板磁贴, 打印报表页'
           href: service-print.md
@@ -228,7 +228,7 @@
           href: service-pin-tile-to-another-dashboard.md
         - name: 从 Excel 将磁贴固定到 Power BI 仪表板
           href: service-dashboard-pin-tile-from-excel.md
-        - name: 适用于 Excel 的 Power BI 发布服务器
+        - name: Power BI Publisher for Excel
           href: publisher-for-excel.md
         - name: 从“问答”问题框将磁贴固定到 Power BI 仪表板
           href: service-dashboard-pin-tile-from-q-and-a.md
