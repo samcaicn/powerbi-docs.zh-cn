@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: b96ea3b0de070bee292b1d59a5abd9b0739a656a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -30,24 +30,50 @@ ms.lasthandoff: 11/13/2017
 * [Power BI Desktop 中的新增功能](desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](service-whats-new.md)  
 
-## <a name="september-2017"></a>2017 年 9 月
-### <a name="filters-for-phone-reports-in-iphones"></a>iPhone 中的电话报表筛选器
+## <a name="december-2017"></a>2017 年 12 月
+### <a name="improved-permission-management"></a>改进了权限管理
+
+我们做出了一些更改，实现了对数据集、仪表板和报表的用户权限的更精细管理。
+
+### <a name="auto-installed-apps"></a>已自动安装应用
+
+完全不需要在 Power BI 中安装某些应用。 组织中的 Power BI 应用创建者可创建包含仪表板和报表集合的应用。 然后，他们可发布应用，并将其设置为在 Power BI 服务和 Power BI 移动应用中自动安装。 当某应用设置为自动安装时，它就会自动显示在“应用”菜单中：
+
+![在 Power BI 移动应用中的应用](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
+
+## <a name="november-2017"></a>2017 年 11 月
+### <a name="iphone-x-optimization"></a>iPhone X 优化
+
+我们已针对 iPhone X 优化了应用布局，便于你在每台设备上都可浏览到简洁明快的数据。
+
+## <a name="october-2017"></a>2017 年 10 月
+### <a name="filters-for-phone-reports-in-android"></a>Android 中的电话报表筛选器
+
+如果在 Power BI Desktop 中创建包含电话优化页面的报表，并且报表具有筛选器，那么现可在 Android 上的电话报表中应用这些筛选器。 详细了解 Android 上适用于 Power BI 报表的筛选器。
+
+### <a name="show-data-in-reports"></a>在报表中显示数据
+
+现在，你可以将报表中的视觉对象切换到表视图，以查看数据后面的数字。 要访问此功能，请点击报表上视觉对象菜单中的“显示数据”，或展开的视觉对象操作菜单上的新建图标。
+
+## <a name="previous-months"></a>前几个月
+
+### <a name="september-2017"></a>2017 年 9 月
+#### <a name="filters-for-phone-reports-in-iphones"></a>iPhone 中的电话报表筛选器
 如果在 Power BI Desktop 中创建包含电话优化页面的报表，并且报表具有筛选器，那么现在可以在 iPhone 上的电话报表中应用这些筛选器。 详细了解 [iPhone 上适用于 Power BI 报表的筛选器](https://powerbi.microsoft.com/blog/filters-coming-for-phone-reports-on-ios/)。
 
-## <a name="august-2017"></a>2017 年 8 月
-### <a name="ios-proxy-settings-support"></a>支持 iOS 代理设置
+### <a name="august-2017"></a>2017 年 8 月
+#### <a name="ios-proxy-settings-support"></a>支持 iOS 代理设置
 现在可以在 Power BI iOS 移动应用中设置代理设置。 这意味着，Power BI 现在能够通过移动设备上的 VPN 连接正常工作，方便更多用户和组织随时随地安全地利用 Power BI 的功能。
 
-## <a name="july-2017"></a>2017 年 7 月
+### <a name="july-2017"></a>2017 年 7 月
 请参阅 [2017 年 7 月移动应用功能摘要](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview)
 
-### <a name="ios-devices"></a>iOS 设备
+#### <a name="ios-devices"></a>iOS 设备
 **iOS 上全新的问答体验（预览版）**：现在可以使用自然语言获取限定范围的见解，而不单单是收到问题答案。 即使不确定要查找什么，问答依然能够主动呈现与数据相关的见解。 与 Microsoft Research 团队协作开发的全新手机问答体验在我们的产品内展现了功能强大的技术。 请试学教程[在 iOS 移动应用中咨询有关数据的问题](mobile-apps-ios-qna.md)。
 
 ### <a name="responsive-visuals"></a>响应式视觉对象
 **手机报表和仪表板的响应式视觉对象**：可以将仪表板或报表中的视觉对象设置为响应式，即动态缩放，尽可能显示最多的数据和见解，无论屏幕大小如何。 请阅读[有关响应式视觉对象的博客](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)。
 
-## <a name="previous-months"></a>前几个月
 ### <a name="june-2107"></a>2017 年 6 月
 #### <a name="all-devices"></a>所有设备
 **收藏应用**：已可以收藏仪表板。 最近，[Power BI 中添加了应用](service-install-use-apps.md)，现在也可以收藏应用了。 

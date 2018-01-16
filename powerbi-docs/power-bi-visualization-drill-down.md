@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/18/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 83c63ee2bed5ae7674223cf2fc3f9241308926e9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22dc1c9b703b500625a5aed23b6187fd3f616dde
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>在 Power BI 中深入探索可视化效果
 ## <a name="drill-down-requires-a-hierarchy"></a>向下钻取要求具有层次结构
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/15/2017
 ## <a name="method-1-for-drill-down"></a>向下钻取的方法一
 此方法使用钻取图标，该图标显示在可视化效果本身的顶部边角。
 
-1. 在 Power BI 中，在[阅读视图](service-report-open-in-reading-view.md)或[编辑视图](service-reading-view-and-editing-view.md)中打开报表。 钻取需要具有层次结构的可视化效果。 
+1. 在 Power BI 中，以[阅读视图或编辑视图](service-reading-view-and-editing-view.md)打开报表。 钻取需要具有层次结构的可视化效果。 
    
    层次结构如下面的动画中所示。  可视化效果具有一个由区域、城市、邮政编码和城市名称所组成的层次结构。 每个区域均包含一个或多个城市，而每个城市均包含一个或多个邮政编码等。默认情况下，可视化效果仅显示区域数据，因为在列表中首先显示“区域”。
    
@@ -75,7 +75,7 @@ ms.lasthandoff: 11/15/2017
 ## <a name="method-2-for-drill-down"></a>向下钻取的方法二
 此方法使用顶部 Power BI 菜单栏的“**浏览**”下拉列表。
 
-1. 在 Power BI 中，在[阅读视图](service-report-open-in-reading-view.md)或[编辑视图](service-reading-view-and-editing-view.md)中打开报表。 钻取需要具有层次结构的可视化效果。 
+1. 在 Power BI 中，以[阅读视图或编辑视图](service-reading-view-and-editing-view.md)打开报表。 钻取需要具有层次结构的可视化效果。 
    
    层次结构如下图所示。  可视化效果具有一个由区域、城市、邮政编码和城市名称所组成的层次结构。 每个区域均包含一个或多个城市，而每个城市均包含一个或多个邮政编码等。默认情况下，可视化效果仅显示区域数据，因为在列表中首先显示“区域”。
    

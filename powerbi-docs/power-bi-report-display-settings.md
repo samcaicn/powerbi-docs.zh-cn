@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 57c441c489bf71db4b45bdfb96821b3cc2dcdec3
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 报表中的页面显示设置
 我们了解保持报表布局像素完美的重要性。 有时候这会有点困难，因为你和你的同事会使用纵横比和大小不同的屏幕查看这些报表。 
@@ -45,7 +45,7 @@ Power BI 服务和 Power BI Desktop 中都提供了页面视图设置，但界�
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-[阅读视图](service-interact-with-a-report-in-reading-view.md)和[编辑视图](service-interact-with-a-report-in-editing-view.md)都提供“页面视图”设置。 在“编辑视图”中，报表所有者可以将页面视图设置分配给个别报表页面，而这些设置会随报表一起保存。 当同事在“阅读视图”中打开该报表时，他们看到的是以所有者设置显示的报表页面。  在“阅读视图”中，同事可以更改某些页面视图设置，但退出报表时，所做的更改不会保存。
+[阅读视图和编辑视图](service-reading-view-and-editing-view.md)中均提供了“页面视图”设置。 在“编辑视图”中，报表所有者可以将页面视图设置分配给个别报表页面，而这些设置会随报表一起保存。 当同事在“阅读视图”中打开该报表时，他们看到的是以所有者设置显示的报表页面。  在“阅读视图”中，同事可以更改某些页面视图设置，但退出报表时，所做的更改不会保存。
 
 ##    <a name="page-view-settings"></a>页面视图设置
 第一组“页面视图”设置可以控制报表页面相对于浏览器窗口的显示。  可以选择：

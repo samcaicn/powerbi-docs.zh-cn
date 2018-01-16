@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 57960c3ca46e48f399e0492192c10cba2cfa7ea9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0f81b0fa87af5af281b40224bac3b5815461cb9e
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>关于 Power BI 报表中的筛选器和突出显示
 ***筛选器***可保留你最关切的数据，而将其他所有数据删除。  ***突出显示***与筛选不同，因为它不会删除数据，而会将一部分可见数据突出显示；未突出显示的数据会保持可见但变暗。
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/15/2017
 
 * 筛选器和突出显示的介绍（你现在正在阅读的文章）
 * [创建和使用筛选器并在自己的编辑视图/报表中突出显示](power-bi-report-add-filter.md) 的方法。 当你具有报表的编辑权限时，你可以创建、修改和删除筛选器并在报表中突出显示。
-* [使用筛选器并在与你共享的报表中或报表“阅读视图”中突出显示](service-interact-with-a-report-in-reading-view.md) 的方法。 你可以执行的操作更有限，但是 Power BI 仍给你较大范围的筛选和突出显示选项。  
+* [使用筛选器并在与你共享的报表中或报表“阅读视图”中突出显示](service-reading-view-and-editing-view.md) 的方法。 你可以执行的操作更有限，但是 Power BI 仍给你较大范围的筛选和突出显示选项。  
 * [编辑视图中可用的筛选器和突出显示控件的详细教程](power-bi-how-to-report-filter.md)，包含对筛选器类型（例如，日期和时间、数字、文本）的深入了解以及基本和高级选项之间的区别。
 * 现在，你已经了解了筛选器和突出显示如何在默认状态下运行，[了解如何更改页面筛选器上的可视化效果并突出显示彼此](service-reports-visual-interactions.md)
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 11/15/2017
 > 
 
 ## <a name="filters-in-reading-view-versus-editing-view"></a>“阅读视图”和“编辑视图”中的筛选器
-可使用下列两种模式与报表交互：[阅读视图](service-interact-with-a-report-in-reading-view.md)和[编辑视图](service-interact-with-a-report-in-editing-view.md)。  而筛选功能会根据你所用的模式来提供。
+有两种模式可与报表交互：[阅读视图和编辑视图](service-reading-view-and-editing-view.md)。  而筛选功能会根据你所用的模式来提供。
 
 * 在“编辑视图”中，可以添加报表、页面和视觉对象筛选器。 保存报表时，筛选器将随之一起保存。 而在“阅读视图”中查看报表的人可以与你添加的筛选器交互，但不能保存他们所做的更改。
 * 在“阅读视图”中，可以与报表中已存在的任何页面和视觉对象筛选器进行交互，但不能保存筛选器所做的更改。
@@ -66,7 +66,7 @@ ms.lasthandoff: 11/15/2017
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-在“阅读视图”中，通过修改现有筛选器来浏览数据。 在 [与阅读视图中的筛选器进行交互](service-interact-with-a-report-in-reading-view.md) 一文中了解如何操作
+在“阅读视图”中，通过修改现有筛选器来浏览数据。 在 [与阅读视图中的筛选器进行交互](service-reading-view-and-editing-view.md) 一文中了解如何操作
 
 ### <a name="the-filters-pane-in-editing-view"></a>“编辑视图”中的“筛选器”窗格
 当你具有某个报表的所有者权限并将其在“编辑视图”中打开时，会看到“**筛选器**”只是几个可用的编辑窗格之一。
@@ -83,7 +83,7 @@ ms.lasthandoff: 11/15/2017
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
 ## <a name="next-steps"></a>后续步骤
-[与筛选器和突出显示交互（使用“阅读视图”）](service-interact-with-a-report-in-reading-view.md)
+[与筛选器和突出显示交互（使用“阅读视图”）](service-reading-view-and-editing-view.md)
 
 [向报表添加筛选器（使用“编辑视图”）](power-bi-report-add-filter.md)
 

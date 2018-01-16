@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/4/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 在 Power BI 服务中打开报表时，报表的每一页都有自己的专属 URL。 若要筛选报表页，可以使用报表画布上的“筛选器”窗格。  也可以向 URL 添加查询字符串参数来筛选报表。 你可能有一个要向同事展示的报表，你希望为同事预筛选报表。 方法之一是，从报表的默认 URL 入手，向 URL 添加筛选参数，然后通过电子邮件向同事发送完整的 URL。
@@ -41,7 +41,7 @@ URL?filter=***表***/***字段*** eq '***值***'
 * **表**和**字段**名称区分大小写，**值**不区分大小写。
 * 报表视图中隐藏的字段仍可供筛选。
 * 必须用单引号将**值**括起来。
-* 字段类型必须是字符串。
+* 字段类型必须为数字或字符串
 * 表和字段名称中不能有任何空格。
 
 如果仍感到困惑，请继续阅读，我们将分部分讲解。  
@@ -108,7 +108,7 @@ https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/R
 使用查询字符串参数时，需要注意两点。
 
 * 查询字符串筛选不适用于[发布到 Web](service-publish-to-web.md) 或 Power BI Embedded。   
-* 字段类型必须是字符串。
+* 字段类型必须为数字或字符串。
 * 表和字段名称中不能有任何空格。
 
 ## <a name="next-steps"></a>后续步骤

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 01/05/2018
 ms.author: asaxton
-ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 893f9a9b539b2facd62f74f8ecaebe42a4e7fcaa
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 白皮书
 
@@ -41,5 +41,6 @@ ms.lasthandoff: 12/14/2017
 | [安全性](service-admin-power-bi-security.md) |详细介绍了 Power BI 中的安全性。 |
 | [保护表格 BI 语义模型](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |本白皮书介绍了表格 BI 语义和 Power BI 的安全模型。 你将了解如何创建角色，实现动态安全性，配置模拟设置，管理角色，以及选择连接到在你的网络安全上下文中工作的模型的方法。 |
 | [Power BI 报表服务器容量计划指南](report-server/capacity-planning.md) |本文旨在通过共享针对报表服务器的各种工作负载的大量加载测试执行的结果，提供 Power BI 报表服务器的容量计划指南。 |
-|[Power BI Premium 规划和部署](https://aka.ms/Premium-Capacity-Planning-Deployment) | 有关规划、部署和操作化 Power BI Premium 的最佳做法和指导的技术白皮书。 
+| [Power BI Premium 规划和部署](https://aka.ms/Premium-Capacity-Planning-Deployment)| 本文介绍了如何针对已定义的工作负载规划和部署高级容量，以及相应的最佳做法。|
+
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>订阅 Power BI 报表或仪表板
 现在，及时更新最重要的仪表板和报表，比以前更加轻松。 订阅最重要的报表页和仪表板，Power BI 将会通过电子邮件将快照发送到收件箱。 告知 Power BI 所需的电子邮件接收频率：从每天一次到每周一次。 电子邮件和快照将使用 Power BI 设置中设置的语言。 如果未定义任何语言，Power BI 将使用当前的浏览器语言。
@@ -65,7 +65,7 @@ ms.lasthandoff: 12/02/2017
    ![](media/service-report-subscribe/power-bi-view-related-screen.png)
 
 ## <a name="subscribe-to-a-report-page"></a>订阅报表页面
-1. 在[阅读视图](service-report-open-in-reading-view.md)中打开报表。
+1. 在[阅读视图](service-reading-view-and-editing-view.md)中打开报表。
 2. 在顶部菜单栏中，选择“**订阅**”。
    
    ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
@@ -109,6 +109,7 @@ ms.lasthandoff: 12/02/2017
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 * 暂无法订阅内容包或 Power BI 应用中的仪表板或报表。 不过，解决方法也是有的，就是复制报表/仪表板，再改为订阅相应的版本。
+* 报表页订阅与报表页面的名称是相关联的。 如果你订阅一个报表页，而后将其重命名，则必须重新创建订阅
 * 对于实时连接数据集上的电子邮件订阅，你只会在数据更改时收到电子邮件。 因此，如果发生刷新但没有数据更改，Power BI 不会向你发送电子邮件。
 * 电子邮件订阅不支持大多数[自定义视觉对象](power-bi-custom-visuals.md)。  已经过[认证](power-bi-custom-visuals-certified.md)的自定义视觉对象除外。  
 * 电子邮件订阅与报表的默认筛选器和切片器状态一起发送。 你在订阅前对默认设置所做的任何更改都不会显示在电子邮件中。    

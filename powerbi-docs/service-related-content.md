@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 4610523d7c18246394974083c948b7bc018b4da1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>查看 Power BI 服务中的相关内容
 “相关内容”窗格显示了 Power BI 服务内容（仪表板、报表和数据集）的互连方式。  此窗格经过优化，可以在其中执行刷新、重命名、生成见解等常见任务。 选择相关的报表或仪表板即可在 Power BI 工作区中打开。   
@@ -71,10 +71,10 @@ ms.lasthandoff: 11/15/2017
 
 ![](media/service-related-content/power-bi-view-related-report-newer.png)
 
-<br>方法 2
+<br>
+方法 2
 
-
-在[阅读视图](service-interact-with-a-report-in-reading-view.md)中打开报表，然后选择顶部菜单栏中的 ![](media/service-related-content/power-bi-view-related-new.png)。
+在[阅读视图](service-reading-view-and-editing-view.md)中打开报表，然后选择顶部菜单栏中的 ![](media/service-related-content/power-bi-view-related-new.png)。
 
 此时，“相关内容”窗格会打开。 其中显示了关联的数据集，以及至少有一个磁贴固定了此报表的可视化效果的所有仪表板。 此报表的可视化效果固定到 2 个不同的仪表板。
 
@@ -97,7 +97,7 @@ ms.lasthandoff: 11/15/2017
 
 ## <a name="limitations-and-troubleshooting"></a>限制和疑难解答
 * 如果浏览器的空间不够，将看不到“相关视图”选项，但仍可以看到“相关视图”图标 ![](media/service-related-content/power-bi-view-related-icon-new.png)。 选择此图标，可以打开“相关内容”窗格。
-* 必须在[阅读视图](service-interact-with-a-report-in-reading-view.md)中打开报表，才能打开“相关内容”窗格。
+* 必须在[阅读视图](service-reading-view-and-editing-view.md)中打开报表，才能打开“相关内容”窗格。
 * Power BI Desktop 不支持“相关内容”功能。
 * “相关内容”功能不适用于流数据集。
 

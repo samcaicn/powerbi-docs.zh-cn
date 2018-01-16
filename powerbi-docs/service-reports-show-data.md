@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 5fcfd09e74f661a1cc5ab8fcda6cf4cd0525437a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b9e72c57ccd165ed02424e303c5ec54f179868e0
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>显示用于创建可视化效果的数据
 ## <a name="show-data"></a>显示数据
@@ -35,7 +35,7 @@ Power BI 可视化效果是使用数据集中的数据创建的。 如果你对�
 > 
 
 ## <a name="using-show-data-in-power-bi-service"></a>使用 Power BI 服务中的“显示数据”功能
-1. 在 Power BI 服务中，在“[阅读视图](service-report-open-in-reading-view.md)”或“[编辑视图](service-reading-view-and-editing-view.md)”中打开报表，然后选择一个视觉对象。  在 Power BI Desktop 中，打开“报表”视图。
+1. 在 Power BI 服务中，以[阅读视图或编辑视图](service-reading-view-and-editing-view.md)打开报表，然后选择一个视觉对象。  在 Power BI Desktop 中，打开“报表”视图。
 2. 若要显示视觉对象背后的数据，请依次选择“浏览” > “显示数据”。
    
    ![](media/service-reports-show-data/power-bi-show-data.png)

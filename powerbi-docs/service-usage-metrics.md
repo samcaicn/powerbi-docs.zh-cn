@@ -18,17 +18,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/27/2017
 ms.author: mihart
-ms.openlocfilehash: 0fca4788c29f42390a286509acd0675292fc6684
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 04709b76b8e3e464b5384fa2bf137cd79b0749a7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>仪表板和报表的使用指标
 如果你创建仪表板和报表，使用指标可帮助你了解它们的影响。 运行仪表板使用情况指标或报表使用情况指标时，可查看整个组织使用这些仪表板和报表的情况 - 正在使用的内容、使用人员以及使用目的。  
 
 > [!NOTE]
-> 嵌入仪表板和报表时，使用情况指标会捕获使用情况，但如果使用[发布到 Web](service-publish-to-web.md)，则不会出现这种情况
+> 使用情况指标将跟踪 SharePoint Online 中嵌入的报表的使用情况。 它们还通过“用户拥有凭据”和“应用拥有凭据”流来跟踪仪表板和报表的嵌入。 使用情况指标将不跟踪通过[发布到 Web](service-publish-to-web.md) 嵌入的报表的使用情况。
 > 
 > 
 

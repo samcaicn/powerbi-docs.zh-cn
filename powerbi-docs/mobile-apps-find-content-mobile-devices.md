@@ -1,6 +1,6 @@
 ---
 title: "在 Power BI 移动应用中查找仪表板、报表和应用"
-description: "了解在哪里可以找到 Power BI 移动应用中的仪表板和报表（具体取决于它们原来所在的位置）。"
+description: "了解在 Power BI 移动应用中哪里可以找到仪表板、报表和应用（具体要取决于它们原来所在的位置）。"
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6dca860e4711d85b4b53c31c91ba4cba20bbe6e7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查找仪表板、报表和应用
 适用于：
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/13/2017
 ## <a name="3-apps"></a>3 应用
 应用是组织专为特定目的生成的仪表板和报表集合，用于提供关键指标，以实现更快速方便的数据驱动型决策。 在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 中，可以轻松地发现和安装应用。 在安装应用后，可以从任何设备进行查看。 
 
-![Power BI 新导航](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-apps.png)
+![Power BI 新导航](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
 借助应用，你可以自动获取作者进行的所有更新，而且作者还可以控制计划刷新数据的频率。 不必担心如何随时获取作者的最新更改。
 

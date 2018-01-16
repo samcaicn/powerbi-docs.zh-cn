@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: f31d37b6fe9c0e4695719b9bbaa13a2c8deabc75
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 01/05/2018
+ms.author: maghan
+ms.openlocfilehash: c3a9cbd22f2304d19ae876962d0bf798fbd41183
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>在 Power BI 报表服务器中访问作为 OData 源的共享数据集
 可以使用 OData 源从 Power BI Desktop 访问共享数据集。
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/13/2017
 
 请务必使用“高级选项”，以便在 Power Query 中打开 Open Type 列并相应地设置列格式以满足你的需求。
 
-阅读有关[连接 Power BI Desktop 中的 OData 字段](../desktop-connect-odata.md)的更多信息。
+了解有关[连接到 Power BI Desktop 中的 OData 源](../desktop-connect-odata.md)的更多信息。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

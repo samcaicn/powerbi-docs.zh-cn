@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/29/2017
 ms.author: mihart
-ms.openlocfilehash: 3710b8136a5f8f00d78047d9468dce0d6e68377f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>浏览报表“筛选器”窗格
 本文将深入介绍报表“筛选器”窗格。 你将在“编辑视图”和 Power BI 报表的“阅读视图”中看到窗格。
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/15/2017
 在 Power BI 中可以使用多种不同的方式筛选数据，我们建议首先阅读 [关于筛选器和突出显示](power-bi-reports-filters-and-highlighting.md)。
 
 ## <a name="working-with-filters"></a>使用刷选器
-可以在[编辑视图](service-interact-with-a-report-in-editing-view.md) 或[阅读视图](service-interact-with-a-report-in-reading-view.md) 中打开报表。 在“编辑视图”中，报表所有者可 [向报表添加筛选器](power-bi-report-add-filter.md)，这些筛选器将与报表一起保存。 在“阅读视图”中查看报表的人员可与这些筛选器进行交互，但不能将筛选器更改保存到该报表。
+可在[编辑视图或阅读视图](service-reading-view-and-editing-view.md)中打开报表。 在“编辑视图”中，报表所有者可 [向报表添加筛选器](power-bi-report-add-filter.md)，这些筛选器将与报表一起保存。 在“阅读视图”中查看报表的人员可与这些筛选器进行交互，但不能将筛选器更改保存到该报表。
 
 ## <a name="filters-in-reading-view"></a>“阅读视图”中的筛选器
 在“阅读视图”中打开报表时，“筛选器”窗格显示在报表画布的右侧。 如果未看到窗格，请选择右上角的箭头以将其展开。
@@ -122,7 +122,7 @@ ms.lasthandoff: 11/15/2017
 
 ## <a name="next-steps"></a>后续步骤
 [报表中的筛选器和突出显示](power-bi-reports-filters-and-highlighting.md)  
-[在报表的“阅读视图”中与筛选器和突出显示交互](service-interact-with-a-report-in-reading-view.md)  
+[在报表的“阅读视图”中与筛选器和突出显示交互](service-reading-view-and-editing-view.md)  
 [在报表“编辑视图”中创建筛选器](power-bi-report-add-filter.md)  
 [更改报表视觉对象相互交叉筛选和交叉突出显示的方式](service-reports-visual-interactions.md)
 
