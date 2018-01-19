@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: 1eff7cbb6fd54993440d309cb14622295daa3d19
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+ms.openlocfilehash: 4fd120b3c44c7a748bdfd42378c3c3aa43e2ad7d
+ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新 Power BI Desktop 更新中有哪些新增功能？
 
-## <a name="december-2017-update-2534954481-"></a>2017 年 12 月更新 (2.53.4954.481 )
+## <a name="january-2018-update-2544970761-"></a>2018 年 1 月更新 (2.54.4970.761)
 
 你现在可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop。 无论采用哪种方式安装 Power BI Desktop，每月版本都相同。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
 
-十二月将发布大量 Power BI Desktop 更新，其中不乏所有喜欢商业智能的孩子（及成年人）可尽享的各种惊喜功能。 并且我们保证，任何人都是平等的。
+我们将在新的一年中积极推出一系列的“Power BI Desktop”更新，我们的新年愿望是源源不断地提供更新。
 
 每个更新旁边的链接表示以下含义：
 
@@ -44,39 +44,33 @@ ms.lasthandoff: 12/12/2017
 
 ### <a name="reporting"></a>报表
 
--   有关报表创建的问答[[视频]](https://youtu.be/ZPU8B-1BxjI?t=8s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) 
--   有关书签的交叉突出显示[[视频]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting) 
--   更多书签灵活性[[视频]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility) 
--   字段属性窗格和字段说明[[视频]](https://youtu.be/ZPU8B-1BxjI?t=13m19s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane) 
--   基于 x 轴和 y 轴分组的散点图视觉对象[[视频]](https://youtu.be/ZPU8B-1BxjI?t=15m12s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
--   地图基于纬度和经度的高密度抽样[[视频]](https://youtu.be/ZPU8B-1BxjI?t=17m3s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
--   响应式切片器[[视频]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
--   最近发布的自定义视觉对象 [[视频]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
+-   显示和隐藏网页[[视频]](https://youtu.be/W8Pp5wuCXJw?t=20s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages) 
+-   控制笛卡尔和映射视觉对象的数据标签背景颜色[[视频]](https://youtu.be/W8Pp5wuCXJw?t=3m13s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dataLabelBackground) 
+-   增加图表中用于轴标签的区域[[视频]](https://youtu.be/W8Pp5wuCXJw?t=5m10s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#axisSize) 
+-   栏/列填充控制[[视频]](https://youtu.be/W8Pp5wuCXJw?t=6m40s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#padding) 
+-   将日期显示为层次结构（预览）[[视频]](https://youtu.be/W8Pp5wuCXJw?t=7m41s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dateHierarchy) 
+-   为相对日期切片器添加定位标记日期[[视频]](https://youtu.be/W8Pp5wuCXJw?t=9m22s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate) 
+-   问答中的前 N 个选择[[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
+-   多个新的自定义视觉对象[[视频]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>分析
 
--   钻取筛选其他视觉对象[[视频]](https://youtu.be/ZPU8B-1BxjI?t=28m53s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
-
+-   相关系数快速度量[[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
 
 ### <a name="data-connectivity"></a>数据连接
 
--   Adobe Analytics 连接器[[视频]](https://youtu.be/ZPU8B-1BxjI?t=30m35s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#AdobeAnalytics) 
--   HDInsight 交互式查询连接器[[视频]](https://youtu.be/ZPU8B-1BxjI?t=31m13s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#HDInsightInteractiveQuery) 
--   Data.World 连接器[[视频]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#Data.World) 
--   SAP BW 连接器改进[[视频]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#SAPBW) 
--   IBM Netezza 连接器现已正式发布[[视频]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#IBMNetezza) 
-
+-   支持 Azure SQL 数据库和数据仓库连接器的 Azure Active Directory 身份验证[[视频]](https://youtu.be/W8Pp5wuCXJw?t=21m42s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#AADauth) 
 
 
 > [!NOTE]
 > 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
 
-想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
 
 以下视频介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
 > 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。

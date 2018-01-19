@@ -1,7 +1,7 @@
 ## <a name="requirements"></a>要求
 **最低要求：**
 
-* .NET 4.5 Framework
+* .NET 4.6 Framework
 * 64 位版本的 Windows 7 / Windows Server 2008 R2（或更高版本）
 
 **推荐：**

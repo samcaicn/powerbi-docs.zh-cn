@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中创建和发布包含仪表板和报表的应用
 
@@ -53,12 +53,7 @@ ms.lasthandoff: 12/12/2017
 
 可以以成员或管理员身份将同事添加到这些工作区。 所有应用工作区成员和管理员都需要 Power BI Pro 许可证。 在工作区中，所有人可协作处理计划向更广大受众或者整个组织发布的仪表板、报表和其他文章。 
 
-内容准备就绪时，将发布应用。 你可以向更广大受众发送一个直接链接，他们也可以通过转到“从 AppSource 下载并浏览更多应用”，在“应用”选项卡中找到你的应用。 这些用户不能修改应用的内容，但他们可以在 Power BI 服务或其中一个移动应用中与之交互：自行对数据进行筛选、突出显示和排序。 
-
-### <a name="how-are-app-workspaces-different-from-group-workspaces"></a>应用工作区与组工作区有什么不同？
-所有现有的组工作区都可用作应用工作区，你可以从任意工作区发布应用。 下面是应用工作区和组工作区的一个区别：你可以创建应用工作区作为创建和保存特定应用的位置。 应用和应用工作区的内容之间存在一对一的关系。 在发布应用时，应用工作区中的所有内容将处于应用中。 
-
-在了解应用和应用工作区后，现在开始构建和发布应用。 
+内容准备好后，选择想要发布的仪表板和报表，然后发布应用。 你可以向更广大受众发送一个直接链接，他们也可以通过转到“从 AppSource 下载并浏览更多应用”，在“应用”选项卡中找到你的应用。 这些用户不能修改应用的内容，但他们可以在 Power BI 服务或其中一个移动应用中与之交互：自行对数据进行筛选、突出显示和排序。 
 
 ## <a name="create-an-app-workspace"></a>创建应用工作区
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]

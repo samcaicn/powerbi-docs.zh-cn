@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/19/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: e614273c21dd5c222816700f0d42888e661ba1e0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>嵌入 Power BI 仪表板、报表和磁贴
 
@@ -133,10 +133,13 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 
 ### <a name="embedding-for-your-customers"></a>为客户嵌入内容
 
-若要为客户嵌入内容，建议执行以下操作。
+若要为客户嵌入内容，请执行以下操作。
 
 * 如果使用单独的租户进行开发，必须确保应用工作区以及仪表板和报表可用于生产环境。 请务必在 Azure AD 中为生产租户创建应用，并按照第 1 步所述分配适当应用权限。
 * 购买符合需求的容量。 请参阅下表，了解可能需要的 Power BI Embedded 容量 SKU。 有关详细信息，请参阅[嵌入式分析容量规划白皮书](https://aka.ms/pbiewhitepaper)。 准备购买时，可以在 [Microsoft Azure 门户](https://portal.azure.com)中完成购买。 若要详细了解如何创建 Power BI Embedded 容量，请参阅[在 Azure 门户中创建 Power BI Embedded 容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)。
+
+> [!IMPORTANT]
+> 由于嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 对于嵌入生产方案，[必须购买容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)。 购买容量后便不会限制嵌入令牌生成。
 
 | 容量节点 | 总核心数<br/>（后端 + 前端） | 后端核心数 | 前端核心数 | DirectQuery/实时连接限制 | 高峰时间的最大显示页数 |
 | --- | --- | --- | --- | --- | --- |
@@ -152,6 +155,8 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
     ![为应用工作区分配容量](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * 将更新后的应用部署到生产环境，并开始嵌入 Power BI 仪表板和报表。
+
+
 
 ## <a name="admin-settings"></a>管理员设置
 

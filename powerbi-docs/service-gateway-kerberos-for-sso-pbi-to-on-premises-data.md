@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: c00281d6b9e8a75df3b08cf1f99d0c9357129816
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: a90926d14289ff0a904f29b7b43f70aa2cbc3130
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 进行从 Power BI 到本地数据源的 SSO（单一登录）
 通过使用 Kerberos 配置本地数据网关，可以获得无缝的单一登录连接，从而使 Power BI 报表和仪表板可以从本地数据进行更新。 本地数据网关使用用于连接到本地数据源的 DirectQuery 实现单一登录 (SSO)。
@@ -63,11 +63,15 @@ ms.lasthandoff: 11/27/2017
 
 
 > [!NOTE]
-> 若要为 SAP HANA 启用 SSO，需要向 SAP 应用以下两个 HANA 专属配置修复程序：
->    1. 使用 SAP 在 2017 年 10 月底发布的 HANA 修补程序 122.13 升级 SAP HANA 服务器。 
+> 要为 SAP HANA 启用 SSO，需要确保以下 HANA 专属配置满足 SAP：
+>    1. 确保 SAP HANA 服务器正在运行版本 2.00.022* 或更高版本。 
 >    2. 在网关计算机上，安装 SAP 的最新 HANA ODBC 驱动程序。  最低版本为 2017 年 8 月发布的 HANA ODBC 版本 2.00.020.00。
+>
+> 以下来自 SAP 的修补和升级链接可能会有用。 请注意，必须使用 SAP 支持的帐户登录到以下资源，并且 SAP 可能会更改或更新这些链接。
 > 
-
+> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386) 
+> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324) 
+> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
 
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>Kerberos 配置不全导致的错误

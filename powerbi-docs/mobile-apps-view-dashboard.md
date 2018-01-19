@@ -1,6 +1,6 @@
 ---
-title: "查看 Power BI 移动应用中的仪表板"
-description: "在 Power BI 服务中创建或连接仪表板。 然后可以在 Power BI 移动应用中对其进行查看。"
+title: "查看 Power BI 移动应用中的仪表板和报表"
+description: "在 Power BI 服务中创建或连接仪表板和报表。 然后可以在 Power BI 移动应用中对其进行查看。"
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,15 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/18/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 07a514f5d5c5046f8046bb231aef941f201a829b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/17/2018
 ---
-# <a name="view-your-dashboards-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看仪表板
+# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>查看 Power BI 移动应用中的仪表板和报表
 适用于：
 
 | ![iPhone](media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android 手机](media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android 平板电脑](media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10 设备](media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
@@ -35,10 +35,10 @@ ms.lasthandoff: 11/13/2017
 ## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>在 Power BI 服务 (https://powerbi.com) 中创建仪表板
 **你未在移动应用中创建仪表板。** 
 
-若要在移动设备上查看仪表板，则需要在 Web 浏览器中创建或连接它们。 
+要在移动设备上查看仪表板和报表，则需要在 Web 浏览器中创建或连接它们。 
 
 1. 转到 Power BI 服务 ([https://www.powerbi.com](https://www.powerbi.com))，并[注册帐户](service-self-service-signup-for-power-bi.md)。
-2. [创建自己的 Power BI 仪表板](service-dashboard-create.md)，或连接到现有[内容包以获取各种服务](service-connect-to-services.md)。
+2. [创建你自己的 Power BI 仪表板和报表](service-get-started.md)或连接到现有 [Power BI 应用](service-connect-to-services.md)，以获取各种服务，例如 [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) 和 [Adobe Analyics](service-connect-to-adobe-analytics.md)。
 
 此处是一个 Power BI 服务中的 Power BI 仪表板：
 

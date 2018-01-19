@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI 中的散点图和气泡图（教程）
 散点图始终具有两个数值轴以显示水平轴上的一组数值数据和垂直轴上的另一组数值数据。 图表在 x 和 y 数值的交叉处显示点，将这些值单独合并到各个数据点。 根据数据，这些数据点可能均衡或不均衡地分布在水平轴上。
@@ -75,6 +75,14 @@ ms.lasthandoff: 01/03/2018
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. 根据需要，可以[设置可视化颜色、标签、标题、背景等等](service-getting-started-with-color-formatting-and-axis-properties.md)。
+
+## <a name="accessibility"></a>辅助功能
+
+可以使用“标记形状”令散点图或气泡图更便于残障人士使用。 
+
+要选择“标记形状”，请在“可视化效果”窗格中选择“格式”区域，展开“形状”部分，然后选择标一个记形状。
+
+![标记形状](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**散点图只有一个数据点**

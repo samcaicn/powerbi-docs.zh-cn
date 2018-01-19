@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
+ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -32,6 +32,13 @@ ms.lasthandoff: 12/12/2017
 ## <a name="october-2017"></a>2017 年 10 月
 
 - **Power BI 报表服务器**
+    - 版本 1.1.6582.41691（内部版本 14.0.600.442），发布日期：2018 年 1 月 10 日
+        - 安全更新
+        - Bug 修复
+            - 修复了 Model.GetParameters 返回 400 的问题
+            - 修复了将共享数据集设置为现有分页报表 (RDL) 的问题
+            - 修复了将使用不同参数值的报表导出到 PDF 时出现的 ExecutionNotFoundException
+
     - 版本 1.1.6551.5155（内部版本 14.0.600.438），发布日期：2017 年 12 月 11 日
         - Bug 修复
             - 某些 Power BI Desktop 报表刷新之后无法保存数据。
@@ -61,6 +68,9 @@ ms.lasthandoff: 12/12/2017
             - 辅助功能改进
 
 - Power BI Desktop（已针对 Power BI 报表服务器进行优化）
+    - 版本：2.51.4885.2501（2017 年 10 月），发布日期：2018 年 1 月 10 日
+        - 安全更新
+
     - 2017 年 11 月 17 日发布的版本 2.51.4885.1423（2017 年 10 月）
         - Bug 修复
             - 修复了以下问题：32 位 Power BI Desktop 无法在 x86 OS 上运行
@@ -74,6 +84,9 @@ ms.lasthandoff: 12/12/2017
 ## <a name="june-2017"></a>2017 年 6 月
 
 - **Power BI 报表服务器**
+    - 内部版本 14.0.600.309，发布日期：2018 年 1 月 10 日
+        - 安全更新
+
     - 内部版本 14.0.600.305，发布日期：2017 年 9 月 19 日  
         - Bug 修复
             - 更新到最新的[必应地图 Web 控件](https://msdn.microsoft.com/library/mt712542.aspx)
@@ -87,6 +100,10 @@ ms.lasthandoff: 12/12/2017
 
     - 内部版本 14.0.600.271，发布日期：2017 年 6 月 12 日
         - Power BI 报表服务器初始版本
+
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
+    - 版本：2.47.4766.4901（2017 年 6 月），发布日期：2018 年 1 月 10 日
+        - 安全更新
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="export-data-from-visualizations"></a>从可视化效果导出数据
 若要查看用于创建可视化效果的数据，可以[在 Power BI 中显示该数据](service-reports-show-data.md)或将这些数据以 .xlsx 或.csv 文件形式导出到 Excel。   
@@ -46,7 +46,7 @@ Watch 将从其报表中的其中一个可视化效果导出数据，将其保�
 ## <a name="from-a-visualization-in-a-report"></a>从报表中的可视化效果
 为此，打开“[编辑视图](service-reading-view-and-editing-view.md)”中的“[采购分析示例报表](sample-procurement.md)”。 [添加新的空白报表页](power-bi-report-add-page.md)。 然后按照以下步骤来添加聚合和可视化效果级别筛选器。
 
-1. 创建一个新的柱形图。  从字段窗格中，选择“位置 > 城市”和“发票 > 折扣百分比”。   
+1. 创建一个新的柱形图。  从字段窗格中，选择“位置 > 城市”和“发票 > 折扣百分比”。  需要将“折扣百分比”移动到“值”一列中。 
    
     ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 2. 将折扣百分比的聚合从“计数”更改为“平均”。 在“值”一列中，选择“折扣百分比”右侧的箭头（它可能显示“折扣百分比计数”），然后选择“平均”。

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 8c703b93e87ad32ab3f730979292b85a86fd53c0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 86d7a7fae9437bca3c116fb12ccf439339c1f0c0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>将 Power BI 仪表板、磁贴或报表嵌入应用中
 了解如何在为客户嵌入内容时，通过调用 Power BI .Net SDK 和 Power BI JavaScript API，将仪表板、磁贴或报表集成到或嵌入 Web 应用中。 这通常是 ISV 方案。
@@ -125,6 +125,9 @@ Report report = reports.Value.FirstOrDefault();
 ### <a name="create-the-embed-token"></a>创建嵌入令牌
 需要生成嵌入令牌，以便能够通过 JavaScript API 使用此令牌。 嵌入令牌特定于要嵌入的项。 也就是说，只要嵌入 Power BI 内容，就需要为其新建嵌入令牌。 有关详细信息（包括要使用哪个 accessLevel），请参阅 [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)。
 
+> [!IMPORTANT]
+> 由于嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 对于嵌入生产方案，[必须购买容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)。 购买容量后便不会限制嵌入令牌生成。
+
 有关示例，请参阅[“为组织嵌入内容”示例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)的 Controllers\HomeController.cs。
 
 假设为 EmbedConfig 和 TileEmbedConfig 创建了类。 Models\EmbedConfig.cs 和 Models\TileEmbedConfig.cs 中提供了相关示例。
@@ -186,6 +189,8 @@ var embedConfig = new EmbedConfig()
     Id = report.Id
 };
 ```
+
+
 
 ## <a name="step-4---load-an-item-using-javascript"></a>第 4 步 - 使用 JavaScript 加载项
 可以使用 JavaScript 将仪表板载入网页上的 div 元素。 此示例对仪表板、磁贴或报表使用 EmbedConfig/TileEmbedConfig 模型和视图。 有关使用 JavaScript API 的完整示例，可以参阅 [Microsoft Power BI 嵌入示例](https://microsoft.github.io/PowerBI-JavaScript/demo)。
