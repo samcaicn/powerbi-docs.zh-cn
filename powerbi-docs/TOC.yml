@@ -266,26 +266,36 @@
           href: service-data-classification.md
     - name: 询问数据相关问题
       items:
-        - name: Power BI 中的问答
-          href: service-q-and-a.md
-        - name: 如何使用 Power BI 问答
-          href: service-how-to-q-and-a.md
-        - name: 教程：开始使用 Power BI 问答
-          href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: 搭配使用问答和 Power BI Gateway - Enterprise 数据（预览版）
-          href: service-q-and-a-direct-query.md
-        - name: 让你的数据与 Power BI 中的问答功能很好地协作
-          href: service-prepare-data-for-q-and-a.md
-        - name: 适用于 Power BI 的 Cortana 简介
-          href: service-cortana-intro.md
-        - name: 为 Power BI 启用 Cortana
-          href: service-cortana-enable.md
-        - name: 创建 Power BI 问答的精选问题
-          href: service-q-and-a-create-featured-questions.md
-        - name: 使用 Power BI 中“问答”进行提问的提示和技巧
-          href: service-q-and-a-tips.md
-        - name: Cortana 故障排除
-          href: service-cortana-troubleshoot.md
+        - name: 概述
+          items:
+            - name: Power BI 中的问答
+              href: power-bi-q-and-a.md
+            - name: 适用于 Power BI 的 Cortana 简介
+              href: service-cortana-intro.md
+        - name: 快速入门
+          items:
+            - name: Power BI 入门问答
+              href: power-bi-visualization-introduction-to-q-and-a.md
+        - name: 教程
+          items:
+            - name: 使用问答创建可视化和生成报表
+              href: power-bi-tutorial-q-and-a.md
+        - name: 操作方法
+          items:
+            - name: 搭配使用问答和 Power BI Gateway - Enterprise 数据（预览版）
+              href: service-q-and-a-direct-query.md
+            - name: 让你的数据与 Power BI 中的问答功能很好地协作
+              href: service-prepare-data-for-q-and-a.md
+            - name: 为 Power BI 启用 Cortana
+              href: service-cortana-enable.md
+            - name: 创建 Power BI 问答的精选问题
+              href: service-q-and-a-create-featured-questions.md
+        - name: 资源
+          items:
+            - name: 使用 Power BI 中“问答”进行提问的提示和技巧
+              href: service-q-and-a-tips.md
+            - name: Cortana 故障排除
+              href: service-cortana-troubleshoot.md
     - name: 共享工作
       items:
         - name: 应如何针对仪表板及报表开展协作并进行共享？
