@@ -524,6 +524,8 @@
           href: service-gateway-onprem.md
         - name: 本地数据网关 - 深入了解
           href: service-gateway-onprem-indepth.md
+        - name: 本地数据网关的高可用性群集
+          href: service-gateway-high-availability-clusters.md
         - name: 本地数据网关常见问题
           href: service-gateway-onprem-faq.md
         - name: 本地数据网关（个人模型）
@@ -766,6 +768,10 @@
           href: desktop-quick-measures.md
         - name: 使用 What if 参数
           href: desktop-what-if.md
+        - name: 使用钻取
+          href: desktop-drillthrough.md
+        - name: 使用相对日期切片器和筛选器
+          href: desktop-slicer-filter-date-range.md
         - name: Power BI 报表中的辅助功能
           href: desktop-accessibility.md
         - name: 使用分组和装箱
