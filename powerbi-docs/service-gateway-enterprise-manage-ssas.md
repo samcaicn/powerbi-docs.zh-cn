@@ -192,7 +192,7 @@ Power BI 服务中将发生以下事件：
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard-"></a>使用通配符 (*)
+### <a name="using-wildcard-"></a>使用通配符 (\*)
 可以将通配符用于“**Replace（原始名称）**”字符串。 它只能用于自身而不能与任何其他字符串部分一起使用。 这样可以使你获取所有用户，并将单个值传递到数据源。 当你希望组织中的所有用户都能够在本地环境中使用相同的用户，那么这非常有用。
 
 ### <a name="test-a-mapping-rule"></a>测试映射规则
