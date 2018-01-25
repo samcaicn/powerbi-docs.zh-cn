@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 502135583f4d62144a2a2bdb908724c4f8e6b579
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 950c69282e74b42fca4034aaabb9487bad370219
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>使用 Power BI 连接到 appFigures
 可使用 Power BI 和 appFigures 内容包轻松地跟踪有关应用的重要统计信息。 Power BI 会检索数据（包括应用销售量、下载量和广告统计信息），然后生成默认仪表板以及基于该数据的相关报表。
@@ -52,7 +52,7 @@ ms.lasthandoff: 11/15/2017
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](service-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
 * 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新

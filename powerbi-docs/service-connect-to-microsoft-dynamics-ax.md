@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: f942c0551a473140903e2fce19feba641a62e5a2
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 38b9233bda842877b4c8c16df2904f5fe8b1966d
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>使用 Power BI 连接到 Microsoft Dynamics AX 内容包
 Microsoft Dynamics AX 有三个针对不同业务用户的 Power BI 内容包。 专门针对首席财务官设计的“财务状况”内容包，它可让你访问有关组织的财务状况的信息。 面向渠道经理的“零售渠道状况”内容包，该内容包专注于销售状况，通过直接从“零售和商业”提取数据从而预测销售趋势并提出意见。 “成本管理”专为首席运营官和首席财务官而设计，它可提供有关经营业绩的详细信息。
@@ -52,7 +52,7 @@ Microsoft Dynamics AX 有三个针对不同业务用户的 Power BI 内容包。
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](service-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
 * 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新

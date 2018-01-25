@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: ecbcccfbbece8255494c78220a81de62b3ddcc40
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 295d8dbd24c9ae6bce84cb76f6a5e23e7474b893
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>使用 Power BI 连接到 Circuit ID
 借助 Power BI 轻松分析 Circuit ID 的通信数据。 Power BI 检索数据，然后生成默认的仪表板并基于此数据生成相关的报表。 创建连接后，你可以根据需要管理数据并自定义仪表板。 数据每日自动刷新。
@@ -47,7 +47,7 @@ ms.lasthandoff: 11/15/2017
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](service-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
 * 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新

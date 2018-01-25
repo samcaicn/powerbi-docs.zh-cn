@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 344ed348f087ead10a8fa4a2c297909e8da628f4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c9a257ad413ff659ab763b26688a22c8461949eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>使用 Power BI 连接到 Twilio
 适用于 Power BI 的 Microsoft Twilio 内容包允许将数据导入 Power BI 并创建全新的 [Twilio 仪表板](https://powerbi.microsoft.com/integrations/twilio) 和报表，呈现你对数据的见解。 你还可以对 Power BI 创建的数据集创建报表和仪表板。 数据将每天刷新一次，因此你看到的始终都是最新数据。
@@ -47,7 +47,7 @@ ms.lasthandoff: 11/15/2017
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](service-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
 * 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新

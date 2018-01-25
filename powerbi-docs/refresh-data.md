@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 647b042d10768f4ecbb3083384efa9000202a11f
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 中的数据刷新
 确保始终获得最新数据对于制定正确决策通常是至关重要的。 你可能已在 Power BI 中使用“获取数据”连接到并上载一些数据，创建了一些报表和仪表板。 现在，你要确保数据确实是最新且最好的。
@@ -112,7 +112,7 @@ ms.lasthandoff: 11/23/2017
 | “获取数据”（在功能区中）用于连接到任何列出的联机数据源并从中查询数据。 |否 |是 |否（见下文） |
 | “获取数据”用于连接到并浏览实时 Analysis Services 数据库。 |是 |否 |是 |
 | “获取数据”用于连接到并浏览支持的本地 DirectQuery 数据源。 |是 |否 |是 |
-| “获取数据”用于连接到 Azure SQL 数据库、Azure SQL 数据仓库、Azure HDInsight Spark 并从中查询数据。 |是（每小时） |否 |否 |
+| “获取数据”用于连接到 Azure SQL 数据库、Azure SQL 数据仓库、Azure HDInsight Spark 并从中查询数据。 |是 |是 |否 |
 | “获取数据”用于连接到任何列出的本地数据源（Hadoop 文件 (HDFS) 和 Microsoft Exchange 除外）并从中查询数据。 |否 |是 |是 |
 
 > [!NOTE]

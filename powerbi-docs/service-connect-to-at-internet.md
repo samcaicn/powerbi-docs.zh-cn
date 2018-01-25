@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: a96e4b0f20eaea1a9f9e9fc71ea2724952f61fc3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 67ed59961ca5bc4b382adf105bbc5c97ff470118
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>使用 Power BI 连接到 AT Internet Bridge
 AT Internet 可帮助你使用其统一数字分析平台 Analytics Suite 从你的数据中提取即时值。 适用于 Power BI 的 AT Internet Bridge 内容包中包含你站点的访问、源、本地化和设备这些方面的数据。
@@ -50,7 +50,7 @@ AT Internet 可帮助你使用其统一数字分析平台 Analytics Suite 从你
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](service-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
 * 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新

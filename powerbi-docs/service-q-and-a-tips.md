@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/24/2017
+ms.date: 01/18/2018
 ms.author: jastru
-ms.openlocfilehash: 4b861927bad961837f40f34636f0570106aaabc6
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5d9b65448fced78bf3eb4ed02c84e1561d2d209a
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 问答中提问的提示
 ## <a name="words-and-terminology-that-qa-recognizes"></a>“问答”识别的单词和术语
@@ -101,7 +101,7 @@ Power BI 最强大的功能之一是能够组合来自不同数据集的数据�
 “问答”显示结果后，请保持继续谈话！ 使用可视化效果和“问答”的交互功能发现更多见解。
 
 ## <a name="next-steps"></a>后续步骤
-返回到 [Power BI 中的问答](service-q-and-a.md)  
+返回到 [Power BI 中的问答](power-bi-q-and-a.md)  
 
 [Power BI - 基本概念](service-basic-concepts.md)  
 

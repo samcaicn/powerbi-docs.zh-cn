@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/31/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 81f7b4a68b66a2bfbdf285007ff4ff636c326a6c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 800808a8c09166b8a5b1389b9a54fb57cfa13b12
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI 服务中的仪表板
 
@@ -82,7 +82,7 @@ Power BI ***仪表板***是单个页面，通常称为画布，使用可视化�
 * 了解[仪表板磁贴](service-dashboard-tiles.md)，以及当你选择一个磁贴时将发生的情况。
 * 不喜欢仪表板的外观？  你可以[调整大小、移动和重命名磁贴](service-dashboard-edit-tile.md)。
 * 想要跟踪单个仪表板磁贴并在该磁贴达到某个阈值时接收电子邮件？ [在磁贴上创建警报](service-set-data-alerts.md)。
-* 随时询问你的仪表板相关问题。 了解如何使用 [Power BI 问答](service-how-to-q-and-a.md)询问有关你的数据的问题，并以可视化效果的形式获得答案。
+* 随时询问你的仪表板相关问题。 了解如何使用 [Power BI 问答](power-bi-tutorial-q-and-a.md)询问有关你的数据的问题，并以可视化效果的形式获得答案。
 
 > [!TIP]
 > 如果在此处未找到你所查找的内容，请使用左侧的“目录”。

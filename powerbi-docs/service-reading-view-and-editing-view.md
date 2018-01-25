@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 服务报表中的“阅读视图”和“编辑视图”
 Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表和与其交互：“阅读视图”和“编辑视图”。 “阅读视图”可供所有用户使用且专为报表使用者设计，而“编辑视图”仅供报表创建者和所有者使用。 
@@ -56,7 +56,7 @@ Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表
 | [报表**视图**选项](power-bi-report-display-settings.md) | 是，但存在一些例外情况。 | 是，包括网格线、对齐和锁定在内所有的操作。 |
 | [创建刷新计划](refresh-data.md) | 否  | 是 |
 | [订阅报表](service-report-subscribe.md) | 是 | 否 |
-| [问答 - 在报表中提问](service-q-and-a.md) | 否  | 是 |
+| [问答 - 在报表中提问](power-bi-q-and-a.md) | 否  | 是 |
 | [查看使用情况指标](service-usage-metrics.md) | 是，在报表画布上。 | 是，在报表列表（内容视图）中 |
 | [相关视图](service-related-content.md) | 是，在报表画布上。 | 是，在报表列表（内容视图）中 |
 | [保存报表](service-report-save.md) | 是，但只能使用“另存为”。 | 是 |

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能。 有关相关的“新增功能”的信息，请参阅：
@@ -470,7 +470,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 **2015 年 10 月 6 日**
 
-* 在 Power BI问答中，你可以使用简单、直观的问题来浏览数据，并以交互式图表和图形的方式来获取答案。 在此版本中，我们添加了一项功能来帮助你 Power BI 问答入门，即使你不知道任何有关数据的信息。 若要开始使用此功能，请[导航到任何仪表板并单击靠近问答问题框的“如何提问”链接](service-how-to-q-and-a.md)。 Power BI 将根据你的数据向你提供很多建议。
+* 在 Power BI问答中，你可以使用简单、直观的问题来浏览数据，并以交互式图表和图形的方式来获取答案。 在此版本中，我们添加了一项功能来帮助你 Power BI 问答入门，即使你不知道任何有关数据的信息。 若要开始使用此功能，请[导航到任何仪表板并单击靠近问答问题框的“如何提问”链接](power-bi-tutorial-q-and-a.md)。 Power BI 将根据你的数据向你提供很多建议。
 * 两个星期前，我们引入在 Power BI Desktop 的报表画布中插入形状的支持。 本周我们非常高兴地宣布当你在 Power BI Web 应用中创作和/或编辑报表时可以将形状添加到报表画布中。
 * 我们添加了在共享仪表板时关闭电子邮件通知的选项。 只需取消选中 Power BI 共享对话框中的“向收件人发送电子邮件通知”复选框。 系统将向你提供一个 URL – 复制并向你的同事共享此 URL，以便授予他们访问仪表板的权限。
 * Microsoft Dynamics NAV 是面向小到中型组织的业务管理解决方案。 它为客户的业务提供完整的解决方案，使他们能够更好地控制其财务和业务流程。 此 Power BI 内容包为 Dynamics NAV 用户提供现成的报表，如销售额和利润、机会渠道、盈利能力等等。 这些指标在可以完全自定义的仪表上进行组织，你可以轻松连接并立即开始探究你的数据。
