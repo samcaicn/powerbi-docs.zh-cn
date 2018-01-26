@@ -308,9 +308,9 @@
           href: service-organizational-content-pack-introduction.md
         - name: 创建和发布组织内容包（教程）
           href: service-organizational-content-pack-create-and-publish.md
-        - name: 与同事和他人共享仪表板
+        - name: 共享仪表板和报表
           href: service-share-dashboards.md
-        - name: 与同事共享报表
+        - name: 共享筛选报表
           href: service-share-reports.md
         - name: 从 Power BI 发布到 Web
           href: service-publish-to-web.md
