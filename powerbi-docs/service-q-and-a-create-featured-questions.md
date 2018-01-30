@@ -1,5 +1,5 @@
 ---
-title: "创建 Power BI 问答的精选问题"
+title: "如何创建 Power BI 问答的特别推荐问题"
 description: "有关如何创建 Power BI 问答的精选问题的文档"
 services: powerbi
 documentationcenter: 
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: e6a83796afe6afab02ec463d3dd2074d1fdc529a
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>创建 Power BI 问答的精选问题
-如果你拥有一个数据集，你可以向该数据集添加自己精选的问题。  Power BI 问答将对使用你的数据集的同事展示这些问题。  精选问题会让你的同事了解他们可以就数据集询问哪些类型的问题。 你添加的精选问题都由你决定 -- 可以添加常见问题、显示有趣结果的问题，或可能会很难组织描述的问题。
+如果你拥有一个数据集，你可以向该数据集添加自己精选的问题。  Power BI 问答会向使用数据集的同事显示这些问题。  精选问题会让你的同事了解他们可以就数据集询问哪些类型的问题。 你添加的精选问题都由你决定 -- 可以添加常见问题、显示有趣结果的问题，或可能会很难组织描述的问题。
 
 请观看 Will 将向 Power BI 问答添加一些精选问题，然后使用这些精选问题来浏览他的数据集。 然后按照视频下面的分步说明来自己尝试一下。
 
@@ -33,7 +33,6 @@ ms.lasthandoff: 01/03/2018
 
 > [!NOTE]
 > [iPad、iPhone 和 iPod Touch 设备上的 iOS 版 Microsoft Power BI 应用](mobile-apps-ios-qna.md)和 Power BI Desktop 问答预览版中提供了问答精选问题。 但只能在 Power BI 服务 (app.powerbi.com) 中创建问题。
-> 
 > 
 
 本文使用[“零售分析销售额”示例](sample-datasets.md)。
@@ -54,7 +53,7 @@ ms.lasthandoff: 01/03/2018
    ![](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>后续步骤
-[Power BI 中的“问答”](service-q-and-a.md)  
+[Power BI 中的“问答”](power-bi-q-and-a.md)  
 [教程：Power BI 问答简介](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI - 基本概念](service-basic-concepts.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

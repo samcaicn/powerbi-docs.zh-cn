@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 5e4788e57bd1836d3d5db10dfb86e2c71c00c34f
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 7d9869c16b88cb410073644bdae94173b9cea023
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 ## <a name="power-bi-visualizations"></a>Power BI 可视化效果
 我们将添加新的可视化效果，请继续关注！
 
-同时可以浏览 [Office 应用商店](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)，可以在上面找到数量不断增加的自定义视觉对象列表，可以下载并且在自己的仪表板和报表中使用这些视觉对象。 有创造性的点子？ [了解如何创建并将自己的视觉对象添加到社区站点](developer/office-store.md)  
+同时可以浏览 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)，上面有不断扩增的[自定义视觉对象](power-bi-custom-visuals.md)列表。可以下载并在自己的仪表板和报表中使用这些视觉对象。 有创造性的点子？ [了解如何创建并将自己的视觉对象添加到此社区网站](developer/office-store.md)。  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI 中可用的可视化效果列表
 所有这些可视化效果可以被添加到 Power BI 报表、在问答中指定和固定到仪表板。

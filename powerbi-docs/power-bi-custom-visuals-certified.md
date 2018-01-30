@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/12/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 955435ee526c6acae8f478539641529515e2e0a8
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 90449f79da8aed3d992b9ac8bf83ac2ac4c0f83c
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>让自定义视觉对象取得认证
 ## <a name="what-is-meant-by-certified"></a>取得认证是指什么？
@@ -89,12 +89,12 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 | [增强散点图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) | |
 | [Enlighten 水族馆](https://appsource.microsoft.com/product/power-bi-visuals/WA104381112?src=office&tab=Overview) | |
 | [Enlighten 气泡图堆栈](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380868) | |
+| [Enlighten 切片器](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960?tab=Overview) | |
 | [Enlighten 洗牌排序法](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Enlighten 方格百分比图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [Enlighten 世界国旗](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380923) | |
-| [Flywheel]() | |
 | [预测 TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326?src=office) | |
-| [甘特图](https://store.office.com/gantt-WA104380765.aspx) |[视频](https://youtu.be/qJ7s_KrGiUU) |
+| [漏斗图（含源）]() | || [甘特图](https://store.office.com/gantt-WA104380765.aspx) |[视频](https://youtu.be/qJ7s_KrGiUU) |
 | [Akvelon 层次机构图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333?src=office) | |
 | [直方图](https://store.office.com/histogram-chart-WA104380776.aspx) | |
 | [水平漏斗图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380846) |[视频](https://youtu.be/SudZei68PPo) |
@@ -125,7 +125,6 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 | [飓风图](https://store.office.com/tornado-chart-WA104380768.aspx) |[视频](https://youtu.be/AQvd2FhRyCI) |
 | [Klaus Birringer 终极方差图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140?src=office) | |
 | [终极瀑布图（免费）](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380956) | |
-| [MAQ 软件文氏图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381231) | |
 | [VitaraCharts - MicroChart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381165) | |
 | [Waffle 图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049?src=office&tab=Overview) |[视频](https://youtu.be/1vRqYUsm3Vk) |
 | [Word Cloud](https://store.office.com/word-cloud-WA104380752.aspx?) |[视频](https://www.youtube.com/watch?v=AblTenl9fqo) |

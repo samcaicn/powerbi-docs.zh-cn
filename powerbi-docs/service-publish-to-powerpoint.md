@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: ec5d5de3d29ccbe857f6fd40320353c357e6539e
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 6b2002348ae7e8ef2bb2e112eb8be967d0c68545
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>将报表从 Power BI 导出到 PowerPoint（预览版）
 借助 Power BI，现在可将报表发布到 **Microsoft PowerPoint**，并根据 Power BI 报表轻松地创建幻灯片平台。 **导出到 PowerPoint** 时，会发生以下情况：
 
 * Power BI 报表中的每个页面成为 PowerPoint 中单独的幻灯片
-* Power BI 报表中的每个视觉对象导出为 PowerPoint 中具有较高分辨率的图像
+* Power BI 报表中的每个页面导出为 PowerPoint 中的单张高分辨率图像
 * Power BI 报表中的文本框成为 PowerPoint 中可编辑的文本框
 * 会在 PowerPoint 中创建链接到 Power BI 报表的链接
 
@@ -65,7 +65,11 @@ ms.lasthandoff: 12/06/2017
 2. 还可以获取有关报表的一些有用信息，包括导出的报表所基于的 *上次数据刷新时间* *下载* 时间和日期，这是 Power BI 报表导出为 PowerPoint 文件的时间和日期。
 3. 每个报表页面都是单独的幻灯片，如左侧导航窗格所示。
 
-转到单独的幻灯片时，会注意到每个视觉对象是独立图像（如前面所述）。 通过这种方式可以复制该图像，并将其粘贴到另一张幻灯片，或任何其他想要粘贴的位置。
+转到各个幻灯片时，将会发现每个报表页都是独立图像。
+
+>[!NOTE]
+> 为每个报表页提供单个视觉对象是新行为。 为每个视觉对象提供独立图像的旧行为将不再实现。 
+ 
 
 ![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_6.png)
 
@@ -85,6 +89,7 @@ ms.lasthandoff: 12/06/2017
 * PowerPoint 页始终以标准的 9:16 尺寸创建，无论 Power BI 报表页的原大小或原尺寸如何。
 * Power BI 租户域之外的用户拥有的报表（如组织外部人员拥有且与你共享的报表）无法发布到 PowerPoint。
 * 如果与组织外部人员（即位于 Power BI 租户之外的用户）共享仪表板，此用户将无法把共享仪表板的关联报表导出到 PowerPoint。 例如，如果你是 aaron@contoso.com，虽然可以与 david@cohowinery.com 共享内容，但 david@cohowinery.com 无法将关联报表导出到 PowerPoint。
+* 如上所述，每个报表页导出为 PowerPoint 文件中的单张图像。 
 
 ## <a name="next-steps"></a>后续步骤
 [在 Excel 中分析](service-analyze-in-excel.md)

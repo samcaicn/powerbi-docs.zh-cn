@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2d8ed3c30d289646504071daca098df1f41f6aab
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI 中的散点图和气泡图（教程）
 散点图始终具有两个数值轴以显示水平轴上的一组数值数据和垂直轴上的另一组数值数据。 图表在 x 和 y 数值的交叉处显示点，将这些值单独合并到各个数据点。 根据数据，这些数据点可能均衡或不均衡地分布在水平轴上。
@@ -31,15 +31,17 @@ ms.lasthandoff: 01/17/2018
 
 ![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
+可以设置数据点数量  
+
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>何时使用散点图或气泡图
 ### <a name="scatter-charts-are-a-great-choice"></a>以下情况下，散点图是一个不错的选择：
 * 要显示 2（散点）或 3（气泡）**数**值之间的关系。
-* 要将两组数绘制为 xy 坐标的一个系列。
+* 要将两组数字绘制为一个数据系列的 xy 坐标。
 * 要更改水平轴刻度，但不是绘制成折线图。    
 * 要将水平轴转换为对数刻度。
 * 要显示包含成对或分组的值的工作表数据。 在散点图中，你可以调整轴的自由刻度来显示分组值的详细信息。
 * 要显示大组数据中的模式，例如要显示线性或非线性趋势、群集和离群值。
-* 要在不考虑时间的情况下比较大量数据点。在散点图中包含的数据越多，比较效果更好。
+* 要在不考虑时间的情况下，比较大量数据点。  散点图中包含的数据越多，比较的效果就越好。
 
 ### <a name="bubble-charts-are-a-great-choice"></a>在以下情况下，气泡图是一个不错的选择：
 * 如果数据具有 3 个分别含有一组值的数据系列。
@@ -76,13 +78,20 @@ ms.lasthandoff: 01/17/2018
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. 根据需要，可以[设置可视化颜色、标签、标题、背景等等](service-getting-started-with-color-formatting-and-axis-properties.md)。
 
-## <a name="accessibility"></a>辅助功能
+   还可以将标记形状更改为菱形、三角形或方形：
 
-可以使用“标记形状”令散点图或气泡图更便于残障人士使用。 
+   ![方形标记](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
-要选择“标记形状”，请在“可视化效果”窗格中选择“格式”区域，展开“形状”部分，然后选择标一个记形状。
+4. （可选）若要设置气泡图中显示的数据点数量，请在“可视化效果”窗格的“格式”部分中，展开“常规”卡片，并调整“数据量”。 默认值为 3500。 
+ 
+    ![数据量](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-![标记形状](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+   > [!NOTE]
+   > 由于数据点越多可能意味着加载时间越长，因此如果选择发布已达到数据点上限的报表，请务必跨网站平台和移动平台测试报表，以确保报表性能符合用户预期。
+
+5.   （可选）若要选择标记形状，请展开“形状”卡片，再选择标记形状。
+
+      ![标记形状](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**散点图只有一个数据点**

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 797b22ed6f07e64d7e4970f8f0dfe5e93a7c0ec4
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>在 Power BI 中与 ArcGIS 地图交互
 本主题是从在 Power BI 服务、Power BI Desktop 或 Power BI 移动应用中使用 ArcGIS 地图的人员的角度进行编写。 创建者与你共享 ArcGIS 地图后，便可以通过多种方式与相应地图进行交互。  若要详细了解如何创建 ArcGIS 地图，请参阅 [ESRI ArcGIS 地图教程](power-bi-visualization-arcgis.md)。
@@ -31,7 +31,6 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 
 > [!TIP]
 > GIS 指的是地理信息科学。
-> 
 > 
 
 我们使用的示例就是在 [ESRI ArcGIS 地图教程](power-bi-visualization-arcgis.md)中创建的 ArcGIS 地图。 它按城市显示去年销售额，并使用街道基本地图、表示大小的气泡符号和平均家庭收入引用层。 此地图包含 3 个大头针和一个驾驶时间半径区域（紫色）。
@@ -99,7 +98,7 @@ ArcGIS Maps for Power BI 有三种选择模式。 一次最多可选择 250 个�
 <td>是</td>
 </tr>
 <tr>
-<td>Power BI 服务 (PowerBI.com)</td>
+<td>Power BI 服务 (app.powerbi.com)</td>
 <td>是</td>
 </tr>
 <tr>

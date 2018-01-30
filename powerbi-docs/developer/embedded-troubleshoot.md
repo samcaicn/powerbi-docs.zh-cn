@@ -15,17 +15,52 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 1/17/2018
 ms.author: asaxton
-ms.openlocfilehash: f6ffc56f524da84e865d17981faddef58534c785
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: b9917b515971d16cb54a09deff1202c382eb7ef0
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>嵌入式应用程序疑难解答
 
 本文介绍了从 Power BI 嵌入内容时可能会遇到的一些常见问题。
+
+## <a name="tools-for-troubleshooting"></a>用于故障排除的工具
+
+### <a name="fiddler-trace"></a>Fiddler 跟踪
+
+[Fiddler](http://www.telerik.com/fiddler) 是 Telerik 提供的一款用于监视 HTTP 流量的免费工具。  可以从客户端计算机通过 Power BI API 来回查看。 这可能会显示错误和其他相关的信息。
+
+![Fiddler 跟踪](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
+
+### <a name="f12-in-browser-for-front-end-debugging"></a>浏览器中的 F12，用于前端调试
+
+F12 将在你的浏览器中启动开发人员窗口。 它能够让你查看网络流量和其他信息。
+
+![F12 浏览器调试](media/embedded-troubleshoot/browser-f12.png)
+
+### <a name="extracting-error-details-from-power-bi-response"></a>从 Power BI 响应中提取错误详细信息
+
+下面的代码片段展示了如何从 HTTP 异常中提取错误详细信息：
+
+```
+public static string GetExceptionText(this HttpOperationException exc)
+{
+    var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
+    exc.Request.Content, exc.Response.StatusCode, (int)exc.Response.StatusCode, exc.Response.Content);
+    if (exc.Response.Headers.ContainsKey("RequestId"))
+    {
+        var requestId = exc.Response.Headers["RequestId"].FirstOrDefault();
+        errorText += string.Format("\r\nRequestId: {0}", requestId);
+    }
+
+    return errorText;
+}
+```
+建议记录请求 ID（以及错误详细信息以供排查问题）。
+请在联系 Microsoft 支持部门时提供请求 ID。
 
 ## <a name="app-registration"></a>应用注册
 
@@ -105,19 +140,6 @@ Azure 门户或 Power BI 应用注册页面中的错误消息将提到权限不�
 
 从 Power BI Desktop 或 powerbi.com 中打开该文件，验证性能是否可接受以排除应用程序或嵌入 API 的问题。
 
-## <a name="tools-for-troubleshooting"></a>用于故障排除的工具
-
-### <a name="fiddler-trace"></a>Fiddler 跟踪
-
-[Fiddler](http://www.telerik.com/fiddler) 是 Telerik 提供的一款用于监视 HTTP 流量的免费工具。  可以从客户端计算机通过 Power BI API 来回查看。 这可能会显示错误和其他相关的信息。
-
-![Fiddler 跟踪](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
-
-### <a name="f12-in-browser-for-front-end-debugging"></a>浏览器中的 F12，用于前端调试
-
-F12 将在你的浏览器中启动开发人员窗口。 它能够让你查看网络流量和其他信息。
-
-![F12 浏览器调试](media/embedded-troubleshoot/browser-f12.png)
 
 有关常见问题的解答，请参阅 [Power BI Embedded 常见问题解答](embedded-faq.md)。
 

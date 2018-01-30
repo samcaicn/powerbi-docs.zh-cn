@@ -15,23 +15,55 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 9a100b7d13c11a8bd066b72a570f45d0c2bc08be
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 82e909962a0ed1db50f2ba3729988fd7aacadc80
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客户盈利率示例：教程
-“客户盈利率示例”内容包包括生产营销材料的一家公司的仪表板、报表和数据集。 此仪表板由 CFO 创建，用于查看有关她的 5 名业务部门经理（即主管人员）、产品、客户和毛利 (GM) 的关键指标。 她一眼就能看出影响盈利性的因素所在。
+“客户盈利率示例”内容包包括生产营销材料的一家公司的仪表板、报表和数据集。 此仪表板由 CFO 创建，用于查看有关她的五名业务部门经理（即主管人员）、产品、客户和毛利 (GM) 的关键指标。 她一眼就能看出影响盈利性的因素所在。
 
 此示例是一系列教程的一部分，该系列教程阐明如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 这些来自 obviEnce [(www.obvience.com)](http://www.obvience.com/) 的真实数据都已进行匿名处理。
 
-还可以[仅下载本示例的数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529781)。  
-![](media/sample-customer-profitability/power-bi-dash.png)
+## <a name="prerequisites"></a>先决条件
+
+必须先将示例下载为内容包、.pbix 文件或 Excel 工作簿，然后才能使用它。
+
+### <a name="get-the-content-pack-for-this-sample"></a>获取内容包形式的此示例
+
+1. 打开并登录 Power BI 服务 (app.powerbi.com)。
+2. 在左下角，选择“**获取数据**”。
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. 在显示的“获取数据”页上选择“**示例**”图标。
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. 依次选择“客户盈利率示例”和“连接”。  
+   
+   ![获取数据](media/sample-customer-profitability/get-supplier-sample.png)
+5. Power BI 导入内容包，并将新的仪表板、报表和数据集添加到当前工作区。 新的内容会以黄色星号标记。 使用这些示例对 Power BI 进行测试运行。  
+   
+   ![星号](media/sample-customer-profitability/supplier-sample-asterisk.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>获取 .pbix 文件形式的此示例
+
+也可以将此示例下载为 .pbix 文件，这是专为 Power BI Desktop 量身定制的文件格式。 
+
+- [客户盈利率示例](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
+
+还可以[仅下载此示例的数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529781)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>仪表板告诉我们什么？
+
+在“我的工作区”下，找到“客户盈利率示例”仪表板：
+
+![“客户盈利率示例”仪表板](media/sample-customer-profitability/power-bi-dash.png)
+
 ### <a name="company-wide-dashboard-tiles"></a>公司范围仪表板磁贴
 这些磁贴为 CFO 提供了对她而言至关重要的高级别公司指标概览。  当她看到感兴趣的内容时，她可以选择磁贴以进一步研究该数据。
 
@@ -123,6 +155,8 @@ Annelie 的毛利润百分比最低，但从 3 月开始我们可以看到稳定
 我们可以采用相似的方式分析其他行业，甚至将客户加入到我们的视觉对象分析当中，以了解 Valery 的表现的原因。
 
 这是一个安全的试验环境。 你可以始终选择不保存所做的更改。 但是，如果保存更改，则可以始终转到**获取数据**来获取本示例的新副本。
+
+还可以[仅下载本示例的数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529781)。
 
 ## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
 本教程介绍了 Power BI 仪表板、问答和报表如何能够帮助深入了解客户数据。 现在轮到你了 — 连接到你自己的数据。 借助 Power BI，你可以连接到各种数据源。 了解 [Power BI 入门](service-get-started.md)的详细信息。

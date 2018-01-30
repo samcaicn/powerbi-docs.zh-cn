@@ -16,18 +16,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 5ab075ede78ad5c08858878d6652e9b102a87fca
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 553e3c417f79d6d1c5a45737ad370d74f72177ca
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>用于 Power BI 地图可视化效果的提示和技巧
-Power BI 与必应地图集成，提供默认地图坐标（一种称为“地理位置编码”的过程），以便用户可以创建地图。 集成后，它们使用算法共同确定正确的位置，但有时只是一种最佳猜测。 如果 Power BI 无法尝试自行创建地图可视化效果，则会借助必应地图的帮助。  
+Power BI 与必应地图集成，提供默认地图坐标（一种称为“地理位置编码”的过程），以便用户可以创建地图。 集成后，它们使用算法共同确定正确的位置，但有时只是一种最佳猜测。 如果 Power BI 无法尝试自行创建地图可视化效果，则会借助必应地图的帮助。 
 
-若要增加地理编码正确的可能性，可使用以下提示。 第一组提示适合在有权访问数据集本身时参考。 第二组提示则说明了当无权访问数据集时可以在 Power BI 中执行的操作。
+你或管理员可能需要更新防火墙，以允许访问必应用来地理编码的 URL。  这些 URL 是：
+* https://dev.virtualearth.net/REST/V1/Locations
+* https://platform.bing.com/geo/spatial/v1/public/Geodata
+* https://www.bing.com/api/maps/mapcontrol
+
+若要增加地理编码正确的可能性，可使用以下提示。 第一组提示适合在有权访问数据集本身时参考。 第二组提示说明了当无权访问数据集时，可以在 Power BI 中执行的操作。 最后一组就是 URL 列表。
 
 ## <a name="what-is-sent-to-bing-maps"></a>哪些数据会发送给必应地图？
 Power BI 服务和 Power BI Desktop 向必应发送创建地图可视化效果所需的地理位置数据。 这可能包括“位置”、“纬度”和“经度”存储桶中的数据，以及任何“报表级别”、“页级别”或“视觉对象级别”筛选器存储桶中的地理字段。 发送的确切内容因地图类型而异。 若要了解详细信息，请参阅[必应地图隐私](https://go.microsoft.com/fwlink/?LinkID=248686)。

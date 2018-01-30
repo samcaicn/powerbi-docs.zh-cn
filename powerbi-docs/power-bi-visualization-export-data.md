@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+ms.openlocfilehash: 8567326cb685a03fd1af618aad5310234677ab6d
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-data-from-visualizations"></a>从可视化效果导出数据
 若要查看用于创建可视化效果的数据，可以[在 Power BI 中显示该数据](service-reports-show-data.md)或将这些数据以 .xlsx 或.csv 文件形式导出到 Excel。   
@@ -74,8 +74,7 @@ Watch 将从其报表中的其中一个可视化效果导出数据，将其保�
    
    >[!WARNING]
    >使用导出基础数据功能，用户可以查看所有详细的数据（数据中的每列）。 Power BI 服务管理员可以为其组织关闭此功能。 如果你是数据集的所有者，则可以将专有列设置为“隐藏”，这样它们就不会出现在 Desktop 或 Power BI 服务的“字段”列表中。
-   > 
-   > 
+   
    
    基础数据：如果你的可视化效果无聚合，并且你想要查看所有基础详细信息，请选择此选项。 基本上，选择“基础数据”会删除聚合。 选择“导出”时，数据将导出到 .xlsx 文件，并且你的浏览器会提示你保存该文件。 保存后，在 Excel 中打开该文件。
    
@@ -85,7 +84,9 @@ Watch 将从其报表中的其中一个可视化效果导出数据，将其保�
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 * 最多可将 30,000 行从 **Power BI Desktop** 和 **Power BI 服务**导出到 .csv。
-* Pro 用户最多可将 150,000 行从 Power BI 服务导出到 .xlsx，免费用户最多可导出 30,000 行。
+* 可以导出到 .xlsx 的最大行数是 150,000。
+* 如果数据源是 Analysis Services 实时连接、版本低于 2016 且模型中的表没有唯一键，则无法使用“基础数据”进行导出。  
+* 如果为要导出的可视化效果启用了“显示不含数据的项”选项，则无法使用“基础数据”进行导出。
 * 使用 DirectQuery 时，最多可以导出 16MB 数据。 这可能会导致导出的行数少于上限，尤其是当有许多列、难以压缩的数据以及其他增加文件大小但减少导出行数的因素时。
 * Power BI 仅支持导出使用基本聚合的视觉对象。 不支持导出使用模型或报表度量值的视觉对象。
 * 目前不支持自定义视觉对象和 R 视觉对象。

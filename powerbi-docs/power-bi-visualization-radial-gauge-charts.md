@@ -1,5 +1,5 @@
 ---
-title: "Power BI 中的径向仪表图表（教程）"
+title: "教程 - Power BI 中的径向仪表图"
 description: "教程：Power BI 中的径向仪表盘"
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7299b95cb3dd1fab4edce1764c69e1b2657ef547
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 354bfc01231f0f11aabd533bf29f987dec7c9771
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Power BI 中的径向仪表图表（教程）
 径向仪表盘有一个圆弧，并且显示单个值，该值用于衡量针对目标/KPI 的进度。  使用直线（针）表示目标或目标值。 使用明暗度表示针对目标的进度。  表示进度的值在圆弧内以粗体显示。所有可能的值沿圆弧均匀分布，从最小值（最左边的值）到最大值（最右边的值）。
@@ -39,17 +39,25 @@ ms.lasthandoff: 11/15/2017
 * 显示单个指标的健康状况。
 * 显示可以快速扫描和理解的信息。
 
+### <a name="prerequisites"></a>先决条件
+ - Power BI 服务或 Power BI Desktop
+ - 财务示例 Excel 工作簿：[直接下载该示例](http://go.microsoft.com/fwlink/?LinkID=521962)。
+
 ## <a name="create-a-basic-radial-gauge"></a>创建基本的径向仪表盘
-以下说明使用财务示例。 若要遵循此示例执行操作，请[下载示例](http://go.microsoft.com/fwlink/?LinkID=521962)到你的计算机，登录到 Power BI，然后选择**获取数据 \> 文件\>本地文件 > 打开**。 
+本文中的说明将使用 Power BI 服务。 若要跟着介绍一起操作，请登录 Power BI，并打开“Excel 财务示例”文件。  
 
 或观看 Will 介绍如何创建单个指标视觉：仪表、卡片和 KPI。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>步骤 1：打开财务示例 Excel 文件。
-1. [下载示例财务 Excel 文件](sample-financial-download.md)。
-2. 在 Power BI 中打开该文件，方法是选择**获取数据 \> 文件**，并浏览至保存该文件的位置。 选择“导入”。 会将该财务示例作为数据集添加到你的工作区。
-3. 选择**财务示例**以在浏览模式下打开它。
+### <a name="step-1-open-the-financial-sample-excel-file"></a>第 1 步：打开“Excel 财务示例”文件
+1. [下载“Excel 财务示例”文件](sample-financial-download.md)（如果还没有的话）。 记住此文件的保存位置。
+
+2. 在 Power BI 服务中打开此文件，具体方法是依次选择“获取数据”\>“文件”，并转到此文件的保存位置。 选择“导入”。 会将该财务示例作为数据集添加到你的工作区。
+
+3. 在“数据集”内容列表中，选择“财务示例”，在浏览模式下打开它。
+
+    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>步骤 2：创建仪表盘来跟踪总销售额
 1. 在**字段**窗格中，选择**总销售额**。

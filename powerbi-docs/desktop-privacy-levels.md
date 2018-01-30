@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 733e24f44c63b8887c3c8b00999f7cea22581a86
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 743f9dc0a96c2816693695f4ca2878aba09873df
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop 隐私级别
 在 **Power BI Desktop** 中，隐私级别指定隔离级别，该隔离级别定义一个数据源与其他数据源的隔离程度。 尽管严格的隔离级别能阻止数据源之间的信息交换，但也可能降低功能和影响性能。
@@ -69,6 +69,10 @@ ms.lasthandoff: 11/15/2017
 
 > **安全说明：**通过选择**隐私级别**对话框中的**忽略隐私级别并潜在地提高性能**来启用**隐私级别**，可能会向未经授权的人员泄露敏感或机密数据。 除非确信数据源不包含敏感或机密数据，否则请不要启用**隐私级别**。
 > 
+> 
+
+> [!CAUTION]
+> Power BI 服务不支持“忽略隐私级别并可能会提升性能”。 因此，如果将启用此设置的 Power BI Desktop 报表发布到 Power BI 服务，不要在服务中使用它时反映这种行为。
 > 
 
 **配置隐私级别**

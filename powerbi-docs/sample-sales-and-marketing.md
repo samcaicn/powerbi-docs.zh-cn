@@ -15,24 +15,54 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI 销售与市场营销示例：教程
+
+## <a name="overview-of-the-sales-and-marketing-sample"></a>“销售和市场营销示例”概述
 **销售与市场营销示例**包含一家名为 VanArsdel Ltd 的虚构制造公司的仪表板和报表。此仪表板由 VanArsdel 首席市场官 (CMO) 创建，主要关注业界及其公司的市场份额、产品量、销售额和人气。
 
 VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想要增加市场份额，探索发展的商机。 但由于某种原因，VanArsdel 的市场份额在 6 月份已开始大幅滑落。
 
 此示例是一系列教程的一部分，该系列教程阐明如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 这些来自 obviEnce (www.obvience.com) 的真实数据都已进行匿名处理。
 
-[!Note] 还可以[仅下载本示例的数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529785)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”。
-
 ![](media/sample-sales-and-marketing/sales1.png)
+
+## <a name="prerequisites"></a>先决条件
+
+ 必须先将示例下载为内容包、.pbix 文件或 Excel 工作簿，然后才能使用它。
+
+### <a name="get-the-content-pack-for-this-sample"></a>获取内容包形式的此示例
+
+1. 打开并登录 Power BI 服务 (app.powerbi.com)。
+2. 在左下角，选择“**获取数据**”。
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. 在显示的“获取数据”页上选择“**示例**”图标。
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. 依次选择“销售和市场营销示例”和“连接”。  
+  
+   ![销售和市场营销示例](media/sample-sales-and-marketing/sales9.png)
+   
+5. Power BI 导入内容包，并将新的仪表板、报表和数据集添加到当前工作区。 新的内容会以黄色星号标记。 
+   
+   ![星号](media/sample-sales-and-marketing/sales10.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>获取 .pbix 文件形式的此示例
+
+也可以将此示例下载为 .pbix 文件，这是专为 Power BI Desktop 量身定制的文件格式。 
+
+ * [销售和市场营销示例](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
+还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529785)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>仪表板告诉我们什么？
 让我们开始浏览仪表板并查看 CMO 选择固定的磁贴。 我们可以看到我们的市场份额、销售和人气的相关信息。 接着，我们可以看到这些数据按地区、时间和竞争对手细分。
@@ -48,21 +78,21 @@ VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想�
 #### <a name="which-segments-drive-our-sales-does-it-match-the-industry-trend"></a>哪些细分市场可带动销售？ 它符合行业趋势吗？
 1. 选择“按细分市场划分的整体销售单位总量”磁贴以打开问答。
 2. 在现有查询的末尾键入 **for VanArsdel**。 问答可解释该问题，并显示一个包含答案的已更新图表。 我们的产品量来自“便利性”和“适度性”两个类别。
-   
+
    ![](media/sample-sales-and-marketing/sales2.png)
 3. 我们在**适度性**和**便利性**两个类别的份额非常高；这些是我们具有竞争力的细分市场。
 4. 通过选择顶部导航栏（痕迹导航）中的仪表板名称，导航回该仪表板。
 
 #### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>按类别（与地区）划分的销售单位总量市场份额如何？
-1. 请注意“按制造商和地区划分的单位总量 YTD”磁贴。 我想知道按类别划分的销售单位总量市场份额如何？ 
-   
+1. 请注意“按制造商和地区划分的单位总量 YTD”磁贴。 我想知道按类别划分的销售单位总量市场份额如何？
+
    ![](media/sample-sales-and-marketing/sales3.png)
 2. 在仪表板顶部的问题框中，键入问题“按制造商和类别划分的 2014 年单位总量树状图”。 请注意当你键入问题时，可视化效果更新的方式。
    ![](media/sample-sales-and-marketing/totalunitsbymanufacturerandcategoryfor2014asatreemap-new.png)
 3. 若要比较其中的发现，可将图表固定到仪表板。 有趣的是，在 2014 年，VanArsdel 只有销售属于**都市**类别的产品。
 4. 导航回仪表板。
 
-仪表板也是报表的入口点。  如果磁贴是根据基础报表创建的，单击该磁贴即可打开报表。 
+仪表板也是报表的入口点。  如果磁贴是根据基础报表创建的，单击该磁贴即可打开报表。
 
 在我们的仪表板中，R12M（循环 12 个月）一行显示我们的市场份额已不再随时间增加，甚至有点衰退。 那么，为什么市场份额在 6 月会大幅下滑？ 若要进一步调查，请单击此可视化效果来打开基础报表。
 
@@ -72,7 +102,7 @@ VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想�
 
 1. 请看底部的“按月份划分的 VanArsdel 单位总量”柱形图。 黑色的列代表 VanArsdel（我们的产品），绿色代表我们的竞争对手。 2014 年 6 月 VanArsdel 的下滑情况并未发生在竞争对手身上。
 2. 我们将右侧中间的“按细分市场划分的类别总量”条形图筛选为显示 VanArsdel 的前 2 大细分市场。 看一下该筛选器的创建方式：  
-   
+
    a.  展开右侧的“筛选器”窗格。  
    b.  单击选择可视化效果。  
    c.  在“视觉级筛选器”下方，已将**细分市场**筛选为只包含**便利性**和**适度性**。  
@@ -111,5 +141,4 @@ VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想�
 这是一个安全的试验环境。 你可以始终选择不保存所做的更改。 但是，如果保存更改，则可以始终转到**获取数据**来获取本示例的新副本。
 
 ## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
-我们希望本教程已经演示 Power BI 仪表板、问答和报表如何帮助深入了解销售与市场营销数据。 现在轮到你了 - 连接到你自己的数据。 借助 Power BI，你可以连接到各种数据源。 了解 [Power BI 入门](service-get-started.md)的详细信息。  
-
+我们希望本教程已经演示 Power BI 仪表板、问答和报表如何帮助深入了解销售与市场营销数据。 现在轮到你了 — 连接到你自己的数据 借助 Power BI，你可以连接到各种数据源。 了解 [Power BI 入门](service-get-started.md)的详细信息。  

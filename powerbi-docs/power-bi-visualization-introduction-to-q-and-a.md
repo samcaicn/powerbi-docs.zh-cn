@@ -1,6 +1,6 @@
 ---
-title: "Power BI 问答入门（教程）"
-description: "教程：通过零售分析示例使用 Power BI 服务问答入门"
+title: "快速入门 - 开始使用 Power BI 问答"
+description: "快速入门：通过“零售分析示例”开始在 Power BI 服务中使用 Power BI 问答"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 01/16/2018
 ms.author: mihart
-ms.openlocfilehash: 2038fb5bd4a21235c3026c8506ae30b8c3e287e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63c6479ed5f0bb9e882900fc5a653f08ad6a823
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
-# <a name="get-started-with-power-bi-qa-tutorial"></a>Power BI 问答入门（教程）
-## <a name="tutorial-use-power-bi-qa-with-the-retail-analysis-sample"></a>教程：通过零售分析示例使用 Power BI 问答
-有时从你的数据中获得答案的最快方法是使用自然语言提问。  在本教程中我们将考察创建相同的可视化效果的 2 种不同方法：在报表中构建和使用问答提问。  
+# <a name="get-started-with-power-bi-qa-quickstart"></a>开始使用 Power BI 问答（快速入门）
+## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>通过“零售分析示例”使用 Power BI 问答
+有时从你的数据中获得答案的最快方法是使用自然语言提问。  本快速入门将介绍如何通过 2 种不同的方法来创建同一可视化效果。第一种方法是在报表中生成可视化效果，第二种方法是使用 Power BI 问答提问。 虽然本文将使用 Power BI 服务，但具体过程几乎与使用 Power BI Desktop 完全相同。
+
+必须使用可以编辑的报表，才能跟着介绍一起操作。因此，本文将使用可用于 Power BI 的示例之一。
 
 ## <a name="method-1-using-the-report-editor"></a>方法 1：使用报表编辑器
 1. 在 Power BI 工作区中，选择“获取数据” \>“示例”\>“零售分析示例” > “连接”。
@@ -61,13 +63,9 @@ ms.lasthandoff: 11/13/2017
 4. 要将图表固定到仪表板中，请选择固定图标 ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png)。
 
 ## <a name="next-steps"></a>后续步骤
-[我可以询问“问答”哪种类型的问题？](service-q-and-a.md)
-
-[Power BI 中的“问答”](service-q-and-a.md)
+[Power BI 中的“问答”](power-bi-q-and-a.md)
 
 [让你的数据在 Power BI 中很好地与“问答”协作](service-prepare-data-for-q-and-a.md)
-
-[准备“问答”的工作簿](service-prepare-data-for-q-and-a.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 
