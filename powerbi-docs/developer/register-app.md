@@ -3,7 +3,7 @@ title: "注册应用以便嵌入 Power BI 内容"
 description: "了解如何在 Azure Active Directory 中注册应用程序，用于嵌入 Power BI 内容。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 55bd0ed1be7b5853c6de786df34812fddafc1db8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: cc9a4c7a29ddb84e6230d42f31a9c6a0427008f1
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>注册 Azure AD 应用以便嵌入 Power BI 内容
 了解如何在 Azure Active Directory (Azure AD) 中注册应用程序，用于嵌入 Power BI 内容。
@@ -77,7 +77,7 @@ ms.lasthandoff: 11/13/2017
     ![](media/register-app/azuread-new-app-registration.png)
 5. 按照提示进行操作，并创建新的应用程序。
    
-   * 对于 Web 应用，请输入“登录 URL”，即用户可以登录的应用基 URL（例如， http://localhost:13526 ）。
+   * 对于 Web 应用，请输入“登录 URL”，即用户可以登录的应用基 URL（例如，http://localhost:13526）。
    * 对于本机应用程序，请提供“重定向 URI”，Azure AD 用其返回令牌响应。 输入应用的专属值（例如，http://myapplication/redirect）
 
 有关如何在 Azure Active Directory 中注册应用程序的详细信息，请参阅 [Azure Active Directory 集成应用程序](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)

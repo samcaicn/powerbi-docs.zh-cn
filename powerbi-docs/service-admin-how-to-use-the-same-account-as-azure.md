@@ -3,7 +3,7 @@ title: "将相同的帐户用于 Power BI 和 Azure"
 description: "如何将相同的帐户登录名用于 Power BI 和 Azure"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: a601e4252e8c2b3bc130b61139ffb528742ea7ea
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: b2659747a875ee6bb14c0ec52f7d4fa71d233ed9
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>将相同的帐户用于 Power BI 和 Azure
 如果你同时是 Power BI 和 Azure 的用户，则可能要对这两个服务使用相同的登录名，以便无需输入密码两次。

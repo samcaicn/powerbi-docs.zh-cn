@@ -3,7 +3,7 @@ title: "管理员手册概述：Power BI 报表服务器"
 description: "欢迎阅读 Power BI 报表服务器的管理员手册。Power BI 报表服务器是用于存储和管理 Power BI 报表、移动报表和分页报表的本地位置。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 6434084ab59cf842544dbcf9e373a8f6985a9ee3
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 130a4264b2e8c4e511527f34088a580a7787673b
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="administrator-handbook-overview-power-bi-report-server"></a>管理员手册概述：Power BI 报表服务器
 欢迎阅读 Power BI 报表服务器的管理员手册。Power BI 报表服务器是用于存储和管理 Power BI 报表、移动报表和分页报表的本地位置。
