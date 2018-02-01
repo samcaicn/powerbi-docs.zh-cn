@@ -3,7 +3,7 @@ title: "对 Power BI 已嵌入内容使用行级别安全性"
 description: "了解在应用程序中嵌入 Power BI 内容所需的步骤。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
-ms.author: asaxton
-ms.openlocfilehash: ffaf4439f48b23dcff8e965b5bea1aeaf19afcc0
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.author: maghan
+ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>对 Power BI 已嵌入内容使用行级别安全性
 行级安全性 (RLS) 可用于限制用户对仪表板、磁贴、报表和数据集中数据的访问。 多个不同的用户都可以在查看不同的数据时处理这些相同的项目。 嵌入支持 RLS。

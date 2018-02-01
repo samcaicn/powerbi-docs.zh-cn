@@ -3,7 +3,7 @@ title: "用于从 Power BI Embedded 迁移内容的代码片段"
 description: "以下是内容迁移所需的一些基本操作代码片段"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 39be2f2fad9b111bf99c7df2905a90833a2751a3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: c868c039e8edfe218c2a578402690a40ed1f3030
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-embedded"></a>用于从 Power BI Embedded 迁移内容的代码片段
 以下是内容迁移所需的一些基本操作代码片段。 对于某些报表类型的相关流，请参阅[如何将 Power BI Embedded 工作区集合内容迁移到 Power BI](migrate-from-powerbi-embedded.md#content-migration)。

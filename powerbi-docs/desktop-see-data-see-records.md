@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: c43ec48d1bd34a5df2578c6cc117dd3e3bbdb64f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a61a5d46c2f663ff7e8388a862f5649487504092
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>使用 Power BI Desktop 的“查看数据”和“查看记录”功能
 在 **Power BI Desktop** 中，可以深入了解任意视觉对象的详细信息，并能查看选定视觉对象的数据文本或单个数据元素文本。 这些功能有时亦称为“单击后了解详细信息”、“深入了解”或“深入了解详细信息”。
