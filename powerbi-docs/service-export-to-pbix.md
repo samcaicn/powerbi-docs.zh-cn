@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: 259007c76b7b53ba0ea55a28fbdd189469383364
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 7c0bd2f342385f71fd91bb81a284ef41deb46169
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>将报表从 Power BI 服务导出到 Power BI Desktop（预览）
 在 Power BI Desktop 中，可以通过保存报表并选择“ **发布** ”来导出（也称为“ *下载* ”）报表至 Power BI 服务。 也可以从其他方向导出，并将报表从 Power BI 服务下载至 Desktop。 无论导出方向如何，导出文件的扩展名都是 .pbix。
@@ -37,7 +37,7 @@ ms.lasthandoff: 01/23/2018
 2. 在菜单栏中，依次选择**“文件”>“下载报表”**。
    
    > [!NOTE]
-   > 只能下载在 2016 年 11 月 23 日后[使用 Power BI Desktop 创建](guided-learning/publishingandsharing.yml#step-2)或更新的报表。 否则，Power BI 服务中的“ *下载报表* ”菜单选项为灰显。
+   > 只能下载在 2016 年 11 月 23 日后[使用 Power BI Desktop 创建](guided-learning/publishingandsharing.yml#step-2)和更新的报表。 否则，Power BI 服务中的“ *下载报表* ”菜单选项为灰显。
    > 
    > 
 3. 在创建 .pbix 文件的同时，系统会显示状态横幅来提示你进度。 在文件就绪后，系统会提示你打开或保存此 .pbix 文件。 文件名与报表名相匹配。
@@ -59,7 +59,7 @@ ms.lasthandoff: 01/23/2018
 从 Power BI 服务下载（导出）*.pbix* 文件时，须遵循几个重要的注意事项和限制。
 
 * 若要下载文件，必须具有编辑报表的权限
-* 报表必须源自 **Power BI Desktop** ，且必须在 **Power BI 服务** 中 *发布* 。或者，必须已将 .pbix 文件 *上载* 到 Power BI 服务中。
+* 报表必须使用 Power BI Desktop 创建，且必须在 Power BI 服务中发布。或者，必须已将 .pbix 文件上载到 Power BI 服务中。
 * 报表的发布或更新日期必须晚于 2016 年 11 月 23 日。 在该日期前发布的报表无法下载。
 * 此功能对最初在 **Power BI 服务**中创建的报表及内容包均不适用。
 * 应始终使用 **Power BI Desktop** 的最新版本打开下载的文件。 在 **Power BI Desktop** 的非当前版本中可能无法打开下载的 *.pbix* 文件。

@@ -1,5 +1,5 @@
 ---
-title: "表中的超链接"
+title: "如何将超链接添加到表格"
 description: "表中的超链接"
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e399553b9a31adb79bed73977409d5d88140ad88
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a5a38934ab684691921c480a02024376a4655b8b
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="hyperlinks-in-tables"></a>表中的超链接
 本主题介绍如何使用 Power BI Desktop 创建超链接。 创建后，使用 Desktop 或 Power BI 服务将这些超链接添加到你的报表表格和矩形图。 
@@ -74,7 +74,7 @@ ms.lasthandoff: 11/15/2017
    ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot3.png)
 4. 将光标置于包含你想要将其转换为 Power BI 表中的超链接的 URL 的列。
    
-   > **请注意**：URL 必须以 **http:// 、https://** 或 **www** 开头。
+   > **请注意**：URL 必须以 **http://、https://** 或 **www** 开头。
    > 
    > 
 5. 在 **Reporting 属性**组中，选择**数据类别**下拉列表，然后选择 **Web URL**。 
@@ -84,6 +84,11 @@ ms.lasthandoff: 11/15/2017
 7. 创建一个包含 URL 字段的表可视化效果。
    
    ![](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
+
+## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
+问：是否可以使用自定义 URL 作为表或矩阵中的超链接？    
+答：不可以。 可以使用链接图标。 如需为你的超链接使用自定义文本且你的 URL 列表较短，请考虑改用文本框。
+
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 报表中的可视化效果](power-bi-report-visualizations.md)

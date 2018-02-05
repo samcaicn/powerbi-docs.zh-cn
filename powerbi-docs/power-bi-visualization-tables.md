@@ -1,6 +1,6 @@
 ---
-title: "Power BI 报表和仪表板中的表可视化效果（教程）"
-description: "在 Power BI 报表和仪表板中使用表可视化效果的提示，包括如何调整列宽大小。"
+title: "教程 - Power BI 报表和仪表板中的表可视化效果（教程）"
+description: "在 Power BI 报表和仪表板中使用表可视化效果的教程，包括如何调整列宽大小。"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e4a2e162ca193af756e7182fb118bc7e72d38d28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4785df6bbc14bf0da4500a9cffdcd47381e412f4
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>使用 Power BI 报表和仪表板中的表（教程）
 表是以逻辑序列的行和列表示的包含相关数据的网格。 它还包含标头和合计行。 表格可以进行数量比较，可以在其中查看单个类别的多个值。 例如，该表显示了**类别**的 5 个不同的度量值。
@@ -40,11 +40,16 @@ ms.lasthandoff: 11/13/2017
 > 如果表格具有过多值，请考虑将其转换为矩形图和/或使用向下钻取。
 > 
 > 
+## <a name="prerequisites"></a>先决条件
+ - Power BI 服务或 Power BI Desktop
+ - 零售分析示例
+
 
 ## <a name="create-a-table"></a>创建表
-要遵循示例执行操作，请登录到 Power BI，然后选择**获取数据 > 示例 > 零售分析示例**。 我们将创建上图所示的表，以按项目类别显示销售值。
+我们将创建上图所示的表，以按项目类别显示销售值。 若要跟着介绍一起操作，请登录 Power BI 服务，并依次选择“获取数据”**\>“示例”“零售分析示例”>“连接”\>**，再选择“转至仪表板”。 创建可视化效果需要对数据集和报表拥有编辑权限。 幸运的是，所有 Power BI 示例都是可以编辑的。 如果报表已与你共享，则无法在报表中创建可视化效果。
 
-1. 在“我的工作区”中，选择“数据集”选项卡，然后向下滚动到你刚才添加的“零售分析示例”数据集。  选择“创建报表”图标。
+1. 在左侧导航窗格中，选择“工作区 > 我的工作区”。    
+2. 选择“数据集”选项卡，然后向下滚动到你刚才添加的“零售分析示例”数据集。  选择“创建报表”图标。
    
     ![](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. 在报表编辑器中，选择“项” > “类别”。  Power BI 会自动创建一个表，该表列出所有类别。

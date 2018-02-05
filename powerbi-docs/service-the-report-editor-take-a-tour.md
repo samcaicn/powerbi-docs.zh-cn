@@ -1,5 +1,5 @@
 ---
-title: "报表编辑器...教程"
+title: "快速入门 - 报表编辑器...教程"
 description: "报表编辑器...教程。"
 services: powerbi
 documentationcenter: 
@@ -16,20 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: e5ee6db22fe0fa7fd1e61ebbfb7dbee9d3458159
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>报表编辑器...教程
+## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>编辑 Power BI 服务和 Power BI Desktop 中的报表
 Power BI 服务中的报表编辑器和 Power BI Desktop 中的报表编辑器非常相似。 该视频演示的是 Power BI Desktop 中的报表编辑器，而本文介绍的是 Power BI 服务中的报表编辑器。 
+
+## <a name="the-difference-between-report-creators-and-report-consumers"></a>报表创建者和报表使用者之间的区别
+创建和编辑报表的能力仅限于报表所有者（又称创建者）。 如果使用已与你共享的报表，你仍然能够打开 Power BI 服务[仅阅读视图](service-reading-view-and-editing-view.md)中的报表并与之交互，但不具备为报表创建者提供的所有可靠和广泛功能。  
+
+若要了解有关报表“阅读视图”的详细信息，请参阅 [Power BI 服务中的“阅读视图”和“编辑视图”](service-reading-view-and-editing-view.md) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-在 Power BI 服务中，报表编辑器仅在[编辑视图](service-reading-view-and-editing-view.md)中可用。 若要在“编辑视图”中打开报表，必须是报表所有者身份。
+在 Power BI 服务中，报表编辑器仅在[编辑视图](service-reading-view-and-editing-view.md)中可用。 若要在“编辑视图”中打开报表，必须是报表所有者或创建者身份。
 
 Power BI 报表编辑器由 3 部分组成：  
 
@@ -87,7 +93,9 @@ Power BI 报表编辑器由 3 部分组成：
 
 - - -
 ## <a name="the-filters-pane"></a>“筛选器”窗格
-查看、设置并修改页、报表、钻取和视觉对象级别筛选器。
+使用“筛选器”窗格可在页面、报表、钻取和视觉对象级别查看、设置和修改报表的持久筛选器。 是的，你可以对报表页和视觉对象执行即席筛选，方法是选择视觉对象元素，或使用切片器等工具，但如果使用“筛选器”窗格，筛选器状态会与报表一起保存。 
+
+“筛选器”窗格还具有另一个强大功能 - 使用尚未在报表其中一个视觉对象中使用的字段进行筛选的能力。 我来解释一下。 在创建报表页时，Power BI 会自动将在可视化效果中使用的所有字段添加到“筛选器”窗格的视觉对象级别筛选器区域。  但是，如果希望通过当前未在可视化效果中使用的字段来设置视觉对象、页面、钻取或报表筛选器，只需将其拖到其中一个筛选器 Bucket。   
 
 ![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -125,11 +133,7 @@ Power BI 报表编辑器由 3 部分组成：
 ## <a name="next-steps"></a>后续步骤：
 [创建报表](service-report-create-new.md)
 
-[编辑报表](service-interact-with-a-report-in-editing-view.md)
-
-了解有关 [Power BI 中的报表](service-reports.md)的详细信息
-
-[Power BI 入门](service-get-started.md)
+有关报表的详细信息，请参阅 [Power BI 服务](service-reports.md)、[Power BI Desktop](desktop-report-view.md)，和 [Power BI 移动版](mobile-apps-view-phone-report.md)。
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

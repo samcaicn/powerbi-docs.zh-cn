@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -63,7 +63,7 @@ Power BI 报表作者可以创建专门针对手机进行优化的报表布局�
 阅读有关[针对手机视图进行优化的报表](mobile-apps-view-phone-report.md)的详细信息。
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>使用切片器筛选报表页
-在 Power BI 服务 [(https://powerbi.com)](https://powerbi.com) 中设计报表时，请注意，在手机上看不到“筛选器”窗格，但可以[在报表页上看到切片器](power-bi-visualization-slicers.md)。 向报表添加切片器，以便你和同事可以使用切片器在手机上筛选报表页。
+在 Power BI Desktop 或 Power BI 服务中设计报表时，请考虑[将切片器添加到报表页](power-bi-visualization-slicers.md)。 你和同事可以使用切片器在浏览器和移动应用中筛选页面。 在手机上查看报表时，可以在横向模式下和在针对手机的纵向模式进行了优化的页面中查看切片器并与之交互。
 
 * 在报表页上的切片器中选择值后，便会筛选报表页上的其他视觉对象。
   

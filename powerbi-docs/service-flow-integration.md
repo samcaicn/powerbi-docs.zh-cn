@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: efab2e6be1d376a0da70c13bb66144ba34afa58c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: edae145e8eef6dfe7a2c4cea3a7f467f6f7961a9
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 和 Power BI
 
@@ -35,7 +35,9 @@ ms.lasthandoff: 11/17/2017
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>创建由 Power BI 数据警报触发的流
-本教程介绍了如何创建两个不同的流：一个是通过模板创建，另一个是从头开始创建。 若要继续学习本教程，请[在 Power BI 中创建数据警报](service-set-data-alerts.md)，然后[注册 Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup)（此产品免费！）。
+
+### <a name="prerequisites"></a>先决条件
+本教程介绍了如何创建两个不同的流：一个是通过模板创建，另一个是从头开始创建。 若要继续学习本教程，请[在 Power BI 中创建数据警报](service-set-data-alerts.md)，创建一个免费的 Slack 帐户，然后[注册 Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup)（此产品免费！）。
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>通过模板创建使用 Power BI 的流
 在此任务中，我们将使用模板创建一个由 Power BI 数据警报（通知）触发的简单流。
@@ -47,39 +49,40 @@ ms.lasthandoff: 11/17/2017
 3. 选择“**使用模板创建**”。
    
     ![](media/service-flow-integration/power-bi-template.png)
-4. 在搜索框中查找 Power BI 模板，然后选择“**在 Power BI 数据警报触发时将消息发布到 Slack 通道**”。
+4. 在搜索框中查找 Power BI 模板，然后选择“在触发 Power BI 数据警时，向任何受众发送电子邮件>继续”。
    
-    ![](media/service-flow-integration/power-bi-template2.png)
-5. 选择“**使用此模板**”。
-   
-   ![](media/service-flow-integration/power-bi-use-template.png)
-6. 如果系统出现提示，请选择“**登录**”，然后按提示操作，从而连接 Slack 和 Power BI。 绿色对勾表明你已登录。  确认连接后，选择“**继续**”。
-   
-   ![](media/service-flow-integration/power-bi-flow-signin.png)
+    ![](media/service-flow-integration/power-bi-flow-alert.png)
+
 
 ### <a name="build-the-flow"></a>生成流
-此模板包含一个触发器（通知爱尔兰新获奥运会奖牌的 Power BI 数据警报）和一个操作（将消息发布到 Slack）。 在你选择字段的同时，Flow 会显示可以包含的动态内容。  在此示例中，我们将在消息正文中添加磁贴值和磁贴 URL。
+此模板包含一个触发器（通知爱尔兰新获奥运会奖牌的 Power BI 数据警报）和一个操作（发送电子邮件）。 在你选择字段的同时，Flow 会显示可以包含的动态内容。  在此示例中，我们将在消息正文中添加磁贴值和磁贴 URL。
 
-![](media/service-flow-integration/power-bi-flow-template.png)
+![](media/service-flow-integration/power-bi-template1.png)
 
 1. 在触发器下拉列表中，选择一个 Power BI 数据警报。 选择“**爱尔兰新获奖牌**”。 若要了解如何创建警报，请参阅 [Power BI 中的数据警报](service-set-data-alerts.md)。
    
    ![](media/service-flow-integration/power-bi-trigger-flow.png)
-2. 若要向 Slack 发布信息，请输入通道名和消息文本（还可以选择 Flow 创建的默认消息）。 请注意我们已在消息文本字段中添加的动态内容。
+2. 输入一个或多个有效电子邮件地址，然后选择“编辑”（如下所示） 或“添加动态内容”。 
    
-   > [!NOTE]
-   > 在通道名称开头添加“@”。  例如，如果 Slack 通道名为“channelA”，请在 Flow 中输入 “@channelA”。
-   > 
-   > 
-   
-   ![](media/service-flow-integration/power-bi-flow-slacker.png)
-3. 完成后，选择“创建流”或“保存流”。  此时，系统已创建并计算流。  Flow 会在有错误时提示你。
-4. 如果有错误，请选择“**编辑流**”修复错误。如果没有错误，请选择“**完成**”运行这一新流。
+   ![](media/service-flow-integration/power-bi-flow-email.png)
+
+3. 流会为你创建可保留或修改的标题和消息。 在 Power BI 中创建警报时设置的所有值都可供使用 -- 只需将光标置于其中并从灰色突出显示区域选择即可。 
+
+   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+
+1.  例如，如果你在 Power BI 中创建了警报标题“我们获得了另一枚奖牌”，则可以选择“警报标题”将该文本添加到电子邮件的“主题”字段。
+
+    ![](media/service-flow-integration/power-bi-flow-message.png)
+
+    而且，你可以接受默认电子邮件正文或自行创建正文。 以上示例包含对消息的一些修改。
+
+1. 完成后，选择“创建流”或“保存流”。  此时，系统已创建并计算流。  Flow 会在有错误时提示你。
+2. 如果有错误，请选择“**编辑流**”修复错误。如果没有错误，请选择“**完成**”运行这一新流。
    
    ![](media/service-flow-integration/power-bi-flow-running.png)
-5. 打开你的 Slack 帐户，查看消息。  
+5. 触发数据警报时，将向你指定的地址发送一封电子邮件。  
    
-   ![](media/service-flow-integration/power-bi-slack-message.png)
+   ![](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>从头开始创建使用 Power BI 的 Flow
 在此任务中，我们将从头开始创建一个由 Power BI 数据警报（通知）触发的简单流。
@@ -88,12 +91,12 @@ ms.lasthandoff: 11/17/2017
 2. 依次选择“我的流” > “从头开始创建”。
    
    ![](media/service-flow-integration/power-bi-my-flows.png)
-3. 使用搜索框查找 Power BI 触发器，然后选择“使用 Power BI 数据驱动的警报触发流”。
+3. 在搜索框中查找 Power BI 触发器，然后选择“Power BI - 当数据驱动警报触发时”。
 
 ### <a name="build-your-flow"></a>生成流
 1. 在下拉列表中，选择警报名称。  若要了解如何创建警报，请参阅 [Power BI 中的数据警报](service-set-data-alerts.md)。
    
-    ![](media/service-flow-integration/power-bi-totalstores.png)
+    ![](media/service-flow-integration/power-bi-totalstores2.png)
 2. 依次选择“**下一步**” > “**添加操作**”。
    
    ![](media/service-flow-integration/power-bi-new-step.png)

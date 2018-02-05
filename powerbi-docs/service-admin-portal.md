@@ -3,7 +3,7 @@ title: "Power BI 管理门户"
 description: "通过管理门户允许对组织中的 Power BI 进行租户管理。 它包括诸如使用情况指标、对 Office 365 管理中心的访问以及设置这类项目。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
-ms.author: asaxton
-ms.openlocfilehash: d831363d6afa88aa94d78776f59f81ba8ba96299
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.date: 01/02/2018
+ms.author: maghan
+ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理门户
 
@@ -209,6 +209,16 @@ ms.lasthandoff: 12/18/2017
 ### <a name="user-arcgis-maps-for-power-bi-preview"></a>使用适用于 Power BI 的 ArcGIS 地图（预览）
 
 组织中的用户可以使用 Esri 提供的适用于 Power BI 的 ArcGIS 地图（预览）可视化效果。 [了解详细信息](power-bi-visualization-arcgis.md)
+
+
+## <a name="custom-visuals-settings"></a>自定义视觉对象设置
+### <a name="enable-custom-visuals-for-the-entire-organization"></a>为整个组织启用自定义视觉对象
+组织中的用户可以与自定义视觉对象进行交互并共享。 [了解详细信息](power-bi-custom-visuals.md)
+
+![自定义视觉对象设置](media/service-admin-portal/powerbi-admin-custom-visuals.png)
+
+> [!NOTE]
+> 此设置应用于整个组织，并且不能限制为特定组。
 
 ## <a name="r-visuals-settings"></a>R 视觉对象设置
 

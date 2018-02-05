@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a707a7b590804d24d60d17590408afbdf8f81f4c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: ef2e89ba2bac451ce0230829bbf4aa0b60713899
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常见查询任务
 使用 Power BI Desktop 的**查询编辑器**窗口时，可执行很多常用任务。 本文档演示了这些常见的任务，并提供其他信息的链接。 
@@ -69,7 +69,7 @@ ms.lasthandoff: 12/06/2017
 有关连接到 Power BI Desktop 中数据的分步演示，请参阅[连接到 Power BI Desktop 中的数据](https://powerbi.uservoice.com/knowledgebase/articles/471635)。
 
 ## <a name="shape-and-combine-data"></a>调整和合并数据
-可使用查询编辑器轻松地调整和合并数据。 本部分包括几个有关数据调整方式的示例。 有关如何调整和合并数据的更完整演示，请参阅 [使用 Power BI Desktop 调整和合并数据](https://powerbi.uservoice.com/knowledgebase/articles/471644)。
+可使用查询编辑器轻松地调整和合并数据。 本部分包括几个有关数据调整方式的示例。 有关如何调整和合并数据的更完整演示，请参阅**[使用 Power BI Desktop 调整和合并数据](https://powerbi.uservoice.com/knowledgebase/articles/471644)**。
 
 上一节中，我们连接到两组数据 – Excel 工作簿和 Web 资源。 在查询编辑器中加载后，我们将看到以下结果，其中选中了网页中的查询（位于查询编辑器窗口左侧，**查询**窗格内列出的可用查询中）。
 

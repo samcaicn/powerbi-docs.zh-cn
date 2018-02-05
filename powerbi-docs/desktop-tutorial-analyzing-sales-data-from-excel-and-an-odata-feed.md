@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 03c5afae78e1688cadfdef9c0a96ca9f24247e12
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>教程：分析来自 Excel 和 OData 源的销售数据
 使用 **Power BI Desktop**，你可以连接到各种类型的不同数据源，然后以形成有趣和令人信服的数据分析和可视化效果的方式对它们进行合并和调整。 在本教程中，你将了解如何合并来自两个数据源的数据。 
@@ -140,7 +140,7 @@ Power BI Desktop 可让你创建针对正在导入的列的计算，因此你可
 
 ### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>步骤 5：设置 LineTotal 字段的数据类型
 1. 右键单击 **LineTotal** 列。
-2. 选择**更改类型**，然后选择 **十进制数。
+2. 选择“更改类型”，然后选择“十进制数”。
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
@@ -229,6 +229,5 @@ Power BI Desktop 使你可以与相互突出显示和筛选的视觉效果进行
 * [观看 Power BI Desktop 视频](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [访问 Power BI 论坛](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [阅读 Power BI 博客](http://go.microsoft.com/fwlink/?LinkID=519327)
-
 
 

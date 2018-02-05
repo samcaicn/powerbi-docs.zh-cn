@@ -1,5 +1,5 @@
 ---
-title: "从数据集中创建新报表 "
+title: "教程 - 从数据集中创建新报表 "
 description: "从数据集创建新的 Power BI 报表。"
 services: powerbi
 documentationcenter: 
@@ -15,20 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: f4afb1eaa1b3012fdbdb0eff35e9eff695cc32e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>通过导入数据集创建新的 Power BI 报表
 你已经阅读了 [Power BI 中的报表](service-reports.md)，并且现在想要创建你自己的仪表板。 创建报表有许多不同的方式，在本文中，我们将通过从 Excel 数据集创建一个非常基本的报表开始。 了解创建报表的基础知识后，单击底部的**下一步**可转到更高级的报表主题。  
 
 > **提示**：若要通过复制现有报表创建报表，请参阅[复制报表](power-bi-report-copy.md)
 > 
-> 
+### <a name="prerequisites"></a>先决条件
+- Power BI 服务（有关使用 Power BI Desktop 创建报表的信息，请参阅 [Desktop 报表视图](desktop-report-view.md)）   
+- 零售分析示例数据集
 
 ## <a name="import-the-dataset"></a>导入数据集
 此创建报表方法从数据集和空白报表画布开始。 若要遵循此方法，请[下载零售分析示例 Excel 数据集](http://go.microsoft.com/fwlink/?LinkId=529778)并将其保存到 OneDrive for Business（首选）或进行本地保存。
@@ -36,7 +38,7 @@ ms.lasthandoff: 11/13/2017
 1. 我们将在 Power BI 服务的工作区中创建报表，因此，请选择现有工作区或新建一个工作区。
    
    ![](media/service-report-create-new/power-bi-workspaces2.png)
-2. 在左侧导航栏底部选择“获取数据”。
+2. 在左侧导航窗格底部选择“获取数据”。
    
    ![](media/service-report-create-new/power-bi-get-data3.png)
 3. 选择“文件”并导航到你保存零售分析示例的位置。
@@ -83,7 +85,7 @@ CMO 还需要我们回答一些其他问题。 她还希望了解本年度销售
 4. 选择“时间” > “时间段”以将其添加到“轴”框。
    
     ![](media/service-report-create-new/power-bi-report-step5.png)
-5. 若要对可视化效果进行排序，请选择省略号，然后选择“按时间段排序”。
+5. 若要对可视化效果按时间段排序，请选择省略号，然后选择“按时间段排序”。
 6. 现在添加切片器。 选择画布上的空白区域，然后选择切片器 ![](media/service-report-create-new/power-bi-slicer-icon.png) 模板。 将在画布上添加空的切片器。
    
     ![](media/service-report-create-new/power-bi-report-step6.png)    
@@ -93,12 +95,11 @@ CMO 还需要我们回答一些其他问题。 她还希望了解本年度销售
 8. 使用切片器按地区查找模式和见解。
    
    ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
-9. 也可以选择继续添加可视化效果。
+
+继续浏览数据并添加可视化效果。 当你发现尤为值得关注的见解时，[将它们固定到仪表板](service-dashboard-pin-tile-from-report.md)。
 
 ## <a name="next-steps"></a>后续步骤
-* [创建报表副本](power-bi-report-copy.md)
-* [保存报表](service-report-save.md)    
 * [向报表添加新页面](power-bi-report-add-page.md)  
-* 了解如何[将可视化效果固定到仪表板](service-dashboard-pin-tile-from-report.md)    
+* 了解如何[将可视化效果固定到仪表板](service-dashboard-pin-tile-from-report.md)   
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

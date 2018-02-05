@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 3e0e06f36bfd229cf482428aa983e7211dbf897c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e824c1e582b8ed3cf0953b59b790e90271a6d38c
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>iPhone 或 iPod Touch 上的 Power BI 移动应用入门
 iPhone 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 在你的 [Apple Watch](mobile-apple-watch.md) 上保持最新的数据。  
@@ -41,7 +41,7 @@ iPhone 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI
 [下载 iOS 应用](http://go.microsoft.com/fwlink/?LinkId=522062 "从 Apple App Store 下载 iPhone 应用") 到你的 iPhone 或 iPod Touch 中。
 
 > [!NOTE]
-> 可以在 iOS 9.0 或更高版本的 iPhone 5 及以上版本上运行 Power BI for iOS 应用。 也可以在 iOS 9.0 或更高版本的 iPod Touch 上运行。
+> 可以在 iOS 10 或更高版本的 iPhone 5 及以上版本上运行 Power BI for iOS 应用。 也可以在 iOS 10 或更高版本的 iPod Touch 上运行。
 > 
 > 
 

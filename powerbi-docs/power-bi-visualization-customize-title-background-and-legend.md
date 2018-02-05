@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 424e96c5315bd41fc79999555097602f629a1285
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>自定义可视化效果的标题、图例和背景（教程）
 在本教程中，你将学习一些用于自定义可视化效果的不同方式。   有许多选项用于自定义可视化效果，了解所有这些选项的最佳方法是：浏览格式设置窗格（选择 paintroller 图标）。  为了帮助你入门，本文演示了如何自定义可视化效果的标题、图例和背景。  
@@ -33,9 +33,12 @@ ms.lasthandoff: 11/15/2017
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
+### <a name="prerequisites"></a>先决条件
+- Power BI 服务或 Power BI Desktop
+- 零售分析示例
 
 ## <a name="customize-visualization-titles-in-reports"></a>在报表中自定义可视化效果标题
-若要继续操作，请登录到 app.powerbi，并在[编辑视图](service-interact-with-a-report-in-editing-view.md)中[打开零售分析示例](sample-datasets.md)报表。
+若要跟着介绍一起操作，请登录到 Power BI 服务 (app.powerbi.com) 并在[编辑视图](service-interact-with-a-report-in-editing-view.md)中[打开零售分析示例](sample-datasets.md)报表。
 
 > [!NOTE]
 > 将可视化效果固定到仪表板时，它会成为仪表板磁贴。  磁贴本身还可以使用[新标题和副标题进行自定义，可以是超链接并且可以调整大小](service-dashboard-edit-tile.md)。
@@ -120,7 +123,6 @@ ms.lasthandoff: 11/15/2017
 | 瀑布图 |是 |是 |是 |
 
 ## <a name="next-steps"></a>后续步骤
-有关 [Power BI 报表中的可视化效果](power-bi-report-visualizations.md)的详细信息  
 [自定义 X 轴和 Y 轴](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [自定义颜色和轴属性](service-getting-started-with-color-formatting-and-axis-properties.md)  
 [Power BI - 基本概念](service-basic-concepts.md)  

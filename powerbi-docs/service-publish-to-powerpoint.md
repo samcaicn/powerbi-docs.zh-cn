@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: 6b2002348ae7e8ef2bb2e112eb8be967d0c68545
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 4ca79e960bc0370789ee735ba6b5391cbb8b110f
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>将报表从 Power BI 导出到 PowerPoint（预览版）
 借助 Power BI，现在可将报表发布到 **Microsoft PowerPoint**，并根据 Power BI 报表轻松地创建幻灯片平台。 **导出到 PowerPoint** 时，会发生以下情况：
@@ -89,7 +89,9 @@ ms.lasthandoff: 01/23/2018
 * PowerPoint 页始终以标准的 9:16 尺寸创建，无论 Power BI 报表页的原大小或原尺寸如何。
 * Power BI 租户域之外的用户拥有的报表（如组织外部人员拥有且与你共享的报表）无法发布到 PowerPoint。
 * 如果与组织外部人员（即位于 Power BI 租户之外的用户）共享仪表板，此用户将无法把共享仪表板的关联报表导出到 PowerPoint。 例如，如果你是 aaron@contoso.com，虽然可以与 david@cohowinery.com 共享内容，但 david@cohowinery.com 无法将关联报表导出到 PowerPoint。
-* 如上所述，每个报表页导出为 PowerPoint 文件中的单张图像。 
+* 如上所述，每个报表页导出为 PowerPoint 文件中的单张图像。
+* Power BI 服务将你的 Power BI 语言设置用作 Power BI 导出的语言。 若要查看或设置语言首选项，请选择齿轮图标 ![](media/service-report-subscribe/power-bi-settings-icon.png) >“设置”>“常规”>“语言”。
+* 导出的 PowerPoint 文件的封面幻灯片上的下载时间被设置为导出时计算机的时区。
 
 ## <a name="next-steps"></a>后续步骤
 [在 Excel 中分析](service-analyze-in-excel.md)

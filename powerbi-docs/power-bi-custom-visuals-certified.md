@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: 90449f79da8aed3d992b9ac8bf83ac2ac4c0f83c
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: f9824b29515481742c339bc76e766e5e62cf1716
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>让自定义视觉对象取得认证
 ## <a name="what-is-meant-by-certified"></a>取得认证是指什么？
@@ -93,6 +93,7 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 | [Enlighten 洗牌排序法](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Enlighten 方格百分比图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [Enlighten 世界国旗](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380923) | |
+| [Force-Directed Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) |[视频](https://youtu.be/YsTa7uyJ4sg) |
 | [预测 TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326?src=office) | |
 | [漏斗图（含源）]() | || [甘特图](https://store.office.com/gantt-WA104380765.aspx) |[视频](https://youtu.be/qJ7s_KrGiUU) |
 | [Akvelon 层次机构图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333?src=office) | |
@@ -115,6 +116,7 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 | [滚动条](https://store.office.com/scroller-WA104381018.aspx) |[视频](https://youtu.be/uhRFQF2cGSY) |
 | [SQLBI 的智能筛选器](https://store.office.com/smart-filter-by-okviz-WA104380859.aspx) |[视频](https://youtu.be/gcJsDDRQq28) |
 | [Sparkline by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910?src=office&tab=Overview) |[视频](https://youtu.be/0m3Vnvso9tY) |
+| [Stream 关系图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772?tab=Overview) |  |
 | [Sunburst](https://appsource.microsoft.com/product/power-bi-visuals/WA104380767?src=office&tab=Overview) | |
 | [热度地图表](https://store.office.com/table-heatmap-WA104380818.aspx) | |
 | [转速计](https://store.office.com/tachometer-WA104380937.aspx?) |[视频](https://www.youtube.com/watch?v=C3OXdETbS9o) |

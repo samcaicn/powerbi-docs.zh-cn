@@ -3,7 +3,7 @@ title: "如何将 Power BI Embedded 工作区集合内容迁移到 Power BI"
 description: "了解如何从 Power BI Embedded 迁移到 Power BI 服务，并利用这些进展在应用中进行嵌入。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 430f1d1a49e510bac66c448b2dceaad1f2537073
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 08/24/2018
+ms.author: maghan
+ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>如何将 Power BI Embedded 工作区集合内容迁移到 Power BI
 了解如何从 Power BI Embedded 迁移到 Power BI 服务，并利用这些进展在应用中进行嵌入。
@@ -174,14 +174,11 @@ Microsoft 最近[发布了 Power BI Premium](https://powerbi.microsoft.com/blog/
 准备好迁移到生产环境时，需要执行以下操作。
 
 * 如果要使用单独的租户进行开发，则需要确保应用工作区以及仪表板和报表在生产环境中可用。 还需要确保在 Azure AD 中为生产租户创建了应用程序，并按照步骤 1 中所述分配了适当的应用权限。
-* 购买符合需求的容量。 使用[嵌入式分析容量规划白皮书](https://aka.ms/pbiewhitepaper)来帮助了解可能需要的内容。 准备好购买时，可在 [Office 365 管理中心](https://portal.office.com/adminportal/home#/catalog)内执行此操作。
-  
-  > [AZURE.INFORMATION] 有关如何购买 Power BI Premium 的信息，请参阅[如何购买 Power BI Premium](../service-admin-premium-purchase.md)。
-  > 
-  > 
+* 购买符合需求的容量。 若要更好地了解所需容量的数量和类型，请参阅[嵌入式分析容量规划白皮书](https://aka.ms/pbiewhitepaper)。 可以在 Azure 中[购买容量](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)。
 * 编辑应用工作区，并在“高级”下将其分配给 Premium 容量。
-  
+ 
     ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    
 * 将更新的应用程序部署到生产环境，并开始从 Power BI 服务嵌入报表。
 
 ## <a name="after-migration"></a>迁移后

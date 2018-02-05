@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2b3f25c772a049d10bc03941db677c67c844da8b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 40d6ee1f1448856b444201532caffd4b8c904c85
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>第 2 部分，向 Power BI 报表添加可视化对象（教程）
 在[第 1 部分](power-bi-report-add-visualizations-ii.md)中，通过选中字段名称旁边的复选框来创建基本可视化对象。  在第 2 部分中，你将了解如何使用拖放功能并充分利用“字段”和“可视化对象”窗格创建和修改可视化对象。
+
+### <a name="prerequisites"></a>先决条件
+- [第 1 部分](power-bi-report-add-visualizations-ii.md)
+- Power BI 服务 - 可使用 Power BI 服务或 Power BI Desktop 将可视化效果添加到报表。 本教程使用 Power BI 服务。 
+- 零售分析示例
 
 ## <a name="create-a-new-visualization"></a>创建新的可视化对象
 在本教程中，我们将深入探讨我们的零售分析数据集并创建几个关键的可视化对象。
@@ -64,7 +69,6 @@ ms.lasthandoff: 11/13/2017
 ## <a name="next-steps"></a>后续步骤
 * 有关“字段”窗格的详细信息，请参阅[报告编辑器...教程](service-the-report-editor-take-a-tour.md)。   
 * 若要了解如何筛选和突出显示你的可视化对象，请参阅[在 Power BI 报表中进行筛选和突出显示](power-bi-reports-filters-and-highlighting.md)。  
-* 若要了解有关使用和更改聚合的信息，请参阅[报表中的聚合](service-aggregates.md)。  
 * [Power BI 报表中的可视化对象](power-bi-report-visualizations.md)的详细信息。  
-* 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)。
+* 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

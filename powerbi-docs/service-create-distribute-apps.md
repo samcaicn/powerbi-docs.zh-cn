@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 01/24/2018
 ms.author: maggies
-ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中创建和发布包含仪表板和报表的应用
 
@@ -32,7 +32,13 @@ ms.lasthandoff: 01/17/2018
 
 利用 Power BI 应用（现为预览版），可以创建各组仪表板和报表，并向整个组织或特定人员或组发布这些应用。 对于报表创建者或管理员，应用能使管理仪表板集合的权限变得更轻松。
 
-业务用户可以从 Microsoft AppSource 安装这些应用，或者你可以向他们发送直接链接。 他们可以轻松地找到并返回到你的内容，因为所有内容都在同一个位置。 他们将自动获得更新，你可以控制数据刷新的频率。 详细了解[业务用户的应用体验](service-install-use-apps.md)。
+业务用户可以通过多种不同的方式获取你的应用。 如果 Power BI 管理员已授予你权限，则可以将这些应用自动安装到同事的 Power BI 帐户中。 或者，他们可以从 Microsoft AppSource 安装这些应用，也可以直接向他们发送一个链接。 他们可以轻松地找到并返回到你的内容，因为所有内容都在同一个位置。 他们将自动获得更新，你可以控制数据刷新的频率。 详细了解[业务用户的应用体验](service-install-use-apps.md)。
+
+### <a name="licenses-for-apps"></a>应用许可证
+应用创建者需要 Power BI Pro 许可证。 应用用户有两个选项。
+
+* 选项 1：所有业务用户需要 Power BI Pro 许可证才能查看应用。 
+* 选项 2：如果应用驻留在 Power BI Premium 容量，则组织中的免费用户可以查看应用内容。 请阅读[什么是 Power BI Premium？](service-premium.md)了解详细信息。
 
 ### <a name="apps-and-organizational-content-packs"></a>应用和组织内容包
 应用由组织内容包演变而来。 如果你已具有组织内容包，它们将继续与应用并行工作。
@@ -41,12 +47,6 @@ ms.lasthandoff: 01/17/2018
 
 ## <a name="video-apps-and-app-workspaces"></a>视频：应用和应用工作区
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-## <a name="licenses-for-apps"></a>应用许可证
-应用创建者需要 Power BI Pro 许可证。 应用用户有两个选项。
-
-* 选项 1：所有业务用户需要 Power BI Pro 许可证才能查看应用。 
-* 选项 2：如果应用驻留在 Power BI Premium 容量，则组织中的免费用户可以查看应用内容。 请阅读[什么是 Power BI Premium？](service-premium.md)了解详细信息。
 
 ## <a name="app-workspaces"></a>应用工作区
 在应用工作区中，可以构建应用，因此若要构建应用，首先需要创建应用工作区。 如果你曾在 Power BI 中的组工作区中执行操作，则应用工作区对你而言并不陌生。 它们由组工作区演变而来，是存储应用内容的临时区域和容器。 
@@ -106,21 +106,23 @@ ms.lasthandoff: 01/17/2018
    
      ![发布应用](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. 首先，在“详细信息”中，填写说明以帮助用户查找应用。 可以选择背景颜色对其进行个性化设置。
+2. 在“详细信息”中，填写说明以帮助用户查找应用。 可以选择背景颜色对其进行个性化设置。
    
      ![应用详细信息](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. 接下来，在“内容”中，会看到即将作为应用的一部分进行发布的内容，即已在该工作区中选择的所有内容。 此外，还可以设置应用登录页，即当用户转到你的应用时首先看到的仪表板或报表。 你可以选择“无”。 然后，他们将登录到应用中的所有内容列表。 
+3. 在“内容”中，会看到即将作为应用的一部分进行发布的内容，即已在该工作区中选择的所有内容。 此外，还可以设置应用登录页，即当用户转到你的应用时首先看到的仪表板或报表。 你可以选择“无”。 然后，他们将登录到应用中的所有内容列表。 
    
      ![应用内容](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. 最后，在“访问”中，决定有权访问应用的人员：要么是组织中的所有人，要么是特定人员或者 Active Directory 安全组。 
+4. 在“访问”中，决定有权访问应用的人员：要么是组织中的所有人，要么是特定人员或者 Active Directory 安全组。 如果具有相应的权限，则可以决定是否为收件人自动安装应用。
+
+    ![应用访问](media/service-create-distribute-apps/power-bi-apps-access.png)
 
 5. 选择“完成”时，将看到一条消息，确认已准备好发布。 在成功对话框中，你可以复制直接链接到此应用的 URL 并将其发送给共享的人员。
    
      ![应用完成](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-已向其发布应用的业务用户可以通过两种不同的方式找到它。 你可以向他们发送应用的直接链接，或者他们可以在 Microsoft AppSource 中进行搜索，在那里他们将看到可以访问的所有应用。 在转到“应用”后，都可以在列表中看到此应用。
+已向其发布应用的业务用户可以通过多种不同的方式找到它。 如果你可以为用户自动安装应用，则该应用将在其 Power BI 帐户的“应用”下出现。 你可以向他们发送应用的直接链接，或者他们可以在 Microsoft AppSource 中进行搜索，在那里他们将看到可以访问的所有应用。 无论通过哪种方式获取应用，在转到应用后，都可以在列表中看到此应用。
 
 详细了解[业务用户的应用体验](service-install-use-apps.md)。
 
@@ -137,6 +139,7 @@ ms.lasthandoff: 01/17/2018
 1. 返回到内容的应用工作区列表，再选择“更新应用”。
    
      ![更新应用按钮](media/service-create-distribute-apps/power-bi-app-update-button.png)
+
 4. 如果需要，更新“详细信息”、“内容”和“访问权限”，然后选择“更新应用”。
    
      ![更新应用按钮](media/service-create-distribute-apps/power-bi-app-update-complete.png)
@@ -167,7 +170,9 @@ ms.lasthandoff: 01/17/2018
 * 随着时间的推移，我们计划弃用组织内容包，因此，我们建议你从现在开始构建应用。  
 
 ### <a name="what-about-read-only-members-in-groups"></a>对组中的只读成员有什么影响？
-在组中，你可以添加只能查看内容的只读成员。 此方法的主要问题是无法将安全组添加为成员。 借助应用，你可以针对大型受众发布应用工作区的只读版本，其中包括安全组。 可以将所做的更改暂存到应用中的仪表板和报表中，而不会影响最终用户。 我们建议将来以此方式使用应用。 对于长时间运行，我们还计划弃用工作区的只读成员。  
+在组中，你可以添加只能查看内容的只读成员。 此方法的主要问题是无法将安全组添加为成员。 
+
+借助应用，你可以针对大型受众发布应用工作区的只读版本，其中包括安全组。 可以将所做的更改暂存到应用中的仪表板和报表中，而不会影响最终用户。 我们建议将来以此方式使用应用。 对于长时间运行，我们还计划弃用工作区的只读成员。  
 
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中安装并使用应用](service-install-use-apps.md)

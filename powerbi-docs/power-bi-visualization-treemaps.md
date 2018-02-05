@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 5e5bc8eaa4e710e6564ee6f1d3ea1bfcf7f28127
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7a76cc071a114a7bbd4ccc8ade61ff10b7b2e4c5
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="treemaps-in-power-bi-tutorial"></a>Power BI 中的树状图（教程）
 树状图将分层数据显示为一组嵌套矩形。  一个有色矩形（通常称为“分支”）代表层次结构中的一个级别，该矩形包含其他矩形（“叶”）。  根据所测量的定量值分配每个矩形的内部空间，从左上方（最大）到右下方（最小）按大小排列矩形。
@@ -41,20 +41,25 @@ ms.lasthandoff: 11/15/2017
 * 要使用大小和颜色编码显示属性。
 * 要发现模式、离群值、最重要因素和异常。
 
+### <a name="prerequisites"></a>先决条件
+ - Power BI 服务或 Power BI Desktop
+ - 零售分析示例
+
 ## <a name="create-a-basic-treemap"></a>创建一个基本的树状图
 想要先观看别人创建一个树状图？  跳到此视频的 2:10 处观看 Amanda 创建一个树状图。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-或者，创建你自己的树状图。 以下说明使用零售分析示例。 若要遵循此示例进行操作，请[下载示例](sample-datasets.md)，登录到 Power BI，然后选择**获取数据 \> Excel 工作簿 \> 连接\>零售分析示例**.**xlsx**
+或者，创建你自己的树状图。 以下说明使用零售分析示例。 若要跟着介绍一起操作，请登录 Power BI 服务（不是 Power BI Desktkop），并依次选择“获取数据”**\>“示例”“零售分析示例”\>\>“连接”“转至仪表板”\>**。 在报表中创建可视化效果需要对数据集和报表拥有编辑权限。 幸运的是，Power BI 示例是可以编辑的。 但如果有人与你共享报表，你将无法添加新的可视化效果。
 
-1. 在[编辑视图](service-interact-with-a-report-in-editing-view.md)中开始，选择**销售**  >  **上年度销售额**指标。   
-   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)
-2. 将图表转换为树状图。  
-   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)
-3. 将**项目**  >  **类别**拖放到**组**中。 Power BI 将创建一个树状图，其中矩形的大小反映总销售额，颜色代表类别。  实际上你已创建以可视化方式描述按类别的总销售额的相对大小的层次结构。  **男装**类的销售额最高，**袜**类销售额最低。
-   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)
-4. 将“商店”  >  “连锁店”拖放到“详细信息”以完成树状图。 现在你可以按类别和连锁店比较上年度的销售额。   
+1. 选择“总商店数”磁贴，打开“零售分析示例”报表。    
+2. 打开[编辑视图](service-interact-with-a-report-in-editing-view.md)并选择“销售” > “上年度销售额”指标。   
+   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)   
+3. 将图表转换为树状图。  
+   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)   
+4. 将**项目**  >  **类别**拖放到**组**中。 Power BI 将创建一个树状图，其中矩形的大小反映总销售额，颜色代表类别。  实际上你已创建以可视化方式描述按类别的总销售额的相对大小的层次结构。  **男装**类的销售额最高，**袜**类销售额最低。   
+   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)   
+5. 将“商店”  >  “连锁店”拖放到“详细信息”以完成树状图。 现在你可以按类别和连锁店比较上年度的销售额。   
    ![](media/power-bi-visualization-treemaps/treemap_addgroup_new.png)
    
    > [!NOTE]
@@ -73,17 +78,15 @@ ms.lasthandoff: 11/15/2017
 
 1. 在树状图中，选择一个类别或类别中的一个连锁店。  这样可以交叉突出显示页面上的其他可视化效果。 例如，选择 **050-Shoes** 可显示鞋子的上年度销售额为 $3,640,471，其中 $2,174,185 来自 Fashions Direct。  
    ![](media/power-bi-visualization-treemaps/treemaphiliting.png)
-2. 在**按连锁店的上年度销售额**饼图中，选择 **Fashions Direct** 切片。  
-   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)
+
+2. 在按连锁店的上年度销售额饼图中，选择“Fashions Direct”切片，交叉筛选树状图。  
+   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
+
 3. 若要管理图表相互交叉突出显示和交叉筛选的方式，请参阅 [Visualization interactions in a Power BI report（Power BI 报表中的可视化效果交互）](service-reports-visual-interactions.md)
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的报表](service-reports.md)  
-[向报表添加可视化效果](power-bi-report-add-visualizations-i.md)  
-[Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 [将可视化效果固定到仪表板](service-dashboard-pin-tile-from-report.md)  
 [Power BI - 基本概念](service-basic-concepts.md)  
-[试用一下 - 完全免费！](https://powerbi.com/)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)  
 
