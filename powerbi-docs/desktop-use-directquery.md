@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: 47168f33b8c6aca967b7b4d14248f9ec6b4d0767
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: d3643ae398c037c375c8e67360794047a6f66ed7
+ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 使用 **Power BI Desktop** 时，若已连接数据源，始终可以将数据副本导入 **Power BI Desktop**。 对于某些数据源，还可使用另一种方法︰使用 **DirectQuery** 直接连接到数据源。
@@ -61,7 +61,7 @@ ms.lasthandoff: 12/06/2017
 * 默认情况下，会限制允许在度量值中使用的 DAX 表达式；请参阅下一段落（在此项目符号列表后）了解详细信息
 * 使用 **DirectQuery** 时，返回数据有 100 万行的限制。 这不影响用于创建使用 **DirectQuery** 返回的数据集的聚合或计算，仅影响返回的行。 例如，你可以使用在数据源上运行的查询聚合 1000 万行，并且只要返回到 Power BI 的数据不超过 100 万行，即可使用 **DirectQuery** 将该聚合的结果准确地返回到 Power BI。 如果从 **DirectQuery** 返回的结果超过 100 万行，则 Power BI 返回错误。
 
-为了确保发送到基础数据源的查询具有可接受的性能，默认情况下对度量值进行了限制。 高级用户可以选择绕过此限制，方法是依次选择“文件”>“选项”和“设置”>“选项和设置”>“DirectQuery”，然后选择选项“允许 DirectQuery 模式下的度量值不受限制”*。 选中该选项后，即可使用对度量值有效的任何 DAX 表达式。 但是，用户必须知道，可在导入数据的情况下正常工作的某些表达式，在 DirectQuery 模式下则可能会导致针对后端数据源的查询速度缓慢。
+为了确保发送到基础数据源的查询具有可接受的性能，默认情况下对度量值进行了限制。 高级用户可选择绕过此限制，方法是依次选择“文件”>“选项”，然后选择“设置”>“选项和设置”>“DirectQuery”，然后选择选项“允许 DirectQuery 模式下的度量值不受限制”。 选中该选项后，即可使用对度量值有效的任何 DAX 表达式。 但是，用户必须知道，可在导入数据的情况下正常工作的某些表达式，在 DirectQuery 模式下则可能会导致针对后端数据源的查询速度缓慢。
 
 ## <a name="important-considerations-when-using-directquery"></a>使用 DirectQuery 的重要注意事项
 使用 **DirectQuery** 时，应考虑以下三点：
