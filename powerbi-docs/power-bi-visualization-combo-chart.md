@@ -47,7 +47,7 @@ Power BI 服务和 Power BI Desktop 均支持组合图。 本教程使用 Power 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-<a name="create"></a> 若要创建自己的组合图，请登录 Power BI 服务，再依次选择“获取数据”\>示例“零售分析示例”>“连接”>“转至仪表板”\>****。
+<a name="create"></a> 若要创建自己的组合图，请登录 Power BI 服务，再依次选择**“获取数据”\>示例“零售分析示例”>“连接”>“转至仪表板”\>**。
 
 1. 从“零售分析示例”仪表板中，选择**总商店数**磁贴以打开“零售分析示例”报表。
 2. 选择**编辑报表**在编辑视图中打开报表。
