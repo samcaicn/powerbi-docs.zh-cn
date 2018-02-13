@@ -852,51 +852,51 @@
       items:
         - name: 适用于移动设备的 Power BI 应用
           href: mobile-apps-for-mobile-devices.md
-        - name: 在移动设备上查找仪表板和报表
+        - name: 在移动设备上查找仪表板、报表和应用
           href: mobile-apps-find-content-mobile-devices.md
-        - name: Power BI 移动应用中的新功能
+        - name: 移动应用中的新增功能
           href: mobile-whats-new-in-the-mobile-apps.md
     - name: 所有移动应用
       items:
         - name: Power BI for iOS 应用
           href: mobile-ios-ipad-iphone-apps.md
-        - name: 在 Power BI 移动应用中查看本地报表和 KPI
+        - name: 在移动应用中查看本地报表和 KPI
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-        - name: 移动 Power BI 的仪表板
+        - name: 移动应用中的仪表板
           href: mobile-apps-view-dashboard.md
-        - name: Power BI 移动应用中的报表
+        - name: 移动应用中的报表
           href: mobile-reports-in-the-mobile-apps.md
         - name: 在移动应用中与磁贴进行交互
           href: mobile-tiles-in-the-mobile-apps.md
         - name: 在 Power BI 移动应用中共享仪表板
           href: mobile-share-dashboard-from-the-mobile-apps.md
-        - name: Power BI 移动应用中的收藏项目
+        - name: 移动应用中的收藏夹
           href: mobile-apps-favorites.md
-        - name: 使用移动应用从真实世界获取 Power BI 数据
+        - name: 使用移动应用获取 Power BI 实际数据
           href: mobile-apps-data-in-real-world-context.md
-        - name: 使用手机扫描 Power BI QR 代码
+        - name: 从手机扫描 QR 码
           href: mobile-apps-qr-code.md
-        - name: 获取 Power BI 移动应用中的通知
+        - name: 获取移动应用中的通知
           href: mobile-apps-notification-center.md
-        - name: 在移动应用上批注和共享磁贴、报表或视觉对象
+        - name: 在移动应用中批注并共享
           href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-        - name: 在 Power BI 移动应用中设置数据警报
+        - name: 在移动应用中设置数据警报
           href: mobile-set-data-alerts-in-the-mobile-apps.md
-        - name: 在 Power BI 移动应用中按位置筛选报表
+        - name: 在移动应用中按位置筛选报表
           href: mobile-apps-geographic-filtering.md
         - name: 在 iOS 移动应用中咨询有关数据的问题（教程）
           href: mobile-apps-ios-qna.md
         - name: 创建指向特定位置的深层链接
           href: mobile-apps-deep-link-specific-location.md
-        - name: 在 Power BI 移动应用中查看你的脱机数据
+        - name: 在移动应用中脱机查看数据
           href: mobile-apps-offline-data.md
-        - name: 查看并与针对你的手机进行优化的 Power BI 报表进行交互
+        - name: 查看手机优化版报表并与之交互
           href: mobile-apps-view-phone-report.md
         - name: 使用 Intune 配置移动应用
           href: service-admin-mobile-intune.md
         - name: 使用 OAuth 连接到 Reporting Services
           href: mobile-oauth-ssrs.md
-        - name: Power BI 移动应用中支持的语言
+        - name: 移动应用中支持的语言
           href: mobile-apps-supported-languages.md
     - name: IPad 应用（iOS 版 Power BI）
       items:
@@ -908,7 +908,7 @@
           href: mobile-iphone-app-get-started.md
         - name: Power BI Apple Watch 应用
           href: mobile-apple-watch.md
-        - name: 从你的 iPhone 上的 Power BI 应用中扫描条形码
+        - name: 从 iPhone 上的移动应用中扫描条形码
           href: mobile-apps-scan-barcode-iphone.md
     - name: 适用于 Android 手机的 Power BI 应用
       items:
@@ -924,7 +924,7 @@
       items:
         - name: 适用于 Windows 10 的 Power BI 移动应用入门
           href: mobile-windows-10-phone-app-get-started.md
-        - name: 在适用于 Windows 10 的 Power BI 移动应用中查看 Reporting Services 移动报表和 KPI
+        - name: 在 Windows 10 版移动应用上查看 Reporting Services 移动报表和 KPI
           href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
         - name: 将 Power BI 磁贴或仪表板固定到“开始”屏幕
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
