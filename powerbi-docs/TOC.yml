@@ -128,8 +128,6 @@
           href: service-connect-to-azure-consumption-insights.md
         - name: Azure 搜索
           href: service-connect-to-azure-search.md
-        - name: Azure 安全中心
-          href: service-connect-to-azure-security-center.md
         - name: Bing
           href: service-connect-to-bing.md
         - name: Circuit ID
@@ -980,8 +978,6 @@
       items:
         - name: 使用开发人员工具创建自定义视觉对象
           href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: 检查自定义视觉对象以保障安全和隐私
-          href: service-custom-visuals-review-for-security-and-privacy.md
         - name: 完成自定义视觉对象认证
           href: power-bi-custom-visuals-certified.md
     - name: 将数据推送到仪表板
