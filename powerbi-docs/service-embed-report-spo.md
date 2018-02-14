@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
-ms.openlocfilehash: 99b6391dc48772e21dd64038699a3365225167eb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78be1a631a167a3b32ecb7d884a3428dc6a362b0
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>使用报表 Web 部件在 SharePoint Online 中嵌入报表
 
@@ -98,12 +98,6 @@ ms.lasthandoff: 01/30/2018
 
 2. 与需要报表访问权限的用户共享此仪表板。 有关详细信息，请参阅[与同事和其他人共享仪表板](service-share-dashboards.md)。
 
-## <a name="allowing-free-users-access-to-reports"></a>允许 Free 版用户访问报表
-
-Free 版用户可以查看使用适用于 SharePoint Online 的 Power BI Web 部件嵌入的报表。 向 Free 版用户授予访问权限的方式与向 Pro 版用户授予访问权限一样，如上面的[授予报表访问权限](#granting-access-to-reports)中所述。 报表所在的工作区也必须获得 Power BI Premium 容量支持。 
-
-例如，如果应用工作区中有一个报表，必须将此应用工作区分配给 Power BI Premium 容量。 还必须将 Free 版用户添加到此应用工作区的成员列表中。
-
 ## <a name="web-part-settings"></a>Web 部件设置
 
 下面介绍了可以为适用于 SharePoint Online 的 Power BI Web 部件调整的设置。
@@ -160,5 +154,5 @@ Power BI Web 部件中可能无法加载报表，并显示以下消息。
 [与同事和其他人共享仪表板](service-share-dashboards.md)  
 [Power BI Premium 有哪些特权？](service-premium.md)  
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/) 
 

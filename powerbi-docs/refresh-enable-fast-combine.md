@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/06/2018
 ms.author: davidi
-ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: 5d754dbdd5d52e7a5b123755015e656d9fb2cea2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>禁用 Power BI Gateway - Personal 中的隐私设置
 > [!NOTE]
@@ -45,7 +45,7 @@ ms.lasthandoff: 12/22/2017
 > 
 
 ## <a name="what-is-fast-combine"></a>什么是快速合并？
-若要了解有关隐私级别和快速合并的详细信息，请参阅 [Privacy Levels](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)（隐私级别）。 隐私级别将默认设置为专用，这就可能导致上述错误。 这是因为设置为专用会将数据源从其他源隔离。 说明这种设置有问题的一个例子便是导致参数化查询从其他数据源获取输入。
+若要了解有关隐私级别和快速合并的详细信息，请参阅 [Privacy Levels](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)（隐私级别）。 隐私级别将默认设置为专用，这就可能导致上述错误。 这是因为设置为专用会将数据源从其他源隔离。 说明这种设置有问题的一个例子便是导致参数化查询从其他数据源获取输入。
 
 启用快速合并将忽略隐私设置并允许执行发生。
 
@@ -85,7 +85,7 @@ ms.lasthandoff: 12/22/2017
 
 ## <a name="next-steps"></a>后续步骤
 [本地数据网关（个人模式）- 新版本的个人网关](service-gateway-personal-mode.md)
-[隐私级别](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
+[隐私级别](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
 [Power BI Desktop 中的常见查询任务](desktop-common-query-tasks.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

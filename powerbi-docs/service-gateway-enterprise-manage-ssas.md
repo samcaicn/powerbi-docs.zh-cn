@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 72445988ff4080b7c24f09f797f2038b957631ef
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理数据源 - Analysis Services
 安装本地数据网关之后，需要添加可与该网关结合使用的数据源。 本文将探讨如何使用网关和数据源。 你可以使用 Analysis Services 数据源进行计划刷新或实时连接。
@@ -89,17 +89,6 @@ ms.lasthandoff: 01/25/2018
 可以为你的数据源配置隐私级别。 以便控制数据的混搭方式。 这仅适用于计划刷新。 而不适用于实时连接。 [了解详细信息](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
-
-## <a name="get-data-experience-for-analysis-services-in-power-bi-site"></a>Power BI 站点中 Analysis Services 的“获取数据”体验
-Analysis Services 的唯一选项就是直接使用 Power BI 服务中“获取数据”。 你可以连接到在网关内配置的 Analysis Services 实时数据源而无需 Power BI Desktop。 你的帐户需要被列入数据源的**用户**选项卡，位于网关下方，以便显示在列表中。 要连接到数据源，可以执行以下操作。
-
-1. 在 Power BI 服务中，选择**获取数据**。
-2. 选择**数据库**。
-3. 选择 **SQL Server Analysis Services** > **连接**。
-4. 从列表中选择数据源。 此处将列出你对其具有访问权限的所有 Analysis Services 数据源。
-5. 选择想要连接到的模型。 然后选择**连接**。
-
-你将看到显示服务器名称的数据集。 然后，可以选择该数据集，并开始在其上创建报表。 这适用于实时数据。
 
 ## <a name="usernames-with-analysis-services"></a>Analysis Services 的用户名
 每次用户与连接到 Analysis Services 的报表交互时，有效用户名将传递到网关，然后传递到你的本地 Analysis Services 服务器。 你用于登录 Power BI 的电子邮件地址，我们会将其作为有效用户传递到 Analysis Services。 在连接属性 [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth) 中传递它。 此电子邮件地址应与在本地 Active Directory 域内的定义的 UPN 匹配。 UPN 是 Active Directory 帐户的属性。 该 Windows 帐户还需位于 Analysis Services 角色中。 如果在 Active Directory 中找不到匹配项，则登录不会成功。 [了解详细信息](https://msdn.microsoft.com/library/ms677605.aspx)

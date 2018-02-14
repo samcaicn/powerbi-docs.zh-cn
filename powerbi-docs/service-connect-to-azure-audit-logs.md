@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 02/06/2018
 ms.author: yshoukry
-ms.openlocfilehash: 9a00183a81e549f873fab53807072b1beeaec7c2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: e71b8d16407dccd559037cfe0aecd8079f62175e
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>使用 Power BI 连接到 Azure 审核日志
 借助 Azure 审核日志内容包，你可以分析和可视化审核日志中存储的信息。 Power BI 会检索数据，生成现成的仪表板，并基于该数据创建报表。
@@ -59,7 +59,7 @@ ms.lasthandoff: 01/19/2018
 * 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
 
 ## <a name="system-requirements"></a>系统要求
-Azure 审核日志内容包需要可以在 Azure 门户中访问审核日志。 [此处](https://azure.microsoft.com/en-us/documentation/articles/insights-debugging-with-events/)提供了详细信息。
+Azure 审核日志内容包需要可以在 Azure 门户中访问审核日志。 [此处](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/)提供了详细信息。
 
 <a name="FindingParams"></a>
 
