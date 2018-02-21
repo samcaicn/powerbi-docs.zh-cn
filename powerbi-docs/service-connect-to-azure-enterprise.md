@@ -3,7 +3,7 @@ title: "使用 Power BI 连接到 Microsoft Azure Enterprise"
 description: "适用于 Power BI 的 Microsoft Azure Enterprise"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 9e19246d6caa8111ab4e61b5dc8fd6207ea1099e
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 040b72422b3267fcc4e909244b1a51fb48edfc81
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>使用 Power BI 连接到 Microsoft Azure Enterprise
 可使用 Power BI 内容包在 Power BI 中浏览和监视 Microsoft Azure Enterprise 数据。 此数据将每天自动刷新一次。
