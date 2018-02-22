@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/19/2017
+ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: fd33908f907ffac6cbff765e01e4a4321d399ca8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c4c1b9223554491968a541c9d6b698a9655eded5
+ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>将磁贴集成到应用中（用户拥有数据）
 了解如何在为组织嵌入内容时，通过调用 REST API 和 Power BI JavaScript API，将磁贴集成到或嵌入 Web 应用中。
@@ -110,7 +110,7 @@ public class PBITile
 ```
 
 #### <a name="get-tiles-using-the-net-sdk"></a>使用 .NET SDK 获取磁贴
-可以使用 .NET SDK 检索仪表板列表，而不用直接调用 REST API。
+可以使用 .NET SDK 来检索仪表板列表，而不用直接调用 REST API。
 
 ```
 using Microsoft.IdentityModel.Clients.ActiveDirectory;

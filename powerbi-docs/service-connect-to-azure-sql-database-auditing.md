@@ -3,7 +3,7 @@ title: "SQL 数据库审核内容包"
 description: "适用于 Power BI 的 SQL 数据库审核内容包"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: yshoukry
-ms.openlocfilehash: a2faefa9ebd62ef50e530dcad91482918f94d6d2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 70b8eea066b7d3b37b1508c83082cbc82e0949aa
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>适用于 Power BI 的 SQL 数据库审核内容包
 通过适用于 Azure [SQL 数据库审核](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/)的 Power BI 内容包可以了解数据库活动并深入了解可能指示业务问题或可疑安全冲突的差异和异常。 
@@ -59,7 +59,7 @@ ms.lasthandoff: 01/19/2018
    - 输入你感兴趣的审核日志的结束日期。 输入“\*”可加载没有时间上限的审核日志。
    
    ![](media/service-connect-to-azure-sql-database-auditing/dbauditing_param.png)
-5. 对于“身份验证方法”，请选择“密钥”，输入你的**帐户密钥**\>，然后选择“登录”。
+5. 对于“身份验证方法”，请选择“密钥”，输入你的“帐户密钥”\>，然后选择“登录”。
    
    ![](media/service-connect-to-azure-sql-database-auditing/pbi_sqlauditing3.png)
 6. Power BI 导入数据后，你会在左侧的导航窗格中看到新的仪表板、报表和数据集。 新的项目会以黄色星号 \* 标记。
