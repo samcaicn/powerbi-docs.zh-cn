@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>使用 Power BI 连接到 Project "Madeira"
 通过 Power BI 和 Project "Madeira" 内容包，可以轻松获得有关 Project "Madeira" 数据的深入见解。 Power BI 会检索数据（销售和财务数据），然后基于该数据生成全新的仪表板和报表。
@@ -47,7 +47,7 @@ ms.lasthandoff: 01/24/2018
     >[!NOTE]
     >用户必须是 Project "Madeira" 中的超级用户。
    
-    ![](media/service-connect-to-project-madeira/creds.png)
+   ![](media/service-connect-to-project-madeira/creds.png)
 6. 连接后，将自动加载仪表板、报表和数据集。 完成后，将使用帐户中的数据更新磁贴。  
    
     ![](media/service-connect-to-project-madeira/dashboard.png)
@@ -95,12 +95,14 @@ ms.lasthandoff: 01/24/2018
 ## <a name="troubleshooting"></a>故障排除
 Power BI 仪表板依赖于上面所列的已发布的 Web 服务，并且如果你从当前的财务解决方案导入数据，它将显示来自演示公司或你自己的公司的数据。 但是，如果出现问题，本部分将提供针对大多数典型问题的解决方法。
 
-“参数验证失败，请确保所有参数都有效。”****如果在输入Project Madeira URL 后看到此错误消息，请确认是否满足以下要求：  
+**“参数验证失败，请确保所有参数都是有效的”**
 
-    - URL 完全采用这种模式 https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-    - 删除括号中公司名后的任何文本  
-    - 请确保此 URL 的末尾没有尾随正斜杠。  
-    - 确保此 URL 使用安全连接，如以 HTTPS 开头的 URL 所示。  
+如果在输入 Project "Madeira" URL 后看到此错误消息，请确保满足以下要求：  
+
+   - URL 完全采用这种模式 https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
+   - 删除括号中公司名后的任何文本  
+   - 请确保此 URL 的末尾没有尾随正斜杠。  
+   - 确保此 URL 使用安全连接，如以 HTTPS 开头的 URL 所示。  
 
 **“登录失败”**如果在你使用 Project "Madeira" 凭据登录到仪表板时，收到“登录失败”错误，这可能是由于以下问题之一导致的：  
 
