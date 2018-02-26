@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: cee6cd859507105b7fc0c7e7075478d3a876f7bb
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 6d63236254906619f7244db9f57af162a19a70d6
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>在 Power BI Desktop 中使用数值范围切片器
 借助**数值范围切片器**，可以将各种类型的筛选器应用于数据模型中的任意数值列。 可以选择筛选器“**介于**”（某数字范围）、“**小于或等于**”（某数字）或“**大于或等于**”（某数字）。 虽然这听起来可能很简单，但在筛选数据方面这却是功能十分强大的一种方法。
@@ -56,6 +56,11 @@ ms.lasthandoff: 01/25/2018
 最后，如果我们选择“**大于或等于**”，滑块条的右侧（上限值）图柄消失，我们可以调整下限值，如下图所示。 现在，报表页的视觉对象中仅显示“*单价*”大于或等于 750.56 的项。
 
 ![](media/desktop-slicer-numeric-range/slicer-numeric-range_7.png)
+
+## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer-preview"></a>使用数值范围切片器对齐到整数（预览）
+
+自 2018 年 2 月版的 Power BI Desktop 开始，数值范围切片器将对齐到整数。 这样一来，切片器就可以清晰地对齐整数。 对齐到整数不适用于小数筛选器。
+
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 目前，**数值范围切片器**存在下面的限制和注意事项

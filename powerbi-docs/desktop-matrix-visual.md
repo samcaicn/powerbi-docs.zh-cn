@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ff29fa49cc3ad1a57ae0d09596b6e0d086b4d349
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>在 Power BI Desktop 中使用“矩阵”视觉对象
 借助“矩阵”视觉对象，可以在 Power BI Desktop 报表中创建矩阵视觉对象（有时亦称为“表”），并能使用其他视觉对象交叉突出显示矩阵内的元素。 此外，还可以选择行、列和各个单元格进行交叉突出显示。 最后，为了更好地利用布局空间，矩阵视觉对象支持阶梯布局。
@@ -34,6 +34,19 @@ ms.lasthandoff: 01/25/2018
 > 自 2017 年 7 月发布的 Power BI Desktop 起，矩阵和表视觉对象可以反映已应用的“报表主题”中的样式（包括颜色）。 这些颜色可能与对矩阵视觉对象的预期不符，可以在“报表主题”配置中进行更改。 有关主题的详细信息，请参阅[在 Power BI Desktop 中使用报表主题](desktop-report-themes.md)。
 > 
 > 
+
+## <a name="understanding-how-power-bi-calculates-totals"></a>了解 Power BI 计算总计的方式
+
+在进入如何使用“矩阵”视觉对象的步骤之前，请务必了解 Power BI 在表格和矩阵中如何计算总计和小计的值。 对于总计和小计行，在基础数据的全部行上求取度量值，这不仅仅是在可见的或显示的行中简单地相加值。 这意味着最终总计行的值与预计的值存在差异。 
+
+请查看以下矩阵视觉对象。 
+
+![](media/desktop-matrix-visual/matrix-visual_3.png)
+
+在本示例中，最右边的矩阵视觉对象中的各行显示了每个销售人员/日期组合的金额。 但是，由于显示的一个销售人员对应多个日期，这些数字可以出现不止一次。 因此，基础数据的准确总计并不等于可见值的简单相加。 当要求和的值位于一对多关系的“一”这一侧时，这是一种常见模式。
+
+查看总计和小计时，请注意这些值是基于基础数据的，并不仅仅基于可见值。 
+
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>结合使用向下钻取功能和矩阵视觉对象
 借助“矩阵”视觉对象，可以执行之前无法实现的各种有意思的向下钻取活动。 这包括向下钻取行、列、单独分区和单元格。 让我们来看看每种向下钻取活动的工作原理。
@@ -144,16 +157,12 @@ ms.lasthandoff: 01/25/2018
 
 ![](media/desktop-matrix-visual/matrix-visual_19.png)
 
-## <a name="limitations-and-considerations"></a>限制和注意事项
-这一版“矩阵”视觉对象有一些限制和注意事项。
+## <a name="next-steps"></a>后续步骤
 
-* 只能使用右键单击菜单钻取列，并且视觉对象当前没有任何迹象表明可钻取行组或列组
-* 只能一次性扩展一个级别中的所有项，不能一次扩展一个类别
-* 右键单击列标题时可能会看到“**参阅记录**”，但这并不是操作选项
-* 暂无“*总计* ”行
-* 禁用阶梯布局中的“小计”行不会产生任何影响
-* 如果内部组的文本比外部组更短，那么列标题可能会被截断
-* 更改阶梯布局缩进量不得更改最外侧行组的缩进量
+你可能还会对以下文章感兴趣：
 
-我们非常希望听取你的意见。 目前，我们正在开展有关这一版“矩阵”视觉对象的调查。请花几分钟的时间[参与此项调查](https://www.instant.ly/s/PYXT1)吧。
+* [在 Power BI Desktop 报表中使用网格线和对齐网格](desktop-gridlines-snap-to-grid.md)
+* [Power BI Desktop 中的数据源](desktop-data-sources.md)
+* [Power BI Desktop 中的数据类型](desktop-data-types.md)
 
+ 

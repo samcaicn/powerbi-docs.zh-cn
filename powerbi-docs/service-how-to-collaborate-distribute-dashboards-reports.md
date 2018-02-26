@@ -1,6 +1,6 @@
 ---
 title: "应如何在 Power BI 中开展协作并进行共享？"
-description: "在 Power BI 中，可以通过多种不同的方式针对仪表板、报表和磁贴开展协作并进行共享。 每种方法都各有千秋。"
+description: "在 Power BI 中，可以通过不同的方式针对仪表板、报表、磁贴和应用开展协作并进行共享。 每种方法都各有千秋。"
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/18
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 31d862fd2086c0e1bdc98f3e6d84fcc1d2c094de
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/11/2018
 ---
-# <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>在 Power BI 中应如何针对仪表板及报表开展协作并进行共享？
+# <a name="how-should-i-collaborate-and-share-in-power-bi"></a>应如何在 Power BI 中开展协作并进行共享？
+
 你已创建仪表板和报表。 可能也会和同事协作处理它们。 这样就需要其他人有权限访问它们。 分发的最好方式是什么？
 
 在本文中，我们将对比 Power BI 中这些用于协作和共享选项： 

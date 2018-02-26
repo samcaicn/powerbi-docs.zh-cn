@@ -15,26 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: add95532f645c143aea0f58200f9e3b1467320d0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02498ff745a2e06a49ed6064a4f7eefebff305f8
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>使用 Power BI Desktop 中的“分析”窗格
-通过 **Power BI Desktop** 的“**分析**”窗格，你可以向视觉对象添加动态参考行，并重点关注重要趋势或见解。 从 2016 年 8 月版本（版本 2.37.4464.321 或更高版本）开始，“**分析**”窗格位于 Power BI Desktop 区域的“**可视化效果**”中，如下所示。
+通过 **Power BI Desktop** 的“**分析**”窗格，你可以向视觉对象添加动态参考行，并重点关注重要趋势或见解。 “分析”窗格位于 Power BI Desktop 的“可视化效果”区域中。
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
 
 > [!NOTE]
 > 仅当在 Power BI Desktop 画布上选择视觉对象时才会显示“分析”窗格。
-> 
-> 
 
-## <a name="enable-forecasting-preview"></a>启用预测（预览）
-此外，使用 **Power BI Desktop**（版本 2.39.4526.362 或更高）的 2016 年 9 月版本，你还可以从“**分析**”窗格中执行“预测”。 必须启用此预览功能，方法是转到**“文件”>“选项和设置”>“选项”**，然后从左侧窗格中选择“**预览功能**”。 选中“**预测**”旁边的复选框来启用此功能，如下图所示。 必须重启 **Power BI Desktop** 才能使更改生效。
+## <a name="search-within-the-analytics-pane"></a>在“分析”窗格内搜索
+自 2018 年 2 月版 Power BI Desktop（版本 2.55.5010.201 或更高版本）开始，可以在“分析”窗格内进行搜索，此窗格是“可视化效果”窗格的子节。 如下图所示，选中“分析”窗格时出现搜索框。
 
 ![](media/desktop-analytics-pane/analytics-pane_1b.png)
 

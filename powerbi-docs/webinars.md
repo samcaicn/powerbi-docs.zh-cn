@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/30/2018
+ms.date: 02/07/2018
 ms.author: maikelson
-ms.openlocfilehash: 21bd243f56b077c3dfbeaeffd5db108670029937
-ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+ms.openlocfilehash: a16ed05732f5031f0a6f33522d52bb501e241c4f
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -49,6 +49,22 @@ ms.lasthandoff: 02/01/2018
 
 注册以听取 Power BI 专家的建议并参加实时问答会话
 
+**Office 365 金融专业人员网络研讨会系列 - 第 2 节：自动重复执行报表和启用自助服务分析**
+<br>演讲者：Mark Traverso 和 Miguel Martinez
+<br>*2 月 15 日下午 12:00（太平洋标准时间）/下午 3:00（东部标准时间）*
+
+使用 Office 365 了解提示、技巧和最佳做法，更高效地完成日常工作。
+
+[注册后即可观看 2 月 15 日的节目](https://aka.ms/Office365FinanceProsPBI)
+
+**通过 Microsoft 销售 BI 解决方案**
+<br>演讲者：Tamer Farag
+<br>*2 月 15 日上午 8:00（太平洋标准时间）/上午 11:00（东部标准时间）*
+
+加入本次网络研讨会，了解如何成功地与 Microsoft 合作并抓住商业智能市场机遇。 大致了解我们的最新培训资源、营销资料、激励措施和产品/服务信息，帮助培养和提高实践能力。 此外，了解如何在 PowerBI.com 和 AppSource.com 上进行展示，以确保解决方案和产品/服务在 Microsoft 客户和卖家中位于前列和中心位置。
+
+[注册后即可观看 2 月 15 日的节目](https://infopedia.eventbuilder.com/event?eventid=l9d4s7)
+
 **在 20 分钟内了解如何通过 Power BI 仪表板进行导航**
 <br>作者：Miguel Martinez
 <br>2 月 21 日上午 10:00（太平洋标准时间）/下午 1:00（东部标准时间）
@@ -56,6 +72,13 @@ ms.lasthandoff: 02/01/2018
 你是否曾在打开 Power BI 仪表板后不知所措？  想着该怎样操作才能找到重要数据？ 你是不是因为害怕“弄坏东西”而不敢大胆使用筛选器和切片器？  别害怕，快来加入我们，了解如何通过 Power BI 仪表板进行导航。 我们将介绍其他管理人员使用的常用功能，让你能向下钻取所需数据。
 
 [注册后即可观看 2 月 21 日的节目](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**使用新的 Power BI 和 data.world 连接器查看公用或专用数据集**
+<br>*2 月 22 日上午 10:00（太平洋标准时间）/下午 1:00（东部标准时间）*
+
+Microsoft 已与 data.world 合作发布了新的数据连接器，使用此连接器可以将 data.world 数据集导入 Power BI Desktop。 加入我们，了解如何使用这个出色的新连接器，并利用 data.world 社区的功能与数据案例中的其他人共享和协作。
+
+[注册后即可观看 2 月 22 日的节目](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
 >[从 Power BI 社区参加即将举行的网络研讨会](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 

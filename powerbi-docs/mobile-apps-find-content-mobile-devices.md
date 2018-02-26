@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查找仪表板、报表和应用
 适用于：
@@ -41,7 +41,11 @@ ms.lasthandoff: 01/05/2018
 5. [工作区](mobile-apps-find-content-mobile-devices.md#5-workspaces)
 
 ## <a name="1-favorites"></a>1 收藏夹
-通过将经常查看的仪表板和应用标记为收藏夹，可以将它们集合到一起。 详细了解有关 [Power BI 移动应用中的收藏夹](mobile-apps-favorites.md)的信息。
+通过将经常查看的仪表板、报表和应用标记为收藏夹，可以将它们集合到一起。 
+
+![Power BI 移动应用中的收藏夹](media/mobile-apps-find-content-mobile-devices/power-bi-android-favorites-reports.png)
+
+阅读有关 [Power BI 移动应用中的收藏夹](mobile-apps-favorites.md) 的更多信息。
 
 ## <a name="2-report-servers"></a>2 报表服务器
 你可以连接到一个或多个本地 Power BI 报表服务器或 SQL Server Reporting Services 服务器。 如果这样操作，则 KPI、Power BI 报表和服务器上的分页报表将在此处显示。 如果已在服务器上收藏了它们，则其还会显示在收藏夹列表中。 详细了解有关[在 Power BI 移动应用中查看本地 KPI 和报表](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)的信息。
@@ -65,9 +69,9 @@ ms.lasthandoff: 01/05/2018
 在 Power BI 服务中，你可以转到 Microsoft AppSource 搜索其他应用，但不能从 Power BI 移动应用中搜索。 
 
 ## <a name="4-shared-with-me"></a>4 与我共享的内容
-你将在此处找到同事与你共享的仪表板。 可以按仪表板的所有者进行筛选，也可以通过搜索来查找所需的内容。 对于频繁访问的共享内容，可以点击省略号 (...) 直接从“与我共享的内容”进行收藏。
+可以在此处找到同事与你共享的仪表板和报表。 可以按所有者进行筛选，也可以通过搜索来查找所需的内容。 对于频繁访问的共享内容，可以点击省略号（“...”）直接从“与我共享的内容”进行收藏。
 
-![Power BI 新导航](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-shared-with-me-fave.png)
+![Power BI 与我共享的内容](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5 工作区
 也称为*应用工作区*，它们是 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 中的过渡环境，在该服务中你可以与同事进行协作以创建一个仪表板和报表集合。 然后将此集合分发为*应用*。 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -29,6 +29,24 @@ ms.lasthandoff: 01/17/2018
 * [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 中的新增功能](desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](service-whats-new.md)  
+
+## <a name="january-2018"></a>2018 年 1 月
+
+### <a name="report-favorites"></a>报表收藏夹
+
+将报表标记为收藏，以便它们可以出现在“收藏夹”页上。 阅读有关 [Power BI 移动应用中的收藏夹](mobile-apps-favorites.md) 的更多信息。
+
+### <a name="view-shared-reports"></a>查看共享的报表
+
+现在，如果有人与你共享报表，此报表将与仪表板一起列在“与我共享的内容”页上。
+
+### <a name="improved-hyperlink-support"></a>改进的超链接支持
+
+现在可以点击自定义视觉对象中的链接，在移动浏览器中将其打开。
+
+### <a name="intune-integration-android"></a>Intune 集成 (Android)
+
+支持使用 Intune 移动设备管理的条件访问。
 
 ## <a name="december-2017"></a>2017 年 12 月
 

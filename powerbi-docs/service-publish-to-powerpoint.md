@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: 4ca79e960bc0370789ee735ba6b5391cbb8b110f
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 5ebfa2f54c26c0b4c3321120558e1cccb8bce146
+ms.sourcegitcommit: ed49510adee96042c02d6bdadbfcf8a2e566fbf8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/13/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>将报表从 Power BI 导出到 PowerPoint（预览版）
 借助 Power BI，现在可将报表发布到 **Microsoft PowerPoint**，并根据 Power BI 报表轻松地创建幻灯片平台。 **导出到 PowerPoint** 时，会发生以下情况：
@@ -64,6 +64,8 @@ ms.lasthandoff: 01/25/2018
 1. 幻灯片平台的第一页包括报表名称和链接，以便能**在 Power BI 中查看**幻灯片平台所基于的报表。
 2. 还可以获取有关报表的一些有用信息，包括导出的报表所基于的 *上次数据刷新时间* *下载* 时间和日期，这是 Power BI 报表导出为 PowerPoint 文件的时间和日期。
 3. 每个报表页面都是单独的幻灯片，如左侧导航窗格所示。
+4. 已发布的报表根据 Power BI 设置或者根据你所用浏览器的区域设置以相应的语言呈现。 若要查看或设置语言首选项，请选择齿轮图标 ![](media/service-report-subscribe/power-bi-settings-icon.png) >“设置”>“常规”>“语言”。 有关区域设置信息，请参阅 [Power BI 支持的语言和国家/地区](supported-languages-countries-regions.md)。
+5. PowerPoint 演示文稿包括封面幻灯片，其中包含以正确的时区显示的导出时间。
 
 转到各个幻灯片时，将会发现每个报表页都是独立图像。
 

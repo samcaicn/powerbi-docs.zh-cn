@@ -1,5 +1,5 @@
 ---
-title: "在 Power BI 中使用快速度量轻松执行常见的高效计算（预览功能）"
+title: "在 Power BI 中使用快速度量轻松执行常见的高效计算"
 description: "快速度量值提供现成的 DAX 公式，能够快速执行常见计算"
 services: powerbi
 documentationcenter: 
@@ -15,23 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: d0fc21c19a574f096c46c26331df3114e8c46c31
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ce971f980bf1796bfef8439b1ea260190fb678df
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
-# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations-preview"></a>使用快速度量值轻松执行常见的高效计算（预览功能）
-自 2017 年 4 月发布的 **Power BI Desktop** 起，可以使用**快速度量值**轻松快速地执行常见的高效计算。 **快速度量值**根据你在对话框中输入的内容，在后台运行一组 DAX 命令（你无需编写 DAX，有现成的），然后显示结果以供你在报表中使用。 最重要的是，可以查看快速度量值执行的 DAX，从而开始学习或拓展你自己的 DAX 知识。
+# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>使用快速度量轻松执行常见的高效计算
+可使用快速度量快速、轻松地执行常见的高效计算。 **快速度量值**根据你在对话框中输入的内容，在后台运行一组 DAX 命令（你无需编写 DAX，有现成的），然后显示结果以供你在报表中使用。 最重要的是，可以查看快速度量值执行的 DAX，从而开始学习或拓展你自己的 DAX 知识。
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
 
 可以右键单击“字段”井元素中的任意字段，然后从随即显示的菜单中选择“快速度量值”，从而创建**快速度量值**。 也可以右键单击现有视觉对象的“值”窗格（如“条形图”视觉对象中的“值”字段）中的任何值。 计算分为许多类别，可通过多种方式来根据自己的需求修改所有计算。
 
-### <a name="enable-the-quick-measures-preview"></a>启用“快速度量值”预览功能
-自 **2017 年 4 月**发布的 **Power BI Desktop** 起，可以尝试**快速度量值**这一新功能。 若要启用此预览功能，请依次选择“文件”>“选项和设置”>“选项”>“预览功能”，然后选中“快速度量值”旁边的复选框。 完成选择后需要重启 Power BI Desktop。
+### <a name="quick-measures-now-generally-available"></a>快速度量现已公开发布
+
+自 2018 年 2 月版的 Power BI Desktop 开始，快速度量已公开发布（不再处于预览状态）。 如果你使用的是早期版本的 Power BI Desktop，可以通过选择“文件”>“选项和设置”>“选项”>“预览功能”，然后选择“快速度量”旁的复选框，尝试使用自 2017 年 4月版 Power BI Desktop 开始发布的快速度量功能。
 
 ![](media/desktop-quick-measures/quick-measures_02b.png)
 
@@ -56,17 +57,17 @@ ms.lasthandoff: 01/25/2018
 
 有五组不同的快速度量值计算类型，每组均包含一系列计算。 下面介绍了这五组及其中所含计算：
 
-* **类别中的聚合**
+* **每个类别的聚合**
   * 类别中的平均值
   * 类别中的方差
   * 类别中的最大值
   * 类别中的最小值
   * 每个类别的加权平均
-* **筛选器和基线**
-  * 已筛选的度量值
+* **筛选器**
+  * 已筛选的值
   * 与基线的差异
-  * 与基线的百分比差异
-  * 新类别的总计
+  * 与已筛选值的百分比差异
+  * 新类别的销售额
 * **时间智能**
   * 本年迄今总计
   * 本季度至今总计
@@ -85,6 +86,7 @@ ms.lasthandoff: 01/25/2018
   * 乘法
   * 除法
   * 百分比差异
+  * 相关系数
 * **文本**
   * 星级评分
   * 值连接列表
@@ -136,7 +138,7 @@ ms.lasthandoff: 01/25/2018
 调整完度量值后，可以使用同一右键单击菜单，随意重命名度量值。
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
-这一版的**快速度量值**预览功能需要遵循几项限制和注意事项。
+有几点要牢记的限制和注意事项。
 
 * 只有当可以修改模型时，才能使用快速度量，使用 DirectQuery 或大多数实时连接（支持 SSAS 实时连接，如前所述）的情况除外。
 * 添加到“字段”井元素中的度量值可以与报表中的任意视觉对象结合使用。
@@ -152,8 +154,6 @@ ms.lasthandoff: 01/25/2018
 
 ### <a name="additional-information-and-examples"></a>其他信息和示例
 我们预计将会提供每个**快速度量值**计算的相关示例和指南。因此，请隔几天再回来看看主题文章是否有更新。
-
-由于这是一项**预览**功能，因此我们特别希望聆听你的反馈和建议。
 
 对尚未提供的**快速度量值**有建议吗？ 很棒！ 请转到[此页](https://go.microsoft.com/fwlink/?linkid=842906)，提交你的建议（包括 DAX 公式），谈谈你想要在 **Power BI Desktop** 中使用的**快速度量值**。我们将会考虑是否在今后推出的版本中向提供的“快速度量值”列表添加你建议的快速度量值。
 

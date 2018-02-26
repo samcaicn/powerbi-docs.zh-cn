@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/05/2018
 ms.author: maghan
-ms.openlocfilehash: eb2072b0beadf3f6f2cf702f35f56441bc38c7ff
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b2e41884ca799ca07223a4b5444e39b38aa2102a
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium 有哪些特权？
 Power BI Premium 资源专用于为组织或团队运行 Power BI 服务，为你提供更可靠的性能和更大的数据卷。 Premium 还可以广泛发布内容，无需为查看者购买许可证。
@@ -46,7 +46,7 @@ Power BI 中有两种类型的容量。 共享容量和 Power BI 高级容量。
 | 嵌入式 API 和控件 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用")<sup>2</sup> |
 | 在本地发布 Power BI 报表 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用") |
 
-*<sup>1</sup> 应用中用户可以免费使用的功能包括在 Web 和移动设备中查看内容、使用问答、Quick Insights、Cortana 以及导出到 CSV、Excel 和 PowerPoint。*  
+*<sup>1</sup> 应用中用户可以免费使用的功能包括在 Web 和移动设备中查看内容、使用问答、Quick Insights、Cortana 以及导出到 CSV、Excel 和 PowerPoint。其他未列出的活动（如在共享数据集上创建报表和在 Excel 中分析）需要 Pro 许可证。详细了解 [Power BI 免费版与 Pro](service-free-vs-pro.md) 功能。*  
 *<sup>2</sup> Power BI Premium 公开发布后推出的增强功能。*
 
 ### <a name="premium-capacity"></a>高级容量

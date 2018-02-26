@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/02/2018
+ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理门户
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 01/30/2018
 
 ![](media/service-admin-portal/powerbi-admin-settings.png)
 
-在该门户中有 5 个选项卡。 下面介绍了这些选项卡。
+该门户中有 6 个选项卡。 下面介绍了这些选项卡。
 
 * [使用情况指标](#usage-metrics)
 * [用户](#users)
@@ -48,6 +48,7 @@ ms.lasthandoff: 01/30/2018
 * [租户设置](#tenant-settings)
 * [Premium 设置](#premium-settings)
 * [嵌入代码](#embed-codes)
+* [组织视觉对象](#Organization-visuals)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -269,6 +270,46 @@ ms.lasthandoff: 01/30/2018
 
 管理员可以查看针对其租户生成的嵌入代码。 可以执行相应的操作来查看报表，以及删除嵌入代码以将其撤消。
 
+## <a name="organization-visuals"></a>组织视觉对象
+
+使用组织视觉对象选项卡，可以在组织内部署和管理自定义视觉对象，从而在组织中轻松部署专有自定义视觉对象，使报表作者能够轻松发现这些视觉对象并将其从 Power BI Desktop 直接导入报表。
+ 
+该页面显示了组织存储库中当前部署的所有自定义视觉对象。
+ 
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+### <a name="add-a-new-custom-visual"></a>添加新的自定义视觉对象
+
+若要将新的自定义视觉对象添加到列表，请选择“添加自定义视觉对象”
+
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+
+> [!WARNING]
+> 自定义视觉对象可能包含存在安全或隐私风险的代码；在部署到组织存储库之前，请务必信任此自定义视觉对象的作者和来源。
+> 
+
+填写字段：
+ 
+* 选择 .pbiviz 文件（必选）：选择要上传的自定义视觉对象文件。 仅支持经版本控制的 API 自定义视觉对象（阅读此处内容了解其含义）。
+在上传自定义视觉对象之前，应查看有关视觉对象的安全和隐私，确保它符合组织的标准。 详细了解自定义视觉对象安全性。
+ 
+* 为自定义视觉对象命名（必选）：为视觉对象提供一个简短标题，以便 Power BI Desktop 用户可轻松理解它的内容
+ 
+* 图标（必选）：将显示在 Power BI Desktop UI 中的图标文件。
+ 
+* 说明：视觉对象的简短描述，用于向用户提供更多上下文和说明
+ 
+选择“应用”发起上传请求。 如果成功，将在列表中看到新项目。 如果失败，将会收到相应的错误消息
+ 
+### <a name="delete-a-custom-visual-from-the-list"></a>从列表中删除自定义视觉对象
+
+选择回收站图标，从存储库中永久删除视觉对象。
+重要提示：删除操作不可逆。 一旦删除，此视觉对象将立即停止在现有报表中呈现。 即使再次上传相同的视觉对象，也不会替换之前被删除的视觉对象，用户必须再次导入新的视觉对象并替换其报表中的实例。
+ 
+### <a name="how-to-update-a-visual"></a>如何更新视觉对象
+
+如果要更新存储库中的视觉对象，由于存在新版本的视觉对象（例如 Bug 修复、新功能等），请上传新文件（确保视觉对象 ID 保持不变）作为列表中的新入口，请务必在标题和描述中提供正确的详细信息（例如“我的视觉对象 v2.0”）。 下一次用户将从 Power BI Desktop 进入组织存储库，他们可以导入新版本，系统将提示他们替换报表中存在的当前版本。
+ 
 ## <a name="next-steps"></a>后续步骤
 
 [了解 Power BI 管理员角色](service-admin-role.md)  

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 10557146b0b640450779049a30dd8f394686f57a
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 8abb327181af031df508f0629cbc09053a9a7927
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery 和 SAP Business Warehouse (BW)
 可以使用 DirectQuery 直接连接到 SAP Business Warehouse (BW) 数据源。 鉴于 SAP BW 的 OLAP/多维特性，SAP BW 的 DirectQuery 与 SQL Server 等关系源之间存在许多重要区别。 这些区别总结如下：
@@ -74,13 +74,9 @@ ms.lasthandoff: 01/25/2018
 | 属性 |无法访问 Power BI 中特性的属性。 |
 | 最终用户语言设置 |用于连接到 SAP BW 的区域设置设置为连接详细信息的一部分，并且不会反映最终报表使用者的区域设置。 |
 | 文本变量 |SAP BW 允许字段名称包含变量（例如“$YEAR$ Actuals”）的占位符，占位符会随后替换为所选值。 例如，如果为该变量选择 2016 年，则在 BEX 工具中该字段显示为“2016 Actuals”。 <br/> <br/> Power BI 中的列名称不会随变量值而改变，因此将显示为“$YEAR$ Actuals”。  但是，以后可以在 Power BI 中更改列名称。 |
+| 客户退出变量 | 公共 API 未公开客户退出变量，因此此类变量不受 Power BI 支持。 |
+| 特性结构 | 基础 SAP BW 源中的任何特性结构都将导致在 Power BI 中公开的度量值数量的“激增”。 例如，根据 Sales 和 Costs 两个度量值，以及包含 Budget 和 Actual 的特性结构，将公开四个度量值：Sales.Budget、Sales.Actual、Costs.Budget、Costs.Actual。 |
 
-## <a name="limitations-and-considerations"></a>限制和注意事项
-下表列出了 SAP BW 连接器的 Beta 版的限制。
-
-| 限制 | 说明 |
-| --- | --- |
-| 无刷新 |“刷新”按钮处于禁用状态，无法刷新视觉对象/元数据。 |
 
 ## <a name="next-steps"></a>后续步骤
 有关 DirectQuery 的详细信息，请查看以下资源：

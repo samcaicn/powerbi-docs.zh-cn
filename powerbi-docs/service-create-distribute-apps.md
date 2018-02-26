@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中创建和发布包含仪表板和报表的应用
 
@@ -64,6 +64,8 @@ ms.lasthandoff: 01/25/2018
 
 * [连接到服务](service-connect-to-services.md)（如 Microsoft Dynamics CRM、Salesforce 或 Google Analytics）。
 * [从文件中获取数据](service-get-data-from-files.md)（如 Excel、CSV 或 Power BI Desktop (PBIX) 文件）。
+
+在应用工作区中查看内容时，所有者会显示为应用工作区的名称。
 
 ## <a name="add-an-image-to-your-app-optional"></a>将图像添加到你的应用（可选）
 默认情况下，Power BI 会为应用创建一个带有应用首字母的彩色小圆圈。 但你可能会想要使用图像对其进行自定义。 若要添加映像，需要 Exchange Online 许可证。
