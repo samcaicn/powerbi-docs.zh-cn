@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/03/2018
 ms.author: mihart
-ms.openlocfilehash: c5776ca5e038a8cab84ab4f225f67f6144afc722
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 9a8f4e330ea2188b23f3730b18ee56d7c7f72de2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>订阅 Power BI 报表或仪表板
 现在，及时更新最重要的仪表板和报表，比以前更加轻松。 订阅最重要的报表页和仪表板，Power BI 将会通过电子邮件将快照发送到收件箱。 告知 Power BI 所需的电子邮件接收频率：从每天一次到每周一次。 

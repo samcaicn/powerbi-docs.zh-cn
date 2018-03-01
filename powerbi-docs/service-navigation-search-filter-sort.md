@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 2dcf3b50b9019880a9a7a11c863bed88783214c7
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Get started
+ms.openlocfilehash: f76bc638893a06545fb5a71ec633dd470fd47dd8
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>导航：在 Power BI 服务中搜索、查找和排序内容
 可通过多种方法在 Power BI 服务中导航内容。 工作区中的内容已按类型进行组织：仪表板、报表、工作簿和数据集。  此外，内容已按使用情况进行组织：收藏夹、最近、应用、与我共享和特色。 通过这些不同的内容浏览途径可以在 Power BI 服务中快速找到所需的内容。  

@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Get started
+ms.openlocfilehash: ca03513bd79925c9ed927945b54d545450bff35b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>查看 Power BI 服务中的相关内容
 “相关内容”窗格显示了 Power BI 服务内容（仪表板、报表和数据集）的互连方式。  此窗格经过优化，可以在其中执行刷新、重命名、生成见解等常见任务。 选择相关的报表或仪表板即可在 Power BI 工作区中打开。   
