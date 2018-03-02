@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: d8dc99fec9851dc6f5d3786d2fc1d615e4ee22b4
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 62796d9eb376ab4c92cc5596176ac501a69c0e62
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="printing-from-power-bi-service"></a>从 Power BI 服务打印
 使用 Power BI 服务打印整个仪表板、仪表板磁贴、报表页或报表视觉对象。 一次只能打印一页报表，而不能一次打印整个报表。
