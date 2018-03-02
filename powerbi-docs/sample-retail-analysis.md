@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 97c8f3f74bea0629107b68b9e42a4a449863b066
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 54a12f7e3b2ecee65701ca6c629d078ad7b9c0c9
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的零售分析示例：教程
 
@@ -31,7 +32,7 @@ ms.lasthandoff: 01/24/2018
 
 ## <a name="prerequisites"></a>先决条件
 
- 必须先将示例下载为内容包、.pbix 文件或 Excel 工作簿，然后才能使用它。
+ 必须先将示例下载为[内容包](https://docs.microsoft.com/en-us/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service)、[.pbix 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)或 [Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529778)，然后才能使用它。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>获取内容包形式的此示例
 
@@ -166,7 +167,8 @@ ms.lasthandoff: 01/24/2018
 我们希望本教程已经演示 Power BI 仪表板、问题解答和报表如何能够帮助深入了解零售数据。 现在轮到你了 — 连接到你自己的数据 借助 Power BI，你可以连接到各种数据源。 了解 [Power BI 入门](service-get-started.md)的详细信息。
 
 ## <a name="next-steps"></a>后续步骤
-* [下载零售分析示例内容包](sample-tutorial-connect-to-the-samples.md)    
+* [下载零售分析示例内容包](sample-tutorial-connect-to-the-samples.md)
+* [下载所有示例文件的 zip 文件](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [下载此 Power BI 示例的 Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [获取 Power BI 的数据](service-get-data.md)    
 * [Power BI - 基本概念](service-basic-concepts.md)    

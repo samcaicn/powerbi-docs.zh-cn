@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 1e53fd4b22710909e300a61b4c03aae01cff8973
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Samples
+ms.openlocfilehash: 2ce970ee31b06447055d059ed9b604c169713030
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客户盈利率示例：教程
 
@@ -30,7 +31,7 @@ ms.lasthandoff: 01/29/2018
 
 <<<<<<< 头 ![](media/sample-customer-profitability/power-bi-dash.png)
 
-此示例是一系列教程的一部分，该系列教程阐明如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 这些来自 obviEnce [(www.obvience.com)](http://www.obvience.com/) 的真实数据都已进行匿名处理。 有几种可用的数据格式：内容包/应用、Excel 工作簿或 .pbix Power BI Desktop 文件。 参阅[示例数据集](sample-datasets.md)。
+此示例是一系列教程的一部分，该系列教程阐明如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 这些来自 obviEnce [(www.obvience.com)](http://www.obvience.com/) 的真实数据都已进行匿名处理。 数据可采用以下几种格式：内容包/应用程序、 Excel 工作簿或 .pbix Power BI Desktop 文件。 参阅[示例数据集](sample-datasets.md)。
 
 ## <a name="prerequisites"></a>先决条件
 想要跟着做吗？ 本教程使用 Power BI 服务和“客户盈利率”示例内容包。  因为报表体验非常相似，所以也可以使用 Power BI Desktop 和示例 PBIX 文件按步骤操作。 连接到内容包和 PBIX 文件的操作说明如下。
@@ -53,14 +54,14 @@ ms.lasthandoff: 01/29/2018
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>获取 .pbix 文件形式的此示例
 
-也可以将此示例下载为 .pbix 文件，这是专为 Power BI Desktop 量身定制的文件格式。 [客户盈利率示例]（<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> 盈利率示例 PBIX.pbix）
+也可以将此示例下载为 .pbix 文件，这是专为 Power BI Desktop 量身定制的文件格式。 [客户盈利能力示例](<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 
 <a name="if-you-want-to-dig-into-the-datasource-for-this-sample-its-also-available-as-an-excel-workbookhttpgomicrosoftcomfwlinklinkid529781-the-workbook-contains-power-view-sheets-that-you-can-view-and-modify-to-see-the-raw-data-select-power-pivot--manage"></a>如果想要深入探究本示例的数据源，还以[（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529781)的形式提供此示例。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”。
 =======
 
-此示例是一系列教程的一部分，该系列教程阐明如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 这些来自 obviEnce [(www.obvience.com)](http://www.obvience.com/) 的真实数据都已进行匿名处理。 有几种可用的数据格式：内容包/应用、Excel 工作簿或 .pbix Power BI Desktop 文件。 参阅[示例数据集](sample-datasets.md)。
+此示例是一系列教程的一部分，该系列教程阐明如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 这些来自 obviEnce [(www.obvience.com)](http://www.obvience.com/) 的真实数据都已进行匿名处理。 数据可采用以下几种格式：内容包/应用程序、 Excel 工作簿或 .pbix Power BI Desktop 文件。 参阅[示例数据集](sample-datasets.md)。
 
 ### <a name="prerequisites"></a>先决条件
 想要跟着做吗？ 在 [Power BI 服务](https://powerbi.com)中，转到“获取数据 > 示例 > 客户盈利率 > 连接”以获取你自己的示例副本。

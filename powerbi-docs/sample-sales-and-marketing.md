@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: badd7a9c41199bf1486e83d29b37bb385f32b8ea
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI 销售与市场营销示例：教程
 
@@ -36,7 +37,7 @@ VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想�
 
 ## <a name="prerequisites"></a>先决条件
 
- 必须先将示例下载为内容包、.pbix 文件或 Excel 工作簿，然后才能使用它。
+ 必须先将示例下载为[内容包](https://docs.microsoft.com/en-us/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample)、[.pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix) 或 [Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529785)，然后才能使用它。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>获取内容包形式的此示例
 

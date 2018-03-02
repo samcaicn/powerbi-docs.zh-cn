@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 40bb1c80b1dcc9625bdb3f47ec98b51a7be114fd
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 904f35ad2ec1cda07393877174ebec5781972b10
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的 IT 支出分析示例教程
 
@@ -30,11 +31,11 @@ IT 支出分析[内容包](service-organizational-content-pack-introduction.md)�
 
 ![](media/sample-it-spend/it1.png)
 
-此示例是一系列教程的一部分，该系列教程阐明如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 这些来自 obviEnce (<http://obvience.com/>) 的真实数据都已进行匿名处理。
+此示例是一系列教程的一部分，该系列教程阐明如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 这些来自 obviEnce (<http://obvience.com/>) 的真实数据均已进行匿名处理。
 
 ## <a name="prerequisites"></a>先决条件
 
- 必须先将示例下载为内容包、.pbix 文件或 Excel 工作簿，然后才能使用它。
+ 必须先将示例下载为[内容包](https://docs.microsoft.com/en-us/power-bi/sample-it-spend#get-the-content-pack-for-this-sample)、[.pbix 文件](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT Spend Analysis Sample PBIX.pbix)或 [Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529783)，然后才能使用它。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>获取内容包形式的此示例
 

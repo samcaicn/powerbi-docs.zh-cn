@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/07/2018
 ms.author: nikhilga
-ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+LocalizationGroup: Get started
+ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能。 有关相关的“新增功能”的信息，请参阅：
@@ -631,9 +632,9 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 **2015 年 3 月 31 日**
 
-* “GitHub” 仪表板新增了关注社区构建的视觉对象，不仅优化了计算，还改进了布局
-* “SendGrid” 仪表板新增了视觉对象和布局，有助于你获取更有意义的见解
-* 现在可以在查询的末尾使用短语“as treemap”，从而**在问答中使用树状图**
+* GitHub 仪表板新增了关注社区构建的视觉对象，不仅优化了计算，还改进了布局
+* SendGrid 仪表板新增了视觉对象和布局，有助于你获取更有意义的见解
+* 现在可以在查询的末尾使用短语“as treemap”，从而在问答中使用树状图
 * 你现在可以固定问答和报表中的**树状图** 
 * 修复了大量 bug！
 
