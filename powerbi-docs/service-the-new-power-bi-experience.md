@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/09/2018
 ms.author: mihart
-ms.openlocfilehash: c7a782880c2bc3fe4743d635bbc76dfc41660909
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Get started
+ms.openlocfilehash: 38a3923469d64cc0761ea0e1b1b39005f6904d40
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="getting-around-in-power-bi-service"></a>使用 Power BI 服务
 ## <a name="the-left-navigation-pane"></a>左侧导航窗格
@@ -97,7 +98,7 @@ ms.lasthandoff: 01/11/2018
 要了解详细信息，请参阅[收藏](service-dashboard-favorite.md)
 
 ### <a name="recents"></a>最近访问
-访问“最近访问”窗格，快速访问最近访问的内容。 这包括来自所有工作区的内容。
+通过访问“最近访问”窗格，可快速获取最近访问的内容。 这包括来自所有工作区的内容。
 
   ![](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
 
