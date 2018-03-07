@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 8a558019eaf01af066fe5669bcbd82bd4e0c5229
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: 3dab818c863f00c97635d00ba07e75eb3c8e5b37
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>在 Power BI 中使用功能区图表
 可以在 Power BI 中使用“功能区图表”来直观显示数据，并快速确定哪个数据类别具有最高排名（最大值）。 功能区图表能够高效地显示排名变化，并且会在每个时间段内始终将最高排名（值）显示在最顶部。 2017 年 9 月发行版 Power BI Desktop 开始提供功能区图表，后续 Power BI 服务更新版本中也会提供此图表。

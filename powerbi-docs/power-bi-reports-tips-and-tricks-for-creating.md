@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 2d82cee4a825be9c38b3545210e182924147c0f3
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Reports
+ms.openlocfilehash: 4ad78f3c776fcb5aa44332e23fdf5a14531b2bdf
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tips-for-creating-stunning-reports"></a>创建非常棒的报表的提示
 由于在 Power BI 服务和 Power BI Desktop 中生成和使用报表非常相似，因此本文中的大部分链接对两者都适用。

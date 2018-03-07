@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: c2b0f2fab2b9ccd2540ad45d6156ce9547513deb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Data from databases
+ms.openlocfilehash: 0eade5942b65985cf704709ea88870a2352b07c0
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>使用 DirectQuery 的 HDInsight 上的 Spark
 通过使用 DirectQuery 的 Azure HDInsight 上的 Spark 你可以根据 Spark 群集中已有的数据和指标来创建动态报表。 借助 DirectQuery，查询会在你浏览报表视图中的数据时发送回 Azure HDInsight Spark 群集。 对于熟悉自己连接到的实体的用户，建议使用此体验。

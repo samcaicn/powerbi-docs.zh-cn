@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 884ef223234d8827e58a37befe2e5d18a45e480e
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: b06e756732c2c12e822967fbcfeb208bcb1ae334
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>使用 Power BI 连接到 Microsoft Dynamics NAV
 借助 Power BI，轻松获得有关 Microsoft Dynamics NAV 数据的见解。 Power BI 会检索数据（销售和财务数据），然后基于该数据生成带仪表板和报表的应用。 Power BI 需要具有对从中检索数据（在本例中为销售和财务数据）的表的访问权限。 以下是有关要求的详细信息。 安装应用后，可以在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 和 Power BI 移动应用中查看仪表板和报表。 

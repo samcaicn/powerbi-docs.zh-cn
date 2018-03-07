@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 33b6cec4222947695fc3c5b822ff97bf1ef45670
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Data refresh
+ms.openlocfilehash: c20ba2a33a88ba8c6ab27cf60b02babf3ebb4cad
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>刷新使用 OneDrive 或 SharePoint Online 上的 Excel 工作簿创建的数据集
 可导入存储在本地计算机或云存储（如 OneDrive for Business 或 SharePoint Online）中的 Excel 工作簿。 下面讨论使用云存储处理 Excel 文件的优点。 有关如何将 Excel 文件导入 Power BI 的详细信息，请参阅[从 Excel 工作簿文件获取数据](service-excel-workbook-files.md)。

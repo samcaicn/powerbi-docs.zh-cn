@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 6d63236254906619f7244db9f57af162a19a70d6
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Create reports
+ms.openlocfilehash: f6e0433e8862e2acb6f0e7a72a1293e37f2185eb
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>在 Power BI Desktop 中使用数值范围切片器
 借助**数值范围切片器**，可以将各种类型的筛选器应用于数据模型中的任意数值列。 可以选择筛选器“**介于**”（某数字范围）、“**小于或等于**”（某数字）或“**大于或等于**”（某数字）。 虽然这听起来可能很简单，但在筛选数据方面这却是功能十分强大的一种方法。

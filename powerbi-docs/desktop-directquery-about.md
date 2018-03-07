@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ceccf00879d3ac17f907f5dce296bb03bb0227d2
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 572f64cc0e6ba97c62c9a088c60cf3887bacc6ae
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>在 Power BI 中使用 DirectQuery
 使用 Power BI Desktop 或 Power BI 服务时，可以连接各种类型的数据源，并且可以通过不同的方式连接这些数据。 可以将数据导入 Power BI，也可以在其原始源存储库中直接连接数据，前者是获取数据最常见的方法，后者称为 DirectQuery。 本文介绍 DirectQuery 及其功能，具体包括以下主题：

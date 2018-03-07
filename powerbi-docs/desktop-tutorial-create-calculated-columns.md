@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 9ea93980a095ca4e626b6f8071d044448af59635
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: acdaa95908cd03006170eb06ddfc780c836c64ac
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>教程：创建 Power BI Desktop 中的计算列
 有时，当前分析的数据不包含获取所期望结果时所需的特定字段。 这就是计算列的有用之处。 计算列使用数据分析表达式 (DAX) 公式来定义列的值。 这些值可以是几乎任何内容，无论它是将来自其他位置的几个不同列的组合中的文本值都放到模型中，或是计算来自其他值的数字值。 例如，假设你的数据中含有“城市”和“州”两个列（作为字段列表中的字段），但你想要使同时含有这两个列的单一“位置”字段成为一个单值，如“迈阿密，佛罗里达州”。 这正是计算列的作用。

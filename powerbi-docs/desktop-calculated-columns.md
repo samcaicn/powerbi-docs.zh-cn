@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 56e60f0484d5819bfe514281c86e6fb39efa75e8
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Model your data
+ms.openlocfilehash: e9d1820bff2768f2169530ec49cfa2963bff9baa
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>使用 Power BI Desktop 中的计算列
 凭借计算列，你可以将新数据添加到模型中已存在的表。 但请勿从数据源查询并将值加载到新列中，而是创建用于定义列值的数据分析表达式 (DAX) 公式。 在 Power BI Desktop 中，使用“报表”视图中的“新建列”功能创建计算列。

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ce971f980bf1796bfef8439b1ea260190fb678df
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Create reports
+ms.openlocfilehash: b9cc94593ca6fd98590d69bee3a2fa4cae6d0050
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>使用快速度量轻松执行常见的高效计算
 可使用快速度量快速、轻松地执行常见的高效计算。 **快速度量值**根据你在对话框中输入的内容，在后台运行一组 DAX 命令（你无需编写 DAX，有现成的），然后显示结果以供你在报表中使用。 最重要的是，可以查看快速度量值执行的 DAX，从而开始学习或拓展你自己的 DAX 知识。

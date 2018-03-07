@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: bbfd194cb4b65d91eedf417cc83959016bfff7e9
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: b2484e579cf3a5e428566e8fc3aead151552eff6
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-sendgrid-with-power-bi"></a>使用 Power BI 连接到 SendGrid
 Power BI 的 SendGrid 内容包允许你从你的 SendGrid 帐户提取见解和统计信息。 使用 SendGrid 内容包可以在仪表板中可视化你的 SendGrid 统计信息。

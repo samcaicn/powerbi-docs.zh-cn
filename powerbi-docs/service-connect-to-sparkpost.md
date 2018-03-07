@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 11cfb3b02c37ab839726c7fe87079afafb35f3b1
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 0d477906b64c2d106a08a284bda9a4898f4a5298
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>使用 Power BI 连接到 SparkPost
 SparkPost 的 Power BI 内容包允许你从 SparkPost 帐户将所有有价值的数据集提取到富有洞察力的仪表板中。 借助 SparkPost 内容包，可以将你的电子邮件整体统计信息可视化，其中包括通过 ISP 的域、活动和参与。

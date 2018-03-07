@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: b668a1f47593e4551971146ec0d06f0d883ca812
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Data refresh
+ms.openlocfilehash: d6b9e5e69de7b2027c4799f15c11cbb0626e1507
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>刷新方案故障排除
 此处介绍了关于在 Power BI 服务中刷新数据时可能会遇到的各种情况的信息。

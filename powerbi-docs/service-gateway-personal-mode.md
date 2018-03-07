@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/14/2017
 ms.author: davidi
-ms.openlocfilehash: e3072e4a99c04e977579274c6d95f5bb1007e870
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>本地数据网关（个人模型）
 可以通过网关使用本地数据源以及创建 Power BI 报表和仪表板。 网关是一种软件，不仅有助于用户访问存储在专用、本地网络的数据，还使用户能够使用联机服务（如 Power BI 服务）中的数据。 “本地数据网关（个人模式）”是最新发布的对 Power BI Gateway 的更新，它允许个人在自己的计算机上安装网关并获取对本地数据的访问权限。

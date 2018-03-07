@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 6ac4a361c5c265b06e1f869d9858afe9101f6e69
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 9c8772430143b974fb389eac2f2ad3e74748fd3f
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>使用 Power BI 连接到 Webtrends
 适用于 Power BI 的 Webtrends 内容包包括各种现成指标，如（按流量源）网页浏览总数和访问总数。 首先通过连接到 Webtrends 帐户将 Power BI 中的 Webtrends 数据可视化。 可以使用提供的仪表板和报表，或自定义它们以突出显示你最关注的信息。  此数据将每天自动刷新一次。

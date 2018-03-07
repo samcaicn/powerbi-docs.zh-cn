@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 9533985238fa9fb40bbab4e9ddd459aaaaffc135
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 95352c72dfca1c1439f89d532dbcfcc5cd26758c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>向报表中的文本框添加超链接
 可以将文本框添加到报表，从报表固定到仪表板，然后直接添加到仪表板。 可将超链接添加到任意位置的文本框。 **本主题介绍 Power BI 服务（不是 Power BI Desktop）的报表中的文本框。**

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: 574e54aa423c9cdc9b9146fde1a16686303e73f6
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: 400fa6aa16f77da60a912bcd6c45665f880d8afd
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>管理和部署方法
 在过去几十年中，各公司已迅速意识到策略性地利用数据资产从市场机遇中获利的必要性。 目前许多组织已通过进行竞争力分析或了解运营模式意识到将数据策略作为增强竞争力的途径大有裨益。  

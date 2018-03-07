@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: d73887c4f74d501057b3c35f5d9f404d4862b2a9
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 452f970efda4c49e197ed578f5c5b05917aa43e7
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>使用 Power BI 连接到 Adobe Analytics
 通过 Power BI 连接到 Adobe Analytics 首先会连接到你的 Adobe Analytics 市场营销云帐户。 你将获得一个带 Power BI 仪表板和一组 Power BI 报表的应用，这些报表会提供网站流量和用户维度的相关见解。 此数据每天自动刷新一次。 可以与仪表板和报表进行交互，但不能保存更改。
