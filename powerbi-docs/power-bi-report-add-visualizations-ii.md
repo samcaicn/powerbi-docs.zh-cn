@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 40d6ee1f1448856b444201532caffd4b8c904c85
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 567bece0089a01170e218af9606331e44cb7834f
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>第 2 部分，向 Power BI 报表添加可视化对象（教程）
 在[第 1 部分](power-bi-report-add-visualizations-ii.md)中，通过选中字段名称旁边的复选框来创建基本可视化对象。  在第 2 部分中，你将了解如何使用拖放功能并充分利用“字段”和“可视化对象”窗格创建和修改可视化对象。

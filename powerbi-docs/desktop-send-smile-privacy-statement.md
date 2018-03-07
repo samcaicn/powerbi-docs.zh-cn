@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ac0dc4919eb8eee2bb4ae4b7d2e3a466dba26bd9
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop“发送微笑”隐私声明
 在 Microsoft，我们正在努力保护你的隐私，同时交付可提供你所需性能、功能和便利性的产品。 本隐私声明介绍了很多数据集合及 Microsoft Power BI Desktop 发送微笑反馈的使用惯例。 它不适用于其他联机或脱机 Microsoft 站点、产品或服务。

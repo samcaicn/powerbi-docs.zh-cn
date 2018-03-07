@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: c0689b969c1956d0344afb2bc8aef7bda32c159e
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Get started
+ms.openlocfilehash: 33908283e567cadc5ef8d4ffe2389ac8fef54b65
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 入门
 欢迎使用 **Power BI Desktop 入门指南**。 此 Power BI Desktop 简短教学课程能让你熟悉它的运作方式、示范它的功能以及加速你构建稳固数据模型的能力 - 以令人惊叹的报表增强你的商业智慧工作。 

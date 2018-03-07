@@ -13,11 +13,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: b18157f28dcaf2e9b130bdc3bd5547312e45a4f9
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 10faf7b20c91b0c709df6783152ab55d0e6c958c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>使 Cortana 能够访问 Power BI 报表（及其基础数据集）
 你已阅读 [Cortana 和 Power BI 简介](service-cortana-intro.md)（如果未阅读，请先阅读简介，然后再返回此步骤）。 并且，现在想要自己尝试一下。  在 Cortana 中使用自然语言提问，并从存储在 Power BI 报表的数据中找到答案之前，有几个要求需要注意。 具体而言，需要执行以下操作。

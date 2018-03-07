@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: e0b8e6e573f9d511dd934b996f63bcdfdd386cf0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Create reports
+ms.openlocfilehash: 5222b6ba99c9e61d1070f66115b90aa29099fd8d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>创建和使用 What if 参数可视化 Power BI Desktop 中的变量
 从 Power BI Desktop 2017 年 8 月版开始，用户可以为报表创建 What if 变量、以切片器的形式与变量交互，从而可视化并量化报表中的不同键值。

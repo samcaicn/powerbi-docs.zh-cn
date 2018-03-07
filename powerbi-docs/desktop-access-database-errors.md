@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 47abc345d773fe9274a1dc814b7799a956e909fc
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Troubleshooting
+ms.openlocfilehash: 97c3cdf1a7ba47f60cd78e9f424ba7af550f1527
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>解决在 Power BI Desktop 中导入 Access 和 .XLS 文件出现的问题
 在 **Power BI Desktop** 中，**Access 数据库**和旧版 **Excel 工作簿**（Excel 2007-2003 类型的 .XLS 文件）均使用 *Access 数据库引擎*。 有三种常见情形可能会导致 Access 数据库引擎无法正常运行：

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: f81c132de6ab2d7c086379dc538e23fd2f4072e8
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 89d1a4cecb7c62dffe71524353bcd48957245594
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>使用 Power BI 连接到 VMob
 借助 Power BI 和 VMob 内容包，可轻松跟踪和浏览你的 VMob 数据。 Power BI 将检索下列数据：过去 30 天中任何时间的用户统计信息、过去 30 天的零售 KPI 以及过去 30 天的市场活动效果。

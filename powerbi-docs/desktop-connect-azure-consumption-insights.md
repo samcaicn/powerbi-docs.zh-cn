@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 3f0bca9114b163531adcd1a1921b8617a5f2eb75
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (Beta) 中连接到 Azure 使用情况见解
 借助 Azure 使用情况见解连接器，可以使用 Power BI Desktop 连接到 Azure，并获取有关组织 Azure 服务使用情况更详细的数据和信息。 还可以创建度量值、自定义列和视觉对象来报告和共享组织的 Azure 使用情况。 此版本的 Azure 使用情况和见解连接器处于测试阶段，随时可能更改。
@@ -161,7 +162,7 @@ Azure 门户中的列和名称详细信息与 API 和连接器中的相关信息
 | Cost |cost |ExtendedCost |否 |
 | Cost Center |costCenter |Cost Center |否 |
 | 日期 |date |日期 |否 |
-| 天 | |天 |否 |
+| 日 | |日 |否 |
 | DepartmentName |departmentName |Department Name |否 |
 | DepartmentID |departmentId | |是 |
 | Instance ID | | |是 |

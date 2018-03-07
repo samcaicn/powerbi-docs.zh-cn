@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: cd518803eb04f7baceca5d8bc4fdfb1129622016
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Troubleshooting
+ms.openlocfilehash: 52557673256a05af21a252cc9fc564e562520882
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Office 365 专用客户 - 已知问题
 现在针对 Office 365 专用客户支持 Power BI。  如果你是 O365 专用客户，则可以使用来自该租户的帐户进行登录，并使用 Power BI。 当前有两个已知问题。

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: fabdf9b9702c3da1374c8b5c7ee7e356ae471af9
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 8089c796441fd4200b146da6330dd5c208bf8b30
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>使用 Power BI 连接到 Salesforce
 你可以使用 Power BI 轻松连接到你的 Salesforce.com 帐户。 创建此连接可检索你的数据，并自动提供基于数据的仪表板和相关报表。

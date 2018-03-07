@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: a0c4a4a5685b9923f794b9f9aa761884a9ea6b27
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 09362afc3bc84b454db8a095edc5135f1b9955d8
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>使用 Power BI 连接到 Microsoft Dynamics AX 内容包
 Microsoft Dynamics AX 有三个针对不同业务用户的 Power BI 内容包。 专门针对首席财务官设计的“财务状况”内容包，它可让你访问有关组织的财务状况的信息。 面向渠道经理的“零售渠道状况”内容包，该内容包专注于销售状况，通过直接从“零售和商业”提取数据从而预测销售趋势并提出意见。 “成本管理”专为首席运营官和首席财务官而设计，它可提供有关经营业绩的详细信息。

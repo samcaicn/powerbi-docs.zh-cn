@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 8f821ce7081f341f0614ea7c8e3a006adabf3e4f
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 2c7072cca04033242ee9b07f0f3c1f82160cb332
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>使用 Power BI 连接到 Alpine Metrics 销售预测
 根据需要，Alpine Metrics 为不同规模大小的销售组织提供了云中的预测销售流程优化的尖端技术。 适用于 Power BI 的 Alpine Metrics 销售预测内容包包括指标，例如潜在和预测的销售和风险，从而允许你深入洞察商业前景。 

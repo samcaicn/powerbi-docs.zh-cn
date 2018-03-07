@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: d2a58de38c15599556419a6ebd219dd3a522c27a
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 04cc92bd33f342097b9952a744d8dfffced22bb3
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>使用 Power BI 连接到 Application Insights
 使用 Power BI 可通过 [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) 遥测创建功能强大的自定义仪表板。 可采用新方式来设想应用遥测。 将来自多个应用程序或组件服务的指标合并到一个仪表板上。 适用于 Application Insights 的 Power BI 内容包的此第一个版本包括用于常见使用情况相关指标（如活动用户、页面视图、会话、浏览器和操作系统版本以及地图中用户的地理分布）的小组件。
@@ -78,7 +79,7 @@ Application Insights 内容包包含以下表和指标：
     - SessionsByCountryLast7Days   
     - SessionsByCountryLast30Days   
     - PageViewsByCountryDailyLast30Days  
-        ´´´ 
+    ´´´ 
 
 <a name="FindingAppInsightsParams"></a>
 

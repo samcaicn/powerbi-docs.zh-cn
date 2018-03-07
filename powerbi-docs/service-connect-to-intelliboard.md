@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 8ae350c1e2538d1d4018f886d76a8f80df15501e
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: d73a02e754615263a155d3a7e31e47af4b740fd8
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-intelliboard-with-power-bi"></a>使用 Power BI 连接到 IntelliBoard
 使用 IntelliBoard 可以通过报biao服务轻松访问 Moodle Learning Management System 数据。 适用于 Power BI 的 IntelliBoard 内容包还提供其他分析，包括有关课程的指标、已注册的用户、整体表现和你的 LMS 活动。

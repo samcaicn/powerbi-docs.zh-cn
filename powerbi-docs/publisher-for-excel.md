@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: dd87c4fba99d9b3ba1953b23ad88910e45ce183e
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Dashboards
+ms.openlocfilehash: efd01bc6afec23d614a9f57b1150681983227350
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-publisher-for-excel"></a>适用于 Excel 的 Power BI 发布服务器
 使用 Microsoft **Power BI Publisher for Excel**，可以在 Excel 中获取最重要的数据洞察快照，如数据透视表、图表和区域，并将它们固定到 Power BI 中的仪表板。

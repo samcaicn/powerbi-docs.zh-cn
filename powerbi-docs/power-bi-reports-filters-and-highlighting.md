@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 0f81b0fa87af5af281b40224bac3b5815461cb9e
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: dc39f23c192c8bbe1126551c20205bafd8be3a07
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>关于 Power BI 报表中的筛选器和突出显示
 ***筛选器***可保留你最关切的数据，而将其他所有数据删除。  ***突出显示***与筛选不同，因为它不会删除数据，而会将一部分可见数据突出显示；未突出显示的数据会保持可见但变暗。

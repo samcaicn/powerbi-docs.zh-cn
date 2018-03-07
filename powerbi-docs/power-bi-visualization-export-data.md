@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 8567326cb685a03fd1af618aad5310234677ab6d
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Visualizations
+ms.openlocfilehash: b5e5463f19c95106a026770ad987f013f472e541
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="export-data-from-visualizations"></a>从可视化效果导出数据
 若要查看用于创建可视化效果的数据，可以[在 Power BI 中显示该数据](service-reports-show-data.md)或将这些数据以 .xlsx 或.csv 文件形式导出到 Excel。   
