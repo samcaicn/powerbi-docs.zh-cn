@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: ccd3a42a6cbcc716683b6da536ca2ecdacc11aaf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b098c87796306bedb8f9da43971d093f464dd4bd
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>以个人身份注册 Power BI
 了解如何注册 Power BI 并开始使用，以满足你个人的报表和可视化需求。
@@ -40,23 +40,24 @@ Power BI 既是你的个人报表和可视化工具，还可用作组项目、�
 
 > [!NOTE]
 > 如果你在组织中，个人注册可能会被禁用。 如果收到表示它已关闭的错误消息，请参阅[个人注册已关闭](#individual-sign-up-has-been-turned-off)以了解详细信息。
-> 
-> 
+>
 
 ## <a name="what-you-need-to-sign-up"></a>注册所需前提条件
-要注册 Power BI，需要一个工作电子邮件地址。 Power BI 服务不支持个人电子邮件地址。
 
-<a name="what-email-address-can-be-used-with-power-bi"/>
+要注册 Power BI，需要一个工作电子邮件地址。 尝试注册 Power BI 时，个人电子邮件地址将不起作用。
 
 ### <a name="what-email-address-can-be-used-with-power-bi"></a>哪些电子邮件地址可用于 Power BI？
-Power BI 要求使用工作或学校电子邮件地址才能注册。 Power BI 不支持由使用者电子邮件服务或电信提供商提供的电子邮件地址。 这包括 outlook.com、hotmail.com、gmail.com 和其他人。
+Power BI 要求使用工作或学校电子邮件地址才能注册。 不支持使用电信提供商或使用者电子邮件服务提供的电子邮件地址来注册 Power BI。 这包括 outlook.com、hotmail.com、gmail.com 和其他人。
 
 如果你尝试使用个人电子邮件地址注册，则会收到一条指示要使用工作或学校电子邮件地址的消息。
 
 > [!NOTE]
-> 此次 Power BI 不支持自助注册 .gov 或 .mil 地址。 请与你的 Office 365 管理员联系。
-> 
-> 
+> 你可以使用 .gov 或 .mil 地址注册 Power BI。 相关信息，请查看[在 Power BI 服务中注册你的美国政府组织](https://docs.microsoft.com/en-us/power-bi/service-govus-signup)。
+>
+
+> [!NOTE]
+> 注册之后，可以[邀请来宾用户](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)使用包括个人帐户在内的任何电子邮件地址来查看你 Power BI 租户中的内容。
+>
 
 ## <a name="which-one-do-you-need"></a>需要哪一种？
 可以通过查看每种许可证类型的内容确定需要哪一种许可证。 除共享和协作功能外，免费用户可以使用服务的大部分功能。 Power BI Pro 用户可以使用服务中的所有功能，但不是免费使用。 如果不需要共享任何内容，则可能更适合使用免费版。 有关详细信息，请参阅 [Power BI 定价页](https://powerbi.microsoft.com//pricing/)。
@@ -141,7 +142,7 @@ Power BI 要求使用工作或学校电子邮件地址才能注册。 Power BI �
 
 | **症状/错误消息** | **原因和解决方法** |
 | --- | --- |
-| **个人电子邮件地址（例如，nancy@gmail.com）**在注册期间看到如下消息： <br /><br /> *你输入的是个人电子邮件地址：请输入你的工作电子邮件地址，以便我们可以安全地存储你公司的数据。* <br /><br /> 或 <br /><br /> *这看起来像个人电子邮件地址。请输入你的工作地址，以便我们可以将你和公司中的其他人相连接。请不必担心。我们不会向任何人分享你的地址。* |Power BI 不支持由使用者电子邮件服务或电信提供商提供的电子邮件地址。 <br /><br /> 若要完成注册，请使用你的工作单位或学校分配的电子邮件地址再试一次。 <br /><br /> 如果你仍无法注册并且愿意完成更高级的安装过程，则可以[注册新的 Office 365 试用版订阅并使用该电子邮件地址进行注册](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 |
+| **个人电子邮件地址（例如，nancy@gmail.com）**在注册期间看到如下消息： <br /><br /> *你输入的是个人电子邮件地址：请输入你的工作电子邮件地址，以便我们可以安全地存储你公司的数据。* <br /><br /> 或 <br /><br /> *这看起来像个人电子邮件地址。请输入你的工作地址，以便我们可以将你和公司中的其他人相连接。请不必担心。我们不会向任何人分享你的地址。* |Power BI 不支持由使用者电子邮件服务或电信提供商提供的电子邮件地址。 <br /><br /> 若要完成注册，请使用你的工作单位或学校分配的电子邮件地址再试一次。 <br /><br /> 如果你仍无法注册并且愿意完成更高级的安装过程，则可以[注册新的 Office 365 试用版订阅并使用该电子邮件地址进行注册](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 <br /><br /> 以 [Azure B2B 来宾](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)的形式邀请用户帐户。 |
 | **自助注册已禁用**在注册期间，你会收到一条消息，如下所示： <br /><br /> *我们无法完成注册。你的 IT 部门已经关闭了注册 Microsoft Power BI。请与他们联系以完成注册。* <br /><br /> 或 <br /><br /> *这看起来像个人电子邮件地址。请输入你的工作地址，以便我们可以将你和公司中的其他人相连接。请不必担心。我们不会向任何人分享你的地址。* |你组织的 IT 管理员已禁用自助注册 Power BI。 <br /><br /> 若要完成注册，请与 IT 管理员联系，要求他们按照以下页面上的说明允许现有用户注册 Power BI，并允许新用户加入现有租户。 <br/><br/> 如果通过合作伙伴注册 Office 365，也可能会遇到此问题。 [了解详细信息](service-admin-syndication-partner.md) <br /><br /> [组织中的 Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant) |
 | **电子邮件地址不是 Office 365 ID**在注册期间，你会收到一条消息，如下所示： <br /><br /> *我们在 contoso.com 找不到你。你在工作或学校时使用其他 ID 吗？<br /><br />请使用该 ID 尝试登录，如果不起作用，请与你的 IT 部门联系。* |你的组织使用不同于你的电子邮件地址的 ID 登录到 Office 365 和其他 Microsoft 服务。  例如，你的电子邮件地址可能是 Nancy.Smith@contoso.com，但你的 ID 是 nancys@contoso.com。 <br /><br /> 若要完成注册，请使用你的组织分配的用于登录到 Office 365 或其他 Microsoft 服务的 ID。  如果你不知道这是什么，请与你的 IT 管理员联系。 <br /><br /> 如果你仍无法注册并且能够完成更高级的安装过程，则可以[注册新的 Office 365 试用版订阅并使用该电子邮件地址进行注册](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 |
 
