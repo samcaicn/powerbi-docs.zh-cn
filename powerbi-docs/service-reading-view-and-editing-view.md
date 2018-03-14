@@ -19,10 +19,10 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 服务报表中的“阅读视图”和“编辑视图”
 Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表和与其交互：“阅读视图”和“编辑视图”。 “阅读视图”可供所有用户使用且专为报表使用者设计，而“编辑视图”仅供报表创建者和所有者使用。 
