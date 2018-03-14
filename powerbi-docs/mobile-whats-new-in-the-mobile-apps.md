@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/09/2018
+ms.date: 02/15/2018
 ms.author: maggies
-ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -29,6 +29,12 @@ ms.lasthandoff: 02/11/2018
 * [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 中的新增功能](desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](service-whats-new.md)  
+
+## <a name="february-2018"></a>2018 年 2 月
+
+### <a name="share-reports"></a>共享报表
+
+现在可以共享直接来自移动应用的报表。 详细阅读[共享来自移动应用的仪表板和报表](mobile-share-dashboard-from-the-mobile-apps.md)
 
 ## <a name="january-2018"></a>2018 年 1 月
 

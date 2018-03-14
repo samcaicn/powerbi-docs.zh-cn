@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 664e07b1a772c0eb5d14372061511bc86c671b64
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的报表
 ## <a name="what-is-a-power-bi-report"></a>什么是 Power BI 报表？
-Power BI ***报表***是数据集的多角度视图，使用可视化效果表示数据集的各种结果和可以给予人的启发。  报表可包含单个可视化效果，也可包含充满可视化效果的多个页面。 根据你的作业角色，你可能是*创建*报表和/或*使用*报表的人。
+Power BI ***报表***是数据集的多角度视图，使用可视化效果表示数据集的各种结果和可以给予人的启发。  报表可包含单个可视化效果，也可包含充满可视化效果的多个页面。 根据你的作业角色，你可能是 *创建* 报表和/或 *使用* 报表的人。
 
-![](media/service-reports/reportview.png)
+![报表页](media/service-reports/reportview.png)
 
 此报表有 3 个页面（或选项卡），我们当前查看的是“商店销售额概述”页面。 此页面上有 6 个不同的可视化效果和一个页标题。 可视化效果可*固定*到仪表板，当固定的可视化效果被选中后，它将打开从其中固定它的报表。
 

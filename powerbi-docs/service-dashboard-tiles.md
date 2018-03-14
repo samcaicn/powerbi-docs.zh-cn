@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 中的仪表板磁贴
 仪表板和仪表板磁贴是 Power BI 服务的一项功能，而不是 Power BI Desktop 的功能。 虽然无法在 Power BI 移动设备中创建或固定仪表板磁贴，但可以[查看和共享](mobile-tiles-in-the-mobile-apps.md)这些磁贴。 在 Power BI 移动设备中，可以[使用 iPhone 应用将照片添加到仪表板](mobile-iphone-app-get-started.md)。
 
 ## <a name="dashboard-tiles"></a>仪表板磁贴
-![](media/service-dashboard-tiles/power-bi-dashboard.png)
+![Power BI 仪表板](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 磁贴就是固定到仪表板的数据快照。 磁贴可以从报表、数据集、仪表板、问答框、Excel 和 SQL Server Reporting Services (SSRS) 等中创建。  此屏幕截图显示了固定到仪表板的许多不同的磁贴。
 
@@ -53,34 +54,34 @@ ms.lasthandoff: 01/03/2018
 
 还可以直接在仪表板上使用“[添加磁贴](service-dashboard-add-widget.md)”创建图像、文本框、视频、流数据和 Web 内容的独立磁贴。
 
-  ![](media/service-dashboard-tiles/add_widgetnew.png)
+  ![添加磁贴图标](media/service-dashboard-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>与仪表板上的磁贴进行交互
 ### <a name="move-and-resize-a-tile"></a>移动和重设磁贴大小
-获取一个磁贴并[将它在仪表板上移动](service-dashboard-edit-tile.md)。 将鼠标悬停在该图柄，并选择它![](media/service-dashboard-tiles/resize-handle.jpg)以重设磁贴大小。
+获取一个磁贴并[将它在仪表板上移动](service-dashboard-edit-tile.md)。 将鼠标悬停在该图柄 ![图柄](media/service-dashboard-tiles/resize-handle.jpg)，并选择它重设磁贴大小。
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>将鼠标悬停在磁贴上以更改外观和行为
 1. 将鼠标悬停在磁贴上以显示省略号。
    
-    ![](media/service-dashboard-tiles/ellipses_new.png)
+    ![磁贴省略号](media/service-dashboard-tiles/ellipses_new.png)
 2. 选择省略号以打开磁贴操作菜单。
    
-    ![](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![省略号图标](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     此处你可以：
    
-   * [打开用于创建此磁贴的报表](service-reports.md) ![](media/service-dashboard-tiles/chart-icon.jpg)  
+   * [打开用于创建此磁贴的报表](service-reports.md) ![报表图标](media/service-dashboard-tiles/chart-icon.jpg)  
    
-   * [打开用于创建此磁贴的工作表](service-reports.md) ![](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
+   * [打开用于创建此磁贴的工作表](service-reports.md) ![工作表图标](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [在焦点模式下查看](service-focus-mode.md) ![](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [导出磁贴中使用的数据](power-bi-visualization-export-data.md) ![](media/service-dashboard-tiles/export-icon.png)
-     * [编辑标题和副标题、添加超链接、显示上次刷新时间](service-dashboard-edit-tile.md) ![](media/service-dashboard-tiles/pencil-icon.jpg)
-     * [运行见解](service-insights.md) ![](media/service-dashboard-tiles/power-bi-insights.png)
-     * [将磁贴固定到另一个仪表板](service-pin-tile-to-another-dashboard.md)
-       ![](media/service-dashboard-tiles/pin-icon.jpg)
-   * [删除磁贴](service-dashboard-edit-tile.md)
-     ![](media/service-dashboard-tiles/trash-icon.png)
+     * [在焦点模式下查看](service-focus-mode.md) ![焦点图标](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+     * [导出磁贴中使用的数据](power-bi-visualization-export-data.md) ![导出数据图标](media/service-dashboard-tiles/export-icon.png)
+     * [编辑标题和副标题、添加超链接、显示上次刷新时间](service-dashboard-edit-tile.md) ![编辑图标](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [运行见解](service-insights.md) ![见解图标](media/service-dashboard-tiles/power-bi-insights.png)
+     * [将磁贴固定到另一个仪表板](service-pin-tile-to-another-dashboard.md) 
+       ![固定图标](media/service-dashboard-tiles/pin-icon.jpg)
+     * [删除图标](service-dashboard-edit-tile.md)
+     ![删除图标](media/service-dashboard-tiles/trash-icon.png)
 3. 若要关闭操作菜单，请在画布中选择空白区域。
 
 ### <a name="select-click-a-tile"></a>选择（单击）磁贴

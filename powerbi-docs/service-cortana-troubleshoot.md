@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 352efd894eb58823c9f506089ee28b7d11b30687
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 80fb45e8f0d181779c699c081006b6610248dc50
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>对用于 Power BI 的 Cortana 进行故障排除
 本文是系列文章中的一部分。 如果你尚未执行上述操作，我们建议阅读以下三篇文章。
@@ -95,7 +96,7 @@ ms.lasthandoff: 12/21/2017
    我们已得到一个结果，现在知道 Cortana **已**在 Power BI 中启用。 这可减少 Windows 端或 Cortana 语言设置或为 Cortana 启用超过 100 个数据集可能出现的问题。
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>从仪表板中检索答案时遇到问题？
-要查找已与你共享的仪表板？  打开“Power BI”>“与我共享”，并找到该仪表板的名称。  然后，将该名称键入到“查询文本”*字段中。
+要查找已与你共享的仪表板？  打开“Power BI”> **与我共享**，并找到该仪表板的名称。  然后将该名称键入到“查询文本”字段。
 
 ![在 Power BI 中打开“与我共享”](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 

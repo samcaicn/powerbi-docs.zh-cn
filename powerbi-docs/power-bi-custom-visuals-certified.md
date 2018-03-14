@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
-ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
+ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>让自定义视觉对象取得认证
 ## <a name="what-is-meant-by-certified"></a>取得认证是指什么？
@@ -50,7 +50,9 @@ ms.lasthandoff: 02/21/2018
    * 标题：视觉对象认证申请    
    * 指向托管视觉对象源代码的 GitHub 存储库的链接    
    * 符合要求（见上文）    
-   * 通过代码和安全审核 2。 Microsoft 自定义视觉对象团队会通知你自定义视觉对象已取得认证并添加到“取得认证”列表（见下文）中，或自定义视觉对象已遭拒，并随附一份报告，在其中列出需要解决的问题。 开发者负责维护与 Microsoft 建立开放式沟通渠道，并根据需要更新取得认证的视觉对象。
+   * 通过代码和安全审核    
+
+2. Microsoft 自定义视觉对象团队会通知你自定义视觉对象已取得认证并添加到“取得认证”列表（见下文）中，或自定义视觉对象已遭拒，并随附一份报告，在其中列出需要解决的问题。 开发者负责维护与 Microsoft 建立开放式沟通渠道，并根据需要更新取得认证的视觉对象。
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>删除 Power BI 认证的自定义视觉对象
 Microsoft 可能会自行从“取得认证”列表中删除视觉对象。  
@@ -117,6 +119,7 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 | [播放轴（动态切片器）](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [视频](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI 矩阵](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [视频](https://youtu.be/1enze8pcGzY) |
+| [MAQ 软件象限图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [视频](https://youtu.be/ppBnyhqWNC0) |
 | [雷达图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [MAQ 软件环形图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [视频](https://youtu.be/pDToHDFHnq8) |
 | [MAQ 软件旋转图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [视频](https://youtu.be/d5xBCMmb3hU) |
@@ -129,6 +132,7 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 | [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [热度地图表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
 | [转速计](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [视频](https://youtu.be/C3OXdETbS9o) |
+| [文本筛选器](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [MAQ 软件文本包装器](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [温度计](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
 | [时序分解图表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |

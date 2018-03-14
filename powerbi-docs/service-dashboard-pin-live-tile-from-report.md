@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 8174a3043d544191032ec65e3b9a1710547b18ab
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3638c99b0dfafa8a90a6c911051e203f3e6037c4
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>将整个报表页以动态磁贴的形式固定到 Power BI 仪表板
 添加新[仪表板磁贴](service-dashboard-tiles.md)的另一种方法是固定整个报表页。 这是一种一次性固定多个可视化效果的简便方法。  此外，当固定整个页面时，磁贴是 *动态的* ；你可以就在仪表板上与它们进行交互。 并且你对报表编辑器中返回的任何可视化效果所做的更改（如添加筛选器或更改图表中使用的字段）也都会反映在仪表板磁贴中。  
@@ -43,20 +44,20 @@ ms.lasthandoff: 01/24/2018
 1. 在[编辑视图](service-interact-with-a-report-in-editing-view.md)中打开报表。
 2. 在未选择任何视觉化效果的情况下，从菜单栏中选择“固定活动页”。
    
-   ![](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
+   ![“固定活动页面”图标](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
 3. 将磁贴固定到现有仪表板或新仪表板。 请注意突出显示的文本：*刷新页面时，固定活动页可使对报表所做的更改出现在仪表板磁贴中。*
    
    * 现有仪表板：从下拉列表中选择仪表板的名称。 已与你共享的仪表板不会出现在下拉列表中。
    * 新仪表板：键入新仪表板的名称。
      
-     ![](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)
+     ![“固定到仪表板”对话框](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)
 4. 选择**固定活动**。 一条成功消息（右上角附近）会告知你已将页面以磁贴的形式添加到你的仪表板中。
 
 ## <a name="open-the-dashboard-to-see-the-pinned-live-tile"></a>打开仪表板以查看固定的活动磁贴
 1. 从导航窗格，选择包含新动态磁贴的仪表板。 可在此处对已固定的报表页进行[重命名、重设大小、链接和移动](service-dashboard-edit-tile.md) 操作。  
 2. 与动态磁贴进行交互。  在以下屏幕截图中，选择柱形图上的一个柱已交叉筛选和交叉突出显示了磁贴上的其他可视化效果。
    
-    ![](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
+    ![包含动态磁贴的仪表板](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 中的仪表板](service-dashboards.md)

@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 5623667cd1a39b05795d162055ad0d3351d127bc
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>通过 Power BI 自动生成数据见解
 你有新数据集，但不太确定要从何处着手？  需要快速生成仪表板？  想要查找你可能错失的见解？
@@ -45,43 +46,42 @@ ms.lasthandoff: 01/09/2018
 
 1. 从“数据集”选项卡中选择省略号 (…)，然后选择“获取见解”。
    
-    ![](media/service-insights/power-bi-ellipses.png)
+    ![“数据集”选项卡](media/service-insights/power-bi-ellipses.png)
    
-    ![](media/service-insights/power-bi-tab.png)
+    ![省略号菜单](media/service-insights/power-bi-tab.png)
 2. Power BI 使用[各种算法](service-insight-types.md)来搜索数据集中的趋势。
    
-    ![](media/service-insights/pbi_autoinsightssearching.png)
+    ![“正在搜索见解”对话框](media/service-insights/pbi_autoinsightssearching.png)
 3. 你的见解会在几秒内准备就绪。  选择“查看见解”以显示可视化效果。
    
-    ![](media/service-insights/pbi_autoinsightsuccess.png)
+    ![成功消息](media/service-insights/pbi_autoinsightsuccess.png)
    
    > 注意：某些数据集不能生成见解，因为数据不具有统计学意义。  若要了解详细信息，请参阅[针对见解优化数据](service-insights-optimize.md)。
    > 
    > 
 1. 可视化效果会在特殊的“快速见解”画布中显示，最多可包含 32 个不同的见解卡片。 每张卡片会有一个图表或图形，并附上简短的说明
    
-    ![](media/service-insights/power-bi-insights.png)
+    ![快速见解画布](media/service-insights/power-bi-insights.png)
 
 ## <a name="interact-with-the-insight-cards"></a>与见解卡片交互
-  ![](media/service-insights/pbi_hover.png)
+  ![“固定”图标](media/service-insights/pbi_hover.png)
 
 1. 将鼠标悬停在某个卡片上，选择固定图标，以将可视化效果添加到仪表板中。
 2. 将鼠标悬停在某张卡片上，选择省略号 (…)，然后选择“查看见解”。 见解全屏随即打开。
    
-    ![](media/service-insights/power-bi-insight-focus.png)
+    ![见解全屏](media/service-insights/power-bi-insight-focus.png)
 3. 在“焦点”模式下，你可以：
    
    * 筛选可视化效果。  若要显示筛选器，请选择右上角的箭头以展开“筛选器”窗格。
+        ![深入探索展开的筛选器菜单](media/service-insights/power-bi-insights-filter-new.png)
+   * 通过选择“固定”![固定图标](media/service-insights/power-bi-pin-icon.png) 图标或“固定视觉对象”将见解卡固定到仪表板。
+   * 在卡片自身中运行见解。 这通常称为“作用域内见解”。 在右上角，选择灯泡图标 ![获取见解图标](media/service-insights/power-bi-bulb-icon.png)或“获取见解”。
      
-        ![](media/service-insights/power-bi-insights-filter-new.png)
-   * 通过选择固定 ![](media/service-insights/power-bi-pin-icon.png) 图标或“固定视觉对象”将见解卡固定到仪表板。
-   * 在卡片自身中运行见解。 这通常称为“作用域内见解”。 在右上角，选择灯泡图标 ![](media/service-insights/power-bi-bulb-icon.png) 或“获取见解”。
-     
-       ![](media/service-insights/pbi-autoinsights-tile.png)
+       ![菜单栏显示“获取见解”图标](media/service-insights/pbi-autoinsights-tile.png)
      
      该见解显示在左侧，而完全根据该见解中的数据获得的新卡片显示在右侧。
      
-       ![](media/service-insights/power-bi-insights-on-insights-new.png)
+       ![对见解的见解](media/service-insights/power-bi-insights-on-insights-new.png)
 4. 若要返回到最初的见解画布，请在左上角选择“退出焦点模式”。
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>对仪表板磁贴运行见解
@@ -90,7 +90,7 @@ ms.lasthandoff: 01/09/2018
 1. 打开仪表板。
 2. 将鼠标悬停在一个磁上。 选择省略号 (…)，然后选择“查看见解”。 该磁贴以[焦点模式](service-focus-mode.md)打开，并在右侧显示见解卡片。    
    
-    ![](media/service-insights/pbi-insights-tile.png)    
+    ![焦点模式](media/service-insights/pbi-insights-tile.png)    
 4. 你是否对某个见解产生了兴趣？ 选择该见解卡片以深入进行了解。 选中的见解显示在左侧，而完全根据该见解中的数据获得的新见解卡片显示在右侧。    
 6. 继续发掘数据，当你发现感兴趣的见解时，从右上角选择“固定视觉对象”，将其固定到仪表板上。
 

@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: a7c4db0044772c28a3cb7a62649de3001945246c
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Reports
+ms.openlocfilehash: 7e2ef4a1ec49335a49e7f934a7606b2fe64f755c
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="visualization-interactions-in-a-power-bi-report"></a>Power BI 报表中的可视化交互
 如果具有编辑报表的权限，则可以使用“视觉对象交互”，更改报表页上的可视化效果相互影响的方式。 
@@ -44,24 +45,24 @@ ms.lasthandoff: 01/11/2018
 2. 显示“视觉对象交互”选项。
     - 在 Power BI 服务中，从报表菜单栏中选择下拉列表。
 
-       ![](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
+       ![视觉对象交互下拉列表](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
 
     - 在 Desktop 中，选择“格式”>“交互”。
 
-        ![](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
+        ![依次选择“格式”、“交互”](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
 
 3. 要打开可视化效果交互控件，请选择“编辑交互”。 Power BI 将交叉筛选和交叉突出显示图标添加到报表页上的所有其他可视化效果中。
    
-    ![](media/service-reports-visual-interactions/power-bi-icons-on.png)
+    ![启用视觉对象交互的报表](media/service-reports-visual-interactions/power-bi-icons-on.png)
 3. 确定所选的可视化组件需要对其他组件产生的作用。  然后，对报表页上的其他所有可视化效果重复执行此操作（可选）。
    
-   * 如果应交叉筛选可视化效果，则选择“筛选”图标 ![](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png)。
-   * 如果应交叉突出显示该可视化效果，则选择“突出显示”图标 ![](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png)。
-   * 如果其不应产生作用，则选择“不起作用”图标 ![](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png)。
+   * 如果应交叉筛选可视化效果，则选择“筛选”图标 ![筛选图标](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png)。
+   * 如果应交叉突出显示该可视化效果，则选择“突出显示”图标 ![突出显示图标](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png)。
+   * 如果其无影响，则选择“无影响”图标 ![无影响图标](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png)。
 
 4. 要启用钻取控件，请选择“钻取筛选其他视觉对象”。  现在，在可视化效果中向下钻取（和向上钻取）时，报表页上的其他可视化效果将发生改变，以反映当前的钻取选择。 
 
-   ![](media/service-reports-visual-interactions/drill2.gif)
+   ![启用钻取控件的视频](media/service-reports-visual-interactions/drill2.gif)
 
 ### <a name="next-steps"></a>后续步骤
 [如何使用报表筛选器](power-bi-how-to-report-filter.md)

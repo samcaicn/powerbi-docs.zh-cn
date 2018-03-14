@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 6cb16aadfcae3d68beea71bb2f5a6befe68e984e
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: c73502381e99bf64a8e342ca46ee1bb7089b6825
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>使用 Power BI 连接到 SQL Sentry
 使用 Power BI 壳轻松分析由 SQL Sentry 收集的性能数据。 Power BI 检索数据，然后生成默认的仪表板并基于此数据生成相关的报表。
@@ -84,7 +85,7 @@ ms.lasthandoff: 02/19/2018
 <a name="FindingParams"></a>
 
 ## <a name="finding-parameters"></a>查找参数
-可通过在新的 Web 浏览器窗口中登录到 <https://cloud.sqlsentry.com> 来查找**数据库 ID**。  主概述页上列出了**数据库 ID**：
+可通过在新的 Web 浏览器窗口中登录到 <https://cloud.sqlsentry.com> 来查找数据库 ID。  主概述页上列出了**数据库 ID**：
 
     ![](media/service-connect-to-sql-sentry/database2.png)
 
@@ -96,7 +97,7 @@ ms.lasthandoff: 02/19/2018
 ## <a name="troubleshooting"></a>故障排除
 如果 Power BI 中未显示来自某些应用的数据，请检查以确保使用正确的数据库 ID，并确保你有权查看该数据。 
 
-如果你不是同步到 <https://cloud.sqlsentry.com> 的 SQL Sentry 数据库的所有者，请与管理员联系以确保你有全查看收集的数据。
+如果你不是同步到 <https://cloud.sqlsentry.com> 的 SQL Sentry 数据库的所有者，请与管理员联系以确保你有权查看收集的数据。
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 入门](service-get-started.md)

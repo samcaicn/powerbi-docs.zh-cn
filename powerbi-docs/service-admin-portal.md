@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/23/2018
 ms.author: maghan
-ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Administration
+ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理门户
 
@@ -192,6 +193,19 @@ ms.lasthandoff: 02/09/2018
 ### <a name="create-template-organizational-content-packs"></a>创建模板组织内容包
 
 组织中的用户可以创建特定的模板内容包，这些内容包使用基于 Power BI Desktop 中某个数据源生成的数据集。
+
+### <a name="push-apps-to-end-users"></a>将应用推送给最终用户
+
+你的租户管理员启用在“租户设置”中推送应用的功能。
+
+   ![启用推送应用功能](media/service-create-distribute-apps/power-bi-apps-pushapps01.png)
+
+可以将设置切换为“已启用”，然后指定获取此功能的用户（整个组织或特定安全组）。
+
+> [!NOTE]
+> 请记住，租户设置更改可能需要一些时间才能生效。
+
+转到此处以了解有关[推送应用](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users)的详细信息。
 
 ## <a name="integration-settings"></a>集成设置
 

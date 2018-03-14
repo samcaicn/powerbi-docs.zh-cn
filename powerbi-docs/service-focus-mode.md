@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1a4290d06d623b21b64e1ff03fb0382a55dc2a3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>在“焦点”模式下显示仪表板磁贴或报表视觉对象
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -36,39 +36,41 @@ ms.lasthandoff: 02/24/2018
 > 焦点模式不同于[全屏模式](service-fullscreen-mode.md)。
 > 
 ## <a name="focus-mode-for-dashboard-tiles"></a>仪表板磁贴的焦点模式
-1. 将鼠标悬停在磁贴可视化效果上，选择省略号 (...)，然后选择“以焦点模式打开”![](media/service-focus-mode/power-bi-dashboard-focus-mode.png)。  
+1. 将鼠标悬停在磁贴可视化效果上，选择省略号 (...)，然后选择“以焦点模式打开”。 
+
+    ![磁贴的省略号菜单](media/service-focus-mode/power-bi-dashboard-focus-mode.png)。
    
 2. 该磁贴随即打开并填充整个报表画布。 
 
-   ![](media/service-focus-mode/power-bi-tile-focus.png)
+   ![磁贴填充报表画布](media/service-focus-mode/power-bi-tile-focus.png)
 
 3. 展开“筛选器”窗格，查看应用于此视觉对象的所有筛选器。
    
-   ![](media/service-focus-mode/power-bi-focus-filters.png)
+   ![“筛选器”窗格的焦点模式](media/service-focus-mode/power-bi-focus-filters.png)
 
 4. 通过修改筛选器进一步浏览，如果你发现了需要关注的内容，可以将视觉对象固定到仪表板。
 
 5. 通过选择视觉对象左上角的“< 退出焦点模式”，退出焦点模式并返回仪表板。
    
-    ![](media/service-focus-mode/power-bi-tile-exit-focus.png)    
+    ![退出焦点模式](media/service-focus-mode/power-bi-tile-exit-focus.png)    
 
 
 ## <a name="focus-mode-for-report-visualizations"></a>报表可视化效果的焦点模式
 
-1. 将鼠标悬停在报表可视化效果上，然后选择“焦点模式”图标 ![](media/service-focus-mode/pbi_popout.jpg)。  
+1. 将鼠标悬停在报表可视化效果上，然后选择“焦点模式”图标 ![焦点模式图标](media/service-focus-mode/pbi_popout.jpg)。  
    
-   ![](media/service-focus-mode/power-bi-hover-focus.png)
+   ![焦点图标显示在磁贴上](media/service-focus-mode/power-bi-hover-focus.png)
 2. 此可视化效果随即打开并填充整个画布。 
 
    
-   ![](media/service-focus-mode/power-bi-display-focus-newer2.png)
+   ![焦点模式下的视觉对象](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. 展开“筛选器”窗格，查看应用于此视觉对象的所有筛选器。
    
-   ![](media/service-focus-mode/power-bi-display-focus-filters.png)
+   ![“筛选器”屏幕的焦点模式](media/service-focus-mode/power-bi-display-focus-filters.png)
 4. 通过修改筛选器进一步浏览，如果你发现了需要关注的内容，可以将视觉对象固定到仪表板。   
 5. 通过选择视觉对象左上角的“返回报表”，退出焦点模式并返回报表。 
    
-    ![](media/service-focus-mode/power-bi-exit-focus-report.png)  
+    ![退出焦点模式](media/service-focus-mode/power-bi-exit-focus-report.png)  
 
 ## <a name="go-from-focus-mode-to-full-screen-mode"></a>从焦点模式转到全屏模式
 处于焦点模式后，便可以[全屏（电视模式）查看](service-fullscreen-mode.md)磁贴或视觉对象。全屏模式显示将不会有菜单和导航按钮的干扰。

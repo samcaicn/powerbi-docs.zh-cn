@@ -16,16 +16,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 6527006095e6d716687477e7408a980ee765fb5a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: dda89f4cffd99ae8f7b435133e9be550d7da0339
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>在 Power BI 服务中创建仪表板副本
-![](media/service-dashboard-copy/power-bi-dashboard.png)
+![仪表板](media/service-dashboard-copy/power-bi-dashboard.png)
 
  创建仪表板副本的原因众多。 你可能想要对原始版本进行更改并测试其性能；或创建由同事、区域或团队分发的略微不同的版本。 可能有某个同事喜欢你的仪表板设计，想要使用它向经理汇报工作。 另一个原因是，可能你具有包含相同数据结构和数据类型的新数据库，并且想要重用已创建的仪表板。这也可以完成，但需要在 Power BI Desktop 中执行一些操作。 
 
@@ -36,13 +37,13 @@ ms.lasthandoff: 01/23/2018
 1. 打开仪表板。
 2. 在右上角选择省略号 (...)，然后选择“复制仪表板”。
    
-   ![](media/service-dashboard-copy/power-bi-dulicate.png)
+   ![省略号菜单](media/service-dashboard-copy/power-bi-dulicate.png)
 3. 为仪表板命名并选择“复制”。 
    
-   ![](media/service-dashboard-copy/power-bi-name.png)
+   ![“复制仪表板”对话框](media/service-dashboard-copy/power-bi-name.png)
 4. 新仪表板将与原始仪表板保存在同一工作区中。 
    
-   ![](media/service-dashboard-copy/power-bi-copied.png)
+   ![“仪表板”选项卡](media/service-dashboard-copy/power-bi-copied.png)
 
 5.    打开新仪表板，并根据需要进行编辑。 接下来，不妨执行下列操作：    
     a. [移动、重命名、重设大小或删除磁贴](service-dashboard-edit-tile.md)。  

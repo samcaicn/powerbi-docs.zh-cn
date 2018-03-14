@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>启用实时连接问答
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>什么是本地数据网关？  什么是实时连接？
@@ -44,15 +45,15 @@ ms.lasthandoff: 01/19/2018
 ## <a name="enable-qa"></a>启用问答
 设置数据网关后，请从 Power BI 连接数据。  使用本地数据创建仪表板，或使用本地数据上传 .pbix 文件。  可能已与你共享的仪表板、报表和数据集中已存在本地数据。
 
-1. 在 Power BI 的右上角，选择齿轮图标 ![](media/service-q-and-a-direct-query/power-bi-cog.png)，然后选择**设置**。
+1. 在 Power BI 的右上角，选择齿轮图标 ![齿轮图标](media/service-q-and-a-direct-query/power-bi-cog.png)，然后选择“设置”。
    
-   ![](media/service-q-and-a-direct-query/powerbi-settings.png)
+   ![“设置”菜单](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. 选择**数据集**，然后选择要为其启用问答的数据集。
    
-   ![](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
+   ![“设置”菜单的“数据集”屏幕](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
 3. 展开**问答和 Cortana**，选择**启用此数据集的问答**复选框，然后选择**应用**。
    
-    ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
+    ![展开的问答区域](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>缓存哪些数据以及如何保护隐私？
 当启用本地数据的问答时，数据的其中一个子集将缓存到服务中。 这是用来保证问答具有良好的性能。 Power BI 可以从缓存中排除长于 24 个字符的值。 当你通过取消选中**启用此数据集的问答**，或当你删除你的数据集时，缓存将在几小时内删除。

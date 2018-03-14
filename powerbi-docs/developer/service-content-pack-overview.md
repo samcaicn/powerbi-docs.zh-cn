@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: f0a50c0aba1a05c55236192a730c3187cb37c055
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 服务内容包程序概述
 内容包是一组全新的内容，允许用户立即获取源中的见解。 内容包通常集中在特定业务方案，提供关于角色、域或工作流的见解。
@@ -64,9 +64,9 @@ ISV 可以生成模板内容包，允许客户使用其自己的帐户连接并�
 * 考虑为分开的独特方案提供多个内容包  
 
 ## <a name="frequently-asked-questions"></a>常见问题
-**可以为我尚未拥有的第三方 SaaS 应用程序生成 Power BI 服务内容包吗？**
+**我可以作为第三方为不属于我的 SaaS 应用程序生成 Power BI 服务内容包吗？**
 
-不可以，我们目前需要先与 SaaS 应用程序的所有者签署合作伙伴协议，然后才能在服务中发布内容包。
+我们需要先与 SaaS 应用程序的所有者签署合作伙伴协议，然后才能在服务中发布内容包。 作为第三方，你需要与 SaaS 应用程序所有者签署合作伙伴协议。
 
 **我的服务没有公共开发人员 API。我仍可以生成直接从数据存储中拉取数据的 Power BI 服务内容包吗？**
 
@@ -76,9 +76,13 @@ ISV 可以生成模板内容包，允许客户使用其自己的帐户连接并�
 
 Power BI 服务内容包支持任何 REST API 或 OData 数据源。 Power BI 可以处理多种身份验证类型，包括基本身份验证、OAuth2.0 和 Web API 密钥。 请查看[创作](template-content-pack-authoring.md#dashboard)文章，详细了解技术要求。
 
+**我在 Power BI 中发布了内容包。如何更新它？**
+
+每月可更新一次发布的内容包。 在当前月份的最后一天之前提交到 [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com) 的更新请求将在下个月的第一周发布。
+
 **我有关于服务内容包的更多问题。我如何与你联系？**
 
-可以随时通过以下电子邮件向我们发送你的问题：pbiservicesapps@microsoft.com
+可以随时通过以下电子邮件向我们发送你的问题：[pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
 ## <a name="support"></a>支持
 开发期间如需支持，请访问 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)。 该网站有专门人员监视和管理。 客户事件可快速找到通往合适团队的方法。

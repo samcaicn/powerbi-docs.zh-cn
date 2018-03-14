@@ -15,18 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Reports
+ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 服务报表中的“阅读视图”和“编辑视图”
 Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表和与其交互：“阅读视图”和“编辑视图”。 “阅读视图”可供所有用户使用且专为报表使用者设计，而“编辑视图”仅供报表创建者和所有者使用。 
 
-![](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
+![报表创建者和报表使用者的图稿](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>报表阅读视图
 
@@ -83,17 +84,17 @@ Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表
 
 1. 默认情况下，报表通常在“阅读视图”中打开。 如果看到了“编辑报表”选项，则表示目前在“阅读视图”中。 如果“编辑报表”灰显，则你无权在“编辑视图”中打开报表。
 
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
+   ![编辑灰显报表](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
 2. 如果“编辑报表”未灰显，则选择它可在“编辑视图”中打开报表。 
    
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
+   ![编辑报表选项](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
    
    报表现在位于“编辑视图”中，并使用上次在“阅读视图”中所用的相同[显示设置](power-bi-report-display-settings.md)。
 
 2. 若要返回到“阅读视图”，请从顶部导航栏中选择“阅读视图”。
    
-    ![](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
+    ![“阅读视图”选项](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
 

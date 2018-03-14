@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 187ca632ad947e5cb657f3a5d19e1d62262259b4
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 服务中的数据警报
 设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。 
@@ -31,7 +32,7 @@ ms.lasthandoff: 12/21/2017
 
 即使共享你的仪表板，也只有你可以看到自己设置的警报。 数据警报跨平台完全同步；可以在 [Power BI 移动应用](mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服务中设置和查看数据警报。 它们对 Power BI Desktop 不可用。 警报甚至可以是[与 Microsoft Flow 集成的自动警报](https://flow.microsoft.com) - [试试吧](service-flow-integration.md)。
 
-![](media/service-set-data-alerts/powerbi-alert-types-new.png)
+![磁贴](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
 > [!WARNING]
 > 数据驱动的警报通知提供有关数据的信息。 如果你在移动设备上查看 Power BI 数据，而该设备之后被盗，我们建议使用 Power BI 服务来关闭所有数据驱动的警报规则。
@@ -47,15 +48,15 @@ ms.lasthandoff: 12/21/2017
 
 1. 启动仪表板。 在仪表板仪表、KPI 或卡磁贴中，选择省略号。
    
-   ![](media/service-set-data-alerts/powerbi-card.png)
-2. 选择钟形图标 ![](media/service-set-data-alerts/power-bi-bell-icon.png) 为“总存储”添加一个或多个警报。
+   ![总存储磁贴](media/service-set-data-alerts/powerbi-card.png)
+2. 选择钟形图标 ![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png) 为“总存储”添加一个或多个警报。
    
 1. 若要开始，请选择“+ 添加警报规则”，并确保滑块已设置为“开启”，并为警报提供一个标题。 标题有助于轻松识别警报。
    
-   ![](media/service-set-data-alerts/powerbi-alert-title.png)
+   ![管理警报窗口](media/service-set-data-alerts/powerbi-alert-title.png)
 4. 向下滚动，输入警报的详细信息。  在此示例中，我们将创建一个在总存储数超过 100 时每天提醒一次的警报。 警报将出现在我们的通知中心。 并且，我们还将收到 Power BI 发送的电子邮件。
    
-   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
+   ![管理警报窗口，请设置阈值](media/service-set-data-alerts/power-bi-set-alert-details.png)
 5. 选择**保存**。
 
 ## <a name="receiving-alerts"></a>接收警报
@@ -65,13 +66,13 @@ ms.lasthandoff: 12/21/2017
 
 1. 如果你已设置警报向你发送电子邮件，则你将在收件箱中找到如下内容。
    
-   ![](media/service-set-data-alerts/powerbi-alerts-email.png)
+   ![警报电子邮件](media/service-set-data-alerts/powerbi-alerts-email.png)
 2. Power BI 会将消息添加到你的“通知中心”，并会向适用的磁贴添加新的警报图标。
    
-   ![](media/service-set-data-alerts/powerbi-alert-notifications.png)
+   ![Power BI 服务中的通知图标](media/service-set-data-alerts/powerbi-alert-notifications.png)
 3. 打开你的通知中心以查看警报详细信息。
    
-    ![](media/service-set-data-alerts/powerbi-alert-notfication.png)
+    ![读取警报](media/service-set-data-alerts/powerbi-alert-notfication.png)
    
    > [!NOTE]
    > 警报仅适用于刷新的数据。 数据刷新时，Power BI 会查看是否为该数据设置了警报。 如果数据已达到了警报的阈值，则会触发警报。
@@ -82,23 +83,23 @@ ms.lasthandoff: 12/21/2017
 可通过多种方法管理警报：从仪表板磁贴本身、从 Power BI 设置菜单，以及在 [iPhone 上的 Power BI 移动应用](mobile-set-data-alerts-in-the-mobile-apps.md)或[适用于 Windows 10 的 Power BI 移动应用](mobile-set-data-alerts-in-the-mobile-apps.md)中各个磁贴。
 
 ### <a name="from-the-tile-itself"></a>从磁贴本身
-1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 ![](media/service-set-data-alerts/power-bi-bell-icon.png) 重新打开“管理警报”窗口。 将显示已为该磁贴设置的所有警报。
+1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 ![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png)，重新打开“管理警报”。 将显示已为该磁贴设置的所有警报。
    
-    ![](media/service-set-data-alerts/powerbi-see-alerts.png).
+    ![管理警报窗口](media/service-set-data-alerts/powerbi-see-alerts.png)。
 2. 若要修改警报，请选择警报名称左侧的箭头。
    
-    ![](media/service-set-data-alerts/powerbi-see-alerts-arrow.png).
+    ![警报名称旁的箭头](media/service-set-data-alerts/powerbi-see-alerts-arrow.png)。
 3. 若要删除警报，请选择警报名称右侧的垃圾桶。
    
-      ![](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
+      ![已选中垃圾桶图标](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
 
 ### <a name="from-the-power-bi-settings-menu"></a>从 Power BI 设置菜单
 1. 从 Power BI 菜单栏选择齿轮图标。
    
-    ![](media/service-set-data-alerts/powerbi-gear-icon.png).
+    ![齿轮图标](media/service-set-data-alerts/powerbi-gear-icon.png)。
 2. 在“设置”下，选择“警报”。
    
-    ![](media/service-set-data-alerts/powerbi-alert-settings.png)
+    ![“设置”窗口的“警报”选项卡](media/service-set-data-alerts/powerbi-alert-settings.png)
 3. 你可以从此处打开和关闭警报，打开“管理警报”窗口，以进行更改或删除警报。
 
 ## <a name="tips-and-troubleshooting"></a>提示和故障排除
