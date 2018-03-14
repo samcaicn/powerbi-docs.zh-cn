@@ -18,10 +18,10 @@ ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
 ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>在 Power BI 服务 (app.powerbi.com) 中打开报表
 在 Power BI 服务、Power BI Desktop、移动 Power BI 甚至嵌入的 Power BI 中均提供了报表。 本文适用于在 Power BI 服务中打开报表。

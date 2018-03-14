@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 67b9dd605f5de2de1e824948143011797ad1f937
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Get started
+ms.openlocfilehash: 0984e00dbe6b82a2b5b9cfc07f318ded03961f64
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>有关获取 Power BI 问题解答的 10 个提示
 使用 Power BI 时，是否会因遇到的 Power BI 问题得不到及时解答（即“实时”帮助）感到灰心失望或很费劲？ 
@@ -56,7 +57,7 @@ Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog
 
 还可以在网上找到其他培训选项，例如：
 
-* **edX.org** 提供免费课程[使用 Power BI 分析和直观呈现数据](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)。 
+* **edX.org** 提供免费课程[使用 Power BI 分析和直观呈现数据](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)。
 * **Lynda.com** 提供 [Power BI Pro 基础培训](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)等课程。
 * 查找“**从仪表板开始一天**”面对面培训会议。
 
@@ -67,15 +68,14 @@ Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog
 加入 [Power BI 用户组](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups)并让你的组来帮助回答你的问题。 也可以创建自己的用户组，搭建一个供大家互相帮助的社区，但主要还是为了满足你的需求，即在你所在的区域和时区以你的数据为依据。
 
 ## <a name="9-check-the-service-status"></a>提示 9：检查服务状态
-如果遇到服务问题，可能是服务本身存在问题。 [请查看任意报表的支持页](https://powerbi.microsoft.com/support/)。 
+如果遇到服务问题，可能是服务本身存在问题。 [请查看任意报表的支持页](https://powerbi.microsoft.com/support/)。
 
 ## <a name="10-just-try-it"></a>提示 10：试试看
-如果其他所有方法均失败，最后一条提示是观察系统。 人们通常会问 Power BI 有哪些功能。 回答此类问题的方法通常是，转到 Power BI 服务或 Power BI Desktop，查看用户界面中的选项，然后尝试使用这些选项。 
+如果其他所有方法均失败，最后一条提示是观察系统。 人们通常会问 Power BI 有哪些功能。 回答此类问题的方法通常是，转到 Power BI 服务或 Power BI Desktop，查看用户界面中的选项，然后尝试使用这些选项。
 
 例如，假设你想知道能否与安全组共享仪表板。 为了回答这个问题，请转到共享对话框，然后尝试添加安全组。 无论采用上述哪种方式，都可以在此测试后获得答案。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 入门](service-get-started.md) 
+* [Power BI 入门](service-get-started.md)
 * 尝试在 [Power BI 社区](http://community.powerbi.com/)中获取信息
 * 仍有问题？ 请访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)
-
