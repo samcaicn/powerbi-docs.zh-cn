@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/21/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 36a79b6ec984ee663868c5f20efaa8cd5b596d2a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>仪表板和报表的使用指标
 如果你创建仪表板和报表，使用指标可帮助你了解它们的影响。 运行仪表板使用情况指标或报表使用情况指标时，可查看整个组织使用这些仪表板和报表的情况 - 正在使用的内容、使用人员以及使用目的。  
@@ -32,7 +33,7 @@ ms.lasthandoff: 01/23/2018
 
 这些使用情况指标报表是只读的。 但是，可以通过使用“另存为”对使用情况指标报表进行个性化处理。 这将创建全新的数据集，并将只读报表转换为功能齐全的可编辑 Power BI 报表。 不仅个性化报表包含所选仪表板或报表的指标，而且通过删除默认筛选器，现在还可以访问所选工作区中所有仪表板或所有报表的使用情况指标。
 
-![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
+![使用情况指标报表](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ## <a name="why-are-usage-metrics-important-to-me"></a>为什么使用指标对我而言非常重要？
 了解内容的使用方式有助于说明影响，并划分工作的优先级。 使用指标可能会显示组织的大部分部门每天会使用其中一个报表，还可能会显示根本没人查看你创建的某个仪表板。 这种类型的反馈在指导工作方面极其重要。
@@ -48,7 +49,7 @@ ms.lasthandoff: 01/23/2018
 ## <a name="about-the-usage-metrics-report"></a>关于使用情况指标报表
 
 
-选择“使用情况指标”或图标 ![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) 后，Power BI 会生成包含相应内容在过去 90 天内的使用情况指标的预生成报表。  此报表与已熟悉的 Power BI 报表较为相似，不同之处在于此报表仅供参考，无法进行交互。 基于最终用户接收访问权限的方式以及他们是通过 Web 还是移动应用等方式访问，可以进行切片。仪表板和报表发生更改时，使用情况指标报表也会随之更改（使用情况指标报表每天更新新数据）。  
+选择“使用情况指标”或其图标 ![使用情况指标图标](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) 时，Power BI 会生成一个预生成报表，其中包含相应内容在过去 90 天内的使用情况指标。  此报表与已熟悉的 Power BI 报表较为相似，不同之处在于此报表仅供参考，无法进行交互。 基于最终用户接收访问权限的方式以及他们是通过 Web 还是移动应用等方式访问，可以进行切片。仪表板和报表发生更改时，使用情况指标报表也会随之更改（使用情况指标报表每天更新新数据）。  
 
 使用情况指标报表不会显示在“最新动态”、“工作区”、“收藏夹”或其他内容列表中。 不能将使用情况指标报表添加到应用。 如果将使用情况指标报表中的磁贴固定到仪表板，则该仪表板无法添加到应用或内容包中。
 
@@ -56,14 +57,14 @@ ms.lasthandoff: 01/23/2018
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>打开包含使用情况指标的仪表板或报表
 1. 首先，转到包含仪表板或报表的工作区。
-2. 在“工作区”内容列表或仪表板/报表本身中，选择“使用情况指标”图标 ![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)。
+2. 在“工作区”内容列表或仪表板/报表本身中，选择“使用情况指标”图标 ![使用情况指标](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)。
    
-    ![](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
+    ![“仪表板”选项卡](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
    
-    ![](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
+    ![选择使用情况指标](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
 3. 首次执行此操作时，Power BI 会创建使用情况指标报表，并在创建完成后通知你。
    
-    ![](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
+    ![指标已准备就绪](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
 4. 要打开结果，请选择“查看使用情况指标”。
    
     部署或维护 Power BI 仪表板和报表时，使用情况指标将发挥巨大作用。 想知道报表的哪些页面最有用，哪些页面应该逐渐淘汰？ 按“报表页”进行切片，即可找到答案。想知道是否应为仪表板生成移动布局？ 按“平台”进行切片，了解通过移动应用与通过 Web 浏览器访问内容的用户数。
@@ -94,14 +95,14 @@ ms.lasthandoff: 01/23/2018
 | 级别：总共享次数 |是 |否 |根据过去 90 天内组织中所有仪表板的总共享次数，确定此仪表板或报表的级别。 |
 
 ### <a name="dashboard-usage-metrics-report"></a>仪表板使用情况指标报表
-![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
+![仪表板使用情况指标报表](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ### <a name="report-usage-metrics-report"></a>报表使用情况指标报表
-![](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
+![报表使用情况指标报表](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
 ## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>将使用情况指标报表另存为功能齐全的 Power BI 报表（个性化）
 
-![](media/service-usage-metrics/power-bi-save-as.png)
+![另存为](media/service-usage-metrics/power-bi-save-as.png)
 
 使用“另存为”可以将使用情况指标报表转换成功能齐全的 Power BI 报表，从而可以进行自定义和共享。 创建个性化副本后，即会获得对基础数据集的完全访问权限，这样就可以根据特定需求自定义使用情况指标报表。 甚至可以通过[实时连接到 Power BI 服务功能](https://powerbi.microsoft.com/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop)，使用 Power BI Desktop 生成自定义使用情况指标报表。
 
@@ -116,16 +117,16 @@ ms.lasthandoff: 01/23/2018
 
 1. 在预生成的使用情况指标报表中，依次选择“文件”>“另存为”。 此时，Power BI 会将使用情况指标报表转换成功能齐全的 Power BI 报表。 这称为个性化使用情况指标报表。 个性化使用情况报表和数据集保存到当前工作区 *mihart中。
    
-    ![](media/service-usage-metrics/power-bi-save-as.png)
+    ![另存为](media/service-usage-metrics/power-bi-save-as.png)
 2. 在编辑视图中打开报表，[与报表进行交互，就像与其他任何 Power BI 报表进行交互一样](service-interact-with-a-report-in-editing-view.md)。 例如，添加新页面和生成新的可视化效果、添加筛选器、设置字体和颜色等。
    
-    ![](media/service-usage-metrics/power-vi-editing-view.png)
+    ![在“编辑”视图中打开报表](media/service-usage-metrics/power-vi-editing-view.png)
 3. 也可以从新数据集入手，从头开始生成报表。
    
-    ![](media/service-usage-metrics/power-bi-new-dataset.png)
+    ![“数据集”选项卡](media/service-usage-metrics/power-bi-new-dataset.png)
 4. 新建的报表会保存到当前工作区 mihart 中，并还会添加到“最近的创建”内容列表中。
    
-    ![](media/service-usage-metrics/power-bi-new-report.png)
+    ![“报表”选项卡](media/service-usage-metrics/power-bi-new-report.png)
 
 ### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>删除筛选器以查看工作区中的所有使用情况指标数据
 若要查看工作区中所有仪表板或所有报表的指标，必须删除筛选器。 默认情况下，个性化报表会进行筛选，仅显示用于创建它的仪表板或报表的指标。
@@ -134,10 +135,10 @@ ms.lasthandoff: 01/23/2018
 
 1. 在编辑视图中打开个性化报表。
    
-    ![](media/service-usage-metrics/power-bi-editing-view.png)
+    ![选择“编辑”报表](media/service-usage-metrics/power-bi-editing-view.png)
 2. 在“筛选器”窗格中，找到“报表级别筛选器”桶，然后选择“x”将筛选器删除。
    
-    ![](media/service-usage-metrics/power-bi-report-level-filter2.png)
+    ![删除筛选器](media/service-usage-metrics/power-bi-report-level-filter2.png)
    
     现在个性化报表将显示整个工作区的指标。
 
@@ -146,13 +147,13 @@ ms.lasthandoff: 01/23/2018
 
 1. 依次选择 Power BI 服务右上角的齿轮图标和“管理门户”，打开“管理门户”。
    
-    ![](media/service-usage-metrics/power-bi-admin-portal-new.png)
+    ![选择齿轮图标](media/service-usage-metrics/power-bi-admin-portal-new.png)
 2. 在“管理门户”中，依次选择“租户设置”和“面向内容创建者的使用情况指标”。
    
-    ![](media/service-usage-metrics/power-bi-usage-settings.png)
+    ![管理门户](media/service-usage-metrics/power-bi-usage-settings.png)
 3. 启用（或禁用）使用情况指标，然后选择“应用”。
    
-    ![](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
+    ![已启用使用情况指标](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
 当禁用其整个组织的使用指标时，管理员可以使用“删除所有现有的使用指标内容”选项删除通过使用指标报表和数据集构建的所有现有报表和仪表板磁贴。 此选项可以删除组织中可能已在使用的所有用户对使用指标数据的所有访问内容。 请谨慎操作，因为删除现有的使用指标内容是不可逆转的操作。
 

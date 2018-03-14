@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 03be98e9aa2bd4d91357cc00208d82bd0116f69c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
+ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>将自定义视觉对象发布到 AppSource
 了解如何将自定义视觉对象发布到 AppSource 供其他人发现和使用。 office
@@ -86,7 +86,7 @@ ms.lasthandoff: 01/30/2018
    * *提交标题：* 提交在开发人员中心中的命名方式
    * 版本：版本号通过外接程序应用包自动填充。
    * *发布日期 (UTC)：* 选择应用发布到应用商店的日期。 如果选定一个将来的日期，在到达该日期后，你的应用才会在应用商店中提供。
-   * *类别：* 第一个类别将自动填充为“数据可视化效果 + BI”。 这就是标记所有 Power BI 自定义视觉对象的方法。可以最多提供 2 个其他类别，以帮助用户轻松地搜索你的视觉对象
+   * *类别：* 第一个类别将自动填充为“数据可视化效果 + BI”。 这就是标记所有 Power BI 自定义视觉对象的方法。 可以最多提供 2 个其他类别，以帮助用户轻松地搜索你的视觉对象
    * *测试说明：* 可选，如果你想要为 Microsoft 测试人员提供一些说明，则可以填写此项
    * *我的应用调用、支持、包含或使用加密：* 保持未选中状态
    * *在 iPad 的 Office 外接程序目录中提供此外接程序：* 保持未选中状态
@@ -121,7 +121,7 @@ ms.lasthandoff: 01/30/2018
     > 如果没有选择免费选项，或提交的视觉对象中有应用内购买内容，那么提交会遭拒。
     > 
     > 
-17. 现在，可以选择**另存为草稿**并于稍后提交，也可以选择“提交供审批”，将自定义视觉对象提交到 Office 应用商店。
+17. 现在，可以选择“另存为草稿”并于稍后提交，也可以选择“提交供审批”，将自定义视觉对象提交到 Office 应用商店。
 
 ## <a name="tracking-submission-status-and-usage"></a>跟踪提交状态和使用情况
 可以查看[验证策略](https://dev.office.com/officestore/docs/validation-policies#13-power-bi-custom-visuals)。

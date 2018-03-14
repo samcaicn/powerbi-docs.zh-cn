@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 34574cf73d12d91df7a497cf297a9ecda9f5cc57
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 8fbc2ecafb34339a68b4ca5ecd0fa063082644a2
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>从报表将磁贴固定到 Power BI 仪表板
 ## <a name="pinning-tiles-from-a-report"></a>从报表固定磁贴
@@ -45,7 +46,7 @@ Watch Amanda 通过从 Power BI 报表固定视觉对象和图像创建仪表板
 
 1. 将鼠标悬停在你想要固定的可视化效果上方，然后选择固定![](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png)图标。 Power BI 将会打开**固定到仪表板**屏幕。
    
-     ![](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
+     ![固定到仪表板窗口](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
 2. 决定是将磁贴固定到现有仪表板还是固定到新仪表板。
    
    * 现有仪表板：从下拉列表中选择仪表板的名称。 已与你共享的仪表板不会出现在下拉列表中。
@@ -55,7 +56,7 @@ Watch Amanda 通过从 Power BI 报表固定视觉对象和图像创建仪表板
    
    会显示一条成功消息（右上角附近），告知你可视化效果已作为磁贴添加到你的仪表板中。
    
-   ![](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
+   ![成功消息](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
 5. 从导航窗格中选择具有新磁贴的仪表板。 选择该磁贴以跳转回报表。 或者，[编辑磁贴显示和行为](service-dashboard-edit-tile.md)。
 
 ## <a name="pin-an-entire-report-page"></a>固定整个报表页

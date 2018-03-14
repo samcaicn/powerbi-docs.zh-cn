@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 779ef2c532d0b580f4a3d19c50815193d03c2f07
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 82f8575c019790820aa46c75e095f8ef64bb6fde
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>在 Power BI 服务中收藏仪表板、报表和应用
 收藏内容后，可从所有工作区访问它。  收藏夹中通常放置最常访问的内容。
@@ -42,31 +42,31 @@ ms.lasthandoff: 02/24/2018
 
 
 1. 打开经常使用的仪表板或报表。 即使是与你共享的内容也可以加入收藏夹。
-2. 选择 Power BI 服务右上角的“收藏”或星形 ![](media/service-dashboard-favorite/power-bi-favorite-icon.png) 图标。
+2. 从 Power BI 服务右上角选择“收藏”或星形 ![星形图标](media/service-dashboard-favorite/power-bi-favorite-icon.png) 图标。
    
-   ![](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
+   ![“收藏”图标](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
    
    还可以从工作区的“仪表板”或“报表”内容视图选项卡中收藏仪表板或报表。
    
-   ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
+   ![带黄色星形的仪表板选项卡](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
 ## <a name="add-an-app-as-a-favorite"></a>收藏应用
 
 1. 从左侧导航窗格中，选择“应用”。
 
-  ![](media/service-dashboard-favorite/power-bi-favorite-apps.png)
+   ![仪表板](media/service-dashboard-favorite/power-bi-favorite-apps.png)
 
-2. 将鼠标悬停在应用上，显示更多详细信息。  选择星形 ![](media/service-dashboard-favorite/power-bi-favorite-icon.png) 图标收藏。
+2. 将鼠标悬停在应用上，显示更多详细信息。  选择星形 ![星形图标](media/service-dashboard-favorite/power-bi-favorite-icon.png)  图标设置为收藏。
    
-   ![](media/service-dashboard-favorite/power-bi-favorite-app.png)
+   ![将鼠标悬停在应用上](media/service-dashboard-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>使用*收藏夹*
 1. 若要访问收藏的项，请在任意工作区中，选择“收藏夹”右侧的箭头。  在此处可以选择一个收藏来打开它。 仅列出五个收藏项（按字母顺序排列）。 如果收藏数量超过五个，可选择“查看全部”打开“收藏夹”屏幕（请参阅下面的第 2 点）。 
    
-   ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
-2. 要查看已加入收藏夹的“所有”内容，请选择左侧导航窗格中的“收藏夹”或“收藏”![](media/service-dashboard-favorite/power-bi-favorites-icon.png) 图标。  
+   ![收藏夹浮出控件](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
+2. 要查看已加入收藏夹的“所有”内容，请在左侧导航窗格中选择“收藏夹”或“收藏”![星形图标](media/service-dashboard-favorite/power-bi-favorites-icon.png) 图标。  
    
-    ![](media/service-dashboard-favorite/power-bi-favorites-screen.png)
+    ![收藏夹窗口](media/service-dashboard-favorite/power-bi-favorites-screen.png)
    
    在此处可以进行的操作：打开、确定所有者，甚至与同事共享。
 
@@ -75,7 +75,7 @@ ms.lasthandoff: 02/24/2018
 
 1. 在左侧导航窗格中，选择“收藏夹”以打开“收藏夹”屏幕。
    
-   ![](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
+   ![“收藏夹”屏幕](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
 2. 选择此内容旁边的黄色星号可取消收藏。
 
 > 请注意：还可以取消收藏仪表板、报表或应用本身。 只需打开并取消选中黄色图标。   

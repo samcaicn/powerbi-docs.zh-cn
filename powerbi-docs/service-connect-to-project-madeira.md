@@ -19,10 +19,10 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
-ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>使用 Power BI 连接到 Project "Madeira"
 通过 Power BI 和 Project "Madeira" 内容包，可以轻松获得有关 Project "Madeira" 数据的深入见解。 Power BI 会检索数据（销售和财务数据），然后基于该数据生成全新的仪表板和报表。

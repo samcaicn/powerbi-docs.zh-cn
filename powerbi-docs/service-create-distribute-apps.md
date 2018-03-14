@@ -14,13 +14,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/22/2018
 ms.author: maggies
-ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Share your work
+ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中创建和发布包含仪表板和报表的应用
 
@@ -94,7 +95,7 @@ ms.lasthandoff: 02/09/2018
      ![自定义映像](media/service-create-distribute-apps/power-bi-apps-image.png)
 
 ## <a name="publish-your-app"></a>发布应用
-应用工作区中的仪表板和报表就绪时，将它们发布为应用。 注意，不必将该工作区中的所有报表和仪表板全部发布。 可以只发布已就绪的报表和仪表板。 
+应用工作区中的仪表板和报表就绪时，将它们发布为应用。 注意，不必将该工作区中的所有报表和仪表板全部发布。 可以只发布已就绪的报表和仪表板。
 
 1. 在工作区列表视图中决定应用要包含的仪表板和报表。
 
@@ -104,23 +105,23 @@ ms.lasthandoff: 02/09/2018
 
      ![关于相关仪表板的警告](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
-1. 选择右上角中的“发布应用”按钮，启动在该工作区中共享所有内容的过程。
+2. 选择右上角中的“发布应用”按钮，启动在该工作区中共享所有内容的过程。
    
      ![发布应用](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. 在“详细信息”中，填写说明以帮助用户查找应用。 可以选择背景颜色对其进行个性化设置。
+3. 在“详细信息”中，填写说明以帮助用户查找应用。 可以选择背景颜色对其进行个性化设置。
    
      ![应用详细信息](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. 在“内容”中，会看到即将作为应用的一部分进行发布的内容，即已在该工作区中选择的所有内容。 此外，还可以设置应用登录页，即当用户转到你的应用时首先看到的仪表板或报表。 你可以选择“无”。 然后，他们将登录到应用中的所有内容列表。 
+4. 在“内容”中，会看到即将作为应用的一部分进行发布的内容，即已在该工作区中选择的所有内容。 此外，还可以设置应用登录页，即当用户转到你的应用时首先看到的仪表板或报表。 你可以选择“无”。 然后，他们将登录到应用中的所有内容列表。 
    
      ![应用内容](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. 在“访问”中，决定有权访问应用的人员：要么是组织中的所有人，要么是特定人员或者 Active Directory 安全组。 如果具有相应的权限，则可以决定是否为收件人自动安装应用。
+5. 在“访问”中，决定有权访问应用的人员：要么是组织中的所有人，要么是特定人员或者 Active Directory 安全组。 如果具有相应的权限，则可以决定是否为收件人自动安装应用。 可以在 [Power BI 管理门户](#how-to-enable-pushing-apps)启用此设置. 可以详细了解有关[推送应用](#how-to-enable-pushing-apps)的注意事项。
 
     ![应用访问](media/service-create-distribute-apps/power-bi-apps-access.png)
 
-5. 选择“完成”时，将看到一条消息，确认已准备好发布。 在成功对话框中，你可以复制直接链接到此应用的 URL 并将其发送给共享的人员。
+6. 选择“完成”时，将看到一条消息，确认已准备好发布。 在成功对话框中，你可以复制直接链接到此应用的 URL 并将其发送给共享的人员。
    
      ![应用完成](media/service-create-distribute-apps/power-bi-apps-success.png)
 
@@ -138,7 +139,7 @@ ms.lasthandoff: 02/09/2018
    
      应用工作区为临时区域，因此所做的更改在再次发布前不会实时推送到应用。 这样就方便进行更改，而不会影响已发布的应用。  
  
-1. 返回到内容的应用工作区列表，再选择“更新应用”。
+3. 返回到内容的应用工作区列表，再选择“更新应用”。
    
      ![更新应用按钮](media/service-create-distribute-apps/power-bi-app-update-button.png)
 
@@ -147,6 +148,32 @@ ms.lasthandoff: 02/09/2018
      ![更新应用按钮](media/service-create-distribute-apps/power-bi-app-update-complete.png)
 
 应用的发布对象会自动看到更新版应用。 
+
+# <a name="automatically-install-apps-for-end-users"></a>自动为最终用户安装应用
+可以自动为最终用户安装应用，从而更轻松地将正确的应用分发给合适的人员或组。
+
+应用提供最终用户完成作业所需的数据。 现在可以自动将这些应用安装在应用内容列表中，而无需从 Microsoft AppSource 或通过安装链接查找。 这样，你可以更轻松地向用户推出标准 Power BI 内容。
+
+## <a name="how-to-install-an-app-automatically-for-end-users"></a>如何自动为最终用户安装应用
+一旦管理员启用该功能，应用发布者就会提供新选项以自动安装该应用。 当选中该框，并且应用程序发布者选择“完成”（或为现有应用选择“更新应用”）时，该应用将推送到“访问”选项卡的应用的“权限”部分定义的所有用户或组。
+
+![启用推送应用功能](media/service-create-distribute-apps/power-bi-apps-access.png)
+
+## <a name="how-users-get-the-apps-that-were-pushed-to-them"></a>用户如何获取已推送给他们的应用
+推送应用后，应用将自动显示在应用列表中。 你可以精选组织中用户或工作角色需要随时使用的应用。
+
+![启用推送应用功能](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+
+### <a name="considerations-for-automatically-installing-apps"></a>自动安装应用的注意事项
+下面是将应用推送给最终用户时需要注意的一些事项：
+
+* 自动向用户安装应用可能需要一些时间。 大多数应用将立即为用户安装，但推送应用可能需要一些时间。  这取决于应用中的项数和授予访问权限的人员数。 我们建议在下班期间推送应用，那时的时间充足，用户也不需要使用应用。 请先与多位用户验证，再发送有关应用可用性的广泛沟通。
+
+* 刷新浏览器。 用户可能需要刷新或关闭和重新打开浏览器才能看到“应用”列表中的推送应用。
+
+* 如果用户没有在“应用”列表中立即看到应用，则应刷新或关闭浏览器并重新打开。
+
+* 尽量不要让用户不知所措。 请注意不要推送太多应用，以便用户了解预先安装的应用是有用的。 最好控制可以将应用推送给最终用户的人员，以协调计时。 可以建立一个联系点，用于将组织中的应用推送给最终用户。
 
 ## <a name="unpublish-an-app"></a>取消发布应用
 应用工作区的任何成员都可以取消发布应用。
@@ -167,7 +194,7 @@ ms.lasthandoff: 02/09/2018
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>应用与组织内容包有什么不同？
 应用由内容包发展和简化而来，它们存在以下几个主要区别。 
 
-* 业务用户在安装内容包后，它将失去其分组的标识：它只是穿插了其他仪表板和报表的仪表板和报表列表。 另一方面，应用即使在安装后也会维护其分组和标识。 因此，随着时间的推移，业务用户能够继续轻松地导航到应用。  
+* 业务用户在安装内容包后，它将失去其分组的标识：它只是穿插了其他仪表板和报表的仪表板和报表列表。 另一方面，应用即使在安装后也会维护其分组和标识。 因此，随着时间的推移，业务用户能够继续轻松地导航到应用。
 * 你可以从任何工作区创建多个内容包，但应用与其工作区具备一对一的关系。 我们认为，这使应用更易于理解，并且在长时间运行后更容易对其进行维护。 若要详细了解我们计划如何改进这一方面，请参阅 Power BI 博客的路线图部分。 
 * 随着时间的推移，我们计划弃用组织内容包，因此，我们建议你从现在开始构建应用。  
 
@@ -179,5 +206,5 @@ ms.lasthandoff: 02/09/2018
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中安装并使用应用](service-install-use-apps.md)
 * [适用于外部服务的 Power BI 应用](service-connect-to-services.md)
+* [Power BI 管理门户](https://docs.microsoft.com/en-us/power-bi/service-admin-portal)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
-

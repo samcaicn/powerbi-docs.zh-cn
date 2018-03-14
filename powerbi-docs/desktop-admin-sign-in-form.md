@@ -18,10 +18,10 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 ms.openlocfilehash: 519f8b56b5086292addf577d969a707a6d6efcc8
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="how-administrators-can-manage-the-power-bi-desktop-sign-in-form"></a>管理员如何管理 Power BI Desktop 登录窗体
 首次启动 Power BI Desktop 时，将会看到登录窗体。 若要继续操作，可以填写信息或登录 Power BI。 管理员可以使用注册表项来管理此窗体。 

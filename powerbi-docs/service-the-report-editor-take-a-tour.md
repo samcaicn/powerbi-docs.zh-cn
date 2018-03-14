@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Reports
+ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>报表编辑器...教程
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>编辑 Power BI 服务和 Power BI Desktop 中的报表
@@ -46,7 +47,7 @@ Power BI 报表编辑器由 3 部分组成：
 ![](media/service-the-report-editor-take-a-tour/power-bi-report-canvas.png)
 
 ## <a name="1-the-report-editor-panes"></a>1.报表编辑器窗格
-![](media/service-the-report-editor-take-a-tour/power-bi-report-panes.png)
+![Power BI 报表编辑器](media/service-the-report-editor-take-a-tour/power-bi-report-panes.png)
 
 首次打开报表时可看到 3 个窗格：“可视化效果”、“筛选器”和“字段”。 左侧窗格“可视化效果”和“筛选器”可控制可视化效果的外观，其中包括类型、字体、筛选、格式设置。  而右侧窗格上的“字段”则可管理将用于可视化效果的基础数据。 
 
@@ -54,30 +55,30 @@ Power BI 报表编辑器由 3 部分组成：
 
 |  |  |
 | --- | --- |
-| ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>“可视化效果”窗格顶部会标识出正在使用的视觉对象类型；在本例中，就是簇状柱形图。<br><br></li> <li>“可视化效果”窗格底部（可能需要向下滚动）则会显示视觉对象中正在使用的字段。 此图使用 FiscalMonth、DistrictManager 和 Total Sales Variance。 <br><br></li><li>“筛选器”窗格（可能需要向下滚动）将显示已应用的所有筛选器。 <br><br></li><li>“字段”窗格中列出可用的表，如果展开表的名称，还会列出构成该表的字段。 黄色字体告诉用户可视化效果中至少正在使用该表格中的一个字段。<br><br></li><li>![](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png)要显示“格式设置”窗格，请为所选的可视化效果选择滚筒刷图标。<br><br></li><li>![](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) 若要显示“分析”窗格，请选择放大镜图标。</ul> |
+| ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>“可视化效果”窗格顶部会标识出正在使用的视觉对象类型；在本例中，就是簇状柱形图。<br><br></li> <li>“可视化效果”窗格底部（可能需要向下滚动）则会显示视觉对象中正在使用的字段。 此图使用 FiscalMonth、DistrictManager 和 Total Sales Variance。 <br><br></li><li>“筛选器”窗格（可能需要向下滚动）将显示已应用的所有筛选器。 <br><br></li><li>“字段”窗格中列出可用的表，如果展开表的名称，还会列出构成该表的字段。 黄色字体告诉用户可视化效果中至少正在使用该表格中的一个字段。<br><br></li><li>![滚动油漆刷图标](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) 要显示“格式设置”窗格，请为所选的可视化效果选择滚动油漆刷图标。<br><br></li><li>![放大镜图标](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) 要显示“分析”窗格，请选择放大镜图标。</ul> |
 |  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>可视化效果窗格（从上到下）
-![](media/service-the-report-editor-take-a-tour/selectviz.png)
+![“可视化效果”窗格顶部](media/service-the-report-editor-take-a-tour/selectviz.png)
 
 在此处选择可视化效果类型。 小图片称为*模板*。 在上图中，已选择“簇状条形图”。 如果未首先选择可视化效果类型，而是通过选择字段开始生成可视化效果，则 Power BI 将为你选择可视化效果类型。 你可以保留 Power BI 的选择或通过选择不同的模板更改类型。 可以根据需要进行多次切换，找到最能代表你的数据的可视化效果类型。
 
 ### <a name="manage-the-fields-used-in-your-visual"></a>管理视觉对象中使用的字段。
-![](media/service-the-report-editor-take-a-tour/power-bi-field-list.png)
+![“可视化效果”窗格中部](media/service-the-report-editor-take-a-tour/power-bi-field-list.png)
 
-此窗格中显示的存储桶（有时称为*井*）根据所选择的可视化效果类型而有所不同。  例如，如果选择的是条形图，则会看到以下存储桶：值、轴和图例。 当选择某个字段时，或将其拖到画布上时，Power BI 会将该字段添加到其中一个存储桶。  也可以直接将“字段”列表中的字段拖动到存储桶中。  某些存储桶仅限于特定类型的数据。  例如，**值**将不会接受非数字字段。 因此，如果将**员工姓名**字段拖入**值**存储桶，Power BI 会将其更改为**员工姓名计数**。
+此窗格中显示的存储桶（有时称为 *井* ）根据所选择的可视化效果类型而有所不同。  例如，如果选择的是条形图，则会看到以下存储桶：值、轴和图例。 当选择某个字段时，或将其拖到画布上时，Power BI 会将该字段添加到其中一个存储桶。  也可以直接将“字段”列表中的字段拖动到存储桶中。  某些存储桶仅限于特定类型的数据。  例如，**值**将不会接受非数字字段。 因此，如果将**员工姓名**字段拖入**值**存储桶，Power BI 会将其更改为**员工姓名计数**。
 
 ### <a name="remove-a-field"></a>删除字段
 若要从可视化效果中删除字段，请选择字段名称右侧的“X”。
 
-![](media/service-the-report-editor-take-a-tour/deletefield.png)
+![从图例中删除 StoreType](media/service-the-report-editor-take-a-tour/deletefield.png)
 
 有关详细信息，请参阅[向 Power BI 报表添加可视化效果](power-bi-report-add-visualizations-i.md)。
 
 ### <a name="format-your-visuals"></a>格式化视觉对象
 选择滚动油漆刷图标，以显示“格式设置”窗格。 可用的选项取决于所选可视化效果的类型。
 
-![](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
+![“格式设置”窗格](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
 
 几乎可以进行任何格式设置。  若要了解详细信息，可以自行探索或参阅以下文章：
 
@@ -97,7 +98,7 @@ Power BI 报表编辑器由 3 部分组成：
 
 “筛选器”窗格还具有另一个强大功能 - 使用尚未在报表其中一个视觉对象中使用的字段进行筛选的能力。 我来解释一下。 在创建报表页时，Power BI 会自动将在可视化效果中使用的所有字段添加到“筛选器”窗格的视觉对象级别筛选器区域。  但是，如果希望通过当前未在可视化效果中使用的字段来设置视觉对象、页面、钻取或报表筛选器，只需将其拖到其中一个筛选器 Bucket。   
 
-![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
+![“筛选器”窗格](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 有关详细信息，请参阅[向报表添加筛选器](power-bi-report-add-filter.md)。
 
@@ -107,20 +108,20 @@ Power BI 报表编辑器由 3 部分组成：
 
 |  |  |
 | --- | --- |
-| ![](media/service-the-report-editor-take-a-tour/reportfields.png) |<ul><li>将字段拖到页上，以启动一个新的可视化效果。  还可以将字段拖动到现有可视化效果，以将字段添加到该可视化效果。<br><br></li> <li>添加某一字段旁的选中标记时，Power BI 会将该字段添加到活动（或新的）可视化效果中。 它还决定将该字段放入哪个存储桶。  例如，该字段应用于图例、轴还是值？ Power BI 进行最佳推测，如有必要，可以将其从一个存储桶移动到另一个。 <br><br></li><li>无论哪种方式，每个所选的字段都会被添加到报表编辑器中的可视化效果窗格。</li></ul> |
+| ![“字段”窗格](media/service-the-report-editor-take-a-tour/reportfields.png) |<ul><li>将字段拖到页上，以启动一个新的可视化效果。  还可以将字段拖动到现有可视化效果，以将字段添加到该可视化效果。<br><br></li> <li>添加某一字段旁的选中标记时，Power BI 会将该字段添加到活动（或新的）可视化效果中。 它还决定将该字段放入哪个存储桶。  例如，该字段应用于图例、轴还是值？ Power BI 进行最佳推测，如有必要，可以将其从一个存储桶移动到另一个。 <br><br></li><li>无论哪种方式，每个所选的字段都会被添加到报表编辑器中的可视化效果窗格。</li></ul> |
 
 **注意**：如果使用的是 Power BI Desktop，则还可以选择显示/隐藏字段、添加计算等。
 
 ### <a name="what-do-the-field-icons-mean"></a>字段图标的涵义
 * **∑ 聚合**聚合是一个数值，例如，可对其求和或求平均值。 聚合随数据一起导入（在报表所基于的数据模型中定义）。
   有关详细信息，请参阅 [Power BI 报表中的聚合函数](service-aggregates.md)。
-* ![](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png)**计算度量值（亦称为“计算字段”）**  
+* ![计算器图标](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png)计算度量值（亦称为计算字段）  
    各个计算字段都具有其自己的硬编码公式。 不能更改此计算，例如，如果该计算是求和，则只能进行求和。 有关详细信息，请参阅[了解度量值](desktop-measures.md)
-* ![](media/service-the-report-editor-take-a-tour/icon.png)唯一字段  
+* ![唯一字段图标](media/service-the-report-editor-take-a-tour/icon.png)唯一字段  
    具有此图标的字段是从 Excel 导入的，因此将被设置为显示全部值，即使它们具有重复项也是如此。 例如，你的数据可能有两条人名为 John Smith 的记录，每一条都将被视为唯一（不会总结这两条）。  
-* **![](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) 地理位置字段**  
+* ![地理位置图标](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png)地理位置字段  
    地理字段可用于创建地图可视化效果。 
-* **![](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png) 层次结构**  
+* ![层次结构图标](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png)层次结构  
    选择箭头以显示构成层次结构的字段。 
 
 - - -

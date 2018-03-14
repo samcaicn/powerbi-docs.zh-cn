@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: b9e72c57ccd165ed02424e303c5ec54f179868e0
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: b85fe5cf70c915a3355c80a61f01a32216450f03
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>显示用于创建可视化效果的数据
 ## <a name="show-data"></a>显示数据
@@ -38,16 +39,16 @@ Power BI 可视化效果是使用数据集中的数据创建的。 如果你对�
 1. 在 Power BI 服务中，以[阅读视图或编辑视图](service-reading-view-and-editing-view.md)打开报表，然后选择一个视觉对象。  在 Power BI Desktop 中，打开“报表”视图。
 2. 若要显示视觉对象背后的数据，请依次选择“浏览” > “显示数据”。
    
-   ![](media/service-reports-show-data/power-bi-show-data.png)
+   ![选择“显示数据”](media/service-reports-show-data/power-bi-show-data.png)
 3. 默认情况下，该数据将显示以下视觉对象。
    
-   ![](media/service-reports-show-data/power-bi-explore-show-data.png)
+   ![垂直显示视觉对象和数据](media/service-reports-show-data/power-bi-explore-show-data.png)
 4. 若要更改方向，可从可视化效果的右上角选择垂直布局 ![](media/service-reports-show-data/power-bi-vertical-icon-new.png)。
    
-   ![](media/service-reports-show-data/power-bi-explore-show-data2.png)
+   ![水平显示视觉对象和数据](media/service-reports-show-data/power-bi-explore-show-data2.png)
 5. 若要将数据导出到 .csv 文件中，请依次选择省略号和“**导出数据**”。
    
-    ![](media/service-reports-show-data/power-bi-export-data-new.png)
+    ![选择“导出数据”](media/service-reports-show-data/power-bi-export-data-new.png)
    
     有关将数据导出到 Excel 的详细信息，请参阅[从 Power BI 可视化效果导出数据](power-bi-visualization-export-data.md)。
 6. 若要隐藏数据，请依次取消选择“浏览” > “显示数据”。

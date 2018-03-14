@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 527978a3559abdc7c46b08569af40b769e9054e4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b38866b2a9989af529e89cd358f25716072c46bb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 和 Power BI
 
@@ -46,44 +46,44 @@ ms.lasthandoff: 02/24/2018
 1. 登录到 Microsoft Flow (flow.microsoft.com)。
 2. 选择“**我的流**”。
    
-   ![](media/service-flow-integration/power-bi-my-flows.png)
+   ![流菜单栏](media/service-flow-integration/power-bi-my-flows.png)
 3. 选择“**使用模板创建**”。
    
-    ![](media/service-flow-integration/power-bi-template.png)
+    ![我的流菜单栏](media/service-flow-integration/power-bi-template.png)
 4. 在搜索框中查找 Power BI 模板，然后选择“在触发 Power BI 数据警时，向任何受众发送电子邮件>继续”。
    
-    ![](media/service-flow-integration/power-bi-flow-alert.png)
+    ![搜索结果](media/service-flow-integration/power-bi-flow-alert.png)
 
 
 ### <a name="build-the-flow"></a>生成流
 此模板包含一个触发器（通知爱尔兰新获奥运会奖牌的 Power BI 数据警报）和一个操作（发送电子邮件）。 在你选择字段的同时，Flow 会显示可以包含的动态内容。  在此示例中，我们将在消息正文中添加磁贴值和磁贴 URL。
 
-![](media/service-flow-integration/power-bi-template1.png)
+![流模板](media/service-flow-integration/power-bi-template1.png)
 
 1. 在触发器下拉列表中，选择一个 Power BI 数据警报。 选择“**爱尔兰新获奖牌**”。 若要了解如何创建警报，请参阅 [Power BI 中的数据警报](service-set-data-alerts.md)。
    
-   ![](media/service-flow-integration/power-bi-trigger-flow.png)
+   ![警报下拉列表](media/service-flow-integration/power-bi-trigger-flow.png)
 2. 输入一个或多个有效电子邮件地址，然后选择“编辑”（如下所示） 或“添加动态内容”。 
    
-   ![](media/service-flow-integration/power-bi-flow-email.png)
+   ![发送电子邮件屏幕](media/service-flow-integration/power-bi-flow-email.png)
 
 3. 流会为你创建可保留或修改的标题和消息。 在 Power BI 中创建警报时设置的所有值都可供使用 -- 只需将光标置于其中并从灰色突出显示区域选择即可。 
 
-   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+   ![发送电子邮件屏幕](media/service-flow-integration/power-bi-flow-email-default.png)
 
 1.  例如，如果你在 Power BI 中创建了警报标题“我们获得了另一枚奖牌”，则可以选择“警报标题”将该文本添加到电子邮件的“主题”字段。
 
-    ![](media/service-flow-integration/power-bi-flow-message.png)
+    ![创建电子邮件文本](media/service-flow-integration/power-bi-flow-message.png)
 
     而且，你可以接受默认电子邮件正文或自行创建正文。 以上示例包含对消息的一些修改。
 
 1. 完成后，选择“创建流”或“保存流”。  此时，系统已创建并计算流。  Flow 会在有错误时提示你。
 2. 如果有错误，请选择“**编辑流**”修复错误。如果没有错误，请选择“**完成**”运行这一新流。
    
-   ![](media/service-flow-integration/power-bi-flow-running.png)
+   ![成功消息](media/service-flow-integration/power-bi-flow-running.png)
 5. 触发数据警报时，将向你指定的地址发送一封电子邮件。  
    
-   ![](media/service-flow-integration/power-bi-flow-email2.png)
+   ![警报电子邮件](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>从头开始创建使用 Power BI 的 Flow
 在此任务中，我们将从头开始创建一个由 Power BI 数据警报（通知）触发的简单流。
@@ -91,28 +91,28 @@ ms.lasthandoff: 02/24/2018
 1. 登录 Microsoft Flow。
 2. 依次选择“我的流” > “从头开始创建”。
    
-   ![](media/service-flow-integration/power-bi-my-flows.png)
+   ![流顶部菜单栏](media/service-flow-integration/power-bi-my-flows.png)
 3. 在搜索框中查找 Power BI 触发器，然后选择“Power BI - 当数据驱动警报触发时”。
 
 ### <a name="build-your-flow"></a>生成流
 1. 在下拉列表中，选择警报名称。  若要了解如何创建警报，请参阅 [Power BI 中的数据警报](service-set-data-alerts.md)。
    
-    ![](media/service-flow-integration/power-bi-totalstores2.png)
+    ![选择警报名称](media/service-flow-integration/power-bi-totalstores2.png)
 2. 依次选择“**下一步**” > “**添加操作**”。
    
-   ![](media/service-flow-integration/power-bi-new-step.png)
+   ![添加新步骤](media/service-flow-integration/power-bi-new-step.png)
 3. 搜索 **Outlook**，然后选择“**创建事件**”。
    
-   ![](media/service-flow-integration/power-bi-create-event.png)
+   ![生成流](media/service-flow-integration/power-bi-create-event.png)
 4. 填写事件字段。 在你选择字段的同时，Flow 会显示可以包含的动态内容。
    
-   ![](media/service-flow-integration/power-bi-flow-event.png)
+   ![继续生成流](media/service-flow-integration/power-bi-flow-event.png)
 5. 完成后，选择“**创建流**”。  此时，Flow 会保存并计算流。 如果没有错误，请选择“**完成**”运行此流。  此时，系统会将这一新流添加到“**我的流**”页中。
    
-   ![](media/service-flow-integration/power-bi-flow-running.png)
+   ![完成流](media/service-flow-integration/power-bi-flow-running.png)
 6. 当 Power BI 数据警报触发流时，你会收到如下 Outlook 事件通知。
    
-    ![](media/service-flow-integration/power-bi-flow-notice.png)
+    ![流触发 Outlook 通知](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>后续步骤
 * [开始使用 Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)

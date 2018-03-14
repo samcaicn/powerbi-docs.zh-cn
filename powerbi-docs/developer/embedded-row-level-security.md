@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 0d7127d43e2764e1dcd15f7052b3367c8629d2f6
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>对 Power BI 已嵌入内容使用行级别安全性
 行级安全性 (RLS) 可用于限制用户对仪表板、磁贴、报表和数据集中数据的访问。 多个不同的用户都可以在查看不同的数据时处理这些相同的项目。 嵌入支持 RLS。
@@ -140,6 +140,47 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 可以在嵌入令牌中通过标识提供角色。 如果没有提供角色，则提供的用户名将用于解析相关角色。
 
+**使用 CustomData 功能**
+
+CustomData 功能允许使用 CustomData 连接字符串属性传递自定义文本，供 AS（通过 CUSTOMDATA() 函数）使用。
+这种方法可以用作自定义数据消耗的替代方法。
+可以在角色 DAX 查询中使用它，并且可以在度量值 DAX 查询中使用，而无需任何角色。
+CustomData 功能属于令牌生成功能，适用于以下项目：仪表板、报表和磁贴。 仪表板可以具有多个 CustomData 标识（每个磁贴/模型一个）。
+
+> [!NOTE]
+> CustomData 功能仅适用于驻留在 Azure Analysis Services 中的模型，并且仅适用于实时模式。 与用户和角色不同的是，自定义数据功能不能在 .pbix 文件中设置。 使用自定义数据功能生成令牌时，必须拥有用户名。
+>
+>
+
+**CustomData SDK 添加件**
+
+CustomData 字符串属性已添加到令牌生成方案中的有效标识。
+        
+        [JsonProperty(PropertyName = "customData")]
+        public string CustomData { get; set; }
+
+借助以下调用，可使用自定义数据创建标识：
+
+        public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+
+**CustomData SDK 用法**
+
+如果要调用 REST API，则可以在每个标识中添加自定义数据，例如：
+
+```
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "username": "EffectiveIdentity",
+            "roles": [ "Role1", "Role2" ],
+            "customData": "MyCustomData",
+            "datasets": [ "fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc" ]
+        }
+    ]
+}
+```
+
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 * 使用嵌入令牌时，在 Power BI 服务中向角色分配用户不会影响 RLS。
 * 虽然 Power BI 服务不会将 RLS 设置应用于管理员或具有编辑权限的成员，当提供具有嵌入令牌的标识时，它将应用于数据。
@@ -150,4 +191,3 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 * 使用标识列表可以嵌入仪表板的多个标识标记。 对于其他所有项目，该列表包含单个标识。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

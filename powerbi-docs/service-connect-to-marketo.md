@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: d747b357315e275fae2f65d7e4e961f4867807a3
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>使用 Power BI 连接到 Marketo
 使用 Power BI 的 Marketo 内容包，你可以通过有关潜在客户的数据及其活动，深入了解 Marketo 帐户。创建此连接将检索数据，并自动提供以该数据为基础的仪表板和相关报表。
@@ -78,7 +79,7 @@ ms.lasthandoff: 02/19/2018
 
 **API 限制详细信息**
 
-使用 Marketo API 从 Marketo 导入数据。 Marketo 的每位客户具有每天 10,000 个 API 调用的总限制，使用 Marketo API 的所有应用程序之间共享此限制。 你可以将这些 API 用于其他集成以及 Power BI 集成。 有关这些 API 的详细信息，请参阅：<http://developers.marketo.com/documentation/rest/>。
+使用 Marketo API 从 Marketo 导入数据。 Marketo 的每位客户具有每天 10,000 个 API 调用的总限制，使用 Marketo API 的所有应用程序之间共享此限制。 你可以将这些 API 用于其他集成以及 Power BI 集成。 有关 API 的详细信息，请参阅：<http://developers.marketo.com/documentation/rest/>。
 
 Power BI 对 Marketo 进行的 API 调用量取决于你的 Marketo 帐户中的数据量。 Power BI 会导入上一年的所有潜在客户和活动。 以下是来自 Marketo 的数据，以及 Power BI 在导入时使用的 API 调用数量的示例：  
 

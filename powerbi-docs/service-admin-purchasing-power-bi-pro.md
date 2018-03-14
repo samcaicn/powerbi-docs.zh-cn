@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: maghan
-ms.openlocfilehash: 6019cde4864087c75b22663ff5461790d4e24961
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: c4fa2e0e2927f8050648884e1833adf618a7d4f5
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>购买 Power BI Pro
 Power BI Pro 是用来为用户发布报表、共享仪表板、促成工作区内同事合作和进行其他相关活动，例如：
@@ -63,7 +64,7 @@ IT 管理员有几个在组织中使用 Power BI Pro 的选项。 可以通过 O
 > 2017 年 6 月 1 日推出了 Power BI Premium 并发布了对 Power BI 免费版产品/服务的更改，因此你可能符合使用扩展的 Pro 试用版的条件。 有关详细信息，请参阅[延长 Power BI Pro 试用期激活](service-extended-pro-trial.md)。
 
 ### <a name="what-this-looks-like-within-the-service"></a>这在服务中显示的内容
-使用服务时，可以转到**齿轮*图标，然后选择“管理个人存储”，从而验证拥有的是否是 Pro 试用版帐户。
+使用服务时，可以转到齿轮图标，然后选择“管理个人存储”，从而验证拥有的是否是 Pro 试用版帐户。
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro-trial3.png)
 

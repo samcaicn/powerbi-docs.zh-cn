@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/15/2017
+ms.date: 3/5/2018
 ms.author: maggies
-ms.openlocfilehash: c8b07e8c2370f7a1694b18a87b2704a7f164f79f
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: 0f0e8422edd2f8c1a34d82be065ffde554c96400
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>快速入门：为 Power BI 报表服务器创建 Power BI 报表
 可以在 Power BI 报表服务器 Web 门户中在本地存储和管理 Power BI 报表，就像在 Power BI 服务 (https://powerbi.com) 中的云中存储 Power BI 报表一样。 可以在 Power BI Desktop 中创建和编辑报表，并将其发布到 Web 门户中。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。

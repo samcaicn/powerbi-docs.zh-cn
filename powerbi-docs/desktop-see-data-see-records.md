@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/22/2018
 ms.author: davidi
-ms.openlocfilehash: a61a5d46c2f663ff7e8388a862f5649487504092
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Learn more
+ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>使用 Power BI Desktop 的“查看数据”和“查看记录”功能
 在 **Power BI Desktop** 中，可以深入了解任意视觉对象的详细信息，并能查看选定视觉对象的数据文本或单个数据元素文本。 这些功能有时亦称为“单击后了解详细信息”、“深入了解”或“深入了解详细信息”。
@@ -69,6 +70,9 @@ ms.lasthandoff: 01/25/2018
 在你选择“**查看记录**”后，**Power BI Desktop** 会重点关注单个数据元素，并在画布空间内专门显示该元素的数据，如下图所示。
 
 ![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+
+> [!NOTE]
+> 无法将“查看记录”视图中查看的（或用户修改的）数据更改保存到报表。
 
 若要返回报表，请选择画布左上角的“**返回报表**”按钮。
 

@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: 
 author: mihart
 manager: kfile
-backup: 
+backup: lukaszp
 editor: 
 tags: 
 featuredvideoid: EKVvOZmxg9s
@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: a1f424229a05b7f4b5507100287719f8d4cac005
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: e2a56510b409e001db94164d5856e4c036e3f391
+ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/01/2018
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>在 Power BI 服务和 Power BI Desktop 中创建 ESRI ArcGIS 地图
 本教程是从 ArcGIS 地图创建者的角度进行编写。 创建者与同事共享 ArcGIS 地图后，此同事便可以查看相应的地图并与之交互，但无法保存更改。 若要详细了解如何查看 ArcGIS 地图，请参阅[与 ArcGIS 地图交互](power-bi-visualizations-arcgis.md)。
@@ -43,7 +44,7 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 > 请访问 [ESRI 上的 Power BI 页面](https://www.esri.com/powerbi)，查看多个示例并阅读用户感言。 然后查看 ESRI 的[适用于 Power BI 的 ArcGIS 地图入门页](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm)。
 
 ## <a name="user-consent"></a>用户须知
-ArcGIS Maps for Power BI 由 [Esri](https://www.esri.com) 提供。 你使用 ArcGIS Maps for Power BI 必须遵守 Esri 的条款和隐私策略。 Power BI 用户如果希望使用适用于 Power BI 的 ArcGIS 地图视觉对象，则需要接受同意对话框。
+ArcGIS Maps for Power BI 由 Esri (www.esri.com) 提供。 你使用 ArcGIS Maps for Power BI 必须遵守 Esri 的条款和隐私策略。 Power BI 用户如果希望使用适用于 Power BI 的 ArcGIS 地图视觉对象，则需要接受同意对话框。
 
 资源
 
@@ -316,6 +317,14 @@ IT 管理员选项 Power BI Desktop 支持使用组策略在整个组织内的�
 对街道地址进行地理编码时，只会对前 1500 个地址进行地理编码。 对地名或国家/地区进行地理编码时，没有前 1500 个地址限制。
 
 <br/>
+
+**ArcGIS Maps for Power BI 如何运作？**
+ArcGIS Maps for Power BI 由 Esri (www.esri.com) 提供。 使用 ArcGIS Maps for Power BI 时，必须遵守 Esri 的[条款](https://go.microsoft.com/fwlink/?LinkID=8263222)和[隐私策略](https://go.microsoft.com/fwlink/?LinkID=826323)。 Power BI 用户如果希望使用适用于 Power BI 的 ArcGIS 地图视觉对象，则需要接受同意对话框（有关详细信息，请参阅《用户同意》）。  使用 Esri 的 ArcGIS Maps for Power BI 时，必须遵守 Esri 的条款和隐私策略，同意对话框具有相关链接。 每个用户在首次使用 ArcGIS Maps for Power BI 之前，必须同意条款和隐私策略。 一旦用户接受同意，绑定到视觉对象的数据至少会发送到 Esri 的服务以进行地理编码，这意味着将位置信息转换为可以在地图中表示经度和纬度的信息。 应该假定可以将绑定到数据可视化效果的任意数据发送到 Esri 的服务。 Esri 提供基本地图、空间分析和地理编码之类的服务。ArcGIS Maps for Power BI 视觉对象与使用 SSL 连接的这些服务进行交互，该连接由 Esri 提供和维护的证书保护。 可以从 Esri 的 [ArcGIS Maps for Power BI 产品页](https://www.esri.com/powerbi)获取 ArcGIS Maps for Power BI 的其他信息。
+
+当用户通过 ArcGIS Maps for Power BI 注册由 Esri 提供的 Plus 订阅时，他们与 Esri 建立了直接关系。 Power BI 不向 Esri 发送有关用户的个人信息。 用户使用自己的 AAD 身份登录并信任 Esri 提供的 AAD 应用程序。 通过此操作，用户直接与 Esri 共享其个人信息。 一旦用户将 Plus 内容添加到 ArcGIS Maps for Power BI 视觉对象，其他 Power BI 用户也需要 Esri 的 Plus 订阅才能查看或编辑该内容。 
+
+有关 ArcGIS Maps for Power BI 的工作原理的详细技术问题，请通过其支持站点与 Esri 联系。
+
 
 使用适用于 Power BI 的 ArcGIS 地图需要付费吗？
 

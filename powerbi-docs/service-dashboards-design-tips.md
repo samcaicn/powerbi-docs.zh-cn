@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 83b813ccdc9ed0ef232f5eede715ad3a795253d0
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>设计出色 Power BI 仪表板的提示
 现在，你已创建了一个仪表板并添加了一些磁贴，可考虑如何使你的仪表板不仅美观，而且实用。 一般来说，这意味着突出显示最重要的信息，使其整洁有序。
@@ -50,7 +51,7 @@ ms.lasthandoff: 01/03/2018
 
 ### <a name="make-the-most-important-information-biggest"></a>让最重要的信息以最大字体显示
 如果仪表板上的文本和可视化效果大小相同，你的读者会很难将重点放在最重要的信息上。 例如，卡片可视化效果是突出显示重要数字的好办法：  
-![](media/service-dashboards-design-tips/pbi_card.png)
+![卡片可视化效果](media/service-dashboards-design-tips/pbi_card.png)
 
 但请务必提供上下文。  
 

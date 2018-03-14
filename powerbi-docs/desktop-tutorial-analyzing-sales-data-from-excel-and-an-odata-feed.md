@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Learn more
+ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>教程：分析来自 Excel 和 OData 源的销售数据
 使用 **Power BI Desktop**，你可以连接到各种类型的不同数据源，然后以形成有趣和令人信服的数据分析和可视化效果的方式对它们进行合并和调整。 在本教程中，你将了解如何合并来自两个数据源的数据。 
@@ -34,7 +35,7 @@ ms.lasthandoff: 01/30/2018
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
-若要按照本教程中的步骤，你需要 Products 工作簿，可通过以下方式下载**：**[单击](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[此处](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[下载](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[。](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
+若要安装本教程中的步骤，需要 Products 工作簿，可以通过以下方式下载：[单击此处下载 Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
 
 在**另存为**对话框中，将文件命名为**Products.xlsx**。
 

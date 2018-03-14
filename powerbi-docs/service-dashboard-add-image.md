@@ -20,10 +20,10 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 7927e43f570912b341ccd99dcbc1a7b8003c2fd1
-ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="add-an-image-to-a-power-bi-dashboard"></a>向 Power BI 仪表板添加图像
 将独立图像添加到仪表板有以下几种方法：一种方法是将图像从报表固定到仪表板，另一种方法是使用“**添加磁贴**”将其直接添加到仪表板。  有关详细信息，请访问以下文章：

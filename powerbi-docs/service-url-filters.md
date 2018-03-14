@@ -16,18 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 5015886d0314c767bc16fe223c7db91adb0fd2bb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 在 Power BI 服务中打开报表时，报表的每一页都有自己的专属 URL。 若要筛选报表页，可以使用报表画布上的“筛选器”窗格。  也可以向 URL 添加查询字符串参数来筛选报表。 你可能有一个要向同事展示的报表，你希望为同事预筛选报表。 方法之一是，从报表的默认 URL 入手，向 URL 添加筛选参数，然后通过电子邮件向同事发送完整的 URL。
 
-![](media/service-url-filters/power-bi-report2.png)
+![服务中的 Power BI 报表](media/service-url-filters/power-bi-report2.png)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/WQFtN8nvM4A?list=PLv2BtOtLblH3YE_Ycas5B1GtcoFfJXavO&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -36,7 +37,7 @@ ms.lasthandoff: 01/09/2018
 
 URL?filter=***表***/***字段*** eq '***值***'
 
-![](media/service-url-filters/power-bi-filter-urls7b.png)
+![带筛选器的 URL](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * **表**和**字段**名称区分大小写，**值**不区分大小写。
 * 报表视图中隐藏的字段仍可供筛选。
@@ -49,7 +50,7 @@ URL?filter=***表***/***字段*** eq '***值***'
 ## <a name="filter-on-a-field"></a>筛选一个字段
 假设我们的报表 URL 如下。
 
-![](media/service-url-filters/power-bi-filter-urls6.png)
+![正在启动 URL](media/service-url-filters/power-bi-filter-urls6.png)
 
 从上文中的地图可视化效果可以看出，我们在北卡罗来纳州有商店。
 
@@ -61,7 +62,7 @@ URL?filter=***表***/***字段*** eq '***值***'
 
 ?filter=Store/Territory eq 'NC'
 
-![](media/service-url-filters/power-bi-filter-urls7.png)
+![带筛选器的 URL](media/service-url-filters/power-bi-filter-urls7.png)
 
 >[!NOTE]
 >NC 是“Store”表的“Territory”字段中存储的值。

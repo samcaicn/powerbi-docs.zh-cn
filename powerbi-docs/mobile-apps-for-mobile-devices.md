@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6803c8aa2898c9ab27b515c04d7db813e7d44ea4
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 7285e15b6f63cc53b9221a46e0a524313c413cda
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="take-power-bi-anywhere-in-mobile-apps-for-your-mobile-device"></a>在适用于移动设备的移动应用中随时随地使用 Power BI
 在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 中查看 Power BI 仪表板和报表，在 [Power BI 报表服务器](report-server/get-started.md)上查看本地 Power BI 报表。 现在，可以从 Power BI 移动应用连接到本地和云数据。 尝试在移动设备 &#151 上查看 Power BI 仪表板和报表并与之进行交互。这些移动设备可以是 iOS（iPad、iPhone、iPod Touch 或 Apple Watch）、Android 手机/平板电脑或 Windows 10 设备。
@@ -51,4 +51,5 @@ ms.lasthandoff: 01/05/2018
 ## <a name="next-steps"></a>后续步骤
 * [Power BI 免费版与Pro 许可证](service-free-vs-pro.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+
 

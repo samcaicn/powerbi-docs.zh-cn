@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: maghan
-ms.openlocfilehash: 890c748c7e7502394fd2e6e024521e99082a1c77
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Share your work
+ms.openlocfilehash: ee1b403eaa8456266b452ff34814dc4f4059d9a6
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -135,7 +136,7 @@ ms.lasthandoff: 01/30/2018
 **发布到 Web** 支持 Power BI 服务中绝大部分数据源和报表，但以下内容目前不受支持或不可用于发布到 Web：
 
 1. 使用行级别安全性的报表。
-2. 使用在本地托管的 Analysis Services 表的报表。
+2. 使用实时连接数据源的报表，包括在本地托管的 Analysis Services 表格、Analysis Service Multidimensional、Azure Analysis Services 以及 Power BI 服务。
 3. 直接或通过组织内容包共享的报表。
 4. 你不是编辑成员的组中的报表。
 5. “发布到 Web”报表中当前不支持“R”视觉对象。

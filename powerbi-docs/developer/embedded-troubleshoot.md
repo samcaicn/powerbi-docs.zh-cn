@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 1/17/2018
+ms.date: 2/26/2018
 ms.author: maghan
-ms.openlocfilehash: 2936fa40700895d9953bb227cc30e68d64ae9205
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78e3361578b82a9ebf69feae1f7a8ac54966bbc9
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -82,6 +82,7 @@ Azure 门户或 Power BI 应用注册页面中的错误消息将提到权限不�
 
 可能需要进一步调查 Fiddler 捕获。 发生 403 错误可能有几个原因。
 
+* 用户已超过可在共享容量上生成的嵌入令牌的数量。 需要购买 Azure 容量以生成嵌入令牌，并将工作区中分配给该容量。 请参阅[在 Azure 门户创建 Power BI Embedded 容量](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)。
 * Azure AD 身份验证标记已过期。
 * 经过身份验证的用户不是组（应用工作区）的成员。
 * 经过身份验证的用户不是组（应用工作区）的管理员。
