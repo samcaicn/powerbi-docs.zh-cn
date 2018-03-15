@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8ff3470f45ec84798c9fe7302b31a8fe364f18c9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8a2b330ee134bf8aeb94315b90e71824ec1eb8ef
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>有哪些示例数据可用于 Power BI？
 假设你初次接触 Power BI，想要试用但没有任何数据。  或者你有一个数据集，但由于你（尚）不了解 Power BI 的工作原理，担心由于某种原因可能损坏数据集？
@@ -106,16 +106,16 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
 ### <a name="get-and-open-a-sample-content-pack-in-power-bi-service"></a>在 Power BI 服务中获取并打开示例内容包
 1. 打开 Power BI 服务 (app.powerbi.com)，并登录。
 2. 在左下角，选择“**获取数据**”。
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. 在显示的“获取数据”页上选择“**示例**”图标。
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. 选择其中一个示例以打开该示例的说明。 然后选择“**连接**”。  
-   
+
    ![](media/sample-datasets/power-bi-connect.png)
 5. Power BI 导入内容包，并将新的仪表板、报表和数据集添加到当前工作区。 新的内容会以黄色星号标记。 使用这些示例对 Power BI 进行测试运行。  
-   
+
    ![](media/sample-datasets/power-bi-asterisk.png)
 
 现在你拥有数据，已经快成功了。  使用示例内容包尝试按我们的一些教程操作，或仅打开 Power BI 服务并浏览。
@@ -124,7 +124,7 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
 每个示例内容包还可以作为 Excel 工作簿提供。 Excel 工作簿旨在与 Power BI 服务一起使用。  
 
 1. 使用下面的链接分别下载文件，或[下载所有示例文件的 zip 文件](http://go.microsoft.com/fwlink/?LinkId=535020)。 如果你是高级用户，可能想要下载 Excel 工作簿以浏览或编辑数据模型。
-   
+
    * [零售分析示例](http://go.microsoft.com/fwlink/?LinkId=529778)
    * [供应商质量分析示例](http://go.microsoft.com/fwlink/?LinkId=529779)
    * [人力资源示例](http://go.microsoft.com/fwlink/?LinkId=529780)
@@ -134,35 +134,35 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
    * [采购分析示例](http://go.microsoft.com/fwlink/?LinkId=529784)
    * [销售和市场营销示例](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. 保存下载的文件。 保存文件的位置不同会造成一定的差异。
-   
+
    * ![](media/sample-datasets/power-bi-local-file2.png)  **本地** - 如果你将文件保存到计算机上的本地驱动器中或者组织中的其他位置，则在 Power BI 中，你可以将文件导入到 Power BI。 你的文件实际上一直保存在本地驱动器中，因此整个文件并未真正导入到 Power BI。 实际上，在 Power BI 网站中创建新的数据集，数据（某些情况下为数据模型）将加载到数据集中。 如果你的文件有任何报表，则这些报表会显示在你的 Power BI 网站中的“报表”下。
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 企业** – 如果你有 OneDrive for Business，并且使用登录 Power BI 的同一帐户登录到其中，这是将 Excel、Power BI 或 .CSV 文件中的工作与你在 Power BI 中的数据集、报表和仪表板保持同步的有史以来最有效的方法。 由于 Power BI 和 OneDrive 都位于云中，Power BI 大约每小时会连接你在 OneDrive 上的文件一次。 如果发现任何更改，你的数据集、报表和仪表板会在 Power BI 中自动更新。
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 个人** – 如果你将文件保存到自己的 OneDrive 帐户，你会像使用 OneDrive for Business 那样获得很多相同优势。 最大的不同之处在于，当你首次连接至你的文件（使用“获取数据 > 文件 > OneDrive – 个人”）时，你将需要使用 Microsoft 帐户登录 OneDrive，这通常与你用于登录 Power BI 的帐户不同。 当使用你的 Microsoft 帐户登录 OneDrive 时，请务必选择“使我保持登录状态”选项。 这样一来，Power BI 将能够大约每小时连接你的文件一次，并确保你在 Power BI 中的数据集同步。
    * ![](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint 团队网站** – 将 Power BI 文件保存到 SharePoint 团队网站与保存到 OneDrive for Business 大致相同。 最大的区别是你从 Power BI 连接到文件的方式。 你可以指定一个 URL 或连接到根文件夹。
 3. 打开 Power BI 服务 (app.powerbi.com)，并登录。
-   
+
    > [!TIP]
    > 现在，你可能想要创建新的仪表板并以计划进行导入的文件的名称对其命名。  否则，在导入 Excel 数据集时，Power BI 将不会创建以示例命名的新仪表板，而改为将磁贴添加到当前已打开的仪表板。 选择该磁贴将转到数据集的报表。 这不是什么大问题，因为你稍后也可以创建新仪表板，但从新仪表板开始操作将为你节省一个或两个步骤。
-   > 
-   > 
+   >
+   >
 4. 在左下角，选择“**获取数据**”。
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 5. 在显示的“获取数据”页上，选择“**文件 > 获取**”。
-   
+
      ![](media/sample-datasets/power-bi-files.png)
 6. 导航到下载并保存示例的位置。
-   
+
    ![](media/sample-datasets/power-bi-files3.png)
 7. 选择该文件，此处是保存在 OneDrive for Business 上的 **Procurement Analysis Sample.xlsx**，然后选择“**连接**”。
-   
+
    ![](media/sample-datasets/power-bi-connect2.png)
 8. 选择是导入数据，还是将工作簿引入 Power BI 并完全按照其在 Excel Online 中的方式查看该工作簿。
-   
+
     ![](media/sample-datasets/power-bi-import.png)
 9. 如果选择“**导入**”，Power BI 会导入示例工作簿并将其添加为名为**采购分析示例**的新数据集。  如果工作簿具有任何 Power View 工作表、表或范围，或数据模型，Power BI 还会创建一个（具有相同的名称）的报表。 如果还没有打开仪表板，Power BI 将创建一个新的仪表板。 （如果在单击“**获取数据**”时打开了仪表板，则会在该仪表板上看到新的空白磁贴。  单击该磁贴将转到刚刚添加数据集的报表）。 新内容以该示例命名，并以黄色星号标记。
 10. 当**数据集准备就绪！** 屏幕出现时，选择“**查看数据集**”或“**获取快速见解**”，或只需使用 Power BI 左侧导航栏来找到并打开关联的报表或仪表板。  
-    
+
      ![](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>（可选）从 Excel 内查看 Excel 示例
@@ -170,18 +170,18 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
 
 * 首次在 Excel 中打开示例工作簿时，你可能会看到两个警告。 第一个警告指出工作簿处于受保护的视图中。 选择“启用编辑”。 第二个警告指出该工作簿有外部数据连接。 选择“启用内容”。
 * 每个工作簿包含多个工作表。 由于所有这些 Excel 示例都至少有一个包含可视化效果的 Power View 工作表，在将 Excel 文件导入到 Power BI 时，你将会获得一个数据集**和**一个报表。
-  
+
    你可能需要[启用 Power View 外接程序](https://support.office.com/article/Create-a-Power-View-sheet-in-Excel-2013-B23D768D-7586-47FE-97BD-89B80967A405#__toc328591957)。
 * 那么实际数据在哪儿呢？ 实际数据位于 Power Pivot 数据模型中。 若要查看数据，在“PowerPivot”选项卡上，选择“管理数据模型”。
-  
-    看不到 PowerPivot 选项卡？ [启用 Power Pivot 外接程序](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8)。 
+
+    看不到 PowerPivot 选项卡？ [启用 Power Pivot 外接程序](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8)。
 * “信息”选项卡提供有关创建该示例的公司 obviEnce 的信息。
 
 ## <a name="the-power-bi-samples-as-pbix-files"></a>.pbix 文件 Power BI 示例
 每个示例内容包还会作为 Power BI .pbix 文件提供。 .pbix 文件旨在与 Power BI Desktop 一起使用。  
 
 1. 使用下面的链接单独下载各个文件。
-   
+
    * [零售分析示例](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail Analysis Sample PBIX.pbix)
    * [供应商质量分析示例](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    * [人力资源示例](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)
@@ -192,7 +192,7 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
    * [销售和市场营销示例](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix)
 2. 保存下载的文件。
 3. 在 Desktop 上，选择“**文件 > 打开**”并导航到保存示例 .pbix 的位置。
-   
+
    ![](media/sample-datasets/power-bi-desktop-open.png)
 4. 选择要在 Desktop 中打开的 .pbix 文件。
 
@@ -204,4 +204,3 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
 [Power BI 数据源](service-get-data.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
-
