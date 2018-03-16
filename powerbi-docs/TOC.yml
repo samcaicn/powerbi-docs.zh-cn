@@ -862,6 +862,8 @@
       items:
         - name: Power BI for iOS 应用
           href: mobile-ios-ipad-iphone-apps.md
+        - name: Power BI for Mixed Reality
+          href: mobile-mixed-reality-app.md
         - name: 在移动应用中查看本地报表和 KPI
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
         - name: 移动应用中的仪表板
