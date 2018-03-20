@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b8b6dc3932ec4bc1eddd24c91a81a0eaafae479
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 34e756a661ec580e2c0eea8fc53378566eccf305
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中运行 R 脚本
 可以直接在 **Power BI Desktop** 中运行 R 脚本并将所得数据集导入 Power BI Desktop 数据模型。
@@ -31,7 +31,7 @@ ms.lasthandoff: 02/24/2018
 若要在 Power BI Desktop 中运行 R 脚本，需要在本地计算机上安装 **R**。 可以从很多位置免费下载并安装 **R**，其中包括 [Revolution Open 下载页](https://mran.revolutionanalytics.com/download/)，以及 [CRAN 存储库](https://cran.r-project.org/bin/windows/base/)。 Power BI Desktop 中当前版本的 R 脚本在安装路径中支持 Unicode 字符以及空格（空字符）。
 
 ## <a name="run-r-scripts"></a>运行 R 脚本
-在 Power BI Desktop 中只需几个步骤即可运行 R 脚本并创建数据模型，从中你可创建报表并在 Power BI 服务上共享它们。 Power BI Desktop 中的 R 脚本现在支持包含小数点 (.) 和逗号 (,) 的数字格式。
+在 Power BI Desktop 中只需几步即可运行 R 脚本并创建数据模型，从中可创建报表并在 Power BI 服务上共享它们。 Power BI Desktop 中的 R 脚本现在支持包含小数点 (.) 和逗号 (,) 的数字格式。
 
 ### <a name="prepare-an-r-script"></a>准备 R 脚本
 若要在 Power BI Desktop 中运行 R 脚本，请在本地 R 开发环境中创建脚本并确保其已成功运行。
@@ -41,14 +41,14 @@ ms.lasthandoff: 02/24/2018
 在 Power BI Desktop 中准备和运行 R 脚本时，会有一些限制：
 
 * 仅会导入数据帧，因此请确保要导入到 Power BI 的数据都位于数据帧中
-* 不会导入类型为“复杂”和“向量”的列，且会在创建的表中用错误值将其取代。
+* 不导入类型为“复杂”和“向量”的列，且在创建的表中将其替代为错误值
 * N/A 值将被转换为 Power BI Desktop 中的 NULL 值
 * 任何 R 脚本若运行时间超过 30 分钟就会超时
 * R 脚本中的交互式调用（例如等待用户输入）会终止脚本运行
 * 在 R 脚本中设置工作目录时，*必须*定义工作目录的完整路径，而非相对路径
 
 ### <a name="run-your-r-script-and-import-data"></a>运行 R 脚本并导入数据
-1. 在 Power BI Desktop 中，可在**获取数据**中找到 R 脚本数据连接器。 若要运行 R 脚本，请选择**获取数据 &gt; 更多...**，然后选择**其他 &gt; R 脚本**，如下图所示。
+1. 在 Power BI Desktop 中，可在**获取数据**中找到 R 脚本数据连接器。 要运行 R 脚本，请选择“获取数据”&gt;“更多...”，然后选择“其他”&gt;“R 脚本”，如下图所示：
    
    ![](media/desktop-r-scripts/r-scripts-1.png)
 2. 如果本地计算机上安装了 R，则会选择已安装的最新版本作为 R 引擎。 只需将脚本复制到脚本窗口，然后选择**确定**。
@@ -58,9 +58,9 @@ ms.lasthandoff: 02/24/2018
    
    ![](media/desktop-r-scripts/r-scripts-3.png)
    
-   如果已安装 R 但无法识别，则可以在展开 **R 安装设置**时所提供的文本框中以显式形式输入其位置。 在上图中，已在文本框中以显式形式输入路径 *C:\Program Files\R\R-3.2.0*。
+   如果已安装 R 但无法识别，可在展开“R 安装设置”时提供的文本框中显式提供其位置。 在上图中，已在文本框中以显式形式输入路径 *C:\Program Files\R\R-3.2.0*。
    
-   R 安装设置集中位于“选项”对话框的 R 脚本部分。 若要指定 R 安装设置，请选择**文件 > 选项和设置**，然后选择**选项 > R 脚本**。 如果有多个 R 安装可用，则会显示一个下拉菜单，让你选择要使用的安装。
+   R 安装设置集中位于“选项”对话框的 R 脚本部分。 要指定 R 安装设置，请选择“文件”和“选项和设置”，再依次选择“选项”和“R 脚本”。 如果有多个 R 安装可用，则会显示一个下拉菜单，让你选择要使用的安装。
    
    ![](media/desktop-r-scripts/r-scripts-4.png)
 4. 选择**确定**运行 R 脚本。 脚本成功运行后，即可选择要将其添加到 Power BI 模型的所得数据帧。

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/15/2018
+ms.date: 03/07/2018
 ms.author: maghan
-ms.openlocfilehash: 9d387208b1ace0b0f0fd700b471e07e3b2584883
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -66,7 +66,7 @@ Power BI Embedded 现已可用。
 
 ## <a name="technical"></a>技术
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-em-skus-in-office-365"></a>Azure 中的 A SKU 与 Office 365 中的 EM SKU 之间有什么区别？
+### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure 中的 A SKU 与 Office 365 中的 EM SKU 之间有什么区别？
 
 PowerBI.com 是一个企业解决方案，包括软件即服务产品中的许多功能，例如社交协作、电子邮件订阅等
 
@@ -128,6 +128,10 @@ Power BI Embedded 将继续使用 Azure AD 对主用户（指定的 Power BI Pro
 
 澳大利亚东南部、巴西南部、加拿大中部、美国东部 2、印度西部、日本东部、美国中北部、欧洲北部、美国中南部、亚洲东南部、英国南部、欧洲西部、美国西部和美国西部 2。
 
+### <a name="what-type-of-content-pack-data-can-be-embedded"></a>可以嵌入哪种类型的内容包数据？
+
+无法嵌入基于内容包数据集创建的仪表板和磁贴，但可嵌入基于内容包数据集创建的报表。
+
 ## <a name="licensing"></a>许可
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>如何购买 Power BI Embedded？
@@ -170,7 +174,7 @@ Power BI Embedded 按小时计费。
 
 ### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>哪里提供 Power BI Premium？ 美国政府？ 德国？ 中国？ 什么是计时？
 
-Power BI Embedded 将在 GA 的 Azure 商业云中提供。  将来会添加主权云可用性。
+可在 Azure 商业云和美国政府云中使用 Power BI Embedded。  未来还将向德国和中国推出主权云。
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Power BI Embedded 是否适合非营利组织和教育机构？
 

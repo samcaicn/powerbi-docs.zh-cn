@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4e8c4def5defc32ef7ba6414c3d76ac778564b66
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3697928986c5e579407e227911c5beab71c6a08d
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery 和 SAP Business Warehouse (BW)
 可以使用 DirectQuery 直接连接到 SAP Business Warehouse (BW) 数据源。 鉴于 SAP BW 的 OLAP/多维特性，SAP BW 的 DirectQuery 与 SQL Server 等关系源之间存在许多重要区别。 这些区别总结如下：
@@ -32,6 +32,9 @@ ms.lasthandoff: 02/24/2018
 * 鉴于 OLAP 源的唯一特性，除为 DirectQuery 规定的正常限制以外，还应用其他限制（用于建模和可视化）。 本文后面部分将介绍这些限制。
 
 此外，非常重要的是要了解 SAP BW 的许多功能在 Power BI 中不受支持，并且由于 SAP BW 的公共接口的性质，在某些重要情况下，通过 Power BI 看到的结果与使用 SAP 工具看到的结果不匹配。 本文后面部分将介绍这些限制。 应仔细查看这些限制和行为差异，确保正确解释通过 Power BI 看到的结果（由 SAP 公共接口返回）。  
+
+> [!NOTE]
+> 自 Power BI Desktop 2018 年 3 月更新之后，才能使用 DirectQuery over SAP BW 预览版功能。 预览版期间，反馈和建议的改进会带来变化，进而影响使用该预览版创建的报表。 现已发布 DirectQuery over SAP BW 的通用版 (GA)，因此必须弃用通过 DirectQuery over SAP BW 创建的任何现有（基于预览版）的报表（即使用通用版之前的版本创建的报表）。 在使用通用版之前的 DirectQuery over SAP BW 创建的报表中，如果通用版之前的版本尝试将具有任何更改的元数据更新到基础 SAP BW 多维数据集，则调用此类刷新时会出现错误。 请使用通用版的 DirectQuery over SAP BW 基于空白报表重新创建这些报表。 
 
 ## <a name="additional-modelling-restrictions"></a>其他建模限制
 在 Power BI 中使用 DirectQuery 连接到 SAP BW 时的主要其他建模限制如下所示：

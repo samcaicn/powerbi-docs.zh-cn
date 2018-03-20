@@ -1,5 +1,5 @@
 ---
-title: "在 Power BI 中使用书签（预览功能）"
+title: "在 Power BI 中使用书签"
 description: "使用 Power BI Desktop 中的书签，可以保存报表中的视图和设置，并生成类似于情景的演示文稿"
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a56983f48d80cf39b89958db4327e3632ee733e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>使用书签在 Power BI 中共享见解和创建情景（预览版）
+# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用书签共享见解和创建情景 
 使用 Power BI 中的“书签”，可以捕获当前配置的报表页视图（包括视觉对象的筛选器和状态），然后只需选择保存的书签即可恢复相应状态。 
 
 还可以创建一系列书签，按所需的顺序进行排列，随后在演示文稿中逐个展示所有书签，以突出显示一系列见解，或要通过视觉对象和报表诠释的情景。 
@@ -33,12 +33,14 @@ ms.lasthandoff: 02/24/2018
 
 书签的用途有许多。 可以使用书签跟踪自己的报表创建进度（书签易于添加、删除和重命名），也可以通过创建书签来生成类似于 PowerPoint 的演示文稿，依序逐一展示所有书签，通过报表诠释情景。 书签可能还有其他用途，具体取决于用户认为如何才能最有效地利用书签。
 
-### <a name="enable-the-bookmarks-preview"></a>启用“书签”预览功能
-自 2017 年 10 月发布的 Power BI Desktop 起，可以尝试新推出的“书签”功能，并用于 Power BI 服务中启用了书签的报表。 若要启用此预览功能，请依次选择“文件”>“选项和设置”>“选项”>“预览功能”，再选中“书签”旁边的复选框。 完成选择后需要重启 Power BI Desktop。
+### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>启用书签预览功能（2018 年 3 月之前的版本）
+自 Power BI Desktop 2018 年 3 月版起，推出通用版的标签功能。 
+
+我们始终建议升级到最新版本。 但是如果你的 Power BI Desktop 版本低于此发布版本，可尝试使用自 Power BI Desktop 2017 年 10 月版起推出的“书签”功能，而且 Power BI 服务中也具有启用了书签的报表。 要启用此预览功能，请依次选择“文件”、“选项和设置”、“选项”和“预览功能”，再选择“书签”旁的复选框。 
 
 ![在“选项”窗口中启用书签](media/desktop-bookmarks/bookmarks_02.png)
 
-选中此复选框后，需要重启 **Power BI Desktop**。
+选择启用预览版书签后，需重启 Power BI Desktop。
 
 ## <a name="using-bookmarks"></a>使用书签
 若要使用书签，请选择“视图”功能区，再选中“‘书签’窗格”对应的框。 
@@ -147,14 +149,13 @@ ms.lasthandoff: 02/24/2018
 请注意，必须使用灰色书签标题栏来浏览书签，而不是黑色箭头（黑色箭头用于切换报表页，而非书签）。
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
-这一版“书签”预览功能有一些限制和注意事项。
+这一版“书签”功能有一些限制和注意事项。
 
 * 如果自定义视觉对象是筛选器的源，则不支持书签。 若要使用自定义视觉对象（例如，Chiclet 切片器）筛选页面上的元素，并使用书签返回到此页面，那么页面可能会进行筛选，但自定义视觉对象不会进行更新来反映页面已经过筛选。 
 * 创建书签时，报表窗格的交叉突出显示状态不会一起保存。 
 * 如果在创建书签后在报表页上添加视觉对象，此视觉对象将以默认状态显示。 也就是说，如果在之前创建书签的页面中引入切片器，此切片器将在默认状态下运行。
 * 创建书签后，如果移动视觉对象，书签中也会予以反映。 
 * 将报表发布到 **Power BI 服务**时，报表中至少必须有一个书签，才能在此服务中使用书签。 发布的每个报表都必须满足此要求。
-* 由于书签目前是一项预览版功能，它们尚不能在[**适用于报表服务器的 Power BI Desktop**](report-server/quickstart-create-powerbi-report.md) 中使用。
 
 ## <a name="next-steps"></a>后续步骤
 若要详细了解与书签类似的功能或如何与书签交互，请参阅以下文章：

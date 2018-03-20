@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 5f22d39c17ddbbd06a9ed38eeb162d1106607105
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 性能最佳做法 
 本文将介绍如何在 Power BI 中构建快速可靠的报表  
@@ -130,7 +130,7 @@ ms.lasthandoff: 02/24/2018
 
 ## <a name="gateway-best-practices"></a>网关最佳做法 
 
-本地数据网关是将 Power BI 服务与本地数据连接的一个很好工具。 同时，如果规划不善，也可能成为报表性能的瓶颈。 对于 DirectQuery/实时连接数据集来说更是如此，其中所有查询和查询响应通过网关传输。 以下是确保高性能网关的一些最佳做法： 
+本地数据网关是将 Power BI 服务与本地数据连接的一个非常有用的工具。 同时，如果规划不善，也可能成为报表性能的瓶颈。 对于 DirectQuery/实时连接数据集来说更是如此，其中所有查询和查询响应通过网关传输。 以下是确保高性能网关的一些最佳做法： 
  
 - 使用企业模式，而不是个人模式。 
 - 针对网关建议的硬件规格 - 8 个 CPU 内核、16 GB RAM。 

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b0d7dc85b9795b432b461d48894404417850b9bc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4997c29941608c12a89598b6e9cb1b1ad3aa2fe8
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -31,6 +31,69 @@ ms.lasthandoff: 02/24/2018
 以下各节描述了 **Power BI Desktop** 之前月份的更新。
 
 你始终可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop。 无论采用哪种方式安装 Power BI Desktop，每月版本都相同。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
+
+
+## <a name="february-2018-update-2555010521"></a>2018 年 2 月更新 (2.55.5010.521)
+
+我们全身心地爱着 Power BI Desktop 2 月更新，且希望它们能带给你如巧克力般的甜蜜。
+
+每个更新旁边的链接表示以下含义：
+
+* 当讨论某项功能时，将会在新的浏览器选项卡上播放 **[视频]** 片段。
+* 某些功能通过 **[文章]** 来提供更多详细信息。
+* 大多数功能在每月更新的 **[博客]** 文章中均有说明。
+* 最后，一些明白易懂的功能则不需要文章或视频。
+
+还可单击更新列表下方视频图像上的“播放”按钮，直接在本文中从头观看“最新更新”视频。
+
+以下更新在 2018 年 2 月首次引入到 Power BI Desktop：
+
+### <a name="reporting"></a>报表
+
+* 在多个页中选择多个数据点 [[视频]](https://youtu.be/KeVB5RwMzJo?t=23s) [[文章]](desktop-multi-select.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
+* 多页报表中的同步切片器 [[视频]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[文章]](desktop-slicers.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
+* 数值范围切片器改进 - 整数对齐（预览）[[视频]](https://youtu.be/KeVB5RwMzJo?t=8m44s) [[文章]](desktop-slicer-numeric-range.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
+* 适用于必应地图的更快速地理编码（Web 预览）- 提高速度达 6 倍 [[视频]](https://youtu.be/KeVB5RwMzJo?t=10m18s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
+* 条形图和柱形图视觉对象的溢出数据标签 [[视频]](https://youtu.be/KeVB5RwMzJo?t=12m31s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
+* 搜索“格式化”和“分析”窗格 [[视频]](https://youtu.be/KeVB5RwMzJo?t=14m46s)  [[文章]](desktop-analytics-pane.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
+
+
+### <a name="custom-visuals"></a>自定义视觉对象
+
+* 组织自定义视觉对象（预览）[[视频]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[文章]](power-bi-custom-visuals-organization.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
+
+
+### <a name="analytics"></a>分析
+
+* 设置自定义日期表格 [[视频]](https://youtu.be/KeVB5RwMzJo?t=16m4s) [[文章]](desktop-date-tables.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
+* 快速度量值现已公开发布 [[视频]](https://youtu.be/KeVB5RwMzJo?t=17m52s) [[文章]](desktop-quick-measures.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+
+### <a name="data-connectivity"></a>数据连接
+
+* 针对 SAP HANA 的 DirectQuery 的改进（预览）[[视频]](https://youtu.be/KeVB5RwMzJo?t=30m1s) [[文章]](desktop-directquery-sap-hana.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
+
+### <a name="other"></a>其他
+
+* DirectQuery 性能改进 [[视频]](https://youtu.be/KeVB5RwMzJo?t=32m24s) [[文章]](desktop-directquery-about.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
+* 打开和保存性能改进 [[视频]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
+* 显示不包含数据的项目改进 [[视频]](https://youtu.be/KeVB5RwMzJo?t=34m6s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
+* 对即将推出的“Power BI 服务”功能执行持续筛选器控制 [[视频]](https://youtu.be/KeVB5RwMzJo?t=34m56s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
+
+
+
+> [!NOTE]
+> 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
+
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+
+
+以下视频介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KeVB5RwMzJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="january-2018-update-2544970761"></a>2018 年 1 月更新 (2.54.4970.761)
@@ -44,7 +107,7 @@ ms.lasthandoff: 02/24/2018
 * 大多数功能在每月更新的 **[博客]** 文章中均有说明。
 -   最后，一些明白易懂的功能则不需要文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的**最新更新**视频。
+还可单击更新列表下方视频图像上的“播放”按钮，直接在本文中从头观看“最新更新”视频。
 
 下面介绍了 1 月更新中的 Power BI Desktop 新增功能：
 
@@ -83,7 +146,7 @@ ms.lasthandoff: 02/24/2018
 
 
 
-## <a name="december-2017-update-2534954481-"></a>2017 年 12 月更新 (2.53.4954.481 )
+## <a name="december-2017-update-2534954481"></a>2017 年 12 月更新 (2.53.4954.481)
 
 十二月将发布大量 Power BI Desktop 更新，其中不乏所有喜欢商业智能的孩子（及成年人）可尽享的各种惊喜功能。
 
@@ -351,8 +414,8 @@ ms.lasthandoff: 02/24/2018
 -   新的瀑布图选项 - 细目 [[视频]](https://youtu.be/4X96ow7FnSY?t=14m29s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#waterfall)
 -   自定义视觉对象更新 [[视频]](https://youtu.be/4X96ow7FnSY?t=17m34s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisuals)
     -   向下钻取分级统计图 [[视频]](https://youtu.be/4X96ow7FnSY?t=18m11s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownChoropleth)
-    -   向下钻取变形地图 [[视频]](https://youtu.be/4X96ow7FnSY?t=19m14s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownCartogram)
-    -   Drilldown Player [[视频]](https://youtu.be/4X96ow7FnSY?t=20m17s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownPlayer)
+    -   向下钻取统计图 [[视频]](https://youtu.be/4X96ow7FnSY?t=19m14s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownCartogram)
+    -   向下钻取播放器 [[视频]](https://youtu.be/4X96ow7FnSY?t=20m17s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownPlayer)
     -   认证的自定义视觉对象 [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#certifiedCustomVisuals)
 
 
@@ -1038,7 +1101,7 @@ ms.lasthandoff: 02/24/2018
 
 -   表格、矩形图和多行卡片图上的新增样式
 -   单个视觉对象上的趋势线
--   新的钻取操作 – **查看记录**
+-   新的钻取操作 – 查看记录
 -   在钻取/筛选期间映射自动缩放
 -   用于展开的视图的内联层次结构标签（预览版 - [请参阅文章](desktop-inline-hierarchy-labels.md)）
 
@@ -1059,7 +1122,7 @@ ms.lasthandoff: 02/24/2018
     -   SparkPost
     -   tyGraph
 -   条件列
--   DirectQuery – 指定 DirectQuery 和数据源对话框中的导入模式
+-   DirectQuery - 指定 DirectQuery 和数据源对话框中的导入模式
 -   “查询编辑器”预览列标题中的列类型指示器
 -   使用“拖放”笔势的“记录查询”和“查询组”
 -   功能区中的“查询管理”菜单
@@ -1141,7 +1204,7 @@ ms.lasthandoff: 02/24/2018
 ### <a name="report-view"></a>报表视图：
 
 -   查看视觉对象背后的数据（包括将数据导出到 CSV）
--   地图改进 – 仅使用纬度/经度绘制地图
+-   地图改进 - 仅使用纬度/经度绘制地图
 -   KPI 消耗发布支持（包括对 SSAS MD 的导航层次结构支持及其 KPI 趋势）
 -   SSAS 浏览模式：针对**字段**窗格中**显示**文件夹的支持
 -   功能区布局改进：**报表工具**的“上下文”功能区选项卡
@@ -1159,18 +1222,18 @@ ms.lasthandoff: 02/24/2018
 ### <a name="data-connectivity"></a>数据连接：
 
 -   针对 Oracle 和 Teradata 数据库的 **DirectQuery** 支持
--   **DirectQuery** – 支持创建计算列
+-   **DirectQuery** - 支持创建计算列
 -   支持发布 Analysis Services 实时报表
 -   JSON 文件连接器
 -   SQL Sentry 连接器
 -   支持不一致的 CSV 文件
--   Exchange 连接器 – OAuth 支持
--   SharePoint 列表连接器 – URL 验证
--   数据库连接器 – 能够在“查询”预览中禁用“导航列”（性能优化）
--   Web 连接器 – 细粒度的凭据范围
+-   Exchange 连接器 - OAuth 支持
+-   SharePoint 列表连接器 - URL 验证
+-   数据库连接器 - 能够在“查询”预览中禁用“导航列”（性能优化）
+-   Web 连接器 - 细粒度的凭据范围
 -   **输入数据**对话框用户体验增强功能
--   SAP HANA – 对使用 Windows 身份验证进行单一登录的支持（仅 Power BI Desktop）
--   SAP HANA – 对**字段**标签的支持
+-   SAP HANA - 支持通过 Windows 身份验证进行单一登录（仅限 Power BI Desktop）
+-   SAP HANA - 支持字段标签
 -   **选择列**生成器中按字母顺序对列进行排序
 -   提升了重命名列、删除列、对列进行重新排序的性能
 -   **查询编辑器**中的虚拟化预览
@@ -1294,7 +1357,7 @@ ms.lasthandoff: 02/24/2018
 -   切片器选择行为（单选和多选）
 -   控制 Z 顺序
 -   幻灯片的背景色
--   视觉对象之间的交流 – 子视图（贴于附近）
+-   视觉对象之间的交互 - 子视图（图块划分方式）
 -   重复页面
 -   支持表、矩阵图和卡片中的 KPI 和图像
 -   面积图和折线图上更好的工具提示
@@ -1396,7 +1459,7 @@ ms.lasthandoff: 02/24/2018
 - 支持在报表画布中插入形状
 - 字段窗格改进
     - 便于更容易地按名称查找字段的搜索框
-    - “全部展开/折叠”，可在字段窗格中存在多个表格时提升导航性能
+    - “全部展开/折叠”，可在“字段”窗格中存在多个表格时提升导航性能
     - 字段框基数支持，可拖动-替换具有 1 个项的存储桶
     - 新增数据标签格式设置选项
     - 图表笛卡尔轴改进：
@@ -1426,12 +1489,12 @@ ms.lasthandoff: 02/24/2018
 - 支持本地 Spark 分布
 - 支持非英语站点中的 SharePoint 列表
 - Exchange 连接器 - 增强了支持，现在允许连接到多个邮箱
-- Excel 工作簿连接器 – 导入 XLS 文件时自动检测列类型
-- 连接到数据库源时的“选择相关的表”选项
+- Excel 工作簿连接器 - 导入 .XLS 文件时自动检测列类型
+- 连接到数据库源时使用的“选择相关的表”选项
 - 增强了 Active Directory 连接器凭据，允许使用备用 Windows 凭据
 - 提升了从数据源（如数据库）加载函数时的函数调用体验
 - 上个月发布的“导入 Excel 工作簿内容”功能现在还支持与 Analysis Services 表格模型的外部连接
-- 可用于在“数据源设置”对话框中“删除全部”条目的新选项
+- 增添了可在“数据源设置”对话框中删除所有条目的新选项
 - 用于“在刷新操作期间启用关系导入”的选项
 
 ### <a name="data-transformations-and-query-editor-improvements"></a>数据转换和查询编辑器改进
@@ -1514,7 +1577,7 @@ ms.lasthandoff: 02/24/2018
 
 -   支持 Exchange 连接器中的 Exchange UPN 凭据。
 
-除了所有这些新功能，我们还**提供 42 种不同语言版本的 Power BI Desktop。** 获取完整语言列表，并从[我们的官方下载页面](https://www.microsoft.com/download/details.aspx?id=45331)安装所需的语言版本。
+除了上述所有新功能，我们还提供 42 种不同语言版本的 Power BI Desktop。 获取完整语言列表，并从[我们的官方下载页面](https://www.microsoft.com/download/details.aspx?id=45331)安装所需的语言版本。
 
 请观看以下视频获取更多详细信息：
 
@@ -1626,14 +1689,14 @@ ms.lasthandoff: 02/24/2018
 - 性能改进
 - Dynamics CRM Online 连接器
     > [!NOTE]
-    > 目前此对话框仅接受 crm.microsoft.com 域中的 URL。 这不包括非生产租户。 我们将在 3 月更新中修复此问题。 临时的解决方法是使用“从 OData”连接到此数据源。*
+    > 目前此对话框仅接受 crm.microsoft.com 域中的 URL。 这不包括非生产租户。 我们将在 3 月更新中修复此问题。 暂时可使用“从 OData”连接到此数据源来解决此问题。*
 - 导航器对话框改进
     -   提供更好的多维度源（Analysis Services 和 SAP BusinessObjects）预览体验
     -   显示“选定项”选项
     -   改进了导航树中的“搜索”功能
 -   新转换
     -   用于日期/时间列的 Age 和 Subtract 操作
-    -   聚合列：用于禁用新列的前缀的选项
+    -   聚合列：用于禁用新列前缀的选项
 -   字段列表改进
     -   展开/折叠表格
     -   隐藏/取消隐藏字段

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6308b2e201b669bf17ee636677232b365d62e332
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>连接到 Oracle 数据库
 若要将 Oracle 数据库与 **Power BI Desktop** 连接，运行 Power BI Desktop 的计算机上必须安装了正确的 Oracle 客户端软件。 你使用的 Oracle 客户端软件取决于已安装的 Power BI Desktop 版本 - **32 位**版本或 **64 位**版本。
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/24/2018
 **支持的版本**：Oracle 9 及更高版本、Oracle 客户端软件 8.1.7 及更高版本。
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>确定安装了哪个版本的 Power BI Desktop
-若要确定安装了哪个版本的 Power BI Desktop，请选择**文件 > 有关**，然后查看**版本：**行。 下图中安装的是 64 位版本的 Power BI Desktop：
+若要确定所安装的 Power BI Desktop 版本，请依次选择“文件”、“帮助”和“关于”，然后查看“版本:”行。 下图中安装的是 64 位版本的 Power BI Desktop：
 
 ![](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 02/24/2018
 * [适用于 Windows x64 的 64 位 ODAC 12c Release 4 (12.1.0.2.4)](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 ## <a name="connect-to-an-oracle-database"></a>连接到 Oracle 数据库
-一旦安装了匹配的 Oracle 客户端驱动程序后，你就可以连接到 Oracle 数据库。 执行以下步骤建立连接。
+一旦安装了匹配的 Oracle 客户端驱动程序后，你就可以连接到 Oracle 数据库。 请执行以下步骤来建立连接：
 
 1. 在“获取数据”窗口中，选择**数据库 > Oracle 数据库**
    

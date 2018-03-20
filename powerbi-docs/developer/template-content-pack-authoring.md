@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/09/2017
 ms.author: maghan
-ms.openlocfilehash: 9b8de53534c94ad995e2d953cfc6994b93915bd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: bfed948be385439d33b335b08da68b103cd7c1b8
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Power BI 中的作者模板内容包
 在创作模板内容包时需使用 Power BI Desktop 和 PowerBI.com。内容包具有四个组件︰
@@ -136,7 +136,7 @@ Power BI Desktop 中的[参数](https://powerbi.microsoft.com/blog/deep-dive-int
 | 受支持 | *不支持* |
 | --- | --- |
 | 在 PBI 桌面中生成的数据集 |*来自其他内容包或输入（如 Excel 文件）的数据集* |
-| 可支持云“计划数据”刷新的数据源 |*不支持直接查询或本地连接* |
+| 可支持云“计划数据”刷新的数据源 |不支持直接查询和本地连接 |
 | 将返回一致的架构或错误的查询（在适当时） |*动态架构或自定义架构* |
 | 每个数据集一个数据源 |*多个数据源（例如被检测为多个数据源的混合 Web 应用程序或 URL）* |
 | 文本类型的参数 |*其他参数类型（例如日期）或者“列出允许的值”* |

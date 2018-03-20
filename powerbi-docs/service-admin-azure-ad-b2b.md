@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 09bd3064c7a694355255cb3cca29ade02986d42e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 55394392de78bcd1a2c38ecf92dd3218c8660132
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -31,7 +31,14 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成后，�
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
+> 邀请来宾用户之前，需要在 Power BI 管理门户的“租户”设置中启用[导出和共享设置](service-admin-portal.md#export-and-sharing-settings)。
+
+> [!NOTE]
 > 此功能目前不可用于 Power BI 移动应用。 在移动设备上，你可以在浏览器中查看使用 Azure AD B2B 共享的 Power BI 内容。 
+
+## <a name="who-can-you-invite"></a>可以邀请哪些用户？
+
+可邀请使用任意电子邮件地址（包括个人帐户，如 gmail.com、outlook.com 或 hotmail.com）的来宾用户。在 Azure B2B 中，这称为“社交 ID”。 有关详细信息，请参阅[Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)。
 
 ## <a name="invite-guest-users"></a>邀请来宾用户
 
@@ -63,9 +70,10 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成后，�
 
 ### <a name="ad-hoc-invites"></a>临时邀请
 
-若要在任意时间执行邀请，在发布应用前将外部用户添加到该应用的访问列表中。
+通过共享 UI 将外部用户添加到仪表板或报表，或通过访问页面添加到应用，即可随时发出邀请。
 
-![被添加到应用访问列表的外部用户](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
+以下示例说明邀请外部用户使用应用时要执行的操作。
+![添加到应用访问列表的外部用户](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
 该来宾用户将收到指示已与其共享应用的电子邮件。
 
@@ -98,8 +106,9 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成后，�
 
 ![来宾用户拥有自己的许可证](media/service-admin-azure-ad-b2b/license-approach3.png)
 
-## <a name="limitations"></a>限制
+## <a name="considerations-and-limitations"></a>注意事项和限制
 
+* 邀请正在使用个人电子邮件帐户（如 gmail.com、outlook.com 或 hotmail.com）的来宾用户时，可观看此[嵌入视频](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience)，查看介绍用户注册方式的示例。
 * 外部 B2B 来宾仅限于使用内容。 外部 B2B 来宾可以查看应用、仪表板、报表，导出数据以及为仪表板和报表创建电子邮件订阅。 他们无法访问工作区或发布自己的内容。
 * 此功能目前不可用于 Power BI 移动应用。 在移动设备上，你可以在浏览器中查看使用 Azure AD B2B 共享的 Power BI 内容。
 * sovereign 云（政府）内不支持通过 Power BI 使用来宾用户。
