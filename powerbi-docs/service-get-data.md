@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f9e30b3feb5f9b85a87686e4484bba035ff839aa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f2749976772d2bc2e3d48ca355925cafad93fe0c
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服务数据源
-数据是 Power BI 的核心。 当你研究数据、创建图表和仪表板，以及使用问答进行提问时，你所看到的所有这些可视化效果和答案实际上都是从数据集获得其基础数据的。 但是，数据集来自何处呢？ 它来自数据源。
+数据是 Power BI 的核心。 当研究数据、创建图表和仪表板，以及使用问答进行提问时，所看到上述全部可视化效果和答案实际上均是从数据集获得其基础数据的。 但是，数据集来自何处呢？ 它来自数据源。
 
-在本文中，我们将重温你可以从 Power BI 服务连接到的不同类型的数据源。 请记住，你还可以从很多其他类型的数据源获取数据。 但是，这些可能需要先使用 Power BI Desktop 或 Excel 的高级数据查询和建模功能。 稍后我们将详细了解有关内容。 现在，让我们看一下可以直接从你的 Power BI 服务站点连接到的不同类型的数据源。
+在本文中，我们将重温可以从 Power BI 服务连接到的不同类型的数据源。 请记住，你还可以从很多其他类型的数据源获取数据。 但是，可能需要先使用 Power BI Desktop 或 Excel 的高级数据查询和建模功能才能使用这些数据源。 稍后我们将详细了解有关内容。 现在，让我们看一下可直接从 Power BI 服务站点连接到的不同类型的数据源。
 
 你可以通过单击**我的工作区** > **获取数据**，获取来自 Power BI 中的任何这些数据源的数据。
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="files"></a>文件
 ![](media/service-get-data/pbi_getdata_files.png)
 
-Excel（.xlsx、xlxm）– Excel 的与众不同之处就在于，工作薄可以拥有你自行输入到工作表的数据，也可以通过使用 Power Query（Excel 2016 中的“获取和转换”）或 Power Pivot 从外部数据源查询和加载数据。 你可以导入工作表的表中的数据（数据必须在表中），或导入加载到数据模型中的数据。 若要了解详细信息，请参阅[从 Excel 中获取数据](service-get-data-from-files.md)。
+**Excel** (.xlsx, xlxm) Excel 的与众不同之处在于，工作薄可拥有你自行输入到工作表的数据，而你可通过使用 Power Query（Excel 2016 中的“获取和转换”）或 Power Pivot 从外部数据源查询和加载数据。 你可以导入工作表的表中的数据（数据必须在表中），或导入加载到数据模型中的数据。 若要了解详细信息，请参阅[从 Excel 中获取数据](service-get-data-from-files.md)。
 
 **Power BI Desktop** (.pbix) - 可以使用 Power BI Desktop 查询和加载外部数据源中的数据，还可以扩展数据模型的度量值和关系，并创建报表。 你可以将你的 Power BI Desktop 文件导入 Power BI 站点。 Power BI Desktop 最适合于非常了解其数据源、数据查询和转换，以及数据建模概念的更高级的用户。 若要了解详细信息，请参阅[连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)。
 
@@ -44,7 +44,7 @@ Excel（.xlsx、xlxm）– Excel 的与众不同之处就在于，工作薄可�
 
 对于其他文件类型（如 XML 表 (.xml) 或文本 (.txt) 文件），可以使用“获取和转换”来首先查询、转换数据并将该数据加载到 Excel 或 Power BI Desktop 文件。 然后，你可以将 Excel 或 Power BI Desktop 文件导入 Power BI。
 
-存储文件的位置也将产生很大的影响。 OneDrive for Business 提供了最大程度的灵活性以及与 Power BI 的集成。 如果你将文件保留在本地驱动器上，这是可以的，但是如果你需要刷新数据，则会涉及到一些额外的步骤。 链接的文章中提供了更多详细信息。
+存储文件的位置也将产生很大的影响。 OneDrive for Business 提供了最大程度的灵活性以及与 Power BI 的集成。 可将文件保留在本地驱动器上，但是如果需要刷新数据，则还需执行一些步骤。 链接的文章中提供了更多详细信息。
 
 ## <a name="content-packs"></a>内容包
 ![](media/service-get-data/pbi_getdata_contentpacks.png)
@@ -58,27 +58,27 @@ Excel（.xlsx、xlxm）– Excel 的与众不同之处就在于，工作薄可�
 ## <a name="databases"></a>数据库
 ![](media/service-get-data/pbi_getdata_databases.png)
 
-云中的数据库 - 从 Power BI 服务中，你可以实时连接到 Azure SQL 数据库、Azure SQL 数据仓库、Azure HD Insight 上的 Spark，以及使用 DirectQuery 的 SQL Server Analysis Services。 从 Power BI 连接到这些数据库都是实时的，也就是说，当连接到，例如 Azure SQL 数据库时，你将开始通过在 Power BI 中创建报表来浏览其数据，每当你切片数据或将另一个字段添加到可视化效果时，将直接对数据库进行查询。 若要了解详细信息，请参阅 [Azure 和 Power BI](service-azure-and-power-bi.md)。
+云中的数据库 - 从 Power BI 服务中，你可以实时连接到 Azure SQL 数据库、Azure SQL 数据仓库、Azure HD Insight 上的 Spark，以及使用 DirectQuery 的 SQL Server Analysis Services。 从 Power BI 实时连接到这些数据库，这表示当连接到数据库（如 Azure SQL 数据库）时，你通过在 Power BI 中创建报表来浏览其数据，且每次你进行数据切片或将其他字段添加到可视化效果时，都直接查询数据库。 若要了解详细信息，请参阅 [Azure 和 Power BI](service-azure-and-power-bi.md)。
 
-本地数据库 - 从 Power BI 服务中，可以直接连接到 SQL Server Analysis Services 表格模型数据库。 Power BI Enterprise Gateway 是必需的。 如果不确定如何连接到组织的表格模型数据库，请联系你的管理员或 IT 部门。 若要了解详细信息，请参阅[Power BI 中的 SQL Server Analysis Services 表格数据](sql-server-analysis-services-tabular-data.md)。
+本地数据库 - 从 Power BI 服务中，可以直接连接到 SQL Server Analysis Services 表格模型数据库。 Power BI Enterprise Gateway 是必需的。 如果不确定如何连接到你的组织的表格模型数据库，请联系你的管理员或 IT 部门。 若要了解详细信息，请参阅[Power BI 中的 SQL Server Analysis Services 表格数据](sql-server-analysis-services-tabular-data.md)。
 
-对于组织中其他类型的数据库，你需要先使用 Power BI Desktop 或 Excel 连接到数据模型，并在数据模型中查询和加载数据。 然后，可以将文件导入在其中创建数据集的 Power BI。 如果设置了计划刷新，Power BI 将使用来自文件的连接信息和你所配置的刷新设置，以直接连接到数据源，并查询更新。 然后，这些更新将加载到 Power BI 中的数据集。 若要了解详细信息，请参阅[连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)。
+对于你的组织中的其他类型的数据库，需要先使用 Power BI Desktop 或 Excel 连接到数据模型，并在数据模型中查询和加载数据。 然后，可以将文件导入在其中创建数据集的 Power BI。 如果设置了计划刷新，Power BI 将使用来自文件的连接信息和你所配置的刷新设置，以直接连接到数据源，并查询更新。 然后，这些更新将加载到 Power BI 中的数据集。 若要了解详细信息，请参阅[连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)。
 
 ## <a name="what-if-my-data-comes-from-a-different-source"></a>如果我的数据来自不同源怎么办？
 差不多有数百个可与 Power BI 配合使用的不同数据源。 但是，无论从何处获取数据，这些数据的格式必须满足如下要求：Power BI 服务可用其来创建报表和仪表板，以及通过问答回答问题等等。
 
 一些数据源的数据已具有准备好用于 Power BI 服务的格式，例如 Google Analytics 和 Twilio 之类的服务提供商提供的内容包。 SQL Server Analysis Services 表格模型数据库也准备就绪了。 并且可以实时连接到云中的数据库，如 Azure SQL 数据库和 HDInsight 上的 Spark。
 
-在其他情况下，可能需要查询并加载你希望添加到某个文件中的数据。 例如，假设在组织中的服务器上的数据仓库数据库中有你的物流数据。 在 Power BI 服务中，你不能直接连接到该数据库并开始浏览其数据（除非它是表格模型数据库）。 但是，你可以使用 Power BI Desktop 或 Excel 查询该物流数据，并将其加载到你稍后要保存为文件的数据模型中。 然后，可以将文件导入在其中创建数据集的 Power BI。
+在其他情况下，可能需要查询并加载你希望添加到某个文件中的数据。 例如，假设在组织中的服务器上的数据仓库数据库中有物流数据。 在 Power BI 服务中，你不能直接连接到该数据库并开始浏览其数据（除非它是表格模型数据库）。 但是，你可以使用 Power BI Desktop 或 Excel 查询该物流数据，并将其加载到你稍后要保存为文件的数据模型中。 然后，可以将文件导入在其中创建数据集的 Power BI。
 
 你可能会想：但是，数据库上的物流数据每天都会改变。 我如何确保我在 Power BI 中的数据集已被刷新？来自 Power BI Desktop 或 Excel 文件的连接信息将随数据导入到数据集中。 如果设置了计划刷新或在数据集上执行手动刷新，Power BI 将使用来自数据集的连接信息和一些其他设置，直接连接到数据库、查询更新并将更新加载到数据集。 可能需要 Power BI Gateway 以保护本地服务器和 Power BI 之间的任何数据传输。 报表和仪表板中的所有可视化效果都将自动刷新。
 
-可以看到，不能直接从 Power BI 服务连接到你的数据源并不意味着无法将该数据导入 Power BI。 只是可能需要几个更多的步骤，以及来自 IT 部门的一些帮助。 若要了解详细信息，请参阅 [Power BI Desktop 中的数据源](desktop-data-sources.md)。
+可以看出，不能直接从 Power BI 服务连接到数据源并不意味着无法将该数据导入 Power BI。 只是可能需要几个更多的步骤，以及来自 IT 部门的一些帮助。 若要了解详细信息，请参阅 [Power BI Desktop 中的数据源](desktop-data-sources.md)。
 
 ## <a name="some-more-details"></a>更多详细信息
-你会发现术语数据集和数据源在 Power BI 中得到大量使用。 虽然通常它们作同义词使用，但实际上是两个尽管相关但却不同的事物。
+你会发现术语数据集和数据源在 Power BI 中得到广泛使用。 虽然它们通常用作同义词，但实际上是两个相关却不同的事物。
 
-使用“获取数据”连接到数据以及从内容包、文件导入数据或是连接到实时数据源时，会自动在 Power BI 中创建***数据集***。 数据集包含有关数据源的信息、数据源凭据以及（在许多情况下）从数据源复制的数据的子集。 在大多数情况下，当你在报表和仪表板中创建可视化效果时，看到的就是数据集中的数据。
+使用“获取数据”连接到数据以及从内容包、文件导入数据或是连接到实时数据源时，会自动在 Power BI 中创建***数据集***。 数据集包含有关数据源的信息、数据源凭据以及（在许多情况下）从数据源复制的数据的子集。 大多数情况下，在报表和仪表板中创建可视化效果时，看到的就是数据集中的数据。
 
 ***数据源***是指数据集中的数据的实际来源。 例如，联机服务（如 Google Analytics 或 QuickBooks）、云中的数据库（如 Azure SQL 数据库）或者自己组织中的本地计算机或服务器上的数据库或文件。
 
@@ -87,11 +87,11 @@ Excel（.xlsx、xlxm）– Excel 的与众不同之处就在于，工作薄可�
 
 如果你将文件保存在 OneDrive for Business 或 SharePoint - 团队网站上，然后连接到 Power BI，或将文件导入 Power BI，则你的数据集、报表和仪表板将始终保持最新。 由于 OneDrive 和 Power BI 均位于云中，Power BI 可直接连接到你所保存的文件（约每隔一小时一次），并检查是否有更新。 如果发现任何更新，将自动刷新数据集和任何可视化效果。
 
-来自服务的内容包将自动更新。 在大多数情况下，一天自动更新一次。 你可以手动刷新，但是否能看到更新的数据将取决于服务提供商。 来自你的组织中的其他人的内容包将取决于所使用的数据源，以及创建内容包的人员如何设置刷新。
+来自服务的内容包将自动更新。 在大多数情况下，一天自动更新一次。 可以手动刷新，但是能否看到更新的数据将取决于服务提供商。 来自你的组织中的其他人的内容包将取决于所使用的数据源，以及创建内容包的人员如何设置刷新。
 
-Azure SQL 数据库、Azure SQL 数据仓库和 Azure HDInsight 上的 Spark 的独特之处在于，它们都是云中的数据源。 因为 Power BI 服务也位于云中，Power BI 可使用 DirectQuery，实时地与它们进行连接。 在 Power BI 中看到的内容始终是同步的，并且无需设置刷新。
+Azure SQL 数据库、Azure SQL 数据仓库和 Azure HDInsight 上的 Spark 的独特之处在于，它们都是云中的数据源。 因为 Power BI 服务也位于云中，Power BI 可使用 DirectQuery，实时地与它们进行连接。 在 Power BI 中显示的内容始终是同步内容，无需设置刷新。
 
-SQL Server Analysis Services 的独特之处在于，当你从 Power BI 连接到它时，此连接类似于云中的 Azure 数据库的实时连接，但数据库本身位于你组织中的服务器上。 此类型的连接需要 Power BI Gateway，其通常由 IT 部门配置。
+SQL Server Analysis Services 的独特之处在于，当从 Power BI 连接到它时，此连接类似于云中的 Azure 数据库的实时连接，但数据库本身位于你的组织中的服务器上。 此类型的连接需要 Power BI Gateway，其通常由 IT 部门配置。
 
 数据刷新是 Power BI 中非常重要的一部分，十分深奥，因此在本文中无法一一介绍。 如果你想要全面地了解数据刷新，则请务必查看[Power BI 中的数据刷新](refresh-data.md)。
 
