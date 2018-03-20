@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b61285c54d337ce85ab470180f8cfa2a66f0820e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 94e52d2d56cd7ba0ec04db47bc93dd18fc880f39
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的数据
 通过 Power BI Desktop，你可以轻松连接到持续扩展的数据世界。 如果没有 Power BI Desktop，你可以[下载](http://go.microsoft.com/fwlink/?LinkID=521662)并进行安装。
@@ -80,7 +80,7 @@ Power BI Desktop 可用于执行多种操作。 有关其功能的详细信息�
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [Power BI Desktop 中的常见查询任务](desktop-common-query-tasks.md)   
 
-要向我们提供反馈？ 很好 - 请使用 Power BI Desktop 中的**发送反馈**菜单项。 我们期待收到你的留言！
+要向我们提供反馈？ 请使用 Power BI Desktop 中的“提交想法”菜单项或访问[社区反馈](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback)。 我们期待收到你的留言！
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

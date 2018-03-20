@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 982b027ebf7605cdc0ce122759d5f3837d23c0ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 67b347be9974605156d02cbbf179126c68ae91e8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>教程︰通过 Analysis Services 表格模型实现动态行级别安全性
 本教程演示在 **Analysis Services 表格模型**中实现**行级别安全性**而需执行的步骤，以及如何将其用于 Power BI 报表中。 本教程中的步骤在示例数据集上完成，旨在让您了解必需的步骤。
@@ -87,7 +87,7 @@ ms.lasthandoff: 02/24/2018
 
 ## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>任务 3：在本地数据网关中添加数据源
 1. 在部署表格模型并使其可供使用后，需要向 Power BI 门户中的本地 Analysis Services 表格服务器添加数据源连接。
-2. 若要允许 Power BI 服务访问本地分析服务，你需要在环境中安装并配置**[本地数据网关](service-gateway-onprem.md)**。
+2. 若要允许 Power BI 服务访问本地分析服务，需要在环境中安装并配置[本地数据网关](service-gateway-onprem.md)。
 3. 正确配置本地数据网关后，需要为 **Analysis Services** 表格实例创建一个数据源连接。 本文将帮助你[在 Power BI 门户中添加数据源](service-gateway-enterprise-manage-ssas.md)。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)

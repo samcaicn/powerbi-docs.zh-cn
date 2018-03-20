@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ac61259fc0f02e8f84a94502e9f8dd89d5ca4b96
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop“发送微笑”隐私声明
+
+自 Power BI Desktop 的 2018 年 3 月版起，错误报告使用 Windows 错误报告平台，而不是“发送微笑”/“发送哭脸”功能。 有关 Windows 错误报告平台的详细信息，可查看 [Windows 隐私博客](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/)。 
+
+## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>对于 2018 年 3 月之前的 Power BI Desktop 版本
+
 在 Microsoft，我们正在努力保护你的隐私，同时交付可提供你所需性能、功能和便利性的产品。 本隐私声明介绍了很多数据集合及 Microsoft Power BI Desktop 发送微笑反馈的使用惯例。 它不适用于其他联机或脱机 Microsoft 站点、产品或服务。
 
 除非本声明中另行规定，否则发送微笑不会向 Microsoft 发送个人信息。 未经你的允许，发送至 Microsoft 的信息不会与 Microsoft 及其受控子公司和关联公司之外的机构进行共享。

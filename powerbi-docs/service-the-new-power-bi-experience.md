@@ -16,19 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 38a3923469d64cc0761ea0e1b1b39005f6904d40
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 82aedf3defc1a3154c884c18b90dc27195847e9a
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="getting-around-in-power-bi-service"></a>使用 Power BI 服务
 ## <a name="the-left-navigation-pane"></a>左侧导航窗格
 
-![](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
+![左侧导航窗格](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
 
 **快速参考指南**
 
@@ -64,61 +64,61 @@ ms.lasthandoff: 02/24/2018
 
 如果使用的是 Power BI 免费版，则只能看到一个工作区，即“我的工作区”。
 
-![](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
+![工作区的短视频](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
 
 ### <a name="favorite-dashboards-reports-and-apps"></a>收藏仪表板、报表和应用
 利用收藏夹能快速访问你认为最重要的内容。  
 
 1. 在打开的仪表板或报表中，选择右上角的“收藏”。
    
-   ![](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
+   ![添加收藏夹](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
    
    此时，“**收藏**”变为“**取消收藏**”，星标变为黄色。
    
-   ![](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
+   ![删除收藏夹](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
 
 2. 对于应用，请在左侧导航窗格中选择“应用”，将鼠标悬停在该应用上，然后选择星形，添加到收藏夹。
 
 2. 要显示已加入收藏夹的所有内容的列表，请在左侧导航窗格中选择“收藏夹”右侧的箭头。 由于左侧导航窗格是 Power BI 服务的永久性功能，因此可以在 Power BI 服务中的任何位置访问此列表。
    
-    ![](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
+    ![收藏夹浮出控件](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
    
     在这里，你可以选择一个仪表板、报表或应用来打开它。
 
 3. 要打开“收藏夹”窗格，请在左侧导航窗格中选择“收藏夹”或选择收藏夹图标 ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png)。
    
-   ![](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
+   ![打开“收藏夹”屏幕](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
    
    在这里，可以打开和查找内容、取消收藏或与同事共享内容。
 
 1. 另一种将仪表板或报表标记为收藏的方法是利用“仪表板”或“报表”工作区选项卡。只需打开工作区，显示内容视图，并选择名称左侧的星形图标。
    
-   ![](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
+   ![标记为收藏](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
 
 要了解详细信息，请参阅[收藏](service-dashboard-favorite.md)
 
 ### <a name="recents"></a>最近访问
-通过访问“最近访问”窗格，可快速获取最近访问的内容。 这包括来自所有工作区的内容。
+访问“最近访问”窗格，快速访问最近访问的内容。 这包括来自所有工作区的内容。
 
-  ![](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
+  ![“最近访问内容”窗格](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
 
 与“收藏夹”类似，选择左侧导航窗格中“最近访问”旁边的箭头，可以在 Power BI 服务中的任何位置快速访问最近访问的内容。
 
-  ![](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
+  ![最近访问内容浮出控件](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
 
 若要了解详细信息，请参阅[Power BI 中最近使用的项目](service-recent.md)
 
 ### <a name="apps"></a>应用
 应用是仪表板和报表的集合，旨在于同一个位置提供所有关键指标。 可以在组织内部使用应用，也可[将应用用于外部服务](service-connect-to-services.md)，如 Google Analytics 和 Microsoft Dynamics CRM。 
 
-![](media/service-the-new-power-bi-experience/power-bi-apps.png)
+![“应用”窗格](media/service-the-new-power-bi-experience/power-bi-apps.png)
 
 若要了解详细信息，请参阅“应用工作区”（如下）以及[什么是 Power BI 应用](service-install-use-apps.md)。
 
 ### <a name="shared-with-me"></a>与我共享
 “与我共享”是同事与你共享的所有内容的位置。  按仪表板所有者进行筛选，使用搜索字段查找相关内容，再按日期对项进行排序。  对于频繁访问的共享内容，直接从“与我共享的内容”视图中进行收藏更为简便。
 
-![](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
+![“与我共享”窗格](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
 
 若要了解详细信息，请参阅[与我共享的内容](service-shared-with-me.md)
 
@@ -130,7 +130,7 @@ ms.lasthandoff: 02/24/2018
 #### <a name="my-workspace"></a>我的工作区
 **我的工作区**存储你拥有的所有内容。 可以将其作为你的个人沙盒或自己内容的工作区域。 你可以与同事共享“我的工作区”中的内容。 在“我的工作区”中，内容由 4 个选项卡组成：仪表板、报表、工作簿和数据集。
 
-![](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
+![“我的工作区”屏幕](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
 
 #### <a name="app-workspaces"></a>应用工作区
 应用和应用工作区是 Power BI Pro 的一项功能。 如果你是为其他人创作仪表板和报表的人员，则会使用应用工作区来执行此操作。 应用工作区是创建应用的地方，因此若要创建应用，首先需要创建应用工作区。 它们由组工作区演变而来，是存储应用内容的临时区域和容器。  你和你的同事可以在仪表板、报表以及你计划分发给广大受众甚至整个组织的其他内容上进行协作。
@@ -139,20 +139,20 @@ ms.lasthandoff: 02/24/2018
 
 在“我的工作区”中，内容由 4 个选项卡组成：仪表板、报表、工作簿和数据集。
 
-![](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
+![应用工作区](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
 
 通过选择左侧导航窗格中的“工作区”切换工作区。
 
-![](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
+![选择“工作区”](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
 
 ### <a name="search-and-sort-content"></a>对内容进行搜索和排序
 借助内容视图，可以更轻松地对内容进行搜索、筛选和排序。 若要搜索仪表板、报表或工作簿，请在搜索区域中键入内容。 Power BI 会筛选出名称中包含搜索字符串的内容。
 
-![](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
+![搜索仪表板](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
 
 也可以按名称或所有者对内容进行排序。  
 
-![](media/service-the-new-power-bi-experience/power-bi-sort.png)
+![对内容排序](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 若要了解详细信息，请参阅 [Power BI 导航：搜索、排序、筛选](service-navigation-search-filter-sort.md)
 

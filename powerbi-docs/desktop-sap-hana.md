@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c048a83dad3ea800f50b08bd15c0cec18d6d86cf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: da99de218594d09a8cd76aafa9fc227b648ba7af
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP HANA
 使用 Power BI Desktop，你现在可以访问 **SAP HANA** 数据库。 若要使用 **SAP HANA**，必须在本地客户端计算机上按顺序安装 SAP HANA ODBC 驱动程序，以使 Power BI Desktop **SAP HANA** 数据连接能够正常运行。 可以从 [SAP 软件下载中心](https://support.sap.com/swdc)下载 SAP HANA ODBC 驱动程序。 在这里，搜索 Windows 计算机的 SAP HANA 客户端。 由于 **SAP 软件下载中心**的结构经常发生变化，因此没有有关站点导航的更多具体指导。
@@ -35,7 +35,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-sap-hana/sap-hana-2.png)
 
-在此版本中，[DirectQuery](desktop-use-directquery.md) 中的 **SAP HANA** 模式受 Power BI Desktop 和 Power BI Serivice 的支持 ，并且你可以向 Power BI 服务发布和上传 DirectQuery 模式中使用的 **SAP HANA** 的报表。 在 DirectQuery 模式中不使用 **SAP HANA** 时你也可以向 Power BI Service 发布和上传报表。
+在此版本中，Power BI Desktop 和 Power BI 服务支持 [DirectQuery](desktop-directquery-sap-hana.md) 模式中的 SAP HANA，而且对于使用 DirectQuery 模式中的 SAP HANA 的报表，用户可将其发布和上传到 Power BI 服务。 在 DirectQuery 模式中不使用 **SAP HANA** 时你也可以向 Power BI Service 发布和上传报表。
 
 ### <a name="supported-features-for-sap-hana"></a>SAP HANA 支持的功能
 此版本有很多适用于 **SAP HANA** 的功能，如以下列表所示：
@@ -55,4 +55,12 @@ ms.lasthandoff: 02/24/2018
 * 不支持 SMALLDECIMAL
 * 不支持 VARBINARY
 * 有效日期在 1899/12/30 和 9999/12/31 之间
+
+
+## <a name="next-steps"></a>后续步骤
+有关 DirectQuery 的详细信息，请查看以下资源：
+
+* [DirectQuery 和 SAP HANA](desktop-directquery-sap-hana.md)
+* [Power BI 中的 DirectQuery](desktop-directquery-about.md)
+* [DirectQuery 支持的数据源](desktop-directquery-data-sources.md)
 

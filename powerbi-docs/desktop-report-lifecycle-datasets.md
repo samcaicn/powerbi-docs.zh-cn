@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fff56b220579a19505337f2ac9697cd3e61e83cb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>通过 Power BI Desktop 连接 Power BI 服务中的数据集
 可以与 Power BI 服务中的共享数据集建立实时连接，并根据同一数据集创建多个不同的报表。 也就是说，可以在 Power BI Desktop 中创建理想的数据模型，将其发布到 Power BI 服务中，然后你和其他人可以根据同一通用数据模型创建多个不同的报表（独立的 .pbix 文件）。 我们将此功能称为 **Power BI 服务实时连接**。
@@ -101,7 +101,7 @@ Power BI 的普及带来了一个问题，就是报表、仪表板及其基础�
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_10.png)
 
-现在，你（及其他人）可以创建并共享自定义报表，全部都是以同一个数据集为依据。 让一个拥有丰富专业知识的人创建格式正确的数据集（就像 Anna 所做），然后允许很多同事使用此共享数据集创建他们自己的报表，不失为一种很好的方法。
+现在，你（和其他人）可创建并共享自定义报表，且所有操作均基于同一数据库。 让一个拥有丰富专业知识的人创建格式正确的数据集（就像 Anna 所做），然后允许很多同事使用此共享数据集创建他们自己的报表，不失为一种很好的方法。
 
 > [!NOTE]
 > 当基于使用与 Power BI 服务实时连接的数据集创建报表时，只能将该报表发布到包含所使用数据集的同一 Power BI 服务工作区。
@@ -116,8 +116,8 @@ Power BI 的普及带来了一个问题，就是报表、仪表板及其基础�
 * 由于这是实时连接，因此禁用左导航和建模，与连接 **SQL Server Analysis Services** 时的行为相似。
 * 由于这是实时连接，因此将强制执行 RLS（行级和角色级安全）、OneDrive for Business 和其他此类连接行为，与连接 **SQL Server Analysis Services** 时的情况相似。
 * 选择要连接 **Power BI 服务**中的哪一个数据集时，搜索框的搜索范围仅限于已展开的工作区。
-* 如果修改原始的共享 .pbix 文件，共享到 **Power BI 服务**的数据集和报表将会被覆盖。
-* 无法替换初始共享报表。 尝试执行此操作会导致出现警告，提示你重命名文件后再进行发布。
+* 如果所有者修改最初共享 .pbix 文件，则将覆盖 Power BI 服务中共享的数据集和报表。
+* 工作区的成员无权替换最初共享的报表。 尝试执行此操作会导致出现警告，提示你重命名文件后再进行发布。
 * 如果删除 **Power BI 服务**中的共享数据集，那么其他 **Power BI Desktop** (.pbix) 文件将无法再正常运行或显示其视觉对象。
 * 对于内容包，必须先创建内容包的副本，然后才能以此为基础将 .pbix 报表和数据集共享到 **Power BI 服务**中。
 * 对于来自我的组织的内容包，一旦复制，则无法替换在此服务上创建的报表和/或作为使用实时连接复制内容包的一部分创建的报表。 尝试执行此操作会导致出现警告，提示你重命名文件后再进行发布。 在这种情况下，只能替换已发布的实时连接的报表。

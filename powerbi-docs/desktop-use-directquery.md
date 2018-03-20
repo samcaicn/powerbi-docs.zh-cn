@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec124ef4ae34b064e217b3ce646a329d538e4214
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: df45bbaa142b2c476a6391b1c43638e1ee76c3ae
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 使用 **Power BI Desktop** 时，若已连接数据源，始终可以将数据副本导入 **Power BI Desktop**。 对于某些数据源，还可使用另一种方法︰使用 **DirectQuery** 直接连接到数据源。
@@ -83,7 +83,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="publish-to-the-power-bi-service"></a>发布到 Power BI 服务
 通过**DirectQuery** 创建的报表可发布到 Power BI 服务。
 
-如果使用的数据源不需要本地数据网关（Azure SQL 数据库、Azure SQL 数据仓库或 Redshift）则必须提供凭据，然后所发布的报表才能显示在 Power BI 服务中。
+如果使用的数据源不需要本地数据网关（Azure SQL 数据库、Azure SQL 数据仓库或 Redshift）则必须提供凭据，然后所发布的报表才能在 Power BI 服务中显示。
 
 可以通过在 Power BI 中选择**设置**齿轮状图标然后选择**设置**来提供凭据。
 
@@ -95,7 +95,7 @@ Power BI 将显示**设置**窗口。 在此窗口中，选择**数据集**选�
 
 在提供凭据之前，如果打开已发布的报表或浏览通过与此类数据源的 DirectQuery 连接创建的数据集，会导致出错。
 
-对于除 Azure SQL 数据库、Azure SQL 数据仓库和 Redshift 外的使用 DirectQuery 的数据源，必须安装本地数据网关，并且必须注册数据源才能建立数据连接。 可以[了解有关本地数据网关的详细信息](http://go.microsoft.com/fwlink/p/?LinkID=627094)。
+对于除 Azure SQL 数据库、Azure SQL 数据仓库和 Redshift 外使用 DirectQuery 的数据源，必须安装本地数据网关，并且必须注册数据源才能建立数据连接。 可[了解有关本地数据网关的详细信息](http://go.microsoft.com/fwlink/p/?LinkID=627094)。
 
 ## <a name="next-steps"></a>后续步骤
 有关 DirectQuery 的详细信息，请查看以下资源：

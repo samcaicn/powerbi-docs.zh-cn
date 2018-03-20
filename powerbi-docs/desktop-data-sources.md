@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 85ac8564efca953d338bef9aab8b59699d992c19
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ff28f5d43b065ae798e2e9f275c8e8b59e9ee1ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
@@ -78,13 +78,14 @@ ms.lasthandoff: 02/24/2018
 * Oracle 数据库
 * IBM DB2 数据库
 * IBM Informix 数据库 (Beta)
-* IBM Netezza (Beta)
+* IBM Netezza
 * MySQL 数据库
 * PostgreSQL 数据库
 * Sybase 数据库
 * Teradata 数据库
 * SAP HANA 数据库
-* SAP Business Warehouse 服务器
+* SAP Business Warehouse 应用程序服务器
+* SAP Business Warehouse 消息服务器 (Beta)
 * Amazon Redshift
 * Impala
 * Google BigQuery (Beta)
@@ -103,13 +104,14 @@ ms.lasthandoff: 02/24/2018
 
 * Azure SQL 数据库
 * Azure SQL 数据仓库
-* Azure Analysis Services 数据库 (Beta)
+* Azure Analysis Services 数据库
 * Azure Blob 存储
 * Azure 表存储
 * Azure Cosmos DB (Beta)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark (Beta)
+* HDInsight 交互式查询 (Beta)
 
 下图显示 **Azure** 的**获取数据**窗口。
 
@@ -121,6 +123,7 @@ ms.lasthandoff: 02/24/2018
 * SharePoint Online 列表
 * Microsoft Exchange Online
 * Dynamics 365（联机）
+* Dynamics NAV (Beta)
 * Dynamics 365 for Financials (Beta)
 * Common Data Service (Beta)
 * Microsoft Azure 使用情况见解 (Beta)
@@ -128,23 +131,24 @@ ms.lasthandoff: 02/24/2018
 * Salesforce 对象
 * Salesforce 报表
 * Google Analytics
+* Adobe Analytics
 * appFigures (Beta)
 * comScore Digital Analytix (Beta)
 * Dynamics 365 for Customer Insights (Beta)
+* Data.World - 获取数据集 (Beta)
 * Facebook
 * GitHub (Beta)
-* Kusto (Beta)
 * MailChimp (Beta)
+* Marketo (Beta)
 * Mixpanel (Beta)
-* Planview Enterprise (Beta)
-* Projectplace (Beta)
+* Planview Enterprise One - PRM (Beta)
+* Planview Projectplace (Beta)
 * QuickBooks Online (Beta)
 * Smartsheet
 * SparkPost (Beta)
-* SQL Sentry (Beta)
 * Stripe (Beta)
 * SweetIQ (Beta)
-* Troux (Beta)
+* Planview Enterprise One - CMT (Beta)
 * Twilio (Beta)
 * tyGraph (Beta)
 * Webtrends (Beta)
@@ -157,6 +161,7 @@ ms.lasthandoff: 02/24/2018
 **其他**类别提供下列数据连接：
 
 * Vertica (Beta)
+* Kusto (Beta)
 * Web
 * SharePoint 列表
 * OData 数据源
@@ -203,4 +208,3 @@ Power BI Desktop 可用于执行多种操作。 有关其功能的详细信息�
 * [Power BI Desktop 中的数据类型](desktop-data-types.md)
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [Power BI Desktop 中的常见查询任务](desktop-common-query-tasks.md)    
-

@@ -18,21 +18,21 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e4415f4315400e7ff11c356badee19eebace82b7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c28a53f4421c88bfc6237813ce6fdb76cc160cd
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>使用 Power BI Desktop 中的泛型接口连接到数据
-使用从**访问数据库**到 **Zendesk** 资源的内置数据连接器，可以连接到 **Power BI Desktop** 中多种不同的数据源，如“**获取数据**”窗口中所示。 通过使用内置于 **Power BI Desktop** 中的泛型接口（如 **ODBC** 或 **REST API**），也可以连接到所有*其他*类型的数据源，这甚至会进一步扩大你的连接选项。
+使用从**访问数据库**到 **Zendesk** 资源的内置数据连接器，可以连接到 **Power BI Desktop** 中多种不同的数据源，如“**获取数据**”窗口中所示。 还可使用 Power BI Desktop 中内置的泛型接口（如 ODBC 或 REST API）连接到所有其他类型的数据源，进而进一步增加连接选项。
 
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
 ## <a name="power-bi-desktop-data-interfaces"></a>Power BI Desktop 数据接口
 **Power BI Desktop** 包括一个不断增长的数据连接器的集合，用于连接到特定数据源。 例如，**SharePoint 列表**数据连接器在为 **SharePoint 列表**设计的连接顺序期间提供特定字段和支持信息，这与选择“**获取数据 > 更多...**”时出现的窗口中的其他数据源的情况相同（如上一张图片中所示）。
 
-此外，通过使用以下任一泛型数据接口，**Power BI Desktop** 可连接到未在**获取数据**列表中专门标识的数据源：
+此外，通过 Power BI Desktop，可采用以下任一泛型数据接口 连接到“获取数据”列表中未标识的数据源：
 
 * **ODBC**
 * **OLE DB**
@@ -44,7 +44,7 @@ ms.lasthandoff: 02/24/2018
 
 在以下部分中，可以找到通过这些泛型接口进行访问的数据源的列表。
 
-使用 **Power BI Desktop** 无法找到想要使用的数据源？ 请[告诉我们](https://ideas.powerbi.com/)，以便我们将它添加到我们的想法和请求的列表。
+使用 **Power BI Desktop** 无法找到想要使用的数据源？ 请将你的想法提交到 Power BI 团队的[想法和请求列表](https://ideas.powerbi.com/)。
 
 ## <a name="data-sources-accessible-through-odbc"></a>数据源可以通过 ODBC 访问
 **Power BI Desktop** 中的 **ODBC** 连接器使你仅通过指定**数据源名称(DSN)** 或*连接字符串*即可从任何第三方 ODBC 驱动程序导入数据。 作为一个选项，还可以指定 SQL 语句，以执行 ODBC 驱动程序。
@@ -114,7 +114,7 @@ ms.lasthandoff: 02/24/2018
 | R 脚本 |R 统计文件 |[CRAN 的 R 脚本指南](https://cran.r-project.org/doc/manuals/R-data.html) |
 
 ## <a name="next-steps"></a>后续步骤
-可以使用 Power BI Desktop 连接到各种数据源。 有关数据源的详细信息，请参阅下列资源：
+可使用 Power BI Desktop 连接到各种数据源。 有关数据源的详细信息，请参阅下列资源：
 
 * [Power BI Desktop 入门](desktop-getting-started.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)

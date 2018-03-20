@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: e36e0720ce55fb3c231a25791ded81d113c74929
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 36d12e520cd53abc0159e698f3f469f62f884c95
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI 报表服务器容量计划指南
 Power BI 报表服务器是自助式 BI 和企业报表解决方案，客户可以在本地（防火墙后）进行部署。 它将 Power BI Desktop 的交互式报表功能与 SQL Server Reporting Services 的本地服务器平台相结合。 随着企业中对分析和报表的大量日益频繁使用，对衡量企业用户群所需的硬件基础结构和软件许可证进行预算可能会成为一项挑战。 本文旨在通过共享针对报表服务器的各种工作负载的大量加载测试执行的结果，提供 Power BI 报表服务器的容量计划指南。 虽然组织的报表、查询和使用模式差异巨大，但是本文中显示的结果，以及所用的实际测试和测试执行方式的详细描述，均可用作部署 Power BI 报表服务器早期阶段计划过程中的任何用户的参考点。
@@ -42,7 +42,7 @@ Power BI 报表服务器是自助式 BI 和企业报表解决方案，客户可�
 在每个运行中，最过载的资源是 CPU。 因此，与增加内存或硬盘空间量相比，增加 Power BI 报表服务器的内核数将能更好地提升系统的可靠性。 
 
 ## <a name="test-methodology"></a>测试方法
-所用的测试拓扑均基于 Microsoft Azure 虚拟机，而不是供应商特定的物理硬件。 所有计算机均托管在美国地区中。 这反映了本地和公有云中的硬件虚拟化的总趋势。 
+所用的测试拓扑均基于 Microsoft Azure 虚拟机，而不是供应商特定的物理硬件。 所有计算机均托管在美国地区中。 这反映了本地和公有云中硬件虚拟化的总趋势。 
 
 ### <a name="power-bi-report-server-topology"></a>Power BI 报表服务器拓扑
 Power BI 报表服务器部署由以下虚拟机组成：
@@ -64,7 +64,7 @@ Power BI 报表服务器部署由以下虚拟机组成：
 * 模拟呈现小型和大型分页报表的测试以及 
 * 模拟执行各种类型的 Web 门户操作的测试。 
 
-所有测试均编写用于执行端到端操作（例如，呈现报表、创建新数据源等）。 它们通过向报表服务器（通过 API）发出一个或多个 Web 请求完成此操作。 在实际情况中，用户可能需要执行几个中间操作才能完成其中的一个端到端操作。 例如，要呈现报表，用户将需要转到 Web 门户，导航到报表所在的文件夹，然后单击该报表来呈现它。 虽然测试不执行完成端到端任务所需的所有操作，但它们仍会施加 Power BI 报表服务器会体验到的大部分负载。 可以通过浏览 GitHub 项目详细了解所使用的不同类型报表以及执行的操作的多样性。
+所有测试均编写用于执行端到端操作（例如，呈现报表、创建新数据源等）。 它们通过向报表服务器（通过 API）发出一个或多个 Web 请求完成此操作。 在实际情况中，用户可能需要执行几个中间操作才能完成其中的一个端到端操作。 例如，要呈现报表，用户将需要转到 Web 门户，导航到报表所在的文件夹，然后单击该报表来呈现它。 虽然测试不执行完成端到端任务所需的所有操作，但它们仍会处理 Power BI 报告服务器所遇到的大部分负载。 可以通过浏览 GitHub 项目详细了解所使用的不同类型报表以及执行的操作的多样性。
 
 ### <a name="workloads"></a>工作负载
 测试中使用了 2 个工作负载配置文件：Power BI 报表重负载和分页报表重负载。 下表介绍了针对报表服务器执行的请求的分布。
@@ -148,4 +148,5 @@ Power BI 报表服务器部署由以下虚拟机组成：
 5. 完成部署环境后，按照 https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution 中列出的说明运行测试。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+
 

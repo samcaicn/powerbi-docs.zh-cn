@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
-ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
+ms.openlocfilehash: 5dc5cda126943bbb6da25e384b789c169187b249
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>将自定义视觉对象发布到 AppSource
 了解如何将自定义视觉对象发布到 AppSource 供其他人发现和使用。 office
@@ -38,7 +38,7 @@ ms.lasthandoff: 02/23/2018
 | 项 | 必填 | 说明 |
 | --- | --- | --- |
 | Pbiviz 程序包包含全部所需元数据 |是 |视觉对象名称<br>显示名称<br>GUID<br>版本<br>说明<br>作者姓名和电子邮件 |
-| 示例 .pbix 报表文件 |是 |要展示你的视觉对象，应帮助用户了解该视觉对象。 应向用户强调该视觉对象可以带来的价值，并提供使用示例，格式设置选项等。还可以添加 *“提示”* 页，并在页面末尾附上一些提示和技巧、操作注意事项以及类似内容。 |
+| 示例 .pbix 报表文件 |是 |要展示你的视觉对象，应帮助用户了解该视觉对象。 应向用户强调该视觉对象可以带来的价值，并提供使用示例，格式设置选项等。还可以添加 *“提示”* 页，并在页面末尾附上一些提示和技巧、操作注意事项以及类似内容。<br>示例 .pbix 报表文件必须脱机运行且无任何外部连接 |
 | 图标 |是 |应包含将在店面中显示的自定义视觉对象徽标。 格式可以为 .png、.jpg、.jpeg 或 .gif。 必须正好为 300 像素（宽度）x 300 像素（高度）。 文件大小不得超过 512 KB。 |
 | 屏幕截图 |是 |必须至少提供一个屏幕截图。 格式可以为 .png、.jpg、.jpeg 或 .gif。 尺寸必须正好是 1366 像素（宽度）x 768 像素（高度）。 文件大小不能超过 1024 KB。 *为了实现更好的利用率，添加文本气泡以阐明每个屏幕截图中所示的主要功能的价值主张。* |
 | 支持下载链接 |是 |提供 URL 以便为对视觉对象有疑问的客户提供支持。 URL 的格式应包含 https:// 或 http://。 |

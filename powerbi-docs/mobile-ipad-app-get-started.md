@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>iPad 上的 Power BI 移动应用入门
 iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 
@@ -33,9 +33,9 @@ iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报�
 * [将报表发布到 Power BI 服务中](service-get-started.md)，并创建仪表板。
 * [在本地将报表发布到 Power BI 报表服务器中](report-server/quickstart-create-powerbi-report.md)。
 
-然后，在 iPad 版 Power BI 应用中，可以与仪表板和报表进行交互，无论它们是在本地还是在云中。
+然后，即可在 iPad 版 Power BI 应用中与仪表板和报表进行交互，无论它们是在本地还是在云端。
 
-查看 [Power Bi 移动应用中的新功能](mobile-whats-new-in-the-mobile-apps.md)。
+查找 [Power BI 移动应用中的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="download-the-ios-app-for-the-ipad"></a>下载适用于 iPad 的 iOS 应用
 从 Apple 应用商店[下载 iPad 应用](http://go.microsoft.com/fwlink/?LinkId=522062)。
@@ -138,4 +138,5 @@ iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报�
 ### <a name="see-also"></a>另请参阅
 * [Power BI 入门](service-get-started.md)  
 * 是否有任何问题？ 尝试在 [Power BI 社区](http://community.powerbi.com/)中获取信息
+
 

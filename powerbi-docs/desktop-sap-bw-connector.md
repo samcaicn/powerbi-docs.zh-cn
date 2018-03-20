@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0863b41ecc0f7053ae0d958d25c756c8597880ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 连接器
 使用 Power BI Desktop 可以访问 **SAP BusinessWarehouse (BW)** 数据。
@@ -33,12 +33,16 @@ ms.lasthandoff: 02/24/2018
 1. 在本地计算机上安装 **SAP NetWeaver** 库。 你可以从 SAP 管理员处获取 **SAP Netweaver** 库，也可以直接从 [SAP 软件下载中心](https://support.sap.com/swdc)下载。 由于 **SAP 软件下载中心**的结构经常发生变化，因此没有有关站点导航的更多具体指导。 **SAP NetWeaver** 库通常还包括在 SAP 客户端工具安装中。
    
    可以搜索 SAP 注释 #1025361，获取最新版本的下载位置。 请确保 **SAP NetWeaver** 库（32 位或 64 位）的体系结构匹配 **Power BI Desktop** 安装，然后按照 SAP Note 安装 **SAP NetWeaver RFC SDK** 中包含的所有文件。
-2. “**获取数据**”对话框在“**数据库**”类别中包含针对 **SAP Business Warehouse 服务器**的条目。
+2. “获取数据”对话框的“数据库”类别中包含“SAP Business Warehouse 应用程序服务器”和“SAP Business Warehouse 消息服务器”相关条目。
    
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>SAP BW 连接器功能
-Power BI Desktop 中的 **SAP BW 连接器**预览功能允许用户从他们的 **SAP Business Warehouse 服务器**多维数据集中导入数据。 还可以将 DirectQuery 用于 SAP BW 连接器。 必须指定服务器、系统编号和客户端 ID 才能建立连接。
+通过 Power BI Desktop 中的 SAP BW 连接器，可从 SAP Business Warehouse 服务器多维数据集导入数据，或者可使用 DirectQuery 和 SAP BW 连接器。 
+
+若要深入了解 SAP BW 连接器以及如何将其与 DirectQuery 一起使用，请参阅 [DirectQuery 和 SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)。
+
+连接时，必须指定服务器、系统编号和客户端 ID 才能建立连接。
 
 ![](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
@@ -105,3 +109,9 @@ Power BI Desktop 中的 **SAP BW 连接器**预览功能允许用户从他们的
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
 
+## <a name="next-steps"></a>后续步骤
+有关 SAP HANA 和 DirectQuery 的详细信息，请查看以下资源：
+
+* [DirectQuery 和 SAP HANA](desktop-directquery-sap-hana.md)
+* [Power BI 中的 DirectQuery](desktop-directquery-about.md)
+* [DirectQuery 支持的数据源](desktop-directquery-data-sources.md)

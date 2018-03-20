@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8b7fb21e533fecbfe93481741ae53b0073f6a776
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 937cbf39d08bd830c16e9b2634f3d5a747689f54
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop 中的查询概述
 借助 **Power BI Desktop**，可以连接到世界上的数据，创建具有吸引力的基础报表，与依赖你的工作、扩展自身商业智能工作的其他人共享你的工作。
@@ -102,7 +102,7 @@ Power BI Desktop 还附带有**查询编辑器**，其中你可连接到一个�
 ![](media/desktop-query-overview/queryoverview_theleftpane.png)
 
 ## <a name="the-center-data-pane"></a>中央（数据）窗格
-在中央窗格中，将显示已选择查询中的数据。 大部分查询视图工作在此处完成。
+在中央窗格中，将显示所选查询中的数据。 大部分查询视图工作在此处完成。
 
 下图中，会显示以前建立的 Web 数据连接，选择了**总体评分**列，且右键单击其标头可显示可用菜单项。 请注意，其中许多用右击菜单项与功能区选项卡中的按钮相同。  
 

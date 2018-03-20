@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6d5e4592d1bf041672f89dd38f03ddc6ff196735
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 43263afb63fa0350a240cae602f4a2acf8ef8edd
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>解决 Power BI Desktop 不启动时的问题
 在 Power BI Desktop 中，已安装且正在运行旧版 Power BI 本地数据网关的用户可能无法启动 Power BI Desktop，因为 Power BI 本地网关对本地计算机的命名管道施加了管理策略限制。 

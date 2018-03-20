@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: bd96466a8a8c19a495540b93a512cb62746a6837
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 407f4d8c2faf26b9837b24318c24c118786e21ae
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-tablets"></a>Android 平板电脑上的 Power BI 移动应用入门
 Android 平板电脑版 Power BI 移动应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 
@@ -142,3 +142,4 @@ Android 平板电脑版 Power BI 移动应用提供了 Power BI、Power BI 报�
 * 从 Android 应用商店[下载 Android 应用](http://go.microsoft.com/fwlink/?LinkID=544867)
 * [Power BI 入门](service-get-started.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+
