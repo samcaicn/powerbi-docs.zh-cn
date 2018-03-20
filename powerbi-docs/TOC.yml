@@ -1042,8 +1042,6 @@
           href: report-server/get-started.md
         - name: 最近更新
           href: report-server/whats-new.md
-        - name: 发行说明
-          href: report-server/release-notes.md
         - name: 更改日志
           href: report-server/changelog.md
         - name: 支持时间线
