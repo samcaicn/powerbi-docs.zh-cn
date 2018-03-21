@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 81036ce9a265f4541b23954584d7a9dd9b99a080
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 337fafe395a5d80d0b82ac069579048a69cd6c4f
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="upgrade-power-bi-report-server"></a>升级 Power BI 报表服务器
 了解如何升级 Power BI 报表服务器。
@@ -29,8 +29,6 @@ ms.lasthandoff: 01/30/2018
  下载 ![下载](media/upgrade/download.png "下载")
 
 若要下载 Power BI 报表服务器和针对 Power BI 报表服务器进行了优化的 Power BI Desktop，请转到[使用 Power BI 报表服务器进行本地报告](https://powerbi.microsoft.com/report-server/)。
-
-![提示](media/upgrade/fyi-tip.png "提示") 有关最新发行说明，请参阅 [Power BI 报表服务器 - 发行说明](release-notes.md)。
 
 ## <a name="before-you-begin"></a>开始之前
 在升级报表服务器之前，建议执行以下步骤来备份报表服务器。
