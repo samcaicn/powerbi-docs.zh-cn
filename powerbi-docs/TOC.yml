@@ -698,8 +698,6 @@
           href: desktop-assume-referential-integrity.md
         - name: 教程︰通过 Analysis Services 表格模型实现动态行级别安全性
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: Oracle 和 Teradata 数据库的 DirectQuery
-          href: desktop-directquery-for-oracle-teradata.md
         - name: 在 Power BI Desktop 中使用 SAP BW 连接器（预览）
           href: desktop-sap-bw-connector.md
         - name: 在 Power BI Desktop 中使用 OneDrive for Business 链接
