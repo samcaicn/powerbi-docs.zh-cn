@@ -1,28 +1,29 @@
 ---
-title: "Power BI 服务中的新功能"
-description: "Power BI 服务中的新功能"
+title: Power BI 服务中的新功能
+description: Power BI 服务中的新功能
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: sirsu
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/22/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/23/2018
+---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能。 有关相关的“新增功能”的信息，请参阅：
@@ -36,7 +37,17 @@ ms.lasthandoff: 02/27/2018
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="january-2018"></a>2018 年 1 月
+## <a name="march-2018"></a>2018 年 3 月
+* Power BI 服务中的[永久过滤器](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)。
+* 与使用其个人电子邮件帐户的用户共享内容。 [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) 扩展。
+
+## <a name="previous-months-2018"></a>前几个月 (2018)
+### <a name="february-2018"></a>2018 年 2 月
+* 自动为最终用户安装 [Power BI 应用](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)。
+* Power BI Premium 上的 P4 和 P5 容量
+* [组织自定义视觉对象](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization)预览。
+
+### <a name="january-2018"></a>2018 年 1 月
 *   共享和收藏 Power BI 报表。
 *   针对 Azure SQL 数据库和数据仓库的 OAuth2 和 DirectQuery 单一登录 (SSO) 支持。
 *   区域内审核：审核日志现在将存储在与其租户相同的 Office 365 区域中。
