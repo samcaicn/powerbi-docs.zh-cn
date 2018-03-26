@@ -38,8 +38,8 @@ ms.lasthandoff: 03/23/2018
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 ## <a name="march-2018"></a>2018 年 3 月
-* Power BI 服务中的[永久过滤器](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)。
-* 与使用其个人电子邮件帐户的用户共享内容。 [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) 扩展。
+* Power BI 服务中的[永久性筛选器](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)。
+* 与使用个人电子邮件帐户的用户共享内容。 [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) 扩展。
 
 ## <a name="previous-months-2018"></a>前几个月 (2018)
 ### <a name="february-2018"></a>2018 年 2 月

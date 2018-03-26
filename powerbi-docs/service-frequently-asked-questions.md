@@ -72,7 +72,7 @@ Power BI 不支持由使用者电子邮件服务或电信提供商提供的电�
 是的，从 Microsoft 直接购买时，可提供非盈利组织定价。 你可以了解详细信息，并通过 [Microsoft 产品捐赠](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/)站点注册。 政府部门和学术机构定价通过 MOSP/Direct、EA 和 Open 授权计划提供。 政府定价也适用于联合。 Power BI 尚不可用于美国政府社区云 (GCC)。
 
 ## <a name="is-power-bi-available-on-premises"></a>Power BI 在本地可用吗？
-Power BI 服务[https://powerbi.com](https://powerbi.com)不可用作专用的内部云服务。 但是，还有其他三个选项可用于查看和处理本地数据。 
+Power BI 服务 [https://powerbi.com](https://powerbi.com) 不可用作专用的内部云服务。 但是，还有其他三个选项可用于查看和处理本地数据。 
 
 ### <a name="on-premises-data-gateway"></a>本地数据网关
 通过 Power BI 和 Power BI Desktop，可以安全地连接到自己的本地数据源。 通过[本地数据网关](service-gateway-onprem.md)，可以实时连接到本地 SQL Server Analysis Services 服务器以及其他数据源。 还可以使用集中式网关设置计划刷新。 如果网关不可用，则可以使用 [Power BI Gateway - Personal](personal-gateway.md) 从本地数据源刷新数据。
