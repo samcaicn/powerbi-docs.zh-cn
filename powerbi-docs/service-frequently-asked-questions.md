@@ -1,13 +1,13 @@
 ---
-title: "Power BI 中的常见问题"
-description: "浏览有关 Power BI 服务、Power BI Desktop 和 Power BI 移动应用的常见问题和解答列表。"
+title: Power BI 中的常见问题
+description: 浏览有关 Power BI 服务、Power BI Desktop 和 Power BI 移动应用的常见问题和解答列表。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 04/04/2016
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: af02b57fefaf9764e7a1eac8172d6dc0111dfccd
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7f1c42d46568723706bcdd349790c963f204a33c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
@@ -72,10 +72,10 @@ Power BI 不支持由使用者电子邮件服务或电信提供商提供的电�
 是的，从 Microsoft 直接购买时，可提供非盈利组织定价。 你可以了解详细信息，并通过 [Microsoft 产品捐赠](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/)站点注册。 政府部门和学术机构定价通过 MOSP/Direct、EA 和 Open 授权计划提供。 政府定价也适用于联合。 Power BI 尚不可用于美国政府社区云 (GCC)。
 
 ## <a name="is-power-bi-available-on-premises"></a>Power BI 在本地可用吗？
-Power BI 服务 [https://powerbi.com](https://powerbi.com) 不可用作专用的内部云服务。 但是，还有其他三个选项可用于查看和处理本地数据。 
+Power BI 服务[https://powerbi.com](https://powerbi.com)不可用作专用的内部云服务。 但是，还有其他三个选项可用于查看和处理本地数据。 
 
 ### <a name="on-premises-data-gateway"></a>本地数据网关
-通过 Power BI 和 Power BI Desktop，可以安全地连接到自己的本地数据源。 通过[本地数据网关](service-gateway-onprem.md)，你可以实时连接到你的本地 SQL Server Analysis Services 服务器以及其他数据源。 还可以使用集中式网关设置计划刷新。 如果网关不可用，则可以使用 [Power BI Gateway - Personal](personal-gateway.md) 从本地数据源刷新数据。
+通过 Power BI 和 Power BI Desktop，可以安全地连接到自己的本地数据源。 通过[本地数据网关](service-gateway-onprem.md)，可以实时连接到本地 SQL Server Analysis Services 服务器以及其他数据源。 还可以使用集中式网关设置计划刷新。 如果网关不可用，则可以使用 [Power BI Gateway - Personal](personal-gateway.md) 从本地数据源刷新数据。
 
 ### <a name="power-bi-report-server"></a>Power BI 报表服务器
 Power BI 报表服务器是在自己的本地环境中部署的解决方案，用于创建、发布和管理报表，然后以不同的方式将报表传送给不同的用户：通过 Web 浏览器、移动设备或通过用户收件箱中电子邮件的形式。 详细了解 [Power BI 报表服务器](report-server/get-started.md)。
