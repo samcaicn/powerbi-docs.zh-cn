@@ -1,30 +1,30 @@
 ---
-title: "快速入门：为 Power BI 报表服务器创建 Power BI 报表"
-description: "了解如何通过执行简单几步为 Power BI 报表服务器创建 Power BI 报表。"
+title: 快速入门：为 Power BI 报表服务器创建 Power BI 报表
+description: 了解如何通过执行简单几步为 Power BI 报表服务器创建 Power BI 报表。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 3/5/2018
+ms.date: 3/19/2018
 ms.author: maggies
-ms.openlocfilehash: 0f0e8422edd2f8c1a34d82be065ffde554c96400
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5295a62897c740872480b905f3aef4af37ca0942
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>快速入门：为 Power BI 报表服务器创建 Power BI 报表
-可以在 Power BI 报表服务器 Web 门户中在本地存储和管理 Power BI 报表，就像在 Power BI 服务 (https://powerbi.com) 中的云中存储 Power BI 报表一样。 可以在 Power BI Desktop 中创建和编辑报表，并将其发布到 Web 门户中。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。
+可以在 Power BI 报表服务器 Web 门户中在本地存储和管理 Power BI 报表，就像在 Power BI 服务 (https://powerbi.com)) 中的云中存储 Power BI 报表一样。 可以在 Power BI Desktop 中创建和编辑报表，并将其发布到 Web 门户中。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。
 
 ![Web 门户中的 Power BI 报表](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 03/08/2018
 
     ![从 Web 门户下载 Power BI Desktop](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    或者，可以在 Microsoft 下载中心直接转到[“Microsoft Power BI Desktop”](https://go.microsoft.com/fwlink/?linkid=861076)（已针对 Power BI 报表服务器进行优化 - 2017 年 10 月版）。
+    或者，在 Microsoft 下载中心直接转到 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723)（已针对 Power BI 报表服务器进行优化 - 2018 年 3 月版）。
 
 2. 在“下载中心”页中，选择“下载”。
 
@@ -48,13 +48,13 @@ ms.lasthandoff: 03/08/2018
 
     - **PBIDesktopRS_x64.msi**（64 位版本）。
 
-4. 下载安装程序后，运行 Power BI Desktop（2017 年 10 月版）安装向导。
+4. 下载安装程序后，运行 Power BI Desktop（2018 年 3 月版）安装向导。
 
 2. 安装结束时，请选中“立即启动 Power BI Desktop”。
    
-    此时，它会自动启动，可以开始使用了。 根据标题栏中显示的“Power BI Desktop (2017 年 10 月版)”，便知道使用了正确的版本。
+    此时，它会自动启动，可以开始使用了。 根据标题栏中显示的“Power BI Desktop（2018 年 3 月版）”，便知道使用了正确的版本。
 
-    ![Power BI Desktop 2017 年 10 月版](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+    ![Power BI Desktop 2018 年 3 月版](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
 
 3. 如果不熟悉 Power BI Desktop，请考虑观看欢迎屏幕上的视频。
    
@@ -100,7 +100,7 @@ ms.lasthandoff: 03/08/2018
     ![在 Web 门户中查看报表](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
-Power BI 报表服务器和 Power BI 服务 (http://powerbi.com) 中报表的行为几乎完全相同，但有一些功能不同。
+Power BI 报表服务器和 Power BI 服务 (http://powerbi.com)) 中报表的行为几乎完全相同，但有一些功能不同。
 
 ### <a name="in-a-browser"></a>在浏览器中
 Power BI 报表服务器报表支持所有可视化效果，包括：
@@ -135,6 +135,7 @@ Power BI 报表服务器报表不支持 Power BI 移动应用中的如下功能�
 
 * [Power BI Desktop 入门](../desktop-getting-started.md)
 * 引导式学习：[Power BI Desktop 入门](../guided-learning/gettingdata.yml#step-2)
+
 
 ### <a name="power-bi-report-server"></a>Power BI 报表服务器
 * [安装更适合 Power BI 报表服务器的 Power BI Desktop](install-powerbi-desktop.md)  

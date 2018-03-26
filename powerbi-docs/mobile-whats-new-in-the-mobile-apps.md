@@ -1,27 +1,27 @@
 ---
-title: "Power BI 移动应用中的新功能"
-description: "Power BI 移动应用中的新功能"
+title: Power BI 移动应用中的新功能
+description: Power BI 移动应用中的新功能
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -30,11 +30,21 @@ ms.lasthandoff: 02/27/2018
 * [Power BI Desktop 中的新增功能](desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](service-whats-new.md)  
 
+## <a name="march-2018"></a>2018 年 3 月
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 应用（预览版）
+
+在最近的数据跟随活动中，我们创建了 Power BI for Mixed Reality 应用。 可以沉浸在虚拟世界中查看仪表板和报表，或将它们放在环境的上下文中的特定位置查看。 详细阅读关于新的 [Power BI for Mixed Reality 应用](mobile-mixed-reality-app.md)的内容。
+
 ## <a name="february-2018"></a>2018 年 2 月
 
 ### <a name="share-reports"></a>共享报表
 
 现在可以共享直接来自移动应用的报表。 详细阅读[共享来自移动应用的仪表板和报表](mobile-share-dashboard-from-the-mobile-apps.md)
+
+### <a name="improved-tooltips"></a>改进的工具提示
+
+点击并按住报表视觉对象以访问工具提示时，现在可以用手指在此视觉对象上拖动，浏览每个数据点的详细信息。
 
 ## <a name="january-2018"></a>2018 年 1 月
 

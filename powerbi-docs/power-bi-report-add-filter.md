@@ -1,50 +1,58 @@
 ---
-title: "将可视化效果、页面、钻取或报表筛选器添加到报表"
-description: "在 Power BI 中将页面筛选器、可视化效果筛选器或报表筛选器添加到报表"
+title: 将可视化效果、页面、钻取或报表筛选器添加到报表
+description: 在 Power BI 中将页面筛选器、可视化效果筛选器或报表筛选器添加到报表
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d30941e49915122864976868d36418d53844b927
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e222b9bddc3e7c204a728e207b8969cdf13d605f
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
-# <a name="add-a-filter-to-a-power-bi-report-in-editing-view"></a>向 Power BI 报表添加筛选器（在“编辑视图”中）
+# <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>向 Power BI 服务报表添加筛选器（在“编辑视图”中）
 > [!TIP]
 > 我们建议先阅读[关于 Power BI 报表中的筛选器和突出显示](power-bi-reports-filters-and-highlighting.md)。
+
+本文中的此示例展示 Power BI 服务。 不过这与 Power BI Desktop 中的步骤几乎完全相同。
 > 
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>“编辑视图”和“阅读视图”中报表筛选器的区别是什么
 可使用下列两种模式与报表交互：[阅读视图](service-reading-view-and-editing-view.md)和[编辑视图](service-interact-with-a-report-in-editing-view.md)。  而筛选功能会根据你所用的模式来提供。
 
-* 在“编辑视图”中，可以添加报表、页面和视觉对象筛选器。 保存报表时，筛选器将随之一起保存。 而在“阅读视图”中查看报表的人可以与你添加的筛选器交互，但不能保存他们所做的更改。
-* 在“阅读视图”中，可以与报表中已存在的任意报表、页面和视觉对象筛选器进行交互，但不能保存筛选器更改。
+* 在“编辑视图”中，可以添加报表、页面和视觉对象筛选器。 保存报表时，筛选器将随之一起保存。 在“读取视图”中查看报表的人可以与你添加的筛选器交互。
+* 在“读取视图”中，可以与报表中已存在的任意报表、钻取、页面和视觉对象筛选器交互，但不能添加新的筛选器。 你在“筛选器”窗格中所做的更改会随报表一起保存，即使是使用移动应用查看该报表。  
 
 > [!NOTE]
-> 本文介绍了如何在报表“**编辑视图**”中创建筛选器。  有关“阅读视图”中的筛选器的详细信息，请参阅 [在报表“阅读视图”中与筛选器交互](service-reading-view-and-editing-view.md)。
-> 
-> 
+> 本文介绍了如何在报表“**编辑视图**”中创建筛选器。  有关“读取视图”中的筛选器的详细信息，请参阅[在报表“读取视图”中与筛选器交互](service-reading-view-and-editing-view.md)。
 
-## <a name="visual-filters-page-filters-drillthrough-filters-and-report-filters"></a>视觉对象筛选器、页面筛选器、钻取筛选器和报表筛选器
-“页面筛选器”可应用于报表页面上的所有视觉对象。 “视觉对象筛选器”可应用于报表页面上的单个视觉对象。 **报表筛选器**应用于报表的所有页面。
 
-![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+## <a name="filters-available-in-the-power-bi-filters-pane"></a>Power BI 筛选器窗格中可用的筛选器
+不管使用 Desktop 还是 Power BI 服务，“筛选器”窗格都显示在报表画布的右侧。 如果未看到“筛选器”窗格，请选择右上角的“>”图标将其展开。
+
+有四种类型的筛选器。
+
+- **页面筛选器**可应用于报表页面上的所有视觉对象     
+- **视觉对象筛选器**可应用于报表页面上的单个视觉对象    
+- **钻取筛选器**可应用于报表中的单个实体    
+- **报表筛选器**可应用于报表中的所有页面    
+
+    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>向特定可视化效果添加筛选器（又称视觉筛选器）
 有两种方法可以实现此目的： 
@@ -130,11 +138,11 @@ ms.lasthandoff: 02/24/2018
 3. 在“字段”窗格中，选择要添加为新报表级筛选器的字段，然后将它拖动到“报表级筛选器”区域中。  
 4. 选择要筛选的值（请参阅[如何使用报表筛选器](power-bi-how-to-report-filter.md)）。
 
-活动页面上的视觉对象与报表中所有页面上的视觉对象都会随新的筛选器而变化。 如果将报表与筛选器一起保存，则报表读者可以在“阅读视图”中通过选择或清除值的方式与筛选器交互。
+    活动页面上的视觉对象与报表中所有页面上的视觉对象都会随新的筛选器而变化。 如果将报表与筛选器一起保存，则报表读者可以在“阅读视图”中通过选择或清除值的方式与筛选器交互。
 
 1. 选择后退箭头返回到上一个报表页。
 
-## <a name="troubleshooting"></a>故障排除
+## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 ### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>为何你的视觉级筛选器与页面级筛选器会返回不同的结果
 当你添加视觉级筛选器时，Power BI 会筛选聚合结果。  默认聚合为“求和”，不过你也可以[更改聚合类型](service-aggregates.md)。  
 

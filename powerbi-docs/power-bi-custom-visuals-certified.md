@@ -1,16 +1,16 @@
 ---
-title: "认证的 Power BI 自定义可视化效果"
-description: "提交自定义视觉对象以供认证的要求和过程。 已认证的自定义视觉对象的列表。"
+title: 认证的 Power BI 自定义可视化效果
+description: 提交自定义视觉对象以供认证的要求和过程。 已认证的自定义视觉对象的列表。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: d768756c8c7ede792c547f03779396f11e6e4f85
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>让自定义视觉对象取得认证
 ## <a name="what-is-meant-by-certified"></a>取得认证是指什么？
@@ -60,7 +60,6 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>取得认证的自定义视觉对象的列表
 | AppSource 链接 | 链接到视频 |
 | --- | --- |
-| [关联规则](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380815) | |
 | [星状体图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft 日历](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [MAQ 软件蝴蝶结图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [视频](https://youtu.be/So5xKMSpVJI) |
@@ -77,11 +76,7 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 | [和弦](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380761) | [视频](https://youtu.be/AQvd2FhRyCI) |
 | [MAQ 软件圆形仪表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380837) | [视频](https://youtu.be/9NHXALkBXuY) |
 | [群集映射](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380806) | |
-| [群集](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380861) | |
-| [具有离群值的群集](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380889) | |
-| [相关性绘图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380814) | |
 | [MAQ 软件圆柱仪表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380874) | [视频](https://youtu.be/DgdoWi7Gcxo) |
-| [决策树图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380817) | |
 | [度盘式仪表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381184) | |
 | [点图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760) | |
 | [OKViz 的点阵图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380949) | [视频](https://youtu.be/By16pX9KT40) |
@@ -97,8 +92,6 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 | [Enlighten 洗牌排序法](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Enlighten 方格百分比图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [Force-Directed Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) | [视频](https://youtu.be/YsTa7uyJ4sg) |
-| [预测 TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326) | |
-| [通过 ARIMA 预测](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380888) | |
 | [MAQ 软件带有源的漏斗图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [视频](https://youtu.be/R_EcimsLI8U) |
 | [甘特图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [视频](https://youtu.be/qJ7s_KrGiUU) |
 | [MAQ 软件甘特图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [视频](https://youtu.be/vJLV9JRCpI8) |
@@ -119,6 +112,7 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 | [播放轴（动态切片器）](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [视频](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI 矩阵](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [视频](https://youtu.be/1enze8pcGzY) |
+| [脉冲图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381006) | [视频](https://youtu.be/DQWdcQtjDVw) |
 | [MAQ 软件象限图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [视频](https://youtu.be/ppBnyhqWNC0) |
 | [雷达图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [MAQ 软件环形图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [视频](https://youtu.be/pDToHDFHnq8) |
@@ -127,7 +121,6 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 | [滚动条](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
 | [Smart Filter by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) | [视频](https://youtu.be/gcJsDDRQq28) |
 | [Sparkline by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [视频](https://youtu.be/0m3Vnvso9tY) |
-| [样条图图表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380860) | |
 | [Stream 关系图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772) | |
 | [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [热度地图表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
@@ -135,8 +128,6 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 | [文本筛选器](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [MAQ 软件文本包装器](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [温度计](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
-| [时序分解图表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |
-| [时序预测图表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380816) | |
 | [时间线切片器](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [视频](https://youtu.be/ozMtZ4_NZ10) |
 | [飓风图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [视频](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [MAQ 软件贸易图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [视频](https://youtu.be/xhTR6y6J9Ko) |

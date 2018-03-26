@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI Desktop 中的“分析”窗格"
-description: "在 Power BI Desktop 中创建视觉对象的动态参考行"
+title: 使用 Power BI Desktop 中的“分析”窗格
+description: 在 Power BI Desktop 中创建视觉对象的动态参考行
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 24f6f9037937049d24321791046aaf7a14e9fb6f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 369d99406cd286be7cf1afb3c02c98c1711531ae
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>使用 Power BI Desktop 中的“分析”窗格
 通过 **Power BI Desktop** 的“**分析**”窗格，你可以向视觉对象添加动态参考行，并重点关注重要趋势或见解。 “分析”窗格位于 Power BI Desktop 的“可视化效果”区域中。
@@ -60,7 +60,7 @@ ms.lasthandoff: 02/24/2018
    ![](media/desktop-analytics-pane/analytics-pane_3.png)
 3. 若要创建一个新行，请选择“**+ 添加**”。 然后，可以通过双击文本框，键入名称来为行指定名称。
    
-   对于行提供了各种选项，例如可以选择其“颜色”、“透明度”、“样式”和“位置”（与视觉对象的数据元素有关），以及是否包括标签。 重要的是，通过选择“**度量值**”下拉列表，可以选择想要行基于视觉对象中的哪个**度量值**，它会自动使用视觉对象中的数据元素予以填充。 本示例中将选择“天气”作为度量值，对其设置“平均天气”标签，并对其他几个选项进行自定义，如下所示。
+   对于行提供了各种选项，例如可以选择其“颜色”、“透明度”、“样式”和“位置”（与视觉对象的数据元素有关），以及是否包括标签。 重要的是，通过选择“度量值”下拉列表，可以选择想要行基于视觉对象中的哪个度量值，它会自动使用视觉对象中的数据元素予以填充。 本示例中将选择“天气”作为度量值，对其设置“平均天气”标签，并对其他几个选项进行自定义，如下所示。
    
    ![](media/desktop-analytics-pane/analytics-pane_4.png)
 4. 如果想要显示数据标签，请将“**数据标签**”滑块移至开启状态。 执行此操作可以为数据标签获取大量其他选项，如下图所示。

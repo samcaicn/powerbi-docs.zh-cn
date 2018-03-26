@@ -1,40 +1,34 @@
 ---
-title: "快速入门：安装 Power BI 报表服务器"
-description: "Power BI 报表服务器本身安装起来非常快。 从下载到安装和配置，只需几分钟，即可快速上手使用。"
+title: 快速入门：安装 Power BI 报表服务器
+description: Power BI 报表服务器本身安装起来非常快。 从下载到安装和配置，只需几分钟，即可快速上手使用。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 625864384f73260ec0f62b74ff9a95e966289da0
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>快速入门：安装 Power BI 报表服务器
 Power BI 报表服务器本身安装起来非常快。 从下载到安装和配置，只需几分钟，即可快速上手使用。
 
 如果要直接快速上手使用新服务器，可以参阅本文，快速了解如何安装报表服务器。 若要详细了解如何安装报表服务器，请参阅[安装 Power BI 报表服务器](install-report-server.md)。
 
- 下载 ![下载](media/quickstart-install-report-server/download.png "下载")
-
-若要下载 Power BI 报表服务器，请转到[使用 Power BI 报表服务器进行本地报告](https://powerbi.microsoft.com/report-server/)。 
-
-转到 Microsoft 下载中心下载 [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076)（已针对 Power BI 报表服务器进行优化 - 2017 年 10 月版）。
-
-![提示](media/quickstart-install-report-server/fyi-tip.png "提示") 有关最新发行说明，请参阅 [Power BI 报表服务器 - 发行说明](release-notes.md)。
+## <a name="video-install-power-bi-report-server"></a>视频：安装 Power BI 报表服务器
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -42,7 +36,10 @@ Power BI 报表服务器本身安装起来非常快。 从下载到安装和配�
 建议在安装 Power BI 报表服务器之前先查看[安装 Power BI 报表服务器所要满足的硬件和软件要求](system-requirements.md)。
 
 ## <a name="step-1-download"></a>第 1 步：下载
-将 Power BI 报表服务器的安装文件下载到本地。 若要下载 Power BI 报表服务器，请转到 [Microsoft 下载中心](https://go.microsoft.com/fwlink/?linkid=839351)。
+
+要下载 Power BI 报表服务器和针对 Power BI 报表服务器进行了优化的 Power BI Desktop，请转到[使用 Power BI 报表服务器进行本地报告](https://powerbi.microsoft.com/report-server/)并选择“下载免费试用版”。
+
+按照说明将 Power BI 报表服务器的安装文件下载到本地。 
 
 ![下载 Power BI 报表服务器](media/quickstart-install-report-server/download-pbireportserver.png)
 

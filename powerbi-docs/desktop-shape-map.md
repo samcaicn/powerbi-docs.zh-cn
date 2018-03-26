@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI Desktop 中的形状地图（预览版）"
-description: "使用 Power BI Desktop 中的形状地图创建区域的相对比较"
+title: 使用 Power BI Desktop 中的形状地图（预览版）
+description: 使用 Power BI Desktop 中的形状地图创建区域的相对比较
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 335e9800be3d2a2cd30cc84835ab7b0173922c46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop 中的形状地图（预览版）
 在 Power BI Desktop 中，可以创建**形状地图**视觉对象，以便通过向不同区域应用不同颜色，在地图上显示区域的相对比较。 与**地图**视觉对象相反，**形状地图**无法在地图上显示数据点的准确地理位置；其主要用途是通过对区域应用不同的颜色，在地图上显示其相对比较。
@@ -73,6 +73,23 @@ Power BI Desktop 将创建一个空的“形状地图”视觉对象设计画布
 若要使用你的 **TopoJSON** 地图文件，请将 ShapeMap 视觉对象添加到你的报表，并向“位置”和“值”存储桶添加一些数据。 然后，在选中“格式”部分（如下图 (1) 中所示的画笔图标）的“可视化效果”窗格中，展开“形状”部分，选择“+ 添加地图”。
 
 ![](media/desktop-shape-map/shape-map_6.png)
+
+## <a name="sample-custom-map"></a>自定义地图示例
+美国律师办事处发布了关于诉讼和案件数量数据的年度财务报告。  在下面的链接中可以找到他们的所有报告，
+
+https://www.justice.gov/usao/resources/annual-statistical-reports
+
+由于可以将州分为多个区，我们需要使用自定义形状地图。  通过将美国司法区的 TopoJSON 地图导入到 Power BI Desktop，我们可以直观表示年度财务区律师数据。  下图展示了此地图的示例。
+
+![](media/desktop-shape-map/shape-map_7a.png)
+
+你也能对单个州地图进行一些有趣的操作，并基于它所包含的区显示更多详细信息。 
+
+![](media/desktop-shape-map/shape-map_7b.png)
+
+如果想试验该数据集和可视化效果，可以从下列链接下载用于生成此报表的原始 PBIX 文件。
+
+* [自定义形状地图的演示 .PBIX 文件](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>获取地图数据
 若要将数据快速导入模型以便测试“形状地图”，你可以复制本文末尾的其中一个表，然后从“主页”功能区中选择“输入数据”。

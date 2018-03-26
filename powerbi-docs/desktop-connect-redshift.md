@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中连接到 Amazon Redshift 数据库"
-description: "通过 Power BI Desktop 轻松连接并使用 Amazon Redshift 数据库"
+title: 在 Power BI Desktop 中连接到 Amazon Redshift 数据库
+description: 通过 Power BI Desktop 轻松连接并使用 Amazon Redshift 数据库
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,21 +18,21 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: de0e6b61197bfe25048a2722d5aab42f1c15e999
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9597d056067fb1af291f46a088b94a39da57eab9
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Amazon Redshift
 在 **Power BI Desktop** 中，你可以连接到 **Amazon Redshift** 数据库，并以 Power BI Desktop 中使用其他所有数据源相同的方式使用基础数据。
 
 ## <a name="connect-to-an-amazon-redshift-database"></a>连接 Amazon Redshift 数据库
-若要连接到 Amazon Redshift 数据库，请从 Power BI Desktop 中的“主页”功能区选择“获取数据”。 在左侧的类别中选择“数据库”，然后将看到 Amazon Redshift。
+要连接到 Amazon Redshift 数据库，请从 Power BI Desktop 中的“主页”功能区选择“获取数据”。 在左侧的类别中选择“数据库”，然后将看到 Amazon Redshift。
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
-在出现的 **Amazon Redshift** 窗口中，将你的 **Amazon Redshift** 服务器和数据库名称键入或粘贴到框中。 “服务器”场中的用户可用以下格式指定端口：ServerURL:Port
+在出现的 **Amazon Redshift** 窗口中，将你的 **Amazon Redshift** 服务器和数据库名称键入或粘贴到框中。 “服务器”字段中的用户可用以下格式指定端口：ServerURL:Port
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 

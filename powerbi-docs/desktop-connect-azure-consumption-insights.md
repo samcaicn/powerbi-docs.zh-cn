@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop (Beta) 中连接到 Azure 使用情况见解数据"
-description: "使用 Power BI Desktop 轻松连接到 Azure，并获取有关使用情况的见解"
+title: 在 Power BI Desktop (Beta) 中连接到 Azure 使用情况见解数据
+description: 使用 Power BI Desktop 轻松连接到 Azure，并获取有关使用情况的见解
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,23 +18,23 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (Beta) 中连接到 Azure 使用情况见解
 借助 Azure 使用情况见解连接器，可以使用 Power BI Desktop 连接到 Azure，并获取有关组织 Azure 服务使用情况更详细的数据和信息。 还可以创建度量值、自定义列和视觉对象来报告和共享组织的 Azure 使用情况。 此版本的 Azure 使用情况和见解连接器处于测试阶段，随时可能更改。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01.png)
 
-在本文中，你将了解如何使用 Azure 使用情况见解连接器进行连接，并获取所需的数据，如何使用 Azure 企业连接器进行迁移，此外，还会找到 ACI（Azure 使用情况见解）API 中提供的“使用情况详细信息列”的映射。
+在本文中，你将了解如何使用 Azure 使用情况见解连接器进行连接并获取所需的数据和如何使用 Azure 企业连接器进行迁移，此外还会找到 ACI（Azure 使用情况见解）API 中提供的“使用情况详细信息列”的映射。
 
 ## <a name="connect-to-azure-consumption-insights"></a>连接到 Azure 使用情况见解
 要使用 Azure 使用情况见解连接器成功连接，需要能够访问 Azure 门户中的“企业”功能。
 
-若要使用 Azure 使用情况见解连接器进行连接，请从“Power BI Desktop”的“主页”功能区中选择“获取数据”。 从左侧类别中选择“联机服务”，会看到“Microsoft Azure 使用情况见解 (Beta)”。 选择“连接”。
+要使用 Azure 使用情况见解连接器进行连接，请从“Power BI Desktop”的“主页”功能区中选择“获取数据”。 从左侧类别中选择“联机服务”，会看到“Microsoft Azure 使用情况见解 (Beta)”。 选择“连接”。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
-* 可以从 [Azure Enterprise Portal](https://ea.azure.com) 获取合约编号，位置如下图所示。
+* 可以从 [Azure Enterprise Portal](https://ea.azure.com) 获取合约编号，获取位置如下图所示：
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
@@ -61,7 +61,7 @@ ms.lasthandoff: 02/24/2018
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
 
 > [!NOTE]
-> *“摘要”和“价目表”这两个表仅适用于注册级 API 密钥。 此外，这些表中的数据默认包含“使用情况”和“价目表”的当前月份数据。 未将“摘要”和“商城”这两个表限制到当前月份。
+> “摘要”和“价目表”这两个表仅适用于注册级 API 密钥。 此外，这些表中的数据默认包含“使用情况”和“价目表”的当前月份数据。 未将“摘要”和“商城”这两个表限制到当前月份。
 > 
 > 
 
@@ -84,16 +84,16 @@ Azure 还包括一些可以使用空查询检索的示例自定义查询的集�
 
     = MicrosoftAzureConsumptionInsights.Contents
 
-将显示示例集合，如下图所示。
+随即出现示例集合，如下图所示：
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 处理报表和创建查询时，请使用以下命令：
 
-* 要定义从当前日期开始的月数，请使用 noOfMonths
+* 要定义从当前日期开始的月数，请使用 numberOfMonth
   * 使用介于 1 到 36 之间的值表示自当前日期开始要导入的月数。 建议获取的数据不要超过 12 个月，以避免超过导入限制和 Power BI 中查询允许数据量限制。
 * 要在历史时间窗口中定义一段时间内的月份，请使用 startBillingDataWindow 和 endBillingDataWindow
-* 请勿将 noOfMonths 与 startBillingDataWindow 或 endBillingDataWindow 一起使用
+* 请勿将 numberOfMonth 与 startBillingDataWindow 或 endBillingDataWindow 一起使用
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>从 Azure 企业连接器迁移
 一些客户使用 Azure 企业连接器 (Beta)创建视觉对象，这些对象最终将被停用，并被替换为 Azure 使用情况见解连接器。 Azure 使用情况见解连接器具有以下功能和增强功能：
@@ -108,7 +108,7 @@ Azure 还包括一些可以使用空查询检索的示例自定义查询的集�
 第一步是使用 Azure 使用情况见解连接器进行连接，这在本文前面的部分中进行了详细介绍。 在此步骤中，在 Power BI Desktop 的“主页”功能区中选择“获取数据”>“空查询”。
 
 ### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>步骤 2：使用高级编辑器创建查询
-在“查询编辑器”中，从“主页”功能区的“查询”部分选择“高级编辑器”。 在出现的“高级编辑器”窗口中，输入以下查询。
+在“查询编辑器”中，从“主页”功能区的“查询”部分选择“高级编辑器”。 在出现的“高级编辑器”窗口中，输入以下查询：
 
     let    
         enrollmentNumber = "100",
@@ -131,10 +131,10 @@ Azure 还包括一些可以使用空查询检索的示例自定义查询的集�
    
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. 将 Query1 重命名为原始详细信息表名称。
-4. 右键单击表格并选择“新建度量值”，然后剪切并粘贴存储度量值和列，完成在表中创建新的度量值和自定义列操作。
+4. 右键单击表格并选择“新建度量值”，然后剪切并粘贴已存储的度量值和列，完成在表中创建新的度量值和自定义列操作。
 
 ### <a name="step-4-re-link-tables-that-had-relationships"></a>步骤 4：重新关联具有关系的表
-许多仪表板包含用于查找或筛选的其他表，可使用这类日期表或表自定义项目。 重新建立这些关系可解决大部分遗留问题。 下面介绍如何执行该操作。
+许多仪表板包含用于查找或筛选的其他表，例如日期表或用于自定义项目的表。 重新建立这些关系可解决大部分遗留问题。 下面介绍如何执行该操作。
 
 - 在 Power BI Desktop 的“建模”选项卡中，选择“管理关系”会弹出允许你管理模型中关系的窗口。 根据需要重新关联表。
    

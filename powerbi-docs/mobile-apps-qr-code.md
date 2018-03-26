@@ -1,27 +1,27 @@
 ---
-title: "使用移动设备扫描 Power BI QR 码"
-description: "使用 Power BI 中的 QR 码，可以在适用于 iPhone 和 Android 设备的 Power BI 移动应用中从现实生活中的任何项直接连接到相关 BI 信息。"
+title: 使用移动设备扫描 Power BI QR 码
+description: 使用 Power BI 中的 QR 码，可以在适用于 iPhone 和 Android 设备的 Power BI 移动应用中从现实生活中的任何项直接连接到相关 BI 信息。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 80c8de8626f2d891a7875933ee72a43dd5d7f09e
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2716452f285d8df0aa0d3b89c2b9b36aa87cc5cc
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>使用移动设备扫描 Power BI QR 码
 适用于：
@@ -36,10 +36,10 @@ Power BI 中的 QR 代码可以将现实生活中的任何项目直接连接到�
 
 你可以使用 Power BI 应用中的扫描程序或手机上安装的其他任何扫描程序，通过扫描 QR 码立即访问相关的磁贴或报表。 
 
+如果同事尚未与你共享仪表板或报表，可以直接在移动应用中请求获取访问权限。 
+
 > [!NOTE]
-> 如果同事尚未与你共享仪表板或报表，可以直接在移动应用中请求获取访问权限。
-> 
-> 
+> 还可以[使用 Power BI for Mixed Reality 应用扫描报表 QR 码](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)。
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>使用 Power BI 扫描程序在 iPhone 上扫描 Power BI QR 码
 1. 在 Power BI 移动应用中打开左上方的全局导航菜单 ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png)。 
@@ -80,5 +80,6 @@ Power BI 中的 QR 代码可以将现实生活中的任何项目直接连接到�
 * 使用移动应用[从真实世界连接到 Power BI 数据](mobile-apps-data-in-real-world-context.md)
 * [为 Power BI 服务中的磁贴创建 QR 代码](service-create-qr-code-for-tile.md)
 * [为 Power BI 服务中的报表创建 QR 代码](service-create-qr-code-for-report.md)
+* 还可以[使用 Power BI for Mixed Reality 应用扫描 QR 码](mobile-mixed-reality-app.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

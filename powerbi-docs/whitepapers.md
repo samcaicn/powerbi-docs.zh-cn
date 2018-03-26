@@ -1,27 +1,27 @@
 ---
-title: "Power BI 白皮书"
-description: "阅读白皮书，可以深入探索 Power BI 主题。"
+title: Power BI 白皮书
+description: 阅读白皮书，可以深入探索 Power BI 主题。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/16/2018
 ms.author: maghan
-ms.openlocfilehash: ac3f2b52374df0ea9a153a97548e40420388181d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 5e9e0ea009e403b89af7ff67e81062433ba56b80
+ms.sourcegitcommit: 863df35192b9aba1e7c22a64bc8df24418416730
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 白皮书
 
@@ -42,5 +42,6 @@ ms.lasthandoff: 01/30/2018
 | [保护表格 BI 语义模型](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |本白皮书介绍了表格 BI 语义和 Power BI 的安全模型。 你将了解如何创建角色，实现动态安全性，配置模拟设置，管理角色，以及选择连接到在你的网络安全上下文中工作的模型的方法。 |
 | [Power BI 报表服务器容量计划指南](report-server/capacity-planning.md) |本文旨在通过共享针对报表服务器的各种工作负载的大量加载测试执行的结果，提供 Power BI 报表服务器的容量计划指南。 |
 | [Power BI Premium 规划和部署](https://aka.ms/Premium-Capacity-Planning-Deployment)| 本文介绍了如何针对已定义的工作负载规划和部署高级容量，以及相应的最佳做法。|
+| [Power BI 和 SAP BW](https://aka.ms/powerbiandsapbw)| 本文档介绍 SAP 客户如何在连接 Power BI 和现有 SAP Business Warehouse (BW) 系统的过程中受益。|
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

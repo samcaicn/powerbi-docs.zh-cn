@@ -1,15 +1,15 @@
 ---
-title: "Power BI 报表服务器的更改日志"
-description: "此更改日志适用于 Power BI 报表服务器，并列出了新项和每次发布版本的 bug 修复。"
+title: Power BI 报表服务器的更改日志
+description: 此更改日志适用于 Power BI 报表服务器，并列出了新项和每次发布版本的 bug 修复。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: jtarquino
 manager: jonhp
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,17 +17,35 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
-ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
+ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
 此更改日志适用于 Power BI 报表服务器，并列出了新项和每次发布版本的 bug 修复。
 
-有关新功能的详细信息，请参阅[Power BI 报表服务器中的新增功能](whats-new.md)。
+有关新功能的详细信息，请参阅[Power BI 报表服务器中的新增功能](whats-new.md)。 
+
+## <a name="march-2018"></a>2018 年 3 月
+- **Power BI 报表服务器**
+    - 版本 1.2.6648.38132（内部版本 15.0.2.378），发布日期：2018 年 3 月 19 日
+        - 安全更新
+        - 辅助功能改进
+        - Bug 修复
+            - 针对分页报表 (RDL)，修复链接报表中的参数可见性在编辑属性后被还原的问题
+            - 修复采用自定义窗体身份验证的 Web 门户忽略滑动期限 cookie
+            - 修复导出到 Word 时，因行内容为空导致行高不一致的问题
+            - 针对分页报表 (RDL)，修复在更改数据源凭据时基于表达式的连接字符串被删除的问题
+            - 修复将 KPI 与文本值一起使用的能力
+            - 针对分页报表 (RDL)，修复将新数据集分配到现有分页报表 (RDL) 的能力
+            - 其他稳定性和可用性的修复内容
+
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
+    - 版本：2.56.5023.1043（2018 年 3 月），发布日期：2018 年 3 月 19 日
+        - 包含与 Power BI 报表服务器连接所需的更改（2018 年 3 月）
 
 ## <a name="october-2017"></a>2017 年 10 月
 

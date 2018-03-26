@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI 中创建可以重设大小的响应式切片器"
-description: "了解如何创建可以重设大小以适合你报表的响应式切片器"
+title: 在 Power BI 中创建可以重设大小的响应式切片器
+description: 了解如何创建可以重设大小以适合你报表的响应式切片器
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: feba171d6a81f7e9760df2d9fabecce2cc544dc2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2ab907dd15e43892147967902fbb94d09ef4125b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>在 Power BI 中创建可以重设大小的响应式切片器（预览版）
 
@@ -78,7 +78,7 @@ ms.lasthandoff: 02/24/2018
 
 ## <a name="make-a-time-or-range-slicer-responsive"></a>将时间或范围切片器设置为响应式
 
-你可以按照相同的步骤将磁贴或范围切片器设置为响应式。 将“响应”设置为“打开”之后，请注意下列事项：
+你可以按照相同的步骤将时间或范围切片器设置为响应式。 将“响应”设置为“打开”之后，请注意下列事项：
 
 - 视觉对象将根据画布允许的尺寸来优化输入框的顺序。 
 - 数据元素显示已经过优化，以根据画布允许的尺寸使切片器尽可能地适用。 

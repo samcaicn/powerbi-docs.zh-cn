@@ -1,15 +1,15 @@
 ---
-title: "连接到 Power BI Desktop 中的数据"
-description: "连接到 Power BI Desktop 中的数据"
+title: 连接到 Power BI Desktop 中的数据
+description: 连接到 Power BI Desktop 中的数据
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 94e52d2d56cd7ba0ec04db47bc93dd18fc880f39
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: eb6d31864570a2078cf46b7e30fa771fd7773e93
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的数据
-通过 Power BI Desktop，你可以轻松连接到持续扩展的数据世界。 如果没有 Power BI Desktop，你可以[下载](http://go.microsoft.com/fwlink/?LinkID=521662)并进行安装。
+通过 Power BI Desktop，可以轻松连接到持续扩展的数据世界。 如果没有 Power BI Desktop，你可以[下载](http://go.microsoft.com/fwlink/?LinkID=521662)并进行安装。
 
 Power BI Desktop.中有 *各种* 可用数据源。 下图显示了如何通过依次选择**文件**功能区、**获取数据\>更多**来连接到数据。
 
