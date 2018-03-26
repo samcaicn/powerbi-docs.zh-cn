@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop 中的报表视图"
-description: "Power BI Desktop 中的报表视图"
+title: Power BI Desktop 中的报表视图
+description: Power BI Desktop 中的报表视图
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e68a819325e601f869b34c4ccbe3e873fe9408b3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af10699ea30b9d8e8dd8e3495860c43387a7e0be
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop 中的报表视图
 如果你一直在使用 Power BI，就知道它非常便于创建可为数据提供动态透视和深入见解的报表。 在 Power BI Desktop 中，Power BI 还具有更高级的功能。 通过 Power BI Desktop，可创建高级查询、混合多个源中的数据和创建表格之间的关系等。
@@ -36,7 +36,7 @@ Power BI Desktop 提供**报表视图**，可在其中创建任何数量具有�
 
 ![](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-通过选择左侧导航栏中的图标，可在**报表视图**、**数据视图**和**关系视图**之间进行切换：
+通过选择左侧导航栏中的图标，可在报表视图、数据视图和关系视图之间切换：
 
 ![](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
@@ -44,7 +44,7 @@ Power BI Desktop 提供**报表视图**，可在其中创建任何数量具有�
 
 ![](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-若要更改可视化对象的类型，可在功能区的**可视化**组中将其选中，或者右键单击并从**更改可视化类型**图标中另选一种。
+要更改可视化对象的类型，可在功能区的“可视化”组中将其选中，或者右键单击并从“更改可视化类型”图标中另选一种类型。
 
 ![](media/desktop-report-view/pbid_reportview_changevis.gif)
 
@@ -53,7 +53,7 @@ Power BI Desktop 提供**报表视图**，可在其中创建任何数量具有�
 > 
 > 
 
-报表将至少具有一个可供使用的空白页。 页面将显示在画布左侧的浏览器窗格中。 可向页面添加各种类型的可视化效果，但请不要过度编写。 如果页面上的可视化效果太多，将使其看起来杂乱，很难找到正确信息。 可向报表添加新页面，只需单击功能区上的**新建页面**即可。
+报表将至少具有一个可供使用的空白页。 页面将显示在画布左侧的浏览器窗格中。 可向页面添加各种类型的可视化效果，但请不要过度编写。 如果页面上的可视化效果太多，将使其看起来杂乱，很难找到正确信息。 可以将新的页面添加到报表中。 只需单击功能区上的“新建页面”。
 
 ![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 

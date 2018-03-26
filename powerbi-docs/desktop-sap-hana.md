@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中使用 SAP HANA"
-description: "在 Power BI Desktop 中使用 SAP HANA"
+title: 在 Power BI Desktop 中使用 SAP HANA
+description: 在 Power BI Desktop 中使用 SAP HANA
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da99de218594d09a8cd76aafa9fc227b648ba7af
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1c8f3bfc64c6ab895d62749d4d4bc0d2d70d0a9b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP HANA
 使用 Power BI Desktop，你现在可以访问 **SAP HANA** 数据库。 若要使用 **SAP HANA**，必须在本地客户端计算机上按顺序安装 SAP HANA ODBC 驱动程序，以使 Power BI Desktop **SAP HANA** 数据连接能够正常运行。 可以从 [SAP 软件下载中心](https://support.sap.com/swdc)下载 SAP HANA ODBC 驱动程序。 在这里，搜索 Windows 计算机的 SAP HANA 客户端。 由于 **SAP 软件下载中心**的结构经常发生变化，因此没有有关站点导航的更多具体指导。
 
-若要连接 **SAP HANA** 数据库，请依次选择“**获取数据 > 数据库 > SAP HANA 数据库**”，如下图所示。
+要连接 SAP HANA 数据库，请依次选择“获取数据”>“数据库”>“SAP HANA 数据库”，如下图所示：
 
 ![](media/desktop-sap-hana/sap-hana-1.png)
 
@@ -40,10 +40,10 @@ ms.lasthandoff: 03/08/2018
 ### <a name="supported-features-for-sap-hana"></a>SAP HANA 支持的功能
 此版本有很多适用于 **SAP HANA** 的功能，如以下列表所示：
 
-* 适用于 **SAP HANA** 的 Power BI 连接器使用 SAP ODBC 驱动程序，以提供最佳使用体验
+* 适用于 SAP HANA 的 Power BI 连接器使用 SAP ODBC 驱动程序，以提供最佳使用体验
 * **SAP HANA** 支持 DirectQuery 和导入选项
 * Power BI 支持 HANA 信息模型（如 Analytic 和 Calc 视图），并具有经过优化的导航
-* 通过 **SAP HANA**，你还可以使用直接 SQL 功能连接到单行表和列表
+* 通过 SAP HANA，还可以使用直接 SQL 功能连接到单行表和列表
 * 包括对 HANA 模型的优化导航
 * Power BI 支持 **SAP HANA** 变量和输入参数
 

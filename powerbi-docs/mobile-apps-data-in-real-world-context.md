@@ -1,33 +1,33 @@
 ---
-title: "使用 Power BI 移动应用获取实际数据"
-description: "无需进行任何搜索，Power BI 移动应用即可直接将现实生活连接到相关 BI 信息。"
+title: 使用 Power BI 移动应用获取实际数据
+description: 无需进行任何搜索，Power BI 移动应用即可直接将现实生活连接到相关 BI 信息。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 670d83e41476bf3d38a0f98908e20e7d35f9e22d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f4ad86ddf6604e2e8bd9d562249b3f2865a3ec7d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>使用 Power BI 移动应用获取实际数据
 通过几种不同的方式，Power BI 移动应用可以直接将现实生活连接到相关 BI 信息。 
 
 ## <a name="qr-codes-for-tiles"></a>磁贴的 QR 代码
-在仪表板中创建磁贴的 QR 代码，并将 QR 代码存放于你所需的任何位置上。 当你的同事用他们的 iPhone 或 Android 手机扫描代码时，他们会看到已与该 QR 代码 &#151; 关联的磁贴在 iPhone 上，他们会在增强现实中看到该磁贴。
+在仪表板中创建报表 QR 码或磁贴，并将 QR 代码放在你所需的任何位置上。 当你的同事用他们的 iPhone、Android 手机或 Power BI for Mixed Reality 应用扫描代码时，他们会看到已与该 QR 代码关联的磁贴。 在 iPhone 上，他们会在增强现实中看到该磁贴。
 
 ![QR 代码](media/mobile-apps-data-in-real-world-context/power-bi-ios-qr-ar-scanner-small.png)
 
@@ -35,6 +35,7 @@ ms.lasthandoff: 11/13/2017
 
 * [在 Power BI 中创建磁贴的 QR 代码](service-create-qr-code-for-tile.md)
 * [使用移动设备扫描 Power BI QR 码](mobile-apps-qr-code.md)
+* [使用 Power BI for Mixed Reality 应用扫描 QR 码](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)。
 
 ## <a name="qr-codes-for-reports"></a>报表的 QR 代码
 为报表创建 QR 代码。  当你的同事使用 iPhone 扫描代码时（Android 手机版即将推出），他们会看到已与该 QR 代码关联的报表。 

@@ -1,33 +1,33 @@
 ---
-title: "关于 Power BI 报表中的筛选器和突出显示"
-description: "关于 Power BI 报表中的筛选器和突出显示"
+title: 关于 Power BI 报表中的筛选器和突出显示
+description: 关于 Power BI 报表中的筛选器和突出显示
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc39f23c192c8bbe1126551c20205bafd8be3a07
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ffbab0c1e203ce3fd8779b4eebca90debbb531e5
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>关于 Power BI 报表中的筛选器和突出显示
 ***筛选器***可保留你最关切的数据，而将其他所有数据删除。  ***突出显示***与筛选不同，因为它不会删除数据，而会将一部分可见数据突出显示；未突出显示的数据会保持可见但变暗。
 
-有多种不同的方法可对 Power BI 中的报表进行筛选并对其突出显示。 将所有这些信息放入到一篇文章中会令人困惑，因此我们将其划分如下：
+对 Power BI 中的报表进行筛选并对其突出显示有多种不同的方法。 将所有这些信息放入到一篇文章中会令人困惑，因此我们将其划分如下：
 
 * 筛选器和突出显示的介绍（你现在正在阅读的文章）
 * [创建和使用筛选器并在自己的编辑视图/报表中突出显示](power-bi-report-add-filter.md) 的方法。 当你具有报表的编辑权限时，你可以创建、修改和删除筛选器并在报表中突出显示。
@@ -41,20 +41,22 @@ ms.lasthandoff: 02/24/2018
 > 
 
 ## <a name="introduction-to-filters-and-highlighting-in-reports-using-the-filters-pane"></a>使用“筛选器”窗格的报表中的筛选器和突出显示的介绍
+ 本文介绍如何在 Power BI 服务中进行筛选和突出显示。  不过这与 Power BI Desktop 中的体验几乎完全相同。  
+
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-reading-view.png)
 
-可通过使用“**筛选器**”窗格或直接在报表本身上进行选择（即席，参见页面底部）以应用筛选器和突出显示。 “筛选器”窗格显示报表中使用的表和字段，以及已应用的任何筛选器。 筛选器划分为“**页面级别筛选器**”、“**报表级别筛选器**”和“**视觉对象级别筛选器**”。  如果在报表画布上选择了可视化效果，则仅能看到视觉对象级别筛选器。
+可通过使用“**筛选器**”窗格或直接在报表本身上进行选择（即席，参见页面底部）以应用筛选器和突出显示。 “筛选器”窗格显示报表中使用的表和字段，以及已应用的任何筛选器。 筛选器划分为“页面级别”、“报表级别”、“钻取”和“视觉对象级别”。  如果在报表画布上选择了可视化效果，则仅能看到视觉对象级别筛选器。
 
 > [!TIP]
 > 如果筛选器的旁边有“**所有**”字样，这意味着整个字段包括为一个筛选器。  例如，下面的屏幕截图中的 **Chain(All)** 告诉我们该报表页包括有关所有存储链的数据。  从另一方面来说，“**FiscalYear 为 2013 或 2014**”的报表级别筛选器告诉我们该报表仅包括 2013 和 2014 的财政年的数据。
 > 
 > 
 
-## <a name="filters-in-reading-view-versus-editing-view"></a>“阅读视图”和“编辑视图”中的筛选器
+## <a name="filters-in-reading-view-versus-editing-view"></a>“读取视图”和“编辑视图”中的筛选器
 有两种模式可与报表交互：[阅读视图和编辑视图](service-reading-view-and-editing-view.md)。  而筛选功能会根据你所用的模式来提供。
 
-* 在“编辑视图”中，可以添加报表、页面和视觉对象筛选器。 保存报表时，筛选器将随之一起保存。 而在“阅读视图”中查看报表的人可以与你添加的筛选器交互，但不能保存他们所做的更改。
-* 在“阅读视图”中，可以与报表中已存在的任何页面和视觉对象筛选器进行交互，但不能保存筛选器所做的更改。
+* 在“编辑视图”中，可以添加报表、页面、钻取和视觉对象筛选器。 保存报表时，筛选器也随之保存 - 即使是使用移动应用打开该报表。 而在“读取视图”中查看报表的人可以与你添加的筛选器交互，但不能添加新的筛选器。
+* 在“读取视图”中，你可以与报表中所有的现有筛选器交互，并保存你的选择。  但是你不能添加新的筛选器。
 
 ### <a name="the-filters-pane-in-reading-view"></a>“阅读视图”中的“筛选器”窗格
 如果你只有“阅读视图”中报表的访问权限，则“筛选器”窗格如下所示：
@@ -67,7 +69,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-在“阅读视图”中，通过修改现有筛选器来浏览数据。 在 [与阅读视图中的筛选器进行交互](service-reading-view-and-editing-view.md) 一文中了解如何操作
+在“阅读视图”中，通过修改现有筛选器来浏览数据。 你所做的更改会随报表一起保存，即使是使用移动应用打开该报表。 在 [Power BI 服务中的“读取视图”和“编辑视图”](service-reading-view-and-editing-view.md)一文中了解具体操作
 
 ### <a name="the-filters-pane-in-editing-view"></a>“编辑视图”中的“筛选器”窗格
 当你具有某个报表的所有者权限并将其在“编辑视图”中打开时，会看到“**筛选器**”只是几个可用的编辑窗格之一。
@@ -78,10 +80,14 @@ ms.lasthandoff: 02/24/2018
 
 但在“编辑视图”中，我们对筛选器和突出显示还可以进行更多的操作。 主要区别是，我们可以添加新的筛选器。 在 [向报表添加筛选器](power-bi-report-add-filter.md) 一文中了解如何操作以及更多信息
 
-## <a name="ad-hoc-filterting-and-highlighting"></a>即席筛选和突出显示
-在报表画布上选择字段以进行筛选并突出显示剩余页。 在同一视觉对象中选择任何空格以将其删除。 该筛选和突出显示类型未通过报表保存，但却是快速浏览数据影响的有趣的方法。 若要对此类交叉筛选和交叉突出显示的工作方式进行微调，请参阅 [视觉对象交互](service-reports-visual-interactions.md)
+## <a name="ad-hoc-filtering-and-highlighting"></a>即席筛选和突出显示
+在报表画布上选择字段以进行筛选并突出显示剩余页。 在同一视觉对象中选择任何空格以将其删除。 此类筛选和突出显示是快速浏览数据影响的有趣方法。 要微调此类交叉筛选和交叉突出显示的工作方式，请参阅[视觉对象交互](service-reports-visual-interactions.md)。
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
+
+退出报表时会保存你所做的更改。 要撤销筛选，请在顶部菜单栏中选择“还原为默认值”。
+
+![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ## <a name="next-steps"></a>后续步骤
 [与筛选器和突出显示交互（使用“阅读视图”）](service-reading-view-and-editing-view.md)

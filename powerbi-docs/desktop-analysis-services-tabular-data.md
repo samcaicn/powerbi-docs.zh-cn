@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中使用 Analysis Services 表格数据"
-description: "Power BI Desktop 中的 Analysis Services 表格数据"
+title: 在 Power BI Desktop 中使用 Analysis Services 表格数据
+description: Power BI Desktop 中的 Analysis Services 表格数据
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 02ce801db4eb6f5040c1d0e31ee0746a475c0bbb
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: ac5786c51fdf3f927605fdf20123a8ea93e74f8a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 Analysis Services 表格数据
 借助 Power BI Desktop，你有两种方法可以连接到 SQL Server Analysis Services 表格模型并从中获取数据：通过使用实时连接浏览或选择项目并将其导入到 Power BI Desktop。
@@ -54,7 +54,7 @@ ms.lasthandoff: 03/12/2018
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
 * 如果你选择了选择项目并获取数据，请在导航器中选择“表格”模型或透视。 你可以进一步仅选择特定的表或列进行加载。 若要在加载前对数据进行调整，请单击“编辑”以打开查询编辑器。 准备就绪时，单击“加载”将数据导入到 Power BI Desktop 中。
 
-![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
+  ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
 ## <a name="frequently-asked-questions"></a>常见问题
 **问：**我是否需要一个本地数据网关？
@@ -73,7 +73,7 @@ ms.lasthandoff: 03/12/2018
 
 **问：**如果我创建了实时连接，我可以在 Power BI Desktop 中编辑模型或进行查询吗？
 
-答案：可以在 Power BI Desktop 中创建报表级别度量值，但当浏览实时数据时会禁用所有其他查询和建模功能。
+答：可以在 Power BI Desktop 中创建报表级别度量值，但当浏览实时数据时会禁用所有其他查询和建模功能。
 
 **问：**如果我创建了实时连接，它是安全的吗？
 

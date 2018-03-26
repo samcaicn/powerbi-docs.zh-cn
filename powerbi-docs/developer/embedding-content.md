@@ -1,27 +1,27 @@
 ---
-title: "如何嵌入 Power BI 仪表板、报表和磁贴"
-description: "了解在应用程序中嵌入 Power BI 内容所需的步骤。"
+title: 如何嵌入 Power BI 仪表板、报表和磁贴
+description: 了解在应用程序中嵌入 Power BI 内容所需的步骤。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/11/2018
+ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: ff39d6847a296622d8ce0903370d17d41662df0c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>嵌入 Power BI 仪表板、报表和磁贴
 
@@ -88,6 +88,10 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 若要为客户嵌入仪表板和报表，必须将这些仪表板和报表置于应用工作区中。 上面提到的主帐户必须是应用工作区的管理员。
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
+
+> [!NOTE]
+> 非管理员用户最多只能创建 250 个 应用工作区。 若要创建更多工作区，需要使用租户管理员帐户。
+>
 
 ### <a name="create-and-upload-your-reports"></a>创建并上传报表
 

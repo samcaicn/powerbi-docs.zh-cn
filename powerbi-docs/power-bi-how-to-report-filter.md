@@ -1,39 +1,41 @@
 ---
-title: "Power BI 筛选器窗格概述"
-description: "概述介绍了 Power BI 服务和 Power BI 仪表板中的报表筛选器窗格"
+title: Power BI 筛选器窗格概述
+description: 概述介绍了 Power BI 服务和 Power BI 仪表板中的报表筛选器窗格
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/15/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83aed39c8a652ed5b38c18b67f1cdccfc7884240
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 00b0b116aa59ebab1d963a8803f788040761d9f5
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>浏览报表“筛选器”窗格
 本文将深入介绍报表“筛选器”窗格。 你将在 [Power BI 服务编辑视图和阅读视图](service-reading-view-and-editing-view.md)以及 [Power BI Desktop 报表视图](desktop-report-view.md)中看到该窗格。
 
 在 Power BI 中可以使用多种不同的方式筛选数据，我们建议首先阅读 [关于筛选器和突出显示](power-bi-reports-filters-and-highlighting.md)。
 
-## <a name="working-with-filters"></a>使用刷选器
-可在[编辑视图或阅读视图](service-reading-view-and-editing-view.md)中打开报表。 在“编辑视图”中，报表所有者可 [向报表添加筛选器](power-bi-report-add-filter.md)，这些筛选器将与报表一起保存。 在“阅读视图”中查看报表的人员可与这些筛选器进行交互，但不能将筛选器更改保存到该报表。
+## <a name="working-with-the-report-filters-pane"></a>使用报表“筛选器”窗格
+在 Power BI Desktop 中，报表是在“报表视图”中打开的。 在 Power BI 服务中，可在[“编辑视图”或“读取视图”](service-reading-view-and-editing-view.md)中打开报表。 在“编辑视图”和“Desktop 报表视图”中，报表所有者可[向报表添加筛选器](power-bi-report-add-filter.md)，这些筛选器将与报表一起保存。 在“读取视图”中查看报表的人员可与这些筛选器进行交互，但不能向报表添加新的筛选器。
 
-## <a name="filters-in-reading-view"></a>“阅读视图”中的筛选器
-在“阅读视图”中打开报表时，“筛选器”窗格显示在报表画布的右侧。 如果未看到窗格，请选择右上角的箭头以将其展开。
+在 Power BI 服务中，报表会保留你在“筛选器”窗格中做出的所有更改，并且这些更改会保留至该报表的移动版本。 要将“筛选器”窗格还原为创建者默认值，请从顶部菜单栏中选择“还原为默认值”。     
+
+## <a name="open-the-filters-pane"></a>打开“筛选器”窗格
+打开报表时，“筛选器”窗格显示在报表画布的右侧。 如果未看到窗格，请选择右上角的箭头以将其展开。 如果进入 Power BI 服务读取视图，右侧唯一的可用窗格就是“筛选器”窗格。
 
 在此示例中，我们选择了具有 6 个筛选器的视觉对象。 报表页也有筛选器，列于“页面级筛选器”标题下。 有一个[钻取筛选器](power-bi-report-add-filter.md)，整个报表也有筛选器：“FiscalYear”为 2013 或 2014。
 
@@ -46,17 +48,21 @@ ms.lasthandoff: 02/24/2018
 * 悬停鼠标并选择筛选器旁的箭头可查看该筛选器的详细信息。
   
    ![](media/power-bi-how-to-report-filter/power-bi-expan-filter.png)
-* 更改筛选器，例如，将 **Lindseys** 更改为 **Fashions Direct**。
+* 更改筛选器，例如，将“Lindseys”更改为“Fashions Direct”。
   
      ![](media/power-bi-how-to-report-filter/power-bi-filter-chain.png)
-* 选择筛选器名称旁的 **x** 可删除筛选器。
+
+* 通过从顶部菜单栏选择“还原为默认值”，将筛选器还原为原始状态。    
+    ![](media/power-bi-how-to-report-filter/power-bi-reset-to-default.png)
+    
+* 选择筛选器名称旁的“x”删除筛选器。
   
-  删除筛选器将其从列表删除，但并不会删除报表的数据。  例如，如果删除 **FiscalYear 为 2013 或 2014** 筛选器，财政年数据仍将保留在报表中，但将不再筛选为仅显示 2013 和 2014，而是显示数据包含的所有财政年。  但是，一旦删除筛选器后，将无法再对其修改，因为它已从列表删除。 更好的选择是通过选择橡皮擦图标来清除筛选器 ![](media/power-bi-how-to-report-filter/power-bi-eraser-icon.png)。
+  删除筛选器将其从列表删除，但并不会删除报表的数据。  例如，如果删除“FiscalYear 为 2013 或 2014”筛选器，财务年度数据仍将保留在报表中，但将不再筛选为仅显示 2013 和 2014，而是显示数据包含的所有财务年度。  但是，一旦删除筛选器后，将无法再对其修改，因为它已从列表删除。 更好的选择是通过选择橡皮擦图标来清除筛选器 ![](media/power-bi-how-to-report-filter/power-bi-eraser-icon.png)。
   
   ![](media/power-bi-how-to-report-filter/power-bi-delete-filter.png)
 
 ## <a name="filters-in-editing-view"></a>“编辑视图”中的筛选器
-在“编辑视图”中打开报表时，“筛选器”窗格显示在“**可视化效果**”窗格底部中的报表画布右侧。 如果未看到窗格，请选择右上角的箭头以将其展开。
+在 Desktop 或 Power BI 服务编辑视图中打开报表时，“筛选器”窗格显示在“可视化效果”窗格下半部分的报表画布右侧。 如果未看到窗格，请选择右上角的箭头以将其展开。
 
 ![](media/power-bi-how-to-report-filter/power-bi-all-filters.png).  
 
@@ -73,16 +79,16 @@ ms.lasthandoff: 02/24/2018
 ![](media/power-bi-how-to-report-filter/pbi_filterlistdropdown.jpg)
 
 ## <a name="clear-a-filter"></a>清除筛选器
- 在高级或基本筛选器模式下，选择橡皮擦图标 ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) 以重置筛选器。 
+ 在高级或基本筛选器模式下，选择橡皮擦图标 ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) 以清除筛选器。 
 
 ## <a name="add-a-filter"></a>添加筛选器
-* 在编辑视图中，通过从“字段”窗格中选择一个字段并将其拖动到相应的筛选器（其中你会看到“将字段拖至此处”字样），从而将筛选器添加到视觉对象、页面、钻取或报表。 将字段作为筛选器添加后，使用基本筛选和高级筛选控件对其进行微调（如下所述）。
+* 在 Desktop 和 Power BI 服务编辑视图中，通过从“字段”窗格中选择一个字段并将其拖动到相应的筛选器（其中你会看到“将字段拖至此处”字样），从而将筛选器添加到视觉对象、页面、钻取或报表。 将字段作为筛选器添加后，使用基本筛选和高级筛选控件对其进行微调（如下所述）。
 
 - 将新字段拖动到视觉对象级筛选器区域不会将该字段添加到视觉对象，但是它的确允许你使用此新字段来筛选该视觉对象。 在以下示例中，“**链**”作为新筛选器添加至视觉对象中。 请注意，在使用基本或高级筛选控制前，仅将“**链**”添加为筛选器不会更改视觉对象。
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 
-* 用于创建可视化效果的所有字段都还可用作筛选器。 首先，选择视觉对象以将其激活。 “视觉对象”窗格和“筛选器”窗格（在“视觉对象级别筛选器”标题下方）中列出了视觉对象中正在使用的字段（如果你处于编辑视图）。
+* 用于创建可视化效果的所有字段都还可用作筛选器。 首先，选择视觉对象以将其激活。 “视觉对象”窗格和“筛选器”窗格（在**视觉对象级别筛选器**标题下方）中列出了视觉对象中正在使用的字段。
   
    ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.png)  
   

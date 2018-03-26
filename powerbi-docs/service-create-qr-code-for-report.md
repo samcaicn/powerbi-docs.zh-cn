@@ -1,35 +1,35 @@
 ---
-title: "为报表创建 QR 码以供在 Power BI 移动应用中使用"
-description: "Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到 Power BI 移动应用中的相关 BI 信息，而无需进行任何搜索。"
+title: 为报表创建 QR 码以供在 Power BI 移动应用中使用
+description: Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到 Power BI 移动应用中的相关 BI 信息，而无需进行任何搜索。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4bd635fbb68f128d0c4f37631f05d0f2b8d9bf7d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2c3c610eb7970c911eaaf1437ac7f92f9f4f624d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>在 Power BI 中为报表创建 QR 码以供在移动应用中使用
 Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到相关的 BI 信息 &#151; 无需进行导航或搜索。
 
 可以在 Power BI 服务中为任何报表创建 QR 码，甚至包括无法编辑的报表。 然后，将 QR 码置于关键位置。 例如，可以将代码粘贴到电子邮件，或将其打印出来并粘贴在特定位置。 
 
-与之共享报表的同事可以直接使用[移动设备](mobile-apps-qr-code.md)扫描 QR 码来访问报表。 他们既可以使用 Power BI 应用中的 QR 码扫描程序，也可以使用自己设备上安装的其他任何 QR 码扫描程序。
+与之共享报表的同事可以直接使用[移动设备](mobile-apps-qr-code.md)扫描 QR 码来访问报表。 他们既可以使用 Power BI 应用中的 QR 码扫描程序，也可以使用自己设备上安装的其他任何 QR 码扫描程序。 他们还可以[使用 Power BI for Mixed Reality 应用扫描报表 QR 码](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)。
 
 ## <a name="create-a-qr-code-for-a-report"></a>为报表创建 QR 代码
 1. 在 Power BI 服务中打开报表。
@@ -49,12 +49,10 @@ Power BI 可将 QR 代码生成为 JPG 文件，以备打印。
 
 1. 选择**下载**，然后在连接到打印机的计算机上打开该 JPG 文件。  
    
-   > [!TIP]
-   > JPG 文件与磁贴同名。 例如，“销售和市场营销示例.jpg”。
-   > 
-   > 
-2. 以 100% 比例或“实际大小”打印文件。  
-3. 沿 QR 码的边缘进行裁剪，并将其粘附到与报表相关的位置上。 
+   JPG 文件与磁贴同名。 例如，“销售和市场营销示例.jpg”。
+   
+1. 以 100% 比例或“实际大小”打印文件。  
+2. 沿 QR 码的边缘进行裁剪，并将其粘附到与报表相关的位置上。 
 
 ## <a name="next-steps"></a>后续步骤
 * 使用移动应用[从真实世界连接到 Power BI 数据](mobile-apps-data-in-real-world-context.md)

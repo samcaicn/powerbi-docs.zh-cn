@@ -1,34 +1,32 @@
 ---
-title: "Power BI 报表服务器中的新增功能"
-description: "了解 Power BI 报表服务器中的新增功能。 本文涉及主要功能方面，并会在新功能发布时随之进行更新。"
+title: Power BI 报表服务器中的新增功能
+description: 了解 Power BI 报表服务器中的新增功能。 本文涉及主要功能方面，并会在新功能发布时随之进行更新。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/31/2017
-ms.author: maghan
-ms.openlocfilehash: 2ac4efa4e1eff5099fa3732b0fa753b04941979e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 了解 Power BI 报表服务器中的新增功能。 本文涉及主要功能方面，并会在新功能发布时随之进行更新。
 
 若要下载 Power BI 报表服务器和针对 Power BI 报表服务器进行了优化的 Power BI Desktop，请转到[使用 Power BI 报表服务器进行本地报告](https://powerbi.microsoft.com/report-server/)。
-
-![提示](media/whats-new/fyi-tip.png "提示") 有关最新发行说明，请参阅 [Power BI 报表服务器 - 发行说明](release-notes.md)。
 
 有关相关的“新增功能”的信息，请参阅：
 
@@ -37,6 +35,103 @@ ms.lasthandoff: 01/30/2018
 * [Power BI 移动应用中的新增功能](../mobile-whats-new-in-the-mobile-apps.md)
 * [Power BI 团队博客](https://powerbi.microsoft.com/blog/)
 
+## <a name="march-2018-release"></a>2018 年 3 月版本
+
+2018 年 3月，针对 Power BI 报表服务器优化的 Power BI Desktop 版本中新增了很多很多功能。 这些功能涉及不同的方面： 
+- [视觉对象](#visuals-updates)
+- [报告](#reporting)
+- [分析](#analytics)
+- [性能](#performance)
+- [报表服务器](#report-server)
+- [其他](#other-improvements)
+
+### <a name="highlights-of-this-release"></a>此版本的亮点
+
+下面这些内容在大量新功能中脱颖而出，尤为值得关注。
+
+#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[适用于表和矩阵的基于规则的条件格式](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+ 
+创建规则，以便根据表或矩阵中特定的业务逻辑，有条件地对某一列的背景和字体进行着色。
+
+#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[显示和隐藏页](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+
+你希望读者访问你的报表，但是部分页面尚未完成。 现在就可以隐藏这些页面，直到它们已准备就绪。 或者可以在常规导航中隐藏页面，读者可以通过书签或钻取来访问此页面。
+
+#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[Bookmarking](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+
+说到添加书签，就是创建书签，用报表中的数据来传达信息。
+
+- [书签交叉突出显示](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting)：书签维护并显示在创建书签时报告页的交叉突出显示状态。
+- [更多书签灵活性](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility)：书签反映了你在报表中设置的属性，并且只影响你选择的视觉对象。
+
+#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[跨多个图表选择多个数据点](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+
+在多个图表中选择多个数据点，并将交叉筛选应用于整个页面。
+
+#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[跨报表的多个页面同步切片器](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+
+切片器可应用于报表中的一页、两页或多页。
+
+#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[快速度量](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+
+基于现有度量值和表中的数字列新建度量值。
+
+#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[向下钻取筛选其他视觉对象](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+
+在一个视觉对象的给定类别中向下钻取时，可以让其按相同的类别筛选所有视觉对象。
+
+### <a name="visuals-updates"></a>视觉对象更新
+
+- [适用于表和矩阵的单元格对齐方式](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment)
+- [表和矩阵列的显示单位和精度控制](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits)
+- [条形图和柱形图的溢出数据标签](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow)
+- [控制笛卡尔和映射视觉对象的数据标签背景颜色](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dataLabelBackground)
+- [栏/列填充控制](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#padding)
+- [增加图表中用于轴标签的区域](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#axisSize)
+- [基于 x 轴和 y 轴分组的散点图视觉对象](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart)
+- [地图基于纬度和经度的高密度抽样](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps)
+- [响应式切片器](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive)
+- [为相对日期切片器添加定位标记日期](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate)
+
+### <a name="reporting"></a>报表
+
+- [关闭报表读取模式中的视觉对象标头](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader)
+- [适用于慢数据源的报表选项](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource)
+- [改进了默认视觉对象布局](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement)
+- [通过选择窗格控制视觉对象排序](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane)
+- [锁定报表上的对象](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock)
+- [搜索“格式化”和“分析”窗格](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
+- [字段属性窗格和字段说明](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
+
+### <a name="analytics"></a>分析
+
+- [UTCNOW() 和 UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
+- [标记自定义日期表](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
+- [钻取筛选其他视觉对象](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+- [适用于多行卡片的多维 AS 模型的单元格级格式设置](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
+ 
+### <a name="performance"></a>性能
+
+- [筛选功能性能改进](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
+- [DirectQuery 性能改进](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
+- [打开和保存性能改进](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf)
+- [“显示不包含数据的项目”改进](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData)
+ 
+### <a name="report-server"></a>报表服务器 
+
+#### <a name="export-to-accessible-pdf"></a>导出为可访问的 PDF
+
+现在将分页 (RDL) 报表导出为 PDF 时，可以获取一个可访问/标记的 PDF 文件。 虽然该文件比较大，但更方便屏幕阅读器和其他辅助技术阅读和导航。 通过将 AccessiblePDF 设备信息设置设为“True”，启用可访问的 PDF。 请参阅 [PDF 设备信息设置](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings)和[更改设备信息设置](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)。
+
+
+### <a name="other-improvements"></a>其他改进
+
+- [“从示例中添加列”的改进](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples)
+- [“咨询服务”快速链接](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#consultingServices)
+- [错误报告已改进](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors)
+- [查看之前遇到的错误](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors)
+
+ 
 ## <a name="october-2017-release"></a>2017 年 10 月版本
 ### <a name="power-bi-report-data-sources"></a>Power BI 报表数据源
 Power BI 报表服务器中的 Power BI 报表可以连接到各种数据源。 可以导入数据和计划数据刷新，或者直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。 请参阅支持计划的刷新和支持“Power BI 报表服务器中的 Power BI 报表数据源”中的 DirectQuery 的数据源列表。
@@ -111,7 +206,6 @@ Power BI 报表服务器现在支持新的 Power BI 表和矩阵视觉对象。 
 * 通过注释增强了报表协作
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 报表服务器发行说明](release-notes.md)  
 [用户手册](user-handbook-overview.md)  
 [管理员手册](admin-handbook-overview.md)  
 [快速入门：安装 Power BI 报表服务器](quickstart-install-report-server.md)  

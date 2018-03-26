@@ -1,15 +1,15 @@
 ---
-title: "通过 Power BI Desktop 连接到网页"
-description: "通过 Power BI Desktop 轻松连接并使用网页数据"
+title: 通过 Power BI Desktop 连接到网页
+description: 通过 Power BI Desktop 轻松连接并使用网页数据
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0ee3ff3b3ca33ea4760f9f08b4e05cbd65e2ab34
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 23984d8e64445d869062e942eb6155ff58b0d0ae
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>通过 Power BI Desktop 连接到网页
 用户可以连接到网页，然后将其数据导入到 Power BI Desktop 并在视觉对象和数据模型中使用该数据。
@@ -47,7 +47,7 @@ ms.lasthandoff: 02/24/2018
 
 连接到网页并将其数据导入 Power BI Desktop 的步骤就是这些。
 
-接下来，你可以将这些字段拖到报表画布并创建所有想要的可视化效果。 你还可以同处理其他所有数据一样处理来自该网页的数据，例如调整该数据、在它与模型中其他数据源之间创建关系以及进行一切所需操作来创建你想要的 Power BI 报表。
+接下来，你可以将这些字段拖到报表画布并创建所有想要的可视化效果。 你还可以同使用其他所有数据一样使用来自该网页的数据，例如调整该数据、在它与模型中其他数据源之间创建关系以及进行一切所需操作来创建你想要的 Power BI 报表。
 
 若要更深入地了解连接到网页，请查看 [Power BI Desktop 入门指南](desktop-getting-started.md)。
 

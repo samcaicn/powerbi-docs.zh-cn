@@ -1,35 +1,34 @@
 ---
-title: "安装更适合 Power BI 报表服务器的 Power BI Desktop"
-description: "了解如何安装更适合 Power BI 报表服务器的 Power BI Desktop"
+title: 安装更适合 Power BI 报表服务器的 Power BI Desktop
+description: 了解如何安装更适合 Power BI 报表服务器的 Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/15/2017
+ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: c1c38d9d98c92963534081049cdcc6a557313639
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: 9951137ac10752a39f0e4ad555a36e2935faf327
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安装更适合 Power BI 报表服务器的 Power BI Desktop
 了解如何安装更适合 Power BI 报表服务器的 Power BI Desktop。
 
 若要为 Power BI 报表服务器创建 Power BI 报表，需要下载并安装已针对 Power BI 报表服务器进行优化的 Power BI Desktop。 此版本不同于用于 Power BI 服务的 Power BI Desktop。 例如，用于 Power BI 服务的 Power BI Desktop 版本包含 Power BI 报表服务器版本发布后提供的预览功能。 使用此版本可确保报表服务器能够与已知版本的报表和模型交互。 
 
-> [!NOTE]
-> 可在同一台计算机上并行安装 Power BI Desktop 和已针对 Power BI 报表服务器进行优化的 Power BI Desktop。
+好消息是，可在同一台计算机上并行安装 Power BI Desktop 和已针对 Power BI 报表服务器进行优化的 Power BI Desktop。
 
 ## <a name="download-and-install-power-bi-desktop"></a>下载并安装 Power BI Desktop
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 12/19/2017
 
     ![从 Web 门户下载 Power BI Desktop](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    或者，可以在 Microsoft 下载中心直接转到[“Microsoft Power BI Desktop”](https://go.microsoft.com/fwlink/?linkid=861076)（已针对 Power BI 报表服务器进行优化 - 2017 年 10 月版）。
+    或者，可以在 Microsoft 下载中心直接转到 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723)（已针对 Power BI 报表服务器进行优化 - 2018 年 3 月版）。
 
 2. 在“下载中心”页中，选择“下载”。
 
@@ -71,7 +70,7 @@ Power BI 服务的 Power BI Desktop 版本不会在标题栏中显示发行月�
 在 Power BI 报表服务器中编辑 Power BI 报表或在 Web 门户中新建 Power BI 报表时，始终都会打开正确版本的 Power BI Destop。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
-Power BI 报表服务器和 Power BI 服务 (http://powerbi.com) 中报表的行为几乎完全相同，但有一些功能不同。
+Power BI 报表服务器和 Power BI 服务 (http://powerbi.com)) 中报表的行为几乎完全相同，但有一些功能不同。
 
 ### <a name="in-a-browser"></a>在浏览器中
 Power BI 报表服务器报表支持所有可视化效果，包括：
@@ -99,6 +98,13 @@ Power BI 报表服务器报表不支持 Power BI 移动应用中的如下功能�
 * 自定义视觉对象
 * 痕迹导航栏
 * 地理位置筛选或条码
+
+## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>适用于早期版本 Power BI 报表服务器的 Power BI Desktop
+
+如果报表服务器是早期版本的，则需要相应版本的 Power BI Desktop。 下面是两个以前的版本。
+
+- Microsoft Power BI Desktop（[已针对 Power BI 报表服务器进行了优化 - 2017 年 10 月版](https://www.microsoft.com/download/details.aspx?id=56136)）
+- Microsoft Power BI Desktop（[已针对 Power BI 报表服务器进行了优化 - 2017 年 6 月版](https://www.microsoft.com/download/details.aspx?id=55330)）
 
 ## <a name="next-steps"></a>后续步骤
 至此，已安装 Power BI Desktop，可以开始创建 Power BI 报表了。
