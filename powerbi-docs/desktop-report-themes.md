@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中使用报表主题（预览阶段）"
-description: "了解如何使用自定义调色板，并将其应用于 Power BI Desktop 中的整个报表"
+title: 在 Power BI Desktop 中使用报表主题（预览阶段）
+description: 了解如何使用自定义调色板，并将其应用于 Power BI Desktop 中的整个报表
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8893e9f048f10f2c9c4d5bf787382b7cf65f54a9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用报表主题（预览阶段）
 借助**报表主题**，可以将颜色主题应用于整个报表，如企业品牌颜色、流行色或可能要应用于报表的其他任何颜色主题。 应用**报表主题**时，报表中的所有视觉对象都会使用选定主题中的颜色（少数例外情况除外，本文后面将予以介绍）。
@@ -163,7 +163,7 @@ ms.lasthandoff: 02/24/2018
         }
     }
 
-对于 visualName和 cardName 部分，可以列出特定视觉对象和 cardName，也可以使用星号（“*”）（如果你希望将该设置应用到所有视觉对象或者包含特定视觉对象属性的所有卡）。如果希望在报表中全局应用一个设置（例如应在报告的所有视觉对象中使用的字体大小或特定字体系列），可以使用星号（“*”）。
+对于 visualName和 cardName 部分，可以列出特定视觉对象和 cardName，也可以使用星号（“\*”）（如果你希望将该设置应用到所有视觉对象或者包含特定视觉对象属性的所有卡）。 如果希望在报表中全局应用一个设置（例如应在报告的所有视觉对象中使用的字体大小或特定字体系列），可以使用星号（“\*”）。
 
 > [!NOTE]
 > 只需指定你想要产生效果的格式设置元素。 未包含在 JSON 文件中的任何格式设置元素都将恢复为它们的默认值和设置。
