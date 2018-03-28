@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 9951137ac10752a39f0e4ad555a36e2935faf327
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: c22e909130767abd1dc6f0aa00d76e1fb6b99ee7
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安装更适合 Power BI 报表服务器的 Power BI Desktop
 了解如何安装更适合 Power BI 报表服务器的 Power BI Desktop。
@@ -56,7 +56,7 @@ ms.lasthandoff: 03/21/2018
 ## <a name="verify-you-are-using-the-correct-version"></a>验证使用的是否是正确版本
 可以查看 Power BI Desktop 中的启动屏幕或标题栏，验证使用的是否是 Power BI Desktop 正确版本。 标题栏指示了版本的发行月份和年份。
 
-![已针对 Power BI 报表服务器进行优化的 Power BI Desktop 的标题栏](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+![已针对 Power BI 报表服务器进行优化的 Power BI Desktop 的标题栏](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
 
 Power BI 服务的 Power BI Desktop 版本不会在标题栏中显示发行月份和年份。
 
