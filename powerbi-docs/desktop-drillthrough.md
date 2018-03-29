@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中使用钻取"
-description: "了解如何在 Power BI Desktop 中的新报表页上向下钻取数据"
+title: 在 Power BI Desktop 中使用钻取
+description: 了解如何在 Power BI Desktop 中的新报表页上向下钻取数据
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -25,12 +25,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>在 Power BI Desktop 中使用钻取
-通过在 Power BI Desktop 中使用钻取，可以在报表中创建一个侧重于特定实体（如供应商、客户或制造商）的页。 在此针对性报表页上，用户可以右键单击其他报表页上的数据点，并钻取到具有针对性的页，来获取对此上下文进行筛选后的详细信息。
+通过在 Power BI Desktop 中使用钻取，可以在报表中创建一个侧重于特定实体（如供应商、客户或制造商）的页。 有了这个针对性报表页，用户就可以在其他报表页上右键单击数据点，钻取到具有针对性的页，来获取针对此上下文进行筛选后的详细信息。
 
 ![](media/desktop-drillthrough/drillthrough_01.png)
 
 ## <a name="using-drillthrough"></a>使用钻取
-若要使用钻取，请创建一个具有视觉对象的报表页，在该视觉对象中，你希望看到要为其提供钻取的实体类型）。 例如，如果你有兴趣为制造商提供钻取，则可能会创建一个包含视觉对象的钻取页，其中显示总销售额、总出货量、按类别筛选的销售额、按地区筛选的销售额等等。 这样一来，当你钻取到该页时，视觉对象将特定于你单击并选择钻取数据的制造商。
+**若要使用钻取**，请创建一个具有视觉对象的报表页，这些视觉对象应该服务于你计划为其提供钻取的实体类型。 例如，如果要为制造商提供钻取，所创建钻取页中的视觉对象就应该体现总销售额、总出货量、按类别筛选的销售额、按地区筛选的销售额等等。 这样一来，当你钻取到该页时，视觉对象将特定于你单击并选择钻取数据的制造商。
 
 然后，在该钻取页上“可视化效果”窗格的“字段”部分，将你要钻取数据的字段拖动到“钻取筛选器”框中。
 
