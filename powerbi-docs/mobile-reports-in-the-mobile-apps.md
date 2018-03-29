@@ -1,27 +1,27 @@
 ---
-title: "在 Power BI 移动应用中浏览报表"
-description: "了解如何在手机或平板电脑上查看 Power BI 移动应用中的报表，并与之交互。 可以在 Power BI 服务或 Power BI Desktop 中创建报表，然后在移动应用中与报表进行交互。 "
+title: 在 Power BI 移动应用中浏览报表
+description: '了解如何在手机或平板电脑上查看 Power BI 移动应用中的报表，并与之交互。 可以在 Power BI 服务或 Power BI Desktop 中创建报表，然后在移动应用中与报表进行交互。 '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/25/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -50,7 +50,9 @@ Power BI 报表存储在移动应用中的不同位置，具体取决于从何�
   ![横向模式下的手机报表](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>查看针对手机优化后的报表
-Power BI 报表作者可以创建专门针对手机进行优化的报表布局。 更适合在手机上展示的报表页新增了功能。例如，可以对处于焦点模式的视觉对象执行向下钻取和排序操作，并能访问[报表作者在报表页中添加的筛选器](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)。 在报表列表中，优化后的报表显示有特殊图标 ![手机报表图标](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)：
+Power BI 报表作者可以创建专门针对手机进行优化的报表布局。 更适合在手机上展示的报表页新增了功能。例如，可以对处于焦点模式的视觉对象执行向下钻取和排序操作，并能访问[报表作者在报表页中添加的筛选器](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)。 在手机上打开的报表已筛选出网页版报表中筛选的值，并通过消息提示报表页上有活动筛选器。 可以在手机上更改筛选器。
+
+在报表列表中，优化后的报表具有特殊图标 ![手机报表图标](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)：
 
 ![打开手机报表](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -63,7 +65,7 @@ Power BI 报表作者可以创建专门针对手机进行优化的报表布局�
 阅读有关[针对手机视图进行优化的报表](mobile-apps-view-phone-report.md)的详细信息。
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>使用切片器筛选报表页
-在 Power BI Desktop 或 Power BI 服务中设计报表时，请考虑[将切片器添加到报表页](power-bi-visualization-slicers.md)。 你和同事可以使用切片器在浏览器和移动应用中筛选页面。 在手机上查看报表时，可以在横向模式下和在针对手机的纵向模式进行了优化的页面中查看切片器并与之交互。
+在 Power BI Desktop 或 Power BI 服务中设计报表时，请考虑[将切片器添加到报表页](power-bi-visualization-slicers.md)。 你和同事可以使用切片器在浏览器和移动应用中筛选页面。 在手机上查看报表时，可以在横向模式下和在针对手机的纵向模式进行了优化的页面中查看切片器并与之交互。 如果选择切片器中的值或在浏览器中进行筛选，那么在移动应用中查看报表页时，将会发现已选择相应值。 还会通过消息提示报表页上有活动筛选器。  
 
 * 在报表页上的切片器中选择值后，便会筛选报表页上的其他视觉对象。
   

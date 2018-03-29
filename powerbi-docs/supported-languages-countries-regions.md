@@ -1,28 +1,28 @@
 ---
-title: "Power BI 支持的语言和国家/地区"
-description: "请参阅 Power BI 服务、Power BI Desktop 和 Power BI 文档的支持的语言和国家/地区列表。"
+title: Power BI 支持的语言和国家/地区
+description: 请参阅 Power BI 服务、Power BI Desktop 和 Power BI 文档的支持的语言和国家/地区列表。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 03/20/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c007202bc6526872ea3469ccc5e46b71a8e6dcb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0ca6a21e67e7ab1d2a0c0daa8da07052041db139
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI 支持的语言和国家/地区
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 02/24/2018
 有关可使用 Power BI 的国家和地区的列表，请参阅[国际可用性列表](https://products.office.com/business/international-availability)。 
 
 ## <a name="languages-for-the-power-bi-service"></a>Power BI 服务的语言
-Power BI 服务（在浏览器中）具有以下 42 个语言版本：
+Power BI 服务（在浏览器中）具有以下 44 种语言版本：
 
 * 阿拉伯语
 * 巴斯克语 - Basque

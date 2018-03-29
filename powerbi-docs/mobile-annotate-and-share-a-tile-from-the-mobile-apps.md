@@ -1,13 +1,13 @@
 ---
-title: "在 Power BI 移动应用中批注并共享"
-description: "了解如何从适用于 iOS 和 Android 的 Microsoft Power BI 移动应用批注和共享磁贴、报表和视觉对象。 "
+title: 在 Power BI 移动应用中批注并共享
+description: '了解如何从适用于 iOS 和 Android 的 Microsoft Power BI 移动应用批注和共享磁贴、报表和视觉对象。 '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 02/28/2017
 ms.service: powerbi
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: f62d743a9d1d49444b118c1cb63a45dc7255d852
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 12dd7e2dcce655b6cde370877f56c4d57e18dbd9
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>在 Power BI 移动应用中批注并共享磁贴、报表或视觉对象
 适用于：
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/13/2017
 
 *具有批注的报表*
 
-包含磁贴、报表或视觉对象的快照的邮件还包括指向 Power BI 服务上实际对象的链接 ([https://powerbi.com](https://powerbi.com))。 如果你和你的收件人都具有 Power BI Pro 许可证并且你已与他们共享磁贴、报表或视觉对象，或该内容位于[高级容量](service-premium.md)中，则收件人可以单击该链接并直接跳到共享项。 
+如果邮件包含磁贴、报表或视觉对象的快照，则还包括指向 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 上实际对象的链接。 如果你和你的收件人都具有 Power BI Pro 许可证并且你已与他们共享磁贴、报表或视觉对象，或该内容位于[高级容量](service-premium.md)中，则收件人可以单击该链接并直接跳到共享项。 
 
 还可以[共享适用于 Windows 10 设备的 Power BI 移动应用中的磁贴](mobile-share-tile-windows-10-phone-app.md)，但不能批注。
 

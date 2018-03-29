@@ -1,27 +1,27 @@
 ---
-title: "查看针对你的手机进行优化的 Power BI 报表"
-description: "阅读有关与经过优化，以便在 Power BI 手机应用中查看的报表页交互的信息。"
+title: 查看针对你的手机进行优化的 Power BI 报表
+description: 阅读有关与经过优化，以便在 Power BI 手机应用中查看的报表页交互的信息。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 275dc9fff2f87dd4811eb1a3fe3db944a2965b58
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>查看针对你的手机进行优化的 Power BI 报表
 
@@ -47,7 +47,7 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
 * [Android 手机上的报表](mobile-reports-in-the-mobile-apps.md)。
 
 ## <a name="filter-the-report-page-on-a-phone"></a>筛选手机上的报表页
-如果针对手机优化的报表已定义筛选器，则在手机上查看报表时可以使用这些筛选器。 
+如果针对手机优化的报表已定义筛选器，则在手机上查看报表时可以使用这些筛选器。 在手机上打开的报表已筛选出网页版报表中筛选的值，并通过消息提示报表页上有活动筛选器。 可以在手机上更改筛选器。
 
 1. 点击筛选器图标 ![页面底部的](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) 手机筛选器图标。 
 2. 使用基本筛选或高级筛选查看你感兴趣的结果。
