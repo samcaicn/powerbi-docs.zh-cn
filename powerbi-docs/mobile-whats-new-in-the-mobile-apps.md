@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -35,6 +35,18 @@ ms.lasthandoff: 03/15/2018
 ### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 应用（预览版）
 
 在最近的数据跟随活动中，我们创建了 Power BI for Mixed Reality 应用。 可以沉浸在虚拟世界中查看仪表板和报表，或将它们放在环境的上下文中的特定位置查看。 详细阅读关于新的 [Power BI for Mixed Reality 应用](mobile-mixed-reality-app.md)的内容。
+
+### <a name="share-reports-and-dashboards-externally"></a>在外部共享报表和仪表板
+
+直接从应用与组织外部用户共享仪表板和报表。 外部共享已对组织帐户和社交帐户启用。 
+
+### <a name="persistent-filters"></a>永久性筛选器
+
+如果在 Power BI 网页版中设置筛选器和切片器，选择的筛选器也会保存到移动应用中，以便用户能够从上次停下的地方继续操作。
+
+### <a name="refresh-reports-on-the-ipad"></a>在 iPad 上刷新报表
+
+现在，iPad 应用中有 Power BI 报表刷新按钮。
 
 ## <a name="february-2018"></a>2018 年 2 月
 

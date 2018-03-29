@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: ''
 author: mihart
 manager: kfile
-backup: sirsu
+backup: ''
 editor: ''
 tags: ''
 qualityfocus: no
@@ -15,22 +15,23 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: c4f05645f98e67fcf81c61d91bfdccb9612ed46b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能。 有关相关的“新增功能”的信息，请参阅：
 
-* [Power BI Desktop 中的新增功能](desktop-latest-update.md)  
-* [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)  
-* [Power BI 团队博客](https://powerbi.microsoft.com/blog/)
+- [Power BI Desktop 中的新增功能](desktop-latest-update.md)  
+- [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)  
+- [Power BI 团队博客](https://powerbi.microsoft.com/blog/)
+- Dynamics 365 [2018 年春季商业应用程序发行说明](https://aka.ms/bagspring2018releasenotes_internal)：我们推出了商业应用程序的最新更新，以及在我们平台的基础之上生成应用程序和扩展的新功能。 
 
 还可以查看 YouTube 频道，了解“新增功能”和功能的相关信息。
 
