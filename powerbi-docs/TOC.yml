@@ -668,8 +668,8 @@
           href: desktop-ssas-multidimensional.md
         - name: 通过 Power BI Desktop 连接到 CSV 文件
           href: desktop-connect-csv.md
-        - name: 在 Power BI Desktop 中连接到 Adobe Analytics（预览）
-          href: desktop-connect-csv.md
+        - name: 在 Power BI Desktop 中连接到 Adobe Analytics
+          href: desktop-connect-adobe-analytics.md
         - name: 在 Power BI Desktop 中连接到 Impala 数据库
           href: desktop-connect-impala.md
         - name: 通过 Power BI Desktop 连接到 OData 数据源
@@ -960,6 +960,8 @@
           href: developer/integrate-report.md
         - name: 将内容集成到应用程序（应用拥有数据）
           href: developer/embed-sample-for-customers.md
+        - name: 为主权云客户将 Power BI 内容嵌入应用程序中
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: 在应用中嵌入自定义布局
           href: developer/embedded-custom-layout.md
         - name: 创建 Azure Active Directory 租户
