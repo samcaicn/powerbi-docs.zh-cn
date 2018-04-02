@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI 中将 DirectQuery 用于 SAP HANA"
-description: "将 DirectQuery 用于 SAP HANA 时的注意事项"
+title: 在 Power BI 中将 DirectQuery 用于 SAP HANA
+description: 将 DirectQuery 用于 SAP HANA 时的注意事项
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b1b56ee467dfdf6dc8c63557a9a9f4ab86e965e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 966399c2ad11ac6a04400e3c009927deb6d35b94
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery 和 SAP HANA
 可以使用 DirectQuery 直接连接到 SAP HANA 数据源。 连接到 SAP HANA 时存在两个选项：
@@ -43,7 +43,7 @@ ms.lasthandoff: 03/08/2018
 
 ## <a name="treat-sap-hana-as-a-multi-dimensional-source-default"></a>将 SAP HANA 视为多维源（默认）
 
-默认情况下，到 SAP HANA 的所有新连接均使用此连接方法，即将 SAP HANA 视为多维源。 为了将到 SAP HANA 的连接视为关系源，必须选择“文件”和“选项和设置”，再选择“直接查询”，然后选择“将 SAP HANA 视为关系源”下的复选框。 虽然这是预览功能，但无法将使用多维方法创建的报表发布到 Power BI 服务，并且这样做将会导致在 Power BI 服务内打开报表时出现错误。  
+默认情况下，到 SAP HANA 的所有新连接均使用此连接方法，即将 SAP HANA 视为多维源。 为了将到 SAP HANA 的连接视为关系源，必须选择“文件”>“选项和设置”>“选项”，再选择“直接查询”，然后选择“将 SAP HANA 视为关系源”下的复选框。 虽然这是预览功能，但无法将使用多维方法创建的报表发布到 Power BI 服务，并且这样做将会导致在 Power BI 服务内打开报表时出现错误。  
 
 连接到作为多维源的 SAP HANA 时，可执行以下操作：
 
@@ -59,15 +59,15 @@ ms.lasthandoff: 03/08/2018
 
 “字段”列表将包括来自 SAP HANA 视图的所有度量值、属性和层次结构。 请注意使用此连接方法时应用的以下行为：
 
-* 至少包含在一个层次结构中的任何属性都将默认隐藏。 但是，如果需要，可以通过从字段列表的上下文菜单中选择“查看隐藏”进行查看。 必要时，可在同一上下文菜单中将其设置为“可见”。
+* 至少包含在一个层次结构中的任何属性都将默认隐藏。 但是，如果需要，可以通过从字段列表的上下文菜单中选择“查看隐藏”进行查看。 如果需要，可以从同一上下文菜单中使它们可见。
 
 * 在 SAP HANA 中，可定义一个属性，它将采用其他属性作为其标签。 例如，Product（值为 1、2、3 等）可以使用 ProductName（值为 Bike、Shirt、Gloves 等）作为其标签。 在这种情况下，单个字段 Product 将显示在字段列表中，其值是标签 Bike、Shirt、Gloves 等，但它们将按键值 1、2、3 进行排序并由键值决定其唯一性。 另外，还会创建一个隐藏列 Product.Key，从而允许根据需要访问基础键值。 
 
-连接时会显示基础 SAP HANA 视图中定义的所有变量，还可输入必要的值。 通过从功能区中选择“编辑查询”，然后从显示的下拉菜单中选择“编辑变量”，可以随后更改这些值。 
+连接时会显示基础 SAP HANA 视图中定义的所有变量，还可输入必要的值。 通过从功能区中选择“编辑查询”，然后从显示的下拉菜单中选择“管理参数”，可以随后更改这些值。 
 
-考虑到需要确保始终能够从 SAP HANA 获取正确的聚合数据，允许的建模操作比使用 DirectQuery 时的一般情况更具限制性。 但是，仍然可以执行许多添加和更改操作，包括定义度量值、重命名和隐藏字段以及定义显示格式。 将在刷新时保留上述所有更改，且应用对 SAP HANA 视图所做的任何非冲突更改。 
+考虑到需要确保始终能够从 SAP HANA 获取正确的聚合数据，允许的建模操作比使用 DirectQuery 时的一般情况更具限制性。 但是，仍然可以执行许多添加和更改操作，包括定义度量值、重命名和隐藏字段以及定义显示格式。 所有这些更改将在刷新时保留，并会应用对 SAP HANA 视图所做的任何非冲突更改。 
 
-### <a name="additional-modelling-restrictions"></a>其他建模限制
+### <a name="additional-modeling-restrictions"></a>其他建模限制
 
 使用 DirectQuery（视为多维源）连接到 SAP HANA 时的主要其他建模限制如下所示： 
 
@@ -80,7 +80,7 @@ ms.lasthandoff: 03/08/2018
 
 ### <a name="additional-visualization-restrictions"></a>其他可视化效果限制
 
-使用 DirectQuery（视为多维源）连接到 SAP HANA 时视觉对象中存在一些限制： 
+使用 DirectQuery（视为多维源）连接到 SAP HANA 时，视觉对象中存在限制： 
 * **没有列聚合：**不能更改视觉对象上的列的聚合，而且它始终为不汇总。
 
 ## <a name="treat-sap-hana-as-a-relational-source"></a>将 SAP HANA 视为关系源 
@@ -138,14 +138,14 @@ ms.lasthandoff: 03/08/2018
 * **其他层次结构元数据** - 层次结构的基本结构显示在 Power BI 中，但一些层次结构元数据（如控制不规则层次结构的行为）将不起作用。
 同样，这是由 SQL 接口施加的限制导致的。
 * **使用 SSL 的连接** - 无法连接到配置为使用 SSL 的 SAP HANA 实例。
-对属性视图的支持：Power BI 可以连接到分析和计算视图，但不能直接连接到属性视图。
+* **对属性视图的支持** - Power BI 可以连接到分析和计算视图，但不能直接连接到属性视图。
 * **对目录对象的支持** - Power BI 无法连接到目录对象。
 * **发布后更改变量** - 发布报表后，不能在 Power BI 服务中直接更改任何 SAP HANA 变量的值。 
  
 ## <a name="known-issues"></a>已知问题 
 以下列表介绍了使用 Power BI 连接到 SAP HANA (DirectQuery) 时的所有已知问题。 
 
-* **查询计数器和其他度量值时遇到的 SAP HANA 问题** - 如果连接到分析视图，且计数器度量值和其他一些比率度量值包含在同一视觉对象中，则从 SAP HANA 返回错误的数据。 这包括在 SAP 注释 2128928（查询计算的列和计数器时的异常结果）中。 在这种情况下，比率度量值是不正确的。 
+* **查询计数器和其他度量值时遇到的 SAP HANA 问题** - 如果连接到分析视图，且计数器度量值和其他一些比率度量值包含在同一视觉对象中，则从 SAP HANA 返回错误的数据。 这包括在 SAP 注释 2128928（查询计算列和计数器时的异常结果）中。 在这种情况下，比率度量值是不正确的。 
 
 * **来自单个 SAP HANA 列的多个 Power BI 列** - 对于某些计算视图，如果某个 SAP HANA 列在多个层次结构中使用，SAP HANA 会将其公开为两个单独的属性。 这会导致在 Power BI 中创建两个列。  但是，这些列默认是隐藏的，所有直接涉及层次结构或列的查询都正确运行。 
  

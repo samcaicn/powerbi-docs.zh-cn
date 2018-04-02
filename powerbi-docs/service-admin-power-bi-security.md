@@ -1,15 +1,15 @@
 ---
-title: "Power BI 安全"
-description: "Power BI 安全。 如何将 Power BI 与 Azure Active Directory 和其他 Azure 服务关联。 本主题还包括指向白皮书（其中会更深入地进行介绍）的链接。"
+title: Power BI 安全
+description: Power BI 安全。 如何将 Power BI 与 Azure Active Directory 和其他 Azure 服务关联。 本主题还包括指向白皮书（其中会更深入地进行介绍）的链接。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: erikri
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 50bb742958f5cc9152231f14d176033b328a8976
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7db593cdac44bb3549023127a5250776cd6d57b7
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-security"></a>Power BI 安全
 有关 Power BI 安全的详细说明，请[下载 Power BI 安全白皮书](http://go.microsoft.com/fwlink/?LinkId=829185)：
@@ -64,5 +64,5 @@ Power BI 的平台安全还包括多租户环境安全、网络安全和添加�
 
 如本文前面部分中所述，用户的 Power BI 登录名由本地 Active Directory 服务器使用以映射到凭据的 UPN。 但是，**必须**注意的是，用户将负责管理共享的数据：如果用户使用自己的凭据连接到数据源，然后基于这些数据（用户所共享的仪表板未针对原始数据源进行身份验证）共享报表（或仪表板、数据集），并将被授予访问报表的权限。
 
-例外情况是使用本地数据网关连接到 SQL Server Analysis Services；仪表板缓存在 Power BI 中，但对基础报表或数据集的访问会对尝试访问报表（或数据集）启动用户身份验证，且仅当用户有足够的凭据访问数据时才被授予访问权限。 有关详细信息，请参阅[深入了解本地数据网关](service-gateway-onprem-indepth.md)。
+例外情况是使用本地数据网关连接到 SQL Server Analysis Services；仪表板缓存在 Power BI 中，但对基础报表或数据集的访问会对尝试访问报表（或数据集）启动用户身份验证，且仅当用户有足够的凭据访问数据时才会被授予访问权限。 有关详细信息，请参阅[深入了解本地数据网关](service-gateway-onprem-indepth.md)。
 

@@ -1,15 +1,15 @@
 ---
-title: "刷新使用本地 Excel 工作簿创建的数据集"
-description: "刷新使用本地驱动器上的 Excel 工作簿创建的数据集"
+title: 刷新使用本地 Excel 工作簿创建的数据集
+description: 刷新使用本地驱动器上的 Excel 工作簿创建的数据集
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: a38ee72643f5eb95f0d637dbe7bfbc67e2ee656d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 903f53378f2a9c8efce5bc8c6028f89add7df8c5
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>刷新使用本地驱动器上的 Excel 工作簿创建的数据集
 ## <a name="whats-supported"></a>支持的功能有哪些？
@@ -82,7 +82,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="troubleshooting"></a>故障排除
 有时可能不会按预期方式刷新数据。 通常，这会是与网关连接出现的问题。 请查看网关故障排除文章，了解相关工具和已知问题。
 
-[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)
+[本地数据网关故障排除](service-gateway-onprem-tshoot.md)
 
 [Power BI Gateway - Personal 故障排除](service-admin-troubleshooting-power-bi-personal-gateway.md)
 

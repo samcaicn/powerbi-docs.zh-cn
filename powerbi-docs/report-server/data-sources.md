@@ -1,27 +1,27 @@
 ---
-title: "Power BI 报表服务器中 Power BI 报表数据源"
-description: "Power BI 报表可以连接不同的数据源。 根据数据使用方式，可以提供不同的数据源。"
+title: Power BI 报表服务器中 Power BI 报表数据源
+description: Power BI 报表可以连接不同的数据源。 根据数据使用方式，可以提供不同的数据源。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 03/21/2018
 ms.author: maghan
-ms.openlocfilehash: caa45aab2c31974abb041a82eb2216ebee2eb148
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 3777c58bae36d6115b51b64e0422529fe390a13c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表数据源
 Power BI 报表可以连接不同的数据源。 根据数据使用方式，可以提供不同的数据源。 可以导入数据，或者可以直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。
@@ -34,6 +34,7 @@ Power BI 报表可以连接不同的数据源。 根据数据使用方式，可�
 > 
 
 ## <a name="list-of-supported-data-sources"></a>受支持数据源的列表
+
 即使不在受支持列表中的其他数据源也可能有效。
 
 | **数据源** | **缓存的数据** | **计划的刷新** | **实时/DirectQuery** |
@@ -48,7 +49,7 @@ Power BI 报表可以连接不同的数据源。 根据数据使用方式，可�
 | Amazon Redshift |是 |否 |否 |
 | Azure Blob 存储 |是 |是 |否 |
 | Azure Data Lake Store |是 |否 |否 |
-| Azure HDInsight (HDFS) |是 |是 |否 |
+| Azure HDInsight (HDFS) |是 |否 |否 |
 | Azure HDInsight (Spark) |是 |是 |否 |
 | Azure 表存储 |是 |是 |否 |
 | Dynamics 365（联机） |是 |否 |否 |
@@ -119,6 +120,100 @@ Power BI 报表可以连接不同的数据源。 根据数据使用方式，可�
 > 在数据源配置的行级别安全性应适用于某些 DirectQuery（SQL Server、Azure SQL 数据库、Oracle 和 Teradata），以及假设在你的环境中正确配置了 Kerberos 的实时连接。
 > 
 > 
+
+## <a name="list-of-supported-authentication-methods-for-model-refresh"></a>用于模型刷新的受支持的身份验证方法列表
+
+Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷新。 Excel 或 Access 数据库等某些数据源使用单独的步骤（如“文件”或 Web）连接到数据。
+
+| **数据源** | **匿名身份验证** | **密钥身份验证** | **用户名和密码** | **Windows 身份验证** |
+| --- | --- | --- | --- | --- |
+| SQL Server 数据库 |否 |否 |是 |是 |
+| SQL Server Analysis Services |否 |否 |是 |是 |
+| Web |是 |否 |是 |是 |
+| Azure SQL 数据库 |否 |否 |是 |否 |
+| Azure SQL 数据仓库 |否 |否 |是 |否 |
+| Active Directory |否 |否 |是 |是 |
+| Amazon Redshift |否 |否 |否 |否 |
+| Azure Blob 存储 |是 |是 |否 |否 |
+| Azure Data Lake Store |否 |否 |否 |否 |
+| Azure HDInsight (HDFS) |否 |否 |否 |否 |
+| Azure HDInsight (Spark) |是 |是 |否 |否 |
+| Azure 表存储 |否 |是 |否 |否 |
+| Dynamics 365（联机） |否 |否 |否 |否 |
+| Facebook |否 |否 |否 |否 |
+| 文件夹 |否 |否 |否 |是 |
+| Google Analytics |否 |否 |否 |否 |
+| Hadoop 文件 (HDFS) |否 |否 |否 |否 |
+| IBM DB2 数据库 |否 |否 |是 |是 |
+| Impala |否 |否 |否 |否 |
+| Microsoft Exchange |否 |否 |否 |否 |
+| Microsoft Exchange Online |否 |否 |否 |否 |
+| MySQL 数据库 |否 |否 |是 |是 |
+| OData 数据源 |是 |是 |是 |是 |
+| ODBC |是 |否 |是 |是 |
+| OLE DB |是 |否 |是 |是 |
+| Oracle 数据库 |否 |否 |是 |是 |
+| PostgreSQL 数据库 |否 |否 |是 |否 |
+| Power BI 服务 |否 |否 |否 |否 |
+| R 脚本 |否 |否 |否 |否 |
+| Salesforce 对象 |否 |否 |否 |否 |
+| Salesforce 报表 |否 |否 |否 |否 |
+| SAP Business Warehouse 服务器 |否 |否 |是 |否 |
+| SAP HANA 数据库 |否 |否 |是 |是 |
+| SharePoint 文件夹（本地） |是 |否 |否 |是 |
+| SharePoint 列表（本地） |是 |否 |否 |是 |
+| SharePoint Online 列表 |否 |否 |否 |否 |
+| Snowflake |否 |否 |否 |否 |
+| Sybase 数据库 |否 |否 |是 |是 |
+| Teradata 数据库 |否 |否 |是 |是 |
+| appFigures (Beta) |否 |否 |否 |否 |
+| Azure Analysis Services 数据库 (Beta) |否 |否 |否 |否 |
+| Azure Cosmos DB (Beta) |否 |否 |否 |否 |
+| Azure HDInsight Spark (Beta) |否 |否 |否 |否 |
+| Common Data Service (Beta) |否 |否 |否 |否 |
+| comScore Digital Analytix (Beta) |否 |否 |否 |否 |
+| Dynamics 365 for Customer Insights (Beta) |否 |否 |否 |否 |
+| Dynamics 365 for Financials (Beta) |否 |否 |否 |否 |
+| GitHub (Beta) |否 |否 |否 |否 |
+| Google BigQuery (Beta) |否 |否 |否 |否 |
+| IBM Informix 数据库 (Beta) |否 |否 |否 |否 |
+| IBM Netezza (Beta) |否 |否 |否 |否 |
+| Kusto (Beta) |否 |否 |否 |否 |
+| MailChimp (Beta) |否 |否 |否 |否 |
+| Microsoft Azure 使用情况见解 (Beta) |否 |否 |否 |否 |
+| Mixpanel (Beta) |否 |否 |否 |否 |
+| Planview Enterprise (Beta) |否 |否 |否 |否 |
+| Projectplace (Beta) |否 |否 |否 |否 |
+| QuickBooks Online (Beta) |否 |否 |否 |否 |
+| Smartsheet |否 |否 |否 |否 |
+| Spark (Beta) |否 |否 |否 |否 |
+| SparkPost (Beta) |否 |否 |否 |否 |
+| SQL Sentry (Beta) |否 |否 |否 |否 |
+| Stripe (Beta) |否 |否 |否 |否 |
+| SweetIQ (Beta) |否 |否 |否 |否 |
+| Troux (Beta) |否 |否 |否 |否 |
+| Twilio (Beta) |否 |否 |否 |否 |
+| tyGraph (Beta) |否 |否 |否 |否 |
+| Vertica (Beta) |否 |否 |否 |否 |
+| Visual Studio Team Services (Beta) |否 |否 |否 |否 |
+| Webtrends (Beta) |否 |否 |否 |否 |
+| Zendesk (Beta) |否 |否 |否 |否 |
+
+## <a name="list-of-supported-authentication-methods-for-directquery"></a>用于 DirectQuery 的受支持的身份验证方法列表
+
+Power BI 报表服务器不支持将基于 OAuth 的身份验证用于 DirectQuery。
+
+| **数据源** | **匿名身份验证** | **密钥身份验证** | **用户名和密码** | **Windows 身份验证** | **集成 Windows 身份验证** |
+| --- | --- | --- | --- | --- | --- |
+| SQL Server 数据库 |否 |否 |是 |是 |是 |
+| SQL Server Analysis Services |否 |否 |是 |是 |是 |
+| Azure SQL 数据库 |否 |否 |是 |否 |否 |
+| Azure SQL 数据仓库 |否 |否 |是 |否 |否 |
+| Oracle 数据库 |否 |否 |是 |是 |是 |
+| SAP Business Warehouse 服务器 |否 |否 |是 |否 |是 |
+| SAP HANA 数据库 |否 |否 |是 |是 |否 |
+| Teradata 数据库 |否 |否 |是 |是 |是 |
+
 
 ## <a name="next-steps"></a>后续步骤
 现在你已选取了数据源，接下来使用该数据源中的数据[创建报表](quickstart-create-powerbi-report.md)。

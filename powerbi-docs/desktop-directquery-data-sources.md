@@ -1,15 +1,15 @@
 ---
-title: "Power BI 中 DirectQuery 支持的数据源"
-description: "获取数据源可以使用 DirectQuery 的列表。"
+title: Power BI 中 DirectQuery 支持的数据源
+description: 获取数据源可以使用 DirectQuery 的列表。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: fcd8e4705fe5ee3a3a567c0e7a44a5a4d1a73e76
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支持的数据源
 Power BI Desktop 和 Power BI 服务有多个可以连接并访问数据的数据源。 本文介绍了支持称为 DirectQuery 的连接方法的 Power BI 数据源。 有关 DirectQuery 的详细信息，请参阅 [Power BI 中的 DirectQuery](desktop-directquery-about.md)。
@@ -48,7 +48,7 @@ Power BI Desktop 和 Power BI 服务有多个可以连接并访问数据的数�
 
 名称后带有 (Beta) 或（预览）的数据源会发生更改，不支持在生产环境中使用。 在将报表发布到 Power BI 服务后这些数据源可能还不受支持，这意味着打开已发布的报表或浏览数据集会导致错误。
 
-(Beta) 与（预览）数据源之间的唯一区别是（预览）数据源必须先要作为预览功能启用，然后才可供使用。 若要启用（预览）数据连接器，请在 Power BI Desktop 中转到“文件 > 选项和设置”，然后访问“设置 > 选项 > 预览功能”。
+(Beta) 与（预览）数据源之间的唯一区别是（预览）数据源必须先要作为预览功能启用，然后才可供使用。 要启用（预览）数据连接器，请在 Power BI Desktop 中转到“文件”>“选项和设置”>“选项”，然后选择“预览功能”。
 
 ## <a name="on-premises-gateway-requirements"></a>本地网关要求
 下表指定在将报表发布到 Power BI 服务后本地数据网关是否需要连接到指定的数据源。

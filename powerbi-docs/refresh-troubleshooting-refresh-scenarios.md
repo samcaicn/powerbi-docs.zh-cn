@@ -1,15 +1,15 @@
 ---
-title: "刷新方案故障排除"
-description: "刷新方案故障排除"
+title: 刷新方案故障排除
+description: 刷新方案故障排除
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: d6b9e5e69de7b2027c4799f15c11cbb0626e1507
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d94e25b78edef2aefaa5e63c788e5f11dc948791
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>刷新方案故障排除
 此处介绍了关于在 Power BI 服务中刷新数据时可能会遇到的各种情况的信息。
@@ -67,7 +67,7 @@ Microsoft 正在研究一个解决方案，允许数据加载过程刷新令牌�
 
 ## <a name="next-steps"></a>后续步骤
 [数据刷新](refresh-data.md)  
-[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
+[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 [Power BI Gateway - Personal 故障排除](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

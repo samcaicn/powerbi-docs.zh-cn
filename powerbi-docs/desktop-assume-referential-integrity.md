@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop 中的假设引用完整性设置"
-description: "了解如何设置 Power BI Desktop 假设引用完整性（与 DirectQuery 一起使用）"
+title: Power BI Desktop 中的假设引用完整性设置
+description: 了解如何设置 Power BI Desktop 假设引用完整性（与 DirectQuery 一起使用）
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0d92fc16a6bde09f3783c2035a4a6b5c97e7b933
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9494b7774c8ba7d91398b14fb6ae2f21649050fa
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Power BI Desktop 中的假设引用完整性设置
 当连接到使用 **DirectQuery** 的数据源时，你可以使用“假设引用完整性”，以对数据源运行更高效的查询。 此功能对基础数据有要求，并且仅在使用 **DirectQuery** 时可用。
@@ -45,10 +45,10 @@ ms.lasthandoff: 02/24/2018
 1. 下图显示了 **Orders** 表和 **Products** 表，请注意引用完整性存在于 **Orders[ProductID]** 和 **Products[ProductID]** 之间。 **Orders** 表中的 **[ProductID]** 列始终不能为 *Null* ，所有值也会出现在 **Products** 表中。 在这种情况下，应设置“假设引用完整性”以获得更高效的查询（使用此设置不会更改视觉对象中显示的值）。
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. 在下一个图像中，请注意 **Orders[DepotID]** 和 **Depots[DepotID]** 之间不存在引用完整性，因为某些 *Orders* 的 **DepotID** 为 *Null* 。 在这种情况下， *不* 应设置“假设引用完整性”。
+2. 在下一个图像中，请注意 Orders[DepotID] 和 Depots[DepotID] 之间不存在引用完整性，因为某些 Orders 的 DepotID 为 Null。 在这种情况下， *不* 应设置“假设引用完整性”。
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
-3. 最后，在下面的表中，**Orders[CustomerID]** 和 **Customers[CustID]** 之间不存在引用完整性；**CustomerID** 中包含 *Customers* 表中不存在的值（此例中为 *CustX* ）。 在这种情况下， *不* 应设置“假设引用完整性”。
+3. 最后，在下面的表中，Orders[CustomerID] 和 Customers[CustID] 之间不存在引用完整性；CustomerID 中包含 Customers 表中不存在的值（此例中为 CustX）。 在这种情况下， *不* 应设置“假设引用完整性”。
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 

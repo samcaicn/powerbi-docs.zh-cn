@@ -1,15 +1,15 @@
 ---
-title: "教程︰在 Power BI 中通过 Analysis Services 表格模型实现动态行级别安全性"
-description: "教程︰通过 Analysis Services 表格模型实现动态行级别安全性"
+title: 教程︰在 Power BI 中通过 Analysis Services 表格模型实现动态行级别安全性
+description: 教程︰通过 Analysis Services 表格模型实现动态行级别安全性
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: selvarms
 manager: amitaro
 backup: davidi
 editor: davidi
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 67b347be9974605156d02cbbf179126c68ae91e8
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>教程︰通过 Analysis Services 表格模型实现动态行级别安全性
-本教程演示在 **Analysis Services 表格模型**中实现**行级别安全性**而需执行的步骤，以及如何将其用于 Power BI 报表中。 本教程中的步骤在示例数据集上完成，旨在让您了解必需的步骤。
+本教程演示在 Analysis Services 表格模型中实现“行级别安全性”的所需步骤，以及如何将其用于 Power BI 报表。 本教程中的步骤在示例数据集上完成，旨在让您了解必需的步骤。
 
 在本教程中，详细描述了以下步骤，帮助您了解在Analysis Services 表格模型中实现动态行级别安全性而需执行的步骤︰
 
@@ -38,32 +38,32 @@ ms.lasthandoff: 03/12/2018
 * 最后，基于报表创建新仪表板
 * 与您的同事共享仪表板
 
-要执行本教程中的步骤，您需要使用 **AdventureworksDW2012** 数据库（可以在 **[此处](http://msftdbprodsamples.codeplex.com/releases/view/55330)**下载）。
+执行本教程中的步骤需要使用 AdventureworksDW2012 数据库（可以通过[存储库](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)下载）。
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>任务 1︰创建用户安全表并定义数据关系
-很多已发布的文章都介绍了如何通过 **SQL Server Analysis Services (SSAS) 表格**模型定义行级别动态安全。 [在本示例中，我们将遵循此篇文章。](https://msdn.microsoft.com/library/hh479759.aspx) 以下步骤引导您完成本教程的第一项任务。
+很多已发布的文章都介绍了如何通过 **SQL Server Analysis Services (SSAS) 表格**模型定义行级别动态安全。 我们的示例遵照文章[通过使用行筛选器实现动态安全性](https://msdn.microsoft.com/library/hh479759.aspx)中所述的内容。 以下步骤引导完成本教程的第一项任务：
 
 1. 本示例中，我们采用 **AdventureworksDW2012** 关系数据库。 在该数据库中创建 **DimUserSecurity** 表，如下图所示。 本示例中，我们使用 SQL Server Management Studio (SSMS) 来创建表。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable.png)
-2. 一旦创建并保存表，我们需要创建 **DimUserSecurity** 表的 **SalesTerritoryID** 列和 **DimSalesTerritory** 表的 **SalesTerritoryKey** 列之间的关系，如下图所示。 这可以从 **SSMS** 中完成，方法是右键单击 **DimUserSecurity** 表并选择**编辑**。
+2. 一旦创建并保存表，我们需要创建 **DimUserSecurity** 表的 **SalesTerritoryID** 列和 **DimSalesTerritory** 表的 **SalesTerritoryKey** 列之间的关系，如下图所示。 这可以从 SSMS 中完成，方法是右键单击“DimUserSecurity”表，选择“设计”。 然后从菜单中选择“表设计器”->“关系...”。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
-3. 保存表，然后向该表中添加几行用户信息，为此，可再次右键单击 **DimUserSecurity** 表然后选择 **编辑前 200 行**。 在添加这些用户后，**DimUserSecurity** 表的行类似于下图中所示︰
+3. 保存表，然后向该表中添加几行用户信息，为此，可再次右键单击“DimUserSecurity”表然后选择“编辑前 200 行”。 在添加这些用户后，**DimUserSecurity** 表的行类似于下图中所示︰
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
    
    我们会在即将开始的任务中重新使用这些用户。
 4. 接下来，我们在 **DimSalesTerritory** 表中执行*内部联接*，其中显示了与用户关联的区域详细信息。 下面的代码可执行*内部联接*，之后的图显示了在*内部联接*成功后的表显示方式。
    
-       **select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeKey, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryKey]**
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. 请注意，上图显示了诸如销售区域的负责用户等信息。 由于我们已在**步骤 2** 中创建关系，所以会显示此数据。 另请注意，用户 **Jon Doe 属于澳大利亚销售区域**。 我们会在即将执行的步骤和任务中再度讨论 John Doe。
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>任务 2︰创建含事实数据表和维度表的表格模型
-1. 在准备好关系数据仓库后，即可定义您的表格模型。 可以使用 **SQL Server Data Tools (SSDT)** 创建该模型。 有关如何定义表格模型的详细信息，请参阅[此篇文章](https://msdn.microsoft.com/library/hh231689.aspx)。
-2. 将所有必需表导入模型中，如下所示。
+1. 在准备好关系数据仓库后，即可定义您的表格模型。 可以使用 **SQL Server Data Tools (SSDT)** 创建该模型。 有关如何定义表格模型的详细信息，请参阅[创建新的表格模型项目](https://msdn.microsoft.com/library/hh231689.aspx)。
+2. 将所有必需表导入模型，如下所示。
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
 3. 在导入必需的表之后，您需要定义一个名为 **SalesTerritoryUsers**的具有**读取**权限的角色。 这可以通过在 SQL Server Data Tools 中单击**模型**菜单然后单击**角色**来实现。 在**角色管理器**对话框中，单击**新建**。
@@ -76,36 +76,37 @@ ms.lasthandoff: 03/12/2018
 6. 在此步骤中，我们使用 **LOOKUPVALUE** 函数返回列的值，在其中 Windows 用户名与 **USERNAME** 函数所返回的用户名相同。 然后，可将查询限制为满足以下条件的情况：**LOOKUPVALUE** 返回的值与相同或相关表中的值相匹配。 在 **DAX 筛选器**列中，键入以下公式︰
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
-7. 在此公式中，**LOOKUPVALUE** 函数将返回 **DimUserSecurity[SalesTerritoryID]** 列的所有值，其中，**DimUserSecurity[UserName]** 与当前登录的 Windows 用户名相同，**DimUserSecurity[SalesTerritoryID]** 与 **DimSalesTerritory[SalesTerritoryKey]** 相同。
+    在此公式中，**LOOKUPVALUE** 函数将返回 **DimUserSecurity[SalesTerritoryID]** 列的所有值，其中，**DimUserSecurity[UserName]** 与当前登录的 Windows 用户名相同，**DimUserSecurity[SalesTerritoryID]** 与 **DimSalesTerritory[SalesTerritoryKey]** 相同。
    
    接着，**LOOKUPVALUE** 返回的 Sales SalesTerritoryKey 集将用于限制 **DimSalesTerritory** 中所示的行。 将仅显示 **SalesTerritoryKey** 属于 **LOOKUPVALUE** 函数所返回的 ID 集的行。
-8. 针对 **DimUserSecurity** 表，在“DAX 筛选器”列中键入以下公式。
+8. 对于“DimUserSecurity”表，在“DAX 筛选器”列中键入以下公式：
    
        =FALSE()
-9. 此公式指定所有列均解析为 false 布尔条件；因此，**DimUserSecurity** 表没有可查询的列。
-10. 现在，我们需要处理并部署该模型。 你可以参考[此文](https://msdn.microsoft.com/library/hh231693.aspx)，以便在部署该模型时获得帮助。
+
+    此公式指定所有列均解析为 false 布尔条件；因此，**DimUserSecurity** 表没有可查询的列。
+1. 现在，我们需要处理并部署该模型。 如需在部署该模型时获得帮助，可以参考[部署文章](https://msdn.microsoft.com/library/hh231693.aspx)。
 
 ## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>任务 3：在本地数据网关中添加数据源
-1. 在部署表格模型并使其可供使用后，需要向 Power BI 门户中的本地 Analysis Services 表格服务器添加数据源连接。
+1. 表格模型部署完毕，可供使用后，需要向 Power BI 门户中的本地 Analysis Services 表格服务器添加数据源连接。
 2. 若要允许 Power BI 服务访问本地分析服务，需要在环境中安装并配置[本地数据网关](service-gateway-onprem.md)。
 3. 正确配置本地数据网关后，需要为 **Analysis Services** 表格实例创建一个数据源连接。 本文将帮助你[在 Power BI 门户中添加数据源](service-gateway-enterprise-manage-ssas.md)。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
-4. 完成上一个步骤后，网关便已配置完成，并且可与本地 **Analysis Services** 数据源交互。
+4. 完成上一个步骤后，网关便已配置完成，并且可与本地 Analysis Services 数据源交互。
 
 ## <a name="task-4-creating-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>任务 4：使用 Power BI Desktop 基于 Analysis Services 表格模型创建报表
 1. 启动 **Power BI Desktop** 并选择“获取数据”>“数据库”。
 2. 从数据源列表中选择“SQL Server Analysis Services 数据库”，然后选择“连接”。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
-3. 填写 **Analysis Services** 表格实例详细信息，然后选择“实时连接”。 选择“确定”。 使用 **Power BI** 时，动态安全性仅适用于**实时连接**。
+3. 填写 **Analysis Services** 表格实例详细信息，然后选择“实时连接”。 选择**确定**。 使用 **Power BI** 时，动态安全性仅适用于**实时连接**。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
-4. 你会发现模型已部署在 **Analysis Services** 实例中。 选择相应的模型并选择“确定”。
+4. 你会发现模型已部署在 Analysis Services 实例中。 选择相应的模型并选择“确定”。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 5. **Power BI Desktop** 现在在画布右侧的“字段”窗格中显示所有可用字段。
-6. 在右侧的“字段”窗格中，从 **FactInternetSales** 表中选择 **SalesAmount** 度量值，从 **SalesTerritory** 表中选择 **SalesTerritoryRegion** 维度。
+6. 在右侧的“字段”窗格中，从“FactInternetSales”表中选择“SalesAmount”度量值，从“SalesTerritory”表中选择“SalesTerritoryRegion”维度。
 7. 我们将让此报表看上去简单明了，因此现在不会再添加任何列。 为了让数据的表示形式更有意义，我们将可视化效果更改为“环形图”。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
@@ -134,7 +135,7 @@ ms.lasthandoff: 03/12/2018
 2. 只要用户（本例中为 Jon Doe）访问 Power BI 服务中的仪表板，会话就会初始化。 你会发现，**salesterritoryusers** 角色立即生效，有效用户名为 **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>**
    
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>jondoe@moonneo.com</EffectiveUserName></PropertyList>
-3. 基于有效用户名请求，Analysis Services 在查询本地 Active Directory 后将请求转换为真实的 moonneo\jondoe 凭据。 **Analysis Services** 从 Active Directory 获取真实凭据后，就会基于用户对数据的访问权限仅返回用户对其具有权限的数据。
+3. 基于有效用户名请求，Analysis Services 在查询本地 Active Directory 后将请求转换为真实的 moonneo\jondoe 凭据。 Analysis Services 从 Active Directory 获取真实凭据后，就会基于用户对数据的访问权限和其他权限仅返回用户对其具有权限的数据。
 4. 如果使用仪表板执行更多活动，例如，如果 Jon Doe 从仪表板转到基础报表，则可以在 SQL 事件探查器中看到作为 DAX 查询返回到 Analysis Services 表格模型的特定查询。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/profiler1.png)
@@ -165,8 +166,8 @@ ms.lasthandoff: 03/12/2018
    ```
 
 ## <a name="considerations"></a>注意事项
-使用行级别安全性、SSAS 和 Power BI 时需要牢记几个注意事项。
+使用行级别安全性、SSAS 和 Power BI 时需要牢记几个注意事项：
 
 1. Power BI 的本地行级别安全性只能用于实时连接。
-2. 基于 Power BI 服务中的**实时连接**访问报表的用户可以立即获得处理模型后的任何数据更改。
+2. 通过“实时连接”访问报表的用户可在 Power BI 服务中立即获得处理模型后的任何数据更改。
 
