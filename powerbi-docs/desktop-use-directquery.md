@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中使用 DirectQuery"
-description: "在 Power BI Desktop 中使用 DirectQuery（亦称为“实时连接”）"
+title: 在 Power BI Desktop 中使用 DirectQuery
+description: 在 Power BI Desktop 中使用 DirectQuery（亦称为“实时连接”）
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: df45bbaa142b2c476a6391b1c43638e1ee76c3ae
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 83726531a3ef82f59efb6e12c0ea0dbcd4bf5d7c
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 使用 **Power BI Desktop** 时，若已连接数据源，始终可以将数据副本导入 **Power BI Desktop**。 对于某些数据源，还可使用另一种方法︰使用 **DirectQuery** 直接连接到数据源。
@@ -62,7 +62,7 @@ ms.lasthandoff: 03/12/2018
 * 默认情况下，会限制允许在度量值中使用的 DAX 表达式；请参阅下一段落（在此项目符号列表后）了解详细信息
 * 使用 **DirectQuery** 时，返回数据有 100 万行的限制。 这不影响用于创建使用 **DirectQuery** 返回的数据集的聚合或计算，仅影响返回的行。 例如，你可以使用在数据源上运行的查询聚合 1000 万行，并且只要返回到 Power BI 的数据不超过 100 万行，即可使用 **DirectQuery** 将该聚合的结果准确地返回到 Power BI。 如果从 **DirectQuery** 返回的结果超过 100 万行，则 Power BI 返回错误。
 
-为了确保发送到基础数据源的查询具有可接受的性能，默认情况下对度量值进行了限制。 高级用户可选择绕过此限制，方法是依次选择“文件”>“选项”，然后选择“设置”>“选项和设置”>“DirectQuery”，然后选择选项“允许 DirectQuery 模式下的度量值不受限制”。 选中该选项后，即可使用对度量值有效的任何 DAX 表达式。 但是，用户必须知道，可在导入数据的情况下正常工作的某些表达式，在 DirectQuery 模式下则可能会导致针对后端数据源的查询速度缓慢。
+为了确保发送到基础数据源的查询具有可接受的性能，默认情况下对度量值进行了限制。 高级用户可以选择绕过此限制，方法是依次选择“文件”>“选项和设置”>“选项”>“DirectQuery”，然后选择选项“允许 DirectQuery 模式下的度量值不受限制”。 选中该选项后，即可使用对度量值有效的任何 DAX 表达式。 但是，用户必须知道，可在导入数据的情况下正常工作的某些表达式，在 DirectQuery 模式下则可能会导致针对后端数据源的查询速度缓慢。
 
 ## <a name="important-considerations-when-using-directquery"></a>使用 DirectQuery 的重要注意事项
 使用 **DirectQuery** 时，应考虑以下三点：
@@ -77,7 +77,7 @@ ms.lasthandoff: 03/12/2018
       the maximum allowed size of '1000000' rows.
   
   生成包含非常高的基数列的简单图表，聚合选项设置为*不汇总*。 视觉对象应只具有基数低于 100 万的列，或必须应用适当的筛选器。
-* **安全** -使用发布报表的所有用户都使用发布到 Power BI 服务后输入的凭据连接到后端数据源。 这与导入数据的情况相同：所有用户会看到相同的数据，而不考虑后端源中定义的任何安全规则。 希望实现每用户安全性的客户使用 DirectQuery 源进行实现，并使用 RLS。 [详细了解 RLS](service-admin-rls.md)。
+* **安全** -使用发布报表的所有用户都使用发布到 Power BI 服务后输入的凭据连接到后端数据源。 这与导入数据的情况相同：所有用户会看到相同的数据，而不考虑后端源中定义的任何安全规则。 希望通过 DirectQuery 源实现每用户安全性的客户应使用 RLS。 [详细了解 RLS](service-admin-rls.md)。
 * **支持的功能** - **DirectQuery** 模式不支持 **Power BI Desktop** 的所有功能，或对某些功能有限制。 此外，Power BI 服务中的某些功能（如*快速见解*）对使用 **DirectQuery** 的数据集不可用。 因此，决定是否使用 **DirectQuery** 时，应当考虑使用 **DirectQuery** 时这些功能的限制。   
 
 ## <a name="publish-to-the-power-bi-service"></a>发布到 Power BI 服务

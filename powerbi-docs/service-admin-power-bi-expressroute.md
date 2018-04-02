@@ -1,15 +1,15 @@
 ---
-title: "Power BI 和 ExpressRoute"
-description: "Power BI 和 ExpressRoute"
+title: Power BI 和 ExpressRoute
+description: Power BI 和 ExpressRoute
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 30bc1c58d02634748acfc2dce4fbfbec51fa6cba
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: faf438e9f76a7a929f7369dc91ef4edb4fbef42d
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI 和 ExpressRoute
 借助 **Power BI** 和 **ExpressRoute**，可以创建从组织到 Power BI 的专用网络连接（或使用 ISP 的主机托管设施），从而绕过 Internet 以更好地保护敏感 Power BI 数据和连接。
@@ -49,7 +49,7 @@ Power BI 符合 ExpressRoute 标准，但是在少数例外情况下 Power BI �
 * 从**内容交付网络 (CDN)** 和网站下载的静态文件
 * 通过公共 Internet 发送的**遥测**数据
 
-Power BI 使用多个**内容交付网络 (CDN)** 或网站来高效地根据地理区域设置将所需的静态内容和文件通过公共 Internet 分发到用户。 这些静态文件包括产品下载（如 **Power BI Desktop**、**本地数据网关**或来自各个独立服务提供商的 **Power BI 内容包**）、用于发起和建立与 Power BI 的任何后续连接的浏览器配置文件以及初始安全 Power BI 登录页 – 实际凭据仅通过 ExpressRoute 进行发送。   
+Power BI 使用多个**内容交付网络 (CDN)** 或网站来高效地根据地理区域设置将所需的静态内容和文件通过公共 Internet 分发到用户。 这些静态文件包括产品下载（如 Power BI Desktop、本地数据网关或来自各个独立服务提供商的 Power BI 内容包）、用于发起和建立与 Power BI 的任何后续连接的浏览器配置文件以及初始安全 Power BI 登录页 - 实际凭据仅通过 ExpressRoute 进行发送。   
 
 某些**遥测数据**也通过公共 Internet 和 ExpressRoute 进行发送。 遥测数据包括使用情况统计信息和相似数据，它们会传输给用于监视使用情况和活动的服务。
 
@@ -94,5 +94,5 @@ Power BI 提供 API 和其他基于平台的功能，使开发人员可以创建
 本文档不涉及 Power BI Mobile 应用的使用。  
 
 ### <a name="on-premises-data-gateway-and-expressroute"></a>本地数据网关和 ExpressRoute
-将**本地数据网关**与 Power BI 一起使用时，传输符合 ExpressRoute 标准，除了本主题前面的 **Power BI SaaS 应用程序和 ExpressRoute** 中记录的用户活动。  
+将本地数据网关与 Power BI 一起使用时，传输符合 ExpressRoute 标准，本主题前面的 Power BI SaaS 应用程序和 ExpressRoute 中记录的用户活动除外。  
 

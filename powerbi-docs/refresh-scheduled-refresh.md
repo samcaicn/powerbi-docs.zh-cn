@@ -1,14 +1,14 @@
 ---
-title: "配置计划刷新"
-description: "这包括选择网关和配置计划刷新的步骤。"
+title: 配置计划刷新
+description: 这包括选择网关和配置计划刷新的步骤。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dec6b60b4dfddd9a4c55ee01cb7b9dc6b8c71cd3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af8895b90b2f3315fb0cfd71351dbe65c108071e
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configuring-scheduled-refresh"></a>配置计划刷新
 
@@ -123,7 +123,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="troubleshooting"></a>故障排除
 有时可能不会按预期方式刷新数据。 通常，这会是与网关连接出现的问题。 请查看网关故障排除文章，了解相关工具和已知问题。
 
-[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)
+[本地数据网关故障排除](service-gateway-onprem-tshoot.md)
 
 [Power BI Gateway - Personal 故障排除](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
@@ -131,7 +131,7 @@ ms.lasthandoff: 02/24/2018
 [Power BI 中的数据刷新](refresh-data.md)  
 [Power BI Gateway - Personal](personal-gateway.md)  
 [本地数据网关](service-gateway-onprem.md)  
-[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
+[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 [Power BI Gateway - Personal 故障排除](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

@@ -1,15 +1,15 @@
 ---
-title: "部署 Power BI 数据网关指南"
-description: "了解部署 Power BI 网关的最佳做法和注意事项。"
+title: 部署 Power BI 数据网关指南
+description: 了解部署 Power BI 网关的最佳做法和注意事项。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3c1b0059ac39c8d8024fd840c0cf35bc9700a9aa
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>部署 Power BI 数据网关指南
 本文提供在网络环境中部署数据网关的指南和注意事项。 **网关**是一种便于访问驻留在本地专用网络上的数据的软件，方便后续在 Power BI 等云服务中使用这些数据。 本文将指导你完成部署，并为本地数据网关设置提供指南。
@@ -86,7 +86,7 @@ Power BI 提供了两种连接类型：DirectQuery 和 Import。 并非所有数
 
 这些计数器可从“Windows 性能监视器”进行访问，并且可由用于此目的的任何报表工具使用。 有关如何结合使用网关性能监视器与 Power BI 的详细步骤，请查看以下社区创建的博客文章。
 
-* [监视本地数据网关](https://insightsquest.com/2016/08/08/monitor-on-premises-data-gateways/)
+* [Monitor On-premises data gateways](https://insightsquest.com/2016/08/08/monitor-on-premises-data-gateways/)（监视本地数据网关）
 
 #### <a name="logs"></a>日志
 配置和服务日志提供了网关所发生情况的另一层面的信息。 当连接未按预期方式工作时，要记得检查网关日志，因为并非所有的错误信息都会出现在 Power BI 服务上。
@@ -145,7 +145,7 @@ Power BI 提供了两种连接类型：DirectQuery 和 Import。 并非所有数
 
 ## <a name="next-steps"></a>后续步骤
 [配置代理设置](service-gateway-proxy.md)  
-[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
+[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 [本地数据网关常见问题解答](service-gateway-onprem-faq.md)  
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中使用 SAP BW 连接器"
-description: "在 Power BI Desktop 中使用 SAP BW 连接器"
+title: 在 Power BI Desktop 中使用 SAP BW 连接器
+description: 在 Power BI Desktop 中使用 SAP BW 连接器
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 84ee8e7c6dd92c5400b6e9d44fab03ad347084d9
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 连接器
 使用 Power BI Desktop 可以访问 **SAP BusinessWarehouse (BW)** 数据。
@@ -38,11 +38,11 @@ ms.lasthandoff: 03/08/2018
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>SAP BW 连接器功能
-通过 Power BI Desktop 中的 SAP BW 连接器，可从 SAP Business Warehouse 服务器多维数据集导入数据，或者可使用 DirectQuery 和 SAP BW 连接器。 
+通过 Power BI Desktop 中的 SAP BW 连接器，可从 SAP Business Warehouse 服务器多维数据集导入数据，或者可使用 DirectQuery。 
 
 若要深入了解 SAP BW 连接器以及如何将其与 DirectQuery 一起使用，请参阅 [DirectQuery 和 SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)。
 
-连接时，必须指定服务器、系统编号和客户端 ID 才能建立连接。
+连接时，必须指定“服务器”、“系统编号”和“客户端 ID”才能建立连接。
 
 ![](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 03/08/2018
 
 ![](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
-如果未指定任何 MDX 语句，则向你显示**导航器**窗口，其中将显示服务器上可用的多维数据集、向下钻取的选项，以及来自可用多维数据集的选择项的列表，包括维度和度量值。 Power BI 显示由 [BW 开放分析接口 OLAP BAPI](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm) 公开的查询和多维数据集。
+如果未指定任何 MDX 语句，则向你显示“导航器”窗口，其中将显示服务器上可用的多维数据集的列表，同时提供向下钻取以及从可用多维数据集中选择项的选项，包括维度和度量值。 Power BI 显示由 [BW 开放分析接口 OLAP BAPI](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm) 公开的查询和多维数据集。
 
 当从服务器中选择一个或多个项时，将基于它们的选择创建输出表的预览。
 
