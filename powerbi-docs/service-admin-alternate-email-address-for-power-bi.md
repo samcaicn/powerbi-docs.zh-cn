@@ -1,15 +1,15 @@
 ---
-title: "使用备用电子邮件地址"
-description: "使用备用电子邮件地址"
+title: 使用备用电子邮件地址
+description: 使用备用电子邮件地址
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -55,7 +55,7 @@ ms.lasthandoff: 03/12/2018
 
 Power 根据以下条件选择要使用的电子邮件：
 1.  如果 AAD 租户的用户对象中存在邮件属性，则 Power BI 使用电子邮件地址的此邮件属性
-2.  如果 UPN 电子邮件不是 \*.onmicrosoft.com 域电子邮件地址（“@”符号后面的信息），则 Power BI 使用电子邮件地址的此邮件属性
+2.  如果 UPN 电子邮件不是 \*.onmicrosoft.com 域电子邮件地址（“\@”符号后面的信息），则 Power BI 使用电子邮件地址的此邮件属性
 3.  如果AAD 用户对象中存在“其他”电子邮件数组属性，则将使用该列表中的第一封电子邮件（因为该属性中可能包含电子邮件列表）
 4. 如果不满足上述任一条件，则使用 UPN 地址
 
