@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI 服务中，以“阅读视图”或“编辑视图”打开报表。"
-description: "在阅读视图或编辑视图中打开 Power BI 报表"
+title: 在 Power BI 服务中，以“阅读视图”或“编辑视图”打开报表。
+description: 在阅读视图或编辑视图中打开 Power BI 报表
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
