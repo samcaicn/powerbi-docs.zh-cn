@@ -1,15 +1,15 @@
 ---
-title: "Power BI 中的自定义可视化效果"
-description: "Power BI 中的自定义可视化效果"
+title: Power BI 中的自定义可视化效果
+description: Power BI 中的自定义可视化效果
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 66b4af61ebc46afa65403f9e5d5fa47289c0a07b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6e5459492879cccbd2f18c572140eabfd0ab0f1c
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="custom-visuals-in-power-bi"></a>在 Power BI 中自定义视觉对象
 创建或编辑 Power BI 报表时，可以使用多种不同类型的视觉对象。 这些视觉对象显示在“可视化效果”窗格中。 下载 Power BI Desktop 或打开 Power BI 服务 (app.powerbi.com) 时，这组视觉对象都已“预打包”。
@@ -47,7 +47,7 @@ ms.lasthandoff: 02/24/2018
 > 
 > 
 
-## <a name="organization-visuals-preview"></a>组织视觉对象（预览）
+## <a name="organization-visuals"></a>组织视觉对象
 
 Power BI 管理员可以将自定义视觉对象部署到他们的组织中，使报表作者可以轻松发现和使用管理员已批准在组织内使用的自定义视觉对象。 这赋予管理员对选择特定自定义视觉对象并在组织中进行部署的控制权限，以及为管理员提供一种简便的方法来管理（即更新版本、禁用/启用）此类视觉对象。 对于报表作者而言，这是发现对组织唯一的视觉对象以及对更新这些视觉对象的无缝支持的一种简便方法。
 

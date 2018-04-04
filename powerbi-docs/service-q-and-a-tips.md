@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 中“问答”进行提问的提示和技巧"
-description: "使用 Power BI 中“问答”进行提问的提示和技巧"
+title: 使用 Power BI 中“问答”进行提问的提示和技巧
+description: 使用 Power BI 中“问答”进行提问的提示和技巧
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bdf1f161e0a95bda5b37d9c43a3bdcc6bde1066a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 28ebd938b1121e1d2d453a9c9e72592b1c814742
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 问答中提问的提示
 ## <a name="words-and-terminology-that-qa-recognizes"></a>“问答”识别的单词和术语
@@ -94,9 +94,6 @@ ms.lasthandoff: 02/24/2018
 * 当你在问题框中将光标往回移动时，自动建议来自基础数据集的替换术语。
 * 根据基础数据集中的数据重述问题。 由于“问答”采用来自基础数据集中的同义词替换你所用的单词，这样可以帮助确保“问答”理解了你的问题。
 * 不能理解的模糊词。
-
-## <a name="combine-results-from-more-than-one-dataset"></a>组合来自多个数据集的结果
-Power BI 最强大的功能之一是能够组合来自不同数据集的数据。  因此，请不要将问题限制于单个数据集 -- 请提出从多个数据集检索数据的问题。 例如，如果我的仪表板具有零售分析示例的磁贴和州人口数据集，我可以要求 *以条形图降序形式按州人口显示商店计数* 。
 
 ## <a name="dont-stop-now"></a>暂不停止
 “问答”显示结果后，请保持继续谈话！ 使用可视化效果和“问答”的交互功能发现更多见解。
