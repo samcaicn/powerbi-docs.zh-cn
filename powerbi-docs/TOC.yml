@@ -728,7 +728,7 @@
           href: desktop-common-query-tasks.md
         - name: 使用 Power BI Desktop 中的形状地图（预览版）
           href: desktop-shape-map.md
-        - name: 合并二进制文件
+        - name: 合并文件（二进制文件）
           href: desktop-combine-binaries.md
     - name: 为你的数据建模
       items:
