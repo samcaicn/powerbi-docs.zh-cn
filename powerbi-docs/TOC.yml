@@ -992,6 +992,8 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: 完成自定义视觉对象认证
           href: power-bi-custom-visuals-certified.md
+        - name: 将自定义视觉对象发布到 AppSource
+          href: developer/office-store.md
     - name: 将数据推送到仪表板
       items:
         - name: 将数据推送到仪表板
