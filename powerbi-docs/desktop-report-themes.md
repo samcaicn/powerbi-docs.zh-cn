@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用报表主题（预览阶段）
-借助**报表主题**，可以将颜色主题应用于整个报表，如企业品牌颜色、流行色或可能要应用于报表的其他任何颜色主题。 应用**报表主题**时，报表中的所有视觉对象都会使用选定主题中的颜色（少数例外情况除外，本文后面将予以介绍）。
+借助“报表主题”，可以将颜色主题应用于整个报表，如企业品牌颜色、流行色或可能要应用的其他任何颜色主题。 应用**报表主题**时，报表中的所有视觉对象都会使用选定主题中的颜色（少数例外情况除外，本文后面将予以介绍）。
 
 ![](media/desktop-report-themes/report-themes_1.png)
 
@@ -62,7 +62,7 @@ ms.lasthandoff: 03/23/2018
 
 * **name** - 这是主题名称，也是唯一的必填字段
 * **dataColors** - 要对 Power BI Desktop 视觉对象数据使用的十六进制颜色代码列表。 此列表中的颜色数量视具体需求而定
-* **background**、**foreground** 和 **tableAccent** - 这些值是**表**和**矩阵**视觉对象中应使用的颜色。 这些颜色的使用方式具体取决于所应用的表样式或矩阵样式。 表和矩阵视觉对象默认应用这些样式。
+* background、foreground 和 tableAccent - 这些值是表和矩阵视觉对象中应使用的颜色。 这些颜色的使用方式具体取决于所应用的表样式或矩阵样式。 表和矩阵视觉对象默认应用这些样式。
 
 若要对**表**或**矩阵**视觉对象应用样式，请选择相应的视觉对象，选择“**可视化效果**”窗格中的“**格式**”部分，然后展开“**矩阵样式**”，从“**样式**”下拉列表中选择一个样式。
 
@@ -91,7 +91,7 @@ ms.lasthandoff: 03/23/2018
 ## <a name="how-report-theme-colors-stick-to-your-reports"></a>如何在报表中保留报表主题颜色
 将报表发布到 **Power BI 服务**时，报表主题颜色也会随之一同发布。
 
-此外，“**格式**”面板的“**数据颜色**”部分能够反映出报表主题。 例如，应用“**圣帕特里克节**”主题的大量绿色和棕色后，选择视觉对象，然后依次转到“**格式 > 数据颜色**”，将看到以下内容。
+此外，“**格式**”面板的“**数据颜色**”部分能够反映出报表主题。 例如，应用“圣帕特里克节”主题的大量绿色和棕色后，选择视觉对象，然后依次转到“格式“>“数据颜色”，将看到以下内容。
 
 ![](media/desktop-report-themes/report-themes_8.png)
 
@@ -100,7 +100,7 @@ ms.lasthandoff: 03/23/2018
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>无法在报表中保留报表主题颜色的情况
 如果将自定义颜色集（或单独的颜色）应用于视觉对象中的特定数据点，那么应用报表主题则*不会*替代自定义的数据点颜色。
 
-此外，如果已使用调色板的“主题颜色”部分手动设置数据点的颜色，那么在应用新的报表主题后，手动设置的这一种或多种颜色将*不会*更新。 若要恢复默认颜色（以便在应用新的报表主题时更新全部颜色），可以选择“**主题颜色**”调色板中的“**恢复到默认值**”。
+此外，如果已使用调色板的“主题颜色”部分手动设置数据点的颜色，那么在应用新的报表主题后，手动设置的这一种或多种颜色将不会更新。 若要恢复默认颜色（以便在应用新的报表主题时更新全部颜色），可以选择“**主题颜色**”调色板中的“**恢复到默认值**”。
 
 ![](media/desktop-report-themes/report-themes_9.png)
 
@@ -200,7 +200,7 @@ ms.lasthandoff: 03/23/2018
 | lineChart |
 | lineClusteredColumnComboChart |
 | lineStackedColumnComboChart |
-| 映射图 |
+| 地图 |
 | multiRowCard |
 | pieChart |
 | pivotTable |

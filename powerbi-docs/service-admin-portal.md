@@ -1,28 +1,28 @@
 ---
-title: "Power BI 管理门户"
-description: "通过管理门户允许对组织中的 Power BI 进行租户管理。 它包括诸如使用情况指标、对 Office 365 管理中心的访问以及设置这类项目。"
+title: Power BI 管理门户
+description: 通过管理门户允许对组织中的 Power BI 进行租户管理。 它包括诸如使用情况指标、对 Office 365 管理中心的访问以及设置这类项目。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
-ms.author: maghan
+ms.date: 04/02/2018
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理门户
 
@@ -326,8 +326,8 @@ ms.lasthandoff: 03/08/2018
  
 ### <a name="how-to-update-a-visual"></a>如何更新视觉对象
 
-如果要更新存储库中的视觉对象，由于存在新版本的视觉对象（例如 Bug 修复、新功能等），请上传新文件（确保视觉对象 ID 保持不变）作为列表中的新入口，请务必在标题和描述中提供正确的详细信息（例如“我的视觉对象 v2.0”）。 下一次用户将从 Power BI Desktop 进入组织存储库，他们可以导入新版本，系统将提示他们替换报表中存在的当前版本。
- 
+如果要更新存储库中的视觉对象，原因是其中没有新版本的视觉对象（例如 bug 修复、新功能等），请选择“更新”图标，然后上传新文件。 确保视觉对象 ID 保持不变。 新文件将替换整个组织中所有报表的旧文件。 但是，如果新版本的视觉对象可能会破坏以前版本的视觉对象的任何使用情况或数据结构，则它们不会取代以前的版本。 相反，应创建新版本视觉对象的新列表。 例如，向新列出的视觉对象的标题添加新版本号（版本 X.X）。 通过这种方式，很明显可以看到，它还是相同的版本，只不过更新了版本号，因此现有报表不会破坏它们的功能。 同样，确保视觉对象 ID 保持不变。 然后，下一次用户从 Power BI Desktop 进入组织存储库时，他们就可以导入新版本，系统将提示他们替换报表中存在的当前版本。
+
 ## <a name="next-steps"></a>后续步骤
 
 [了解 Power BI 管理员角色](service-admin-role.md)  

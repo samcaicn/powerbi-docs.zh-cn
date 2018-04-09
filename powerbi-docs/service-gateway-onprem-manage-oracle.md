@@ -1,15 +1,15 @@
 ---
-title: "管理数据源 - Oracle"
-description: "如何管理本地数据网关和属于该网关的数据源。"
+title: 管理数据源 - Oracle
+description: 如何管理本地数据网关和属于该网关的数据源。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 538904ea8ddb64d530daade143cc290046994464
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2e0e786d043466e5620f0faedfb1761014144164
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---oracle"></a>管理数据源 - Oracle
 安装本地数据网关之后，需要添加可与该网关结合使用的数据源。 本文将探讨如何使用网关和数据源。 你可以使用 Oracle 数据源进行计划刷新或 DirectQuery。
@@ -102,7 +102,7 @@ CONTOSO =
 你还需要选择**身份验证方法**。  可能是 **Windows** 或**基本**。  如果你打算使用在 Oracle 内创建的帐户而非 Windows 身份验证，则会想要选择“**基本**”。 然后输入将用于此数据源的凭据。
 
 > [!NOTE]
-> 将使用这些凭据运行对数据源的所有查询。 有关详细信息，请参阅主要本地数据网关文章以了解更多有关如何存储[凭据](service-gateway-onprem.md#credentials)的信息。
+> 将使用这些凭据运行对数据源的所有查询。 有关详细信息，请参阅主要本地数据网关文章，详细了解如何存储[凭据](service-gateway-onprem.md#credentials)。
 > 
 > 
 
@@ -177,12 +177,12 @@ CONTOSO =
 > 
 > 
 
-有关与网关相关的其他疑难解答信息，请参阅 [本地数据网关疑难解答](service-gateway-onprem-tshoot.md)。
+有关与网关相关的其他疑难解答信息，请参阅[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)。
 
 ## <a name="next-steps"></a>后续步骤
 [本地数据网关](service-gateway-onprem.md)  
 [本地数据网关 - 深入了解](service-gateway-onprem-indepth.md)  
-[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
+[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 [Power BI Premium](service-premium.md)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

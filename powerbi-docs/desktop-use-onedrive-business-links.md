@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中使用 OneDrive for Business 链接"
-description: "在 Power BI Desktop 中使用 OneDrive for Business 链接"
+title: 在 Power BI Desktop 中使用 OneDrive for Business 链接
+description: 在 Power BI Desktop 中使用 OneDrive for Business 链接
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d203668f3fbb3f9a50af50280d68d2fadf15f64
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad83703b77907488f47f9b5f419e8e4d5145ae97
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 OneDrive for Business 链接
 很多人将 Excel 工作簿存储在 OneDrive for Business 驱动器上，这在 OneDrive 中使用起来非常方便。 通过 **Power BI Desktop**，你可以使用 **OneDrive for Business** 中存储的 **Excel** 文件的联机链接来创建报表和视觉对象。 你可以使用 **OneDrive for Business** 组帐户或 **OneDrive for Business** 个人帐户。
@@ -59,7 +59,7 @@ ms.lasthandoff: 02/24/2018
 将出现**导航器**窗口，供你从 Excel 工作簿中的表、工作表和范围的列表中进行选择。 在这里，你可以像使用任何其他 Excel 文件一样使用 OneDrive for Business 文件，创建报表并将其用于数据集，就如同你对任何其他数据源执行的操作那样。
 
 > [!NOTE]
-> 若要将 OneDrive for Business 文件用作 Power BI 服务中的数据源，在已为该文件启用“服务刷新”的情况下，请务必在配置刷新设置时选择“OAuth2”作为“身份验证方法”。 否则，可能会在尝试连接或刷新时看到错误消息（如“ *无法更新数据源凭据* ”）。 选择“**OAuth2**”作为身份验证方法可修复此凭据错误。
+> 若要将 OneDrive for Business 文件用作 Power BI 服务中的数据源，在已为该文件启用“服务刷新”的情况下，请务必在配置刷新设置时选择“OAuth2”作为“身份验证方法”。 否则，可能会在尝试连接或刷新时看到错误消息（如“无法更新数据源凭据”）。 选择“**OAuth2**”作为身份验证方法可修复此凭据错误。
 > 
 > 
 

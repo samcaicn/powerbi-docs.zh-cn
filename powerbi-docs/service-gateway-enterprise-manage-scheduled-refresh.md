@@ -1,15 +1,15 @@
 ---
-title: "管理数据源 - 导入/计划刷新"
-description: "如何管理本地数据网关和属于该网关的数据源。 这篇文章特定于可用于导入/计划刷新的数据源。"
+title: 管理数据源 - 导入/计划刷新
+description: 如何管理本地数据网关和属于该网关的数据源。 这篇文章特定于可用于导入/计划刷新的数据源。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8002cf2df278cd3329b62b5322a6faabc9394f57
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4fdd1380f10a44c45dd17b04c21ccfba8fbf9cd8
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>管理数据源 - 导入/计划刷新
 安装本地数据网关之后，需要添加可与该网关结合使用的数据源。 本文将介绍如何结合使用网关和用于计划刷新的数据源，而不是 DirectQuery 或实时连接。
@@ -60,7 +60,7 @@ ms.lasthandoff: 02/24/2018
 然后需要填写数据源（包括源信息和用来访问数据源的凭据）的信息。
 
 > [!NOTE]
-> 将使用这些凭据运行对数据源的所有查询。 有关详细信息，请参阅主要本地数据网关文章以了解更多有关如何存储[凭据](service-gateway-onprem.md#credentials)的信息。
+> 将使用这些凭据运行对数据源的所有查询。 有关详细信息，请参阅主要本地数据网关文章，详细了解如何存储[凭据](service-gateway-onprem.md#credentials)。
 > 
 > 
 
@@ -120,11 +120,11 @@ ms.lasthandoff: 02/24/2018
 > 
 
 ## <a name="limitations"></a>限制
-* OAuth 在本地数据网关是不受支持的身份验证方案。 不能添加需要 OAuth 的数据源。 如果数据集具有需要 OAuth 的数据源，则不能将网关用于计划的刷新。
+* OAuth 在本地数据网关中是不受支持的身份验证方案。 不能添加需要 OAuth 的数据源。 如果数据集具有需要 OAuth 的数据源，则不能将网关用于计划的刷新。
 
 ## <a name="next-steps"></a>后续步骤
 [本地数据网关](service-gateway-onprem.md)  
 [本地数据网关 - 深入了解](service-gateway-onprem-indepth.md)  
-[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
+[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

@@ -1,28 +1,28 @@
 ---
-title: "本地数据网关"
-description: "这是有关 Power BI 本地数据网关的概述。 你可以使用此网关来处理 DirectQuery 数据源。 还可以使用此网关刷新具有本地数据的云数据集。"
+title: 本地数据网关
+description: 这是有关 Power BI 本地数据网关的概述。 你可以使用此网关来处理 DirectQuery 数据源。 还可以使用此网关刷新具有本地数据的云数据集。
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 02/22/2018
-ms.author: davidi
+ms.date: 03/26/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: c9025194ebe8ce6b1829aacd9d74bff5d9c55e3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1c0bd455d8b2dd34cc7d9ef20b0e75c5457034d2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway"></a>本地数据网关
 本地数据网关的作用好似一架桥，提供本地数据（不在云中的数据）与 Power BI、Microsoft Flow、逻辑应用以及 PowerApps 服务之间快速且安全的数据传输。
@@ -91,6 +91,11 @@ ms.lasthandoff: 02/24/2018
 <!-- How the gateway works -->
 [!INCLUDE [gateway-onprem-how-it-works-include](./includes/gateway-onprem-how-it-works-include.md)]
 
+## <a name="limitations-and-considerations"></a>限制和注意事项
+* 暂不支持 [Azure 信息保护](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
+)
+* 暂不支持 [Access Online](https://products.office.com/en-us/access)
+
 ## <a name="troubleshooting"></a>故障排除
 如果在安装和配置网关时遇到问题，请务必参阅[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)。 如果你认为你的防火墙有问题，请参阅故障排除文章中的[防火墙或代理](service-gateway-onprem-tshoot.md#firewall-or-proxy)部分。
 
@@ -103,7 +108,7 @@ ms.lasthandoff: 02/24/2018
 [管理数据源 - Oracle](service-gateway-onprem-manage-oracle.md)  
 [管理数据源 - 导入/计划刷新](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [深入了解本地数据网关](service-gateway-onprem-indepth.md)  
-[本地数据网关（个人模式）- 新版本的个人网关](service-gateway-personal-mode.md)
+[本地数据网关（个人模式） - 新版本的个人网关](service-gateway-personal-mode.md)
 [为本地数据网关配置代理设置](service-gateway-proxy.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

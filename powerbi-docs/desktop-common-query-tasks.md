@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop 中的常见查询任务"
-description: "Power BI Desktop 中的常见查询任务"
+title: Power BI Desktop 中的常见查询任务
+description: Power BI Desktop 中的常见查询任务
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4d0a8b9a1f855c373b43c5c78ec41b6bc34d1d18
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37c5e55d426d308fe8ea7de5c6604a9c66f81896
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常见查询任务
 使用 Power BI Desktop 的**查询编辑器**窗口时，可执行很多常用任务。 本文档演示了这些常见的任务，并提供其他信息的链接。 
@@ -45,7 +45,7 @@ ms.lasthandoff: 02/24/2018
 常见查询任务首先就是连接到这两个数据源所必需的步骤。
 
 ## <a name="connect-to-data"></a>连接到数据
-若要连接到 Power BI Desktop 中的数据，请从功能区上的**开始**选项卡选择**获取数据**按钮。 Power BI Desktop 将显示一个含有最常见数据源的菜单。 对于 Power BI Desktop 可连接到的数据源的完整列表，请选择菜单底部的**更多...**按钮。 有关详细信息，请参阅 [Power BI Desktop 中的数据源](https://powerbi.uservoice.com/knowledgebase/articles/471643)。
+若要连接到 Power BI Desktop 中的数据，请从功能区上的**开始**选项卡选择**获取数据**按钮。 Power BI Desktop 将显示一个含有最常见数据源的菜单。 对于 Power BI Desktop 可连接到的数据源的完整列表，请选择菜单底部的**更多...**按钮。 有关详细信息，请参阅 [Power BI Desktop 中的数据源](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources)。
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -67,18 +67,18 @@ ms.lasthandoff: 02/24/2018
 
 其他数据连接与此类似。 如果需要身份验证才能建立数据连接，Power BI Desktop 将提示你提供相应凭据。
 
-有关连接到 Power BI Desktop 中数据的分步演示，请参阅[连接到 Power BI Desktop 中的数据](https://powerbi.uservoice.com/knowledgebase/articles/471635)。
+有关连接到 Power BI Desktop 中数据的分步演示，请参阅[连接到 Power BI Desktop 中的数据](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data)。
 
 ## <a name="shape-and-combine-data"></a>调整和合并数据
-可使用查询编辑器轻松地调整和合并数据。 本部分包括几个有关数据调整方式的示例。 有关如何调整和合并数据的更完整演示，请参阅**[使用 Power BI Desktop 调整和合并数据](https://powerbi.uservoice.com/knowledgebase/articles/471644)**。
+可使用查询编辑器轻松地调整和合并数据。 本部分包括几个有关数据调整方式的示例。 有关如何调整和合并数据的更完整演示，请参阅**[使用 Power BI Desktop 调整和合并数据](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**。
 
-上一节中，我们连接到两组数据 – Excel 工作簿和 Web 资源。 在查询编辑器中加载后，我们将看到以下结果，其中选中了网页中的查询（位于查询编辑器窗口左侧，**查询**窗格内列出的可用查询中）。
+上一节中，我们连接到两组数据 – Excel 工作簿和 Web 资源。 在“查询编辑器”中加载后，我们将看到以下结果，其中选中了网页中的查询（取自“查询编辑器”窗口左侧的“查询”窗格内列出的可用查询）。
 
 ![](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
 
 在调整数据时，可将数据源转换为满足你需求的形式和格式。 此情况下不需要名为 *标题* 的第一列，因此将其删除。
 
-在**查询编辑器**中，可在功能区和上下文相关的右键单击菜单中找到许多命令。 例如，在右键单击 *标题* 列时，显示的菜单将允许删除此列。 还可选中此列，然后选择功能区中的**删除列**按钮。
+在**查询编辑器**中，可在功能区和上下文相关的右键单击菜单中找到许多命令。 例如，在右键单击“标题”列时，显示的菜单将允许删除此列。 还可选中此列，然后选择功能区中的“删除列”按钮。
 
 ![](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
 
@@ -95,14 +95,16 @@ ms.lasthandoff: 02/24/2018
 
 **分组依据…** 窗口随即出现。 当查询编辑器对行进行分组时，它会创建一个新列，将**分组依据**结果置于其中。 可按照以下方式调整**分组依据**操作：
 
-1. *分组依据* – 这是要进行分组的列；查询编辑器将选择所选列，但可在此窗口中将其更改为表中的任意列。
+1. 分组依据 – 这是要进行分组的列；查询编辑器将选择所选列，但可在此窗口中将其更改为表中的任意列。
 2. *新列名* – 查询编辑器基于它对要进行分组的列所应用的操作，为新列建议一个名称；但也可将新列命名为所需的任何名称。
 3. *操作* – 在此处指定查询编辑器将应用的操作。
-4. *+/- 符号* – 可对多个列执行聚合运算（**分组依据**操作）和执行多个聚合，全在**分组依据**窗口中一次性完成。 查询编辑器将创建在多个列上操作的新列（基于此窗口内的所选内容）。 选择**+** 按钮以向**分组依据**操作添加更多列或聚合。 可选择“–”图标来删除列或聚合，因此继续尝试操作一下，看看它如何显示。 
+4. 添加分组和添加聚合 – 选择“高级”选项后，将显示这些选项。 可对多个列执行分组操作（分组依据操作）和执行多个聚合，全在“分组依据”窗口中一次性完成。 查询编辑器将创建在多个列上操作的新列（基于此窗口内的所选内容）。 
+
+选择“添加分组”或“添加聚合”按钮，向“分组依据”操作添加更多分组或聚合。 可依次选择“...”图标和“删除”来删除分组或聚合，因此继续尝试操作一下，看看它如何显示。
    
    ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-在选择**确定**时，查询将执行**分组依据**操作并返回结果。 哟，看看这个 – 俄亥俄州、德克萨斯州、伊利诺伊州和加利福尼亚州，每个都有 1,000 多个机构！
+在选择**确定**时，查询将执行**分组依据**操作并返回结果。 哟，看看这个 – 俄亥俄州、德克萨斯州、伊利诺伊州和加利福尼亚州，现在每个都有 1,000 多个机构！
 
 ![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
 
@@ -115,7 +117,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotbutton.png)
 
-**透视列**窗口随即出现，显示哪一列的值将被用于创建新列 (1)，并且在展开**高级选项** (2) 时，可选择将应用于聚合值 (3) 的函数。
+“透视列”窗口随即出现，显示哪一列的值将被用于创建新列 (1)，并且在展开“高级选项” (2) 时，可选择将应用于聚合值 (3) 的函数。
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
 
@@ -126,7 +128,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="create-custom-columns"></a>创建自定义列
 在查询编辑器中，可创建对表中多个列进行操作的自定义公式，然后将此类公式的计算结果放入新的（自定义）列中。 查询编辑器可轻松创建自定义列。
 
-在查询编辑器的功能区上，选择**添加列**选项卡的**添加自定义列**。
+在查询编辑器的功能区上，从“添加列”选项卡中选择“自定义列”。
 
 ![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
@@ -147,7 +149,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-下面来看看**高级编辑器**，它显示了与 **USA\_StudentEnrollment** 查询关联的查询步骤。 这些步骤是使用 Power Query 公式语言（通常称为 **M**）进行创建的。相关信息，请参阅[了解 Power 查询公式](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US)。 若要查看语言规范本身，请下载 [Microsoft Power Query for Excel 公式语言规范](http://go.microsoft.com/fwlink/?linkid=320633)。
+下面来看看**高级编辑器**，它显示了与 **USA\_StudentEnrollment** 查询关联的查询步骤。 这些步骤是使用 Power Query 公式语言（通常称为 **M**）进行创建的。相关信息，请参阅[了解 Power 查询公式](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US)。 若要查看语言规范本身，请参阅 [Microsoft Power Query for Excel 公式语言规范](http://go.microsoft.com/fwlink/?linkid=320633)。
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

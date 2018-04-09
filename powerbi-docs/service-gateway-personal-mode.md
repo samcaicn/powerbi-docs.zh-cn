@@ -1,15 +1,15 @@
 ---
-title: "本地数据网关（个人模型）"
-description: "可供个人使用的用于连接到本地数据的 Power BI 数据网关"
+title: 本地数据网关（个人模型）
+description: 可供个人使用的用于连接到本地数据的 Power BI 数据网关
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,24 +18,24 @@ ms.workload: powerbi
 ms.date: 12/14/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 777e5f27954890fe842096c0f2633f6803ebf319
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>本地数据网关（个人模型）
-可以通过网关使用本地数据源以及创建 Power BI 报表和仪表板。 网关是一种软件，不仅有助于用户访问存储在专用、本地网络的数据，还使用户能够使用联机服务（如 Power BI 服务）中的数据。 “本地数据网关（个人模式）”是最新发布的对 Power BI Gateway 的更新，它允许个人在自己的计算机上安装网关并获取对本地数据的访问权限。
+可以通过网关使用本地数据源以及创建 Power BI 报表和仪表板。 网关是一种软件，不仅有助于用户访问存储在专用、本地网络的数据，还使用户能够使用联机服务（如 Power BI 服务）中的数据。 本地数据网关（个人模式）是最新发布的对 Power BI 网关的更新，它允许个人在自己的计算机上安装网关并获取对本地数据的访问权限。
 
 ![](media/service-gateway-personal-mode/gateway-personal-mode_00.png)
 
 > [!NOTE]
-> “本地数据网关（个人模式）”将替代之前支持的个人网关版本（称为“Power BI Gateway - Personal”）。 以前的个人网关仅可在 2017 年 7 月 31 日之前可用。 请参阅以下部分，了解有关如何更新到新版本的信息。
+> 本地数据网关（个人模式）将替代之前支持的个人网关版本（称为“Power BI Gateway - Personal”。 以前的个人网关仅可在 2017 年 7 月 31 日之前可用。 请参阅以下部分，了解有关如何更新到新版本的信息。
 > 
 > 
 
 ## <a name="features-of-the-on-premises-data-gateway-personal-mode"></a>本地数据网关（个人模式）的功能
-随着“本地数据网关（个人模式）”的发布，将提供一系列改进和功能。 以前版本的个人网关（名为“Power BI 网关 - 个人版”）在实现时存在一些限制。 与许多 Power BI 产品一样，我们了解了客户需求、诉求及其使用产品的方式。 因此，“本地数据网关（个人模式）”经过完全重新设计，现包括以下功能和改进：
+随着本地数据网关（个人模式）的发布，将提供一系列改进和功能。 以前版本的个人网关（名为“Power BI 网关 - 个人版”）在实现时存在一些限制。 与许多 Power BI 产品一样，我们了解了客户需求、诉求及其使用产品的方式。 因此，本地数据网关（个人模式）经过完全重新设计，现包括以下功能和改进：
 
 * 可靠性提高 - 新版个人网关改进了代码和结构化软件，因而比以前的版本可靠性更高。
 * 扩展性增强 - 发布其他功能时，可将其轻松添加到个人网关，从而改进结构化软件。
@@ -43,7 +43,7 @@ ms.lasthandoff: 02/24/2018
 * 配置和服务日志 - 在新版本中，用户仅需单击即可将配置和服务日志轻松导出到 .zip 文件。
 
 ## <a name="installing-on-premises-data-gateway-personal-mode"></a>安装本地数据网关（个人模式）
-若要在未安装以前版本网关的情况下安装本地数据网关（个人模式），请选择“Power BI 服务”中的齿轮图标，然后选择“数据网关”。
+若要在未安装以前版本网关的情况下安装本地数据网关（个人模式），请选择 Power BI 服务中的齿轮图标，然后选择“数据网关”。
 
 ![](media/service-gateway-personal-mode/gateway-personal-mode_02.png)
 
@@ -89,7 +89,7 @@ ms.lasthandoff: 02/24/2018
 1. 使用文件资源管理器，打开以下文件：
    
    ```
-   %localappdata%\Microsoft\on-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
+   %localappdata%\Microsoft\On-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
    ```
 2. 在文件底部添加下列文本：
    
@@ -104,7 +104,7 @@ ms.lasthandoff: 02/24/2018
 使用本地数据网关（个人模式）有几点注意事项，如以下列表所述。
 
 * 如果使用 Windows Hello 或 PIN 登录 Windows，可能遇到以下错误： 
-  * 你选择的用户帐户不符合应用程序的要求。请使用其他帐户。*
+  * 你选择的用户帐户不符合应用程序的要求。请使用其他帐户。
   * 若要更正该错误，请选择“使用其他帐户”并再次登录。 
 
 本地数据网关（个人模式）目前不支持下列数据源：
@@ -124,7 +124,7 @@ ms.lasthandoff: 02/24/2018
   * 回答：可以，使用新版本时二者可以同时运行。
 * 是否可以将本地数据网关（个人模式）作为服务运行？
   
-  * 回答：不能。 本地数据网关（个人模式）只能作为应用程序运行。 如果需要将网关作为服务并/或在管理模式下运行，请考虑使用[**本地数据网关**](service-gateway-onprem.md)（以前称为“企业网关”）。
+  * 回答：不能。 本地数据网关（个人模式）只能作为应用程序运行。 如果需要将网关作为服务并/或在管理模式下运行，请考虑使用[本地数据网关](service-gateway-onprem.md)（以前称为“企业网关”）。
 * 本地数据网关（个人模式）多久更新一次？
   
   * 回答：我们计划每月更新一次个人网关。

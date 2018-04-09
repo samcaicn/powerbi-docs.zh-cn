@@ -1,13 +1,13 @@
 ---
-title: "获取 Power BI Desktop"
-description: "下载并安装 Power BI Desktop"
+title: 获取 Power BI Desktop
+description: 下载并安装 Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 08/15/2017
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0a0ffc46feadc5868b8e7a4bd273b7d8acc8bfb5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a03e859e769f880b0c627080a864b41e96fc138b
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="get-power-bi-desktop"></a>获取 Power BI Desktop
 **Power BI Desktop** 允许用户生成高级查询、模型和实现数据可视化效果的报表。 通过 Power BI Desktop，可以生成数据模型、创建报表，并通过发布到 Power BI 服务共享工作。  **Power BI Desktop** 可免费下载。
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/24/2018
 可以通过两种方法获取 Power BI Desktop，以下部分将介绍这两种方法：
 
 * 直接下载（在计算机上下载并安装 MSI 包）
-* 作为 Windows 应用商店的应用进行安装
+* 作为 **Microsoft Store** 的应用安装
 
 这两种方法都会将最新版本的 Power BI Desktop获取到计算机上，但值得注意的是这两种方法存在一些区别，以下部分将具体介绍。
 
@@ -54,31 +54,32 @@ ms.lasthandoff: 02/24/2018
 ![](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
-> 不支持在同一台计算机上安装下载的 (MSI) 版本和 Windows 应用商店版本的 Power BI Desktop（有时称为并行安装）。
+> 不支持在同一台计算机上安装下载的 (MSI) 版本和 Microsoft Store 版本的 Power BI Desktop（有时称为“并行”安装）。
 > 
 > 
 
-## <a name="install-as-an-app-from-the-windows-store"></a>作为 Windows 应用商店的应用安装
-还可以使用以下链接从 Windows 应用商店获取 Power BI Desktop：
+## <a name="install-as-an-app-from-the-microsoft-store"></a>作为 Microsoft Store 的应用安装
+还可以使用以下链接从 Microsoft Store 获取 Power BI Desktop：
 
-* [从 Windows 应用商店安装 Power BI Desktop](http://aka.ms/pbidesktopstore)
+* [通过 Microsoft Store 安装 Power BI Desktop](http://aka.ms/pbidesktopstore)
 
 ![](media/desktop-get-the-desktop/getpbid_04.png)
 
-从 Windows 应用商店获取 Power BI Desktop 有以下几个优点：
+从 Microsoft Store 获取 Power BI Desktop 有以下几个优点：
 
 * **自动更新** - Windows 自动在后台下载已发布的最新版本，以便始终可以不断更新版本。
-* **较小下载** - Windows 应用商店可确保只将每次更新中更改的组件下载到计算机，从而减少每次更新的下载量。
-* **不需要管理员权限** - 直接下载并安装 MSI 时，必须是管理员，才能成功完成安装。 从 Windows 应用商店获取 Power BI Desktop 时，则不需要管理员权限。
-* 已启用 IT 推出 - 可更轻松地部署 Windows 应用商店版本，或向组织中的所有人推出版本，并可通过适用于企业的 Microsoft 应用商店提供 Power BI Desktop。
-* 语言检测 - Windows 应用商店版本包括所有受支持的语言，并在每次启动计算机时查看所使用的语言。 这还会影响 Power BI Desktop 中创建的模型的本地化；例如，内置日期层次结构将匹配创建 .pbix 文件时 Power BI Desktop 所使用的语言。
+* **较小下载** - Microsoft Store 可确保只将每次更新中更改的组件下载到计算机，从而减少每次更新的下载量。
+* **不需要管理员权限** - 直接下载并安装 MSI 时，必须是管理员，才能成功完成安装。 从 Microsoft Store 获取 Power BI Desktop 时，则不需要管理员权限。
+* **已启用 IT 推出** - 可更轻松地部署 Microsoft Store 版本，或向组织中的所有人推出版本，并可通过适用于企业的 Microsoft Store 提供 Power BI Desktop。
+* **语言检测** - Microsoft Store 版本包括所有受支持的语言，并在每次启动计算机时查看所使用的语言。 这还会影响 Power BI Desktop 中创建的模型的本地化；例如，内置日期层次结构将匹配创建 .pbix 文件时 Power BI Desktop 所使用的语言。
 
-从 Windows 应用商店安装 Power BI Desktop 时，需要注意以下几个注意事项和限制：
+从 Microsoft Store 安装 Power BI Desktop 时，需要注意以下几个注意事项和限制：
 
 * 如果使用 SAP 连接器，可能需要将 SAP 驱动程序文件移动到 Windows\System32 文件夹。
+* 通过 Microsoft Store 安装 Power BI Desktop 的过程不从 MSI 版本复制用户设置。 可能需要重新连接到最新数据源并重新输入数据源凭据。 
 
 > [!NOTE]
-> 不支持在同一台计算机上安装下载的 (MSI) 版本和 Windows 应用商店版本的 Power BI Desktop（有时称为并行安装）。
+> 不支持在同一台计算机上安装下载的 (MSI) 版本和 Microsoft Store 版本的 Power BI Desktop（有时称为“并行”安装）。 应先手动卸载 Power BI Desktop，然后再从 Microsoft Store 下载它
 > 
 > [!NOTE]
 > Power BI 报表服务器版本 Power BI Desktop 与本文中介绍的版本分开安装，并且安装步骤也不同。 若要了解报表服务器版本 Power BI Desktop，请参阅[快速入门：创建 Power BI 报表服务器的 Power BI 报表](report-server/quickstart-create-powerbi-report.md)一文。

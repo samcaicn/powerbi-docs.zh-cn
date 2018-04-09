@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 17921d1fe28a1b4c0640748123efe4b70982b18d
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>在 Power BI 服务 (app.powerbi.com) 中打开报表
 在 Power BI 服务、Power BI Desktop、移动 Power BI 甚至嵌入的 Power BI 中均提供了报表。 本文适用于在 Power BI 服务中打开报表。
@@ -78,7 +78,7 @@ ms.lasthandoff: 03/09/2018
 
 ##  <a name="still-more-ways-to-open-a-report"></a>其他打开报表的更多方法
 随着你能够更为熟练地导航 Power BI 服务，即可找到最适合自己的工作流。 下面是访问报表的其他几种方法：
-- 从左侧导航窗格中使用“收藏夹”、“最近”、*“应用”以及“与我共享”。 
+- 从左侧导航窗格中使用“收藏夹”、“最近”、“应用”以及“与我共享”。 
 - 使用[相关视图](service-related-content.md)
 - 在有人[与你共享](service-share-reports.md)或你已[设置警报](service-set-data-alerts.md)的电子邮件中。    
 - 从你的[通知中心](service-notification-center.md)    

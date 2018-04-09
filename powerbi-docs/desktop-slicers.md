@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中使用切片器"
-description: "可以在 Power BI Desktop 中使用切片器筛选、突出显示和自定义报表"
+title: 在 Power BI Desktop 中使用切片器
+description: 可以在 Power BI Desktop 中使用切片器筛选、突出显示和自定义报表
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 52a6c83ba68aa966ec3f20afefc4022a92e78d3e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fabbd56f94ae519f1ea88a7473683f93131b08c3
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="using-slicers-power-bi-desktop"></a>在 Power BI Desktop 中使用切片器
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 02/24/2018
 
 使用窗格中的“添加到全部”链接将所选切片器应用到报表中的所有页面。
 
-请注意，在“同步切片器”窗格上显示的选择仅适用于所选切片器。 可以将多个切片器应用于不同的页面，并使用窗格定义每个切片器如何分别应用于报表中的不同页面。 
+请注意，在“同步切片器”窗格上显示的选择仅适用于所选切片器。 可以将多个切片器应用于不同页面，并使用窗格定义每个切片器如何分别应用于报表中的不同页面。 
 
 尽管可以同步所选的切片器，但不会同步样式、编辑和删除等其他选择。 
 

@@ -1,15 +1,15 @@
 ---
-title: "本地数据网关常见问题"
-description: "此为本地数据网关常见问题。 它会将常见问题收集到网关的一个位置。"
+title: 本地数据网关常见问题
+description: 此为本地数据网关常见问题。 它会将常见问题收集到网关的一个位置。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: d06a83584bb1b270eb10f6c7098358e718f3492f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 93771e4f6e7969ac0b26aaa87a240c2261150776
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-faq"></a>本地数据网关常见问题
 <!-- Shared FAQ shared Include -->
@@ -57,11 +57,11 @@ ms.lasthandoff: 02/24/2018
 **问：**我是否可以获取我组织中网关的使用情况和统计信息？  
 **答：**不能。 这在规划之中，但我们尚无时间范围。
 
-## <a name="power-bi"></a>Power BI
+## <a name="power-bi"></a>Excel
 问：是否需要升级个人网关？
 **答：**不需要，你可以继续使用 Power BI 个人网关。
 
-**问：**通过本地数据网关连接时，Power BI 仪表板中的磁帖多久刷新一次？  
+问：通过本地数据网关连接时，Power BI 仪表板中的磁帖多久刷新一次？  
 **答：**大约 10 分钟时间。 DirectQuery 连接就是这样。 这并不意味着每十分钟磁贴就可以向本地服务器发布查询并显示新数据。
 
 **问：**是否可以使用连接到本地数据源的 Power Pivot 数据模型上传 Excel 工作簿？ 此方案是否需要网关？  
@@ -79,6 +79,6 @@ ms.lasthandoff: 02/24/2018
 ## <a name="next-steps"></a>后续步骤
 [本地数据网关](service-gateway-onprem.md)  
 [深入了解本地数据网关](service-gateway-onprem-indepth.md)  
-[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
+[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

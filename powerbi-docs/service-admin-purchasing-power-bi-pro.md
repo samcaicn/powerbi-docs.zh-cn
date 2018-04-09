@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b0b49e5c628f5e01bb2368d9bc471acc5342f97
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 685091cff071676da050d1a042a487fdadc77407
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>购买 Power BI Pro
 
@@ -70,6 +70,10 @@ Office IT 管理员购买 Power BI Pro 时，可以将其作为 Office 365 企�
 ## <a name="pricing"></a>定价
 
 请参阅 [Power BI 定价](https://powerbi.microsoft.com/en-us/pricing/)获取最新定价信息。
+
+> [!NOTE]
+> 在订阅结束后，分配有 Pro 许可证的用户将拥有 30 天的完全访问权限。 在此情况下，将看到订阅在管理门户中显示为“已过期”。
+>
 
 ## <a name="next-steps"></a>后续步骤
 [自助注册 Power BI](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)

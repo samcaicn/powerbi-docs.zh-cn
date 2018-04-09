@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 连接到 Project Online"
-description: "适用于 Power BI 的 Project Online"
+title: 使用 Power BI 连接到 Project Online
+description: 适用于 Power BI 的 Project Online
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6272b3f175d7da851e5d8086c574a91f0f00c933
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1d0cb4531dca1f200adbb21514fb49df8c872ecc
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="connect-to-project-online-with-power-bi"></a>使用 Power BI 连接到 Project Online
 Microsoft Project Online 是一个灵活的在线解决方案，用于项目组合管理 (PPM) 和日常工作。 Project Online 使组织能够开始运转、排定项目资产组合投资优先级以及交付预期业务价值。 Power BI 的 Project Online 内容包允许你浏览你的项目数据的现成指标，如项目组合状态和项目合规性。
@@ -45,6 +45,9 @@ Microsoft Project Online 是一个灵活的在线解决方案，用于项目组�
 5. 对于身份验证方法，选择 **oAuth2** \> **登录**。 出现提示时，输入 Project Online 凭据，然后按照身份验证过程进行操作。
    
     ![](media/service-connect-to-project-online/creds.png)
+    
+请注意，需要拥有项目组合查看者、项目组合经理或管理员权限才能连接到 Project Web App。
+
 6. 你将看到一个通知，指示你的数据正在加载。 根据帐户的大小，这可能需要一些时间。 Power BI 导入数据后，你将在左侧的导航窗格中看到新的仪表板、报表和数据集。 这是 Power BI 为显示数据而创建的默认仪表板。 可以修改此仪表板以便按所需方式显示数据。
    
    ![](media/service-connect-to-project-online/dashboard2.png)

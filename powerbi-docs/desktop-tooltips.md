@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 中的报表工具提示页"
-description: "使用 Power BI Desktop 中的工具提示页，可为报表中的视觉对象创建丰富的悬停式工具提示"
+title: 使用 Power BI 中的报表工具提示页
+description: 使用 Power BI Desktop 中的工具提示页，可为报表中的视觉对象创建丰富的悬停式工具提示
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,23 +18,23 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2905dbc51e684ec39ac36a76c7024db0fe15cc18
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>根据 Power BI Desktop（预览版）中的报表页创建工具提示
 根据 Power BI Desktop 中创建的报表页，可创建直观丰富的报表工具提示，这些提示在你将鼠标悬停在视觉对象上时显示。 通过创建用作工具提示的报表页，使自定义工具提示包含视觉对象、图像以及在报表页中创建的项的所有其他集合。 
 
 ![Power BI Desktop 的报表工具提示](media/desktop-tooltips/desktop-tooltips_00a.png)
 
-可根据需要创建任意数量的工具提示页。 每个工具提示页都可与报表中的一个或多个字段关联，以便在你将鼠标悬停在包含所选字段的视觉对象上时，将显示在工具提示页上创建的工具提示。在你将鼠标悬停在该视觉对象上时，将根据鼠标悬停在其上的数据点进行筛选。 
+可根据需要创建任意数量的工具提示页。 每个工具提示页都可与报表中的一个或多个字段关联，以便在你将鼠标悬停在包含所选字段的视觉对象上时，将显示在工具提示页上创建的工具提示。在将鼠标悬停在该视觉对象上时，将根据鼠标悬停在其上的数据点进行筛选。 
 
 可通过报表工具提示执行各种有趣的操作。 接下来介绍如何创建工具提示以及配置工具提示时的必备操作。
 
 ### <a name="enable-the-tooltips-preview"></a>启用工具提示预览 
-由于报表工具提示当前处于预览状态，因此在创建报表工具提示之前，需要先启用它们。 若要启用报表工具提示预览功能，请在 Power BI Desktop 中依次选择“文件”、“选项和设置”、“选项”和“预览功能”，再选择“书签”旁的复选框。 
+由于报表工具提示当前处于预览状态，因此在创建报表工具提示之前，需要先启用它们。 若要启用报表工具提示预览功能，请在 Power BI Desktop 中依次选择“文件”>“选项和设置”>“选项”>“预览功能”，然后选择“报表页工具提示”旁的复选框。 
 
 ![启用报表工具提示的预览功能](media/desktop-tooltips/desktop-tooltips_01.png)
 
@@ -126,7 +126,7 @@ ms.lasthandoff: 03/08/2018
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 在这款报表工具提示预览版中需注意以下一些限制和事项。
 
-* 在移动应用或嵌入式环境（包括发布到 Web）中查看报表时，不支持报表工具提示。 
+* 在移动应用或嵌入式环境（包括“发布到 Web”）中查看报表时，不支持报表工具提示。 
 * 自定义视觉对象不可使用报表工具提示。 
 * 当前不支持将群集作为可在报表工具提示中显示的字段。 
 * 选择要显示的报表工具提示字段，以及使用字段和类别时，包含该字段的视觉对象在带所选字段的摘要匹配的情况下仅显示所指定的工具提示。 

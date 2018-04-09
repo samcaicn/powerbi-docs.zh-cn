@@ -1,15 +1,15 @@
 ---
-title: "适用于德国政府客户的 Power BI 常见问题解答"
-description: "针对德国政府客户，解答 Power BI 德国政府服务的常见问题"
+title: 适用于德国政府客户的 Power BI 常见问题解答
+description: 针对德国政府客户，解答 Power BI 德国政府服务的常见问题
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 1e6b43efc887550e98bc6195c24af77c61594989
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 911e75cb0d9f81c2696575942a13531e5799218e
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>适用于德国云客户的 Power BI 常见问题解答
 **Power BI 服务**具有可用于欧盟/欧洲自由贸易协议 (EU/EFTA) 客户的版本，通常称为 Microsoft Cloud Deutschland (MCD)。 本文中讨论的 **Power BI 服务**版本是为欧盟/EFTA 客户专门设计的，独立且不同于 **Power BI 服务**的商业版本或为政府客户提供的 Power BI 服务。
@@ -43,7 +43,7 @@ ms.lasthandoff: 02/24/2018
 4. **德国云的 Power BI 服务是否提供免费服务？**
    
    不行。 我们不会在德国云的 Power BI 服务中提供免费的许可证版本。 但是，如果你的业务需求符合 Power BI 免费产品/服务要求，我们建议你[在我们的公有云中注册Power BI 免费产品/服务](https://powerbi.microsoft.com/get-started/)。
-5. **我可以将 Power BI Desktop、Power BI 移动、本地数据网关和 Publisher for Excel 与德国云的 Power BI 服务一起使用吗？**
+5. **我可以将 Power BI Desktop、Power BI 移动版、本地数据网关和 Publisher for Excel 与德国云的 Power BI 服务一起使用吗？**
    
    是的。 我们更新了 Power BI 客户端产品，以便与德国云的 Power BI 服务无缝协作。 请使用德国云的 Power BI 服务帐户登录，以便开始使用与德国云的 Power BI 服务相同的客户端产品。 你可以从以下位置下载最新版本的客户端产品：
    
