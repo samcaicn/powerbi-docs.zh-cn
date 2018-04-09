@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI 中使用书签"
-description: "使用 Power BI Desktop 中的书签，可以保存报表中的视图和设置，并生成类似于情景的演示文稿"
+title: 在 Power BI 中使用书签
+description: 使用 Power BI Desktop 中的书签，可以保存报表中的视图和设置，并生成类似于情景的演示文稿
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用书签共享见解和创建情景 
-使用 Power BI 中的“书签”，可以捕获当前配置的报表页视图（包括视觉对象的筛选器和状态），然后只需选择保存的书签即可恢复相应状态。 
+使用 Power BI 中的“书签”，可以帮助捕获当前配置的报表页视图（包括视觉对象的筛选器和状态），然后只需选择保存的书签即可恢复相应状态。 
 
 还可以创建一系列书签，按所需的顺序进行排列，随后在演示文稿中逐个展示所有书签，以突出显示一系列见解，或要通过视觉对象和报表诠释的情景。 
 
@@ -63,7 +63,7 @@ ms.lasthandoff: 03/08/2018
 
 ![添加书签](media/desktop-bookmarks/bookmarks_04.png)
 
-此时，Power BI Desktop 创建书签，并为它命名一个通用名称。 可以选择书签名称旁边的省略号，再从出现的菜单中选择相应操作，从而轻松地重命名、删除或更新书签。
+此时，Power BI Desktop 会创建书签，并为其提供一个通用名称。 可以选择书签名称旁边的省略号，再从出现的菜单中选择相应操作，从而轻松地重命名、删除或更新书签。
 
 ![选择省略号后选择书签的子菜单](media/desktop-bookmarks/bookmarks_05.png)
 
@@ -84,7 +84,7 @@ ms.lasthandoff: 03/08/2018
 在“查看”模式下，有几项功能值得注意：
 
 1. 书签名称显示在画布底部的书签标题栏中。
-2. 书签标题栏中的箭头可用于移到下一个或上一个书签
+2. 书签标题栏中的箭头可用于移到下一个或上一个书签。
 3. 可以退出“查看”模式，具体方法为选择“书签”窗格中的“退出”，或选择书签标题栏中的“X”。 
 
 ![书签标题栏中与书签相关的功能](media/desktop-bookmarks/bookmarks_07.png)

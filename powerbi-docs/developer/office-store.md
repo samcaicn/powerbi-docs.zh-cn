@@ -1,27 +1,27 @@
 ---
-title: "将自定义视觉对象发布到 AppSource"
-description: "了解如何将自定义视觉对象发布到 AppSource 供其他人发现和使用。"
+title: 将自定义视觉对象发布到 AppSource
+description: 了解如何将自定义视觉对象发布到 AppSource 供其他人发现和使用。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/5/2017
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 5dc5cda126943bbb6da25e384b789c169187b249
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 9730f92a7f50e2e0d0ad824f8a5f74f6a09ded97
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>将自定义视觉对象发布到 AppSource
 了解如何将自定义视觉对象发布到 AppSource 供其他人发现和使用。 office
@@ -39,16 +39,20 @@ ms.lasthandoff: 03/08/2018
 | --- | --- | --- |
 | Pbiviz 程序包包含全部所需元数据 |是 |视觉对象名称<br>显示名称<br>GUID<br>版本<br>说明<br>作者姓名和电子邮件 |
 | 示例 .pbix 报表文件 |是 |要展示你的视觉对象，应帮助用户了解该视觉对象。 应向用户强调该视觉对象可以带来的价值，并提供使用示例，格式设置选项等。还可以添加 *“提示”* 页，并在页面末尾附上一些提示和技巧、操作注意事项以及类似内容。<br>示例 .pbix 报表文件必须脱机运行且无任何外部连接 |
-| 图标 |是 |应包含将在店面中显示的自定义视觉对象徽标。 格式可以为 .png、.jpg、.jpeg 或 .gif。 必须正好为 300 像素（宽度）x 300 像素（高度）。 文件大小不得超过 512 KB。 |
+| 图标 |是 |应包含将在店面中显示的自定义视觉对象徽标。 格式可以为 .png、.jpg、.jpeg 或 .gif。 必须正好为 300 像素（宽度）x 300 像素（高度）。 **重要提示！** 在提交图标之前，请仔细查看[简短指南](https://docs.microsoft.com/en-us/office/dev/store/craft-effective-appsource-store-images)。 |
 | 屏幕截图 |是 |必须至少提供一个屏幕截图。 格式可以为 .png、.jpg、.jpeg 或 .gif。 尺寸必须正好是 1366 像素（宽度）x 768 像素（高度）。 文件大小不能超过 1024 KB。 *为了实现更好的利用率，添加文本气泡以阐明每个屏幕截图中所示的主要功能的价值主张。* |
 | 支持下载链接 |是 |提供 URL 以便为对视觉对象有疑问的客户提供支持。 URL 的格式应包含 https:// 或 http://。 |
 | 隐私文档链接 |是 |为使用你的视觉对象的客户提供隐私策略链接。 链接的格式应包含 https:// 或 http://。 |
-| 最终用户许可协议 (EULA) |是 |必须上载 EULA 文件。 这可以是你自己的 EULA，也可以使用 Office 应用商店中适用于 Power BI 自定义视觉对象的默认 EULA。 若要使用默认 EULA，请将以下 URL 粘贴到卖家仪表板的“最终用户许可协议”文件上载对话框中：[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf)。 |
+| 最终用户许可协议 (EULA) |是 |必须上载 EULA 文件。 这可以是你自己的 EULA，也可以使用 Office 应用商店中适用于 Power BI 自定义视觉对象的默认 EULA。 若要使用默认 EULA，请将以下 URL 粘贴到卖家面板的“最终用户许可协议”文件上传对话框中：[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf)。 |
 | 视频链接 |否 |为了增加用户对自定义视觉对象的兴趣，建议提供一个指向视觉对象视频的链接。 URL 的格式应包含 https:// 或 http://。 |
 | GitHub 存储库 |否 |最好提供一个有效的公共链接，可以链接到包含你的视觉对象和示例数据资源的 [GitHub](https://www.github.com) 存储库，以允许其他开发人员提供反馈并为代码提出改进意见。 |
 
 ## <a name="submitting-to-power-bi"></a>提交到 Power BI
 通过向 Power BI 自定义视觉对象提交团队发送一封电子邮件开始提交。 可以向 [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com) 发送电子邮件。
+
+> [!IMPORTANT]
+> 必须在 pbiviz.json 文件中填写以下字段：“description”、“supportUrl”、“author”、“name”和“email”，然后再创建 .pbiviz 包。
+> 
 
 在电子邮件中附加 .pbiviz 文件和示例报表 .pbix 文件。 Power BI 团队会回复你，并在回复邮件中添加说明以及要上载的应用包 XML 文件。 必须有此 XML 应用包，才能通过 Office 开发人员中心提交视觉对象。
 
@@ -100,7 +104,7 @@ ms.lasthandoff: 03/08/2018
    * 视频链接
    * 最终用户许可协议 (EULA)
      
-       必须上载 EULA 文件。 这可以是你自己的 EULA，也可以使用 Office 应用商店中适用于 Power BI 自定义视觉对象的默认 EULA。 若要使用默认 EULA，请将以下 URL 粘贴到卖家仪表板的“最终用户许可协议”文件上载对话框中：[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf)。
+       必须上载 EULA 文件。 这可以是你自己的 EULA，也可以使用 Office 应用商店中适用于 Power BI 自定义视觉对象的默认 EULA。 若要使用默认 EULA，请将以下 URL 粘贴到卖家面板的“最终用户许可协议”文件上传对话框中：[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf)。
 8. 选择“下一步”以前往**详细信息**页。
 9. 选择“语言”，并从列表中选择一种语言。
    

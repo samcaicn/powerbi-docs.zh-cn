@@ -1,31 +1,31 @@
 ---
-title: "本地数据网关故障排查"
-description: "本文为你提供关于你遇到的本地数据网关问题的疑难解答。 它提供了针对已知问题的可能方法，也提供了能够帮助你的工具。"
+title: 本地数据网关故障排除
+description: 本文指导在遇到本地数据网关问题时如何进行故障排查。 它提供了针对已知问题的可能方法，也提供了能够帮助你的工具。
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/21/2017
-ms.author: davidi
+ms.date: 03/23/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1651f18194cd47582376b52bb6359db10a330c27
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9742fd0d48f4a77b5019aa7547fa511404c6f63e
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="troubleshooting-the-on-premises-data-gateway"></a>本地数据网关故障排查
-本文介绍了使用本地数据网关时可能会遇到的一些常见问题。
+# <a name="troubleshooting-the-on-premises-data-gateway"></a>本地数据网关故障排除
+本文介绍在使用本地数据网关时可能会遇到的一些常见问题。
 
 <!-- Shared Community & support links Include -->
 [!INCLUDE [gateway-onprem-tshoot-support-links-include](./includes/gateway-onprem-tshoot-support-links-include.md)]
@@ -56,7 +56,7 @@ ms.lasthandoff: 02/24/2018
 配置结束时，将再次调用 Power BI 服务以验证网关。 Power BI 服务没有将网关报告为动态。 重启 Windows 服务可能会使通信成功。 你可以收集并查看以下所述的日志，获取更多详细信息。
 
 ### <a name="script-error-during-sign-into-power-bi"></a>登录 Power BI 时出现的脚本错误
-在执行本地数据网关配置期间登录 Power BI 可能会看到脚本错误。 安装以下安全更新应可解决该问题。 这可以通过 Windows 更新进行安装。
+在执行本地数据网关配置期间登录 Power BI 可能会收到脚本错误。 安装以下安全更新应可解决该问题。 这可以通过 Windows 更新进行安装。
 
 [MS16-051：Internet Explorer 的安全更新：2016 年 5 月 10 日 (KB 3154070)](https://support.microsoft.com/kb/3154070)
 
@@ -78,7 +78,7 @@ ms.lasthandoff: 02/24/2018
 1. 卸载网关。
 2. 删除以下文件夹。
    
-        c:\Program Files\on-premises data gateway
+        c:\Program Files\On-premises data gateway
 3. 重新安装网关。
 4. 酌情应用恢复密钥以还原现有网关。
 
@@ -115,7 +115,7 @@ ms.lasthandoff: 02/24/2018
 
 在**显示详细信息**中，你将看到错误代码 **DM_GWPipeline_UnknownError**。
 
-你还可以查看“事件日志”>“应用程序和服务日志” > “本地数据网关服务”，了解更多详细信息。
+还可以查看“事件日志”>“应用程序和服务日志” > “本地数据网关服务”，了解更多详细信息。
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>错误：我们在尝试连接到<server>时遇到错误。 详细信息：“我们已连接到数据网关，但此网关无法访问本地数据源。”
 我们无法连接指定的数据源。 请务必验证为该数据源所提供的信息。
@@ -175,7 +175,7 @@ ms.lasthandoff: 02/24/2018
 每个表的未压缩数据量的确切限制为 10GB。 如果遇到此问题，可以使用实用选项来优化和避免此类问题发生。 具体而言，减少使用高度重复内容、过长的字符串值，并改用规范化的键或删除列（如果不使用）将会有所帮助。
 
 ## <a name="reports"></a>报表
-### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>报表无法访问数据源，因为你无权通过本地数据网关访问我们的数据源。
+### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>报表无法访问数据源，因为你没有通过本地数据网关访问我们的数据源的权限。
 这通常是由于以下原因之一导致的。
 
 1. 数据源信息与基础数据集中的内容不匹配。 为本地数据网关定义的数据源和为 Power BI Desktop 提供的内容之间的服务器和数据库名称需要匹配。 如果在 Power BI Desktop 中使用 IP 地址，则用于本地数据网关的数据源也需要使用 IP 地址。
@@ -314,11 +314,13 @@ from [dbo].[V_CustomerOrders] as [$Table])
 GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
-### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
-在 Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config 文件中将 `TraceVerbosity` 的值从 `4` 更改为 `5`。 默认情况下，此文件位于 C:\Program Files\On-premises data gateway。 更改此设置会将详细条目写入网关日志。 其中包括显示持续时间的条目。
+### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
+在 Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config 文件中将 `TracingVerbosity` 的值从 `4` 更改为 `5`。 默认情况下，此文件位于 C:\Program Files\On-premises data gateway。 更改此设置会将详细条目写入网关日志。 其中包括显示持续时间的条目。 此外，还可以通过启用本地网关应用程序中的“附加日志记录”按钮来启用详细条目。
+
+   ![附加日志记录](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
-> 将 TraceVerbosity 设置为 `5` 可能会大大增加日志大小，具体视网关使用情况而定。 完成日志审阅后，不妨将 TraceVerbosity 设置为 `4`。 不建议长期将此设置保留为启用状态。
+> 将 TracingVerbosity 设置为 `5` 可能会大大增加日志大小，具体视网关使用情况而定。 完成日志审阅后，不妨将 TraceVerbosity 设置为 `4`。 不建议长期将此设置保留为启用状态。
 > 
 > 
 
@@ -352,6 +354,72 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
    > 
    > 
 
+## <a name="kerberos"></a>Kerberos
+
+如果基础数据库服务器和本地数据网关未针对 [Kerberos 约束委派](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)进行正确配置，则在网关上启用[详细日志记录](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig)，并基于网关日志文件中的错误/跟踪进行调查，作为故障排除的起始点。
+
+### <a name="impersonationlevel"></a>ImpersonationLevel
+
+ImpersonationLevel 与 SPN 设置或本地策略设置相关。
+
+```
+[DataMovement.PipeLine.GatewayDataAccess] About to impersonate user DOMAIN\User (IsAuthenticated: True, ImpersonationLevel: Identification)
+```
+
+**解决方案**
+
+请按照下列步骤操作，解决该问题：
+1. 为本地网关设置 SPN
+2. 在 Active Directory (AD) 中设置约束委派
+
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: 未能为用户 userid 创建 Windows 标识
+
+如果无法代表其他用户进行模拟，将出现 FailedToImpersonateUserException。 如果尝试模拟的帐户来自另一个域，而不是网关服务域所在的域（这是一个限制），也可能会发生这种情况。
+
+**解决方案**
+* 按照上面 ImpersonationLevel 部分中的步骤操作，验证配置是否正确
+* 请确保它尝试模拟的 userid 是一个有效的 AD 帐户
+
+### <a name="general-error-1033-error-while-parsing-protocol"></a>常规错误; 分析协议时出现 1033 错误
+
+如果使用 UPN (alias@domain.com) 模拟用户，那么在 SAP HANA 中配置的外部 ID 与登录名不匹配时，就会收到 1033 错误。 在日志中，你将看到“原始 UPN ‘alias@domain.com’在错误日志顶部替换为新 UPN ‘alias@domain.com’，如下所示。”
+
+```
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+```
+
+**解决方案**
+* SAP HANA 要求模拟的用户在 AD（用户别名）中使用 sAMAccountName 属性。 如果不正确，将看到 1033 错误。
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+
+* 应在日志中看到 sAMAccountName（别名）而不是 UPN，它是后跟域的别名 (alias@doimain.com)
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+
+```
+      <setting name="ADUserNameReplacementProperty" serializeAs="String">
+        <value>sAMAccount</value>
+      </setting>
+      <setting name="ADServerPath" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="CustomASDataSource" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ADUserNameLookupProperty" serializeAs="String">
+        <value>AADEmail</value>
+```
+
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] 通讯链接失败;-10709 连接失败 (RTE:[-1] Kerberos 错误。 主要:“其他故障 [851968]”，次要:“安全包中没有可用的凭据
+
+如果在 AD 中未正确配置委派，将收到 -10709 连接失败错误消息。
+
+**解决方案**
+* 确保在网关服务帐户 AD 中的“委派”选项卡上拥有 SAP Hana 服务器
+
+   ![“委派”选项卡](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
@@ -378,4 +446,3 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 [管理数据源 - SQL Server](service-gateway-enterprise-manage-sql.md)  
 [管理数据源 - 导入/计划刷新](service-gateway-enterprise-manage-scheduled-refresh.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
-

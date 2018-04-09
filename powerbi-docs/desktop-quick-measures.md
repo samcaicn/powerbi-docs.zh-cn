@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI 中使用快速度量轻松执行常见的高效计算"
-description: "快速度量值提供现成的 DAX 公式，能够快速执行常见计算"
+title: 在 Power BI 中使用快速度量轻松执行常见的高效计算
+description: 快速度量值提供现成的 DAX 公式，能够快速执行常见计算
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9cc94593ca6fd98590d69bee3a2fa4cae6d0050
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>使用快速度量轻松执行常见的高效计算
-可使用快速度量快速、轻松地执行常见的高效计算。 **快速度量值**根据你在对话框中输入的内容，在后台运行一组 DAX 命令（你无需编写 DAX，有现成的），然后显示结果以供你在报表中使用。 最重要的是，可以查看快速度量值执行的 DAX，从而开始学习或拓展你自己的 DAX 知识。
+可使用快速度量快速、轻松地执行常见的高效计算。 快速度量根据你在对话框中输入的内容，在后台运行一组 DAX 命令（有现成的 DAX，无需编写），然后显示结果以供你在报表中使用。 最重要的是，可以查看快速度量执行的 DAX，从而开始学习或拓展你自己的 DAX 知识。
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 02/24/2018
 
 使用 SQL Server Analysis Services (SSAS) 实时连接时，可以使用一些快速度量。 Power BI Desktop 仅显示连接到的 SSAS 版本支持的一组快速度量。 因此，如果连接到 SSAS 实时数据源，但列表中没有显示特定的快速度量，这是因为连接到的 SSAS 版本不支持用于实现快速度量的 DAX 度量。
 
-从右键单击菜单中进行选择后，将会看到以下“快速度量值”窗口，在其中可以选择所需的计算，以及要对其执行计算的字段。
+从右键单击菜单中进行选择后，将会看到以下“快速度量”窗口，在其中可以选择所需的计算，以及要对其执行计算的字段。
 
 ![](media/desktop-quick-measures/quick-measures_03.png)
 
@@ -59,14 +59,14 @@ ms.lasthandoff: 02/24/2018
 有五组不同的快速度量值计算类型，每组均包含一系列计算。 下面介绍了这五组及其中所含计算：
 
 * **每个类别的聚合**
-  * 类别中的平均值
-  * 类别中的方差
-  * 类别中的最大值
-  * 类别中的最小值
+  * 每个类别的平均值
+  * 每个类别的差异
+  * 每个类别的最大值
+  * 每个类别的最小值
   * 每个类别的加权平均
 * **筛选器**
   * 已筛选的值
-  * 与基线的差异
+  * 与已筛选值的差异
   * 与已筛选值的百分比差异
   * 新类别的销售额
 * **时间智能**
@@ -92,7 +92,7 @@ ms.lasthandoff: 02/24/2018
   * 星级评分
   * 值连接列表
 
-我们预计将会扩充这些计算，希望你可以告诉我们你想要使用的**快速度量值**，以及在**快速度量值**方面是否有要提交供审议的建议（包括基础 DAX 公式）。 如需了解详情，请查看本文末尾。
+我们预计会扩充这些计算，希望你可以告诉我们你想要使用的快速度量，以及在快速度量方面是否有要提交供审议的建议（包括基础 DAX 公式）。 如需了解详情，请查看本文末尾。
 
 ## <a name="example-of-quick-measures"></a>快速度量值的示例
 让我们来看一下这些**快速度量值**的实际操作示例。
@@ -101,7 +101,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
-右键单击“值”字段井元素并选择“快速度量值”后，我们可以选择“类别中的平均值”作为“计算”，选择“销售额总和”作为“基值”，然后将右侧窗格上“字段”框中的相应字段拖到左侧的“类别”部分中，从而指定“SalesAmount”。
+右键单击“Values”字段井元素并选择“快速度量”后，我们可以选择“每个类别的平均值”作为“计算”，选择“销售额总和”作为“基值”，然后将右侧窗格上“字段”框中的相应字段拖到左侧的“类别”部分中，从而指定“SalesAmount”。
 
 ![](media/desktop-quick-measures/quick-measures_06.png)
 
@@ -128,9 +128,9 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-quick-measures/quick-measures_10.png)
 
-此功能本身很有用，因为它揭示了度量值背后的公式。 但更为重要的是，这样一来，可以通过**快速度量值**了解应如何创建基础 DAX 公式。
+此功能本身很有用，因为它揭示了度量值背后的公式。 但更为重要的是，这样一来，可以通过快速度量了解应如何创建基础 DAX 公式。
 
-假设需要执行年增率计算，但不是相当确定该如何编写 DAX 公式（或者，一点头绪都没有！）。 无需坐在桌前冥思苦想，可以使用“年增率变化”计算创建**快速度量值**，看看会发生什么。 就像是创建**快速度量值**，看看它在视觉对象中的呈现方式，以及 DAX 公式的运行方式，然后直接更改 DAX，或创建其他度量值，直到计算能够满足你的需求或达到你的预期为止。
+假设需要执行年增率计算，但不是相当确定该如何编写 DAX 公式（或者，一点头绪都没有！）。 无需坐在桌前冥思苦想，可以使用“年增率变化”计算创建快速度量，看看会发生什么。 就像是创建快速度量，看看它在视觉对象中的呈现方式，以及 DAX 公式的运行方式，然后直接更改 DAX，或创建其他度量值，直到计算能够满足需求或达到预期为止。
 
 这就好像只需单击几下，即有老师迅速回答你的“假设”问题一样。 可以随时从模型中删除不想要的度量值。操作非常简单，右键单击相应的度量值并选择“删除”即可。
 

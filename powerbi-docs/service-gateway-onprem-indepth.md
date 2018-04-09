@@ -1,15 +1,15 @@
 ---
-title: "深入了解本地数据网关"
-description: "本文深入探讨了本地网关。 它探讨了该服务与 Analysis Services 配合使用时在 Azure Active Directory 和本地 Active Directory 中的运行方式"
+title: 深入了解本地数据网关
+description: 本文深入探讨了本地网关。 它探讨了该服务与 Analysis Services 配合使用时在 Azure Active Directory 和本地 Active Directory 中的运行方式
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7283ee62838779590bbc01eb8b4348cfc7873dc1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5ab3159be71fbefbbe034ce8f39f9df02b48ede3
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解本地数据网关
-你的组织中的用户可以访问本地数据（他们已经具有该数据的访问授权），但在这些用户可以连接到你的本地数据源之前，需要安装和配置本地数据网关。 该网关便于云中的用户与你的本地数据源相互进行快速安全的后台通信，然后返回到云。
+组织中的用户可以访问本地数据（他们已经具有该数据的访问授权），但在这些用户可以连接到本地数据源之前，需要安装和配置本地数据网关。 该网关便于云中的用户与你的本地数据源相互进行快速安全的后台通信，然后返回到云。
 
 安装和配置网关通常由管理员完成。 它可能要求具备本地服务器的专门知识，在某些情况下可能需要服务器管理员权限。
 
@@ -120,13 +120,13 @@ Power BI 允许映射 Analysis Services 数据源的用户名。 你可以配置
 
 在其他情况下，用户登录所使用的电子邮件地址的类型可能有问题或者 Analysis Services 不能解析有效用户名。 如果你的多个域彼此之间存在信任关系，并且网关在一个域，而 Analysis Services 在另一个域，这有时就会导致一些问题。
 
-我们没有在这里详细讨论如何解决网关问题，而是将一系列的疑难解答步骤放到另一篇文章中，即[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)。 但愿不会有任何问题。 但如果出现问题，了解所有这些的工作原理和学习故障排除文章都应有所帮助。
+我们没有在这里详细讨论如何解决网关问题，而是将一系列疑难解答步骤放到另一篇文章中，即[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)。 但愿不会有任何问题。 但如果出现问题，了解所有这些的工作原理和学习故障排除文章都应有所帮助。
 
 <!-- Account and Port information -->
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>后续步骤
-[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
+[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 [Azure 服务总线](https://azure.microsoft.com/documentation/services/service-bus/)  
 [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

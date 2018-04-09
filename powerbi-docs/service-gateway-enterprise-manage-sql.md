@@ -1,15 +1,15 @@
 ---
-title: "管理数据源 - SQL"
-description: "如何管理本地数据网关和属于该网关的数据源。"
+title: 管理数据源 - SQL
+description: 如何管理本地数据网关和属于该网关的数据源。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e1bbc86ea56dfbc692d8a81cbeb4bc38d872c2b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad9b619f7e0d52442796dc461948a705b9b0f74a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---sql-server"></a>管理数据源 - SQL Server
 安装本地数据网关之后，可以添加可与该网关结合使用的数据源。 本文将探讨如何使用网关和数据源。 你可以使用 SQL Server 数据源进行计划刷新或 DirectQuery。
@@ -67,7 +67,7 @@ ms.lasthandoff: 02/24/2018
 你还需要选择**身份验证方法**。  可能是 **Windows** 或**基本**。  如果你打算使用 SQL 身份验证而不是 Windows 身份验证，则需要选择**基本**。 然后输入将用于此数据源的凭据。
 
 > [!NOTE]
-> 除非为数据源配置并启用了 Kerberos 单一登录 (SSO)，否则对数据源的所有查询都将使用这些凭据运行。 通过 SSO，导入数据集使用存储的凭据，但是 DirectQuery 数据集使用当前 Power BI 用户通过 SSO 执行查询。 有关详细信息，请参阅主要的本地数据网关文章，详细了解[凭据](service-gateway-onprem.md#credentials)的存储方式，或参阅介绍如何[使用 Kerberos 进行从 Power BI 到本地数据源的 SSO（单一登录）](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)的文章。
+> 除非为数据源配置并启用了 Kerberos 单一登录 (SSO)，否则对数据源的所有查询都将使用这些凭据运行。 通过 SSO，导入数据集使用存储的凭据，但是 DirectQuery 数据集使用当前 Power BI 用户通过 SSO 执行查询。 有关详细信息，请参阅主要的本地数据网关文章，详细了解如何存储[凭据](service-gateway-onprem.md#credentials)，或参阅介绍如何[使用 Kerberos 进行从 Power BI 到本地数据源的 SSO（单一登录）](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)的文章。
 > 
 > 
 
@@ -129,7 +129,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="next-steps"></a>后续步骤
 * [本地数据网关](service-gateway-onprem.md)  
 * [本地数据网关 - 深入了解](service-gateway-onprem-indepth.md)  
-* [本地数据网关疑难解答](service-gateway-onprem-tshoot.md)
+* [本地数据网关故障排除](service-gateway-onprem-tshoot.md)
 * [使用 Kerberos 进行从 Power BI 到本地数据源的 SSO（单一登录）](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)。 
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

@@ -1,15 +1,15 @@
 ---
-title: "管理数据源 - Analysis Services"
-description: "如何管理本地数据网关和属于该网关的数据源。 这是用于在多维和表格模式下的 Analysis Services。"
+title: 管理数据源 - Analysis Services
+description: 如何管理本地数据网关和属于该网关的数据源。 这是用于在多维和表格模式下的 Analysis Services。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ce9a6d962098b3f40c351d0319c4b7908f4e4f7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 59fc3db101de246aaf4ab08c7916b25497b74fd2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理数据源 - Analysis Services
 安装本地数据网关之后，需要添加可与该网关结合使用的数据源。 本文将探讨如何使用网关和数据源。 你可以使用 Analysis Services 数据源进行计划刷新或实时连接。
@@ -76,7 +76,7 @@ ms.lasthandoff: 02/24/2018
 网关将使用你输入的**用户名**和**密码**连接到 Analysis Services 实例。
 
 > [!NOTE]
-> 输入的 Windows 帐户必须具有连接到该实例的服务器管理员权限。 如果此帐户的密码设置为过期，且数据源未更新此密码，则用户将遇到连接错误。 有关详细信息，请参阅主要本地数据网关文章以了解更多有关如何存储[凭据](service-gateway-onprem.md#credentials)的信息。
+> 输入的 Windows 帐户必须具有连接到该实例的服务器管理员权限。 如果此帐户的密码设置为过期，且数据源未更新此密码，则用户将遇到连接错误。 有关详细信息，请参阅主要本地数据网关文章，详细了解如何存储[凭据](service-gateway-onprem.md#credentials)。
 > 
 > 
 
@@ -245,6 +245,6 @@ Power BI 服务中将发生以下事件：
 ## <a name="next-steps"></a>后续步骤
 [本地数据网关](service-gateway-onprem.md)  
 [本地数据网关 - 深入了解](service-gateway-onprem-indepth.md)  
-[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)  
+[本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

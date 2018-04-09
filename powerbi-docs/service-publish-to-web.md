@@ -1,28 +1,28 @@
 ---
-title: "从 Power BI 发布到 Web"
-description: "借助 Power BI 发布到 Web，可在任何设备上通过电子邮件或社交媒体，轻松地将交互式 Power BI 可视化效果在线嵌入博客帖子、网站等处。"
+title: 从 Power BI 发布到 Web
+description: 借助 Power BI 发布到 Web，可在任何设备上通过电子邮件或社交媒体，轻松地将交互式 Power BI 可视化效果在线嵌入博客帖子、网站等处。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -133,13 +133,16 @@ ms.lasthandoff: 03/08/2018
 
 ## <a name="limitations"></a>限制
 
-**发布到 Web** 支持 Power BI 服务中绝大部分数据源和报表，但以下内容目前不受支持或不可用于发布到 Web：
+“发布到 Web”支持用于 Power BI 服务中绝大部分数据源和报表，但以下内容目前不受支持或不可用于“发布到 Web”：
 
 1. 使用行级别安全性的报表。
-2. 使用实时连接数据源的报表，包括在本地托管的 Analysis Services 表格、Analysis Service Multidimensional、Azure Analysis Services 以及 Power BI 服务。
+2. 使用任何实时连接数据源的报表，包括在本地托管的 Analysis Services 表格、Analysis Services Multidimensional 以及 Azure Analysis Services。
 3. 直接或通过组织内容包共享的报表。
 4. 你不是编辑成员的组中的报表。
 5. “发布到 Web”报表中当前不支持“R”视觉对象。
+6. 从已发布到 Web 的报表中的视觉对象中导出数据
+7. ArcGIS Maps for Power BI 视觉对象
+8. [保护机密或专有信息](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>租户设置
 
@@ -177,7 +180,7 @@ Power BI 管理员可以启用或禁用“发布到 Web”功能。 他们还可
 
 ## <a name="how-it-works-technical-details"></a>工作方式（技术详细信息）
 
-当你使用**发布到 Web** 创建嵌入代码时，报表对 Internet 上的用户均可见。 它是公开提供的，因此你可以期望将来查看者能够轻松地通过社交媒体共享报表。 用户查看报表，或者通过打开直接公共 URL，或者在嵌入到的网页或博客中查看，Power BI 将缓存报表定义和查看报表所需的查询结果。 此方法确保报表可供成千上万的并发用户查看，且不会对性能产生任何影响。  
+当你使用**发布到 Web** 创建嵌入代码时，报表对 Internet 上的用户均可见。 它是公开提供的，因此你可以期望将来查看者能够轻松地通过社交媒体共享报表。 用户查看报表，或者通过打开直接公共 URL，或者在嵌入到的网页或博客中查看，Power BI 将缓存报表定义和查看报表所需的查询结果。 此方法确保报表可供成千上万的并发用户查看，且不会对性能产生任何影响。
 
 缓存持续很长时间，因此如果你更新报表定义（例如更改其视图模式）或刷新报表数据，大约需要一小时才能在用户查看的报表版本中反映更改。 因此建议你提前暂存工作，并仅当你对设置满意时创建**发布到 Web** 嵌入代码。
 

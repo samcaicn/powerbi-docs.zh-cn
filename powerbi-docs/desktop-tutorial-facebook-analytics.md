@@ -1,15 +1,15 @@
 ---
-title: "教程︰使用 Power BI Desktop 进行 Facebook 分析"
-description: "教程︰使用 Power BI Desktop 进行 Facebook 分析"
+title: 教程︰使用 Power BI Desktop 进行 Facebook 分析
+description: 教程︰使用 Power BI Desktop 进行 Facebook 分析
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,213 +18,234 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e0bdec7d2774fd5c6641041af14b2170d7223151
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6113ab53e36dd035772c0bd9812f9870a6404eac
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教程︰使用 Power BI Desktop 进行 Facebook 分析
-在本教程中，你将学习如何导入和可视化来自 **Facebook** 的数据。 在本教程中，你将了解如何连接到特定 Facebook 页面（Power BI 页面）、应用数据转换步骤以及创建某些可视化效果。
 
-将执行下列步骤：
+在本教程中，你将学习如何导入来自 Facebook 的数据并在 Power BI Desktop 中使用该数据。 将从 Power BI Facebook 页面连接和导入数据，将转换应用于导入的数据，并在报表可视化效果中使用数据。
 
-* **任务 1：**连接到 Facebook 页面
-* **任务 2**︰使用“报表”视图创建可视化效果
-  
-  * **步骤 1**︰创建树状图可视化效果
-* **任务 3**︰在“查询”视图中调整数据
-  
-  * **步骤 1**︰将“日期-时间”列拆分为两列
-  * **步骤 2**︰从相关表中添加聚合值
-* **任务 4**︰使用“报表”视图创建其他可视化效果
-  
-  * **步骤 1**︰将查询加载到报表
-  * **步骤 2**︰创建折线图和条形图
+## <a name="connect-to-a-facebook-page"></a>连接到 Facebook 页面
 
-## <a name="task-1-connect-to-a-facebook-page"></a>**任务 1：连接到 Facebook 页面**
-在此任务中，你将从 [Microsoft Power BI Facebook](https://www.facebook.com/microsoftbi) 站点中导入数据（在此处为 URL︰*https://www.facebook.com/microsoftbi）*。
+本教程使用 [Microsoft Power BI Facebook 页面](https://www.facebook.com/microsoftbi)(https://www.facebook.com/microsoftbi) 中的数据。 除了个人 Facebook 帐户之外，不需要任何特殊凭据从该页面连接和导入数据。
 
-任何人都可以连接到该页面并执行下列步骤，而不需要提供任何特殊凭据（但你需在此步骤中使用自己的 Facebook 帐户）。
-
-![](media/desktop-tutorial-facebook-analytics/1.png)
-
-1. 在**入门**对话框中或**主页功能区选项卡**中选择**获取数据**。
-2. **获取数据**对话框将打开，并允许你从各种数据源进行选择。 从**其他**组中选择 **Facebook**。
+1. 打开 Power BI Desktop，然后选择“开始使用”对话框中的“获取数据”，或者在“主页”功能区选项卡中，依次选择“获取数据”和“更多...”。
    
-   ![](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
+2. 在“获取数据”对话框中，从“联机服务”组中选择“Facebook”，然后选择“连接”。
    
-   当选择**连接**时，出现一个对话框，提醒你如果使用第三方服务将产生风险。
+   ![获取数据](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
-3. 当你选择“继续”时，将显示 **Facebook** 对话框，你可以将页名称 (**microsoftbi**) 粘贴到**用户名** 文本框中。 从**连接**下拉列表中选择**文章**。
+   随即出现一个对话框，提醒你如果使用第三方服务，将产生风险。
    
-   ![](media/desktop-tutorial-facebook-analytics/2.png)
-4. 单击**确定**。
-5. 在系统提示你输入凭据时，使用你的 Facebook 帐户进行登录，并允许通过你的帐户进行 Power BI 访问。
+   ![第三方警告](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/facebookcredentials.png)
-
-建立与页面的连接后，你将看到在模型中加载的数据。 
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
-
-**查询编辑器**将在此处显示数据。 **查询编辑器**是 Power BI Desktop 的一部分，但会在单独窗口中加载，你可以在数据连接上执行所有转换。
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
-
-当数据满足要求时，即可将数据加载到 Power BI Desktop。 从**主页**功能区中选择**加载并关闭**。
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
-
-你将看到一个对话框，其显示向 Power BI Desktop 数据模型加载数据的进度。
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loading.png)
-
-加载数据后，你将转到**报表**视图，其右侧的**字段**列表中列出了表中的列。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner1.png)
-
-## <a name="task-2-create-visualizations-using-the-report-view"></a>**任务 2：使用“报表”视图创建可视化效果**
-现在，已从页面加载数据，你可以使用可视化效果快速轻松地深入了解数据。
-
-**步骤 1︰**创建树状图可视化效果
-
-创建可视化效果的过程很简单，只需将字段从**字段列表**拖放到**报表画布即可。**
-
-将**类型**字段拖放到**报表**画布中。 Power BI Desktop 将在**报表画布**中创建新的可视化效果。 然后，将**类型**从**字段**（与你刚拖**报表**画布的字段相同）拖放到**值**区域以创建**条形图**可视化效果。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner2.png)
-
-可通过从**可视化效果**窗格中选择不同图标来方便地更改可视化效果类型。 我们通过从**可视化效果**中选择相应图标将类型更改为**树状图**，如下图中所示。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3.png)
-
-然后，添加图例，并更改数据点的颜色。 在**可视化效果**窗格中选择**格式**图标；**格式**图标显示为画笔形状。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3a.png)
-
-当你选择**图例**旁边的向下箭头时，此部分将展开以显示如何为所选可视化效果自定义图例。 在此示例中，我们进行以下选择 ︰
-
-* 将**图例**滑块移到**打开**以显示图例
-* 从**图例位置**下拉列表中选择**右侧**
-* 将**标题**滑块移到**打开**以显示图例的标题
-* 键入图例标题的**类型**
-
-在下图中，这些设置已执行并反映在可视化效果中。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3b.png)
-
-然后，我们更改其中一个数据点的颜色。 链接数据点应为蓝色，以便其更接近于常用的超链接颜色。
-
-选择**数据颜色**旁边的箭头以展开该部分。 将显示数据点，并在每种颜色旁边显示一个选择箭头，用于为每个数据点选择不同的颜色。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3c.png)
-
-单击任何数据点旁边的颜色框向下箭头时，会显示颜色选择对话框，提示你选择颜色。 在此示例中，我们将选择浅蓝色。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3d.png)
-
-这样效果会更好一些。 在下图中，你可以看到如何将颜色应用于该可视化对象中的数据点，并且图例也将自动更新，因为其颜色位于**数据颜色**部分中。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3e.png)
-
-## <a name="task-3-shape-data-in-the-table"></a>**任务 3：在表中调整数据**
-现在你已导入所选表并开始进行可视化，你可能会发现你需要执行各种数据调整和清理步骤，以便最充分地利用数据。
-
-**步骤 1**︰将“日期时间”列拆分为两列
-
-在此步骤中，你将拆分**创建\_时间**列以获取日期和时间值。 每当你需要在 Power BI Desktop 中修改现有查询时，都必须启动 **查询编辑器**。 为此，请从**主页**选项卡中选择**编辑查询**。
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
-
-1. 在**查询编辑器**网格中，滚动到右侧，直到你找到**创建\_时间**列
-2. 右键单击**查询预览**网格中的列标题，然后单击**拆分列\>，按分隔符**拆分这些列。 在分隔符下拉列表中选择**自定义**，输入**“T”** 请注意，也可在**主页**功能区选项卡上的**管理列**组中执行此操作。
+3. 选择“继续”。 “Facebook”对话框随即出现。
    
-   ![](media/desktop-tutorial-facebook-analytics/9.png)
+4. 将页名称“microsoftbi”键入或粘贴到“用户名”文本框，从“连接”下拉列表选择“帖子”，然后选择“确定”。
    
-   ![](media/desktop-tutorial-facebook-analytics/10.png)
-3. 将创建的列分别重命名为**创建\_日期**和**创建\_时间**。
-4. 选择新列，**创建\_时间**，****并在**查询视图**功能区中导航到**添加列**选项卡，然后在**从日期和时间**组下选择**时间\>小时**。 将添加一个新列，其中只包含时间数据的小时数部分。
+   ![连接](media/desktop-tutorial-facebook-analytics/2.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/11.png)
-5. 将此新**小时**列的类型更改为**整数**，方法是导航到**主页**选项卡并选择**数据类型**下拉菜单，或者右键单击列并选择**转换\>整数**。
+5. 在系统提示输入凭据时，请登录到 Facebook 帐户，并允许通过帐户进行 Power BI 访问。
    
-   ![](media/desktop-tutorial-facebook-analytics/12.png)
+   ![凭据](media/desktop-tutorial-facebook-analytics/facebookcredentials.png)
 
-**步骤 2**︰从相关表中添加聚合值
-
-在此步骤中，你将从嵌套值添加共享计数，以便在可视化效果中使用它。
-
-1. 继续向右滚动，直到你看到**共享**列。 嵌套值指示我们需要执行另一个转换以获得实际值。
-2. 在列标题的右上角，选择 ![](media/desktop-tutorial-facebook-analytics/14.png) 图标以打开**展开/聚合**生成器。 选择**计数**并单击**确定**。 将在表格中添加每一行的共享的计数。
+   连接到 Power BI Facebook 页面后，将看到页面“帖子”数据的预览。 
    
-   ![](media/desktop-tutorial-facebook-analytics/15.png)
+   ![数据预览](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
    
-   加载数据后，将列重命名为**共享**，方法是双击列名称并右键单击列，或在**查询视图**功能区中的**重命名**和**任何列**组下选择**转换**选项卡。
-3. 最后，将新**共享**列更改为**整数**。 可在选中列的情况下更改类型，方法是选择**转换\>整数**，或****导航到**主页**选项卡并选择**数据类型**下拉列表，或者。
+## <a name="shape-and-transform-the-imported-data"></a>调整和转换导入的数据
 
-### <a name="query-steps-created"></a>已创建查询步骤
-在“查询”视图中执行转换时，将创建查询步骤并将其列在**查询设置**窗格的**应用的步骤**列表中。 每个查询步骤都具有对应的查询公式，也称为“M”语言。
+你想要查看并显示一段时间内哪些帖子的评论数量最多，但注意到在“帖子”数据预览中，“created_time”数据难以读懂和理解，并且根本没有评论数据。 需要对数据进行一些调整和清理操作，以最大限度地利用这些数据。 在将数据导入 Power BI Desktop 之前/之后，可以使用 Power BI Desktop“Power Query 编辑器”编辑数据。 
 
-![](media/desktop-tutorial-facebook-analytics/16.png)
+### <a name="split-the-datetime-column"></a>拆分“日期/时间”列
 
-| 任务 | 查询步骤 | 公式 |
-| --- | --- | --- |
-| 连接到 Facebook 源 |源 |Facebook.Graph (&quot;https://graph.facebook.com/microsoftbi/posts&quot;) |
-| **拆分列**以获取所需的值 |按分隔符拆分列 |Table.SplitColumn  (Source,&quot;created_time&quot;,Splitter.SplitTextByDelimiter(&quot;T&quot;),{&quot;created_time.1&quot;, &quot;created_time.2&quot;}) |
-| 新列的**更改类型**（自动步骤） |已更改类型 |Table.TransformColumnTypes  (#&quot;Split Column by Delimiter&quot;,{{&quot;created_time.1&quot;, type date}, {&quot;created_time.2&quot;, type time}}) |
-| **重命名**列**** |已重命名列 |Table.RenameColumns  (#&quot;Changed Type&quot;,{{&quot;created_time.1&quot;, &quot;created_date&quot;}, {&quot;created_time.2&quot;, &quot;created_time&quot;}}) |
-| **插入**列**** |已插入小时 |Table.AddColumn  (#&quot;Renamed Columns&quot;, &quot;Hour&quot;, each Time.Hour([created_time]), type number) |
-| **更改类型** |已更改类型 1 |Table.TransformColumnTypes  (#&quot;Inserted Hour&quot;,{{&quot;Hour&quot;, type text}}) |
-| **展开**嵌套表中的值**** |展开共享 |Table.ExpandRecordColumn  (#&quot;Changed Type1&quot;, &quot;shares&quot;, {&quot;count&quot;}, {&quot;shares.count&quot;}) |
-| **重命名**列**** |已重命名列 1 |Table.RenameColumns  (#&quot; Expand shares&quot;,{{&quot;shares.count&quot;, &quot;shares&quot;}}) |
-| **更改类型** |已更改类型 2 |Table.TransformColumnTypes  (#&quot;Renamed Columns1&quot;,{{&quot;shares&quot;, Int64.Type}}) |
+首先，拆分“created_time”列中的日期和时间值，使其更易于识读。 
 
-## <a name="task-4-create-additional-visualizations-using-the-report-view"></a>**任务 4：使用“报表”视图创建其他可视化效果**
-现在我们已将数据转换成所需形式以用于执行其余分析，我们可以将生成的表加载到报表，并创建其他可视化效果。
-
-**步骤 1**︰将查询加载到你的报表
-
-为了将查询结果加载到报表，我们需要从**查询编辑器**中选择**加载并关闭**。 这会将所做的更改加载到 Power BI Desktop，并关闭**查询编辑器**。
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
-
-在 Power BI Desktop 中，需确保我们位于**报表**视图中。 从 Power BI Desktop 的左侧栏中选择顶部的图标。
-
-![](media/desktop-tutorial-facebook-analytics/17.png)
-
-**步骤 2：**创建折线图和条形图
-
-要创建可视化，可以将字段从**字段列表**拖放到**报表画布**中。
-
-1. 将**共享**字段拖放到**报表**画布，这将创建一个条形图。 然后将创建的\_日期拖放到图表中。Power BI Desktop 会将可视化效果更改为**折线图**。
+1. 在 Facebook 数据预览中，选择“编辑”。 
    
-   ![](media/desktop-tutorial-facebook-analytics/19.png)
-2. 然后，将**共享**字段拖放到**报表画布**。 现在，将**小时**字段拖放到**轴**部分的**字段列表**下。
+   ![数据预览编辑](media/desktop-tutorial-facebook-analytics/t_fb_1-editpreview.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/20.png)
-3. 可以通过在**可视化**窗格中选择不同图标来方便地更改可视化效果类型。 下面的图中箭头指向**条形图**图标。
+   Power BI Desktop“Power Query 编辑器”会在新窗口中打开，并显示来自 Power BI Facebook 页面的数据预览。 
    
-   ![](media/desktop-tutorial-facebook-analytics/21.png)
-4. 将可视化类型更改为**条形图**。
-5. 将创建**条形图**，但轴并非我们希望的。我们想要按另一个方向（从高到低）对其排序。 选择 **Y 轴**旁边的向下箭头以展开该部分。 我们需要将轴类型从**连续**更改为**分类**从而按所需方式排序（下图显示了执行选择之前的轴；请从后续图像了解我们希望的轴显示形式）。
+   ![Power Query 编辑器](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
+   
+2. 选择“created_time”列。 请注意，它当前为“文本”数据类型，由列标题中的“ABC”图标表示。 右键单击标题，然后选择下拉列表中的“拆分列”>“按分隔符”，或者选择功能区“主页”选项卡中“转换”下的“拆分列”>“按分隔符”。  
+   
+   ![按分隔符拆分列](media/desktop-tutorial-facebook-analytics/delimiter1.png)
+   
+3. 在“按分隔符拆分列”对话框中，从下拉列表中选择“自定义”，在输入字段中输入“T”（用于启动 created_time 值的时间部分的字符），并选择“确定”。 
+   
+   ![“按分隔符拆分列”对话框](media/desktop-tutorial-facebook-analytics/delimiter2.png)
+   
+   列将拆分为两个列，其中包含“T”分隔符之前和之后的字符串，名称分别为“created_time.1”和“created_time.2”。 请注意，已自动检测到 Power BI，并已将第一列的数据类型更改为“日期”，将第二列的数据类型更改为“时间”，并设置了日期和时间值格式，使其更易于识读。
+   
+4. 若要重命名列，可以双击每个列标题，或选中每个列，然后选择功能区“转换”选项卡“任何列”组中的“重命名”，并分别键入新的列标题“created_date”和“created_time”。
+   
+   ![新日期和时间列](media/desktop-tutorial-facebook-analytics/delimiter3.png)
+   
+### <a name="expand-the-nested-column"></a>展开嵌套列
 
-![](media/desktop-tutorial-facebook-analytics/22.png)
+现在日期和时间数据以你期望的形式显示，接下来将通过展开嵌套列来显示评论数据。 
 
-这样效果会更好一些。 现在我们在此页面上具有三种可视化效果，我们可以调整其大小以填满报表页。
+1. 选择“object_link”列，然后选择![展开图标](media/desktop-tutorial-facebook-analytics/14.png)图标以打开“展开/聚合”对话框。 选择“连接”，然后选择“确定”。 
+   
+   ![展开 object_link](media/desktop-tutorial-facebook-analytics/expand1.png)
+   
+   列标题将更改为“object_link.connections”。
+2. 再次选择“object_link.connections”列顶部的![展开图标](media/desktop-tutorial-facebook-analytics/14.png)图标，选择“评论”，然后选择“确定”。 列标题将更改为“object_link.connections.comments”。
+   
+3. 选择“object_link.connections.comments”列顶部的![展开图标](media/desktop-tutorial-facebook-analytics/14.png)图标，这次选择对话框中的“聚合”而不是“展开”。 选择“# ID 计数”，然后选择“确定”。 
+   
+   ![聚合评论](media/desktop-tutorial-facebook-analytics/expand2.png)
+   
+   列现在显示每个消息的评论数。 
+   
+4. 将“object_link.connections.comments.id 计数”列重命名为“评论数”。
+   
+5. 选择“评论数”标题旁的向下箭头，然后选择“降序排序”以查看从评论数最多到评论数最少排序的帖子。 
+   
+   ![每个消息的评论](media/desktop-tutorial-facebook-analytics/data-fixed.png)
+   
+### <a name="review-query-steps"></a>查看查询步骤
 
-![](media/desktop-tutorial-facebook-analytics/23.png)
+在“Power Query 编辑器”中调整和转换数据后，每个步骤都已记录到“Power Query 编辑器”窗口右侧“查询设置”窗格的“应用的步骤”区域。 可以通过“应用的步骤”返回以查看所做的具体更改，并视需要编辑、删除或重新排列它们（尽管这样做可能存在风险，因为更改前面的步骤可能会中断后续步骤）。 
 
-如你所见，可以方便地在报表中自定义可视化效果以便你按所需方式呈现数据。 Power BI Desktop 提供无缝的端到端体验（从各种数据源获取数据到拆分以满足你的分析需求再到以丰富的交互式方式可视化这些数据）。 在报表准备就绪后，你可[将其上载到 Power BI](desktop-upload-desktop-files.md) 并基于它创建仪表板与其以他 Power BI 用户共享。
+在应用数据转换之后，“应用的步骤”应如下所示：
+   
+   ![应用的步骤](media/desktop-tutorial-facebook-analytics/applied-steps.png)
+   
+   >[!TIP]
+   >基本的“应用的步骤”是以 Power Query 语言编写的公式，也称为 M 语言。 若要查看和编辑该公式，请选择功能区“主页”选项卡“查询”组中的“高级编辑器”。 
 
-可以在[此处](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/FacebookAnalytics.pbix)下载本教程的最终结果
+### <a name="import-the-transformed-data"></a>导入转换后的数据
 
-### <a name="where-else-can-i-get-more-information"></a>我还可以在哪些位置获取详细信息？
+如果对数据感到满意，请选择功能区“主页”选项卡中的“关闭并应用” > “关闭并应用”，将其导入 Power BI Desktop 中。 
+   
+   ![关闭并应用](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
+   
+   将看到一个对话框，显示向 Power BI Desktop 数据模型加载数据的进度。 
+   
+   ![正在加载数据](media/desktop-tutorial-facebook-analytics/t_fb_1-loading.png)
+   
+   数据加载完成后，它会在“报表”视图中显示为“字段”列表中的新“查询”。
+   
+   ![新建查询](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
+   
+## <a name="use-the-data-in-report-visualizations"></a>在报表可视化效果中使用数据 
+
+现在，已从 Facebook 页面导入数据，可以使用可视化效果快速轻松地深入了解数据。 创建可视化效果的操作很简单；只需选择一个字段或将其从“字段”列拖动到报表画布。
+
+### <a name="create-a-bar-chart"></a>创建条形图
+
+1. 在“Power BI Desktop 报表”视图中，从“字段”列表中选择“消息”，或将其拖至画布。 显示所有帖子消息的表格将显示在画布上。 
+   
+   ![新建查询](media/desktop-tutorial-facebook-analytics/table-viz.png)
+   
+2. 在选中该表格后，同时从“字段”列表选择“评论数”，或将其拖动到表格中。 
+   
+3. 在“可视化效果”窗格中，选择“堆积条形图”图标。 表格将更改为条形图，显示每个帖子的评论数量。 
+   
+   ![条形图](media/desktop-tutorial-facebook-analytics/barchart1.png)
+   
+4. 在“可视化效果”的右上方，选择省略号 (...)，然后选择“按评论数排序”，按降序排列评论数对表格进行排序。 
+   
+   ![按评论数排序](media/desktop-tutorial-facebook-analytics/barchart2.png)
+   
+5. 请注意，大多数评论与“空白”消息相关联（这些帖子可能包含应用场景、链接、视频或其他非文本内容）。 若要筛选出“空白”行，请选择“可视化效果”窗格底部“筛选器”下的“消息(全部)”，选择“全选”，然后选择“空白”以取消选中此选项。 “筛选器”条目将更改为“消息不为(空白)”，且“空白”行会从图表可视化效果中消失。 
+   
+   ![筛选出空白](media/desktop-tutorial-facebook-analytics/barchart3.png)
+   
+### <a name="format-the-chart"></a>设置图表格式
+
+可视化效果变得更加有趣，但无法查看图表中的大部分帖子文本。 若要显示更多帖子文本，请执行以下操作：
+
+1. 在图表可视化效果上使用句柄，尽量将图表大小调整为最大。 
+   
+2. 选中图表后，在“可视化效果”窗格中选择“格式”图标（油漆滚筒）。
+   
+3. 选择“Y 轴”旁边的向下箭头，然后将“最大大小”旁的滑块拖动到最右边 (50%)。 
+4. 另外，将“文本大小”减小到“10”以适应更多文本。
+   
+   ![格式设置更改](media/desktop-tutorial-facebook-analytics/barchart4.png)
+   
+   图表现在显示更多帖子内容。 
+   
+   ![显示更多帖子](media/desktop-tutorial-facebook-analytics/barchart5.png)
+   
+图表的 X 轴（评论数）不显示确切值，并且看起来在图表底部不存在。 如果决定改用数据标签，请执行以下操作： 
+
+1. 选择“格式”图标，然后选择“X 轴”旁边的滑块将其“关闭”。 
+   
+2. 选择“数据标签”旁边的滑块以将其“打开”。 现在图表显示每个帖子的确切评论数。
+   
+   ![应用数据标签](media/desktop-tutorial-facebook-analytics/barchart6.png)
+   
+### <a name="edit-the-data-type"></a>编辑数据类型
+
+这样效果更好，但所有数据标签都有一个“.0”小数位数，这会让人分散注意力并具有误导性，因为“帖子数”必须为整数。 需要将“帖子数”列的数据类型更改为“整数”。
+
+1. 要编辑数据类型，右键单击“字段”列表中的“Query1”，或将鼠标悬停在上面，选择“更多选项”省略号 (...)，然后选择“编辑查询”。 另外，还可以从功能区“主页”选项卡的“外部数据”区域选择“编辑查询”，然后从下拉列表选择“编辑查询”。 Power BI Desktop“Power Query 编辑器”在单独窗口中打开。
+   
+   ![从“字段”列表编辑查询](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![从功能区编辑查询](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
+   
+2. 在“Power Query 编辑器”中，选择“评论数”列，并通过以下任一方法将数据类型更改为“整数”： 
+   - 选择“评论数”列标题旁边的“1.2”图标，并从下拉列表中选择“整数”，或
+   - 右键单击列标题，然后选择“更改类型”>“整数”，或
+   - 选择“主页”选项卡“转换”组中的“数据类型: 小数”，或选择”转换”选项卡的”任意列“组，然后选择”整数“。
+   
+   列标题中的图标更改为“123”，表示“整数”数据类型。
+   
+   ![更改数据类型](media/desktop-tutorial-facebook-analytics/change-datatype.png)
+   
+3. 选择“关闭并应用”，或只选择“应用”以应用更改，同时使“Power Query 编辑器”窗口保持打开状态。 加载更改内容后，图表上的数据标签将变为整数。 
+   
+   ![包含整数的图表](media/desktop-tutorial-facebook-analytics/vis-3.png)
+   
+### <a name="create-a-date-slicer"></a>创建日期切片器
+
+你想要使一段时间内帖子的评论数呈现可视化效果。 可以创建切片器可视化效果，将图表数据筛选到不同的时间范围。 
+
+1. 单击画布的空白区域，然后选择“可视化效果”窗格中的“切片器”图标。 将显示一个空白的切片器可视化效果。 
+   
+   ![选择切片器图标](media/desktop-tutorial-facebook-analytics/slicer1.png)
+   
+2. 从“字段”列表选择“created_date”字段，或将其拖动到新的切片器。 切片器根据字段的“日期”数据类型，更改为一个日期范围滑块。
+   
+   ![日期范围滑块切片器](media/desktop-tutorial-facebook-analytics/slicer2.png)
+   
+3. 移动滑块图柄以选择不同的日期范围，并注意图表数据是如何相应进行筛选的。 还可以选择切片器中的“日期”字段，并键入特定日期，或者从日历弹出框中选择日期。
+    
+   ![切分数据](media/desktop-tutorial-facebook-analytics/slicer3.png)
+   
+### <a name="format-the-visualizations"></a>设置可视化效果的格式
+
+你决定为图表提供一个更具描述性和吸引力的标题。 
+
+1. 选中图表后，选择“格式”图标，然后选择下拉箭头以展开“标题”。
+2. 将“标题文本”更改为“每个帖子的评论”。 
+3. 选择“字体颜色”旁边的下拉箭头，然后选择绿色以匹配可视化效果的绿色栏。
+4. 将“文本大小”增加到“10”，并将“字体系列”更改为“Segoe (Bold)”。
+
+![设置图表标题格式](media/desktop-tutorial-facebook-analytics/formatting1.png)
+
+尝试使用其他格式设置选项和设置来改变可视化效果的外观。 
+
+![可视化](media/desktop-tutorial-facebook-analytics/vis-1.png)
+
+## <a name="create-more-visualizations"></a>创建更多可视化效果
+
+如你所见，可以方便地在报表中自定义可视化效果以便按所需的方式呈现数据。 例如，尝试使用导入的 Facebook 数据来创建此折线图，显示一段时间内的评论数量。
+
+![折线图](media/desktop-tutorial-facebook-analytics/moreviz.png)
+
+Power BI Desktop 提供无缝的端到端体验（从各种数据源获取数据、调整数据以满足你的分析需求，再到以丰富的交互方式可视化这些数据）。 在报表准备就绪后，可以[将报表上传到 Power BI 服务](desktop-upload-desktop-files.md)，并基于它创建仪表板与其他 Power BI 用户共享。
+
+## <a name="next-steps"></a>后续步骤
 * [阅读其他 Power BI Desktop 教程](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [观看 Power BI Desktop 视频](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [访问 Power BI 论坛](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [阅读 Power BI 博客](http://go.microsoft.com/fwlink/?LinkID=519327)
-
-
 

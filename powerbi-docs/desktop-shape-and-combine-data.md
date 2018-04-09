@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中调整和合并数据"
-description: "在 Power BI Desktop 中调整和合并数据"
+title: 在 Power BI Desktop 中调整和合并数据
+description: 在 Power BI Desktop 中调整和合并数据
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,96 +18,118 @@ ms.workload: powerbi
 ms.date: 01/30/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: c8f2419ae2898a59907763392eb86b4877b4fd75
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0bb2f8a8d9299d525085a8ba7d2ecabdcd9e6c78
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>在 Power BI Desktop 中调整和合并数据
 借助 **Power BI Desktop**，可连接到多个不同类型的数据源，然后调整数据以满足你的需求。 *调整* 意味着转换数据 - 如重命名列或表格、将文本更改为数字、删除行、将第一行设为标题等等。 合并数据意味着连接到两个或多个数据源，根据需要调整它们，然后将其合并到一个有用的查询中。
 
-本文档演示了如何使用 Power BI Desktop 来调整查询，其中突出显示了一些最常见的任务。 有关此处所用查询的更多详细信息，包括如何从头开始创建查询，请参阅 [Power BI Desktop 入门](desktop-getting-started.md)。
+本文演示了如何使用 Power BI Desktop 来调整查询，其中突出显示了一些最常见的任务。 有关此处所用查询的更多详细信息，包括如何从头开始创建查询，请参阅 [Power BI Desktop 入门](desktop-getting-started.md)。
 
 有必要知道 Power BI Desktop 中的**查询编辑器**大量地使用右键单击菜单和功能区。 大部分可在**转换**功能区选择的内容也可通过右键单击项目（如某列）并从所显示的菜单中进行选择。
 
 ## <a name="shape-data"></a>调整数据
 如果在查询编辑器中调整数据，你将在查询编辑器加载并呈现数据时提供分步说明（查询编辑器将为你执行此操作）以调整数据。 原始数据源不受影响，将仅调整或 *整理* 这一特定的数据视图。
 
-查询编辑器会记录你指定的步骤（如重命名表格、转换数据类型或删除列），且每当此查询连接到数据源时，都会执行这些步骤，因此数据将始终按你指定的方式进行调整。 每当你使用 Power BI Desktop 的查询编辑器功能，或任何人使用你的共享查询（如在 **Power BI** 服务上）时，都会出现此过程。 这些步骤是在**所应用步骤**下**查询设置**窗格中按顺序进行捕获的。
+查询编辑器会记录你指定的步骤（如重命名表格、转换数据类型或删除列），且每当此查询连接到数据源时，都会执行这些步骤，因此数据将始终按你指定的方式进行调整。 每当你使用 Power BI Desktop 的查询编辑器功能，或任何人使用你的共享查询（如在 **Power BI** 服务上）时，都会出现此过程。 这些步骤在“应用的步骤”下的“查询设置”窗格中按顺序捕获。
 
 下图显示已调整查询的**查询设置**窗格，我们将于接下来几个段落中逐一说明每个步骤。
 
-![](media/desktop-shape-and-combine-data/shapecombine_querysettingsfinished.png)
+![](media/desktop-shape-and-combine-data/shapecombine_querysettingsfinished2.png)
 
-借助 [Power BI Desktop 入门](https://powerbi.uservoice.com/knowledgebase/articles/471664)中的停用数据（通过连接到 Web 数据源找到），开始调整此数据以满足我们的需求。
+借助 [Power BI Desktop 入门](desktop-getting-started.md)中的停用数据（通过连接到 Web 数据源找到），开始调整此数据以满足我们的需求。
 
-对于初学者，在查询编辑器加载表格时，一个列的评分不会自动从文本转换为数字，而我们需要它们是数字。 没问题 – 只需右键单击列标题，然后选择**更改类型\>整数**来对其加以更改。 若要选择多列，请先选择一列然后按住 **SHIFT**，再选择其他相邻列，然后右键单击列标题以更改所有选中的列。 也可以使用 **CTRL** 键来选择不相邻的列。
+首先，添加一个自定义列，在所有数据具有同等因素的前提下计算排名，并将其与现有列“排名”进行比较。  以下为“添加列”功能区，其中箭头指向“自定义列”按钮，可通过此按钮添加自定义列。
 
-![](media/desktop-shape-and-combine-data/shapecombine_changetype.png)
+![](media/desktop-shape-and-combine-data/shapecombine_customcolumn.png)
 
-还可通过 **转换** 功能区将这些列从文本 *转换* 为标题。 **转换**功能区显示如下，其中箭头指向**数据类型**按钮，可用于将当前数据类型转换成其他数据类型。
+在“自定义列”对话框中，请在“新列名”中输入“新排名”，然后在“自定义列公式”中输入以下内容：
+
+    ([Cost of living] + [Weather] + [Health care quality] + [Crime] + [Tax] + [Culture] + [Senior] + [#"Well-being"]) / 8
+
+确保状态消息显示为“未检测到任何语法错误。” 然后单击“确定”。
+
+![](media/desktop-shape-and-combine-data/shapecombine_customcolumndialog.png)
+
+为了保持列数据的一致性，请将新列值转换为整数。 只需右键单击列标题，然后选择“更改类型”\>“整数”对其加以更改。 
+
+如需选择多列，请先选择一列然后按住 SHIFT，再选择其他相邻列，然后右键单击列标题以更改所有选中的列。 也可以使用 **CTRL** 键来选择不相邻的列。
+
+![](media/desktop-shape-and-combine-data/shapecombine_changetype2.png)
+
+还可以从“转换”功能区转换列数据类型。 **转换**功能区显示如下，其中箭头指向**数据类型**按钮，可用于将当前数据类型转换成其他数据类型。
 
 ![](media/desktop-shape-and-combine-data/queryoverview_transformribbonarrow.png)
 
-请注意，在**查询设置**中，**应用的步骤**反映了应用到数据的所有调整步骤。 如果要删除调整过程中的任意步骤，只需选择步骤左侧的 **X**。 在下图中， **应用的步骤** 反映了至今为止使用的步骤：连接到网页（ **源** ）；选择表格（ **导航** ）；加载表格时，查询编辑器将基于文本的数字列从 *文本* 自动更改为 *整数* （ **更改类型** ）。 排名中的某列未自动更改未基于数字的类型，我们将在接下来几个段落中探究其原因。
+请注意，在**查询设置**中，**应用的步骤**反映了应用到数据的所有调整步骤。 如果要删除调整过程中的任意步骤，只需选择步骤左侧的 **X**。 在下图中， **应用的步骤** 反映了至今为止使用的步骤：连接到网页（ **源** ）；选择表格（ **导航** ）；加载表格时，查询编辑器将基于文本的数字列从 *文本* 自动更改为 *整数* （ **更改类型** ）。 最后两个步骤演示了之前的“已添加自定义”和“已更改类型 1”操作。 
 
-![](media/desktop-shape-and-combine-data/shapecombine_appliedstepsearly.png)
+![](media/desktop-shape-and-combine-data/shapecombine_appliedstepsearly2.png)
 
 我们需要先执行一些更改以将查询中的数据置于所需位置，才可以使用此查询：
 
-* *删除第一列* - 不需要此列，它仅包含指出“查看你所在州的退休评级”的重复行，这是此数据源成为基于 Web 的表格的项目
-* *修复部分错误* - 其中一列（**卫生保健质量**）包含各州评级中的几个相同评分，网站上其数字后面附有文本 *(平分)* 加以标记。 这非常适合此网站，但它需要我们将列从文本手动转换为数据。 可使用 Power BI Desktop 轻松修复此问题，且执行此操作可展示查询中**所应用步骤**的一个很酷的功能
-* *更改表格名称* - **表格 0**不是有用的描述符，但更改它很简单
+* 通过删除列来调整排名 - 我们已决定结果中的“生活成本”是一个非因素。 删除此列后，我们发现数据保持不变的问题，尽管可以使用 Power BI Desktop 轻松修复此问题，且这样做演示了查询中“应用的步骤”的一个很酷的功能。
+* 修复一些错误 - 由于我们删除了一个列，因此需要重新调整“新排名”列中的计算。 这涉及公式更改。
+* 对数据进行排序 - 基于“新排名”和“排名”列。 
+* 替换数据 - 我们将重点介绍如何替换特定值以及插入“应用的步骤”的要求。
+* 更改表格名称 - “表格 0”不是有用的描述符，但更改它很简单。
 
-若要删除第一列，只需选中此列并选择功能区中的**开始**选项卡，然后按下图所示**删除列**。
+若要删除“生活成本”列，只需选中此列并依次选择功能区中的“开始”选项卡和“删除列”，如下图所示。
 
-![](media/desktop-shape-and-combine-data/shapecombine_removecolumnsretirement.png)
+![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-接下来，我们需要处理文本列并将其转化为数字。 一开始看似很直接，我们只需将 **卫生保健质量** 列的类型从文本更改为数字（如 *整数* 或 *十进制数* ）。 但在将类型从**文本**更改为**整数**，然后浏览此列中的值时，我们发现查询编辑器报告了一些错误。
+请注意，新排名值未发生更改；其原因在于步骤的顺序。 由于查询编辑器按顺序记录步骤，但各个步骤相互独立，因此可在序列中上下移动每个**所应用步骤**。 只需右键单击任意步骤，查询编辑器就会提供一个菜单，让你执行下述操作：**重命名**、**删除**、**删除****到末尾**（删除当前步骤及所有后续步骤）、**上移**或**下移**。 请继续，并将最后一步“已删除列”上移至“已添加自定义”步骤的正上方。
 
-![](media/desktop-shape-and-combine-data/shapecombine_error.png)
+![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
+
+接下来，选择“已添加自定义”步骤。 请注意，此数据现在显示一个待处理的“错误”。 
+
+![](media/desktop-shape-and-combine-data/shapecombine_error2.png)
 
 可采用以下几种方法来获取每个错误的详细信息。 可选择单元格（无需单击**错误**一词），或直接单击**错误**这个词。 如果选择单元格而 *不* 在 **错误** 字词上直接单击，则查询编辑器在窗口底部显示错误信息。
 
-![](media/desktop-shape-and-combine-data/shapecombine_errorinfo.png)
+![](media/desktop-shape-and-combine-data/shapecombine_errorinfo2.png)
 
-如果直接单击 *错误* 这个词，则查询将在 **查询设置** 中创建 **所应用步骤** ，并显示错误的相关信息。
+如果直接单击 *错误* 这个词，则查询将在 **查询设置** 中创建 **所应用步骤** ，并显示错误的相关信息。 我们不希望继续，所以选择“取消”。
 
-![](media/desktop-shape-and-combine-data/shapecombine_errorselect.png)
+若要修复错误，请选择“新排名”列，然后打开“视图”功能区并选择“公式栏”复选框来显示列的数据公式。 
 
-若要返回到查询编辑器，必须选择此步骤旁边的 **X** 以将其删除。
+![](media/desktop-shape-and-combine-data/shapecombine_formulabar.png)
 
-当选择最近使用的**所应用步骤**时，可按所描述的那样查看错误，如下图所示。
+现在可以删除“生活成本”参数并减少除数，方法是将公式更改为以下公式： 
 
-![](media/desktop-shape-and-combine-data/shapecombine_querystep1.png)
+    Table.AddColumn(#"Removed Columns", "New Rank", each ([Weather] + [Health care quality] + [Crime] + [Tax] + [Culture] + [Senior] + [#"Well-being"]) / 7)
 
-由于查询编辑器按顺序记录步骤，因此可在**所应用步骤**中先选择步骤再更改类型，并查看转换之前此单元格中的值，如下图所示。
+选择公式框左侧的绿色复选标记或按 Enter，数据应替换为修改后的值，且“已添加自定义”步骤现应完成且未出错。
 
-![](media/desktop-shape-and-combine-data/shapecombine_querystep2.png)
+> [!NOTE]
+> 还可以删除错误（使用功能区或右键单击菜单），这将删除具有错误的任意行。 这种情况下，它不会删除数据中的所有行，而且我们也不想这样做，我们想要所有数据，并希望将其保留在表格中。
 
-好了，现在就可修复这些值，并 *随后* 更改类型了。 由于查询编辑器按顺序记录步骤，但各个步骤相互独立，因此可在序列中上下移动每个**所应用步骤**。 只需右键单击任意步骤，查询编辑器就会提供一个菜单，让你执行下述操作：**重命名**、**删除**、**删除****到末尾**（删除当前步骤及所有后续步骤）、**上移**或**下移**。
+现在需要基于“新排名”列对数据进行排序。 首先选择最后一个应用的步骤“已更改类型 1”以访问最新数据。 然后，选择“新排名”列标题旁边的下拉列表，并选择“升序排序”。
 
-![](media/desktop-shape-and-combine-data/shapecombine_querystepreorder.png)
+![](media/desktop-shape-and-combine-data/shapecombine_sort.png)
+
+请注意，数据现在会根据“新排名”进行排序。  但是，如果查看“排名”列，将注意到在“新排名”值为一个并列值的情况下，数据未正确排序。 若要解决此问题，请选择“新排名”列并将“公式栏”中的公式更改为以下公式：
+
+    = Table.Sort(#"Changed Type1",{{"New Rank", Order.Ascending},{"Rank", Order.Ascending}})
+
+选择公式框左侧的绿色复选标记或按 Enter，行现在应同时根据“新排名”和“排名”进行排序。
 
 此外，还可在列表的任何位置选择**所应用步骤**，然后继续在序列中此点处调整数据。 查询编辑器将在当前选定的**所应用步骤**后直接自动插入一个新步骤。 我们来试一试。
 
-首先，选择**所应用步骤**，再更改**卫生保健质量**列的类型。 然后，替换单元格中具有文本“(平分)”的值，以便仅保留数字。 右键单击包含“35 (平分)”的单元格，然后从显示的菜单中选择 *替换值...* 。 记下当前选择的**所应用步骤**（更改类型之前的那一步）。
+首先，选择“应用的步骤”，然后添加自定义列；这将是“已删除列”步骤。 我们将在此替换亚利桑那州的“天气”排名值。 右键单击包含亚利桑那州“天气”排名的相应单元格，然后从显示的菜单中选择“替换值...”。 记下当前选择的“应用的步骤”（“已添加自定义”步骤之前的步骤）。
 
-![](media/desktop-shape-and-combine-data/shapecombine_replacevalues.png)
+![](media/desktop-shape-and-combine-data/shapecombine_replacevalues2.png)
 
 因为我们要插入步骤，所以查询编辑器提醒我们这样做的危险 - 后续步骤可能导致查询中断。 我们需要小心谨慎、深思熟虑！ 由于这是一个教程，而我们要重点介绍查询编辑器的一项炫酷功能以展示如何创建、删除、插入和记录步骤，所以我们将继续操作并选择**插入**。
 
 ![](media/desktop-shape-and-combine-data/shapecombine_insertstep.png)
 
-存在 3 个等同值，因此要替换每个的值。 创建新的所应用步骤时，查询编辑器会根据操作对其命名 - 本例中，命名为**替换值**。 当查询中具有多个名称相同的步骤时，查询编辑器将对每个后续的**所应用步骤**添加一个编号（按顺序）以对其进行区分。
+将值更改为 51，随即会替换表示亚利桑那州的数据。 创建新的所应用步骤时，查询编辑器会根据操作对其命名 - 本例中，命名为**替换值**。 当查询中具有多个名称相同的步骤时，查询编辑器将对每个后续的**所应用步骤**添加一个编号（按顺序）以对其进行区分。
 
-以下屏幕显示了 **查询设置** 中的 3 个 **替换值** 步骤，但它还显示一些更有趣的内容：由于我们从 **卫生保健质量** 列中删除了文本“(平分)”的所有实例， **更改类型** 步骤现已完成且 *无任何错误* 。
-
-![](media/desktop-shape-and-combine-data/shapecombine_replacedvaluesok.png)
-
-> [!NOTE]
-> 还可以删除错误（使用功能区或右键单击菜单），这将删除具有错误的任意行。 此情况下，它不会删除数据中具有“ *(平分)* ”的所有州，且我们也不想这样做 - 我们想要所有州，且希望将它们保留在表格中。
+现在选择最后一个“应用的步骤”，“已排序行”，会发现有关亚利桑那州的新排名的数据已发生变化。  这是因为我们在“已添加自定义”步骤前，在正确的位置插入了“已替换值”步骤。
 
 这有点复杂，但它很好地列举了查询编辑器是多么的功能强大、灵活通用。
 
@@ -115,7 +137,7 @@ ms.lasthandoff: 02/24/2018
 
 可轻松更改表格名称：在**查询设置**的**属性**下，只需键入新的表格名称（如下图所示），然后点击 **Enter**。 让我们将此表命名为 *RetirementStats* 。
 
-![](media/desktop-shape-and-combine-data/shapecombine_renametable.png)
+![](media/desktop-shape-and-combine-data/shapecombine_renametable2.png)
 
 好了，我们已按所需的范围调整了数据。 接下来，让我们连接到其他数据源，然后合并数据。
 
@@ -126,11 +148,11 @@ ms.lasthandoff: 02/24/2018
 
 <http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
-从查询编辑器的**开始**功能区中，选择**新源 \> Web**，然后键入地址并选择“确定”，随后导航器会显示其在此网页上找到的信息。
+从查询编辑器的“开始”功能区中，选择“新源”\>“Web”，然后键入地址并选择“连接”，随后导航器会显示其在此网页上找到的信息。
 
- ![](media/desktop-shape-and-combine-data/designer_gsg_usstateabbreviationsnavigator.png)
+ ![](media/desktop-shape-and-combine-data/designer_gsg_usstateabbreviationsnavigator2.png)
 
-我们选择**编辑表**，因为它包含所需数据，但它需要大量调整才能将表格中的数据削减到我们想要的数据。
+我们选择“代码和缩写...”，因为它包含所需数据，但它需要大量调整才能将表格中的数据削减到我们想要的数据。
 
 > [!TIP]
 > 是否有更快或更容易的方法完成以下步骤？ 是，我们可以创建两个表之间的关系并基于该关系调整数据。 以下步骤对了解表的用法仍非常有用，但需知道关系可以帮助你快速使用来自多个表的数据。
@@ -139,11 +161,14 @@ ms.lasthandoff: 02/24/2018
 
 若要调整此数据，我们需要执行以下步骤：
 
-* 删除前两行 - 它们包含网页表格创建方式的结果，不是所需的行。 从**开始**功能区中，选择**减少行 \> 删除行 \> 删除前几行**。
+* 删除顶行 - 它包含网页表格创建方式的结果，不是所需的行。 从**开始**功能区中，选择**减少行 \> 删除行 \> 删除前几行**。
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removetoprows.png)
 
 将显示**删除前几行**窗口，让你执行要删除几行。
+
+>[!NOTE]
+>如果 Power BI 意外导入表标题作为数据表中的行，可以从“主页”选项卡，或者从功能区的“转换”选项卡选择“将第一行用作标题”，以便修复表。
 
 * 删除底部的 26 行 - 它们全是地区，无需包含在内。 从**开始**功能区中，选择**减少行 \> 删除行 \> 删除后几行**。
 
@@ -153,13 +178,9 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* 删除一些不需要的列 - 只需将州映射到其两个字母的官方缩写，因此可删除以下列**Column2****Column3**然后是 **Column5** 到 **Column10**。 首先选择 Column2，然后按住 **CTRL** 键并选择要删除的其他列（可由此选择多个不相邻的列）。 从功能区的“开始”选项卡上，选择**删除列 \> 删除列**。
+* 删除一些不需要的列 - 只需将州映射到其两个字母的官方缩写，因此可删除以下列：Column1、Column3、Column4，然后是 Column6 到 Column11。 首先选择“Column1”，然后按住 CTRL 键并选择要删除的其他列（可由此选择多个不相邻的列）。 从功能区的“开始”选项卡上，选择**删除列 \> 删除列**。
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
-
-* 将第一行用作标题 - 由于已删除前 3 列，所以当前的首列就是所需的标题。 可从**开始**选项卡，或从功能区的**转换**选项卡中选择 **将第一行用作标题**。
-
-![](media/desktop-shape-and-combine-data/shapecombine_usefirstrowasheaders.png)
 
 >[!NOTE]
 >此时非常适合指出，查询编辑器中已应用步骤的序列很重要，可能会影响数据调整方式。 同时也必须考虑一个步骤对另一个后续步骤可能会有什么影响；如果你从“所应用步骤”中删除一个步骤，则由于查询中步骤序列的影响，后续步骤可能不会按原本所期望的进行操作。
@@ -185,11 +206,9 @@ ms.lasthandoff: 02/24/2018
 
 系统可能会提示你设置隐私级别，以确保对数据进行合并，且不包括或不传输无需传输的数据。
 
-![](media/desktop-shape-and-combine-data/shapecombine_mergequeriesb.png)
-
 接下来将显示**合并**窗口，提示我们选择想要合并到所需表中的表格，然后选择要用于合并的匹配列。 从 *RetirementStats* 表（查询）中选择州，然后选择 *StateCodes* 查询（本例中很简单，因为仅有一个其他查询 - 在连接到多个数据源时，存在可从中选择的多个查询）。 在选择正确的匹配列时（*RetirementStats* 中的**州**，*StateCodes* 中的**州名**），**合并**窗口如下所示，且**确定**按钮已启用。
 
-![](media/desktop-shape-and-combine-data/shapecombine_merge.png)
+![](media/desktop-shape-and-combine-data/shapecombine_merge2.png)
 
 在查询的结尾会创建 **NewColumn**，它是与现有查询合并的表（查询）内容。 来自合并查询的所有列均压缩到 **NewColumn** 中，但可选择**展开**数据表并包含所需的任意列。
 
@@ -206,7 +225,7 @@ ms.lasthandoff: 02/24/2018
 
 我们现在有合并两个数据源的单一查询 （表格），其中每个数据源都已经过调整以符合我们的需求。 此查询可以作为许多其他相关数据连线的基础 – 例如任何州的住房成本统计数据、人口统计数据或工作机会。
 
-若要应用更改和关闭查询编辑器，请从**开始**功能区选项卡中选择“关闭并应用”。转换后的数据集将在 Power BI Desktop 中显示，可随时用于创建报表。
+若要应用更改和关闭查询编辑器，请从“主页”功能区选项卡中选择“关闭并应用”。转换后的数据集将在 Power BI Desktop 中显示，可随时用于创建报表。
 
 ![](media/desktop-shape-and-combine-data/shapecombine_closeandapply.png)
 

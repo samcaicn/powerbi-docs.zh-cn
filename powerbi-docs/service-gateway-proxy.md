@@ -1,15 +1,15 @@
 ---
-title: "为本地数据网关配置代理设置"
-description: "有关本地数据网关代理设置配置的信息。"
+title: 为本地数据网关配置代理设置
+description: 有关本地数据网关代理设置配置的信息。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 27b8d36ed870501170efdb81c40edb6cb4727499
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f6bfc47e7b74d9b17479a2ac7fc3dbc3f3e76816
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>为本地数据网关配置代理设置
 你的工作环境可能要求你通过代理访问 Internet。 这会阻止本地数据网关连接到该服务。
@@ -70,19 +70,19 @@ superuser.com 上的以下文章讨论了尝试确定网络上有无代理的可
 > 
 
 ### <a name="change-the-on-premises-data-gateway-service-account"></a>更改本地数据网关服务帐户
-1. 更改本地数据网关服务的 Windows 服务帐户。
+1. 更改“本地数据网关服务”的 Windows 服务帐户。
    
     此服务的默认帐户是 NT SERVICE\PBIEgwService。 你会想要在 Active Directory 域内将其更改为域用户帐户。 或者，你会想要使用托管服务帐户以避免更改密码。
    
     你会想要在 Windows 服务属性中的“登录”选项卡上更改帐户。
-2. 重启本地数据网关服务。
+2. 重启“本地数据网关服务”。
    
     从管理员命令提示符中，发出以下命令。
    
         net stop PBIEgwService
    
         net start PBIEgwService
-3. 启动本地数据网关配置器。 可选择 Windows“开始”按钮，然后搜索“本地数据网关”。
+3. 启动“本地数据网关配置器”。 可选择 Windows“开始”按钮，然后搜索“本地数据网关”。
 4. 登录到 Power BI。
 5. 使用恢复密钥还原网关。
    

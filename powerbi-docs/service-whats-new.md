@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: c4f05645f98e67fcf81c61d91bfdccb9612ed46b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 7b8d3b4202ff08b5b97765fe20abe37c41518a31
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/30/2018
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
@@ -82,7 +82,7 @@ ms.lasthandoff: 03/28/2018
 ### <a name="july-2017"></a>2017 年 7 月
 * 支持在仪表板上进行[电子邮件订阅](service-report-subscribe.md)。
 * 使用性能检查器检查和诊断仪表板的加载时间较差的原因。
-* 雪花型和 SAP BusinessWarehouse DirectQuery 现支持本地数据网关。
+* Snowflake 和 SAP BusinessWarehouse DirectQuery 现支持用于本地数据网关。
 * 新增[用于管理 Power BI 服务中数据刷新的 API](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)。
 
 ### <a name="june-2017"></a>2017 年 6 月

@@ -1,15 +1,15 @@
 ---
-title: "教程：在 Power BI Desktop 中分析 Excel 和 OData 源中的销售数据"
-description: "教程：分析来自 Excel 和 OData 源的销售数据"
+title: 教程：在 Power BI Desktop 中分析 Excel 和 OData 源中的销售数据
+description: 教程：分析来自 Excel 和 OData 源的销售数据
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>教程：分析来自 Excel 和 OData 源的销售数据
 使用 **Power BI Desktop**，你可以连接到各种类型的不同数据源，然后以形成有趣和令人信服的数据分析和可视化效果的方式对它们进行合并和调整。 在本教程中，你将了解如何合并来自两个数据源的数据。 
@@ -133,7 +133,7 @@ Power BI Desktop 可让你创建针对正在导入的列的计算，因此你可
 1. 在**添加列**功能区选项卡上，单击**添加** **自定义列**。
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. 在**添加自定义列**对话框中的**自定义列公式**文本框中，输入 **[Order\_Details.UnitPrice] \* [Order\_Details.Quantity]**。
+2. 在“添加自定义列”对话框的“自定义列公式”文本框中，输入“[Order\_Details.UnitPrice] \* [Order\_Details.Quantity]”
 3. 在**新的列名称**文本框中输入 **LineTotal**。
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)

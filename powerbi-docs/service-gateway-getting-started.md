@@ -1,15 +1,15 @@
 ---
-title: "Power BI 网关入门"
-description: "了解有关 Power BI 数据网关的基础知识。"
+title: Power BI 网关入门
+description: 了解有关 Power BI 数据网关的基础知识。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: e56af5ae1c59afc7d7aef01450bb1c778eb70b14
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bf01bb7764db09d6afe24e520f2d185c191ef56c
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Power BI 网关入门
 欢迎使用 Power BI Gateway 入门指南。 本文中简短的分步过程可帮助你熟悉网关概念、它的工作原理，以及如何安装、配置和运行你自己的网关。  
