@@ -770,6 +770,8 @@
           href: desktop-insights.md
         - name: Power BI Desktop 中的切片器
           href: desktop-slicers.md
+        - name: 使用 Power BI 中的按钮
+          href: desktop-buttons.md
         - name: Power BI 中的书签
           href: desktop-bookmarks.md
         - name: 创建自定义报表工具提示（预览）
