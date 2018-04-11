@@ -1,15 +1,15 @@
 ---
-title: "共享链接到 OneDrive 中 Excel 文件的仪表板 - Power BI"
-description: "阅读有关共享连接到 OneDrive for Business 上的 Excel 工作薄（磁贴从该工作簿固定）的仪表板的信息。"
+title: 共享链接到 OneDrive 中 Excel 文件的仪表板 - Power BI
+description: 阅读有关共享连接到 OneDrive for Business 上的 Excel 工作薄（磁贴从该工作簿固定）的仪表板的信息。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

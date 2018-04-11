@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 连接到 Microsoft Azure Consumption Insights"
-description: "适用于 Power BI 的 Microsoft Azure Consumption Insights"
+title: 使用 Power BI 连接到 Microsoft Azure Consumption Insights
+description: 适用于 Power BI 的 Microsoft Azure Consumption Insights
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

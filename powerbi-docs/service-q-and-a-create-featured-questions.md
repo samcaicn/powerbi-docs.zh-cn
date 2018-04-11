@@ -1,16 +1,16 @@
 ---
-title: "如何创建 Power BI 问答的特别推荐问题"
-description: "有关如何创建 Power BI 问答的精选问题的文档"
+title: 如何创建 Power BI 问答的特别推荐问题
+description: 有关如何创建 Power BI 问答的精选问题的文档
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: E1mIAyEXuF4
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

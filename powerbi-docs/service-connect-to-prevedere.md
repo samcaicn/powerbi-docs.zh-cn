@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 连接到 Prevedere"
-description: "适用于 Power BI 的 Prevedere"
+title: 使用 Power BI 连接到 Prevedere
+description: 适用于 Power BI 的 Prevedere
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

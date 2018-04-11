@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 连接到 Ziosk 调查分析"
-description: "适用于 Power BI 的 Ziosk"
+title: 使用 Power BI 连接到 Ziosk 调查分析
+description: 适用于 Power BI 的 Ziosk
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

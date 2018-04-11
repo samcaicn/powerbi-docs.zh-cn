@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 连接到 Marketo"
-description: "适用于 Power BI 的 Marketo"
+title: 使用 Power BI 连接到 Marketo
+description: 适用于 Power BI 的 Marketo
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

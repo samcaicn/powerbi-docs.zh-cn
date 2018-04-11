@@ -1,15 +1,15 @@
 ---
-title: "如何有效结合使用 Excel 数据和 Power BI 问答"
-description: "如何有效结合使用数据和 Power BI 问答"
+title: 如何有效结合使用 Excel 数据和 Power BI 问答
+description: 如何有效结合使用数据和 Power BI 问答
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

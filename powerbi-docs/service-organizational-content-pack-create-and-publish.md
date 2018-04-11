@@ -1,15 +1,15 @@
 ---
-title: "创建和发布组织内容包 - Power BI"
-description: "本教程创建一个组织内容包，限制对特定组的访问，并将其发布到 Power BI 上的组织内容包库。"
+title: 创建和发布组织内容包 - Power BI
+description: 本教程创建一个组织内容包，限制对特定组的访问，并将其发布到 Power BI 上的组织内容包库。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,13 +1,13 @@
 ---
-title: "与同事和其他人共享 Power BI 仪表板和报表"
-description: "如何与组织内外的同事共享 Power BI 仪表板和报表，以及你需要了解的关于共享的内容。"
+title: 与同事和其他人共享 Power BI 仪表板和报表
+description: 如何与组织内外的同事共享 Power BI 仪表板和报表，以及你需要了解的关于共享的内容。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: 0tUwn8DHo3s
 qualityfocus: monitoring
 qualitydate: 08/14/2017

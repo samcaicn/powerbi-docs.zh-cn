@@ -1,12 +1,12 @@
 ---
-title: "在 Power BI 中安装和使用包含仪表板和报表的应用"
-description: "在 Power BI 中，应用将相关仪表板和报表汇总到一处。"
+title: 在 Power BI 中安装和使用包含仪表板和报表的应用
+description: 在 Power BI 中，应用将相关仪表板和报表汇总到一处。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 10/02/2017
 ms.service: powerbi

@@ -1,15 +1,15 @@
 ---
-title: "连接到用于 Power BI 应用工作区的 OneDrive 中的文件"
-description: "阅读有关在 Power BI 应用工作区的 OneDrive 上存储并连接到 Excel、CSV 和 Power BI Desktop 文件的信息。"
+title: 连接到用于 Power BI 应用工作区的 OneDrive 中的文件
+description: 阅读有关在 Power BI 应用工作区的 OneDrive 上存储并连接到 Excel、CSV 和 Power BI Desktop 文件的信息。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

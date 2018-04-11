@@ -1,15 +1,15 @@
 ---
-title: "SQL 数据库审核内容包"
-description: "适用于 Power BI 的 SQL 数据库审核内容包"
+title: SQL 数据库审核内容包
+description: 适用于 Power BI 的 SQL 数据库审核内容包
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

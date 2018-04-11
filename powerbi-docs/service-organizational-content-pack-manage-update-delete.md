@@ -1,15 +1,15 @@
 ---
-title: "组织内容包：管理和更新"
-description: "详细了解如何在 Power BI 中管理、更新和删除组织内容包。"
+title: 组织内容包：管理和更新
+description: 详细了解如何在 Power BI 中管理、更新和删除组织内容包。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

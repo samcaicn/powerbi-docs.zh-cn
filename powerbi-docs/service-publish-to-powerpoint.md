@@ -1,15 +1,15 @@
 ---
-title: "将报表从 Power BI 导出到 PowerPoint（预览版）"
-description: "了解如何将 Power BI 报表导出到 PowerPoint。"
+title: 将报表从 Power BI 导出到 PowerPoint（预览版）
+description: 了解如何将 Power BI 报表导出到 PowerPoint。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
