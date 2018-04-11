@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: 4faf32419c0b02ceadb495832ed90d312b823773
-ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
+ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/29/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>将 Power BI 仪表板、磁贴或报表嵌入主权云应用程序中
 了解如何在为客户嵌入内容时，通过调用 Power BI .Net SDK 和 Power BI JavaScript API，将仪表板、磁贴或报表集成到或嵌入 Web 应用中。 这通常是 ISV 方案。
@@ -54,7 +54,7 @@ Power BI 还支持主权（私有）云。 每个主权云都有自己的附属�
     2. 在 Web.config 文件中更新 clientid（本地应用客户端 ID）、groupid、用户（你的主用户）和密码。
     3. 如下所示，在 web.config 文件中添加 GCC 参数。
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://analysis.usgovcloudapi.net/powerbi/api" />
@@ -69,7 +69,7 @@ Power BI 还支持主权（私有）云。 每个主权云都有自己的附属�
     2. 在 Web.config 文件中更新 clientid（本地应用客户端 ID）、groupid、用户（你的主用户）和密码。
     3. 如下所示，在 web.config 文件中添加 DoDCON 参数。
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
@@ -84,7 +84,7 @@ Power BI 还支持主权（私有）云。 每个主权云都有自己的附属�
     2. 在 Web.config 文件中更新 clientid（本地应用客户端 ID）、groupid、用户（你的主用户）和密码。
     3. 如下所示，在 web.config 文件中添加 DoDCON 参数。
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://mil.analysis.usgovcloudapi.net/powerbi/api" />
@@ -99,7 +99,7 @@ Power BI 还支持主权（私有）云。 每个主权云都有自己的附属�
     2. 在 Web.config 文件中更新 clientid（本地应用客户端 ID）、groupid、用户（你的主用户）和密码。
     3. 在 web.config 文件中添加 Power BI for Germany 云参数，如下所示。
 
-```
+```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://analysis.cloudapi.de/powerbi/api" />
@@ -142,7 +142,7 @@ Power BI 还支持主权（私有）云。 每个主权云都有自己的附属�
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>使用访问令牌创建 Power BI 客户端
 建议使用访问令牌创建 Power BI 客户端对象，以便能够与 Power BI API 进行交互。 为此，使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken。
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.Rest;
 using Microsoft.PowerBI.Api.V2;
@@ -163,7 +163,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 **仪表板**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -176,7 +176,7 @@ Dashboard dashboard = dashboards.Value.FirstOrDefault();
 
 **磁贴**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -197,7 +197,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 **报表**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -220,7 +220,7 @@ Report report = reports.Value.FirstOrDefault();
 
 **仪表板**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -239,7 +239,7 @@ var embedConfig = new EmbedConfig()
 
 **磁贴**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -259,7 +259,7 @@ var embedConfig = new TileEmbedConfig()
 
 **报表**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -282,7 +282,7 @@ var embedConfig = new EmbedConfig()
 
 **Views\Home\EmbedDashboard.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="dashboardContainer"></div>
 <script>
@@ -320,7 +320,7 @@ var embedConfig = new EmbedConfig()
 
 **Views\Home\EmbedTile.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="tileContainer"></div>
 <script>
@@ -362,7 +362,7 @@ var embedConfig = new EmbedConfig()
 
 **Views\Home\EmbedReport.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="reportContainer"></div>
 <script>

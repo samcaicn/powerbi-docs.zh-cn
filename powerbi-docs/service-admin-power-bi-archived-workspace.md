@@ -1,28 +1,28 @@
 ---
-title: "Power BI 存档工作区"
-description: "管理 Office 365 租户之后的 Power BI 存档工作区"
+title: Power BI 存档工作区
+description: 管理 Office 365 租户之后的 Power BI 存档工作区
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 34625c6c093e6ad4255b6e9e153c84d4cb3881d4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 254857072df2b06fbdeb2af0a53d262e98f8f254
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="power-bi-archived-workspace"></a>Power BI 存档工作区
 借助 Power BI，任何人都可以在几分钟内进行注册并开始使用服务。  组织的 IT 部门以后可以选择针对组织中的用户接管 Power BI 的管理。  如果进行这种接管，则你会得益于对组织中的用户和权限进行集中管理，并且你能够利用简化登录（使用在组织中用于其他服务的相同用户名和密码）。 
