@@ -1,40 +1,33 @@
 ---
-title: "在 Power BI Desktop 中连接到 Adobe Analytics（预览版）"
-description: "轻松连接并使用 Adobe Analytics Power BI Desktop"
+title: 在 Power BI Desktop 中连接到 Adobe Analytics
+description: 轻松连接并使用 Adobe Analytics Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/09/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: efd6d066e2f98f86248730917c2f4aa0c8a39983
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 4488cd373fae22c4494ac697602536496ffc9b00
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
-# <a name="connect-to-adobe-analytics-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中连接到 Adobe Analytics（预览版）
+# <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Adobe Analytics 
 在 Power BI Desktop 中，可连接到“Adobe Analytics”并使用基础数据（就像在 Power BI Desktop 中使用其他所有数据源一样）。 
 
 ![从 Adobe Analytics 中获取数据](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
-
-## <a name="enable-the-adobe-analytics-connector-preview"></a>启用 Adobe Analytics 连接器预览版 
-由于 Adobe Analytics 连接器当前为预览版，因此启用预览版功能之后，才能在“获取数据”窗口中使用连接器。 若要启用连接器的预览版功能，请在 Power BI Desktop 中依次选择“文件”、“选项和设置”、“选项”和“预览版功能”，再选中“书签”旁的复选框。 
-
-![在“选项”中启用 Adobe Analytics 连接器预览版](media/desktop-connect-adobe-analytics/connect-adobe-analytics_02.png)
-
-选择启用 Adobe Analytics 连接器预览版后，需重启 Power BI Desktop。
 
 ## <a name="connect-to-adobe-analytics-data"></a>连接到 Adobe Analytics 数据
 若要连接到 Adobe Analytics 数据库，请在 Power BI Desktop 中的“主页”功能区选择“获取数据”。 在左侧类别中选择“联机服务”，此时显示“Adobe Analytics 连接器”。
