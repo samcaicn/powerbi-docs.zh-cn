@@ -1,11 +1,11 @@
 ---
-title: "为 Power BI 激活 Cortana"
-description: "对 Power BI 使用 Cortana 以从你的数据中获取答案。 为每个 Power BI 数据集激活 Cortana，然后让 Cortana 能够从 Windows 设备访问你的数据集。"
+title: 为 Power BI 激活 Cortana
+description: 对 Power BI 使用 Cortana 以从你的数据中获取答案。 为每个 Power BI 数据集激活 Cortana，然后让 Cortana 能够从 Windows 设备访问你的数据集。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

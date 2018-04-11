@@ -1,11 +1,11 @@
 ---
-title: "使用 Cortana 快速查找和查看 Power BI 报表和仪表板"
-description: "对 Power BI 使用 Cortana 以从你的数据中获取答案。 当前适用于报表和仪表板。"
+title: 使用 Cortana 快速查找和查看 Power BI 报表和仪表板
+description: 对 Power BI 使用 Cortana 以从你的数据中获取答案。 当前适用于报表和仪表板。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

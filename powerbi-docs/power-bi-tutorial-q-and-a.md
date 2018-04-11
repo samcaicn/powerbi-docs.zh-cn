@@ -1,12 +1,12 @@
 ---
-title: "教程 - 在仪表板或报表中使用 Power BI 问答"
-description: "介绍了如何使用 Power BI 问答在仪表板或报表中新建可视化效果的教程。"
+title: 教程 - 在仪表板或报表中使用 Power BI 问答
+description: 介绍了如何使用 Power BI 问答在仪表板或报表中新建可视化效果的教程。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,16 +1,16 @@
 ---
-title: "对用于 Power BI 的 Cortana 进行故障排除"
-description: "如果在将 Cortana 与 Power BI 结合使用时遇到问题，请尝试这些建议。"
+title: 对用于 Power BI 的 Cortana 进行故障排除
+description: 如果在将 Cortana 与 Power BI 结合使用时遇到问题，请尝试这些建议。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

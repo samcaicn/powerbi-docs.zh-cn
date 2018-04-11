@@ -1,15 +1,15 @@
 ---
-title: "组织内容包：访问和复制"
-description: "阅读有关在 Power BI 中创建组织内容包的副本并对其访问权限进行故障排除的信息"
+title: 组织内容包：访问和复制
+description: 阅读有关在 Power BI 中创建组织内容包的副本并对其访问权限进行故障排除的信息
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

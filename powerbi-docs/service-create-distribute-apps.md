@@ -1,14 +1,14 @@
 ---
-title: "在 Power BI 中创建和发布包含仪表板和报表的应用"
-description: "了解如何创建和发布应用（仪表板和报表的集合，旨在为组织提供关键指标）。"
+title: 在 Power BI 中创建和发布包含仪表板和报表的应用
+description: 了解如何创建和发布应用（仪表板和报表的集合，旨在为组织提供关键指标）。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

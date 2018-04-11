@@ -1,15 +1,15 @@
 ---
-title: "连接到 Application Insights 连接到 Power BI"
-description: "适用于 Power BI 的 Application Insights"
+title: 连接到 Application Insights 连接到 Power BI
+description: 适用于 Power BI 的 Application Insights
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

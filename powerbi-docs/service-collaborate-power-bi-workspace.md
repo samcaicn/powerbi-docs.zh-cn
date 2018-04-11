@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI 应用工作区中展开协作"
-description: "了解如何利用 Office 365 服务（如共享 OneDrive for Business 上的文件、Exchange 中的对话、日历和任务）对应用工作区中的 Power BI Desktop 文件展开协作。"
+title: 在 Power BI 应用工作区中展开协作
+description: 了解如何利用 Office 365 服务（如共享 OneDrive for Business 上的文件、Exchange 中的对话、日历和任务）对应用工作区中的 Power BI Desktop 文件展开协作。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

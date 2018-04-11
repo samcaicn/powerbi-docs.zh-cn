@@ -1,15 +1,15 @@
 ---
-title: "Power BI 服务和 Power BI Desktop 中的 Power BI 问答概述"
-description: "Power BI 问答自然语言查询的文档概述主题。"
+title: Power BI 服务和 Power BI Desktop 中的 Power BI 问答概述
+description: Power BI 问答自然语言查询的文档概述主题。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

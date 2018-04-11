@@ -1,15 +1,15 @@
 ---
-title: "Power BI 中的组织内容包简介"
-description: "阅读有关将仪表板、报表、Excel 工作簿和数据集打包到组织内容包中，并将其与同事共享的信息。"
+title: Power BI 中的组织内容包简介
+description: 阅读有关将仪表板、报表、Excel 工作簿和数据集打包到组织内容包中，并将其与同事共享的信息。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

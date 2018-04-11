@@ -1,15 +1,15 @@
 ---
-title: "与组织内容包断开连接 - Power BI"
-description: "了解如何通过删除 Power BI 中的数据集来解除与组织内容包的连接。"
+title: 与组织内容包断开连接 - Power BI
+description: 了解如何通过删除 Power BI 中的数据集来解除与组织内容包的连接。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

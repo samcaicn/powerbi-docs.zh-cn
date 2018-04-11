@@ -1,15 +1,15 @@
 ---
-title: "查找并连接到组织内容包 - Power BI"
-description: "在 Power BI 中查找和打开组织内容包"
+title: 查找并连接到组织内容包 - Power BI
+description: 在 Power BI 中查找和打开组织内容包
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
