@@ -1,15 +1,15 @@
 ---
-title: "借助 Power BI API 可以做什么"
-description: "借助 Power BI API 可以做什么"
+title: 借助 Power BI API 可以做什么
+description: 借助 Power BI API 可以做什么
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -17,13 +17,13 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: maghan
-ms.openlocfilehash: ae8654df2868a6499dfd4e4626d5f91b67543c58
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: a65831e9ca04170464925efd13f02e43ad8027f0
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/06/2018
 ---
-# <a name="what-can-developers-do-with-power-bi"></a>开发人员可以使用 Power BI 做什么？
+# <a name="what-can-developers-do-with-the-power-bi-api"></a>开发人员可以使用 Power BI API 做什么？
 Power BI 显示可从众多不同数据源创建和实时更新的交互式仪表板。 通过使用支持 REST 调用的任何编程语言，可以实时创建与 Power BI 仪表板集成的应用。 此外可以将 Power BI 磁贴和报表集成到应用。
 
 开发人员还可以构建他们自己的数据可视化效果（可用于交互报表和仪表板）。 

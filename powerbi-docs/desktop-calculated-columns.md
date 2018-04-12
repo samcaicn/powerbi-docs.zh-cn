@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI Desktop 中的计算列"
-description: "Power BI Desktop 中的计算列"
+title: 使用 Power BI Desktop 中的计算列
+description: Power BI Desktop 中的计算列
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e9d1820bff2768f2169530ec49cfa2963bff9baa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a47e707969b592ec27c79558699638ce14f8640
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>使用 Power BI Desktop 中的计算列
 凭借计算列，你可以将新数据添加到模型中已存在的表。 但请勿从数据源查询并将值加载到新列中，而是创建用于定义列值的数据分析表达式 (DAX) 公式。 在 Power BI Desktop 中，使用“报表”视图中的“新建列”功能创建计算列。
 
-与使用查询编辑器中的“添加自定义列”创建为查询的一部分的自定义列不同，在报表视图或数据视图中创建的计算列以你已加载到模型中的数据为基础。 例如，你可以选择联接两个不同但相关的表中的值、执行添加或提取子字符串。
+与使用查询编辑器中的“添加自定义列”创建为查询的一部分的自定义列不同，在报表视图或数据视图中创建的计算列以你已加载到模型中的数据为基础。 例如，可以选择连接两个不同但相关的表中的值、执行添加或提取子字符串。
 
 像任何其他字段一样，你创建的计算列将显示在“字段”列表中，但它们将带有特殊图标，显示其值为公式的结果。 你可以随意对列进行命名，并将其像其他字段一样添加到报表可视化效果。
 
@@ -54,7 +54,7 @@ Jeff 右键单击“地理”表，然后单击“新建列”。 然后他在�
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-他可以将它与货运数量一起添加到他的报表画布。 非常快而且不费吹灰之力，Jeff 此刻便拥有了“城市，州”字段。 他可以添加几乎任何类型的可视化效果。 Jeff 甚至能够看到，当他创建地图可视化时，Power BI Desktop 甚至知道如何读取新建列中的“州，城市”值。
+他可以将它与货运数量一起添加到他的报表画布。 仅需一点努力，很快 Jeff 有了“城市”、“州”字段，他可以添加几乎任何类型的可视化效果。 Jeff 能够看到，当他创建地图可视化时，Power BI Desktop 甚至知道如何读取新建列中的“城市”、“州”值。
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
