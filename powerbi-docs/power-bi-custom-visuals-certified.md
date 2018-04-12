@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 7e75eacac61779a1ecd714d009a61fe4306e2885
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: ceb101d02fcacecacb8410052b2d9eaba01d46fd
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>让自定义视觉对象取得认证
 ## <a name="what-is-meant-by-certified"></a>取得认证是指什么？
@@ -129,7 +129,7 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 | [转速计](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [视频](https://youtu.be/C3OXdETbS9o) |
 | [文本筛选器](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [MAQ 软件文本包装器](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
-| [温度计](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
+| [MAQ 软件温度计](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380847) | [视频](https://youtu.be/SPX9mgrAdBc) |
 | [时间线切片器](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [视频](https://youtu.be/ozMtZ4_NZ10) |
 | [飓风图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [视频](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [MAQ 软件贸易图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [视频](https://youtu.be/xhTR6y6J9Ko) |

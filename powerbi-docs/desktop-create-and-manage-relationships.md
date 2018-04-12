@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中创建和管理关系"
-description: "在 Power BI Desktop 中创建和管理关系"
+title: 在 Power BI Desktop 中创建和管理关系
+description: 在 Power BI Desktop 中创建和管理关系
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: cd0f89766a07d468942735d5da0d99e5c6d1c87f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0e9d1ed73abcd7234a96b28da638db649130c08e
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中创建和管理关系
 导入多个表时，你很可能要使用所有这些表中的数据来执行一些分析。 为准确计算结果并在报表中显示正确信息，这些表格之间的关系是必需的。 Power BI Desktop 可轻松创建这些关系。 事实上，在大多数情况下你无需执行任何操作，自动检测功能将替你执行。 但在某些情况下，你可能需要自行创建关系，或者可能需要对关系进行一些更改。 无论哪种方法，都有必要了解 Power BI Desktop 中的关系及其创建和编辑方式。
@@ -40,35 +40,35 @@ ms.lasthandoff: 02/24/2018
 2. 在**创建关系**对话框的第一个表格下拉列表中，选择一个表格，然后选择要在关系中使用的列。
 3. 在第二个表格下拉列表中，选择另一个要在关系中使用额表格，再选择要使用的其他列，然后单击**确定**。
 
-![](media/desktop-create-and-manage-relationships/manualrelationship.gif)
+![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
-默认情况下，Power BI Desktop 会自动配置新关系的基数（方向）、交叉筛选方向和活动属；但必要时，可在高级选项中对其进行更改。 若要了解更多信息，请参阅本文后面的“了解高级选项”部分。
+默认情况下，Power BI Desktop 会自动配置新关系的基数（方向）、交叉筛选器方向和活动属性；但必要时，可对其进行更改。 若要了解更多信息，请参阅本文后面的“了解其他选项”部分。
 
 ## <a name="edit-a-relationship"></a>编辑关系
 1. 在**开始**选项卡上，单击**管理关系**。
 2. 在**管理关系**对话框中，选择关系，然后单击**编辑**。
 
-## <a name="configure-advanced-options"></a>配置高级选项
-创建或编辑关系时，可配置高级选项。  默认情况下，会根据最佳估计自动配置高级选项。 基于列中的数据，每个关系的此类选项可能不同。
+## <a name="configure-additional-options"></a>配置其他选项
+创建或编辑关系时，可配置其他选项。  默认情况下，会根据最佳估计自动配置其他选项。 基于列中的数据，每个关系的此类选项可能不同。
 
 ## <a name="cardinality"></a>基数
 **多对一 (\*:1)** - 这是最常见的默认类型。 这意味着一个表中的列可具有一个值的多个实例，而另一个相关表（常称为查找表）仅具有一个值的一个实例。
 
 **一对一 (1:1)** -这意味着一个表中的列仅具有特定值的一个实例，而另一个相关表也是如此。
 
-有关何时更改基数的更多详细信息，请参阅本文后面的“了解高级选项”部分。
+有关何时更改基数的更多详细信息，请参阅本文后面的“了解其他选项”部分。
 
-## <a name="cross-filter-direction"></a>交叉筛选方向
-**双向** - 这是最常见的默认方向。 这意味着为进行筛选，两个表均被视为如同是一个表。  这非常适用于其周围具有多个查找表的单个表。  例如，具有部门查找表的实际销售额表。  这通常称为星型架构配置（一个具有多个查找表的中心表。）但是，如果你的两个或更多表格也具有查找表（部分查找表共有），则“双向”设置不适合。  继续讲之前的示例，在本例中你还一个预算销售表，它记录了每个部门的目标预算。  并且，部门表格同时连接到标售表和预算表。  对于这种配置，请避免“双向”设置。
+## <a name="cross-filter-direction"></a>交叉筛选器方向
+**双向** - 这是最常见的默认方向。 这意味着为进行筛选，两个表均被视为如同是一个表。  这非常适用于其周围具有多个查找表的单个表。  例如，具有部门查找表的实际销售额表。  这通常称为星型架构配置（一个具有多个查找表的中心表）。但是，如果你的两个或更多表格也具有查找表（部分查找表共有），则“双向”设置不适合。  继续讲之前的示例，在本例中你还一个预算销售表，它记录了每个部门的目标预算。  并且，部门表格同时连接到标售表和预算表。  对于这种配置，请避免“双向”设置。
 
 **单向** - 这意味着连接表中的筛选选项适用于将求值总和的表格。 如果你在 Excel 2013 或更早的数据模型中导入了 Power Pivot，则所有关系都将具有单个方向。 
 
-有关何时更改交叉筛选方向的更多详细信息，请参阅本文后面的“了解高级选项”部分。
+有关何时更改交叉筛选器方向的更多详细信息，请参阅本文后面的“了解其他选项”部分。
 
-## <a name="make-this-relationship-active"></a>激活此关系
-勾选后，这意味着此关系用作活动的默认关系。  如果两个表格之间存在多个关系，则 Power BI Desktop 可通过活动关系自动创建包含这两个表的可视化对象。
+## <a name="make-this-relationship-active"></a>使此关系可用
+勾选后，这意味着此关系用作活动的默认关系。  如果两个表格之间存在多个关系，则 Power BI Desktop 可通过活动关系自动创建包含这两个表的可视化效果。
 
-有关何时激活特定关系的更多详细信息，请参阅本文后面的“了解高级选项”部分。
+有关何时激活特定关系的更多详细信息，请参阅本文后面的“了解其他选项”部分。
 
 ## <a name="understanding-relationships"></a>了解关系
 使用一种关系将两个表连接在一起之后，就可如同单个表一样使用两个表中的数据，从而无需担忧关系详细信息，也不必在导入前将这些表合并成单个表。  很多情况下，Power BI Desktop 可自动为你创建关系，因此甚至可能无需再自行创建这些关系。 但如果 Power BI Desktop 无法颇有自信地确定两个表之间存在关系，则不会自动创建关系。 在此情况下，将需要由你来创建关系。   
@@ -123,11 +123,11 @@ ms.lasthandoff: 02/24/2018
 
 为什么是这些列？ 嗯，如果查看 ProjectHours 中的项目列，可看到蓝色、红色、黄色、橙色等。 事实上，显示了多个具有相同值的行。 项目实际上具有多个颜色值。
 
-如果查看 CompanyProject 表中的项目名称列，可看到每个项目仅具有一个颜色值。 这个表中的每个颜色值都是唯一的，这一点很重要，因为我们可在这两个表之间创建关系。 此情况下，可创建多对一的关系。 在多对一的关系中，一个表中至少有一个列必须包含唯一值。 某些关系具有一些高级选项，我们将稍后探讨这一点；但现在，让我们来为每个表创建一个项目列之间的关系。
+如果查看 CompanyProject 表中的项目名称列，可看到每个项目仅具有一个颜色值。 这个表中的每个颜色值都是唯一的，这一点很重要，因为我们可在这两个表之间创建关系。 此情况下，可创建多对一的关系。 在多对一的关系中，一个表中至少有一个列必须包含唯一值。 某些关系具有一些其他选项，我们将稍后探讨这一点；但现在，让我们来为每个表创建一个项目列之间的关系。
 
 ### <a name="to-create-the-new-relationship"></a>若要创建新关系
 1. 单击**管理关系**。
-2. 在**管理关系**中，单击**新建**。 这将打开**创建关系**对话框，可在其中选择表格、列以及要用于关系的任意高级设置。
+2. 在**管理关系**中，单击**新建**。 这将打开“创建关系”对话框，可在其中选择表格、列以及要用于关系的任意其他设置。
 3. 在第一个表中，选择 **ProjectHours**，然后选择**项目**列。 这是关系中的多方。
 4. 在第二个表中，选择 **CompanyProject**，然后选择**项目名称**列。 这是关系中的单方。  
 5. 继续操作并单击**创建关系**和**管理关系**这两个对话框中的**确定**。
@@ -144,14 +144,14 @@ ms.lasthandoff: 02/24/2018
 
 按优先级汇总小时数时，Power BI Desktop 将查询 CompanyProject 查找表中唯一颜色值的每个实例，然后查询 CompanyProject 表中这些值的每个实例，最后计算每个唯一值的总和。
 
-事实上，如果使用自动检测功能，则非常容易，你可能甚至无需此操作。
+事实上，如果使用自动检测功能，则非常容易，可能甚至无需执行此操作。
 
-## <a name="understanding-advanced-options"></a>了解高级选项
-使用自动检测功能或手动创建关系时，Power BI Desktop 将基于表格中的数据自动配置高级选项。 通过扩展“创建/编辑关系”对话框中的高级选项，可配置高级关系属性。
+## <a name="understanding-additional-options"></a>了解其他选项
+使用自动检测功能或手动创建关系时，Power BI Desktop 将基于表格中的数据自动配置其他选项。 可在“创建/编辑关系”对话框的底部配置这些其他关系属性。
 
- ![](media/desktop-create-and-manage-relationships/candmrel_advancedoptions.png)
+ ![](media/desktop-create-and-manage-relationships/candmrel_advancedoptions2.png)
 
-正如我们所言，这些选项通常会自动设置，无需你的参与；但是，存在很多你可能想要自行配置高级选项的情况。
+正如我们所言，这些选项通常会自动设置，无需你的参与；但是，存在很多你可能想要自行配置这些选项的情况。
 
 ## <a name="future-updates-to-the-data-require-a-different-cardinality"></a>将来更新数据需要其他基数
 通常，Power BI Desktop 可自动确定用于关系的最佳基数。  如果由于知道数据将在未来更改，而确实需要重写自动设置，则可在基数控件中将其选中。 我们来看一个需要选择其他基数的示例。
@@ -179,7 +179,7 @@ ms.lasthandoff: 02/24/2018
 
 如果在 CompanyProjectPriority 的项目列和 ProjectBudget 表的获准项目列之间创建一个关系，如下所示：
 
- ![](media/desktop-create-and-manage-relationships/candmrel_create_compproj_appproj.png)
+ ![](media/desktop-create-and-manage-relationships/candmrel_create_compproj_appproj2.png)
 
 基数将自动设置为一对一 (1:1)，交叉筛选设为“双向”（如图所示）。  这是因为对于 Power BI Desktop，这两个表的最佳组合如下所示：
 
@@ -219,9 +219,9 @@ ms.lasthandoff: 02/24/2018
 | 蓝色 |A |80000 |2013/6/1 |
 | 红色 |B |90000 |2013/6/1 |
 
-在这个新的组合表中，项目列具有重复值。  刷新表格后，两个原始表将不再具有一对一的关系。 此情况下，由于我们知道将来的这些更新将导致项目列出现重复项，因此想要将基数设置额外多对一 (\*:1)，其中多方位于 ProjectBudget 表上，而单方位于 CompanyProject 表上。
+在这个新的组合表中，项目列具有重复值。  刷新表格后，两个原始表将不再具有一对一的关系。 此情况下，由于我们知道将来的这些更新将导致项目列出现重复项，因此想要将基数设置额外多对一 (\*:1)，其中多方位于 ProjectBudget 表上，而单方位于 CompanyProjectPriority 表上。
 
-## <a name="adjusting-cross-filter-direction-for-a-complex-set-of-tables-of-relationships"></a>对一组复杂的关系表调整交叉筛选方向
+## <a name="adjusting-cross-filter-direction-for-a-complex-set-of-tables-and-relationships"></a>为一组复杂的表和关系调整交叉筛选器方向
 对于大多数关系，交叉筛选方向均设置为“双向”。  但在某些更不常见的情况下，你可能需要将其设置为非默认值，例如如果你正在从较旧版本的 Power Pivot 中导入模型，而该版本中每个关系均设置为单向。 
 
 通过“双向”设置，Power BI Desktop 可将连接表的所有方面均视为如同是一个表。  然而在某些情况下，Power BI Desktop 无法将关系的交叉筛选方向设置为“双向”，同时还会保留一组可用于报表且语义不明的默认值。 如果关系的交叉筛选方向未设置为“双向”，这通常是因为它造成了多义性。  如果默认的交叉筛选设置不适用于你，请尝试将其设置为特定表格或“双向”。

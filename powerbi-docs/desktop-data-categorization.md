@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop 中的数据分类"
-description: "Power BI Desktop 中的数据分类"
+title: Power BI Desktop 中的数据分类
+description: Power BI Desktop 中的数据分类
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 00b70b6e56d11d0d7dda959f1983cc4631f53ff9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cc66655e49860160b43afa5d1acb688c37468212
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop 中的数据分类
 在 **Power BI Desktop** 中，你可以为列指定数据类别，以便让 Power BI Desktop 知道如何在可视化效果中处理其值。
@@ -40,7 +40,7 @@ Power BI Desktop 应该将 GeoCode 列中的代码视为国家/地区或美国�
 **指定数据类别**
 
 1. 在“报表视图”或“数据视图”中的**字段**列表中，选择你想要按不同的分类进行排序的字段。
-2. 在功能区的**数据工具建模**选项卡上，单击**数据类别：**下拉列表。  这将显示你可以从列中选择的数据类别列表。  如果某些选项不适用于列的当前数据类型，它们可能会被禁用。  例如，如果列为二进制数据类型，Power BI Desktop 将不允许你选择地理数据类别。 
+2. 在功能区的“建模”选项卡上，单击“数据类别:”下拉列表。  这将显示你可以从列中选择的数据类别列表。  如果某些选项不适用于列的当前数据类型，它们可能会被禁用。  例如，如果列为二进制数据类型，Power BI Desktop 将不允许你选择地理数据类别。 
 
 ![](media/desktop-data-categorization/datacategorization.gif)
 

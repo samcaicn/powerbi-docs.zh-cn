@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop 中的 DAX 基本概念"
-description: "Power BI Desktop 中的 DAX 基本概念"
+title: Power BI Desktop 中的 DAX 基本概念
+description: Power BI Desktop 中的 DAX 基本概念
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 1b6a08ffbc7d1edfe0a86b6eb0a84702dec22da0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 474cca86151925ee4991d477a6127536180808a8
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 中的 DAX 基本概念
 本文适用于刚开始使用 Power BI Desktop 的用户。 其目的是为你提供有关如何使用数据分析表达式 (DAX) 的快速而简单的介绍，以便解决一些基本计算和数据分析问题。 我们将逐一探讨一些概念性信息、一系列可以完成的任务以及测试所学内容的几项测验。 学习完本文后，你便可充分了解 DAX 中最重要的基本概念。
@@ -31,7 +31,7 @@ ms.lasthandoff: 02/24/2018
 DAX 是公式或表达式中可用于计算并返回一个或多个值的函数、运算符或常量的集合。 简单来说，DAX 可帮助你通过模型中已有的数据来创建新信息。
 
 ## <a name="why-is-dax-so-important"></a>为什么 DAX 很重要？
-创建新的 Power BI Desktop 文件并导入一些数据非常简单。 你甚至可以创建显示宝贵见解的报表，而完全不需要使用任何 DAX 公式。 但是，如果你需要分析跨产品类别和不同日期范围内的增长百分比，该怎么办？ 或者，需要计算相对于市场趋势的年增长额，该怎么办？ DAX 公式具备这项功能以及许多其他重要功能。 了解如何创建有效的 DAX 公式可帮助你充分利用数据。 获取所需信息后，便可开始解决影响最终赢利的实际商业问题。 这便是 Power BI 的强大之处，而 DAX 将帮助你达成目的。
+创建新的 Power BI Desktop 文件并导入一些数据非常简单。 你甚至可以创建显示宝贵见解的报表，而完全不需要使用任何 DAX 公式。 但是，如果你需要分析跨产品类别和不同日期范围内的增长百分比，该怎么办？ 或者，需要计算相对于市场趋势的同比增长，该怎么办？ DAX 公式具备这项功能以及许多其他重要功能。 了解如何创建有效的 DAX 公式可帮助你充分利用数据。 获取所需信息后，便可开始解决影响最终赢利的实际商业问题。 这便是 Power BI 的强大之处，而 DAX 将帮助你达成目的。
 
 ## <a name="prerequisites"></a>先决条件
 你可能已经熟悉如何在 Microsoft Excel 中创建公式。 这一知识有助于了解 DAX，但即使你没有使用 Excel 公式的经验，此处描述的概念也将帮助你开始创建 DAX 公式并立即解决真实世界的 BI 问题。
@@ -40,7 +40,7 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 
 **示例工作簿**
 
-了解 DAX 的最佳方式是创建一些基本公式，用它来处理一些实际数据，并亲自查看结果。 此处的示例和任务使用 Power BI Desktop Preview 的 Contoso 销售示例文件。 这是在《教程：在 Power BI Desktop 中创建自己的度量值》一文中所用的相同示例文件。 可以在[此处](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)下载该文件。
+了解 DAX 的最佳方式是创建一些基本公式，用它来处理一些实际数据，并亲自查看结果。 此处的示例和任务使用 Power BI Desktop Preview 的 Contoso 销售示例文件。 这是在[《教程：在 Power BI Desktop 中创建自己的度量值》](desktop-tutorial-create-measures.md)一文中所用的相同示例文件。 以下是要下载的[示例文件](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)。
 
 ## <a name="lets-begin"></a>现在就开始吧！
 我们将围绕三个基本概念来了解 DAX：语法、函数和上下文。 当然，DAX 还有其他重要概念，但了解这三个概念将为你学习 DAX 技能奠定最佳基础。
@@ -83,7 +83,7 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 > 
 > 
 
-公式语法的正确性非常重要。 大多数情况下，如果语法不正确，将返回语法错误。 其他情况下，语法可能正确，但返回的值可能不是预期值。 Power BI Desktop 中的 DAX 编辑器包括了建议；这项功能通过帮助你选择正确的元素来创建语法正确的公式。
+公式语法的正确性非常重要。 大多数情况下，如果语法不正确，将返回语法错误。 其他情况下，语法可能正确，但返回的值可能不是预期值。 Power BI Desktop 中的 DAX 编辑器包括了建议功能，这项功能通过帮助你选择正确的元素来创建语法正确的公式。
 
 我们来创建一个简单公式。 此任务将帮助你进一步了解公式语法以及编辑栏中的建议功能可以起到怎样的作用。
 
@@ -104,14 +104,13 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
    
 5.  在 **CALCULATE** 函数的括号 **()** 中，键入 **Sales[SalesAmount]**。 这是 CALCULATE 函数的第一个表达式参数。
     
-6.  键入逗号 (“,”) 来指定第一个筛选器，然后键入“PREVIOUSQUARTER”，其后紧跟左括号。
+6.  键入逗号 (,) 来指定第一个筛选器，然后键入 PREVIOUSQUARTER，其后紧跟左括号。
     
     你将使用 PREVIOUSQUARTER 时间智能函数按上一季度来筛选求和结果。
     
 7.  在 PREVIOUSQUARTER 函数的括号 **()** 中，键入“Calendar[DateKey]”。
     
     PREVIOUSQUARTER 函数有一个参数，即包含连续日期范围的列。
-    >
     
 8.  请确保传递给 PREVIOUSQUARTER 和 CALCULATE 函数的两个自变量都后跟两个右括号 **))**。
     
@@ -144,15 +143,15 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 ### <a name="functions"></a>函数
 函数是通过使用特定值、调用参数，并按特定顺序或结构来执行计算的预定义公式。 参数可以是其他函数、另一个公式、表达式、列引用、数字、文本、逻辑值（如 TRUE 或 FALSE）或者常量。
 
-DAX 包括以下函数类别：[日期和时间](https://msdn.microsoft.com/library/ee634786.aspx)函数、[时间智能](https://msdn.microsoft.com/library/ee634763.aspx)[函数、](https://msdn.microsoft.com/library/ee634552.aspx)[信息](https://msdn.microsoft.com/library/ee634552.aspx)函数、[逻辑](https://msdn.microsoft.com/library/ee634365.aspx)[函数、](https://msdn.microsoft.com/library/ee634365.aspx)[数学](https://msdn.microsoft.com/library/ee634241.aspx)函数、[统计](https://msdn.microsoft.com/library/ee634822.aspx)函数、[文本](https://msdn.microsoft.com/library/ee634938.aspx)函数、[父/子](https://msdn.microsoft.com/library/mt150102.aspx)函数和[其他](https://msdn.microsoft.com/library/mt150101.aspx)函数。 如果你熟悉 Excel 公式中的函数，那么 DAX 中的很多函数都会让你觉得相似；但是，DAX 函数在以下方面是独一无二的：
+DAX 包括以下函数类别：[日期和时间](https://msdn.microsoft.com/library/ee634786.aspx)函数、[时间智能](https://msdn.microsoft.com/library/ee634763.aspx)函数、[信息](https://msdn.microsoft.com/library/ee634552.aspx)函数、[逻辑](https://msdn.microsoft.com/library/ee634365.aspx)函数、[数学](https://msdn.microsoft.com/library/ee634241.aspx)函数、[统计](https://msdn.microsoft.com/library/ee634822.aspx)函数、[文本](https://msdn.microsoft.com/library/ee634938.aspx)函数、[父/子](https://msdn.microsoft.com/library/mt150102.aspx)函数和[其他](https://msdn.microsoft.com/library/mt150101.aspx)函数。 如果你熟悉 Excel 公式中的函数，那么 DAX 中的很多函数都会让你觉得相似；但是，DAX 函数在以下方面是独一无二的：
 
 * DAX 函数始终引用完整列或表。 如果你仅想使用某个表或列中的特定值，则可以向公式添加筛选器。
 * 如果需要逐行自定义计算，DAX 提供可让你将当前行值或相关值用作一种参数的函数，以便执行因上下文而变的计算。 稍后你将了解有关上下文的详细信息。
 * DAX 包括许多会返回表而非值的函数。 表不会显示出来，但可以将其用于提供其他函数的输入。 例如，你可以检索表，然后计算其中的非重复值，或者计算所筛选的表或列的动态总和。
 * DAX 包括各种时间智能函数。 这些函数可让你定义或选择日期范围，并基于此范围执行动态计算。 例如，你可以比较并行时间段内的总和。
-* Excel 有一个非常热门的函数 VLOOKUP。 不同于 Excel 中的 VLOOKUP，DAX 函数不会采用单元格或单元格区域作为引用。 DAX 函数采用某一列或表作为引用。 请记住，在 Power BI Desktop 中，你会使用关系数据模型。 查找另一个表中的值其实非常简单，而且在大多数情况下，完全不需要创建任何公式。
+* Excel 有一个非常热门的函数 VLOOKUP。 不同于 Excel 中的 VLOOKUP，DAX 函数不会采用单元格或单元格区域作为引用。 DAX 函数采用某一列或表作为引用。 请记住，在 Power BI Desktop 中，将使用关系数据模型。 查找另一个表中的值其实非常简单，而且在大多数情况下，完全不需要创建任何公式。
   
-  如你所见，DAX 中的函数可帮助你创建功能非常强大的公式。 我们实际上只接触到了函数的基本概念。 随着你对 DAX 技能的熟悉，你将使用许多不同的函数来创建公式。 若要了解有关每个 DAX 函数的详细信息，最好的办法之一就是参阅[DAX 函数参考](https://msdn.microsoft.com/library/ee634396.aspx)。
+  如你所见，DAX 中的函数可帮助你创建功能非常强大的公式。 我们实际上只接触到了函数的基本概念。 随着你对 DAX 技能的熟悉，你将使用许多不同的函数来创建公式。 若要了解有关每个 DAX 函数的详细信息，最好的办法之一就是参阅 [DAX 函数参考](https://msdn.microsoft.com/library/ee634396.aspx)。
 
 ### <a name="functions-quickquiz"></a>函数快速测验
 1. 函数会始终引用何项？

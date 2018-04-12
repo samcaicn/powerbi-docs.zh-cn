@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI Desktop 中的计算表"
-description: "Power BI Desktop 中的计算表"
+title: 使用 Power BI Desktop 中的计算表
+description: Power BI Desktop 中的计算表
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8bf8d2629d6a0bd88a85fa468547586e93502721
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 41017e1570a518e26305b6195531bcff889dbd9c
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>使用 Power BI Desktop 中的计算表
 借助计算表，可以将新表添加到模型中。 但是，你会创建定义表值的数据分析表达式 (DAX) 公式，而非从数据源中查询值，并将值加载到新表的列中。 在 Power BI Desktop 中，计算表是通过使用报表视图或数据视图中的“新建表”功能创建的。
@@ -71,7 +71,15 @@ Jeff 的 Western Region Employees 新表的显示方式与字段列表中的其�
 
 可以协同使用计算表和 DAX 来解决许多分析问题。 我们在此处只提供了关于计算表的简单介绍。 开始使用计算表时，你可以在此处找到一些有用的更常见 DAX 表函数：
 
-&lt;TABLE&gt; DISTINCT VALUES CROSSJOIN UNION NATURALINNERJOIN NATURALLEFTOUTERJOIN INTERSECT CALENDAR CALENDARAUTO
+* DISTINCT
+* VALUES
+* CROSSJOIN
+* UNION
+* NATURALINNERJOIN
+* NATURALLEFTOUTERJOIN
+* INTERSECT
+* CALENDAR
+* CALENDARAUTO
 
 有关这些函数以及返回 DAX 函数的其他表的信息，请参阅 [DAX 函数引用](https://msdn.microsoft.com/ee634396.aspx)。
 

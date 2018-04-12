@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/14/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7128c36d8d6c592d8f49797adf5be4927b240e3c
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: 50dd3dcf791cd3f2e366957ad37c830b7f4c35f2
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -31,6 +31,61 @@ ms.lasthandoff: 04/03/2018
 以下各节描述了 **Power BI Desktop** 之前月份的更新。
 
 你始终可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop。 无论采用哪种方式安装 Power BI Desktop，每月版本都相同。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
+
+
+我们非常幸运能在三月更新 Power BI Desktop。
+
+每个更新旁边的链接表示以下含义：
+
+* 当讨论某项功能时，将会在新的浏览器选项卡上播放 **[视频]** 片段。
+* 某些功能通过 **[文章]** 来提供更多详细信息。
+* 大多数功能在每月更新的 **[博客]** 文章中均有说明。
+* 最后，一些明白易懂的功能则不需要文章或视频。
+
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的**最新更新**视频。
+
+以下是本月推出的 Power BI Desktop 新增功能的更新：
+
+### <a name="reporting"></a>报表
+
+* 报表页工具提示 [[视频]](https://youtu.be/kuI6MMzDh34?t=16s) [[文章]]() [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* 书签现已公开发布 [[视频]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[文章]](desktop-bookmarks.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
+* 表和矩阵列的显示单位和精度控制 [[视频]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[文章]](desktop-slicer-numeric-range.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
+* 关闭报表读取模式中的视觉对象标头 [[视频]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
+* 改进了默认视觉对象布局 [[视频]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
+
+### <a name="custom-visuals"></a>自定义视觉对象
+
+* 多个新的自定义视觉对象 [[视频]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[文章]](power-bi-custom-visuals-organization.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>数据连接
+
+* Visual Studio Team Services 连接器改进功能 [[视频]](https://youtu.be/kuI6MMzDh34?t=32m) [[文章]](desktop-multi-select.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#vsts) 
+* SAP HANA 连接器增强功能 [[视频]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[文章]](desktop-directquery-sap-hana.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#saphana) 
+  * DirectQuery 多维支持功能现已公开发布
+  * SSL 证书验证支持
+* SAP BW DirectQuery 现已公开发布 [[视频]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[文章]](desktop-directquery-sap-hana.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
+* Azure Analysis Services 连接器现已公开发布 [[视频]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[文章]](desktop-directquery-sap-hana.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
+
+### <a name="other"></a>其他
+
+* 改进了错误报告 [[视频]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[文章]](desktop-directquery-about.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
+* 查看之前遇到的错误 [[视频]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
+
+> [!NOTE]
+> 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
+
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+
+
+以下视频介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kuI6MMzDh34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+
 
 
 ## <a name="february-2018-update-2555010521"></a>2018 年 2 月更新 (2.55.5010.521)
