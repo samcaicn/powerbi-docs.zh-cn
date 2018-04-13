@@ -28,8 +28,8 @@ ms.lasthandoff: 04/08/2018
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>捕获 Power BI 的其他诊断信息
 以下说明介绍了用于手动从 Power BI Web 客户端收集其他诊断信息的两种可能选择。  只需采用其中一种选择即可。
 
-## <a name="network-capture---edge--internet-explorer"></a>网络捕获 - Edge 和 Internet Explorer
-1. 通过 Edge 或 Internet Explorer 浏览到 [Power BI](https://app.powerbi.com)。
+## <a name="network-capture---edge--internet-explorer"></a>网络捕获 - Microsoft Edge 和 Internet Explorer
+1. 通过 Microsoft Edge 或 Internet Explorer 浏览到 [Power BI](https://app.powerbi.com)。
 2. 按 F12 打开 Edge 开发人员工具。
 3. 该操作将会显示开发人员工具窗口： 
    

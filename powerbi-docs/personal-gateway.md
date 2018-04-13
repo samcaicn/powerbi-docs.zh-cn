@@ -184,7 +184,7 @@ ms.lasthandoff: 04/06/2018
 | login.microsoftonline.com |443 |HTTPS |
 | login.windows.net |443 |HTTPS |
 
-如果需要将 IP 地址而不是域列入白名单，可下载并使用 Microsoft Azure 数据中心 IP 范围列表。 [下载](https://www.microsoft.com/download/details.aspx?id=41653)
+如果需要将 IP 地址而不是域列入允许列表，可下载并使用 Microsoft Azure 数据中心 IP 范围列表。 [下载](https://www.microsoft.com/download/details.aspx?id=41653)
 
 ## <a name="next-steps"></a>后续步骤
 [本地数据网关（个人模式）- 新版本的个人网关](service-gateway-personal-mode.md)
