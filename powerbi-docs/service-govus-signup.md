@@ -1,15 +1,15 @@
 ---
-title: "注册适用于美国政府客户的 Power BI"
-description: "对于美国政府客户，了解如何为美国政府组织注册 Power BI 美国政府服务"
+title: 注册适用于美国政府客户的 Power BI
+description: 对于美国政府客户，了解如何为美国政府组织注册 Power BI 美国政府服务
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -95,9 +95,9 @@ ms.lasthandoff: 02/27/2018
   * 转到“付费订阅”并分配这些用户
 
 ### <a name="whitelisting-instructions"></a>列入允许列表说明
-“列入允许列表”是 Power BI 工程团队将客户从商业版云环境移动到安全的政府版云环境的过程。 这可以保证美国政府版云中提供的功能按预期方式工作。 所有首次购买美国政府版“Power BI”服务的现有（或新）美国政府客户均“必须”启动以下白名单过程。 该过程必须在安装或迁移到美国政府版“Power BI”服务之前完成。 
+“列入允许列表”是 Power BI 工程团队将客户从商业版云环境移动到安全的政府版云环境的过程。 这可以保证美国政府版云中提供的功能按预期方式工作。 所有首次购买美国政府版“Power BI”服务的现有（或新）美国政府客户均“必须”启动以下允许列表过程。 该过程必须在安装或迁移到美国政府版“Power BI”服务之前完成。 
 
-若要将租户列入美国政府云的白名单，请单击以下链接填写支持票证，从而发出请求。 请注意，只有管理员才能发出此请求：
+若要将租户列入美国政府云的允许列表，请单击以下链接填写支持票证，从而发出请求。 请注意，只有管理员才能发出此请求：
 
 * [*列入允许列表*联机支持请求](https://powerbi.microsoft.com/clouds/)
 * 请务必将要 *列入允许列表* 的域及在此过程中与你协作的 Microsoft 代表的电子邮件包含在内。

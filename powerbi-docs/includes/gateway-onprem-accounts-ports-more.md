@@ -16,7 +16,7 @@
 ## <a name="ports"></a>端口
 网关将创建与 Azure 服务总线的出站连接。 它可在以下出站端口上进行通信：TCP 443（默认）、5671、5672、9350 至 9354。  网关不需要入站端口。 [了解详细信息](https://azure.microsoft.com/documentation/articles/service-bus-fundamentals-hybrid-solutions/)
 
-建议你将防火墙中数据区域的 IP 地址列入白名单。 可以下载 [Microsoft Azure 数据中心 IP 列表](https://www.microsoft.com/download/details.aspx?id=41653)。 此列表每周更新。 网关使用 IP 地址以及完全限定的域名 (FQDN) 与 Azure 服务总线进行通信。 如果使用 HTTPS 强制网关进行通信，则网关将仅使用 FQDN，如果使用 IP 地址则不会进行通信。
+建议你将防火墙中数据区域的 IP 地址列入允许列表。 可以下载 [Microsoft Azure 数据中心 IP 列表](https://www.microsoft.com/download/details.aspx?id=41653)。 此列表每周更新。 网关使用 IP 地址以及完全限定的域名 (FQDN) 与 Azure 服务总线进行通信。 如果使用 HTTPS 强制网关进行通信，则网关将仅使用 FQDN，如果使用 IP 地址则不会进行通信。
 
 > [!NOTE]
 > Azure 数据中心 IP 列表中的 IP 地址以 CIDR 表示法列出。 例如，10.0.0.0/24 并不意味着 10.0.0.0 至 10.0.0.24。 了解有关 [CIDR 表示法](http://whatismyipaddress.com/cidr)的详细信息。

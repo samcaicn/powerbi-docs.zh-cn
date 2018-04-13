@@ -110,7 +110,7 @@ Power BI 提供了两种连接类型：DirectQuery 和 Import。 并非所有数
 
 网关不需要入站端口。 所有必需的端口列在上面的列表中。
 
-建议你将防火墙中数据区域的 IP 地址列入白名单。 可在 [Microsoft Azure 数据中心 IP 列表](https://www.microsoft.com/download/details.aspx?id=41653)中下载 IP 地址列表。 该列表每周更新一次。 网关将使用指定的 IP 地址以及完全限定的域名 (FQDN) 与 Azure 服务总线进行通信。 如果使用 HTTPS 强制网关进行通信，则网关仅使用 FQDN，并且不会使用 IP 地址则进行通信。
+建议你将防火墙中数据区域的 IP 地址列入允许列表。 可在 [Microsoft Azure 数据中心 IP 列表](https://www.microsoft.com/download/details.aspx?id=41653)中下载 IP 地址列表。 该列表每周更新一次。 网关将使用指定的 IP 地址以及完全限定的域名 (FQDN) 与 Azure 服务总线进行通信。 如果使用 HTTPS 强制网关进行通信，则网关仅使用 FQDN，并且不会使用 IP 地址则进行通信。
 
 #### <a name="forcing-https-communication-with-azure-service-bus"></a>强制 HTTPS 与 Azure 服务总线通信
 可以使用 HTTPS 替代直接 TCP 来强制网关与 Azure 服务总线通信。 这样会稍微降低性能。 还可以使用网关接口（从 2017 年 3 月的网关版本开始），通过使用 HTTPS 来强制网关与 Azure 服务总线进行通信。
