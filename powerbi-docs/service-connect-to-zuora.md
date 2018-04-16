@@ -39,7 +39,7 @@ ms.lasthandoff: 02/24/2018
 3. 选择 **Zuora**\>**获取**。
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. 指定你的 Zuora URL。 通常为“https://www.zuora.com”，请参阅以下有关[查找这些参数](#FindingParams)的详细信息。
+4. 指定你的 Zuora URL。 通常为 “https://www.zuora.com” ，请参阅以下有关[查找这些参数](#FindingParams)的详细信息。
 
    ![](media/service-connect-to-zuora/params.png)
 5. 对于**身份验证方法**，请选择**基本**并提供用户名和密码（区分大小写），然后选择**登录**。
