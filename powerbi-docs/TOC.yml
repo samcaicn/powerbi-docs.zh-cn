@@ -362,8 +362,6 @@
           href: service-reading-view-and-editing-view.md
         - name: 与 Power BI 中的编辑视图中的报表进行交互
           href: service-interact-with-a-report-in-editing-view.md
-        - name: 在 Power BI 服务中创建报表的提示和技巧
-          href: power-bi-reports-tips-and-tricks-for-creating.md
         - name: 分析窗格
           href: service-analytics-pane.md
         - name: 报表使用指标
