@@ -1,32 +1,32 @@
 ---
-title: "向报表中的文本框添加超链接"
-description: "向 Power BI 服务和 Desktop 中的文本框添加超链接"
+title: 向报表中的文本框添加超链接
+description: 向 Power BI 服务和 Desktop 中的文本框添加超链接
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 95352c72dfca1c1439f89d532dbcfcc5cd26758c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 13edfd3f6968af66f96e3690f2509ba8a7158bbe
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>向报表中的文本框添加超链接
-可以将文本框添加到报表，从报表固定到仪表板，然后直接添加到仪表板。 可将超链接添加到任意位置的文本框。 **本主题介绍 Power BI 服务（不是 Power BI Desktop）的报表中的文本框。**
+可以将文本框添加到报表，从报表固定到仪表板，然后直接添加到仪表板。 可将超链接添加到任意位置的文本框。  
 
 > **注意**：有关 Power BI 表和矩形图中的超链接的相关信息，请参阅[表中的超链接](power-bi-hyperlinks-in-tables.md)。 有关将文本框添加到**仪表板**的信息，请参阅[直接从仪表板添加磁贴](service-dashboard-add-widget.md)。 
 > 
@@ -61,8 +61,6 @@ ms.lasthandoff: 02/24/2018
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 报表中的文本框](power-bi-reports-add-text-and-shapes.md)
-
-[将文本框添加到仪表板](service-dashboard-add-widget.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

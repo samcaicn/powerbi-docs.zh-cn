@@ -1,29 +1,29 @@
 ---
-title: "KPI 视觉对象（教程）"
-description: "在 Power BI 服务和 Power BI Desktop 中创建 KPI"
+title: KPI 视觉对象（教程）
+description: 在 Power BI 服务和 Power BI Desktop 中创建 KPI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: xmja6EpqaO0
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1a937b77135d6ad7843a6e0be779c235a1073f46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4d6af52f10f16d973dc97ed0da1ed74bf63ec2cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="kpi-visuals-tutorial"></a>KPI 视觉对象（教程）
 关键绩效指标 (KPI) 是一个视觉提示，用于传达针对可度量目标已完成的进度。 有关 KPI 的详细信息，请参阅 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)。
@@ -76,11 +76,8 @@ KPI 还可用于移动设备 – 让你始终保持与业务中心的联系。
 * 如果 KPI 并非如上所示，则可能是因为需要按月进行排序。 由于 KPI 没有排序选项，则需要先按月排序，然后将可视化效果转换为 KPI。
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的报表](service-reports.md)
 
 [Power BI 报表中的可视化效果](power-bi-report-visualizations.md)
-
-[Power BI - 基本概念](service-basic-concepts.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

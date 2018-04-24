@@ -1,29 +1,29 @@
 ---
-title: "快速入门 - 报表编辑器...教程"
-description: "报表编辑器...教程。"
+title: 快速入门 - 报表编辑器...教程
+description: 报表编辑器...教程。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b134fe1e5d14f3707391888951178553d5cda7e5
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>报表编辑器...教程
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>编辑 Power BI 服务和 Power BI Desktop 中的报表
@@ -56,7 +56,6 @@ Power BI 报表编辑器由 3 部分组成：
 |  |  |
 | --- | --- |
 | ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>“可视化效果”窗格顶部会标识出正在使用的视觉对象类型；在本例中，就是簇状柱形图。<br><br></li> <li>“可视化效果”窗格底部（可能需要向下滚动）则会显示视觉对象中正在使用的字段。 此图使用 FiscalMonth、DistrictManager 和 Total Sales Variance。 <br><br></li><li>“筛选器”窗格（可能需要向下滚动）将显示已应用的所有筛选器。 <br><br></li><li>“字段”窗格中列出可用的表，如果展开表的名称，还会列出构成该表的字段。 黄色字体告诉用户可视化效果中至少正在使用该表格中的一个字段。<br><br></li><li>![滚动油漆刷图标](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) 要显示“格式设置”窗格，请为所选的可视化效果选择滚动油漆刷图标。<br><br></li><li>![放大镜图标](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) 要显示“分析”窗格，请选择放大镜图标。</ul> |
-|  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>可视化效果窗格（从上到下）
 ![“可视化效果”窗格顶部](media/service-the-report-editor-take-a-tour/selectviz.png)
