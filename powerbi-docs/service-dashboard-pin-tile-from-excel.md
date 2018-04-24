@@ -1,16 +1,16 @@
 ---
-title: "如何从 Excel 将磁贴固定到 Power BI 仪表板"
-description: "在 OneDrive for Business 上从 Excel 将磁贴固定到 Power BI 仪表板 固定范围、图表、表"
+title: 如何从 Excel 将磁贴固定到 Power BI 仪表板
+description: 在 OneDrive for Business 上从 Excel 将磁贴固定到 Power BI 仪表板 固定范围、图表、表
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: l8JoB7w0zJA
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 76bfe440291687d7f34b859eccad6099a498c819
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>从 Excel 将磁贴固定到 Power BI 仪表板
 若要从 Excel 工作簿固定磁贴，请将该工作簿连接到 Power BI 服务 (app.powerbi.com)。 实际上，连接工作簿会将该工作簿链接的只读版本引入 Power BI 服务，并允许用户将区域固定到仪表板。 甚至可以将整个工作表固定到仪表板。  
@@ -41,20 +41,19 @@ ms.lasthandoff: 03/09/2018
 不能在 Power BI 中编辑你的工作簿。 但如果需要进行一些更改，可以从工作区的“工作簿”选项卡中选择“铅笔”图标，然后选择是在 Excel Online 中编辑工作簿，还是在计算机上的 Excel 中打开工作簿。 你所作的任何更改都会保存到 OneDrive 上的工作簿中。
 
 1. 将你的工作簿上载到你的 OneDrive for Business。
+
 2. 在 Power BI 中，[连接到该工作簿](service-excel-workbook-files.md)，方法是：选择“获取数据 > 文件 > OneDrive - Business”并导航到保存 Excel 文件的位置。 选择该文件并选择“连接 > 连接”。
 
-   ![“OneDrive for Business”对话框](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+    ![“OneDrive for Business”对话框](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
 3. 在 Power BI 中，该工作簿添加到工作区的“工作簿”选项卡。  ![工作簿图标](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) 图标指示这是 Excel 工作簿，黄色星号指示这是新工作簿。
-   
     
-   ![“工作簿”选项卡](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+    ![“工作簿”选项卡](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. 通过选择工作簿名称，在 Power BI 中打开工作簿。
 
     对 Power BI 中工作簿所做的更改不会被保存，并且不会影响 OneDrive for Business 上的原始工作簿。 如果在 Power BI 中排序、筛选或更改值，则无法保存或固定这些更改。 如需进行更改（将被保存），请选择右上角的“编辑”将其打开，以便在 Excel Online 或 Excel 中进行编辑。 以这种方式进行的更改可能需要几分钟的时间来更新仪表板上的磁贴。
    
-   
-   ![Power BI 中的 Excel Online](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+    ![Power BI 中的 Excel Online](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>将单元格的区域固定到仪表板
 添加新[仪表板磁贴](service-dashboard-tiles.md)的一种方法是从 Power BI 中的 Excel 工作簿内部进行添加。 可从已保存至你的 OneDrive for Business 或另一个组共享的文档库中的 Excel 工作簿中固定范围。 范围可包含数据、图表、表、数据透视表、数据透视图和其他 Excel 部分。

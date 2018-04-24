@@ -1,28 +1,28 @@
 ---
-title: "移动可视化效果、调整其大小和弹出可视化效果"
-description: "在 Power BI 服务和 Desktop 中移动和调整报表中的可视化对象"
+title: 移动可视化效果、调整其大小和弹出可视化效果
+description: 在 Power BI 服务和 Desktop 中移动和调整报表中的可视化对象
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a46df6e225a5546f58e4f111d9cd3920a128614c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 66df86d0db9767f29a1fdca637b95bb66cd9252d
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服务和 Power BI Desktop 中移动和调整报表中的可视化对象
 只有报表创建者与所有者可以移动和调整可视化对象。 在 Power BI 服务 (app.powerbi.com) 中，这意味着会在 [“编辑视图”](service-reading-view-and-editing-view.md) 中打开报表。
@@ -43,9 +43,5 @@ ms.lasthandoff: 02/24/2018
 
 ## <a name="next-steps"></a>后续步骤
 [在仪表板上调整可视化效果的大小](service-dashboard-edit-tile.md)  
-
-[Power BI 报表中的可视化效果](power-bi-report-visualizations.md)  
-
-[Power BI - 基本概念](service-basic-concepts.md)  
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

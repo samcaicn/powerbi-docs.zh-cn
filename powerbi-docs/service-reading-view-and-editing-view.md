@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 服务报表中的“阅读视图”和“编辑视图”
 Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表和与其交互：“阅读视图”和“编辑视图”。 “阅读视图”可供所有用户使用且专为报表使用者设计，而“编辑视图”仅供报表创建者和所有者使用。
@@ -48,7 +48,6 @@ Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表
 |任务  | 阅读视图  | 编辑视图 |
 |-------------------------|-------|-------|
 |**整体报表**  |
-||||
 | [创建或编辑报表](service-report-create-new.md) | 否  | 是 |
 | [共享报表](service-share-reports.md)| 是 | 是，并且还可管理权限，其中包括向其他人提供所有者权限。 |
 | [从“筛选器”窗格创建持续（永久）视觉对象级别、drilthrough、页面级和报表级筛选器](power-bi-report-add-filter.md) | 否  | 是 |
@@ -63,12 +62,10 @@ Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表
 | [保存报表](service-report-save.md) | 是，但只能使用“另存为”。 | 是 |
 | [删除报表](service-delete.md) | 否  | 是 |
 |**报表页** |
-||||
 | [添加或重命名报表页](power-bi-report-add-page.md)  | 否  | 是  |
 | [复制报表页](power-bi-report-copy-paste-page.md) | 否  | 是 |
 | [删除报表页](service-delete.md) | 否 | 是 |
 |**使用报表可视化效果**|
-||||
 | [将可视化效果添加到报表](power-bi-report-add-visualizations-i.md) | 否  | 是 |
 | [向报表添加文本框和形状](power-bi-reports-add-text-and-shapes.md) | 否  | 是 |
 | [使用报表“格式化”窗格](service-the-report-editor-take-a-tour.md) | 否 | 是 |

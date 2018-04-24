@@ -1,28 +1,28 @@
 ---
-title: "更改报表中的可视化对象类型"
-description: "在 Power BI 服务和 Power BI Desktop 中更改报表可视化对象的类型"
+title: 更改报表中的可视化对象类型
+description: 在 Power BI 服务和 Power BI Desktop 中更改报表可视化对象的类型
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/20/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c6a5759be3df141e2a93fe8c969a45cdc0b004be
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4ed26bbec81093654314f058f8bcbfac927cf70f
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>更改 Power BI 报表中的可视化效果类型
 请在 Power BI 服务和 Power BI Desktop 中尝试不同类型的可视化对象，看哪一种最能阐释数据。 

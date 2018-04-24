@@ -1,28 +1,28 @@
 ---
-title: "Power BI Premium 发行说明"
-description: "请阅读 Power BI Premium（面向组织或团队的专用容量）的发行说明。"
+title: Power BI Premium 发行说明
+description: 请阅读 Power BI Premium（面向组织或团队的专用容量）的发行说明。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/11/2017
-ms.author: maghan
+ms.author: mgblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: e25677f615f4aa5b1489604814cebc6916809c41
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 91126fa362dd6bca3e85b28959b5059825cd8a07
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="power-bi-premium-release-notes"></a>Power BI Premium 发行说明
 以下是 Power BI Premium 的发行说明，Power BI Premium 具有专用容量，可为组织或团队提供更可靠的性能、更大的数据量，并且支持在不具有每用户许可证的情况下为查看者分发内容。

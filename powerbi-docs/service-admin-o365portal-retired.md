@@ -1,28 +1,28 @@
 ---
-title: "Power BI for Office 365 已停用"
-description: "Power BI for Office 365 已停用，了解如何使用和管理现在的 Power BI。"
+title: Power BI for Office 365 已停用
+description: Power BI for Office 365 已停用，了解如何使用和管理现在的 Power BI。
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: mgblythe
 manager: kfile
 backup: amandacofsky
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c83ae371153443f48fa6996e4024119ca3d94d04
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 34e739ef47207b2f3fe3f9d5536c7941164bae98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Power BI for Office 365 已停用
 Power BI for Office 365 是 Power BI 的早期版本，已转换为当前版本的 [Power BI](https://powerbi.microsoft.com)。 使用过 **Power BI for Office 365** 的用户都可以使用当前版本的 Power BI。 [了解 Power BI 的详细信息](service-get-started.md)。

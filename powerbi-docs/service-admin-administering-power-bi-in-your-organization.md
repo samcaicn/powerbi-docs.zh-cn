@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>在组织中管理 Power BI
 Microsoft Power BI 使用户可以通过直观的新方式实现数据可视化、共享发现和进行协作。 若要了解详细信息，请参阅 [Power BI 入门](service-get-started.md)。
@@ -186,8 +186,6 @@ Microsoft Power BI 使用户可以通过直观的新方式实现数据可视化�
 
 如果组织已具有现有 Office 365 环境，但并非组织中的所有用户都具有 Office 365 帐户，则我们会在租户中创建用户并基于用户的工作或学校电子邮件地址分配许可证。 这意味着在任何特定时间所管理的用户数会随着组织中的用户注册服务而增长。
 
-如果你在本地管理目录，并使用 Active Directory 联合身份验证服务 (AD FS)，则 Microsoft 不会向你的租户添加用户，并且尝试加入你的租户的用户会收到消息，指示联系其组织管理员。
-
 如果组织没有连接到你的电子邮件域的 Office 365 环境，则管理标识的方式不会发生变化。 用户会添加到新的仅限云的用户目录中，你可以选择作为租户管理员进行接管并管理他们。
 
 ### <a name="how-do-we-manage-power-bi"></a>我们如何管理 Power BI？
@@ -234,7 +232,7 @@ Power BI 提供了一个管理门户，它使你可以查看使用情况统计�
 2. 在左侧导航栏中，选择**用户**  >  **活动用户**。
 3. 找到要删除其许可证的用户，然后选择其名称 > **编辑**。
 4. 在用户详细信息页面上，在左侧导航栏中选择**许可证**。
-5. 取消选中**Power BI (免费)**或**Power BI Pro**（具体取决于应用于其帐户的许可证）。
+5. 取消选中**Power BI (免费)** 或**Power BI Pro**（具体取决于应用于其帐户的许可证）。
 6. 选择“保存”。
 
 > [!NOTE]
@@ -245,7 +243,7 @@ Power BI 提供了一个管理门户，它使你可以查看使用情况统计�
 ### <a name="how-do-i-know-when-new-users-have-joined-my-tenant"></a>如何知道新用户加入了我的租户？
 已作为此计划的一部分加入租户的用户会分配有唯一的许可证，你可以在管理仪表板中的活动用户窗格内针对它进行筛选。
 
-若要创建此新视图，请在 Office 365 管理中心中，转到**用户**  >  **活动用户**，然后在**选择视图**菜单上，选择**新建视图**。 命名新视图，然后在**已分配的许可证**下，选择 **Power BI (免费)** 或 **Power BI Pro**。 对每个视图只能选择一个许可证。 如果组织中同时具有 **Power BI (免费)**和 **Power BI Pro** 许可证，则你需要创建两个视图。 创建了新视图之后，你便能够查看租户中已在此计划中注册的所有用户。
+若要创建此新视图，请在 Office 365 管理中心中，转到**用户**  >  **活动用户**，然后在**选择视图**菜单上，选择**新建视图**。 命名新视图，然后在**已分配的许可证**下，选择 **Power BI (免费)** 或 **Power BI Pro**。 对每个视图只能选择一个许可证。 如果组织中同时具有 **Power BI (免费)** 和 **Power BI Pro** 许可证，则你需要创建两个视图。 创建了新视图之后，你便能够查看租户中已在此计划中注册的所有用户。
 
 ### <a name="are-there-any-additional-things-i-should-be-prepared-for"></a>我是否还应为任何其他事项做好准备？
 你可能会遇到密码重置请求增加的情况。 有关此过程的信息，请参阅[重置用户密码](https://support.office.com/article/Reset-a-users-password-7a5d073b-7fae-4aa5-8f96-9ecd041aba9c)。
