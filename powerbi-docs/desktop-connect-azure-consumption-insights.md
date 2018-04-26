@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1f1eeda618c54def9e756f727161d5bc7d541218
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (Beta) 中连接到 Azure 使用情况见解
 借助 Azure 使用情况见解连接器，可以使用 Power BI Desktop 连接到 Azure，并获取有关组织 Azure 服务使用情况更详细的数据和信息。 还可以创建度量值、自定义列和视觉对象来报告和共享组织的 Azure 使用情况。 此版本的 Azure 使用情况和见解连接器处于测试阶段，随时可能更改。
@@ -161,7 +161,7 @@ Azure 门户中的列和名称详细信息与 API 和连接器中的相关信息
 | ConsumedServiceId |consumedServiceId | |是 |
 | Cost |cost |ExtendedCost |否 |
 | Cost Center |costCenter |Cost Center |否 |
-| 日期 |date |日期 |否 |
+| Date |date |Date |否 |
 | 日 | |日 |否 |
 | DepartmentName |departmentName |Department Name |否 |
 | DepartmentID |departmentId | |是 |
@@ -175,7 +175,7 @@ Azure 门户中的列和名称详细信息与 API 和连接器中的相关信息
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |否 |
 | MeterId |meterId |Meter ID |否 |
 | 月份 | |月份 |否 |
-| 产品 |product |产品 |否 |
+| Product |product |Product |否 |
 | ProductId |productId | |是 |
 | Resource Group |resourceGroup |Resource Group |否 |
 | Resource Location |resourceLocation |Resource Location |否 |
@@ -189,7 +189,7 @@ Azure 门户中的列和名称详细信息与 API 和连接器中的相关信息
 | ServiceInfo2Id | | |是 |
 | Store Service Identifier |storeServiceIdentifier |Store Service Identifier |否 |
 | StoreServiceIdentifierId | | |是 |
-| Subscription Name |subscriptionName |Subscription Name |否 |
+| 订阅名称 |subscriptionName |订阅名称 |否 |
 | 标记 |tags |标记 |否 |
 | TagsId | | |是 |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |否 |
