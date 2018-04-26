@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop 中的条件表格格式设置"
-description: "对表格应用自定义格式设置"
+title: Power BI Desktop 中的条件表格格式设置
+description: 对表格应用自定义格式设置
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 30be54ccbc6f0ccdc322070d59ccb44de6460b78
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1fa296fe5e0973842363563d703649102cca5b73
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="conditional-formatting-in-tables"></a>表格中的条件格式设置
 通过表格的条件格式设置，你可以根据单元格值指定自定义单元格背景色，包括使用渐变色。 若要访问条件格式，请在 Powr BI Desktop“可视化效果”窗格的“字段”格中，选择要设置其格式的“值”格中值旁边的向下箭头（或右键单击该字段）。 只能管理“字段”格的“值”区域中字段的条件格式。
