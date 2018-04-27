@@ -124,11 +124,11 @@
           href: service-connect-to-at-internet.md
         - name: Azure Mobile Engagement
           href: service-connect-to-azure-mobile.md
-        - name: Microsoft Azure Consumption Insights
+        - name: Microsoft Azure 使用见解
           href: service-connect-to-azure-consumption-insights.md
         - name: Azure 搜索
           href: service-connect-to-azure-search.md
-        - name: Bing
+        - name: 必应
           href: service-connect-to-bing.md
         - name: Circuit ID
           href: service-connect-to-circuit-id.md
@@ -174,13 +174,13 @@
           href: service-connect-to-quickbooks-online.md
         - name: SendGrid
           href: service-connect-to-sendgrid.md
-        - name: ServiceNow 事件
+        - name: ServiceNow Incidents
           href: service-connect-to-servicenow.md
         - name: Smartsheet
           href: service-connect-to-smartsheet.md
         - name: SparkPost
           href: service-connect-to-sparkpost.md
-        - name: SQL Database Auditing
+        - name: SQL 数据库审核
           href: service-connect-to-azure-sql-database-auditing.md
         - name: SQL Sentry
           href: service-connect-to-sql-sentry.md
@@ -200,7 +200,7 @@
           href: service-connect-to-vmob.md
         - name: Webtrends
           href: service-connect-to-webtrends.md
-        - name: Windows 开发人员中心
+        - name: Windows Dev Center
           href: service-connect-to-windows-dev-center.md
         - name: Xero
           href: service-connect-to-xero.md
@@ -384,7 +384,7 @@
           href: service-url-filters.md
         - name: 在 Power BI 中生成快速可靠报表的最佳做法
           href: power-bi-reports-performance.md
-    - name: 可视化
+    - name: 可视化效果
       items:
         - name: Power BI 中的可视化效果
           href: power-bi-report-visualizations.md
@@ -846,10 +846,12 @@
           href: desktop-send-smile-privacy-statement.md
     - name: 故障排除
       items:
-        - name: 解决在 Power BI Desktop 和 Power Query 中导入 Access 数据库和 Excel 电子表格时出现的问题
-          href: desktop-access-database-errors.md
+        - name: 解决 Power BI Desktop 登录时出现的问题
+          href: desktop-troubleshooting-sign-in.md
         - name: 解决启动 Power BI Desktop 时出现的问题
           href: desktop-error-launching-desktop.md
+        - name: 解决在 Power BI Desktop 和 Power Query 中导入 Access 数据库和 Excel 电子表格时出现的问题
+          href: desktop-access-database-errors.md
 - name: Power BI 移动应用
   items:
     - name: 开始使用
@@ -1070,9 +1072,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848709'
         - name: 处理 KPI
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-        - name: 支持的数据源
+        - name: Power BI 报表 (.pbix) 数据源
           href: report-server/data-sources.md
-        - name: 连接到数据源
+        - name: 分页报表 (.rdl) 数据源
           href: report-server/connect-data-sources.md
         - name: '通过 OData 源访问共享数据集 '
           href: report-server/access-dataset-odata.md
