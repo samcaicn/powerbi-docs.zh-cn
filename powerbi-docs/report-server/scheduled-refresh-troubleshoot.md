@@ -1,15 +1,15 @@
 ---
-title: "对 Power BI 报表服务器中的计划刷新进行故障排除"
-description: "本文将讨论可用于解决 Power BI 报表服务器中计划刷新问题的资源。"
+title: 对 Power BI 报表服务器中的计划刷新进行故障排除
+description: 本文将讨论可用于解决 Power BI 报表服务器中计划刷新问题的资源。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 466505ae2c4050629e8bbcc4ff90cde520d31375
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: cf084492a7b5d1ecc10ff933eeaef4cdbdc14022
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>对 Power BI 报表服务器中的计划刷新进行故障排除
 本文将讨论可用于解决 Power BI 报表服务器中计划刷新问题的资源。
@@ -60,7 +60,6 @@ ms.lasthandoff: 01/30/2018
 
 | 设置 | 说明 |
 | --- | --- |
-| EnablePowerBIReportEmbeddedModels |启用或禁用使用报表中的导入数据的功能。 有效值为 True 或 False。 |
 | MaxFileSizeMb |已上载报表的最大文件大小。 默认值为 1000 MB (1 GB)。 最大值为 2000 MB (2 GB)。 |
 | ModelCleanupCycleMinutes |定义检查模型以将其从内存中收回的频率。 默认值为 15 分钟。 |
 | ModelExpirationMinutes |根据上次使用时间定义模型的到期并将其收回的时长。 默认值为 60 分钟。 |
