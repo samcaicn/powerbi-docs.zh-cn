@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/20/2018
+ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0ca6a21e67e7ab1d2a0c0daa8da07052041db139
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI 支持的语言和国家/地区
 
@@ -153,9 +153,9 @@ Power BI 根据你的计算机上的语言首选项检测你的语言。 你访�
 
 1. 在 Power BI Desktop 中，依次转到“文件” > “选项和设置” > “选项”。
 2. 在“**当前文件**下，选择“**区域设置**”。
-3. 在**区域设置**框中选择不同的区域设置。 
+3. 在“导入的区域设置”框中选择不同的区域设置。 
    
-   ![Power BI Desktop“选项”对话框](media/supported-languages-countries-regions/pbi_supptdlangs_locale.png)
+   ![Power BI Desktop“选项”对话框](media/supported-languages-countries-regions/power-bi_supptdlangs-locale.png)
 4. 选择**确定**。
 
 ### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>在 Power BI Desktop 中选择模型的语言

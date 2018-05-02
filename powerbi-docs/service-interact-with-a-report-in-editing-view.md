@@ -1,31 +1,33 @@
 ---
-title: "在“编辑视图”中与报表进行交互（教程）"
-description: "在 Power BI 服务的报表“编辑视图”中与报表进行交互"
+title: 在“编辑视图”中与报表进行交互（教程）
+description: 在 Power BI 服务的报表“编辑视图”中与报表进行交互
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: eea3bcb040f5267cb1fcc1f24ef6b306f6c03af3
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>在 Power BI 服务的“编辑视图”中与报表进行交互
-可在 Power BI 服务和 Power BI Desktop 中编辑报表 -- 前提是你具有所有者的权限。 与 Desktop 不同，Power BI 服务有两种与报表交互的模式 -- 针对报表使用者的[阅读视图](service-reading-view-and-editing-view.md)和针对所有者和创建者的“编辑视图”。 本教程介绍了 Power BI 服务中的“编辑视图”。 
+可在 Power BI 服务和 Power BI Desktop 中创建和编辑报表。 在 Power BI 服务中，可在“编辑视图”中创建和编辑报表。 而在 Power BI Desktop 中，可在“[报表视图](desktop-report-view.md)”中创建和编辑报表。 本文介绍了 Power BI 服务中的“编辑视图”。 
+
+Power BI 服务有两种与报表交互的模式 -- 针对报表使用者的[阅读视图](service-reading-view-and-editing-view.md)以及针对报表所有者和创建者的“编辑视图”。  共享报告和编辑他人创建的报告需要 Power BI Pro 许可证。 如果你是 Power BI 免费用户，仍然能够创建报表，但无法使用[共享](service-share-reports.md)。    
 
 在报表的“编辑视图”中，你可以自由地浏览和设计报表。 所有[阅读视图](service-reading-view-and-editing-view.md)中的功能都可用 -- 并且还有更多的功能。 “编辑视图”仅适用于报表的创建者，或者[作为应用工作区的成员或管理员共同拥有报表](service-create-distribute-apps.md)的同事。
 
@@ -42,6 +44,9 @@ ms.lasthandoff: 03/09/2018
 * 显示用于创建可视化对象的数据 
 * 设置钻取
 * 复制报表页面
+
+## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
+需要 Power BI Pro 许可证才能编辑他人创建的报表，并与他人分享你的报表。  如果你是 Power BI 免费用户，仍然能够创建报表，但无法使用[共享](service-share-reports.md)。
 
 
 ## <a name="next-steps"></a>后续步骤

@@ -1,15 +1,15 @@
 ---
-title: "如何将 Power BI 工作区集合内容迁移到 Power BI"
-description: "了解如何从 Power BI 工作区集合迁移到 Power BI Embedded，以及如何利用此改进功能在应用中嵌入内容。"
+title: 如何将 Power BI 工作区集合内容迁移到 Power BI
+description: 了解如何从 Power BI 工作区集合迁移到 Power BI Embedded，以及如何利用此改进功能在应用中嵌入内容。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5cf1be502267b14075ac6160ce93fce47941d3c2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何将 Power BI 工作区集合内容迁移到 Power BI Embedded
 了解如何从 Power BI 工作区集合迁移到 Power BI Embedded，以及如何利用此改进功能在应用中嵌入内容。
@@ -58,8 +58,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/en-u
 
 > [!NOTE]
 > 这些帐户需要具有 Power BI Pro 许可证才能使用应用工作区。
-> 
-> 
+>
 
 1. 租户管理员用户。
    
@@ -71,10 +70,13 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/en-u
    
     应用程序后端将存储此帐户的凭据，并将其用于获取与 Power BI REST API 一起使用的 Azure AD 身份验证令牌。 此帐户将用于生成应用程序的嵌入令牌。 此帐户还必须是为实现嵌入而创建的应用工作区的管理员。
    
-   > [!NOTE]
-   > 这只是组织中用于嵌入用途的常规用户帐户。
-   > 
-   > 
+> [!NOTE]
+> 这只是组织中用于嵌入用途的常规用户帐户。
+>
+
+> [!NOTE]
+> 如果应用程序需要仅应用令牌身份验证，请单击[此处](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement)与我们联系。
+>
 
 ## <a name="app-registration-and-permissions"></a>应用注册和权限
 你将需要在 Azure AD 中注册应用程序，并授予某些权限。
@@ -130,9 +132,9 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/en-u
 2. 从 PaaS 工作区调用下载 PBIX API。
 3. 保存 PBIX。
 4. 将导入 PBIX 调用到 SaaS 工作区。
-5. 通过调用更新连接字符串 - POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
-6. 通过调用获取 GW ID 和数据源 ID - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
-7. 通过调用更新用户凭据 - PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
+5. 通过调用 POST 更新连接字符串 https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
+6. 通过调用 GET 获取 GW id 和数据源 id https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+7. 通过调用 PATCH 更新用户凭据 https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>旧数据集和报表
 这些数据集/报表是在 2016 年 10 月之前创建的。 下载 PBIX 不支持 2016 年 10 月之前上传的 PBIX

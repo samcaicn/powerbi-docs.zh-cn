@@ -1,28 +1,28 @@
 ---
-title: "卡片可视化对象（也称为大数字磁贴）"
-description: "在 Power BI 中创建卡片可视化对象"
+title: 卡片可视化对象（也称为大数字磁贴）
+description: 在 Power BI 中创建卡片可视化对象
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f38f3bb19be268cba4745c88aa98d09c080c773e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3e30e0f742d97817583ecdfd72df65a8658ec977
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="card-visualizations"></a>卡片可视化对象
 有时在 Power BI 仪表板或报表中想要跟踪的最重要的信息就是一个数字，例如总销售额、同比市场份额或商机总数。 此类可视化对象称为“卡片”。 与几乎所有的本机 Power BI 可视化对象一样，可以使用报表编辑器或“问答”创建卡片。
@@ -91,6 +91,25 @@ ms.lasthandoff: 02/24/2018
 - 如果根本看不到问题框，请与系统管理员或租户管理员联系。    
 - 如果使用的是 Desktop，而双击报表中的空白区域并未打开“问答”，则可能需要启用“问答”。  选择“文件”>“选项和设置”>“选项”>“预览功能”>“问答”，然后重启 Desktop。
 
+## <a name="format-a-card"></a>格式化卡
+可以使用许多选项来更改标签、文本、颜色等。 最佳学习方法是创建一张卡，然后浏览“格式”窗格。 下面提供了几个可用的格式选项。 
+
+1. 首先选择画笔图标来打开“格式设置”窗格。 
+
+    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+2. 展开“数据标签”并更改颜色、大小和字体系列。 如果你有数以千计的存储，则可以使用“显示单位”来显示数以千计的存储量并控制小数位数。 例如，125.8K 而不是 125,832.00。
+
+3.  展开“类别标签”并更改颜色和大小。
+
+    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+
+4. 展开“背景”并将滑块移至“开启”。  现在可以更改背景色和透明度。
+
+    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+
+5. 继续浏览格式设置选项，直到卡完全满足你的需要。 
+
+    ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 中的仪表板磁贴](service-dashboard-tiles.md)

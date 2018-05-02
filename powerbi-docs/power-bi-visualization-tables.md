@@ -1,29 +1,29 @@
 ---
-title: "教程 - Power BI 报表和仪表板中的表可视化效果（教程）"
-description: "在 Power BI 报表和仪表板中使用表可视化效果的教程，包括如何调整列宽大小。"
+title: Power BI 报表和仪表板中的表可视化效果（教程）
+description: 在 Power BI 报表和仪表板中使用表可视化效果的教程，包括如何调整列宽大小。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fd5085912ec74312fa4a4b25060cbd4afba94
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>使用 Power BI 报表和仪表板中的表（教程）
 表是以逻辑序列的行和列表示的包含相关数据的网格。 它还包含标头和合计行。 表格可以进行数量比较，可以在其中查看单个类别的多个值。 例如，该表显示了**类别**的 5 个不同的度量值。
@@ -69,15 +69,21 @@ ms.lasthandoff: 02/24/2018
 
 * 尝试设置表格中网格的格式。 此处我们已添加蓝色垂直网格，为行添加了空间，并稍微增加了边框和文本的大小。
   
-    ![](media/power-bi-visualization-tables/power-bi-table-grid2-new.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
   
     ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * 对于列标题，我们更改了背景色、添加了边框，并增加了字体大小。 
   
-    ![](media/power-bi-visualization-tables/power-bi-table-column.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
+
   
     ![](media/power-bi-visualization-tables/power-bi-table-column2.png)
-* 进行了一些其他格式设置后，最终表格如下。 由于格式设置选项较多，最好的了解方法是打开一个空白表格，打开“格式设置”窗格 ![](media/power-bi-visualization-tables/power-bi-format.png)，然后开始浏览。 
+
+* 甚至可以将格式设置应用于单个列和列标题。 首先展开“字段格式设置”，并从下拉列表选择要设置格式的列。 根据列值，字段格式设置允许你设置以下内容：显示单位、字体颜色、小数位数、背景、对齐方式等等。 在调整设置后，确定是否将这些设置应用到标头和总计行。
+
+    ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+
+* 进行了一些其他格式设置后，最终表格如下。 由于格式设置选项较多，最好的了解方法是从默认信息入手，打开“格式设置”窗格 ![](media/power-bi-visualization-tables/power-bi-format.png)，然后开始浏览。 
   
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 

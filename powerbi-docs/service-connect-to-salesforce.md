@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 04/13/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8089c796441fd4200b146da6330dd5c208bf8b30
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 62624d35f1fb477c4daf2ffcef92bb18fb8a6a8e
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>使用 Power BI 连接到 Salesforce
 你可以使用 Power BI 轻松连接到你的 Salesforce.com 帐户。 创建此连接可检索你的数据，并自动提供基于数据的仪表板和相关报表。
@@ -72,11 +72,13 @@ ms.lasthandoff: 02/24/2018
 * [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
 * 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
 
-## <a name="system-requirements"></a>系统要求
-* 与已启用 API 访问的 Salesforce 生产帐户连接
-* 登录期间授予 Power BI 应用权限
-* 帐户具有足够可用的 API 调用，以拉取和刷新数据
-* 刷新操作需要有效的身份验证令牌。 确保你导入的 Salesforce 数据集在 5 个以下，因为 Salesforce 限制每个应用程序最多使用 5 个身份验证令牌
+## <a name="system-requirements-and-considerations"></a>系统要求和注意事项
+- 与已启用 API 访问的 Salesforce 生产帐户连接
+- 登录期间授予 Power BI 应用权限
+- 帐户具有足够可用的 API 调用，以拉取和刷新数据
+- 刷新操作需要有效的身份验证令牌。 确保你导入的 Salesforce 数据集在 5 个以下，因为 Salesforce 限制每个应用程序最多使用 5 个身份验证令牌
+- Salesforce 报表 API 具有限制，最多支持 2,000 行数据。
+
 
 ## <a name="troubleshooting"></a>故障排除
 如果遇到任何错误，请查看上述要求。 另请注意，当前不支持登录到自定义或沙盒域的功能。

@@ -1,6 +1,6 @@
 ---
-title: 复制 Power BI 报表
-description: 从其他报表创建新的 Power BI 报表。
+title: 在 Power BI 服务中复制报表
+description: 从 Power BI 服务中的其他报表创建新的 Power BI 报表。
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/09/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f7b4230a6dc9089008928145863fe70977fb92f4
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a4f4e394aa4534093858ebfe7738dd7fdb0affd2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-report-from-an-existing-report"></a>从现有报表中创建新报表
+# <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>从现有报表中创建新报表（复制报表）
 你可能拥有已连接到数据集的报表，以及某些希望重新使用或修改的视觉效果。  为什么不复制该报表，作为新报表的基础？  若要执行此操作：
 
 1. [打开报表](service-report-open.md)。
@@ -47,3 +47,5 @@ ms.lasthandoff: 03/28/2018
 [创建新的可视化效果](power-bi-report-add-visualizations-ii.md)
 
 [删除可视化效果](service-delete.md)（不需要的）
+
+[使用 Power BI Desktop 创建报表](desktop-report-view.md)

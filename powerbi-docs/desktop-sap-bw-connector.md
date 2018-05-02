@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 04/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84ee8e7c6dd92c5400b6e9d44fab03ad347084d9
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: d644f13f6c9b8ada62a0862fdcf92518512828f7
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 连接器
-使用 Power BI Desktop 可以访问 **SAP BusinessWarehouse (BW)** 数据。
+使用 Power BI Desktop 可以访问 SAP BusinessWarehouse (BW) 数据。
+
+有关 SAP 客户如何在连接 Power BI 和现有 SAP Business Warehouse (BW) 系统的过程中受益的信息，请参阅 [Power BI and SAP BW 白皮书](https://aka.ms/powerbiandsapbw)。
 
 ## <a name="installation-of-sap-bw-connector"></a>安装 SAP BW 连接器
 若要使用 **SAP BW 连接器**，请完成以下安装步骤：
@@ -115,3 +117,4 @@ ms.lasthandoff: 03/22/2018
 * [DirectQuery 和 SAP HANA](desktop-directquery-sap-hana.md)
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery 支持的数据源](desktop-directquery-data-sources.md)
+* [Power BI 和 SAP BW 白皮书](https://aka.ms/powerbiandsapbw)

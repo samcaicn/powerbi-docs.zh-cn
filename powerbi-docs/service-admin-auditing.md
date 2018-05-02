@@ -15,27 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 46f8d11d45423a9f7df96ac4d1e59c5d805304a7
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 23fa4ea28631e7545a1d68cd1f631eb087c56b98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-auditing-within-your-organization"></a>在组织内使用审核
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 了解如何使用 Power BI 的审核功能来监测和调查采取的操作。 可以使用安全性和符合性中心或使用 PowerShell。
 
 了解 Power BI 租户中谁正在对何项目执行何种操作对帮助组织满足其需求非常关键（如满足法规遵从性和记录管理需求）。
 
 可按日期范围、用户、仪表板、报表、数据集和活动类型筛选审核数据。 还可将活动下载到 CSV（逗号分隔值）文件供脱机分析。
-
-> [!NOTE]
-> Power BI 中的审核功能处于预览阶段，适用于所有数据区域。
 
 ## <a name="requirements"></a>要求
 必须满足以下要求才能访问审核日志：
@@ -47,28 +42,8 @@ ms.lasthandoff: 04/08/2018
 
 - 如果你有权访问审核日志但不是全局管理员或 Power BI 服务管理员，则无法访问 Power BI 管理员门户。 在这种情况下，必须获取 Office 365 安全性和符合性中心的直接链接。
 
-## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>在 Power BI 管理门户中启用审核功能
-
-需要为组织启用审核才能使用这些报表。 可在管理门户的租户设置中执行此操作。
-
-1. 选择右上角的“齿轮图标”。
-
-2. 选择**管理门户**。
-   
-   ![](media/service-admin-auditing/powerbi-admin.png)
-
-3. 选择“租户设置”。
-   
-   ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
-
-4. 开启“为内部活动审核和合规目的创建审核日志”。
-
-5. 选择**应用**。
-
-Power BI 开始记录你的用户在 Power BI 中执行的各种活动。 日志将在 48 小时内显示于 O365 安全与合规中心。 有关所记录活动的详细信息，请参阅 [Power BI 审核的活动列表](#list-of-activities-audited-by-power-bi)。
-
 > [!NOTE]
-> 若要在租户中启用 Power BI 审核功能，则租户中需要至少有一个 Exchange 邮箱许可证。
+> 若要在租户中查看 Power BI 审核日志，则租户中需要至少有一个 Exchange 邮箱许可证。
 
 ## <a name="accessing-your-audit-logs"></a>访问审核日志
 

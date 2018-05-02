@@ -1,31 +1,49 @@
 ---
-title: "Power BI 网络研讨会"
-description: "Power BI 网络研讨会"
+title: Power BI 网络研讨会
+description: Power BI 网络研讨会
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/20/2018
 ms.author: maikelson
-ms.openlocfilehash: eb1f158dd054d9e1e462b556897fde8a74ae4bc3
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 598266306657337e8190075b2a5e42de2b7d2144
+ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
 注册并加入我们即将发布的实时网络研讨会，或根据需要观看我们录制的会话。
+
+## <a name="upcoming-webinars"></a>即将举行的网络研讨会
+
+注册以听取 Power BI 专家的建议并参加实时问答会话
+
+**[Power BI 采用框架网络研讨会系列](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+<br>作者：Manu Kanwarpal 和 Paul Henwood
+<br>*2018 年 3 月、4 月和 5 月上午 9:00（太平洋标准时间），下午 12:00（东部标准时间）*
+
+计划为组织有效推出 Power BI，并探索有效软件即服务 (SaaS) 管理的细微差别。 此网络研讨系列包括五个部分，旨在为组织挖掘 Power BI 的潜力。
+
+[注册观看 5 月 1 日 - 第 5 部分 - 推出：成功推出 Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
+<br>[注册并立即观看 - 第 4 部分 - 安全性：使用 Power BI 保护数据](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[注册并立即观看 - 第 3 部分 - 服务管理：Power BI 服务管理见解](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[注册并立即观看 - 第 2 部分 - 监管：管理 Power BI 的使用](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[注册并立即观看 - 第 1 部分 - 采用：采用数据驱动的区域性](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+
+>[从 Power BI 社区参加即将举行的网络研讨会](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
 ## <a name="featured-webinars"></a>特别推荐的网络研讨会
 
@@ -35,34 +53,23 @@ ms.lasthandoff: 03/02/2018
 <br>作者：Miguel Martinez
 <br>[注册并立即观看](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-**轻松引人入胜 – 改善可视化效果设计的七个技巧**
-<br>作者：Miranda Li
-<br>[立即观看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Simply-Compelling-Seven-Tips-to-Better-Visualization-Design/m-p/173401?Is=Website)
+**PowerBI.Tips 所有者提供的 Power BI 技巧、提示和工具**
+<br>作者：Mike Carlo 和 Seth Bauer
+<br>[立即观看](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 **在 20 分钟内了解如何通过 Power BI 仪表板进行导航**
 <br>作者：Miguel Martinez
 <br>[注册并立即观看](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**轻松引人入胜 — 改善可视化效果设计的技巧**
+<br>作者：Miranda Li
+<br>[注册并立即观看](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
 **另请参阅：使用 Power BI 的 Excel 用户可以获得的 5 个优势**
 <br>作者：Carlos Otero 和 Miguel Martinez
 <br>[注册并立即观看](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 >[浏览来自我们的社区专家的 Power BI 按需网络研讨会库](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-## <a name="upcoming-webinars"></a>即将举行的网络研讨会
-
-注册以听取 Power BI 专家的建议并参加实时问答会话
-
-**Power BI 采用框架网路研讨会系列：第 1 部分 — 采用：采用数据驱动的文化**
-<br>作者：Manu Kanwarpal
-<br>3 月 8 日，上午 9:00 (PST)，中午 12:00 (EST)
-
-将组织的理念体系转化为数据驱动的文化，并注册网络研讨会系列，它会为你提供 Microsoft 的 Power BI 采用框架。 采用自助式商业智能 (BI) 具有挑战性，获取工具只是操作的第一步。 成功的采用需要调整人员、优化流程并提升技术。
-此网络研讨会是五个部分系列中的第一个，旨在为组织挖掘 Power BI 的潜力。
-
-[注册后即可观看 3 月 8 日的节目](https://info.microsoft.com/ww-landing-powerbi-adoption.html?Is=Website)
-
->[从 Power BI 社区参加即将举行的网络研讨会](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
 ## <a name="on-demand-webinars"></a>按需网络研讨会
 
@@ -96,27 +103,50 @@ ms.lasthandoff: 03/02/2018
 <br>作者：Patrick McGarry 和 Miguel Martinez
 <br>[注册并立即观看](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
-### <a name="advanced-topics"></a>高级主题 ###
+### <a name="community"></a>社区 ###
 
-**Office 365 金融专业人员网络研讨会系列 - 第 2 节：自动重复执行报表和启用自助服务分析**
-<br>演讲者：Mark Traverso 和 Miguel Martinez
-<br>[注册并立即观看](https://aka.ms/Office365FinanceProsPBI)
+**使用数据和 Power BI 呈现情景**
+<br>作者：Tristan Malherbe
+<br>[立即观看](https://www.youtube.com/watch?v=egk0suekwHo)
 
-**如何实施成功的数据管理战略，使组织安全性更高**
-<br>作者：Ajay Anandan
-<br>[注册并立即观看](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
+**适用于 Power BI 的实用 DAX**
+<br>作者：Phil Seamark
+<br>[立即观看](https://www.youtube.com/watch?v=1fGfqzS37qs)
+
+**使用 Power BI 嵌入开发 – 2018 年 4 月更新**
+<br>作者：Ted Pattison
+<br>[立即观看](https://www.youtube.com/watch?v=swnGlrRy588)
 
 **Power BI 安全深度探索**
 <br>作者：Kasper de Jonge
 <br>[立即观看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**使用 Power BI Premium 加速现代 BI 的使用**
-<br>作者：Sirui Sun 和 Miguel Martinez
-<br>[注册并立即观看](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
-
 **询问合作伙伴：开发 Power BI 的自定义视觉对象**
 <br>作者：Ted Pattison
 <br>[立即观看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
+
+### <a name="advanced-topics"></a>高级主题 ###
+
+**Excel 和 Power BI 高级分析**
+<br>作者：Nagasaikiran Kambhampati 和 Miguel Martinez
+<br>[注册观看](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
+<br>[下载高级分析初学者工具包以跟进](https://aka.ms/pbiaawebinar)
+
+**Office 365 金融专业人员网络研讨会系列 - 第 2 节：自动重复执行报表和启用自助服务分析**
+<br>演讲者：Mark Traverso 和 Miguel Martinez
+<br>[注册并立即观看](https://aka.ms/Office365FinanceProsPBI)
+
+**成为全能的 Power BI 专家 – 通过 Star Wars 数据演示 Power BI 的最高级功能**
+<br>作者：Gil Raviv
+<br>[立即观看](https://www.youtube.com/watch?v=r0Qk5V8dvgg)
+
+**如何实施成功的数据管理战略，使组织安全性更高**
+<br>作者：Ajay Anandan
+<br>[注册并立即观看](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
+
+**使用 Power BI Premium 加速现代 BI 的使用**
+<br>作者：Sirui Sun 和 Miguel Martinez
+<br>[注册并立即观看](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
 
 **Power BI 报表服务器令人耳目一新的新增功能**
 <br>作者：Riccardo Muti、Chris Finlan 和 Chinmay Joshi

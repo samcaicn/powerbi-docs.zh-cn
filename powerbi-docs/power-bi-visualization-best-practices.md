@@ -1,28 +1,28 @@
 ---
-title: "设计报表和视觉对象的最佳做法（白皮书）"
-description: "白皮书：有关如何在 Power BI 中设计报表的最佳做法"
+title: 设计报表和视觉对象的最佳做法（白皮书）
+description: 白皮书：有关如何在 Power BI 中设计报表的最佳做法
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 868d05891d1b2cb24dfae60b7f3bee405ff7d08f
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>设计报表和视觉对象的最佳做法
 <!-- Shared newnav Include -->
@@ -655,7 +655,7 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
 
 如需了解条形图和柱形图的更多详情，请参阅：
 
-* [条形图 101 系列](http://blog.newscred.com/article/data-visualization-101-bar-charts/3c53044d4add7c31e79a3f80128771f4?page=thankyou)
+* [条形图 101 系列](http://blog.newscred.com/article/data-visualization-101-bar-charts)
 * [数据可视化效果目录：条形图](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
 * [数据可视化效果目录：多重集条形图](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
 

@@ -1,28 +1,28 @@
 ---
-title: "设计出色 Power BI 仪表板的提示"
-description: "设计出色 Power BI 仪表板的提示"
+title: 设计出色 Power BI 仪表板的提示
+description: 设计出色 Power BI 仪表板的提示
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9d71d417a2d7beb7f968bf18fc6de90794663ec8
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>设计出色 Power BI 仪表板的提示
 现在，你已创建了一个仪表板并添加了一些磁贴，可考虑如何使你的仪表板不仅美观，而且实用。 一般来说，这意味着突出显示最重要的信息，使其整洁有序。
@@ -31,25 +31,28 @@ ms.lasthandoff: 03/09/2018
 
 > [!TIP]
 > 许多报表的设计原则也适用于仪表板。  阅读我们的白皮书[报表和可视化效果的最佳设计原则](power-bi-visualization-best-practices.md)。
-> 
-> 
+>
+>
 
-### <a name="consider-your-audience"></a>考虑受众
+## <a name="watch-the-dashboard-makeover-webinarhttpsinfomicrosoftcomco-powerbi-wbnr-fy16-05may-12-dashboard-makeover-registrationhtml"></a>观看[仪表板改头换面网络研讨会](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)
+观看 Microsoft 首席项目经理和 Power BI 仪表板专家 Marc Reguera [执行仪表板功能改进](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)。
+
+## <a name="consider-your-audience"></a>考虑受众
 可帮助他们做决定的关键指标是什么？ 将如何使用仪表板？ 何种习得设定或文化设定可能会影响设计选择？ 你的受众需要哪些信息才能成功？
 
 请记住，仪表板是一个概览，一个用于监视数据当前状态的单一区域。 仪表板以基础报表和数据集为基础，并且报表和数据集可包含大量详细信息。 读者可从你的仪表板深入了解报表。 因此不要在仪表板上放置详细信息，除非该信息是你的读者监视所需。
 
 将在什么位置显示仪表板？ 如果将在大型监视器上显示，你可在其上放置更多内容。 如果读者将在其平板电脑上查看它，则更少的磁贴将更具可读性。
 
-### <a name="tell-a-story-and-keep-it-to-one-screen"></a>呈现一个情景，并将其保持在一个屏幕
+## <a name="tell-a-story-and-keep-it-to-one-screen"></a>呈现一个情景，并将其保持在一个屏幕
 由于仪表板旨在一目了然地显示重要信息，因此最好在一个屏幕上显示所有磁贴。 你是否可以在你的仪表板上避免使用滚动条？
 
 仪表板太杂乱？  删除可以轻松读取和解释的基本信息以外的所有信息。
 
-### <a name="make-use-of-full-screen-mode"></a>利用全屏模式
+## <a name="make-use-of-full-screen-mode"></a>利用全屏模式
 [全屏](service-fullscreen-mode.md)显示仪表板，避免干扰。
 
-### <a name="make-the-most-important-information-biggest"></a>让最重要的信息以最大字体显示
+## <a name="make-the-most-important-information-biggest"></a>让最重要的信息以最大字体显示
 如果仪表板上的文本和可视化效果大小相同，你的读者会很难将重点放在最重要的信息上。 例如，卡片可视化效果是突出显示重要数字的好办法：  
 ![卡片可视化效果](media/service-dashboards-design-tips/pbi_card.png)
 
@@ -57,10 +60,10 @@ ms.lasthandoff: 03/09/2018
 
 了解有关[仅使用一个数字创建磁贴](power-bi-visualization-card.md) 的信息。
 
-### <a name="put-the-most-important-information-in-the-upper-corner"></a>将最重要的信息置于顶部角落
+## <a name="put-the-most-important-information-in-the-upper-corner"></a>将最重要的信息置于顶部角落
 大多数人会从上到下阅读，因此将最高级别的详细信息置于顶部，并在你以受众阅读的方向移动时显示更多详细信息（从左到右、从右到左）。
 
-### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>对数据使用适当的可视化效果并设置其格式以方便阅读
+## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>对数据使用适当的可视化效果并设置其格式以方便阅读
 避免出于多样性的目的而使可视化效果多样。  可视化效果应对图片润色，且应易于“阅读”和解释。  对于某些数据和可视化效果，简单的图形可视化就足够了。 但其他数据可能会要求更复杂的可视化效果 - 确保使用标题和标签以及其他自定义来帮助读者。  
 
 * [选择适当的数据可视化效果](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx)。 请谨慎使用扭曲实体的图表，即三维图表。 请记住，对人脑来说，很难解释圆形形状。 饼图、环形图、仪表以及其他圆形的图表类型可能看起来相当美观，但它们不是最佳的数据可视化效果。
@@ -84,7 +87,6 @@ ms.lasthandoff: 03/09/2018
 * *Advanced Presentations* ，Andrew Abela 设计   
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的仪表板](service-dashboards.md)  
+[从报表创建仪表板](service-dashboard-create.md)  
 [Power BI - 基本概念](service-basic-concepts.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
-

@@ -1,29 +1,29 @@
 ---
-title: "仪表板和报表的使用指标"
-description: "如何查看、保存和使用 Power BI 仪表板和报表的使用情况指标。 通过适用于内容创建者的使用情况指标衡量并扩大影响。"
+title: 仪表板和报表的使用指标
+description: 如何查看、保存和使用 Power BI 仪表板和报表的使用情况指标。 通过适用于内容创建者的使用情况指标衡量并扩大影响。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>仪表板和报表的使用指标
 如果你创建仪表板和报表，使用指标可帮助你了解它们的影响。 运行仪表板使用情况指标或报表使用情况指标时，可查看整个组织使用这些仪表板和报表的情况 - 正在使用的内容、使用人员以及使用目的。  
@@ -53,7 +53,7 @@ ms.lasthandoff: 03/09/2018
 
 使用情况指标报表不会显示在“最新动态”、“工作区”、“收藏夹”或其他内容列表中。 不能将使用情况指标报表添加到应用。 如果将使用情况指标报表中的磁贴固定到仪表板，则该仪表板无法添加到应用或内容包中。
 
-若要深入挖掘报表数据，或要根据数据集生成自己的报表，可使用“另存为”（请参阅[将使用情况指标报表另存为功能齐全的 Power BI 报表](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report)）。
+若要深入挖掘报表数据，或要根据数据集生成自己的报表，可使用“另存为”（请参阅[将使用情况指标报表另存为功能齐全的 Power BI 报表](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize))）。
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>打开包含使用情况指标的仪表板或报表
 1. 首先，转到包含仪表板或报表的工作区。

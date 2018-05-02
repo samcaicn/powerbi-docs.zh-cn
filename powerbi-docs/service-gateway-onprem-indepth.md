@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5f081dff246c478f1b9ee3c918de2099b8382100
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 5480768fc088b3a32a1af222d38e3829298e8f0d
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解本地数据网关
 组织中的用户可以访问本地数据（他们已经具有该数据的访问授权），但在这些用户可以连接到本地数据源之前，需要安装和配置本地数据网关。 该网关便于云中的用户与你的本地数据源相互进行快速安全的后台通信，然后返回到云。
@@ -87,10 +87,7 @@ Power BI 允许映射 Analysis Services 数据源的用户名。 你可以配置
    可以在 Azure 门户或 Office 365 管理门户中创建一个帐户，帐户名称与本地 Active Directory 帐户的 UPN 匹配。
 2. 你可以使用 [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) 工具将本地帐户同步到 Azure Active Directory 租户。
    
-   Azure AD Connect 工具提供多个目录和密码同步选项。 如果你不是租户管理员或本地域管理员，则需要联系 IT 管理员对其进行配置。
-3. 可以配置 Active Directory 联合身份验证服务 (ADFS)。
-   
-   可以使用 [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) 工具将 ADFS 服务器关联到 AAD 租户。 ADFS 会使用上述目录同步，但允许使用单一登录 (SSO) 体验。 例如，如果你在工作网络中，则当你登录某个云服务时，系统可能不会提示你输入用户名或密码。 你需要与 IT 管理员讨论你的组织是否可以使用该服务。
+   Azure AD Connect 工具提供有关目录同步和设置身份验证的选项，包括密码哈希同步、传递身份验证和联合身份验证。 如果你不是租户管理员或本地域管理员，则需要联系 IT 管理员对其进行配置。
 
 使用 Azure AD Connect 可确保 AAD 与本地 Active Directory 之间的 UPN 匹配。
 

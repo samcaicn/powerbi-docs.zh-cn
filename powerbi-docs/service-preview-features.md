@@ -1,36 +1,36 @@
 ---
-title: "选择启用预览功能"
-description: "了解如何启用（和禁用）处于预览阶段的 Power BI 功能。"
+title: 选择启用预览功能
+description: 了解如何启用（和禁用）处于预览阶段的 Power BI 功能。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 45f10ab7fef7669adbbc836e67a4daaed267905e
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 54aa25b0d5252af24bdbefef3f1d5798df2f6168
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="opt-in-for-power-bi-preview-features"></a>选择使用 Power BI 预览功能
+# <a name="opt-in-for-power-bi-service-preview-features"></a>选择使用 Power BI 服务预览功能
 ## <a name="what-are-preview-features"></a>什么是 *预览功能* ?
-在改进 Power BI 期间，我们将以 *预览功能* 的形式发布一些新功能。 预览功能可以启用和禁用，让你有机会试试这些功能。
+在改进 Power BI 服务期间，我们将以预览功能的形式发布一些新功能。 预览功能可以启用和禁用，让你有机会试试这些功能。
 
 > [!TIP]
-> 有疑问或反馈吗？ [请访问 Power BI 社区论坛](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)。
+> 预览功能也可用于 Power BI Desktop，有关详细信息，[请访问 Power BI Desktop 社区论坛](https://community.powerbi.com/t5/Desktop/bd-p/power-bi-designer)。
 > 
 > 
 

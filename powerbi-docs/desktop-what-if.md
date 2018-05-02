@@ -1,15 +1,15 @@
 ---
-title: "使用 What if 参数可视化 Power BI Desktop 中的变量"
-description: "创建自己的 What if 变量，想象并可视化 Power BI 报表中的变量"
+title: 使用 What if 参数可视化 Power BI Desktop 中的变量
+description: 创建自己的 What if 变量，想象并可视化 Power BI 报表中的变量
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5222b6ba99c9e61d1070f66115b90aa29099fd8d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c6aa2639b8991cd7a9e1527c780bdbe21ad64b9
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>创建和使用 What if 参数可视化 Power BI Desktop 中的变量
 从 Power BI Desktop 2017 年 8 月版开始，用户可以为报表创建 What if 变量、以切片器的形式与变量交互，从而可视化并量化报表中的不同键值。
 
 ![](media/desktop-what-if/what-if_01.png)
 
-可以在 Power BI Desktop 中的“建模”选项卡上找到 What if 参数。 执行此操作时，会显示一个对话框，可在其中配置该参数。
+可以在 Power BI Desktop 中的“建模”选项卡上找到“What if”参数。 选择参数时，会显示一个对话框，可在其中配置该参数。
 
 ## <a name="creating-a-what-if-parameter"></a>创建 What if 参数
 要创建 What if 参数，请在 Power BI Desktop 中的“建模”选项卡上选择“What if”按钮。 在下图中，我们已创建名为“折扣率”的参数，并将其数据类型设置为十进制数字。 最小值为零，最大值为 0.50 (50%)。 我们还将增量设置为 0.05 或 5%。 这就是在报表中交互时将会调整的参数量。
@@ -37,7 +37,7 @@ ms.lasthandoff: 02/24/2018
 ![](media/desktop-what-if/what-if_02.png)
 
 > [!NOTE]
-> 对于十进制数字，请务必在前面加上零，例如，此框中的 0.50 与 .50。 否则，该数字不会得到验证，且“确定”按钮将不可选。
+> 对于十进制数字，请务必在前面加上零，例如，0.50 而不是 .50。 否则，该数字不会得到验证，且“确定”按钮将不可选。
 > 
 > 
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-what-if/what-if_04.png)
 
-注意，创建 What if 参数后，该参数和度量值都会成为模型的一部分，这是很重要且很有用的一点。 因此，它们可在整个报表上使用，并可用于其他报表页。 而且，由于它们是模型的一部分，用户可以从报表页中删除切片器，如果想恢复它，只需在“字段”列表中抓取 What if 参数并将其拖动到画布（然后将视觉对象更改为切片器），就能轻松地使 What if 参数重新回到报表中。
+注意，创建 What if 参数后，该参数和度量值都会成为模型的一部分，这是很重要且很有用的一点。 因此，它们可在整个报表上使用，并可用于其他报表页。 而且，由于它们是模型的一部分，用户可以从报表页中删除切片器，或者如果想恢复它，只需在“字段”列表中抓取 What if 参数并将其拖动到画布（然后将视觉对象更改为切片器），就能轻松地使该参数重新回到报表中。
 
 ## <a name="using-a-what-if-parameter"></a>使用 What if 参数
 让我们使用 What if 参数创建一个简单示例。 在上一节中，我们创建了 What if 参数，现在，我们将通过创建其值会根据切片器调整的新度量值来利用该参数。 要实现此目的，我们会创建新的度量值。

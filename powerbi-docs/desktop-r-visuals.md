@@ -1,15 +1,15 @@
 ---
-title: "使用 R 创建 Power BI 视觉对象"
-description: "使用 R 创建 Power BI 视觉对象"
+title: 使用 R 创建 Power BI 视觉对象
+description: 使用 R 创建 Power BI 视觉对象
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,17 +18,17 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2e59e3b9d718fa2e0c8c3411968fd4ab66a5851
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e1768da4ace3fd18b181a46f48e3247cebd1cff0
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 创建 Power BI 视觉对象
 借助 **Power BI Desktop**，可以使用 **R** 将数据可视化。
 
 ## <a name="install-r"></a>安装 R
-**Power BI Desktop** 既不包括，也不会部署或安装 **R** 引擎。 若要在 **Power BI Desktop** 中运行 R 脚本，必须在本地计算机上单独安装 **R**。 可以从很多位置免费下载并安装 **R**，其中包括 [Revolution Open 下载页](https://mran.revolutionanalytics.com/download/)，以及 [CRAN 存储库](https://cran.r-project.org/bin/windows/base/)。 **Power BI Desktop** 中的最新版 R 脚本支持在安装路径中使用 Unicode 字符以及空格（空字符）。
+Power BI Desktop 既不包括，也不会部署或安装 R 引擎。 若要在 **Power BI Desktop** 中运行 R 脚本，必须在本地计算机上单独安装 **R**。 可以从很多位置免费下载并安装 **R**，其中包括 [Revolution Open 下载页](https://mran.revolutionanalytics.com/download/)，以及 [CRAN 存储库](https://cran.r-project.org/bin/windows/base/)。 **Power BI Desktop** 中的最新版 R 脚本支持在安装路径中使用 Unicode 字符以及空格（空字符）。
 
 ## <a name="enable-r-visuals"></a>启用 R 视觉对象
 若要启用 R 视觉对象，请选择**文件 > 选项和设置 > 选项**，并在出现的**选项**页中确保本地 R 安装在**选项**窗口的 **R 脚本**部分中指定，如下图所示。 下图中，R 的本地安装路径是 **C:\Program Files\R\R-3.2.0**，并在文本框中显式提供该路径。 请确保显示的路径正确地反映了想要 **Power BI Desktop** 使用的本地 R 安装。
@@ -41,21 +41,27 @@ ms.lasthandoff: 02/24/2018
 1. 在**可视化效果**窗格中选择 **R 视觉对象**图标以添加 R 视觉对象，如下图中所示。
    
    ![](media/desktop-r-visuals/r-visuals-3.png)
-2. 向报表添加 R 视觉对象后，**Power BI Desktop** 执行以下任务：
+
+   向报表添加 R 视觉对象后，**Power BI Desktop** 执行以下任务：
    
    - 占位符 R 视觉对象图像位于报表画布上。
    
    - R 脚本编辑器位于中央窗格底部边缘处。
    
    ![](media/desktop-r-visuals/r-visuals-4.png)
-3. 接下来，在“**字段**”的“**值**”部分中添加要在 R 脚本中使用的字段，就像处理其他任何 **Power BI Desktop** 视觉对象一样。 只有已添加到“**字段**”的字段才可供 R 脚本使用。可以在 **Power BI Desktop R 脚本编辑器**中处理 R 脚本的同时，添加新字段，或从“**字段**”中删除不必要的字段。 **Power BI Desktop** 会自动检测已添加或删除的字段。
+
+2. 接下来，在“**字段**”的“**值**”部分中添加要在 R 脚本中使用的字段，就像处理其他任何 **Power BI Desktop** 视觉对象一样。 
+    
+    只有已添加到“字段”的字段才可供 R 脚本使用。 可以在 Power BI Desktop R 脚本编辑器中处理 R 脚本的同时，添加新字段，或从“字段”中删除不必要的字段。 **Power BI Desktop** 会自动检测已添加或删除的字段。
    
    > [!NOTE]
    > R 视觉对象的默认聚合类型是“不汇总”。
    > 
    > 
    
-1. 现在你可以使用你选择用来创建绘图的数据。 选择了字段，**R 脚本编辑器**将基于编辑器窗格顶部旁边灰色部分中的选择生成支持 R 脚本绑定代码。 随着你选择或删除其他字段，R 脚本编辑器中的支持代码将相应地被自动生成或删除。
+3. 现在你可以使用你选择用来创建绘图的数据。 
+
+    选择了字段，**R 脚本编辑器**将基于编辑器窗格顶部旁边灰色部分中的选择生成支持 R 脚本绑定代码。 随着你选择或删除其他字段，R 脚本编辑器中的支持代码将相应地被自动生成或删除。
    
    下图所示示例中，选择了三个字段：hp、gear 和 drat。 由于这些选择，R 脚本编辑器将生成以下绑定代码：
    
@@ -71,46 +77,46 @@ ms.lasthandoff: 02/24/2018
    > 
    > 
    
-   生成的数据帧被称为**数据集**，并且可以通过相应所选列名称访问所选列。 例如，gear 字段可通过在 R 脚本中编写 *dataset$gear* 进行访问。 对于具有空格或特殊字符的字段，请使用单引号。
-2. 借助所选字段自动生成的数据帧，就可以编写将导致绘制到 R 默认设备的 R 脚本。 该脚本完成时，从 **R 脚本编辑器**标题栏选择**运行**（**运行**位于标题栏右侧）。
+   生成的数据帧被称为“数据集”，并且可以通过相应所选列名称访问所选列。 例如，gear 字段可通过在 R 脚本中编写 dataset$gear 进行访问。 对于具有空格或特殊字符的字段，请使用单引号。
+
+4. 借助所选字段自动生成的数据帧，就可以编写将导致绘制到 R 默认设备的 R 脚本。 该脚本完成时，从 **R 脚本编辑器**标题栏选择**运行**（**运行**位于标题栏右侧）。
    
-    选择“**运行**”后，**Power BI Desktop** 会识别绘图，并在画布上予以呈现。
-   由于该过程是在本地 R 安装上执行，请确保安装了所需的包。
+    选择“运行”后，Power BI Desktop 会识别绘图，并在画布上予以呈现。 由于该过程是在本地 R 安装上执行，请确保安装了所需的包。
    
    当以下任一事件发生时，**Power BI Desktop** 会重新绘制视觉对象：
    
-   * 从 **R 脚本编辑器**标题栏选择**运行**
+   * 当从“R 脚本编辑器”标题栏选择“运行”
    * 每当数据更改发生时（由于数据刷新、筛选或突出显示所导致）
 
-下图显示相关绘图代码的示例，并绘制不同类型汽车特征间的关联。
+    下图显示相关绘图代码的示例，并绘制不同类型汽车特征间的关联。
 
-![](media/desktop-r-visuals/r-visuals-6.png)
+    ![](media/desktop-r-visuals/r-visuals-6.png)
 
-若要获取可视化效果的较大视图，你可以尽量减小 **R 脚本编辑器**。 当然，如同 **Power BI Desktop** 中的其他视觉对象，你可以只选择环形视觉对象（在上面的示例图像中，为右侧的圆形视觉对象）中的跑车，交叉筛选相关绘图。
+5. 若要获取可视化效果的较大视图，你可以尽量减小 **R 脚本编辑器**。 当然，如同 Power BI Desktop 中的其他视觉对象，你可以只选择环形视觉对象（在上面的示例图像中，为右侧的圆形视觉对象）中的跑车，交叉筛选相关绘图。
 
-![](media/desktop-r-visuals/r-visuals-7.png)
+    ![](media/desktop-r-visuals/r-visuals-7.png)
 
-还可修改 R 脚本，自定义视觉对象，并通过向绘图命令添加参数来利用 R 的强大功能。
+6. 还可修改 R 脚本，自定义视觉对象，并通过向绘图命令添加参数来利用 R 的强大功能。
 
-原始的绘图命令如下所示：
+    原始的绘图命令如下所示：
 
     corrplot(M, method = "color",  tl.cex=0.6, tl.srt = 45, tl.col = "black")
 
-R 脚本中进行了一些更改，该命令现如下所示：
+    R 脚本中进行了一些更改，该命令现如下所示：
 
     corrplot(M, method = "circle", tl.cex=0.6, tl.srt = 45, tl.col = "black", type= "upper", order="hclust")
 
-结果是，R 视觉对象现在绘制圆形，只考虑了上半部分，对矩形图重新排序以集中相关特征，如下图中所示。
+    结果是，R 视觉对象现在绘制圆形，只考虑了上半部分，对矩形图重新排序以集中相关特征，如下图中所示。
 
-![](media/desktop-r-visuals/r-visuals-8.png)
+    ![](media/desktop-r-visuals/r-visuals-8.png)
 
-如果执行 R 脚本时导致错误，则不会绘制 R 视觉对象，并且画布上将显示一条错误消息。 有关错误详细信息，请从画布上 R 视觉对象选择**查看详细信息**。
+    如果执行 R 脚本时导致错误，则不会绘制 R 视觉对象，并且画布上将显示一条错误消息。 有关错误详细信息，请从画布上 R 视觉对象选择**查看详细信息**。
 
-![](media/desktop-r-visuals/r-visuals-9.png)
+    ![](media/desktop-r-visuals/r-visuals-9.png)
 
-> **R 脚本安全性：**R 视觉对象从 R 脚本创建，这可能包含具有安全风险或隐私风险的代码。 当尝试查看 R 视觉对象或首次与其交互时，用户会看到一条安全警告消息。 仅当你信任作者和来源，或者在查看并了解 R 脚本之后，才启用 R 视觉对象。
-> 
-> 
+    > **R 脚本安全性：**R 视觉对象从 R 脚本创建，这可能包含具有安全风险或隐私风险的代码。 当尝试查看 R 视觉对象或首次与其交互时，用户会看到一条安全警告消息。 仅当你信任作者和来源，或者在查看并了解 R 脚本之后，才启用 R 视觉对象。
+    > 
+    > 
 
 ## <a name="known-limitations"></a>已知限制
 **Power BI Desktop** 中的 R 视觉对象有一些限制：

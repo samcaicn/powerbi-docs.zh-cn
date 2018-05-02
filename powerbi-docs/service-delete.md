@@ -1,5 +1,5 @@
 ---
-title: 从 Power BI 中删除仪表板、报表、工作簿、数据集或工作区
+title: 删除仪表板、报表、工作簿、数据集或工作区
 description: 了解如何从 Power BI 删除几乎所有内容
 services: powerbi
 documentationcenter: ''
@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/03/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9c8c7e7406b70f35f0669dfc3e565671777665ad
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: 8da5ea98d7304169bc50cf8a5e94f8f1d5354666
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>在 Power BI 服务中删除几乎所有内容
 本文介绍如何在 Power BI 服务中删除仪表板、报表、工作簿、数据集、应用、可视化效果和工作区。
