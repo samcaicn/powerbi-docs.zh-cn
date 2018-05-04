@@ -1,34 +1,34 @@
 ---
-title: "解决 Power BI Desktop 中的 Access 和 .XLS 导入问题"
-description: "解决在 Power BI Desktop 和 Power Query 中导入 Access 数据库和 .XLS 电子表格出现的问题"
+title: 解决 Power BI Desktop 中的 Access 和 .XLS 导入问题
+description: 解决在 Power BI Desktop 和 Power Query 中导入 Access 数据库和 .XLS 电子表格出现的问题
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 97c3cdf1a7ba47f60cd78e9f424ba7af550f1527
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6448d76915f9bc2a118e1552fd7bc9d82058c713
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>解决在 Power BI Desktop 中导入 Access 和 .XLS 文件出现的问题
-在 **Power BI Desktop** 中，**Access 数据库**和旧版 **Excel 工作簿**（Excel 2007-2003 类型的 .XLS 文件）均使用 *Access 数据库引擎*。 有三种常见情形可能会导致 Access 数据库引擎无法正常运行：
+在 Power BI Desktop 中，Access 数据库和旧版 Excel 工作簿（Excel 97-2003 的 .XLS 文件类型）均使用 Access 数据库引擎。 有三种常见情形可能会导致 Access 数据库引擎无法正常运行：
 
 ### <a name="situation-1-no-access-database-engine-installed"></a>情况 1：未安装 Access 数据库引擎
-当 Power BI Desktop 错误消息指示未安装 Access 数据库引擎时，必须安装与你的 Power BI Desktop 版本匹配的 Access 数据库引擎版本（32 位或 64 位）。 你可以从[此位置](http://www.microsoft.com/en-us/download/details.aspx?id=13255)安装 Access 数据库引擎。
+当 Power BI Desktop 错误消息指示未安装 Access 数据库引擎时，必须安装与你的 Power BI Desktop 版本匹配的 Access 数据库引擎版本（32 位或 64 位）。 可以从[下载页](http://www.microsoft.com/en-us/download/details.aspx?id=13255)安装 Access 数据库引擎。
 
 >[!NOTE]
 >如果安装的 Access 数据库引擎位版本不同于 Microsoft Office 安装的位版本，则 Office 应用程序将不能使用 Access 数据库引擎。
@@ -47,7 +47,7 @@ ms.lasthandoff: 02/24/2018
    >[!NOTE]
    >使用 Power BI Desktop 的 32 位版本时，如果创建非常大的数据模型，可能会遇到内存不足的问题。
 2. 更改 Microsoft Office 的版本以匹配 Power BI Desktop 安装的位版本。 若要更改 Microsoft Office 的位版本，请卸载 Office，然后安装与 Power BI Desktop 安装匹配的 Office 版本。
-3. 如果试图打开 .XLS 文件（Excel 2007-2003 工作簿）时出错，可以通过在 Excel 中打开 .XLS 文件并将其另存为 XLSX 文件，来避免使用 Access 数据库引擎。
+3. 如果试图打开 .XLS 文件（Excel 97-2003 工作簿）时出错，可以通过在 Excel 中打开 .XLS 文件并将其另存为 XLSX 文件，来避免使用 Access 数据库引擎。
 4. 如果前三种解决方案不可行，则可安装 Access 数据库引擎的两个版本，但这*不是*建议的解决方法。 安装两个版本将解决 Power Query for Excel 和 Power BI Desktop 的这一问题，但将对自动（默认）使用最先安装的 Access 数据库引擎的位版本的任何应用程序引入错误和问题。 若要安装 Access 数据库引擎的两个位版本，请[下载](http://www.microsoft.com/en-us/download/details.aspx?id=13255)两个版本，然后使用*被动*开关分别运行它们。 例如：
    
        c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
@@ -55,11 +55,9 @@ ms.lasthandoff: 02/24/2018
        c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
 
 ### <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>情形 3：无法结合使用 Office 365 订阅和 Access 或 .XLS 文件
-如果使用的是 Office 365 订阅，无论是 **Office 2013** 还是 **Office 2016**，Access 数据库引擎提供程序是在*仅*供 Office 进程访问的虚拟注册表位置中进行注册。 因此，非 Office 进程的 Mashup 引擎（负责运行非 Office 365 Excel 和 Power BI Desktop）无法使用 Access 数据库引擎提供程序。
+如果使用的是 Office 365 订阅，无论是 **Office 2013** 还是 **Office 2016**，Access 数据库引擎提供程序是在*仅*供 Office 进程访问的虚拟注册表位置中进行注册。 因此，不是 Office 进程的 Mashup 引擎（负责运行非 Office 365 Excel 和 Power BI Desktop）不能使用 Access 数据库引擎提供程序。
 
-若要纠正这种情形，可以下载并安装与 Power BI Desktop 安装位版本匹配的 Access 数据库引擎可再发行组件（请参阅前面的部分，了解有关位版本的详细信息）。
-
-下载链接：[下载 Access 数据库引擎](http://www.microsoft.com/en-us/download/details.aspx?id=13255)。
+若要纠正这种情形，可以[下载并安装与 Power BI Desktop 安装位版本匹配的 Access 数据库引擎可再发行组件](http://www.microsoft.com/en-us/download/details.aspx?id=13255)（请参阅前面的部分，了解有关位版本的详细信息）。
 
 ### <a name="other-situations-that-cause-import-issues"></a>导致导入问题发生的其他情形
 我们会尽可能地收录 Access 或 .XLS 文件出现的问题。 如果遇到本文未收录的问题，请将问题提交给 [Power BI 支持团队](https://powerbi.microsoft.com/support/)。 我们会定期查看可能会对大量客户造成影响的问题，并将其收录到我们的文章中。

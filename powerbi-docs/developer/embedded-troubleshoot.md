@@ -1,27 +1,27 @@
 ---
-title: "嵌入式应用程序疑难解答"
-description: "本文介绍了从 Power BI 嵌入内容时可能会遇到的一些常见问题。"
+title: 嵌入式应用程序疑难解答
+description: 本文介绍了从 Power BI 嵌入内容时可能会遇到的一些常见问题。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 2/26/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 78e3361578b82a9ebf69feae1f7a8ac54966bbc9
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 13bdbbfec2e76b526b92d65f6f9f5cd1372f2094
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -141,7 +141,8 @@ Azure 门户或 Power BI 应用注册页面中的错误消息将提到权限不�
 
 从 Power BI Desktop 或 powerbi.com 中打开该文件，验证性能是否可接受以排除应用程序或嵌入 API 的问题。
 
-
-有关常见问题的解答，请参阅 [Power BI Embedded 常见问题解答](embedded-faq.md)。
+有关详细信息，请参阅 [Power BI Embedded 常见问题](embedded-faq.md)。
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+
+

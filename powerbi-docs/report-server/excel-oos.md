@@ -1,39 +1,32 @@
 ---
-title: "使用 Office Online Server (OOS) 将报表服务器配置为托管 Excel 工作簿"
-description: "除了在 Web 门户中查看 Power BI 报表之外，企业用户现在也可以使用 Power BI 报表服务器中的 Excel 工作簿执行相同操作。"
+title: 使用 Office Online Server (OOS) 托管 Excel 工作簿 - Power BI 报表服务器
+description: 除了在 Web 门户中查看 Power BI 报表之外，Power BI 报表服务器也可以使用 Office Online Server (OOS) 来托管 Excel 工作簿。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/23/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>使用 Office Online Server (OOS) 将报表服务器配置为托管 Excel 工作簿
-除了在 Web 门户中查看 Power BI 报表之外，企业用户现在也可以使用 Power BI 报表服务器中的 Excel 工作簿执行相同的操作，从而向用户提供单个位置来发布和查看其自助服务 Microsoft BI 内容。
-
-> [!NOTE]
-> 这是一项包含在 2017 年 8 月预览版本中的预览功能。 有关详细信息，请参阅 [Power BI 报表服务器中的新增功能](whats-new.md)。
-> 
-> 
+除了在 Web 门户中查看 Power BI 报表之外，Power BI 报表服务器也可以使用 [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) 来托管 Excel 工作簿。 报表服务器将成为用于发布和查看自助服务 Microsoft BI 内容的单个位置。
 
 ![从报表服务器 Web 门户查看的 Excel 报表。](media/excel-oos/excel-in-pbirs.png)
-
-这是通过使用 [Office Online Server](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx) (OOS) 实现的。
 
 ## <a name="prepare-server-to-run-office-online-server"></a>准备要运行 Office Online Server 的服务器
 在运行 Office Online Server 的服务器上执行下列过程。 此服务器必须是 Windows Server 2012 R2 或 Windows Server 2016。 Windows Server 2016 需要 Office Online Server 的 2017 年 4 月发行的版本或更高版本。

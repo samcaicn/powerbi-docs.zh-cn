@@ -1,28 +1,28 @@
 ---
-title: "适用于美国政府客户的 Power BI - 概述"
-description: "对于美国政府客户，了解 Power BI 美国政府服务的功能和限制"
+title: 适用于美国政府客户的 Power BI - 概述
+description: 对于美国政府客户，了解 Power BI 美国政府服务的功能和限制
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b3682deb1897647a7de6f32dc87a4d7ed8bc2c9f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fc917b3a6754c0e9badc11b0d331ae1328bf089c
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
@@ -61,6 +61,7 @@ Azure 分布在多个云中。 默认情况下，租户可以打开对云专属�
 ## <a name="limitations-of-power-bi-us-government"></a>Power BI 美国政府版限制
 **Power BI 服务**的商业版本中提供的某些功能在适用于美国政府客户的 **Power BI 服务**中不可用。 Power BI 团队正在积极致力于使这些功能适用于美国政府客户，并将在这些功能变为可用时更新本文。
 
+* 在 SharePoint Online 中嵌入 - 不能使用 Power BI Web 部件在 SharePoint Online 中嵌入内容。
 * **Power BI 美国政府版**仅可用作 **Pro** 许可证。 在管理门户中（或作为用户）对 Power BI（免费版）许可证的所有引用均在商业版 Power BI 服务云中运行。
 * **审核** - Office 365 安全与合规门户不提供审核功能。
 * **Cortana 中的 Power BI 内容** - Power BI 结果不会显示在 Cortana 搜索结果中，包括 Power BI 内容（仪表板、报表、应用）结果，以及显示特定关键字的 Cortana 优化报表页的结果。

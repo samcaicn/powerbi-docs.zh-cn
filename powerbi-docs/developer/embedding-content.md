@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 2caf5adc442a5794a23e3ed5af478f5467068b14
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>嵌入 Power BI 仪表板、报表和磁贴
 
@@ -143,7 +143,7 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 * 购买符合需求的容量。 请参阅下表，了解可能需要的 Power BI Embedded 容量 SKU。 有关详细信息，请参阅[嵌入式分析容量规划白皮书](https://aka.ms/pbiewhitepaper)。 准备购买时，可以在 [Microsoft Azure 门户](https://portal.azure.com)中完成购买。 若要详细了解如何创建 Power BI Embedded 容量，请参阅[在 Azure 门户中创建 Power BI Embedded 容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)。
 
 > [!IMPORTANT]
-> 由于嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 对于嵌入生产方案，[必须购买容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)。 购买容量后便不会限制嵌入令牌生成。
+> 由于嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 对于嵌入生产方案，[必须购买容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)。 购买容量后便不会限制嵌入令牌生成。 转到[获取可用功能](https://msdn.microsoft.com/en-us/library/mt846473.aspx)，检查已使用多少免费嵌入令牌。
 
 | 容量节点 | 总核心数<br/>（后端 + 前端） | 后端核心数 | 前端核心数 | DirectQuery/实时连接限制 | 高峰时间的最大显示页数 |
 | --- | --- | --- | --- | --- | --- |

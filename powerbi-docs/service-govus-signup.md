@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/27/2017
+ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服务中注册你的美国政府组织
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
@@ -73,7 +73,7 @@ ms.lasthandoff: 02/27/2018
 6. 将用户分配到该帐户。
    
    ![](media/service-govus-signup/service_govus_signup_5.png)
-7. 通过 [https://app.powerbigov.us](https://app.powerbigov.us) 登录到适用于美国政府客户的 **Power BI 服务**
+7. 通过 [https://app.powerbigov.us](https://app.powerbigov.us) 登录到适用于美国政府客户的 Power BI 服务
 
 ## <a name="additional-signup-information"></a>其他注册信息
 以下是有关在各种许可迁移情况下注册“Power BI 美国政府版”的更多信息。
@@ -97,12 +97,7 @@ ms.lasthandoff: 02/27/2018
 ### <a name="whitelisting-instructions"></a>列入允许列表说明
 “列入允许列表”是 Power BI 工程团队将客户从商业版云环境移动到安全的政府版云环境的过程。 这可以保证美国政府版云中提供的功能按预期方式工作。 所有首次购买美国政府版“Power BI”服务的现有（或新）美国政府客户均“必须”启动以下允许列表过程。 该过程必须在安装或迁移到美国政府版“Power BI”服务之前完成。 
 
-若要将租户列入美国政府云的允许列表，请单击以下链接填写支持票证，从而发出请求。 请注意，只有管理员才能发出此请求：
-
-* [*列入允许列表*联机支持请求](https://powerbi.microsoft.com/clouds/)
-* 请务必将要 *列入允许列表* 的域及在此过程中与你协作的 Microsoft 代表的电子邮件包含在内。
-
-*列入允许列表* 的过程大约需要三个星期，在此期间，Power BI 工程团队将作出适当更改以确保你的租户可在美国政府版云中正常运行。
+若要在美国政府版云中将租户*列入白名单*，请与 Microsoft 帐户团队联系，以便获取列入白名单协助。 请注意，只有管理员才能发出此请求。 *列入允许列表* 的过程大约需要三个星期，在此期间，Power BI 工程团队将作出适当更改以确保你的租户可在美国政府版云中正常运行。
 
 从 Power BI **免费版**许可证迁移到 **Power BI 美国政府版**（以及根据定义，迁移到本文前面所述的相关 **Pro** 许可证功能）的客户将遇到本文下一部分所述的问题，直至 Power BI 工程团队将其租户*列入允许列表*。
 

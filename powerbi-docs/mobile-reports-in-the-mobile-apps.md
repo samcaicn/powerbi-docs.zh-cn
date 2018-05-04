@@ -1,6 +1,6 @@
 ---
 title: 在 Power BI 移动应用中浏览报表
-description: '了解如何在手机或平板电脑上查看 Power BI 移动应用中的报表，并与之交互。 可以在 Power BI 服务或 Power BI Desktop 中创建报表，然后在移动应用中与报表进行交互。 '
+description: 了解如何在手机或平板电脑上查看 Power BI 移动应用中的报表，并与之交互。 可以在 Power BI 服务或 Power BI Desktop 中创建报表，然后在移动应用中与报表进行交互。
 services: powerbi
 documentationcenter: ''
 author: maggiesMSFT
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a7bd77ec65fd3897c6e9af9acd2a20a229565415
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -50,7 +50,7 @@ Power BI 报表存储在移动应用中的不同位置，具体取决于从何�
   ![横向模式下的手机报表](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>查看针对手机优化后的报表
-Power BI 报表作者可以创建专门针对手机进行优化的报表布局。 更适合在手机上展示的报表页新增了功能。例如，可以对处于焦点模式的视觉对象执行向下钻取和排序操作，并能访问[报表作者在报表页中添加的筛选器](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)。 在手机上打开的报表已筛选出网页版报表中筛选的值，并通过消息提示报表页上有活动筛选器。 可以在手机上更改筛选器。
+Power BI 报表作者可以创建专门针对手机进行优化的报表布局。 更适合在手机上展示的报表页新增了功能：例如，可以对视觉对象执行向下钻取和排序操作，并能访问[报表作者在报表页中添加的筛选器](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)。 在手机上打开的报表已筛选出网页版报表中筛选的值，并通过消息提示报表页上有活动筛选器。 可以在手机上更改筛选器。
 
 在报表列表中，优化后的报表具有特殊图标 ![手机报表图标](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)：
 
@@ -64,7 +64,7 @@ Power BI 报表作者可以创建专门针对手机进行优化的报表布局�
 
 阅读有关[针对手机视图进行优化的报表](mobile-apps-view-phone-report.md)的详细信息。
 
-## <a name="use-slicers-to-filter-a-report-page"></a>使用切片器筛选报表页
+## <a name="use-slicers-to-filter-a-report"></a>使用切片器筛选报表
 在 Power BI Desktop 或 Power BI 服务中设计报表时，请考虑[将切片器添加到报表页](power-bi-visualization-slicers.md)。 你和同事可以使用切片器在浏览器和移动应用中筛选页面。 在手机上查看报表时，可以在横向模式下和在针对手机的纵向模式进行了优化的页面中查看切片器并与之交互。 如果选择切片器中的值或在浏览器中进行筛选，那么在移动应用中查看报表页时，将会发现已选择相应值。 还会通过消息提示报表页上有活动筛选器。  
 
 * 在报表页上的切片器中选择值后，便会筛选报表页上的其他视觉对象。
@@ -73,7 +73,7 @@ Power BI 报表作者可以创建专门针对手机进行优化的报表布局�
   
   在此插图中，切片器将在列图表中筛选出 7 月的值。
 
-## <a name="cross-filter-and-highlight-a-power-bi-report-page"></a>交叉筛选并突出显示 Power BI 报表页
+## <a name="cross-filter-and-highlight-a-report"></a>交叉筛选并突出显示报表
 在视觉对象中选择值后，便不会筛选其他视觉对象。 而是会突出显示其他视觉对象中的相关值。
 
 * 点击视觉对象中的值。
@@ -88,8 +88,8 @@ Power BI 报表作者可以创建专门针对手机进行优化的报表布局�
    ![对视觉对象排序](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * 若要反向排序，请依次重新点击省略号 (...) 和相同的字段名称。
 
-## <a name="drill-down-and-up-in-a-visual-on-an-ipad-or-a-tablet"></a>在 iPad 或平板电脑上向上和向下钻取视觉对象
-如果报表作者已将此功能添加到视觉对象，可以在 iPad 或平板电脑上向下钻取视觉对象，以查看其中所包含的值。 在 Power BI Desktop 或 Power BI 服务中[向视觉对象添加向下钻取功能](power-bi-visualization-drill-down.md)。 
+## <a name="drill-down-on-an-ipad-or-a-tablet"></a>在 iPad 或平板电脑上向下钻取
+如果报表作者已将向下钻取功能添加到视觉对象，可以在 iPad 或平板电脑上向下钻取视觉对象，以查看其中所包含的值。 在 Power BI Desktop 或 Power BI 服务中[向视觉对象添加向下钻取功能](power-bi-visualization-drill-down.md)。 
 
 > [!NOTE]
 > 暂无法在 iPad 或平板电脑中向下钻取地图。

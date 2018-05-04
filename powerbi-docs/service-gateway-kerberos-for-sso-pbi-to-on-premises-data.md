@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: bb0800dc6a61efe1d7b331a6049460275b4412a3
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 344e6ecc31748d58f0803f95aed53badfa6be4f2
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 进行从 Power BI 到本地数据源的 SSO（单一登录）
 通过使用 Kerberos 配置本地数据网关，可以获得无缝的单一登录连接，从而使 Power BI 报表和仪表板可以从本地数据进行更新。 本地数据网关使用用于连接到本地数据源的 DirectQuery 实现单一登录 (SSO)。
@@ -64,19 +64,18 @@ ms.lasthandoff: 04/08/2018
 
 
 > [!NOTE]
-> 需确保就 SAP 而言满足 SAP HANA 特定的以下配置，才能为 SAP HANA 启用 SSO：
-> 1. 确保当前运行的 SAP HANA 服务器具备所需的最低版本（版本取决于 SAP Hana 服务器平台级别）：
-> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386)
-> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324)
-> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
+> 若要为 SAP HANA 启用 SSO：
 >
-> 2. 在网关计算机上，安装 SAP 的最新 HANA ODBC 驱动程序。  最低版本为 2017 年 8 月发布的 HANA ODBC 版本 2.00.020.00。
+> - 确保当前运行的 SAP HANA 服务器具备所需的最低版本（版本取决于 SAP Hana 服务器平台级别）：
+>     - [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386)
+>     - [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324)
+>     - [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
 >
-> 以下来自 SAP 的修补和升级链接可能会有用。 请注意，必须使用 SAP 支持的帐户登录到以下资源，并且 SAP 可能会更改或更新这些链接。
-> 
-> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386) 
-> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324) 
-> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
+> - 在网关计算机上，安装 SAP 的最新 HANA ODBC 驱动程序。  最低版本为 2017 年 8 月发布的 HANA ODBC 版本 2.00.020.00。
+>
+> 有关使用 Kerberos 设置和配置 SAP HANA 单一登录的详细信息，请参阅 SAP HANA 安全指南中的主题[使用 Kerberos 进行单一登录](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.03/en-US/1885fad82df943c2a1974f5da0eed66d.html)和该页中的链接，尤其是 SAP 注释 1837331 – HOWTO HANA DBSSO Kerberos/Active Directory]。 
+>
+>
 
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>Kerberos 配置不全导致的错误

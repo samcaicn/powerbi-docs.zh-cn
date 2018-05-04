@@ -1,6 +1,6 @@
 ---
 title: Power BI 报表服务器中 Power BI 报表数据源
-description: Power BI 报表可以连接不同的数据源。 根据数据使用方式，可以提供不同的数据源。
+description: Power BI 报表 (.pbix) 可以连接到多个数据源。 根据数据使用方式，可以提供不同的数据源。
 services: powerbi
 documentationcenter: ''
 author: markingmyname
@@ -15,23 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/02/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: a32ef2e1e85b252a2a1071cb95c80149486c2604
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表数据源
-Power BI 报表可以连接不同的数据源。 根据数据使用方式，可以提供不同的数据源。 可以导入数据，或者可以直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。
+# <a name="power-bi-report-pbix-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中的 Power BI (.pbix) 报表数据源
+Power BI 报表可以连接到多个数据源。 根据数据使用方式，可以提供不同的数据源。 可以导入数据，或者可以直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。
 
-这些数据源特定于 Power BI 报表服务器中使用的 Power BI 报表。 有关分页报表支持的数据源的信息，请参阅 [Reporting Services 支持的数据源](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)。
+这些数据源特定于 Power BI 报表服务器中使用的 Power BI 报表。 有关分页报表 (.rdl) 支持的数据源的信息，请参阅 [Reporting Services 支持的数据源](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)。
 
 > [!IMPORTANT]
-> 若要配置计划的刷新，必须支持 Power BI Desktop 报表中的所有数据源。
-> 
-> 
+> Power BI Desktop 报表中的所有数据源必须支持配置计划刷新。
+>  
 
 ## <a name="list-of-supported-data-sources"></a>受支持数据源的列表
 
@@ -216,7 +215,7 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于 DirectQue
 
 
 ## <a name="next-steps"></a>后续步骤
-现在你已选取了数据源，接下来使用该数据源中的数据[创建报表](quickstart-create-powerbi-report.md)。
+现在你已连接到数据源，接下来使用该数据源中的数据[创建 Power BI 报表](quickstart-create-powerbi-report.md)。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

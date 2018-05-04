@@ -1,27 +1,27 @@
 ---
-title: "注册应用以便嵌入 Power BI 内容"
-description: "了解如何在 Azure Active Directory 中注册应用程序，用于嵌入 Power BI 内容。"
+title: 注册应用以便嵌入 Power BI 内容
+description: 了解如何在 Azure Active Directory 中注册应用程序，用于嵌入 Power BI 内容。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: cc9a4c7a29ddb84e6230d42f31a9c6a0427008f1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>注册 Azure AD 应用以便嵌入 Power BI 内容
 了解如何在 Azure Active Directory (Azure AD) 中注册应用程序，用于嵌入 Power BI 内容。
@@ -59,6 +59,22 @@ ms.lasthandoff: 01/30/2018
    
     你将收到一个“客户端 ID”。 如果选择“服务器端 Web 应用”，还会收到“客户端密码”。 如有需要，稍后可以从 Azure 门户中检索客户端 ID。 如果忘记了客户端密码，将需要在 Azure 门户中新建一个密码。
 
+8. 将需要导航到 Azure 以选择“授予权限”。
+> [!Note]
+    > 必须是 Azure 租户中的全局管理员才能完成此操作
+>
+
+* 转到 Azure。
+* 搜索并选择“应用注册”。
+* 选择你的应用。
+* 选择**设置**。
+* 选择“所需权限”。
+* 选择“Power BI 服务”来验证选自应用注册站点的权限。
+* 选择“授予权限”。
+
+
+
+
 现在，可以将注册的应用用作自定义应用的一部分，从而与 Power BI 服务进行交互。
 
 > [!IMPORTANT]
@@ -77,8 +93,8 @@ ms.lasthandoff: 01/30/2018
     ![](media/register-app/azuread-new-app-registration.png)
 5. 按照提示进行操作，并创建新的应用程序。
    
-   * 对于 Web 应用，请输入“登录 URL”，即用户可以登录的应用基 URL（例如，http://localhost:13526）。
-   * 对于本机应用程序，请提供“重定向 URI”，Azure AD 用其返回令牌响应。 输入应用的专属值（例如，http://myapplication/redirect）
+   * 对于 Web 应用，请输入“登录 URL”，即用户可以登录的应用基 URL（例如 http://localhost:13526）。
+   * 对于本机应用程序，请提供“重定向 URI”，Azure AD 用其返回令牌响应。 输入特定于应用程序的值，例如 http://myapplication/redirect
 
 有关如何在 Azure Active Directory 中注册应用程序的详细信息，请参阅 [Azure Active Directory 集成应用程序](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -190,4 +206,5 @@ ms.lasthandoff: 01/30/2018
 至此，已在 Azure AD 中注册了应用，需要在应用中对用户进行身份验证了。 若要了解详细信息，请参阅[对用户进行身份验证，并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+
 
