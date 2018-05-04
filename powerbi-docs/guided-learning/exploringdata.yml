@@ -1,95 +1,96 @@
 ### YamlMime:Tutorial
-title: "研究数据"
+title: 研究数据
 metadata:
-  title: "研究数据 | Microsoft Power BI"
-  description: "了解如何在 Power BI 中查找数据、连接到数据并与数据交互。"
+  title: 研究数据 | Microsoft Power BI
+  description: 了解如何在 Power BI 中查找数据、连接到数据并与数据交互。
   audience: Business User
   level: Beginner
-  nextTutorialHref: powerbiandexcel
-  nextTutorialTitle: "Power BI 和 Excel"
+  nextTutorialHref: powerbiandexcel.yml
+  nextTutorialTitle: Power BI 和 Excel
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: aa974a0f3448efde8a4410fabcf0e4f78a5050fd
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 2d5e4f060aa342e7ce86af699032f7fa2256543e
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "欢迎学习**探索数据**教程。 本教程介绍如何在 Power BI 中查找数据、连接数据以及与数据交互。\n"
-- title: "Power BI 服务简介"
+  content: >
+    欢迎学习**探索数据**教程。 本教程介绍如何在 Power BI 中查找数据、连接数据以及与数据交互。
+- title: Power BI 服务简介
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/B2vd4MQrz4M?rel=0]
 
 
     [!INCLUDE [](includes/4-0-intro-power-bi-service.md)]
-- title: "Power BI 中的快速见解"
+- title: Power BI 中的快速见解
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/et_MLSL2sA8?rel=0]
 
 
     [!INCLUDE [](includes/4-1a-quick-insights.md)]
-- title: "创建和配置仪表板"
+- title: 创建和配置仪表板
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/lJKgWnvl6bQ?rel=0]
 
 
     [!INCLUDE [](includes/4-2-create-configure-dashboards.md)]
-- title: "使用自然语言提出有关数据的问题"
+- title: 使用自然语言提出有关数据的问题
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/qMf7OLJfCz8?rel=0]
 
 
     [!INCLUDE [](includes/4-3-asking-questions-natural-language.md)]
-- title: "创建自定义问答建议"
+- title: 创建自定义问答建议
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/E1mIAyEXuF4?rel=0]
 
 
     [!INCLUDE [](includes/4-3a-suggested-questions.md)]
-- title: "与组织共享仪表板"
+- title: 与组织共享仪表板
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/0tUwn8DHo3s?rel=0]
 
 
     [!INCLUDE [](includes/4-4-share-dashboards.md)]
-- title: "全屏显示视觉对象和磁贴"
+- title: 全屏显示视觉对象和磁贴
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/LoApjhwTse0?rel=0]
 
 
     [!INCLUDE [](includes/4-4b-display-visuals-tiles-fullscreen.md)]
-- title: "编辑磁贴详细信息并添加小组件"
+- title: 编辑磁贴详细信息并添加小组件
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/XhqVbHqd5jQ?rel=0]
 
 
     [!INCLUDE [](includes/4-4d-change-tile-details.md)]
-- title: "获取仪表板的更多空间"
+- title: 获取仪表板的更多空间
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/c31gZkyvC54?rel=0]
 
 
     [!INCLUDE [](includes/4-4e-get-more-dashboard-space.md)]
-- title: "安装和配置个人网关"
+- title: 安装和配置个人网关
   durationInMinutes: 11
   content: >
     > [!Video https://www.youtube.com/embed/xjcO5tNvjGs?rel=0]
 
 
     [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
-- content: "引导式学习教程的本“探索数据”部分已让你为使用各种不同的数据类型做好准备。 下一篇教程介绍如何使用常见的数据源 - Excel。\0"
+- content: 引导式学习教程的本“探索数据”部分已让你为使用各种不同的数据类型做好准备。 下一篇教程介绍如何使用常见的数据源 - Excel。

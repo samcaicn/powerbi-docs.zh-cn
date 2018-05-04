@@ -1,51 +1,52 @@
 ### YamlMime:Tutorial
-title: "开始使用"
+title: 开始使用
 metadata:
-  title: "入门 | Microsoft Power BI"
-  description: "了解什么是 Power BI、它的构建基块如何协同工作以及如何使用它们来获取对数据的见解。"
+  title: 入门 | Microsoft Power BI
+  description: 了解什么是 Power BI、它的构建基块如何协同工作以及如何使用它们来获取对数据的见解。
   audience: Business User
   level: Beginner
-  nextTutorialHref: gettingdata
-  nextTutorialTitle: "获取数据"
+  nextTutorialHref: gettingdata.yml
+  nextTutorialTitle: 获取数据
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 0a7456720b041b9dda176a5182f945a0b1fa63b5
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 7eac10ab7caf67209bc9dc61d24890371e1a4f94
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "**引导式学习教程**的本第一部分介绍是 Power BI、它的构建基块如何协同工作以及如何使用它们来获取对数据的见解。\n"
-- title: "Power BI 简介"
+  content: >
+    **引导式学习教程**的本第一部分介绍是 Power BI、它的构建基块如何协同工作以及如何使用它们来获取对数据的见解。
+- title: Power BI 简介
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-0-what-is-power-bi.md)]
-- title: "使用 Power BI"
+- title: 使用 Power BI
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/1c01r_pAZdk?rel=0]
 
 
     [!INCLUDE [](includes/0-1-intro-using-power-bi.md)]
-- title: "Power BI 的构建基块"
+- title: Power BI 的构建基块
   durationInMinutes: 6
   content: >
     [!INCLUDE [](includes/0-0b-building-blocks-power-bi.md)]
-- title: "快速了解一下 Power BI 服务"
+- title: 快速了解一下 Power BI 服务
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/5srP3h3RJf8?rel=0]
 
 
     [!INCLUDE [](includes/0-3-dashboards-cloud-services.md)]
-- title: "回顾和后续操作"
+- title: 回顾和后续操作
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
-- content: "你已完成 Microsoft Power BI 指导式学习的“入门”部分。 我们继续！ 现在，可以转到引导式学习教程的下一部分，即“获取数据”。 选择下面的“获取数据”按钮继续。\0"
+- content: 你已完成 Microsoft Power BI 指导式学习的“入门”部分。 我们继续！ 现在，可以转到引导式学习教程的下一部分，即“获取数据”。 选择下面的“获取数据”按钮继续。
