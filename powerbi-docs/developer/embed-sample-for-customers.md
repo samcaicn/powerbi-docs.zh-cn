@@ -1,15 +1,15 @@
 ---
-title: "为客户将 Power BI 内容嵌入应用中"
-description: "了解如何使用 Power BI API，为客户将仪表板、磁贴或报表集成到或嵌入 Web 应用中。"
+title: 为客户将 Power BI 内容嵌入应用中
+description: 了解如何使用 Power BI API，为客户将仪表板、磁贴或报表集成到或嵌入 Web 应用中。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
 ms.author: maghan
-ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 779ae9a6df285b58c83021f87ed593af9ec0b3fb
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>将 Power BI 仪表板、磁贴或报表嵌入应用中
 了解如何在为客户嵌入内容时，通过调用 Power BI .Net SDK 和 Power BI JavaScript API，将仪表板、磁贴或报表集成到或嵌入 Web 应用中。 这通常是 ISV 方案。
@@ -126,7 +126,7 @@ Report report = reports.Value.FirstOrDefault();
 需要生成嵌入令牌，以便能够通过 JavaScript API 使用此令牌。 嵌入令牌特定于要嵌入的项。 也就是说，只要嵌入 Power BI 内容，就需要为其新建嵌入令牌。 有关详细信息（包括要使用哪个 accessLevel），请参阅 [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)。
 
 > [!IMPORTANT]
-> 由于嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 对于嵌入生产方案，[必须购买容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)。 购买容量后便不会限制嵌入令牌生成。
+> 由于嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 对于嵌入生产方案，[必须购买容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)。 购买容量后便不会限制嵌入令牌生成。 转到[获取可用功能](https://msdn.microsoft.com/en-us/library/mt846473.aspx)，检查已使用多少免费嵌入令牌。
 
 有关示例，请参阅[“为组织嵌入内容”示例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)的 Controllers\HomeController.cs。
 
