@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08ae182e62fc370b66b2ef88b0c6b7c91a46eff1
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 5031e31f83925d17fb87f39e4610a53617b9fca3
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>在 Power BI Desktop 中通过示例添加列
 自 2017 年 4 月发布的 **Power BI Desktop** 起，只需提供新列的一个或多个示例值，即可使用**查询编辑器**向模型添加新的数据列。 可以根据当前所选内容，或通过根据给定表中的所有（或选定）列提供输入数据，创建新列示例。
 
 ![](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
-这种方法有助于轻松快速地创建新列，非常适用于以下情形：
+这种方法有助于快速轻松地创建新列，非常适用于以下情形：
 
 * 你知道自己想要在新列中获得的数据结果，但不确定通过哪种转换（或一系列转换）可以实现目的。
 * 你已知道自己需要执行的转换，但不确定在 UI 中的什么位置进行单击或选择，从而执行这些转换。
@@ -42,7 +42,7 @@ ms.lasthandoff: 04/26/2018
 
 ![](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-在本文中，我们将使用以下维基百科文章中的数据（可以单击下面的链接，自行获取数据，然后跟着我们一起操作）：
+要从网页中获取数据，请转到“开始”选项卡，单击“获取数据”>“Web”，然后将 URL 粘贴到出现的对话框中。 本文使用 Wikipedia 文章中的数据。 可单击下面的链接，自行获取数据并按照下面操作：
 
 * [**美国各州和领土列表**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
 
@@ -51,9 +51,9 @@ ms.lasthandoff: 04/26/2018
 ![](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
 ## <a name="the-add-column-from-examples-pane"></a>“通过示例添加列”窗格
-选择通过示例添加新列后，便会看到一个新窗格，其中显示了当前表中的列（可能需要滚动才能查看全部列）。 右侧还会显示新的“第 1 列”，这就是 **Power BI Desktop** 根据示例创建的列。 新的“第 1 列”标题下方是空白单元格，可以在其中键入示例，以便 Power BI 能够用来创建与示例匹配的规则和转换。
+选择通过示例添加新列后，便会看到一个新窗格，其中显示了当前表中的列（可能需要滚动才能查看全部列）。 此外，新的“第 1 列”也在右侧显示，该列是 Power BI Desktop 根据你的示例创建的。 新的“第 1 列”标题下方是空白单元格，可以在其中键入示例，以便 Power BI 能够用来创建与示例匹配的规则和转换。
 
-另请注意，这是“查询设置”窗格中的“已应用步骤”。 和以往一样，**查询编辑器**会记录转换步骤，并依序向查询应用这些步骤。
+请注意，这是“查询设置”窗格中的“已应用步骤”。 和以往一样，**查询编辑器**会记录转换步骤，并依序向查询应用这些步骤。
 
 ![](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
@@ -66,9 +66,9 @@ ms.lasthandoff: 04/26/2018
 
 ![](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-在新列中键入示例时，Power BI 会根据检测到的转换让你预览要创建的列。 例如，我们在第一行中键入了“Alabama”，对应于表中第一列的“Alabama”值。 按 *Enter* 键后，Power BI 便会立即根据此值填充列。
+在新列中键入示例时，Power BI 会根据检测到的转换让你预览要创建的列。 例如，如果在第一行中键入“Alabama”，则它对应于表中第一列的“Alabama”值。 按 Enter 后，Power BI 便会立即根据此值填充列。
 
-不过，接着我们转到包含“Massachusetts[E]”的行，并删除了最后的“[E]”部分（因为我们不需要这一部分），Power BI 检测到了这一更改，并使用示例创建了转换。 请注意，窗格的中上方对转换进行了说明。
+但是，随即便会转到包含 Massachusetts[E] 的行，并删除最后的 [E] 部分（因为你不再需要它）。 Power BI 可检测更改，并使用该示例创建转换。 请注意，窗格的中上方对转换进行了说明。
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
