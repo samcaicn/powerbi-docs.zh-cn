@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/20/2018
+ms.date: 04/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 598266306657337e8190075b2a5e42de2b7d2144
-ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
+ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
+ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -42,6 +42,14 @@ ms.lasthandoff: 04/23/2018
 <br>[注册并立即观看 - 第 3 部分 - 服务管理：Power BI 服务管理见解](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
 <br>[注册并立即观看 - 第 2 部分 - 监管：管理 Power BI 的使用](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
 <br>[注册并立即观看 - 第 1 部分 - 采用：采用数据驱动的区域性](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+
+**在 20 分钟内了解 Power BI Embedded**
+<br>主讲人：Megan Asarrane 和 Colin Murphy
+<br>2018 年 5 月 23 日上午 10:00（太平洋标准时间）/下午 1:00（东部标准时间）
+
+本次网络研讨会将介绍 Power BI Embedded。 到此次网络研讨会结束时，用户可以了解到 Power BI Embedded 的具体内容、开始使用该产品的后续步骤，以及从何处获取帮助/资源。
+
+[注册后即可观看 5 月 23 日的节目](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
 
 >[从 Power BI 社区参加即将举行的网络研讨会](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
@@ -132,8 +140,9 @@ ms.lasthandoff: 04/23/2018
 <br>[注册观看](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[下载高级分析初学者工具包以跟进](https://aka.ms/pbiaawebinar)
 
-**Office 365 金融专业人员网络研讨会系列 - 第 2 节：自动重复执行报表和启用自助服务分析**
-<br>演讲者：Mark Traverso 和 Miguel Martinez
+**Office 365 金融专业人员网络研讨会系列**
+<br>主讲人：Mark Traverso、Carlos Otero、Johnnie Thomas、Amanda Cofsky 和 Miguel Martinez
+<br>使用 Office 365 了解提示、技巧和最佳做法，更高效地完成日常工作。
 <br>[注册并立即观看](https://aka.ms/Office365FinanceProsPBI)
 
 **成为全能的 Power BI 专家 – 通过 Star Wars 数据演示 Power BI 的最高级功能**

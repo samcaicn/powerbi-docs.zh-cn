@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/09/2018
+ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -34,7 +34,7 @@ ms.lasthandoff: 04/16/2018
 
 ### <a name="mobile-drill-down-and-drill-up"></a>移动下钻取和向上钻取
 
-现在可以在移动设备上向下钻取和向上钻取以深入了解报表视觉对象。 若要访问此新功能，点击并按住，以便在报表视觉对象上打开工具提示菜单，然后点击“钻取”按钮来深入探索数据。
+现在可以在移动设备上向下钻取和向上钻取以深入了解报表视觉对象。 若要访问此新功能，点击并按住，以便在报表视觉对象上打开工具提示菜单，然后点击“钻取”按钮来深入探索数据。 有关[在移动应用中向上和向下钻取](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/)的详细信息。
 
 ### <a name="persistent-filters"></a>永久性筛选器
 

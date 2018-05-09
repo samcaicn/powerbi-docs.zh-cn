@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 4/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b5da2bf43f2d38e0828571e2b9d404feb615ac69
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7be260a5989ffb6a9dc1b72dad90d227e0b6295b
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>在 Power BI Desktop 中使用钻取
 通过在 Power BI Desktop 中使用钻取，可以在报表中创建一个侧重于特定实体（如供应商、客户或制造商）的页。 有了这个针对性报表页，用户就可以在其他报表页上右键单击数据点，钻取到具有针对性的页，来获取针对此上下文进行筛选后的详细信息。
@@ -45,8 +45,8 @@ ms.lasthandoff: 04/16/2018
 ## <a name="use-your-own-image-for-a-back-button"></a>使用你自己的图像作为“后退”按钮    
  由于“后退”按钮是一个图像，可以使用你想要的任何图像来替换此视觉对象的图像，而且它仍然可以作为“后退”按钮正常运行，以便报表使用者可以返回到原始页面。
 
-1. 若要使用你自己的图像作为“后退”按钮，将图像视觉对象放置在钻取页上。
-2. 选择视觉对象并将“后退按钮”滑块设置为“启用”。 你的图像现充当“后退”按钮。
+1. 在“开始”选项卡上，单击“图像”，然后找到图像并将其放置在钻取页上。
+2. 在“钻取”页的“格式图像”部分下方选择新的图像，将“链接”滑块设置为“开”，并将“类型”设置为“后退”。 你的图像现充当“后退”按钮。
 
     ![](media/desktop-drillthrough/drillthrough_05.png)
 
