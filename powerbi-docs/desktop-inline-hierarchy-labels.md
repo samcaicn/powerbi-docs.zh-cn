@@ -1,28 +1,28 @@
 ---
-title: "在 Power BI Desktop 中使用内联层次结构标签"
-description: "在 Power BI Desktop 中使用内联层次结构标签"
+title: 在 Power BI Desktop 中使用内联层次结构标签
+description: 在 Power BI Desktop 中使用内联层次结构标签
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9d5675b17973839f52699c5af9bfad9c8714a58e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 974194cb04701e2dc21814a0945227ad9c4b770c
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>在 Power BI Desktop 中使用内联层次结构标签
 **Power BI Desktop** 支持使用**内联层次结构标签**，它是旨在提升分层钻取的两种功能中的第一种。 第二种功能当前正处于开发阶段，即使用嵌套层次结构标签的功能（请持续关注 - 我们经常发布更新）。   

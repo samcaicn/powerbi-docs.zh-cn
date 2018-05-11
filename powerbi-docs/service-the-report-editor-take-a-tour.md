@@ -1,5 +1,5 @@
 ---
-title: 快速入门 - 报表编辑器...教程
+title: 报表编辑器...教程
 description: 报表编辑器...教程。
 services: powerbi
 documentationcenter: ''
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b134fe1e5d14f3707391888951178553d5cda7e5
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 5664cdd69483a98f10e9386db870428f0649aa06
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>报表编辑器...教程
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>编辑 Power BI 服务和 Power BI Desktop 中的报表

@@ -1,5 +1,5 @@
 ---
-title: '教程 - 从数据集中创建新报表 '
+title: '从数据集中创建新报表 '
 description: 从数据集创建新的 Power BI 报表。
 services: powerbi
 documentationcenter: ''
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e6c4a614f19a6ba7b9e24c199b7f291e7f57f098
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: c6b156157d9d286bae6b93a217ca1b9502534498
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>通过导入数据集在 Power BI 服务中创建新报表
 你已经阅读了 [Power BI 中的报表](service-reports.md)，并且现在想要创建你自己的仪表板。 创建报表有许多不同的方式，在本文中，我们将通过使用 Power BI 服务从 Excel 数据集创建一个非常基本的报表开始。 了解创建报表的基础知识后，单击底部的**下一步**可转到更高级的报表主题。  
