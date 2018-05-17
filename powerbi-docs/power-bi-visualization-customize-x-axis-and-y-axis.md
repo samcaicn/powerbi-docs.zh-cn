@@ -1,14 +1,14 @@
 ---
-title: "自定义 X 轴和 Y 轴属性（教程）"
-description: "教程：自定义 X 轴和 Y 轴属性"
+title: 自定义 X 轴和 Y 轴属性
+description: 自定义 X 轴和 Y 轴属性
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
+backup: ''
 featuredvideoid: 9DeAKM4SNJM
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 05/16/2017
 ms.service: powerbi
@@ -19,13 +19,13 @@ ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d4156429b728718fa89131a46ebd0f5dd5aabf67
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: be31751c8ca6efb4e7b2dbcbd0215a1c7d002df5
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="customize-x-axis-and-y-axis-properties-tutorial"></a>自定义 X 轴和 Y 轴属性（教程）
+# <a name="customize-x-axis-and-y-axis-properties"></a>自定义 X 轴和 Y 轴属性
 在本教程中，你会学习很多用于自定义视觉对象的 X 轴和 Y 轴的不同方式。 并非所有视觉对象都具有轴或是可以自定义；例如，饼图没有轴。 而且自定义选项因视觉对象而异，选项太多，无法在一篇文章中进行介绍。 因此我们讨论一些最常用的轴自定义，使你可以熟练地在 Power BI 报表画布中使用视觉对象格式设置选项卡。  
 
 > [!NOTE]
@@ -124,7 +124,7 @@ ms.lasthandoff: 02/24/2018
 ### <a name="add-titles-to-both-axes"></a>向两个轴添加标题
 对于十分复杂的可视化效果，添加轴标题会有所帮助。  标题可帮助你的同事了解可视化效果所表达的意思。
 
-1. 将 **Y 轴（列）**和 **Y 轴（行）**的**标题**切换到**打开**。
+1. 将 **Y 轴（列）** 和 **Y 轴（行）** 的**标题**切换到**打开**。
 2. 将**样式**设置为**仅显示标题**。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)

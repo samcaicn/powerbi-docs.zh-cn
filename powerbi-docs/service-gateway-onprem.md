@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ee696e4d967e995771480d660de260b6d3b755cd
-ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
+ms.openlocfilehash: e993a7ced826879e87b6f1d101f50e264fdc6854
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="on-premises-data-gateway"></a>本地数据网关
+
 本地数据网关的作用好似一架桥，提供本地数据（不在云中的数据）与 Power BI、Microsoft Flow、逻辑应用以及 PowerApps 服务之间快速且安全的数据传输。
 
 你可以同时将单个网关与不同的服务一起使用。 如果使用的是 Power BI 和 PowerApps，可以对它们使用同一个网关。 它依赖于你登录的帐户。

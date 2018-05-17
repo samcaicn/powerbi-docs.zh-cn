@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 899cef8c4e441c49f40acc7873348fe80a7b5f9d
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 6920e31c1f72bf51eeefb7b515f8e54c8fafbfd9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>部署 Power BI 数据网关指南
+
 本文提供在网络环境中部署数据网关的指南和注意事项。 **网关**是一种便于访问驻留在本地专用网络上的数据的软件，方便后续在 Power BI 等云服务中使用这些数据。 本文将指导你完成部署，并为本地数据网关设置提供指南。
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
@@ -110,7 +111,7 @@ Power BI 提供了两种连接类型：DirectQuery 和 Import。 并非所有数
 
 网关不需要入站端口。 所有必需的端口列在上面的列表中。
 
-建议你将防火墙中数据区域的 IP 地址列入允许列表。 可在 [Microsoft Azure 数据中心 IP 列表](https://www.microsoft.com/download/details.aspx?id=41653)中下载 IP 地址列表。 该列表每周更新一次。 网关将使用指定的 IP 地址以及完全限定的域名 (FQDN) 与 Azure 服务总线进行通信。 如果使用 HTTPS 强制网关进行通信，则网关仅使用 FQDN，并且不会使用 IP 地址则进行通信。
+建议你将防火墙中数据区域的 IP 地址列入白名单。 可在 [Microsoft Azure 数据中心 IP 列表](https://www.microsoft.com/download/details.aspx?id=41653)中下载 IP 地址列表。 该列表每周更新一次。 网关将使用指定的 IP 地址以及完全限定的域名 (FQDN) 与 Azure 服务总线进行通信。 如果使用 HTTPS 强制网关进行通信，则网关仅使用 FQDN，并且不会使用 IP 地址则进行通信。
 
 #### <a name="forcing-https-communication-with-azure-service-bus"></a>强制 HTTPS 与 Azure 服务总线通信
 可以使用 HTTPS 替代直接 TCP 来强制网关与 Azure 服务总线通信。 这样会稍微降低性能。 还可以使用网关接口（从 2017 年 3 月的网关版本开始），通过使用 HTTPS 来强制网关与 Azure 服务总线进行通信。

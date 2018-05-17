@@ -21,7 +21,7 @@
 7. 输入 DAX 表达式。 此表达式应返回 true 或 false。 例如：[实体 ID] =“值”。
    
    > [!NOTE]
-   > 可以在此表达式内使用 *username()*。 请注意，*username()* 在 Power BI Desktop 中将采用*域\用户名*的格式。 在 Power BI 服务中，它的格式则为用户的 UPN。 或者，可以使用 userprincipalname()，它将始终返回采用其用户主体名称格式的用户。
+   > 可以在此表达式内使用 *username()*。 请注意，*username()* 在 Power BI Desktop 中将采用*域\用户名*的格式。 在 Power BI 服务中，它的格式则为用户的 UPN。 或者，可以使用 userprincipalname()，它始终返回采用其用户主体名称格式的用户。
    > 
    > 
    

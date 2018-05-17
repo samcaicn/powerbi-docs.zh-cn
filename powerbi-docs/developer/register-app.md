@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 6dad138407c80a1caab8b3aca4668504bdf2c382
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>注册 Azure AD 应用以便嵌入 Power BI 内容
 了解如何在 Azure Active Directory (Azure AD) 中注册应用程序，用于嵌入 Power BI 内容。
@@ -71,9 +71,6 @@ ms.lasthandoff: 04/26/2018
 * 选择“所需权限”。
 * 选择“Power BI 服务”来验证选自应用注册站点的权限。
 * 选择“授予权限”。
-
-
-
 
 现在，可以将注册的应用用作自定义应用的一部分，从而与 Power BI 服务进行交互。
 

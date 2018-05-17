@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d321d70fe201af500feb35ef4e5ea1df6cc558f0
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2f5ca353d26b83a8c8cce5356724b351cb9d1621
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI 网关故障排除 - 个人
 以下介绍使用 Power BI 个人网关时可能遇到的一些常见问题。
@@ -56,7 +56,7 @@ ms.lasthandoff: 04/16/2018
 
 如果你已计划刷新，然后卸载并重新安装个人网关，则在 \<dataset\> 的设置中会出现此错误。 当你卸载个人网关时，针对刷新配置的数据集的数据源凭据将从 Power BI 服务中删除。
 
-**解决方案：**在 Power BI 中，转到数据集的刷新设置。 在“管理数据源”中，对于任何存在错误的数据源，单击“编辑凭据”并再次登录到数据源。
+**解决方案：** 在 Power BI 中，转到数据集的刷新设置。 在“管理数据源”中，对于任何存在错误的数据源，单击“编辑凭据”并再次登录到数据源。
 
 **错误：为数据集提供的凭据无效。请通过刷新更新凭据或在“数据源设置”对话框中更新凭据以继续执行操作。**
 
@@ -69,18 +69,18 @@ ms.lasthandoff: 04/16/2018
 
 **错误：数据源不受支持。**
 
-**解决方案：**如果在计划刷新设置中出现数据源不受支持的消息，这可能意味着： 
+**解决方案：** 如果在计划刷新设置中出现数据源不受支持的消息，这可能意味着： 
 
 * Power BI 中当前不支持数据源进行刷新。 
 * Excel 工作簿不包含数据模型，仅包含工作表数据。 如果已上载的 Excel 工作簿包含数据模型，Power BI 当前只支持刷新。 当在 Excel 中使用 Power Query 导入数据时，请务必选择此选项将数据加载到数据模型。 这可确保数据导入到数据模型。 
 
 **错误：[无法合并数据] &lt;查询部分&gt;/&lt;…&gt;/&lt;…&gt; 正在访问的数据源具有无法一起使用的隐私级别。请重新生成此数据组合。**
 
-**解决方案**：此错误是由于隐私级别限制和正在使用的数据源类型所导致。 [了解详细信息](refresh-enable-fast-combine.md)
+**解决方案**：此错误是由于隐私级别限制和正在使用的数据源类型所导致。
 
 **错误：数据源错误：无法将值“\[Table\]”转换为 Table 类型。**
 
-**解决方案**：此错误是由于隐私级别限制和正在使用的数据源类型所导致。 [了解详细信息](refresh-enable-fast-combine.md)
+**解决方案**：此错误是由于隐私级别限制和正在使用的数据源类型所导致。
 
 **错误：对于此行没有足够的空间。**
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 5d0d679a9b5d3bea494915dc981e155ad69eeac6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>将 Power BI 仪表板、磁贴或报表嵌入主权云应用程序中
 了解如何在为客户嵌入内容时，通过调用 Power BI .Net SDK 和 Power BI JavaScript API，将仪表板、磁贴或报表集成到或嵌入 Web 应用中。 这通常是 ISV 方案。
@@ -38,7 +38,7 @@ Power BI 还支持主权（私有）云。 每个主权云都有自己的附属�
 
 ![嵌入的仪表板](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-若要开始本演练，需要一个 Power BI 帐户。 如果未设置帐户，则可以根据政府类型，[注册美国政府 Power BI 帐户](../service-govus-signup.md)或 [Power BI for Germany 云帐户](https://powerbi.microsoft.com/en-us/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)。
+若要开始本演练，需要一个 Power BI 帐户。 如果未设置帐户，则可以根据政府类型，[注册美国政府 Power BI 帐户](../service-govus-signup.md)或 [Power BI for Germany 云帐户](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)。
 
 > [!NOTE]
 > 要改为为组织嵌入仪表板？ 请参阅[为组织将仪表板集成到应用中](integrate-dashboard.md)。
@@ -407,7 +407,7 @@ var embedConfig = new EmbedConfig()
 
 * 可以参考 GitHub 上的示例应用。 上面的示例均以此示例为依据。 有关详细信息，请参阅[“为组织嵌入内容”示例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)。
 * 有关 JavaScript API 的详细信息，请参阅 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
-* 有关 Power BI for Germany 云的详细信息，请参阅 [Power BI for Germany 云常见问题](https://docs.microsoft.com/en-us/power-bi/service-govde-faq)
+* 有关 Power BI for Germany 云的详细信息，请参阅 [Power BI for Germany 云常见问题](https://docs.microsoft.com/power-bi/service-govde-faq)
 * [如何将 Power BI 工作区集合内容迁移到 Power BI](migrate-from-powerbi-embedded.md)
 
 限制和注意事项

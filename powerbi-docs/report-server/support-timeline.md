@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: 995b1aab5547369ef9c4ceebae3f69c268107164
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: dd6ab0afdb171a1cdb1267adee8bb1c411596dff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI 报表服务器的支持日程表
 Power BI 报表服务器每年都会发布几次。 安全更新和关键更新在下一版本全面推出 (GA) 前发布。 在下一版本推出后，旧版本将在 12 个月的发行生命周期的剩余时间里继续接收安全更新程序。
@@ -46,7 +46,7 @@ Power BI 报表服务器每年都会发布几次。 安全更新和关键更新�
 [Power BI 报表服务器中的新增功能](whats-new.md)  
 [用户手册](user-handbook-overview.md)  
 [管理员手册](admin-handbook-overview.md)  
-[快速入门：安装 Power BI 报表服务器](quickstart-install-report-server.md)  
+[安装 Power BI 报表服务器](install-report-server.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

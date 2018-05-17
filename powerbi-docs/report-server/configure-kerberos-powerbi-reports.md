@@ -1,15 +1,15 @@
 ---
-title: "配置 Kerberos 以使用 Power BI 报表"
-description: "了解如何将报表服务器配置为对在分布式环境的 Power BI 报表中使用的数据源进行 Kerberos 身份验证。"
+title: 配置 Kerberos 以使用 Power BI 报表
+description: 了解如何将报表服务器配置为对在分布式环境的 Power BI 报表中使用的数据源进行 Kerberos 身份验证。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 70d4992ad4680d2a412a6bdded895f4248f5dab1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 8a99f4d07b17ae1a8d260c1655dfbb948f76c317
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>配置 Kerberos 以使用 Power BI 报表
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -223,7 +223,7 @@ SPN 的放置也类似于 Power BI 报表服务器 SPN 的放置。 不同之处
 
 ## <a name="next-steps"></a>后续步骤
 [管理员手册](admin-handbook-overview.md)  
-[快速入门：安装 Power BI 报表服务器](quickstart-install-report-server.md)  
+[安装 Power BI 报表服务器](install-report-server.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

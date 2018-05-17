@@ -1,15 +1,15 @@
 ---
-title: "Power BI 报表服务器的浏览器支持"
-description: "了解支持使用哪些版本的浏览器来管理和查看 Power BI 报表服务器和报表查看器控件。"
+title: Power BI 报表服务器的浏览器支持
+description: 了解支持使用哪些版本的浏览器来管理和查看 Power BI 报表服务器和报表查看器控件。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: 273a336280a371f694fb08a43d75e24535942e9a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: a0ac612ec132d5aefc8353b4ef92212913e3db5a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI 报表服务器的浏览器支持
 了解支持使用哪些版本的浏览器来管理和查看 Power BI 报表服务器和报表查看器控件。
@@ -120,7 +120,7 @@ Windows 7、8.1、10；Windows Server 2008 R2、2012、2012 R2
 
 ## <a name="next-steps"></a>后续步骤
 [管理员手册](admin-handbook-overview.md)  
-[快速入门：安装 Power BI 报表服务器](quickstart-install-report-server.md)  
+[安装 Power BI 报表服务器](install-report-server.md)  
 [安装报表生成器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
