@@ -1,15 +1,15 @@
 ---
-title: "如何查找报表服务器产品密钥"
-description: "了解如何查找 Power BI 报表服务器产品密钥，以便在生产环境中安装服务器。"
+title: 如何查找报表服务器产品密钥
+description: 了解如何查找 Power BI 报表服务器产品密钥，以便在生产环境中安装服务器。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: ff2e515823cbaa726fbdf72d1cb398381ea69363
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b1bfbdc635c0abba7e6d14567c3e839fd6a0c716
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>如何查找报表服务器产品密钥
 了解如何查找 Power BI 报表服务器产品密钥，以便在生产环境中安装服务器。
@@ -52,7 +52,7 @@ ms.lasthandoff: 01/30/2018
 ![](media/find-product-key/vlsc-download.png "批量许可服务中心")
 
 ## <a name="next-steps"></a>后续步骤
-[快速入门：安装 Power BI 报表服务器](quickstart-install-report-server.md)  
+[安装 Power BI 报表服务器](install-report-server.md)  
 [安装更适合 Power BI 报表服务器的 Power BI Desktop](install-powerbi-desktop.md)  
 [安装报表生成器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

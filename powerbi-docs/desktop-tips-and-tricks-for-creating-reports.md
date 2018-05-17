@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/21/2018
 ms.author: davidi
-ms.openlocfilehash: d4c32d82fb25fcce47900080d3c454623e14cd74
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: f28df3bff1759c1a0b06d49710a8c7df017229fa
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 创建报表的相关提示和技巧
 若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop *及*启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。 
@@ -46,7 +46,7 @@ Power BI Desktop 中的查询编辑器与 Excel 2013 中的 Power Query 加载�
 默认情况下，所有查询均加载到 Excel 工作表和/或数据模型。 某些查询是中间步骤，不用于最终用户。  按上述所提方式引用查询时，通常是这种情况。  可右键单击浏览器中的查询并切换“启用加载”选项，从而控制查询加载行为。  如果“启用加载”旁边没有勾号，则查询仍可用于查询选项卡且可与其他查询一同使用。  在与“合并”、“追加”和“引用”转换配合使用时，此功能尤其有用。  但由于查询结果未加载到数据模型，此查询将不会打乱报表字段列表或数据模型。 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>散点图需要点标识符
-举个例子，一个简单的表上记录了天气和进行读取的时间。 如果将其直接绘制在散点图上，Power BI 会将所有值都聚合为一个点。 若要显示单独的数据点，将要在字段框的“详细信息”存储桶中添加一个字段。   在 Power BI Desktop 中执行此操作的一种简单的方式是在“查询”选项卡上使用“添加列”功能区上的“添加索引列”选项。 
+举个例子，一个简单的表上记录了天气和进行读取的时间。 如果将其直接绘制在散点图上，Power BI 会将所有值都聚合为一个点。 若要显示单独的数据点，将要在字段框的“详细信息”存储桶中添加一个字段。   在 Power BI Desktop 中执行此操作的一种简单方法是在“查询”选项卡上，使用“添加列”功能区中的“添加索引列”选项。 
 
 ## <a name="reference-lines-in-your-report"></a>报表中的参考线
 可使用 Power BI Desktop 中的计算列来定义参考线。  确定你要在其上创建参考线的表格和列。  在功能区中选择“新建列”，然后在公式栏中键入以下公式：
@@ -163,7 +163,7 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 ## <a name="using-dax-for-the-first-time"></a>首次使用 DAX
 DAX 是 Power BI Desktop 中的计算公式语言。  它针对 BI 分析进行了优化。  与你仅使用 SQL（如查询语言）时可能熟知的功能相比，它可能略有不同。 可参阅详尽的在线资料和宣传资料来了解 DAX。 
 
-[快速入门：了解 Power BI Desktop 中的 DAX 基础知识](desktop-quickstart-learn-dax-basics.md)
+[了解 Power BI Desktop 中的 DAX 基础知识](desktop-quickstart-learn-dax-basics.md)
 
 [数据分析表达式 (DAX) 引用](https://msdn.microsoft.com/library/gg413422.aspx)
 

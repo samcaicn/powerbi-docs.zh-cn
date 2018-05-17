@@ -1,16 +1,16 @@
 ---
-title: "教程：Power BI 与 Microsoft Flow 的集成"
-description: "了解如何创建由 Power BI 数据警报触发的流。"
+title: Power BI 与 Microsoft Flow 的集成
+description: 了解如何创建由 Power BI 数据警报触发的流。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: YhmNstC39Mw
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b38866b2a9989af529e89cd358f25716072c46bb
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 70ce46dcfa6d4ab1ee1e18f1b31fb4f52dd1bbea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 和 Power BI
 

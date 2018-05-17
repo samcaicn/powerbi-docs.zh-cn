@@ -1,28 +1,28 @@
 ---
-title: "Azure 和 Power BI"
-description: "Azure 和 Power BI"
+title: Azure 和 Power BI
+description: Azure 和 Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f07abb6b878ba96c1e5a84168ded6e466c8fb18e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9e4685174c5489b898777383925d601dd44fea39
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="azure-and-power-bi"></a>Azure 和 Power BI
 借助“Azure”服务和“Power BI”，你可以将数据处理工作转换为可以提供实时业务策略的分析和报告。 无论你处理的数据基于云还是位于本地、简单还是复杂、采用单一来源还是大量混合来源、封存还是实时的，Azure 和 Power BI 提供的内置连接和集成都可以使你的商业智能努力成为现实。

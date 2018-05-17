@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 4a96582eb8864cd41b5b307d05be890fc3bbff34
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 611a8cd1f2ff3da16d700f8d2b9f15787dda8475
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>管理 Power BI Premium 和 Power BI Embedded 中的容量
 了解如何管理为内容提供专用资源的 Power BI Premium 和 Power BI Embedded 容量。
@@ -55,8 +55,8 @@ ms.lasthandoff: 04/08/2018
 ## <a name="capacity-admins"></a>容量管理员
 > [!NOTE]
 > 在 Microsoft Azure 门户中定义 Power BI Embedded 容量的容量管理员。
-> 
-> 
+>
+>
 
 被指定为容量的容量管理员时，可以完全控制容量及其管理功能。 可以从 Power BI 管理门户添加更多的容量管理员（仅限 Power BI Premium）或为用户授予容量分配权限。 可以为容量批量分配工作区，还可以查看容量的使用情况指标。
 
@@ -81,14 +81,14 @@ V 核心数将反映使用量以及可用于创建容量的数量。 可供组�
 1. 选择“设置新容量”。
 2. 为容量命名。
 3. 定义此容量的容量管理员。
-   
+
     容量管理员不需要是 Power BI 管理员或 Office 365 全局管理员。有关详细信息，请参阅 [Power BI 高级容量管理员](#capacity-admins)
 4. 选择容量大小。 可用选项取决于拥有的可用 V 核心数。 无法选择大于拥有的可用核心数的选项。
-   
+
     ![可用的高级容量大小](media/service-admin-premium-manage/premium-capacity-size.png)
 5. 选择“设置”。
 
-![设置新的容量](media/service-admin-premium-manage/set-up-capacity.png)
+    ![设置新的容量](media/service-admin-premium-manage/set-up-capacity.png)
 
 容量管理员以及 Power BI 管理员和 Office 365 全局管理员随后将看到该容量在管理门户中列出。
 
@@ -103,15 +103,15 @@ V 核心数将反映使用量以及可用于创建容量的数量。 可供组�
 
 > [!NOTE]
 > 在 Microsoft Azure 门户中管理 Power BI Embedded 容量设置。
-> 
-> 
+>
+>
 
 ### <a name="change-capacity-size-power-bi-premium"></a>更改容量大小 (Power BI Premium)
 Power BI 管理员和 Office 365 全局管理员通过选择“更改容量大小”来更改 Power BI Premium 容量大小。 如果容量管理员不是 Power BI 管理员或 Office 365 全局管理员，将无法使用此选项。
 
 ![更改 Power BI Premium 容量大小](media/service-admin-premium-manage/change-capacity-size.png)
 
-通过“更改容量大小”屏幕，可以升级或降级容量大小（如果有可用的资源）。 只要管理员具有必需的 V 核心数，他们就可以创建节点、调整节点大小和删除节点。 
+通过“更改容量大小”屏幕，可以升级或降级容量大小（如果有可用的资源）。 只要管理员具有必需的 V 核心数，他们就可以创建节点、调整节点大小和删除节点。
 
 无法将 P SKU 降级至 EM SKU。 可以将鼠标悬停在提供说明的禁用选项上。
 
@@ -129,31 +129,41 @@ Power BI 管理员和 Office 365 全局管理员通过选择“更改容量大�
 
 > [!NOTE]
 > 对于 Power BI Embedded 容量，在 Microsoft Azure 门户中分配容量管理员。
-> 
-> 
+>
+>
 
 ![](media/service-admin-premium-manage/capacity-user-permissions.png)
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
 
 ## <a name="usage-measurements-power-bi-premium"></a>使用情况度量 (Power BI Premium)
-对于每个容量，你都能使用 CPU、内存和直接查询的使用情况度量。 每个 KPI 都具有三个指标，**“良好（绿色）”****“饱和（黄色）”**和**“严重（红色）”**。 我们建议监测这些指标，确保用户在使用高级内容时保持良好的性能。
+对于每个容量，可看到 CPU、内存使用情况、内存抖动和直接查询的使用情况度量。 建议保留这些指标的选项卡，确保用户体验到良好的容量性能：
 
-**在 Azure 门户中监视 Power BI Embedded 容量的使用情况。**
+![最近 7 天的使用情况](media/service-admin-premium-manage/premium-dashboard-tiles.png)
 
-![](media/service-admin-premium-manage/usage-metrics-critical.png "容量使用情况指标 - 严重")
+> [!NOTE]
+> 在 Azure 门户中监视 Power BI Embedded 容量的使用情况。
 
 | 指标 | 说明 |
 | --- | --- |
-| CPU |核心的 CPU 使用情况。 |
-| 内存 |表示后端核心的内存压力。 具体而言，这一指标指示因使用多个模型产生的内存压力，而从内存清除模型的频率。 |
-| DQ/秒 |* 我们限制 DirectQuery 的总数和每秒实时连接查询数。<br/>* 限制如下：P1、P2、P3 分别为 30/s、60/s 和 120/s。<br/>* DirectQuery 和实时连接查询和上述限制同样重要。 例如，如果一秒内有 15 个 DirectQueries 和 15 次实时连接，则达到限制。<br/>* 这同样适用于本地连接和云连接。 |
+| CPU |CPU 使用率超过 80% 的次数。 |
+| 内存抖动 |表示后端核心的内存压力。 具体而言，这一指标指示因使用多个数据集产生的内存压力，而从内存清除数据集的次数。 |
+| 内存使用情况 |平均内存使用量，以千兆字节 (GB) 表示。 |
+| DQ/秒 | 直接查询和实时连接数超过限制的 80% 的次数。 <br> <br> * 我们限制了每秒直接查询和实时连接查询的总数。<br><br>* 限制如下：P1、P2、P3 分别为 30/秒、60/秒和 120/秒。<br><br> * 直接查询和实时连接查询数计入上述限额。 例如，如果 1 秒内分别有 15 次直接查询和实时连接，则达到限额。<br/><br>* 这同样适用于本地连接和云连接。 |
 
-这些指标达到饱和/严重时，你的用户可能会发现报表和刷新性能下降，尤其在负载峰值期间。
+指标反映的是过去一周的利用率。  如果想要查看更详尽的指标视图，可单击任意摘要磁贴进行查看。  此操作将调出详细图表，显示高级容量的每个指标。  这些图表过去一周内每小时汇总一次，有助于在高级容量可能出现特定的性能相关事件时进行隔离。  
 
-指标反映过去一周的使用情况，在容量过载时对实例计数，因此向用户提供的性能可能不太理想。
+![详细的 CPU 使用情况图表](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
 
-“使用率超过 80%”中的每一项都应被视为性能下降的潜在事例。 事例过多是能够较好预示用户重大性能问题的一个指标。
+![详细的内存抖动使用情况图表](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
+
+
+![详细的内存大小使用情况图表](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
+
+
+![详细的内存抖动使用情况图表](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
+
+也可将指标的基础数据随意导出到 csv 文件。  导出后，过去一周每天每隔三分钟即显示一次详细信息。
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>将工作区分配到容量
 有几种方式可以将工作区分配到容量。
@@ -165,7 +175,7 @@ Power BI 管理员和 Office 365 全局管理员通过选择“更改容量大�
 
 1. 选择“分配工作区”。 这列在多个位置，并执行相同的任务。
 2. 选择“整个组织的工作区”或“按用户分配的特定工作区”。
-   
+
    | 所选内容 | 说明 |
    | --- | --- |
    | 整个组织的工作区 |将整个组织的工作区分配到高级容量，会把组织中的所有“应用工作区”和“我的工作区”分配到这个高级容量。 此外，当前和未来的所有用户都将有权向此容量重新分配个别工作区。 |
@@ -180,19 +190,19 @@ Power BI 管理员和 Office 365 全局管理员通过选择“更改容量大�
 若要将工作区移入容量，必须具备该工作区的管理员权限以及该容量的容量分配权限。 请注意，工作区管理员始终可以从高级容量中删除工作区。
 
 1. 通过选择“省略号 (...)”和“编辑工作区”，编辑一个应用工作区。
-   
+
     ![从省略号上下文菜单编辑工作区](media/service-admin-premium-manage/edit-app-workspace.png)
 2. 在“编辑工作区”内，展开“高级”。
 3. 如果已获得对任何容量的容量分配权限，可以选择为这个工作区开启“高级”。
 4. 选择希望将此应用工作区分配到哪个容量。
-   
+
     ![容量选择下拉列表](media/service-admin-premium-manage/app-workspace-advanced.png)
 5. 选择**保存**。
 
 保存后，工作区及其所有内容都会被迁移到高级容量，这不会影响最终用户的任何体验。
 
 ## <a name="what-premium-looks-like-for-users"></a>高级容量的用户体验
-大多数情况下，用户甚至不需要知道他们处于高级容量中。 其仪表板和报表还会正常工作。 作为一个可视化提示，你将看到高级容量中的工作区旁有一个的菱形图标。 
+大多数情况下，用户甚至不需要知道他们处于高级容量中。 其仪表板和报表还会正常工作。 作为一个可视化提示，你将看到高级容量中的工作区旁有一个的菱形图标。
 
 ![显示由高级容量支持的工作区的菱形](media/service-admin-premium-manage/premium-workspace.png)
 
@@ -211,4 +221,3 @@ Power BI 管理员和 Office 365 全局管理员通过选择“更改容量大�
 将工作区中分配给高级容量时，与免费用户共享已发布的应用。 有关详细信息，请参阅[在 Power BI 中创建和分发应用](service-create-distribute-apps.md)。
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
-

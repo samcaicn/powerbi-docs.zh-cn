@@ -1,28 +1,28 @@
 ---
-title: "将外部 R IDE 与 Power BI 一起使用"
-description: "可以启动并使用 Power BI 的外部 IDE"
+title: 将外部 R IDE 与 Power BI 一起使用
+description: 可以启动并使用 Power BI 的外部 IDE
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3903a4d7351ab00da24750736840c6ba35cffa2b
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: dfaff0f212d6f25fbb236bec9a6ab6e502f13685
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>将外部 R IDE 与 Power BI 一起使用
 借助 **Power BI Desktop**，可以使用外部的 R IDE（集成开发环境）创建并优化 R 脚本，然后将这些脚本用于 Power BI 中。
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/12/2018
 * 此外，还可以安装不同的 R IDE，并通过执行以下任一操作，使 **Power BI Desktop** 启动相应 **R IDE**：
   
   * 可以将 **.R** 文件与 **Power BI Desktop** 要启动的外部 IDE 相关联。
-  * 通过从“ **选项** ”对话框的“ **R 脚本选项** ”部分中选择“ *其他* ”，你可以指定 **Power BI Desktop** 应启动的 .exe。 通过转到**“文件”>“选项和设置”>“选项”**，你可以打开“**选项**”对话框。
+  * 通过从“ **选项** ”对话框的“ **R 脚本选项** ”部分中选择“ *其他* ”，你可以指定 **Power BI Desktop** 应启动的 .exe。 通过转到 **“文件”>“选项和设置”>“选项”**，你可以打开“**选项**”对话框。
     
     ![](media/desktop-r-ide/r-ide_1b.png)
 

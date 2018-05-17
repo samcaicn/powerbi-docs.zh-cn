@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 992282438ceac88dce759b60dc26f0767d0b1f86
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>使用快速度量轻松执行常见的高效计算
 可使用快速度量快速、轻松地执行常见的高效计算。 快速度量根据你在对话框中输入的内容，在后台运行一组 DAX 命令（有现成的 DAX，无需编写），然后显示结果以供你在报表中使用。 最重要的是，可以查看快速度量执行的 DAX，从而开始学习或拓展你自己的 DAX 知识。
@@ -43,8 +43,6 @@ ms.lasthandoff: 03/30/2018
 若要创建**快速度量值**，请在“Power BI Desktop”中右键单击“字段”井元素中的任意字段，然后从随即显示的菜单中选择“快速度量值”。
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
-
-必须可以对当前加载的数据集进行建模，这样快速度量才可用。 这样，若为实时连接（如连接 Power BI 服务数据集），那么在右键单击“字段”列表中的任意字段后，将看不到“快速度量”菜单项（SSAS 实时连接除外）。 
 
 使用 SQL Server Analysis Services (SSAS) 实时连接时，可以使用一些快速度量。 Power BI Desktop 仅显示连接到的 SSAS 版本支持的一组快速度量。 因此，如果连接到 SSAS 实时数据源，但列表中没有显示特定的快速度量，这是因为连接到的 SSAS 版本不支持用于实现快速度量的 DAX 度量。
 
@@ -141,9 +139,10 @@ ms.lasthandoff: 03/30/2018
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 有几点要牢记的限制和注意事项。
 
-* 只有当可以修改模型时，才能使用快速度量，使用 DirectQuery 或大多数实时连接（支持 SSAS 实时连接，如前所述）的情况除外。
+* 只有在可修改模型的情况下才能使用快速度量，使用某些实时连接（如前所述，支持 SSAS 表格实时连接）的情况除外。
 * 添加到“字段”井元素中的度量值可以与报表中的任意视觉对象结合使用。
 * 选择“字段”井元素中创建的度量值，然后查看**编辑栏**中的公式，可以随时查看与**快速度量值**相关联的 DAX。
+* 在 DirectQuery 模式下工作时，无法创建时间智能快速度量。 这些快速度量中使用的 DAX 函数在转换为发送到数据源的 T-SQL 语句时会影响性能。
 
 > [!WARNING]
 > 快速度量当前仅生成将逗号用作参数分隔符的 DAX 语句。 如果 Power BI Desktop 版本已本地化为将逗号用作十进制分隔符的语言，快速度量将无法正常运行。
@@ -151,7 +150,7 @@ ms.lasthandoff: 03/30/2018
 > 
 
 ### <a name="time-intelligence-and-quick-measures"></a>时间智能和快速度量
-自 2017 年 10 月发布的 Power BI Desktop 更新起，可以将自己的自定义日期表与时间智能快速度量结合使用。 如果数据模型有自定义日期表，可以将此表中的主日期列用于时间智能快速度量。 必须确保在生成模型时，此表中的主日期列被标记为“日期”表，如[这篇文章](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)所述。
+自 2017 年 10 月发布的 Power BI Desktop 更新起，可以将自己的自定义日期表与时间智能快速度量结合使用。 如果使用的是外部表格模型，请确保在生成模型时，此表中的主日期列被标记为“日期”表，如[本文](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)所述。 如果要导入自己的日期表，请确保将其标记为“日期”表，如[本文](https://docs.microsoft.com/power-bi/desktop-date-tables)所述
 
 ### <a name="additional-information-and-examples"></a>其他信息和示例
 我们预计将会提供每个**快速度量值**计算的相关示例和指南。因此，请隔几天再回来看看主题文章是否有更新。

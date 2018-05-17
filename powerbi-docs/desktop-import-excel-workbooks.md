@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 247b8dca825f3e98de02207ba6d146e1aacd7580
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: e8937efdc646d38942ffc7f0b216103fdcf053cb
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>将 Excel 工作簿导入 Power BI Desktop
 通过 Power BI Desktop，可将 Excel 工作簿轻松导入带有 Power Query 查询、Power Pivot 模型和 Power View 工作表的 Power BI Desktop。 报表和可视化效果均基于 Excel 工作簿自动创建，导入后，你可以使用 Power BI Desktop 的现有功能以及其每月更新的新功能继续改善和优化报表。
@@ -69,10 +69,10 @@ Power BI Desktop 可导入以下元素，在 Excel 中通常称为*对象*。
 ## <a name="are-there-any-limitations-to-importing-a-workbook"></a>导入工作簿是否有任何限制？
 将工作簿导入 Power BI Desktop 时存在一些限制，如下所示：
 
-* **Analysis Services 表格模型的外部连接：**在 Excel 2013 中，无需导入数据就可创建 SQL Server Analysis Services 表格模型的连接，并在这些模型之上创建 Power View 报表。 目前不支持使用这种连接类型将 Excel 工作簿导入 Power BI Desktop。 解决方法是，必须在 Power BI Desktop 中重新建立这些外部连接。
-* **层次结构：**Power BI Desktop 目前不支持这种数据模型对象类型。 因此，将 Excel 工作簿导入 Power BI Desktop 时会略过层次结构。
-* **二进制数据列：**Power BI Desktop 目前不支持这种数据模型列类型。 Power BI Desktop 生成的表中已删除二进制数据列。
+* **Analysis Services 表格模型的外部连接：** 在 Excel 2013 中，无需导入数据就可创建 SQL Server Analysis Services 表格模型的连接，并在这些模型之上创建 Power View 报表。 目前不支持使用这种连接类型将 Excel 工作簿导入 Power BI Desktop。 解决方法是，必须在 Power BI Desktop 中重新建立这些外部连接。
+* **层次结构：** Power BI Desktop 目前不支持这种数据模型对象类型。 因此，将 Excel 工作簿导入 Power BI Desktop 时会略过层次结构。
+* **二进制数据列：** Power BI Desktop 目前不支持这种数据模型列类型。 Power BI Desktop 生成的表中已删除二进制数据列。
 * 不支持的 Power View 元素：Power BI Desktop 目前尚未提供 Power View 中的一些功能，例如布景主题或特定可视化效果类型（具有播放轴的散点图、向下钻取行为等）。 这些不支持的可视化效果会导致在 Power BI Desktop 报表中的对应位置出现*可视化效果不受支持*的消息，你可以根据需要删除或重新配置。
-* 使用 **Power Query** 中的***从表***或使用 **M** 中的 ***Excel.CurrentWorkbook*****：**目前不支持将这个名称范围数据导入 Power BI Desktop，但 Power BI Desktop 已计划此更新。 目前，这些名称范围会当做外部 Excel 工作簿的连接，加载到 Power BI Desktop。
-* **SSRS 的 PowerPivot：**由于 Power BI Desktop 目前不提供该数据源，因此目前不支持 SQL Server Reporting Services (SSRS) 的PowerPivot 外部连接。
+* 使用 **Power Query** 中的***从表***或使用 **M** 中的 ***Excel.CurrentWorkbook*****：** 目前不支持将这个名称范围数据导入 Power BI Desktop，但 Power BI Desktop 已计划此更新。 目前，这些名称范围会当做外部 Excel 工作簿的连接，加载到 Power BI Desktop。
+* **SSRS 的 PowerPivot：** 由于 Power BI Desktop 目前不提供该数据源，因此目前不支持 SQL Server Reporting Services (SSRS) 的PowerPivot 外部连接。
 

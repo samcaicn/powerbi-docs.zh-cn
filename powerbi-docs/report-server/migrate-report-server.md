@@ -1,15 +1,15 @@
 ---
-title: "迁移报表服务器安装"
-description: "了解如何将现有 SQL Server Reporting Services 实例迁移到 Power BI 报表服务器实例中。"
+title: 迁移报表服务器安装
+description: 了解如何将现有 SQL Server Reporting Services 实例迁移到 Power BI 报表服务器实例中。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 67fe876bb9de92cc7f4c0c140f7c016f01216cdd
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 9983956ccb33cc9c45fd1ac316fb74d07eb3acf5
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="migrate-a-report-server-installation"></a>迁移报表服务器安装
 了解如何将现有 SQL Server Reporting Services (SSRS) 实例迁移到 Power BI 报表服务器实例中。
@@ -107,7 +107,7 @@ rs.exe
 
 ## <a name="next-steps"></a>后续步骤
 [管理员手册](admin-handbook-overview.md)  
-[快速入门：安装 Power BI 报表服务器](quickstart-install-report-server.md)  
+[安装 Power BI 报表服务器](install-report-server.md)  
 [rs.exe 实用工具脚本和 Web 服务](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/23/2018
+ms.date: 05/09/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 7b8d3b4202ff08b5b97765fe20abe37c41518a31
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 4887204151d50e685ea98a2cf0252370ca4919bb
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/11/2018
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
@@ -38,11 +38,15 @@ ms.lasthandoff: 03/30/2018
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="march-2018"></a>2018 年 3 月
+## <a name="april-2018"></a>2018 年 4 月
+* [Power BI GDPR 白皮书](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* 对于 Office 365 租户，默认启用 Power BI 服务的[审核日志](https://docs.microsoft.com/power-bi/service-admin-auditing)。
+
+## <a name="previous-months-2018"></a>前几个月 (2018)
+### <a name="march-2018"></a>2018 年 3 月
 * Power BI 服务中的[永久性筛选器](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)。
 * 与使用个人电子邮件帐户的用户共享内容。 [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) 扩展。
 
-## <a name="previous-months-2018"></a>前几个月 (2018)
 ### <a name="february-2018"></a>2018 年 2 月
 * 自动为最终用户安装 [Power BI 应用](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)。
 * Power BI Premium 上的 P4 和 P5 容量

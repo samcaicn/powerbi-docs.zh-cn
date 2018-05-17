@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop 中的在 Excel 中分析疑难解答"
-description: "对 Analyze in Excel 常见问题的解决方案"
+title: Power BI Desktop 中的在 Excel 中分析疑难解答
+description: 对 Analyze in Excel 常见问题的解决方案
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1760828290846b9ee7601ad4aa313ee3e9cbdf8a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 102eb23ad17e9669d9cd9f5176aafd3b6e2eec08
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Analyze in Excel 故障排除
 有时，在使用 Analyze in Excel 期间可会能收意外的结果，或功能未按预期工作。 此页提供针对 Analyze in Excel 常见问题的解决方案。

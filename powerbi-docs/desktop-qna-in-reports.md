@@ -15,19 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: 2fd3b599e89646f7bcebbe8b65212765fe76874b
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>使用 Power BI Desktop 中的“问答”功能进行自然语言查询
 使用常用短语和自然语言来查询数据是一个非常有用的功能。 而数据在回答问题时的功能更为强大，这就是 **Power BI Desktop** 中的“问答”功能所实现的。
 
 为了能够让“问答”功能成功地解释其能够进行回答的大型问题集合，“问答”功能就必须对有关模型进行假设。 如果你的模型结构不能满足一个或多个这些假设，则需要对其进行调整。 针对“问答”功能的这些调整，对于 Power BI 中的任何模型来说都是同样的最佳做法优化，无论你是否使用“问答”。 
+
+> [!NOTE]
+> 仅在使用的模型包含已导入的数据时，才可使用“问答”功能。 不可实时连接到 SSAS 和 DirectQuery 模型。
+>
+>
 
 在以下部分中，我们将介绍如何调整模型，以使其能够很好地适用于 Power BI 中的“问答”功能。
 
