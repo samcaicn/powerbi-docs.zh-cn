@@ -15,52 +15,52 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/08/2017
+ms.date: 05/04/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f70ebae419c83e359f950d7b1180809d3e25b59e
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: ac30f03bc9f221097eeaa1c203bd19daa473cfa4
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/12/2018
 ---
-# <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>在 Power BI 中创建可以重设大小的响应式切片器（预览版）
+# <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>在 Power BI 中创建可以重设大小的响应式切片器
 
 重设响应式切片器的大小以适合报表上的任意空间。 你可以将响应式切片器重设为不同的大小和形状，从水平到方形再到垂直均可，切片器中的值可按照你的操作重新排列。 在 Power BI Desktop 和 Power BI 服务中，你可以使水平切片器和日期/范围切片器响应。 日期/范围切片器也具有改进的触摸区域，所以用指尖更换它们更容易。 可以根据需要变换响应式切片器的大小，它们还会自动重设大小以适应 Power BI 服务以及 Power BI 移动应用中的报表。 
 
-![响应式切片器可以有各种形状](media/power-bi-slicer-filter-responsive/responsive-slicer-gif.gif)
+![响应式切片器可以有各种形状](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer.gif)
 
 ## <a name="create-a-slicer"></a>创建切片器
 
 创建动态切片器的第一步是创建基本切片器。 
 
-1. 在“可视化效果”窗格中，选择切片器图标![切片器图标](media/power-bi-slicer-filter-responsive/power-bi-slicer-icon.png)。
+1. 在“可视化效果”窗格中，选择切片器图标![切片器图标](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png)。
 2. 将要筛选的字段拖动到“字段”。
 
-    ![将字段添加到切片器](media/power-bi-slicer-filter-responsive/power-bi-slicer-field.png)
+    ![将字段添加到切片器](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
 
 ## <a name="convert-to-a-horizontal-slicer"></a>转换为水平切片器
 
 1. 选择切片器后，在“可视化效果”窗格中选择“格式”选项卡。
 2. 展开“常规”部分，然后为“方向”选择“水平”。
 
-    ![将切片器设置为水平](media/power-bi-slicer-filter-responsive/power-bi-slicer-horizontal.png) 
+    ![将切片器设置为水平](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-2-horizontal.png) 
 
 1.  你可能想要将其变宽，以显示更多的值。
 
-     ![使切片器更宽](media/power-bi-slicer-filter-responsive/power-bi-slicer-wide-horizontal.png)
+     ![使切片器更宽](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-3-wider.png)
 
 ## <a name="make-it-responsive-and-experiment-with-it"></a>将其设置为响应式并对其进行试验
 
 此步骤很容易。 
 
-1. 在“常规”部分“格式”选项卡中的“方向”下，将“响应(预览)”滑动到“打开”。  
+1. 在“常规”部分“格式”选项卡中的“方向”下，将“响应”滑动到“打开”。  
 
-    ![切片器现在为响应式](media/power-bi-slicer-filter-responsive/power-bi-slicer-wide-responsive.png)
+    ![切片器现在为响应式](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-4-responsive-on.png)
 
 1. 现在你可以使用它了。 拖动边角可使其变短、变高、变宽及变窄。 如果将其调整得足够小，则它会变为一个筛选器图标。
 
-    ![响应式切片器太小，因此变为一个筛选器图标](media/power-bi-slicer-filter-responsive/power-bi-slicer-small-filter-icon.png)
+    ![响应式切片器太小，因此变为一个筛选器图标](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-5-mini-icon.png)
 
 ## <a name="add-it-to-a-phone-report-layout"></a>将其添加到手机报表布局
 
@@ -68,11 +68,11 @@ ms.lasthandoff: 05/07/2018
 
 1. 在“视图”菜单中，选择“手机布局”。
 
-     ![“手机布局”图标，“视图”菜单](media/power-bi-slicer-filter-responsive/power-bi-phone-layout-menu.png)
+     ![“手机布局”图标，“视图”菜单](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-6-phone-layout-button.png)
     
 1. 将手机报表中所需的全部视觉对象拖动到网格中。 当拖动响应式切片器时，请将其设置为所需的大小 - 在这种情况下，所需的是筛选器图标大小。
 
-    ![将切片器添加到手机报表布局](media/power-bi-slicer-filter-responsive/power-bi-slicer-phone-layout.png)
+    ![将切片器添加到手机报表布局](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-7-phone-slicer-icon.png)
 
 阅读有关如何创建[针对 Power BI 手机应用的优化报表](desktop-create-phone-report.md)的详细信息。
 
