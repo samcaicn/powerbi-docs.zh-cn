@@ -1,25 +1,21 @@
 ---
 title: 使用 Power BI 服务
 description: Power BI 导航体验概述
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
+ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: quickstart
 ms.component: powerbi-service
-ms.workload: powerbi
+ms.topic: quickstart
 ms.date: 05/07/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 58b1125a894ff064942e61534db990587bdf9f2a
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入门 - 使用 Power BI 服
 
@@ -107,13 +103,13 @@ ms.lasthandoff: 05/07/2018
 
 1. 与收藏夹类似，通过选择左侧导航窗格中“最近访问的内容”旁边的箭头，可在 Power BI 服务中的任意位置快速查看最近访问的内容。
 
-   ![“最近访问的内容”浮出控件](media/service-the-new-power-bi-experience/power-bi-recent-flyout.png)
+   ![最近访问内容浮出控件](media/service-the-new-power-bi-experience/power-bi-recent-flyout.png)
 
     在浮出控件中选择内容将其打开。
 
 2. 有时，你不想打开最近访问的内容，而是希望查看信息或执行其他操作，例如共享、运行见解或导出到 Excel。 在此类情况下，可通过从左侧导航栏中选择“最近访问的内容”或其图标，打开“最近访问的内容”窗格。 如果有多个工作区，则此列表显示来自所有工作区的内容。
 
-   ![“最近访问的内容”窗格](media/service-the-new-power-bi-experience/power-bi-recent.png)
+   ![“最近访问内容”窗格](media/service-the-new-power-bi-experience/power-bi-recent.png)
 
 若要了解详细信息，请参阅[Power BI 中最近使用的项目](service-recent.md)
 

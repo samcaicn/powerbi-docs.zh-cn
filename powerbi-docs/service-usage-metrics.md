@@ -1,29 +1,21 @@
 ---
 title: 仪表板和报表的使用指标
 description: 如何查看、保存和使用 Power BI 仪表板和报表的使用情况指标。 通过适用于内容创建者的使用情况指标衡量并扩大影响。
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 7b43e6e3c679474113cb0f1301f335c6bb8249ff
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>仪表板和报表的使用指标
 如果你创建仪表板和报表，使用指标可帮助你了解它们的影响。 运行仪表板使用情况指标或报表使用情况指标时，可查看整个组织使用这些仪表板和报表的情况 - 正在使用的内容、使用人员以及使用目的。  

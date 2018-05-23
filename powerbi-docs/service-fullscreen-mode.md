@@ -1,29 +1,21 @@
 ---
 title: 以全屏模式显示仪表板、磁贴、报表页和可视化效果
 description: 以全屏模式（即电视模式）显示仪表板、仪表板磁贴、报表视觉对象和报表页。
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 7b84b473f64b4ee2d37a3a39de9976f2cf147059
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Power BI 服务中的全屏幕模式
 ## <a name="what-is-full-screen-mode"></a>什么是全屏模式？

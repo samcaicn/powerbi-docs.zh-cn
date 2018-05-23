@@ -1,33 +1,25 @@
 ---
-title: "Power BI 的供应商质量分析示例：教程"
-description: "Power BI 的供应商质量分析示例：教程"
-services: powerbi
-documentationcenter: 
+title: Power BI 的供应商质量分析示例：教程
+description: Power BI 的供应商质量分析示例：教程
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/19/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 5636ccd4685205b2b01dd4c591942d7d2670bc48
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: 5089fef7c0292f1a6651b23eea814cc6cd9da9ce
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的供应商质量分析示例：教程
 
 ## <a name="a-brief-overview-of-the-supplier-quality-analysis-sample"></a>“供应商质量分析示例”简要概述
-此行业示例仪表板与基础报表着重于传统供应链的其中一项挑战 — 供应商质量分析。
+此行业示例仪表板与基础报表着重于传统供应链的其中一项挑战 - 供应商质量分析。
 有两个主要度量值在此分析中发挥作用：瑕疵品总数和瑕疵品所造成的停工时间总计。 此示例有两个主要目标：
 
 * 确定质量最好和最差的供应商

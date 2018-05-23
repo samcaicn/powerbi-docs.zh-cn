@@ -1,28 +1,20 @@
 ---
 title: 适用于德国政府客户的 Power BI 常见问题解答
 description: 针对德国政府客户，解答 Power BI 德国政府服务的常见问题
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4c9e059b97f845aa3a480238400df16c914e563a
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 909d524416b04654dc6f511a71b675381ec74e3a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>适用于德国云客户的 Power BI 常见问题解答
 **Power BI 服务**具有可用于欧盟/欧洲自由贸易协议 (EU/EFTA) 客户的版本，通常称为 Microsoft Cloud Deutschland (MCD)。 本文中讨论的 **Power BI 服务**版本是为欧盟/EFTA 客户专门设计的，独立且不同于 **Power BI 服务**的商业版本或为政府客户提供的 Power BI 服务。
@@ -78,7 +70,7 @@ ms.lasthandoff: 05/04/2018
 ### <a name="next-steps"></a>后续步骤
 你可以使用 Power BI 执行各种操作。 有关更多信息和学习资料（包括介绍如何注册服务的文章），请查看以下资源：
 
-* [Power BI 的引导学习](guided-learning/gettingstarted.yml#step-1)
+* [Power BI 的引导学习](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Power BI 服务入门](service-get-started.md)
 * [Power BI Desktop 入门](desktop-getting-started.md)
 

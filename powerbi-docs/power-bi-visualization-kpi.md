@@ -1,29 +1,21 @@
 ---
 title: KPI 视觉对象
 description: 在 Power BI 服务和 Power BI Desktop 中创建 KPI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: xmja6EpqaO0
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92fafc120e34fc3f11d203ca784189f037ad5a7f
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 2fc84d82e67b1c1e4a4b37655a13bd5415abf816
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="kpi-visuals"></a>KPI 视觉对象
 关键绩效指标 (KPI) 是一个视觉提示，用于传达针对可度量目标已完成的进度。 有关 KPI 的详细信息，请参阅 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)。

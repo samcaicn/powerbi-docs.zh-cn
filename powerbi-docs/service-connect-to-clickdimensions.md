@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 连接到 ClickDimensions
 description: 适用于 Power BI 的 ClickDimensions
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 35b6fd4c2594a29745fe307d804b3f0147d94e43
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9506ab48e48fe04e07de8dcb08ad5234d31045cf
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>使用 Power BI 连接到 ClickDimensions
 适用于 Power BI 的 ClickDimensions 内容包使用户可以在 Power BI 中利用 ClickDimensions 市场营销数据，从而使管理团队可以进一步深入了解其销售和市场营销工作的成功之处。 在 Power BI 仪表板和报表中可视化和分析电子邮件交互、Web 访问和表单提交。

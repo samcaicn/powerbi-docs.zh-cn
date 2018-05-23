@@ -1,28 +1,20 @@
 ---
 title: 本地数据网关（个人模型）
 description: 可供个人使用的用于连接到本地数据的 Power BI 数据网关
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 97b1119577d90e6570625af7de95d3417d3c48ba
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>本地数据网关（个人模型）
 可以通过网关使用本地数据源以及创建 Power BI 报表和仪表板。 网关是一种软件，不仅有助于用户访问存储在专用、本地网络的数据，还使用户能够使用联机服务（如 Power BI 服务）中的数据。 本地数据网关（个人模式）是最新发布的对 Power BI 网关的更新，它允许个人在自己的计算机上安装网关并获取对本地数据的访问权限。
@@ -104,7 +96,7 @@ ms.lasthandoff: 04/08/2018
 使用本地数据网关（个人模式）有几点注意事项，如以下列表所述。
 
 * 如果使用 Windows Hello 或 PIN 登录 Windows，可能遇到以下错误： 
-  * 你选择的用户帐户不符合应用程序的要求。请使用其他帐户。
+  * 你选择的用户帐户不符合应用程序的要求。请使用其他帐户。*
   * 若要更正该错误，请选择“使用其他帐户”并再次登录。 
 
 本地数据网关（个人模式）目前不支持下列数据源：

@@ -1,29 +1,21 @@
 ---
-title: "通过 Power BI 自动生成数据见解"
-description: "了解如何获取有关数据集和仪表板磁贴的见解。"
-services: powerbi
-documentationcenter: 
+title: 通过 Power BI 自动生成数据见解
+description: 了解如何获取有关数据集和仪表板磁贴的见解。
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5623667cd1a39b05795d162055ad0d3351d127bc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 19b7bf6105a2d178d51d8068f0226160b8a28467
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>通过 Power BI 自动生成数据见解
 你有新数据集，但不太确定要从何处着手？  需要快速生成仪表板？  想要查找你可能错失的见解？

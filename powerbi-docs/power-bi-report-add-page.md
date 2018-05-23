@@ -1,28 +1,20 @@
 ---
-title: "在报表中添加页面或复制页面"
-description: "在 Power BI 服务和 Power BI Desktop 中向 Power BI 报表添加页面"
-services: powerbi
-documentationcenter: 
+title: 在报表中添加页面或复制页面
+description: 在 Power BI 服务和 Power BI Desktop 中向 Power BI 报表添加页面
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da162a5377b9ba2979e38910b97924396fc921b9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 48980bf4ded44f9c383b38606747d14b5a5725c8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-a-page-to-a-power-bi-report-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服务和 Power BI Desktop 中向 Power BI 报表添加页面
 报表页面不必挤得满满的，只要添加新的空白页面即可。 

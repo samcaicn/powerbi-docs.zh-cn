@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 连接到 Microsoft Dynamics Marketing
 description: 适用于 Power BI 的 Microsoft Dynamics Marketing
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 059f842dae35fa7a46094d0ade990df7514908d6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 94b019f04fb6fabcad3092524fd2724015a6d8e1
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>使用 Power BI 连接到 Microsoft Dynamics Marketing
 通过 Power BI 的 Microsoft Dynamics Marketing 内容包，你可以轻松访问和分析来自 Dynamics Marketing 的数据 该内容包使用以 OData 数据源为基础的描述性模型，其中包括所有所需条目和度量值，例如程序、活动、市场营销联系人、公司、潜在客户、潜在客户互动、潜在客户分级、营销电子邮件和网站、行为观察、预算、财务交易、绩效 KPI 等。 

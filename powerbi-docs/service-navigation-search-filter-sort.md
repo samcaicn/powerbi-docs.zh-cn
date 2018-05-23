@@ -1,28 +1,20 @@
 ---
-title: "对 Power BI 服务中的内容进行搜索和排序"
-description: "介绍排序的文档，对 Power BI 工作区中内容进行排序"
-services: powerbi
-documentationcenter: 
+title: 对 Power BI 服务中的内容进行搜索和排序
+description: 介绍排序的文档，对 Power BI 工作区中内容进行排序
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a98780e0854b997e00a88f1ab3a5002e8c2fb10
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: a9b7d2326d62887a1a1acfef1ae164bec1cf2e62
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>导航：在 Power BI 服务中搜索、查找和排序内容
 可通过多种方法在 Power BI 服务中导航内容。 工作区中的内容已按类型进行组织：仪表板、报表、工作簿和数据集。  此外，内容已按使用情况进行组织：收藏夹、最近、应用、与我共享和特色。 通过这些不同的内容浏览途径可以在 Power BI 服务中快速找到所需的内容。  
@@ -57,7 +49,7 @@ ________________________________________
 
 
 
-创建供自己使用的内容位于**“我的工作区”**中，所创建的和与组共享的内容位于 **“应用工作区”**中，与你共享的内容位于**“与我共享的内容”**中，而最近访问的内容则显示在**“最近访问”**中。
+创建供自己使用的内容位于 **“我的工作区”** 中，所创建的和与组共享的内容位于 **“应用工作区”** 中，与你共享的内容位于 **“与我共享的内容”** 中，而最近访问的内容则显示在 **“最近访问”** 中。
 
 此外，你可以标记作为内容[收藏](service-dashboard-favorite.md)和[特色](service-dashboard-featured.md)。 选取一个你希望经常查看的仪表板，并将其设置为特色仪表板。 每次打开 Power BI 服务时，这将是首先显示的仪表板。 你是否有大量经常访问的仪表板和应用？ 通过将它们设置为收藏项，可以始终通过左侧导航栏进行访问。
 

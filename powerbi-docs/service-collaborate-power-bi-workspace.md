@@ -1,28 +1,20 @@
 ---
 title: 在 Power BI 应用工作区中展开协作
 description: 了解如何利用 Office 365 服务（如共享 OneDrive for Business 上的文件、Exchange 中的对话、日历和任务）对应用工作区中的 Power BI Desktop 文件展开协作。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1837bc36ac4707663b5583699b0090ac9a692eb7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>在 Power BI 应用工作区中展开协作
 Power BI 应用工作区是在仪表板、报表和数据集上与同事协作以创建应用的好地方。 这便是创建工作区的目的所在，即用于协作。 与同事在仪表板和报表上完成协作后，会将其打包为一个应用进行分发。 详细了解如何[在 Power BI 中创建应用和应用工作区](service-create-distribute-apps.md)。 

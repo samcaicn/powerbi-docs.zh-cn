@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 中的报表工具提示页
 description: 使用 Power BI Desktop 中的工具提示页，可为报表中的视觉对象创建丰富的悬停式工具提示
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>根据 Power BI Desktop（预览版）中的报表页创建工具提示
 根据 Power BI Desktop 中创建的报表页，可创建直观丰富的报表工具提示，这些提示在你将鼠标悬停在视觉对象上时显示。 通过创建用作工具提示的报表页，使自定义工具提示包含视觉对象、图像以及在报表页中创建的项的所有其他集合。 

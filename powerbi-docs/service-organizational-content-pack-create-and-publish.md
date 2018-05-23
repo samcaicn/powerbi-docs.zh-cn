@@ -1,28 +1,20 @@
 ---
 title: 创建和发布组织内容包 - Power BI
 description: 本教程创建一个组织内容包，限制对特定组的访问，并将其发布到 Power BI 上的组织内容包库。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d3b1f74440ab4dbc13cb4252030627c7cdd8eb06
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b454673944d8006effc045592f28eb35681564d1
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>创建和发布 Power BI 组织内容包（教程）
 > [!NOTE]
@@ -41,7 +33,7 @@ ms.lasthandoff: 02/24/2018
 
 假设你是 Contoso 的发布经理，准备推出新产品。  你通过报表创建了仪表板，想要与其他管理发布的员工共享。 你想要对仪表板和报表进行打包的方法，使其作为你的同事使用的解决方案。 
 
-想要跟着做吗？ 在 [Power BI 服务](https://powerbi.com)中，依次转到**“获取数据”>“示例”>“机会分析示例”** > “**连接**”，获取自己的副本。 
+想要跟着做吗？ 在 [Power BI 服务](https://powerbi.com)中，依次转到 **“获取数据”>“示例”>“机会分析示例”** > “**连接**”，获取自己的副本。 
 
 1. 在左侧导航窗格中选择**机会分析示例**仪表板。
 2. 从顶部导航栏中，选择齿轮图标 ![](media/service-organizational-content-pack-create-and-publish/cog.png) > “**创建内容包**”。    

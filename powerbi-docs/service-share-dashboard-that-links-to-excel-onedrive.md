@@ -1,28 +1,20 @@
 ---
 title: 共享链接到 OneDrive 中 Excel 文件的仪表板 - Power BI
 description: 阅读有关共享连接到 OneDrive for Business 上的 Excel 工作薄（磁贴从该工作簿固定）的仪表板的信息。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 56dec052240c60543831ef05624943e3d71f953a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c8afcb15097a4d9a0d15f76304085f81daa17809
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>共享链接到 OneDrive 中 Excel 文件的 Power BI 仪表板
 在 Power BI 中，你可以[连接到 OneDrive for Business 上的 Excel 工作簿](service-excel-workbook-files.md)并将该工作簿中的磁贴固定到仪表板。 共享该仪表板或创建包含该仪表板的内容包时：

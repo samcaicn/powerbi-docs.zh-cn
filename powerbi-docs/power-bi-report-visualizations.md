@@ -1,29 +1,21 @@
 ---
-title: "Power BI 服务和 Power BI Desktop 中的报表可视化效果概述"
-description: "Microsoft Power BI 中的报表可视化效果（视觉对象）概述。"
-services: powerbi
-documentationcenter: 
+title: Power BI 服务和 Power BI Desktop 中的报表可视化效果概述
+description: Microsoft Power BI 中的报表可视化效果（视觉对象）概述。
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6846a58642dd65545016a7159f6bb461edaf373
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f0e0dc02fc07849c68c00ce857da0ccbeb2d76df
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 报表中的可视化效果
 可视化效果（亦称为“视觉对象”）显示已发现的数据见解。 在 Power BI 报表中，既可能一个页面上只有一个视觉对象，也可能页面上有大量视觉对象。 在 Power BI 服务中，可以将视觉对象[从报表固定到仪表板](service-dashboard-pin-tile-from-report.md)。 

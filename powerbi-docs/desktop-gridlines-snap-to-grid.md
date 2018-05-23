@@ -1,28 +1,20 @@
 ---
 title: 在 Power BI Desktop 报表中使用网格线和对齐网格
 description: 在 Power BI Desktop 报表中使用网格线、与网格对齐、z 顺序、对齐和分布
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 4/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 479668d2f5c21bc6d730097556ce6de46409c7ed
-ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
+ms.openlocfilehash: 7477fc19dda5aeb7729fbbde319faa0d930db179
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>在 Power BI Desktop 报表中使用网格线和对齐网格
 Power BI Desktop 报表画布提供网格线功能，以便你可以在报表页上巧妙地对齐视觉对象，并使用对齐网格功能，以便报表中的视觉对象清晰整齐且均匀分布。

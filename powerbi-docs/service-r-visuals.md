@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 中的 R 脚本创建高级分析和可视化效果
 description: 使用 Power BI 中的 R 脚本创建高级分析和高级可视化效果
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0eb100a37a6267530d00b8293be63510c02bb4d9
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: fd4198bb6b826f8d4af22e83e313c4c0b8101024
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>在 Power BI 服务中创建 R 视觉对象
 Power BI 服务支持查看使用 R 脚本创建的视觉对象并与之交互。 使用 R 脚本创建的视觉对象通常称为  *R 视觉对象* ，它可以借助 R 丰富的分析和可视化功能来显示高级数据成型和分析（如预测）。

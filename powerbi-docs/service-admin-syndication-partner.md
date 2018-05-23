@@ -1,28 +1,20 @@
 ---
 title: 无法将 Power BI 添加到 O365 合作伙伴
 description: 无法将 Power BI 添加到 Office 365 联合合作伙伴。 联合模型是 Office 365 使用的购买模型。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ace24b392668b5459d21a451319fd54eb6430371
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 39f40c4b8aaf53e81f15c1ad29d1d8425f017468
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>无法将 Power BI 添加到 Office 365 合作伙伴订阅
 Office 365 允许公司转售与自己的解决方案捆绑和集成的 Office 365，从而为最终客户提供用于购买、计帐和支持的单点联系。

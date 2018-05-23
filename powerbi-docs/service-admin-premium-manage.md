@@ -1,28 +1,20 @@
 ---
 title: 管理 Power BI Premium 和 Power BI Embedded 中的容量
 description: 了解如何管理 Power BI Premium 以及如何为整个组织启用访问内容的权限。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 611a8cd1f2ff3da16d700f8d2b9f15787dda8475
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: d1535dcdd818c3c49c71df9b1b08f115f6091cfc
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>管理 Power BI Premium 和 Power BI Embedded 中的容量
 了解如何管理为内容提供专用资源的 Power BI Premium 和 Power BI Embedded 容量。
@@ -149,7 +141,7 @@ Power BI 管理员和 Office 365 全局管理员通过选择“更改容量大�
 | CPU |CPU 使用率超过 80% 的次数。 |
 | 内存抖动 |表示后端核心的内存压力。 具体而言，这一指标指示因使用多个数据集产生的内存压力，而从内存清除数据集的次数。 |
 | 内存使用情况 |平均内存使用量，以千兆字节 (GB) 表示。 |
-| DQ/秒 | 直接查询和实时连接数超过限制的 80% 的次数。 <br> <br> * 我们限制了每秒直接查询和实时连接查询的总数。<br><br>* 限制如下：P1、P2、P3 分别为 30/秒、60/秒和 120/秒。<br><br> * 直接查询和实时连接查询数计入上述限额。 例如，如果 1 秒内分别有 15 次直接查询和实时连接，则达到限额。<br/><br>* 这同样适用于本地连接和云连接。 |
+| DQ/秒 | 直接查询和实时连接数超过限制的 80% 的次数。 <br> <br> * 我们限制 DirectQuery 的总数和每秒实时连接查询数。<br><br>* 限制如下：P1、P2、P3 分别为 30/s、60/s 和 120/s。<br><br> * 直接查询和实时连接查询数计入上述限额。 例如，如果一秒内有 15 个 DirectQueries 和 15 次实时连接，则达到限制。<br/><br>* 这同样适用于本地连接和云连接。 |
 
 指标反映的是过去一周的利用率。  如果想要查看更详尽的指标视图，可单击任意摘要磁贴进行查看。  此操作将调出详细图表，显示高级容量的每个指标。  这些图表过去一周内每小时汇总一次，有助于在高级容量可能出现特定的性能相关事件时进行隔离。  
 

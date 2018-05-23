@@ -1,28 +1,20 @@
 ---
 title: Power BI Premium 有哪些特权？
 description: Power BI Premium 是适用于组织或团队的专用容量，提供了更可靠的性能和更大的数据卷，使你无需购买每用户许可证。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 617e56fd688016c8ee17184f726fb018a0128e05
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: aa16cdb9391a406b2e093f551b86dda51ee1dcfa
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium 有哪些特权？
 Power BI Premium 资源专用于为组织或团队运行 Power BI 服务，为你提供更可靠的性能和更大的数据卷。 Premium 还可以广泛发布内容，无需为查看者购买许可证。

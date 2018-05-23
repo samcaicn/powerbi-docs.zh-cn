@@ -1,29 +1,21 @@
 ---
-title: "在 Power BI 中可视化效果中向下钻取"
-description: "本文档演示如何在 Microsoft Power BI 服务和 Power BI Desktop 中的可视化效果中向下钻取。"
-services: powerbi
-documentationcenter: 
+title: 在 Power BI 中可视化效果中向下钻取
+description: 本文档演示如何在 Microsoft Power BI 服务和 Power BI Desktop 中的可视化效果中向下钻取。
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: MNAaHw4PxzE
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 02/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fb834c92953c2cafcbca77bc1b3828b385755bca
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: d622e6b461668d1972a78f6844bd269fb6596061
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>在 Power BI 中深入探索可视化效果
 ## <a name="drill-down-requires-a-hierarchy"></a>向下钻取要求具有层次结构
@@ -35,7 +27,7 @@ ms.lasthandoff: 02/28/2018
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon4.png)  ![](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)  ![](media/power-bi-visualization-drill-down/power-bi-drill-icon3.png)
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) ![](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png)  
 
-日期是层次结构的唯一类型。 向可视化效果添加日期字段时，Power BI 自动添加包含年、季度、月和天的时间层次结构。 有关详细信息，请参阅[视觉对象层次结构和向下钻取行为](guided-learning/visualizations.yml#step-18)或观看下面的视频。
+日期是层次结构的唯一类型。 向可视化效果添加日期字段时，Power BI 自动添加包含年、季度、月和天的时间层次结构。 有关详细信息，请参阅[视觉对象层次结构和向下钻取行为](guided-learning/visualizations.yml?tutorial-step=18)或观看下面的视频。
 
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/MNAaHw4PxzE?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -147,7 +139,7 @@ Power BI 使你可通过一个或所有子集扩展。 可以通向下钻取过�
 除了可视化效果，我们还可以看到每个报表呈现的数据中反映的层次结构。 下表显示向下钻取单个区域或所有区域的报告中“显示数据”的结果。 向下钻取时，你就会明白单个报表如何变得更为具体，“所有区域”如何包含更多数据。
 
 
-| 展开模式|区域|城市|邮政|名称|
+| 展开模式|区域|城市|邮政|Name|
 | ---|:---:|:---:|:---:|---|
 |单向|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
 |全部|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|

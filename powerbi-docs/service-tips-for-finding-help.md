@@ -1,28 +1,20 @@
 ---
-title: "有关获取 Power BI 问题解答的 10 个提示"
-description: "以下 10 种方法可以在你对 Power BI 的工作原理有疑问时提供帮助"
-services: powerbi
-documentationcenter: 
+title: 有关获取 Power BI 问题解答的 10 个提示
+description: 以下 10 种方法可以在你对 Power BI 的工作原理有疑问时提供帮助
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0984e00dbe6b82a2b5b9cfc07f318ded03961f64
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>有关获取 Power BI 问题解答的 10 个提示
 使用 Power BI 时，是否会因遇到的 Power BI 问题得不到及时解答（即“实时”帮助）感到灰心失望或很费劲？ 
@@ -52,7 +44,7 @@ Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog
 ## <a name="6-attend-training"></a>提示 6：参加培训
 我们提供近乎无限的海量培训选项，从面对面实验室培训到简短视频培训，无所不包。
 
-* Power BI 网站上的[引导式学习](guided-learning/gettingstarted.yml#step-1)。
+* Power BI 网站上的[引导式学习](guided-learning/gettingstarted.yml?tutorial-step=1)。
 * Power BI 网站上可点播的现场[免费 Power BI 在线讲座](webinars.md)。
 
 还可以在网上找到其他培训选项，例如：

@@ -1,28 +1,20 @@
 ---
-title: "创建针对 Power BI 手机应用的优化报表"
-description: "了解如何在 Power BI Desktop 中为 Power BI 手机应用优化报表页。"
-services: powerbi
-documentationcenter: 
+title: 创建针对 Power BI 手机应用的优化报表
+description: 了解如何在 Power BI Desktop 中为 Power BI 手机应用优化报表页。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: ea6da7eb23268e7605ff46281c63030a6d72798c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 58fa5214d1a5b7e7c80d199e23cfae9762a80f36
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>创建针对 Power BI 手机应用的优化报表
 [在 Power BI Desktop 中创建报表时](desktop-report-view.md)，通过创建专用于手机的报表版本，可以改善在手机的移动应用中使用此报表的体验。 通过重新排列和调整视觉对象（或许不包括所有视觉对象）可以为手机调整报表，以便获得最佳体验。 此外，还可以创建[响应式视觉对象](#optimize-a-visual-for-any-size)和[响应式切片器](#enhance-slicers-to-to-work-well-in-phone-reports)，它们可以流畅地重设大小，以供在手机上显示。 另外，如果向报表添加筛选器，这些筛选器会自动显示在手机报表中。 报表阅读者可以查看它们，并使用这些筛选器筛选报表。

@@ -1,28 +1,20 @@
 ---
 title: 将报表从 Power BI 导出到 PowerPoint（预览版）
 description: 了解如何将 Power BI 报表导出到 PowerPoint。
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Share your work
-ms.openlocfilehash: d518e0dfc3fd9df3ebec227b1277ee960103b0ee
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 1d4b825cd7301af020f01de215e00968d21f972c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>将报表从 Power BI 导出到 PowerPoint（预览版）
 借助 Power BI，现在可将报表发布到 **Microsoft PowerPoint**，并根据 Power BI 报表轻松地创建幻灯片平台。 **导出到 PowerPoint** 时，会发生以下情况：
@@ -86,7 +78,7 @@ ms.lasthandoff: 05/04/2018
 * 支持**已认证的自定义视觉对象**。 已认证的自定义视觉对象已批准用于 Power BI，满足特定的代码要求并通过严格的安全测试。 可以[详细了解已认证的自定义视觉对象](power-bi-custom-visuals-certified.md)。
 * 目前不能导出包含 15 个以上报表页面的报表。
 * 将报表导出到 PowerPoint 的过程可能需要几分钟才能完成，请耐心等待。 影响所需时间的因素包括报表的结构和 Power BI 服务的当前负载。
-* 如果**导出到 PowerPoint（预览版）**菜单项在 Power BI 服务中不可用，这很可能是因为租户管理员已禁用该功能。 有关详细信息，请联系租户管理员。
+* 如果**导出到 PowerPoint（预览版）** 菜单项在 Power BI 服务中不可用，这很可能是因为租户管理员已禁用该功能。 有关详细信息，请联系租户管理员。
 * 会根据图表的边界区域裁剪背景图像。 强烈建议在导出到 PowerPoint 之前删除背景图像。
 * 导出到 PowerPoint 时，尚不支持**会话内交互性**，例如突出显示和筛选、向下钻取等功能。 已导出的 PowerPoint 显示原始视觉对象，因为它们已保存在报表中。
 * PowerPoint 页始终以标准的 9:16 尺寸创建，无论 Power BI 报表页的原大小或原尺寸如何。

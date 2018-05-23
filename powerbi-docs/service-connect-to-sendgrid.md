@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 连接到 SendGrid
 description: 适用于 Power BI 的 SendGrid
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b2484e579cf3a5e428566e8fc3aead151552eff6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a08d9d10725a5c135ef6732b8397a57833463f4c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-sendgrid-with-power-bi"></a>使用 Power BI 连接到 SendGrid
 Power BI 的 SendGrid 内容包允许你从你的 SendGrid 帐户提取见解和统计信息。 使用 SendGrid 内容包可以在仪表板中可视化你的 SendGrid 统计信息。

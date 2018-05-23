@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 连接到 SweetIQ
 description: 适用于 Power BI 的 SweetIQ
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 61a32431e15950dd712e95779bda81bbf0ee6f43
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6592405de2d76c14334c8c31e4af84cd5a090ed9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>使用 Power BI 连接到 SweetIQ
 Power BI 内容包从 SweetIQ 帐户拉取数据，并生成一组可立即使用的内容，让你可以轻松浏览数据集。 使用 SweetIQ 内容包分析有关你的位置、排名、评级和评论的数据。 该数据设置为每日刷新，确保你正在监视的数据时刻保持最新。

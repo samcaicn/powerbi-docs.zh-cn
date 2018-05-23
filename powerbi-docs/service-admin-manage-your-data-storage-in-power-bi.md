@@ -1,28 +1,20 @@
 ---
 title: 管理数据存储
 description: 了解如何管理个人数据存储或应用工作区，以确保可以继续发布报表和数据集。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 314f667c8b432b0d73b7e1b2650ba46d502b33a2
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: e7c0399072bfef35a1103a5db448da183f64f74c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="manage-your-data-storage"></a>管理数据存储
 了解如何管理个人数据存储或应用工作区，以确保可以继续发布报表和数据集。
@@ -60,8 +52,8 @@ ms.lasthandoff: 04/08/2018
    
     数据集和报表会分为两个选项卡：
    
-    **由我所有：**这些是你已上载到 Power BI 帐户的报表和数据集，包括服务数据集（如 Salesforce 和 Dynamics CRM）。  
-    **由他人所有：**其他人与你共享了这些报表和数据集。
+    **由我所有：** 这些是你已上载到 Power BI 帐户的报表和数据集，包括服务数据集（如 Salesforce 和 Dynamics CRM）。  
+    **由他人所有：** 其他人与你共享了这些报表和数据集。
 3. 若要删除数据集或报表，请选择垃圾桶图标 ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)。
 
 请记住，你或其他人可能会具有基于某个数据集的报表和仪表板。 如果删除该数据集，则这些报表和仪表板将无法再正常工作。
@@ -78,8 +70,8 @@ ms.lasthandoff: 04/08/2018
    
     数据集和报表会分为两个选项卡：
    
-    **由我们所有：**这些是你或其他人已上传到组的 Power BI 帐户的报表和数据集，包括服务数据集（如 Salesforce 和 Dynamics CRM）。
-    **由他人所有：**其他人与你的组共享了这些报表和数据集。
+    **由我们所有：** 这些是你或其他人已上传到组的 Power BI 帐户的报表和数据集，包括服务数据集（如 Salesforce 和 Dynamics CRM）。
+    **由他人所有：** 其他人与你的组共享了这些报表和数据集。
 3. 若要删除数据集或报表，请选择垃圾桶图标 ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)。
    
    > [!NOTE]

@@ -1,28 +1,20 @@
 ---
 title: Power BI 中的实时流式处理
 description: 获取 Power BI 中的实时数据流式处理和视觉对象
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ce42eceb478023b0ebbfd26e1762c63084ac84a6
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 15d8d4ff64b69143b30bd8e72264af3dcc42d53d
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的实时流式处理
 通过 Power BI 实时流式处理，可以流式处理数据并实时更新仪表板。 可以在 Power BI 中创建的任何视觉对象或仪表板也可以创建为显示和更新实时数据和视觉对象。 流式处理数据的设备和源可以是工厂传感器、社交媒体源、服务使用情况指标和其他可从其收集或传输时间敏感数据的任何设备。

@@ -1,28 +1,20 @@
 ---
 title: 将可视化效果、页面、钻取或报表筛选器添加到报表
 description: 在 Power BI 中将页面筛选器、可视化效果筛选器或报表筛选器添加到报表
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e6cf99ab981bb16e4d423733972798b5ca5f53e6
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 7006d35a76780313e4d57d0d489b5b25ed92b4d2
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>向 Power BI 服务报表添加筛选器（在“编辑视图”中）
 > [!TIP]
@@ -83,7 +75,7 @@ ms.lasthandoff: 04/18/2018
       ![](media/power-bi-report-add-filter/power-bi-filter-effect.png)
 5. 现在我们将一个全新的字段作为“视觉级筛选器”添加到可视化效果中。
    
-   * 在“字段”窗格中，选择要添加为新视觉对象级筛选器的字段，然后将它拖到**“视觉对象级筛选器”区域**中。  在本示例中，我们将“区域经理”拖动到“视觉级筛选器”存储桶并仅选中“Andrew Ma”。 
+   * 在“字段”窗格中，选择要添加为新视觉对象级筛选器的字段，然后将它拖到 **“视觉对象级筛选器”区域**中。  在本示例中，我们将“区域经理”拖动到“视觉级筛选器”存储桶并仅选中“Andrew Ma”。 
      
       ![](media/power-bi-report-add-filter/power-bi-andrew.png)
    * 请注意，“区域经理”*未*添加到可视化效果本身。 可视化效果仍由轴“StoreNumberName”和值“本年度销售额”组成。  

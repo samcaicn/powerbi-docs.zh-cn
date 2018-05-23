@@ -1,28 +1,20 @@
 ---
 title: Power BI 数据源
 description: Power BI 数据源
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: identified
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 70f1b5faa496c28dc39347831d4216db3ad07c59
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 183d0fdcf164ca706dd1704ea1c503f59ca7d715
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服务数据源
 数据是 Power BI 的核心。 当研究数据、创建图表和仪表板，以及使用问答进行提问时，所看到上述全部可视化效果和答案实际上均是从数据集获得其基础数据的。 但是，数据集来自何处呢？ 它来自数据源。

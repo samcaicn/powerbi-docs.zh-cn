@@ -140,8 +140,6 @@
                   href: service-connect-to-azure-consumption-insights.md
                 - name: Azure 搜索
                   href: service-connect-to-azure-search.md
-                - name: Azure 安全中心
-                  href: service-connect-to-azure-security-center.md
                 - name: Circuit ID
                   href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
@@ -416,8 +414,6 @@
                   href: refresh-csv-file-onedrive.md
                 - name: 刷新方案故障排除
                   href: refresh-troubleshooting-refresh-scenarios.md
-                - name: 禁用隐私设置
-                  href: refresh-enable-fast-combine.md
             - name: 故障排除
               items:
                 - name: 忘记了 Power BI 的密码？
@@ -470,6 +466,18 @@
       items:
         - name: 调整和合并多个数据源
           href: desktop-shape-and-combine-data.md
+        - name: 使用 Power BI Desktop 从网页导入和分析数据
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: ' 分析来自 Excel 和 OData 源的销售数据'
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: 在 Power BI Desktop 中创建你自己的度量值
+          href: desktop-tutorial-create-measures.md
+        - name: 创建 Power BI Desktop 中的计算列
+          href: desktop-tutorial-create-calculated-columns.md
+        - name: 使用 Power BI Desktop 进行 Facebook 分析
+          href: desktop-tutorial-facebook-analytics.md
+        - name: 通过 Analysis Services 表格模型实现动态行级别安全性
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: 示例
       items:
         - name: 下载 Power BI 的财务示例工作簿
@@ -526,18 +534,6 @@
           href: desktop-connect-to-data.md
         - name: 从 Power BI Desktop 进行发布
           href: desktop-upload-desktop-files.md
-        - name: 使用 Power BI Desktop 从网页导入和分析数据
-          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' 分析来自 Excel 和 OData 源的销售数据'
-          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: 在 Power BI Desktop 中创建你自己的度量值
-          href: desktop-tutorial-create-measures.md
-        - name: 创建 Power BI Desktop 中的计算列
-          href: desktop-tutorial-create-calculated-columns.md
-        - name: 使用 Power BI Desktop 进行 Facebook 分析
-          href: desktop-tutorial-facebook-analytics.md
-        - name: 通过 Analysis Services 表格模型实现动态行级别安全性
-          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Power BI 中的自定义可视化效果
           href: power-bi-custom-visuals.md
         - name: Power BI 中适用于组织的自定义视觉对象
@@ -898,8 +894,6 @@
           href: developer/qanda.md
     - name: 操作方法
       items:
-        - name: 使用开发人员工具创建自定义视觉对象
-          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: 内容的嵌入方式
           href: developer/embedding-content.md
         - name: 将数据推送到仪表板
@@ -914,6 +908,18 @@
           href: developer/integrate-report.md
         - name: 将内容集成到应用程序（应用拥有数据）
           href: developer/embed-sample-for-customers.md
+        - name: 将内容集成到主权云的应用程序（应用拥有数据）
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
+        - name: 创建自定义视觉对象
+          items:
+            - name: 使用开发人员工具创建自定义视觉对象
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: 检查自定义视觉对象以保障安全和隐私
+              href: service-custom-visuals-review-for-security-and-privacy.md
+            - name: 完成自定义视觉对象认证
+              href: power-bi-custom-visuals-certified.md
+            - name: 将自定义视觉对象发布到 AppSource
+              href: developer/office-store.md
         - name: 嵌入
           items:
             - name: 使用 Power BI 嵌入
@@ -932,12 +938,6 @@
               href: developer/migrate-code-snippets.md
             - name: 嵌入式应用程序疑难解答
               href: developer/embedded-troubleshoot.md
-        - name: 创建自定义视觉对象
-          items:
-            - name: 检查自定义视觉对象以保障安全和隐私
-              href: service-custom-visuals-review-for-security-and-privacy.md
-            - name: 完成自定义视觉对象认证
-              href: power-bi-custom-visuals-certified.md
         - name: 将数据推送到仪表板
           items:
             - name: 将应用注册到 Azure AD
@@ -976,7 +976,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: 资源
       items:
-        - name: JavaScript 嵌入演示
+        - name: JavaScript 演练示例
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: 示例
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
@@ -1126,10 +1126,12 @@
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: 配置代理设置
           href: service-gateway-proxy.md
-        - name: 本地数据网关 - 深入了解
-          href: service-gateway-onprem-indepth.md
         - name: 本地数据网关的高可用性群集
           href: service-gateway-high-availability-clusters.md
+        - name: 本地数据网关
+          href: service-gateway-onprem.md
+        - name: 本地数据网关 - 深入了解
+          href: service-gateway-onprem-indepth.md
         - name: 本地数据网关（个人模型）
           href: service-gateway-personal-mode.md
         - name: 本地数据网关故障排查
@@ -1188,6 +1190,8 @@
           href: service-admin-health.md
         - name: 关闭 Power BI 帐户
           href: service-admin-closing-your-account.md
+        - name: 组织中的 Power BI Pro
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: 组织中的 Power BI（免费）
           href: service-admin-service-free-in-your-organization.md
         - name: Power BI 和 ExpressRoute

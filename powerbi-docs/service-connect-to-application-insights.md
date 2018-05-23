@@ -1,28 +1,20 @@
 ---
 title: 连接到 Application Insights 连接到 Power BI
 description: 适用于 Power BI 的 Application Insights
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 04cc92bd33f342097b9952a744d8dfffced22bb3
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>使用 Power BI 连接到 Application Insights
 使用 Power BI 可通过 [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) 遥测创建功能强大的自定义仪表板。 可采用新方式来设想应用遥测。 将来自多个应用程序或组件服务的指标合并到一个仪表板上。 适用于 Application Insights 的 Power BI 内容包的此第一个版本包括用于常见使用情况相关指标（如活动用户、页面视图、会话、浏览器和操作系统版本以及地图中用户的地理分布）的小组件。

@@ -4,13 +4,13 @@
 
 这是本课程的最后一节（也是最后一个主题 - 除非你想学习 DAX），所以如果你按顺序学习了所有这些章节，现在是时候给自己点个赞了。 做得好！ 现在你已经熟悉了所有这些**重要概念**：
 
-* 什么是 [Power BI](../gettingstarted.yml#step-1)
-* Power BI 的[构建块](../gettingstarted.yml#step-3)
-* [获取](../gettingdata.yml#step-3)和[建模](../modeling.yml#step-1)数据
-* [可视化效果](../visualizations.yml#step-1)
-* 在 Power BI 服务中[浏览数据](../exploringdata.yml#step-1)
-* 结合使用 [Excel 和 Power BI](../powerbiandexcel.yml#step-1)
-* [发布和共享](../publishingandsharing.yml#step-1)你的工作
+* 什么是 [Power BI](../gettingstarted.yml?tutorial-step=1)
+* Power BI 的[构建块](../gettingstarted.yml?tutorial-step=3)
+* [获取](../gettingdata.yml?tutorial-step=3)和[建模](../modeling.yml?tutorial-step=1)数据
+* [可视化效果](../visualizations.yml?tutorial-step=1)
+* 在 Power BI 服务中[浏览数据](../exploringdata.yml?tutorial-step=1)
+* 结合使用 [Excel 和 Power BI](../powerbiandexcel.yml?tutorial-step=1)
+* [发布和共享](../publishingandsharing.yml?tutorial-step=1)你的工作
 
 知识很多，既然所有这些知识都已经在你的脑子里，那么准备将它们付诸于实践吧！ 下面是一些“下载链接”或将你的浏览器“连接到 Power BI 服务”的链接：
 
@@ -25,5 +25,5 @@
 我们希望你能享受“Power BI 引导学习”的体验之旅。 祝你好运，愿你的 Power BI 视觉对象永远散发迷人光彩。
 
 ## <a name="one-more-section-for-dax-users"></a>针对 DAX 用户的另外一节
-还想了解更多吗？ 你是否有兴趣了解如何在 Power BI 中使用 **DAX（数据分析表达式）**进行创建、筛选，或者使用自定义列和表？ 还有一节专门针对想在 Power BI 中从事代码操作的用户，此节就是 **DAX 简介**。 看看你是否感兴趣 - 此节中所用的方法与“引导学习”中的其他部分的方法一样简单。
+还想了解更多吗？ 你是否有兴趣了解如何在 Power BI 中使用 **DAX（数据分析表达式）** 进行创建、筛选，或者使用自定义列和表？ 还有一节专门针对想在 Power BI 中从事代码操作的用户，此节就是 **DAX 简介**。 看看你是否感兴趣 - 此节中所用的方法与“引导学习”中的其他部分的方法一样简单。
 

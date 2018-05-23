@@ -1,28 +1,20 @@
 ---
 title: 立刻从 Excel 工作簿变为出色的报表
 description: 立刻从 Excel 工作簿变为出色的报表
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: 849511476200d401432fdcc2ad88ec2930448bf9
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: f24d4055bd5fcf5fdee058112c268a1a0e197012
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>立刻从 Excel 工作簿变为出色的报表
 你的经理在下班前想要查看有关你最新的销售数据以及上一市场活动影响的报表。 但最新数据位于各种第三方系统上以及便携式计算机上的文件中。 以前，创建视觉对象和设置报表格式需要几个小时。 你开始感到焦虑。

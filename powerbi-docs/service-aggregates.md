@@ -1,28 +1,20 @@
 ---
-title: "可视化效果中的聚合函数（求和、求平均值、求最大值等）"
-description: "在 Power BI 中更改图表中的聚合函数（计算总和、平均值、最大值等）"
-services: powerbi
-documentationcenter: 
+title: 可视化效果中的聚合函数（求和、求平均值、求最大值等）
+description: 在 Power BI 中更改图表中的聚合函数（计算总和、平均值、最大值等）
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: modifying
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/04/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c391ab631d94e98df68835f680a48e24afd293fb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 39adfd04118362fa706f0840daa5c2520d899b5e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Power BI 可视化效果中的聚合函数
 ## <a name="what-is-an-aggregate"></a>什么是聚合函数？

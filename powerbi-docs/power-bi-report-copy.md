@@ -1,28 +1,20 @@
 ---
 title: 在 Power BI 服务中复制报表
 description: 从 Power BI 服务中的其他报表创建新的 Power BI 报表。
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a4f4e394aa4534093858ebfe7738dd7fdb0affd2
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>从现有报表中创建新报表（复制报表）
 你可能拥有已连接到数据集的报表，以及某些希望重新使用或修改的视觉效果。  为什么不复制该报表，作为新报表的基础？  若要执行此操作：

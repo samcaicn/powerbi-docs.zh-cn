@@ -1,28 +1,20 @@
 ---
 title: SQL 数据库审核内容包
 description: 适用于 Power BI 的 SQL 数据库审核内容包
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: eec1af16156e4d4180dd130f4dd285bb78b19903
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 36351491f7cb99a2e597ef4fd498ef7c38da386e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>适用于 Power BI 的 SQL 数据库审核内容包
 通过适用于 Azure [SQL 数据库审核](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/)的 Power BI 内容包可以了解数据库活动并深入了解可能指示业务问题或可疑安全冲突的差异和异常。 

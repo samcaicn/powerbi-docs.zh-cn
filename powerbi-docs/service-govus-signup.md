@@ -1,28 +1,20 @@
 ---
 title: 注册适用于美国政府客户的 Power BI
 description: 对于美国政府客户，了解如何为美国政府组织注册 Power BI 美国政府服务
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 17d7c07cb35eb9046b6fcfe8da5a85ee15fe7eaf
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服务中注册你的美国政府组织
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
@@ -130,7 +122,7 @@ ms.lasthandoff: 04/26/2018
 你可以使用 Power BI 执行各种操作。 有关更多信息和学习资料（包括介绍如何注册服务的文章），请查看以下资源：
 
 * [适用于美国政府的 Power BI 的概述](service-govus-overview.md)
-* [Power BI 的引导学习](guided-learning/gettingstarted.yml#step-1)
+* [Power BI 的引导学习](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Power BI 服务入门](service-get-started.md)
 * [Power BI Desktop 入门](desktop-getting-started.md)
 

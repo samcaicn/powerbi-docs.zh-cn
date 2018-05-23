@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 连接到 appFigures
 description: 适用于 Power BI 的 appFigures
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 07b702d549100753149fa10b3017b31e394ab9b8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7990cdbc0741e80bf2cbb60431228ff6a1d41485
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>使用 Power BI 连接到 appFigures
 可使用 Power BI 和 appFigures 内容包轻松地跟踪有关应用的重要统计信息。 Power BI 会检索数据（包括应用销售量、下载量和广告统计信息），然后生成默认仪表板以及基于该数据的相关报表。

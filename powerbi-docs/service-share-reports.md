@@ -1,29 +1,21 @@
 ---
 title: 与同事筛选和共享 Power BI 报表
 description: 了解如何与组织中的同事共享筛选的 Power BI 报表。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: lukaszp
-editor: ''
-tags: ''
+ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
-qualityfocus: complete
-qualitydate: 06/22/2016
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3e3e8c315baa96d1af1eeaf40c7b60648d0b797e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bc5fe4c1e1fedc700fcbadd182f01e9e50348e3e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>与同事共享筛选的 Power BI 报表
 共享是一种使多人能够访问你的仪表板和报表的有效方式。 Power BI 还提供了[其他多种开展协作和分发报表的方式](service-how-to-collaborate-distribute-dashboards-reports.md)。

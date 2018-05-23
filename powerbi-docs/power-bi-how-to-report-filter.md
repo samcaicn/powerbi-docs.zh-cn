@@ -1,28 +1,20 @@
 ---
 title: Power BI 筛选器窗格概述
 description: 概述介绍了 Power BI 服务和 Power BI 仪表板中的报表筛选器窗格
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/15/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 00b0b116aa59ebab1d963a8803f788040761d9f5
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>浏览报表“筛选器”窗格
 本文将深入介绍报表“筛选器”窗格。 你将在 [Power BI 服务编辑视图和阅读视图](service-reading-view-and-editing-view.md)以及 [Power BI Desktop 报表视图](desktop-report-view.md)中看到该窗格。

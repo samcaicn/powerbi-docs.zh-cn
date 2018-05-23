@@ -1,28 +1,20 @@
 ---
 title: Power BI Premium 中的增量刷新
 description: 了解如何在 Power BI Premium 服务中启用大型数据集。
-services: powerbi
-documentationcenter: ''
 author: christianwade
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 04/30/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: b522e16ae2e039d69d72541b81b5564b2aa3f6c9
-ms.sourcegitcommit: d160b994412f0be024e802cb523d45b3d7837846
+ms.openlocfilehash: 1b6a3c35abeff33e2fb1e0fecdc5c2a5c88e1530
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium 中的增量刷新
 
@@ -107,7 +99,7 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部 5
 
 ![刷新范围](media/service-premium-incremental-refresh/refresh-ranges.png)
 
-如果上述范围的定义是你所需的全部内容，可直接转到下面的发布步骤。其他下拉菜单适用于高级功能。
+如果上述范围的定义是你所需的全部内容，可直接转到下面的发布步骤。其他下拉菜单适用于高级功能。**
 
 #### <a name="detect-data-changes"></a>检测数据更改
 

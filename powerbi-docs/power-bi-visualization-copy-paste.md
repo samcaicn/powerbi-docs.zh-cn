@@ -1,28 +1,20 @@
 ---
 title: 在 Power BI 中复制并粘贴可视化效果
 description: 在 Power BI 中复制并粘贴可视化效果
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8e00bb4ca2e39462624a489dd96bbd2b266aa6c3
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 44b7c8ab65accdb804c7a4b8afd19b1598137dbe
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服务和 Power BI Desktop 中复制并粘贴可视化对象
 复制并粘贴可视化对象需要对报表拥有编辑权限。 在 Power BI 服务中，这意味着会在 [“编辑视图”](service-reading-view-and-editing-view.md) 中打开报表。

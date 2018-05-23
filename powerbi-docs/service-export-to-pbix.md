@@ -1,28 +1,20 @@
 ---
-title: "如何将报表从 Power BI 服务导出到 Power BI Desktop（预览）"
-description: "将报表从 Power BI 服务下载到 Power BI Desktop 文件"
-services: powerbi
-documentationcenter: 
+title: 如何将报表从 Power BI 服务导出到 Power BI Desktop（预览）
+description: 将报表从 Power BI 服务下载到 Power BI Desktop 文件
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>将报表从 Power BI 服务导出到 Power BI Desktop（预览）
 在 Power BI Desktop 中，可以通过保存报表并选择“ **发布** ”来导出（也称为“ *下载* ”）报表至 Power BI 服务。 也可以从其他方向导出，并将报表从 Power BI 服务下载至 Desktop。 无论导出方向如何，导出文件的扩展名都是 .pbix。
@@ -35,10 +27,10 @@ ms.lasthandoff: 03/09/2018
 若要下载 .pbix 文件，请执行以下步骤：
 
 1. 在 **Power BI 服务**的[编辑视图](service-reading-view-and-editing-view.md)中，打开要下载的报表。
-2. 在菜单栏中，依次选择**“文件”>“下载报表”**。
+2. 在菜单栏中，依次选择 **“文件”>“下载报表”**。
    
    > [!NOTE]
-   > 只能下载在 2016 年 11 月 23 日后[使用 Power BI Desktop 创建](guided-learning/publishingandsharing.yml#step-2)和更新的报表。 否则，Power BI 服务中的“ *下载报表* ”菜单选项为灰显。
+   > 只能下载在 2016 年 11 月 23 日后[使用 Power BI Desktop 创建](guided-learning/publishingandsharing.yml?tutorial-step=2)和更新的报表。 否则，Power BI 服务中的“ *下载报表* ”菜单选项为灰显。
    > 
    > 
 3. 在创建 .pbix 文件的同时，系统会显示状态横幅来提示你进度。 在文件就绪后，系统会提示你打开或保存此 .pbix 文件。 文件名与报表名相匹配。

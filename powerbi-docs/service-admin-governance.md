@@ -1,28 +1,20 @@
 ---
 title: 管理和部署方法
 description: 供你了解 Power BI 内部生态系统管理的概念、选项和建议的白皮书。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8f2f48143e9f1c5a304f8d864ea39b8118d331f8
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 955f4347630a781174d399d6a1363683745a4b3e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>管理和部署方法
 在过去几十年中，各公司已迅速意识到策略性地利用数据资产从市场机遇中获利的必要性。 目前许多组织已通过进行竞争力分析或了解运营模式意识到将数据策略作为增强竞争力的途径大有裨益。  

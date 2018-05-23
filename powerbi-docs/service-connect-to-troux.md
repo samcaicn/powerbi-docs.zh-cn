@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 连接到 Troux
 description: 适用于 Power BI 的 Troux
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 701b35d317076827148ec523d38f0c23362aed47
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: dbf3831264a354ec96a38751dfa7a3719c5c9f2a
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-troux-for-power-bi"></a>连接到适用于 Power BI 的 Troux
 你可以使用 Troux 内容包直接在 Power BI 中以全新的方式可视化企业体系结构存储库。 该内容包提供了一套关于以下内容的见解：业务能力、提供这些功能的应用程序和支持那些可以使用 Power BI 完全自定义应用程序的技术。

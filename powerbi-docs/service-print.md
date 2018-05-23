@@ -1,29 +1,21 @@
 ---
-title: "从 Power BI 服务打印"
-description: "使用 Power BI 打印仪表板、磁贴或报表页。"
-services: powerbi
-documentationcenter: 
+title: 从 Power BI 服务打印
+description: 使用 Power BI 打印仪表板、磁贴或报表页。
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+ms.reviewer: ''
+featuredvideoid: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d5859c0b59717a4af432c5fb7b526fa62ff03f59
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="printing-from-power-bi-service"></a>从 Power BI 服务打印
 使用 Power BI 服务打印整个仪表板、仪表板磁贴、报表页或报表视觉对象。 一次只能打印一页报表，而不能一次打印整个报表。

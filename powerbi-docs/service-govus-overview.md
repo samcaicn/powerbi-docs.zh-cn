@@ -1,28 +1,20 @@
 ---
 title: 适用于美国政府客户的 Power BI - 概述
 description: 对于美国政府客户，了解 Power BI 美国政府服务的功能和限制
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: fc917b3a6754c0e9badc11b0d331ae1328bf089c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: ecd3c4a3d9cf9beddff5053f3dc696e6e99de70a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
@@ -79,21 +71,21 @@ Azure 分布在多个云中。 默认情况下，租户可以打开对云专属�
 ## <a name="frequently-asked-questions-faq-for-the-us-government-version-of-the-power-bi-service"></a>Power BI 服务的美国政府版本的常见问题 (FAQ)
 下面提供的问题（和解答）可帮助你快速获取所需的有关服务的信息。
 
-**问题：**如何将 商业版的**Power BI** 数据迁移到适用于美国政府的 **Power BI 服务**？
+**问题：** 如何将 商业版的**Power BI** 数据迁移到适用于美国政府的 **Power BI 服务**？
 
-**解答：**你的管理员必须在单独的美国政府特定的订阅下创建 **Power BI** 的新实例。 然后，你可以在适用于美国政府的 **Power BI 服务**中复制你的商业数据、删除你的商业许可，以及将你的现有域关联到新的美国政府特定的服务。
+**解答：** 你的管理员必须在单独的美国政府特定的订阅下创建 **Power BI** 的新实例。 然后，你可以在适用于美国政府的 **Power BI 服务**中复制你的商业数据、删除你的商业许可，以及将你的现有域关联到新的美国政府特定的服务。
 
-**问题：**为什么无法连接到特定的内容包？
+**问题：** 为什么无法连接到特定的内容包？
 
-**解答：**你需要确保在连接到该内容包之前启用你的订阅。
+**解答：** 你需要确保在连接到该内容包之前启用你的订阅。
 
-**问题：**我有兴趣为我的美国政府组织获得 **Power BI**。 如何开始？
+**问题：** 我有兴趣为我的美国政府组织获得 **Power BI**。 如何开始？
 
-**解答：**根据你的现有许可证和订阅，注册（通常称为载入）过程可能会有所不同。 有关更多信息，请参阅[注册适用于美国政府的 Power BI](service-govus-signup.md) 一文。
+**解答：** 根据你的现有许可证和订阅，注册（通常称为载入）过程可能会有所不同。 有关更多信息，请参阅[注册适用于美国政府的 Power BI](service-govus-signup.md) 一文。
 
-**问题：**用于连接到适用于美国政府的 **Power BI** 的 URL 是否与商业 **Power BI** URL 有所不同？
+**问题：** 用于连接到适用于美国政府的 **Power BI** 的 URL 是否与商业 **Power BI** URL 有所不同？
 
-**解答：**是的，URL 是不同的。 下表显示了每个 URL：
+**解答：** 是的，URL 是不同的。 下表显示了每个 URL：
 
 | 商业版本 URL | 美国政府版本 URL |
 | --- | --- |
@@ -104,7 +96,7 @@ Azure 分布在多个云中。 默认情况下，租户可以打开对云专属�
 
 * [注册适用于美国政府的 Power BI](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI 美国政府版演示</a>
-* [Power BI 的引导学习](guided-learning/gettingstarted.yml#step-1)
+* [Power BI 的引导学习](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Power BI 服务入门](service-get-started.md)
 * [Power BI Desktop 入门](desktop-getting-started.md)
 

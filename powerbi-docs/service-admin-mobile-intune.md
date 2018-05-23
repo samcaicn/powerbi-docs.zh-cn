@@ -1,28 +1,20 @@
 ---
 title: 使用 Microsoft Intune 配置移动应用
 description: 如何使用 Microsoft Intune 配置 Power BI 移动应用。 这包括如何添加和部署应用程序。 以及如何创建移动应用程序策略以控制安全性。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c33fcbdfa93e38283e17b0842e1242634664be7a
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 03f1c9948b3c178f39d369fddece36a5fcd05e4f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>使用 Microsoft Intune 配置移动应用
 Microsoft Intune 使组织可以管理设备和应用程序。 适用于 iOS 和 Android 的 Power BI 移动应用程序与 Intune 集成，以使你可以管理设备上的应用程序以及控制安全性。 通过配置策略，可以控制各个项目，如要求提供访问 PIN、控制应用程序如何处理数据，甚至是在无法使用应用时加密应用程序数据。
@@ -120,7 +112,7 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 [
 添加应用程序之后，你需要部署它，以便它可供最终用户使用。 这是将创建的策略与应用绑定的步骤。
 
 ### <a name="ios"></a>iOS
-1. 在应用屏幕上，选择创建的应用。 然后选择**管理部署...**链接。
+1. 在应用屏幕上，选择创建的应用。 然后选择**管理部署...** 链接。
    
     ![](media/service-admin-mobile-intune/intune-deploy-ios1.png)
 2. 在**选择组**屏幕上，可以选择你要将此应用部署到的组。 选择**下一步**。
@@ -136,7 +128,7 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 [
 部署应用之后，应在应用页面上对已部署显示**是**。
 
 ### <a name="android"></a>Android
-1. 在应用屏幕上，选择创建的应用。 然后选择**管理部署...**链接。
+1. 在应用屏幕上，选择创建的应用。 然后选择**管理部署...** 链接。
    
     ![](media/service-admin-mobile-intune/intune-deploy-android1.png)
 2. 在**选择组**屏幕上，可以选择你要将此应用部署到的组。 选择**下一步**。

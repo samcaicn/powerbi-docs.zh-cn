@@ -1,29 +1,21 @@
 ---
 title: 焦点模式 - 放大单个可视化效果以查看更多详细信息。
 description: 在焦点模式（又称为弹出）下显示 Power BI 仪表板磁贴或报表可视化效果的文档。
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3073fb3515dd90e676d38a1f89aca4c66445cd1f
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 367a6b9b5de4d052dac3ca3b80be5f4037467646
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>在“焦点”模式下显示仪表板磁贴或报表视觉对象
 

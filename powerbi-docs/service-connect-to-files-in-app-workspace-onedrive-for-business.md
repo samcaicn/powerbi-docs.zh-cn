@@ -1,28 +1,20 @@
 ---
 title: 连接到用于 Power BI 应用工作区的 OneDrive 中的文件
 description: 阅读有关在 Power BI 应用工作区的 OneDrive 上存储并连接到 Excel、CSV 和 Power BI Desktop 文件的信息。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8a078475bc01dec37d49f654d1fa90162a9d8366
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e1161e5e461b3b32e549c69cfa7987c8f799e0fd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>连接到用于 Power BI 应用工作区的 OneDrive 中存储的文件
 [在 Power BI 中创建应用工作区](service-create-distribute-apps.md)后，可以将 Excel、CSV 和 Power BI Desktop 文件存储在 Power BI 应用工作区的 OneDrive for Business 上。 可以继续更新已存储在 OneDrive 中的文件，这些更新会按文件自动反映在 Power BI 报表和仪表板中。 
