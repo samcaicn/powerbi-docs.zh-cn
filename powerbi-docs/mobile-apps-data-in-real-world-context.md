@@ -1,27 +1,19 @@
 ---
 title: 使用 Power BI 移动应用获取实际数据
 description: 无需进行任何搜索，Power BI 移动应用即可直接将现实生活连接到相关 BI 信息。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: f4ad86ddf6604e2e8bd9d562249b3f2865a3ec7d
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: d6896686f89cc5b5eba1ec5f5e23d1e857da3c9c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>使用 Power BI 移动应用获取实际数据
 通过几种不同的方式，Power BI 移动应用可以直接将现实生活连接到相关 BI 信息。 

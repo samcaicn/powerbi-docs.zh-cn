@@ -1,28 +1,20 @@
 ---
 title: 使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户
 description: Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成后，即可将 Power BI 内容安全地分发给组织外的来宾用户。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 16820050ad879b128482af5754bc53973449f982
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -62,7 +54,7 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成后，�
 
 4. 选择“邀请”。
 
-若要邀请多个来宾用户，请使用 PowerShell。 有关详细信息，请参阅 [Azure Active Directory B2B 协作代码和 PowerShell 示例](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-code-samples)。
+若要邀请多个来宾用户，请使用 PowerShell。 有关详细信息，请参阅 [Azure Active Directory B2B 协作代码和 PowerShell 示例](https://docs.microsoft.com/azure/active-directory/b2b/code-samples)。
 
 来宾用户需要在他们收到的电子邮件邀请中选择“开始”。 然后就会将该来宾用户添加到租户。
 
@@ -111,7 +103,7 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成后，�
 * 邀请正在使用个人电子邮件帐户（如 gmail.com、outlook.com 或 hotmail.com）的来宾用户时，可观看此[嵌入视频](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience)，查看介绍用户注册方式的示例。
 * 外部 B2B 来宾仅限于使用内容。 外部 B2B 来宾可以查看应用、仪表板、报表，导出数据以及为仪表板和报表创建电子邮件订阅。 他们无法访问工作区或发布自己的内容。
 * 此功能目前不可用于 Power BI 移动应用。 在移动设备上，你可以在浏览器中查看使用 Azure AD B2B 共享的 Power BI 内容。
-* sovereign 云（政府）内不支持通过 Power BI 使用来宾用户。
+* 此功能当前不可用于 Power BI SharePoint Online 报表 Web 部件。
 
 ## <a name="next-steps"></a>后续步骤
 

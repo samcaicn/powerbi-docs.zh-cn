@@ -1,30 +1,23 @@
 ---
-title: 教程：使用 Power BI 连接到 GitHub 应用
+title: 教程：使用 Power BI 连接到 GitHub 示例
 description: 在本教程中，使用 Power BI 连接到 GitHub 服务中的真实数据，Power BI 即会自动创建仪表板和报表。
 author: maggiesMSFT
 manager: kfile
-backup: SarinaJoan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.custom: connect-to-services
-ms.devlang: NA
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5f393d8255128b27dce8422444b427835aeef0cb
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/19/2018
 ---
-# <a name="tutorial-connect-to-the-github-app-with-power-bi"></a>教程：使用 Power BI 连接到 GitHub 应用
+# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>教程：使用 Power BI 连接到 GitHub 示例
 在本教程中，使用 Power BI 连接到 GitHub 服务中的真实数据，Power BI 即会自动创建仪表板和报表。 连接到 Power BI 内容公共存储库（也称为存储库），同时查看以下信息：有多少人参与编辑 Power BI 公共内容？ 谁贡献最多？ 一周中哪天的贡献最大？ 同时回答其他问题。 
 
 ![Power BI 中的 GitHub 报表](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
@@ -49,7 +42,7 @@ ms.lasthandoff: 05/07/2018
 - 注册 [GitHub 帐户](https://docs.microsoft.com/contribute/get-started-setup-github)
 
 
-## <a name="how-to-connect"></a>连接方式
+## <a name="how-to-connect"></a>如何连接
 1. 登录 Power BI 服务 (http://powerbi.com))。 
 2. 在左侧导航窗格中，选择“应用”，然后选择“获取应用”。
    
@@ -69,7 +62,7 @@ ms.lasthandoff: 05/07/2018
 
 7. 按照 Github 验证界面执行操作。 向 Power BI 授予访问 GitHub 数据的权限。
    
-   之后，Power BI 即可连接到 GitHub 和数据。  数据每天刷新一次。
+   之后，Power BI 即可连接到 GitHub 和数据。  数据会每天刷新一次。
 
 8. Power BI 导入数据后，将显示新的 GitHub 磁贴。 
  

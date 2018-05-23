@@ -10,12 +10,14 @@
           href: service-the-new-power-bi-experience.md
     - name: 教程
       items:
-        - name: 连接到联机服务 GitHub
+        - name: 连接到 GitHub 示例
           href: service-tutorial-connect-to-github.md
     - name: 概念
       items:
         - name: Power BI 服务中的新功能
           href: service-whats-new.md
+        - name: 自助注册
+          href: service-self-service-signup-for-power-bi.md
         - name: Power BI 基本信息
           items:
             - name: Power BI - 基本概念
@@ -56,16 +58,12 @@
           items:
             - name: Power BI 中的 Quick Insights
               href: service-insights.md
-            - name: 从报表创建仪表板
-              href: service-dashboard-create.md
             - name: 从文件中获取数据
               href: service-get-data-from-files.md
             - name: 在阅读视图或编辑视图中打开 Power BI 报表
               href: service-reading-view-and-editing-view.md
             - name: 报表编辑器...教程
               href: service-the-report-editor-take-a-tour.md
-            - name: Power BI 示例
-              href: sample-datasets.md
             - name: Power BI 中的可视化效果
               href: power-bi-report-visualizations.md
             - name: Power BI 数据源
@@ -124,6 +122,8 @@
                   href: service-connect-to-services.md
                 - name: Acumatica
                   href: service-connect-to-acumatica.md
+                - name: Adobe Analytics
+                  href: service-connect-to-adobe-analytics.md
                 - name: Alpine Metrics 销售预测
                   href: service-connect-to-alpine-metrics.md
                 - name: appFigures
@@ -248,8 +248,6 @@
                   href: service-publish-to-powerpoint.md
         - name: 在 Power BI 中工作
           items:
-            - name: 使用 Power BI 示例内容包
-              href: sample-tutorial-connect-to-the-samples.md
             - name: 立刻从 Excel 工作簿变为出色的报表
               href: service-from-excel-to-stunning-report.md
             - name: 使用问答创建可视化和生成报表
@@ -268,6 +266,8 @@
               href: refresh-scheduled-refresh.md
             - name: 仪表板
               items:
+                - name: 从报表创建仪表板
+                  href: service-dashboard-create.md
                 - name: 创建仪表板副本
                   href: service-dashboard-copy.md
                 - name: 从报表将磁贴固定到 Power BI 仪表板
@@ -314,19 +314,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: 共享工作
               items:
-                - name: 组织内容包：简介
-                  href: service-organizational-content-pack-introduction.md
-                - name: 创建和发布组织内容包
-                  href: service-organizational-content-pack-create-and-publish.md
                 - name: 共享筛选报表
                   href: service-share-reports.md
                 - name: 从 Power BI 发布到 Web
                   href: service-publish-to-web.md
                 - name: 在 SharePoint Online 中嵌入报表
                   href: service-embed-report-spo.md
-                - name: 连接到你的组的 OneDrive for Business 上的文件
+                - name: 连接到组的 OneDrive 上的文件
                   href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-                - name: 在 Power BI 组工作区中开展协作
+                - name: 在组工作区中开展协作
                   href: service-collaborate-power-bi-workspace.md
                 - name: 管理 Power BI 和 Office 365 中的组
                   href: service-manage-app-workspace-in-power-bi-and-office-365.md
@@ -334,6 +330,10 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 组织内容包：复制、刷新和获取访问权限
                   href: service-organizational-content-pack-copy-refresh-access.md
+                - name: 组织内容包：简介
+                  href: service-organizational-content-pack-introduction.md
+                - name: 创建和发布组织内容包
+                  href: service-organizational-content-pack-create-and-publish.md
                 - name: 删除与组织内容包的连接
                   href: service-organizational-content-pack-disconnect.md
                 - name: 共享链接到 OneDrive for Business 上 Excel 工作簿的仪表板
@@ -446,9 +446,13 @@
                   href: service-refresh-xero-credentials.md
     - name: 资源
       items:
-        - name: Power BI 支持的浏览器
+        - name: 视频
+          href: videos.md
+        - name: 网络研讨会
+          href: webinars.md
+        - name: 支持的浏览器
           href: service-browser-support.md
-        - name: Power BI 支持的语言和国家/地区
+        - name: 支持的语言和国家/地区
           href: supported-languages-countries-regions.md
         - name: 白皮书
           href: whitepapers.md
@@ -480,24 +484,28 @@
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: 示例
       items:
-        - name: 下载 Power BI 的财务示例工作簿
-          href: sample-financial-download.md
-        - name: Power BI 的供应商质量分析示例：教程
-          href: sample-supplier-quality.md
-        - name: Power BI 的 IT 支出分析示例教程
-          href: sample-it-spend.md
-        - name: Power BI 销售与市场营销示例：教程
-          href: sample-sales-and-marketing.md
-        - name: Power BI 的客户盈利率示例：教程
+        - name: Power BI 示例
+          href: sample-datasets.md
+        - name: 使用示例内容包
+          href: sample-tutorial-connect-to-the-samples.md
+        - name: 客户盈利率示例：导览
           href: sample-customer-profitability.md
+        - name: IT 支出分析示例：导览
+          href: sample-it-spend.md
         - name: 人力资源示例：教程
           href: sample-human-resources.md
-        - name: Power BI 的机会分析示例：教程
+        - name: 机遇分析示例：导览
           href: sample-opportunity-analysis.md
         - name: 采购分析示例：教程
           href: sample-procurement.md
-        - name: Power BI 的零售分析示例：教程
+        - name: 零售分析示例：导览
           href: sample-retail-analysis.md
+        - name: 销售和市场营销示例：导览
+          href: sample-sales-and-marketing.md
+        - name: 供应商质量分析示例：导览
+          href: sample-supplier-quality.md
+        - name: 下载财务示例工作簿
+          href: sample-financial-download.md
     - name: 概念
       items:
         - name: 最新 Power BI Desktop 更新中有哪些新增功能？
@@ -806,6 +814,8 @@
           items:
             - name: 在移动应用中查看本地报表
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: Power BI for Mixed Reality 应用（预览版）
+              href: mobile-mixed-reality-app.md
             - name: 在 Power BI 移动应用中共享仪表板
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: 在移动应用中与磁贴进行交互
@@ -837,7 +847,7 @@
             - name: Power BI for Android 应用入门
               href: mobile-android-app-get-started.md
             - name: 修复“你的企业 SSL 证书不受信任”的问题
-              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+              href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
             - name: Power BI for iOS 应用入门
@@ -1004,8 +1014,6 @@
           href: report-server/changelog.md
         - name: 支持时间线
           href: report-server/support-timeline.md
-        - name: 支持的数据源
-          href: report-server/data-sources.md
         - name: 硬件和软件要求
           href: report-server/system-requirements.md
         - name: 浏览器支持
@@ -1016,9 +1024,9 @@
           items:
             - name: Power BI 报表计划内刷新
               href: report-server/scheduled-refresh.md
-            - name: Power BI 报表 (.pbix) 数据源
+            - name: Power BI 报表数据源
               href: report-server/data-sources.md
-            - name: 分页报表 (.rdl) 数据源
+            - name: 分页报表数据源
               href: report-server/connect-data-sources.md
             - name: 订阅
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
@@ -1048,10 +1056,6 @@
               href: report-server/getting-around.md
             - name: 为报表服务器创建分页报表
               href: report-server/quickstart-create-paginated-report.md
-            - name: 高级 Power BI 报表
-              href: 'https://go.microsoft.com/fwlink/?linkid=848708'
-            - name: 高级分页报表
-              href: 'https://go.microsoft.com/fwlink/?linkid=848709'
             - name: 使用 KPI
               href: 'https://go.microsoft.com/fwlink/?linkid=849021'
             - name: '通过 OData 源访问共享数据集 '

@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 连接到 Azure 审核日志
 description: 适用于 Power BI 的 Azure 审核日志
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bb88ca524df5dd8c683c38a1a54a9bd626dad840
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 22020595b4f972f112f10e16fe7ae7d7fd4abed7
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>使用 Power BI 连接到 Azure 审核日志
 借助 Azure 审核日志内容包，你可以分析和可视化审核日志中存储的信息。 Power BI 会检索数据，生成现成的仪表板，并基于该数据创建报表。

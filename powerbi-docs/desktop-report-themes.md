@@ -1,28 +1,20 @@
 ---
 title: 在 Power BI Desktop 中使用报表主题（预览阶段）
 description: 了解如何使用自定义调色板，并将其应用于 Power BI Desktop 中的整个报表
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8f4f8c257404eaca97f419603bac386da5bf7446
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用报表主题（预览阶段）
 借助“报表主题”，可以将颜色主题应用于整个报表，如企业品牌颜色、流行色或可能要应用的其他任何颜色主题。 应用**报表主题**时，报表中的所有视觉对象都会使用选定主题中的颜色（少数例外情况除外，本文后面将予以介绍）。
@@ -149,7 +141,7 @@ ms.lasthandoff: 05/04/2018
 
 * **name** - 这是主题名称，也是唯一的必填字段
 * **dataColors** - 要对 Power BI Desktop 视觉对象数据使用的十六进制颜色代码列表。 此列表中的颜色数量视具体需求而定
-* **background**、**foreground** 和 **tableAccent** - 这些值是**表**和**矩阵**视觉对象中应使用的颜色。 这些颜色的使用方式具体取决于所应用的表样式或矩阵样式。 表和矩阵视觉对象默认应用这些样式。
+* background、foreground 和 tableAccent - 这些值是各种视觉对象中应使用的颜色。 foreground 应用于文本框文本、KPI 目标文本、多行卡片文本、卡片值文本、仪表标注文本、垂直切片器元素文本、表和矩阵总计以及值文本。 background 应用于按钮填充、组合图标签背景。 这些颜色的使用方式取决于所应用的具体视觉对象样式。 表和矩阵视觉对象默认应用这些样式。
 
 若要创建一个扩展格式的 JSON 文件，并对格式设置进行更详细的粒度控制，需要向 JSON 文件添加一个 visualStyles 部分，并在该部分中嵌套格式设置具体内容。 visualStyles 部分的格式如下所示：
 

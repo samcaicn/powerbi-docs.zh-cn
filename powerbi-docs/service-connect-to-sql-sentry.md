@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 连接到 SQL Sentry
 description: 适用于 Power BI 的 SQL Sentry
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c73502381e99bf64a8e342ca46ee1bb7089b6825
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8ad41917c887cff7db991051aa35d5dad6b6a8fa
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>使用 Power BI 连接到 SQL Sentry
 使用 Power BI 壳轻松分析由 SQL Sentry 收集的性能数据。 Power BI 检索数据，然后生成默认的仪表板并基于此数据生成相关的报表。
@@ -30,7 +22,7 @@ ms.lasthandoff: 02/24/2018
 连接到 Power BI 的 [SQL Sentry 内容包](https://app.powerbi.com/groups/me/getdata/services/sql-sentry)。
 
 >[!NOTE]
->若要进行连接，需要具有用于连接到 http://cloud.sqlsentry.com 的 SQL Sentry 帐户和要监视的数据库 ID 的访问权限。  以下介绍在何处查找数据库 ID。
+>若要进行连接，需要具有用于连接到  http://cloud.sqlsentry.com 的 SQL Sentry 帐户和要监视的数据库 ID 的访问权限。  以下介绍在何处查找数据库 ID。
 
 ## <a name="how-to-connect"></a>如何连接
 1. 选择左侧导航窗格底部的**获取数据**。

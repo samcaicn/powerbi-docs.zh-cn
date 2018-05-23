@@ -1,29 +1,21 @@
 ---
 title: 使用报表 Web 部件在 SharePoint Online 中嵌入报表
 description: 借助 Power BI 新推出的适用于 SharePoint Online 的报表 Web 部件，可以在 SharePoint Online 页面中轻松嵌入交互式 Power BI 报表。
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 11/19/2017
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 11b1d2c1c5205fd1346e9350b0a814b7d76d4135
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 757f59b59ea13478a943650f23ef98d9cc5b3e08
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>使用报表 Web 部件在 SharePoint Online 中嵌入报表
 
@@ -143,6 +135,8 @@ Power BI Web 部件中可能无法加载报表，并显示以下消息。
   1. 注销并重新登录 SharePoint。 请务必在重新登录前关闭所有浏览器窗口。
 
   2. 如果用户帐户要求进行多重身份验证 (MFA)，请务必使用多重身份验证设备（如手机应用、智能卡等）登录 SharePoint
+  
+  3. 不支持 Azure B2B 来宾用户帐户。 用户将看到 Power BI 徽标，显示该部件正在加载，但它不会显示报表。
 
 * Power BI 不支持 SharePoint Online 支持的本地化语言。 因此，可能无法在嵌入的报表中看到正确的本地化内容。
 

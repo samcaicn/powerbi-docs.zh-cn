@@ -1,27 +1,19 @@
 ---
-title: "Power BI 报表服务器发行说明"
-description: "REST API 提供以编程方式访问 Power BI 报表服务器目录中对象的选项。"
-services: powerbi
-documentationcenter: 
+title: Power BI 报表服务器发行说明
+description: REST API 提供以编程方式访问 Power BI 报表服务器目录中对象的选项。
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 554270d3b7bdbd3de88a7d5865dae8cdf226a6b2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e77c77acb7808923097eb3e2146bef816eda51ee
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>使用适用于 Power BI 报表服务器的 REST API 进行开发
 Power BI 报表服务器支持表述性状态转移 (REST) API。 REST API 是支持一组 HTTP 操作（方法）的服务终结点，支持在报表服务器中创建、检索、更新或删除资源访问权限。

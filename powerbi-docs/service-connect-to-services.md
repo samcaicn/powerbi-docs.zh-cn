@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 连接到要使用的服务
 description: 连接许多用以运行你的业务的服务，例如 Salesforce、Microsoft Dynamics CRM 和 Google Analytics。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c1df66100206198f3de32bea9859261d51d3774d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5b8a438ed354f246c5ac1d5ac0d0488db19633dd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>使用 Power BI 连接到要使用的服务
 可以连接到许多用以运行你的业务的服务，例如 Salesforce、Microsoft Dynamics 和 Google Analytics。 Power BI 通过使用你的凭据连接到服务，然后创建包含仪表板的 Power BI 应用和一组 Power BI 报表，这些报表可自动显示数据并提供业务视觉对象见解。 
@@ -57,7 +49,7 @@ ms.lasthandoff: 02/24/2018
 
 有关连接到特定服务的详细信息，请参阅个人帮助页面。
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 **空磁贴**  
 Power BI 首次连接到服务时，你可能会在仪表板上看到一组空磁贴。 如果 2 小时后，仪表板仍然为空，很有可能是连接失败造成的。 如果没有看到包含可修复此问题相关信息的错误消息，请提交支持票证。
 

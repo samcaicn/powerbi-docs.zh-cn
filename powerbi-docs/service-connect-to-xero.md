@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 连接到 Xero
 description: 适用于 Power BI 的 Xero
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d9f61067f89fb031926428109ef5dac5bcfd6392
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d3074602af73d937e64a9155d3d197b91b1b1ae8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-xero-with-power-bi"></a>使用 Power BI 连接到 Xero
 Xero 是易于使用的专为小型企业设计的在线会计软件。 基于带有此 Power BI 内容包的 Xero 财务状况创建引人注目的可视化效果。 你的默认仪表板包括许多小型企业指标，如现金头寸、收入和支出、盈亏趋势、应收帐款天数和投资回报。
@@ -102,7 +94,7 @@ Xero 是易于使用的专为小型企业设计的在线会计软件。 基于�
 * 如果内容包刷新失败，请检查是否在 Power BI 中多次连接到同一组织。 Xero 只允许对组织的单一活动连接，如果多次连接到同一组织，则可能会看到错误消息，提示你的凭据无效。  
 * 对于连接 Power BI 的 Xero 内容包遇到的问题（如错误消息或加载缓慢），请先清除缓存或 cookie 并重启浏览器，然后重新连接到 Power BI。  
 
-如果仍存在其他问题，请在 http://support.powerbi.com 开具票证。
+如果仍存在其他问题，请在 http://support.powerbi.com 提交票证。
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 入门](service-get-started.md)

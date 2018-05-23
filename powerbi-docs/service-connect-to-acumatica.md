@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 连接到 Acumatica
 description: 适用于 Power BI 的 Acumatica
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: af1a34d280aaa1a795a7a2490c97874e0c4d1838
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ea5ce2e1e635149c91fbcf38d84e3093af7915c9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>使用 Power BI 连接到 Acumatica
 通过 Power BI Acumatica 内容包可以快速深入了解商机数据。 Power BI 会检索数据（包括商机、帐户和客户），然后生成默认仪表板以及基于该数据的相关报表。
@@ -73,7 +65,7 @@ Acumatica OData 终结点按如下所示设置格式，应使用 HTTPS：
 
     https://[sitedomain]/odata/[companyname]
 
-登录 Acumatica 时，可以在浏览器的地址栏中找到应用程序站点域。 在下面的示例中，站点域是“https://pbi.acumatica.com”，因此要提供的 OData 终结点会是“https://pbi.acumatica.com/odata”。
+登录 Acumatica 时，可以在浏览器的地址栏中找到应用程序站点域。 在下面的示例中，站点域为“https://pbi.acumatica.com”，因此要提供的 OData 终结点将为“https://pbi.acumatica.com/odata”。
 
  ![](media/service-connect-to-acumatica/url.png)
 

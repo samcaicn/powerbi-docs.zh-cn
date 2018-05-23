@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 连接到 Lithium
 description: 适用于 Power BI 的 Lithium
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 501395503ef3c4b3bde8e6d7f0ae732af5a4cc6a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1d41ce3ff0c73675793e872170914b96a1d73d14
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>使用 Power BI 连接到 Lithium
 Lithium 在全球最佳品牌及其客户之间建立起信任关系，同时帮助解答疑问和分享经验。 通过将 Lithium 内容包连接到 Power BI，你可以衡量你在线社区的关键指标，从而有助于推动销售、降低服务成本和提升忠诚度。 
@@ -42,7 +34,7 @@ Lithium 在全球最佳品牌及其客户之间建立起信任关系，同时帮
 3. 选择 **Lithium** \> **获取**。
    
    ![](media/service-connect-to-lithium/lithiumconnect.png)
-4. 提供你 Lithium 社区的 URL。 它的形式将为 *https://community.yoursite.com*。
+4. 提供你 Lithium 社区的 URL。 它将采用 *https://community.yoursite.com* 形式。
    
    ![](media/service-connect-to-lithium/params.png)
 5. 出现提示时，输入你的 Lithium 凭据。 选择 **oAuth 2** 作为身份验证机制，并单击**登录**，然后按照 Lithium 身份验证流程进行操作。

@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 连接到 Project Madeira
 description: 适用于 Power BI 的 Project Madeira
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>使用 Power BI 连接到 Project "Madeira"
 通过 Power BI 和 Project "Madeira" 内容包，可以轻松获得有关 Project "Madeira" 数据的深入见解。 Power BI 会检索数据（销售和财务数据），然后基于该数据生成全新的仪表板和报表。
@@ -40,7 +32,7 @@ ms.lasthandoff: 03/09/2018
     ![](media/service-connect-to-project-madeira/services.png)
 3. 选择 **Project "Madeira"**，然后选择**获取**。  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. 出现提示时，输入你的 Project "Madeira" URL。 URL 需要完全按照以下模式：https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US')，加上你的 Project “Madeira” 公司名称。 请注意，末尾没有尾部斜杠，并且连接必须是 HTTPS。 请参阅[以下](#FindingParams)有关查找此 URL 的详细信息。  
+4. 出现提示时，输入你的 Project "Madeira" URL。 URL 需要完全按照以下模式：https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US')，加上你的 Project“Madeira”公司名称。 请注意，末尾没有尾部斜杠，并且连接必须是 HTTPS。 请参阅[以下](#FindingParams)有关查找此 URL 的详细信息。  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. 出现提示时，选择“基本”作为身份验证方法，输入你的 Project "Madeira" 电子邮件地址作为用户名，然后输入 Project "Madeira" 帐户的 Web 服务访问密钥作为密码。 如果你已经在浏览器中登录到 Project "Madeira"，则可能不会看到凭据提示。 请参阅[以下](#FindingParams)有关生成此访问密钥的详细信息。  
@@ -105,12 +97,12 @@ Power BI 仪表板依赖于上面所列的已发布的 Web 服务，并且如果
    - 请确保此 URL 的末尾没有尾随正斜杠。  
    - 确保此 URL 使用安全连接，如以 HTTPS 开头的 URL 所示。  
 
-**“登录失败”**如果在你使用 Project "Madeira" 凭据登录到仪表板时，收到“登录失败”错误，这可能是由于以下问题之一导致的：  
+**“登录失败”** 如果在你使用 Project "Madeira" 凭据登录到仪表板时，收到“登录失败”错误，这可能是由于以下问题之一导致的：  
 
    - 你所使用的帐户没有从你的帐户读取 Project "Madeira" 数据的权限。 验证 Project "Madeira" 中的用户帐户，并确保你使用了正确的 Web 服务访问密钥作为密码，然后重试。  
    - 你正在尝试连接到的 Project "Madeira" 实例不具有有效的 SSL 证书。 在这种情况下，你将看到更详细的错误消息（“无法建立受信任的 SSL 关系”）。 请注意，不支持自签名的证书。  
 
-**“糟糕”**如果在你通过身份验证对话框后，看到“糟糕”错误对话框，这一错误经常是由于连接到内容包的数据时出现的问题所造成的。 验证该 URL 是否采用了之前指定的模式：  
+**“糟糕”** 如果在你通过身份验证对话框后，看到“糟糕”错误对话框，这一错误经常是由于连接到内容包的数据时出现的问题所造成的。 验证该 URL 是否采用了之前指定的模式：  
     https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')
 
 一个常见错误指定特定 Web 服务的完整 URL：  

@@ -1,28 +1,20 @@
 ---
 title: 在 Power BI Desktop 中使用钻取
 description: 了解如何在 Power BI Desktop 中的新报表页上向下钻取数据
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c78643d285099f7b7856704ac7ee350ff9f93a
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 8c9a0d075c6d55baa1f518874fa668a3f0db8cb3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>在 Power BI Desktop 中使用钻取
 通过在 Power BI Desktop 中使用钻取，可以在报表中创建一个侧重于特定实体（如供应商、客户或制造商）的页。 有了这个针对性报表页，用户就可以在其他报表页上右键单击数据点，钻取到具有针对性的页，来获取针对此上下文进行筛选后的详细信息。
@@ -71,6 +63,14 @@ ms.lasthandoff: 05/09/2018
 ![以斜体显示的临时筛选器](media/desktop-drillthrough/drillthrough_07.png)
 
 请注意，可使用工具提示页执行此操作，但这将是一种奇怪的体验（工具提示似乎无法正常工作），因此不建议使用工具提示执行此操作。
+
+## <a name="add-a-measure-to-drillthrough"></a>将度量值添加到钻取
+
+除了将所有筛选器传递到钻取窗口之外，还可向钻取区域添加度量值（或汇总数字列）。 只需将钻取字段拖动到“钻取”卡即可应用。 
+
+![将度量值添加到钻取](media/desktop-drillthrough/drillthrough_08.png)
+
+添加度量值（或汇总数字列）时，如果视觉对象的“值”区域使用了该字段，则可钻取到页面。
 
 在报表中使用钻取就是这么简单。 通过这个有用的方法，用户可以获取选择用于钻取筛选器的实体信息的扩展视图。
 

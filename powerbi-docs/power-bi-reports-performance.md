@@ -1,28 +1,20 @@
 ---
-title: "Power BI 性能最佳做法"
-description: "本文将介绍如何在 Power BI 中构建快速可靠的报表"
-services: powerbi
-documentationcenter: 
+title: Power BI 性能最佳做法
+description: 本文将介绍如何在 Power BI 中构建快速可靠的报表
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: monitoring
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/12/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 性能最佳做法 
 本文将介绍如何在 Power BI 中构建快速可靠的报表  
@@ -96,10 +88,16 @@ ms.lasthandoff: 03/12/2018
 ## <a name="understand-custom-visual-performance"></a>了解自定义视觉对象性能 
 确保将每个自定义的视觉对象通过其节奏来确保高性能。 自定义视觉对象优化欠佳可能会对整个报表性能产生负面影响。 
  
-## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>通过 SQL 事件探查器和 Power BI Desktop 深入探索查询性能 
-要深入了解哪些视觉对象占用最多时间和资源，可以将 SQL 事件探查器连接到 Power BI Desktop，以对查询性能有一个全面的了解。 说明如下所示： 
+## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>通过 SQL 事件探查器和 Power BI Desktop 深入探索查询性能
+
+要深入了解哪些视觉对象占用最多时间和资源，可以将 SQL 事件探查器连接到 Power BI Desktop，以对查询性能有一个全面的了解。
+
+> [!NOTE]
+> Power BI Desktop 支持连接到诊断端口。 诊断端口允许连接到其他工具并执行跟踪以进行诊断。 不支持对模型进行任何更改！更改模型可能会导致损坏和数据丢失。
+
+说明如下所示：
   
-1. **安装 SQL Server Profiler 并运行 Power BI Desktop**  
+1. **安装 SQL Server Profiler 并运行 Power BI Desktop ** 
 
    SQL Server Profiler 作为 SQL Server Management Studio 的一部分提供。 
  

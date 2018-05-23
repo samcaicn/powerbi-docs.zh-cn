@@ -1,27 +1,19 @@
 ---
 title: Power BI 报表服务器的支持日程表
 description: 列举了 Power BI 报表服务器的版本和可用情况。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: dd6ab0afdb171a1cdb1267adee8bb1c411596dff
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 9bfcf7ab0b752cdbacefe7075e5975f7b0eb8bf9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI 报表服务器的支持日程表
 Power BI 报表服务器每年都会发布几次。 安全更新和关键更新在下一版本全面推出 (GA) 前发布。 在下一版本推出后，旧版本将在 12 个月的发行生命周期的剩余时间里继续接收安全更新程序。

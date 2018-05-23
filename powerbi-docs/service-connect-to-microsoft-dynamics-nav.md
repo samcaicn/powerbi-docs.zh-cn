@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 连接到 Microsoft Dynamics NAV
 description: 适用于 Power BI 的 Microsoft Dynamics NAV
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b06e756732c2c12e822967fbcfeb208bcb1ae334
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2ffa82cbc45a735bfb857a1f69c7e79e925ed753
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>使用 Power BI 连接到 Microsoft Dynamics NAV
 借助 Power BI，轻松获得有关 Microsoft Dynamics NAV 数据的见解。 Power BI 会检索数据（销售和财务数据），然后基于该数据生成带仪表板和报表的应用。 Power BI 需要具有对从中检索数据（在本例中为销售和财务数据）的表的访问权限。 以下是有关要求的详细信息。 安装应用后，可以在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 和 Power BI 移动应用中查看仪表板和报表。 
@@ -71,7 +63,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="system-requirements"></a>系统要求
 若要将 Microsoft Dynamics NAV 数据导入到 Power BI 中，则需要具有对从中检索数据的销售和财务数据表（上面已列出）的访问权限。 表中需要具有一些数据，当前不能导入空表。
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 Power BI 使用 Microsoft Dynamics NAV 的 Web 服务来检索数据。 如果 Microsoft Dynamics NAV 实例中有大量数据，将 Web 服务使用情况影响降到最低的建议：按需更改刷新频率。 另一个建议是让一个管理员创建应用并进行共享，而不是让每个管理员都创建自己的应用。
 
 **“参数验证失败，请确保所有参数都是有效的”**  

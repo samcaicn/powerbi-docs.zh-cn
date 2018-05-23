@@ -1,27 +1,19 @@
 ---
 title: 在 Power BI 服务中，以“阅读视图”或“编辑视图”打开报表。
 description: 在阅读视图或编辑视图中打开 Power BI 报表
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 17921d1fe28a1b4c0640748123efe4b70982b18d
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 13a745e65f1166690ade4f0279e0374ed95f053b
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>在 Power BI 服务 (app.powerbi.com) 中打开报表
 在 Power BI 服务、Power BI Desktop、移动 Power BI 甚至嵌入的 Power BI 中均提供了报表。 本文适用于在 Power BI 服务中打开报表。

@@ -1,34 +1,31 @@
 ---
 title: Power BI 服务和 Power BI Desktop 中的 Power BI 问答概述
 description: Power BI 问答自然语言查询的文档概述主题。
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c48e118a6708cae901a01d1956b6a3d0ea6c0561
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Power BI 服务和 Power BI Desktop 中的 Power BI 问答
 ## <a name="what-is-qa"></a>“问答”是什么？
 有时从你的数据中获得答案的最快方法是使用自然语言提问。 例如，“去年的销售总额是多少”。  使用“问答”来利用直观、自然的语言功能浏览数据并接收图表和图形形式的答案。 “问答”与搜索引擎不同 --“问答”仅提供有关 Power BI 中的数据的结果。
 
 可以本文为起点，了解 Power BI 问答的方方面面。 请选择下面的链接，了解 Power BI 问答在 Power BI 服务（仪表板和报表）、Power BI Desktop（报表）、Power BI Embedded 和 Power BI 移动版中的工作原理。  
+
+> [!NOTE]
+> Power BI 问答仅支持回答用英文提问的自然语言查询。 你还可以尝试使用西班牙语提问的预览功能。 在“Power BI Desktop”中，转到“文件”>“选项和设置”>“选项”，查找“预览功能”选项卡。选中“问答的西班牙语支持”对应的框。  
+>
+>
 
 ![](media/power-bi-q-and-a/pbi_qa_boxsalessqft.png)
 
