@@ -1,27 +1,19 @@
 ---
-title: "获取身份验证访问令牌"
-description: "推送数据的演练 - 获取身份验证访问令牌"
-services: powerbi
-documentationcenter: 
+title: 获取身份验证访问令牌
+description: 推送数据的演练 - 获取身份验证访问令牌
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: b2bec0ed32133c6882365ec257840cc3bf0b6119
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 640c6dac9a896cff55bddad46ceef8bce7ccae14
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>步骤 2：获取身份验证访问令牌
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。

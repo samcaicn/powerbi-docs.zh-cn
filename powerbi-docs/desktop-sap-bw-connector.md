@@ -1,28 +1,20 @@
 ---
 title: 在 Power BI Desktop 中使用 SAP BW 连接器
 description: 在 Power BI Desktop 中使用 SAP BW 连接器
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d644f13f6c9b8ada62a0862fdcf92518512828f7
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 79fcd556827c0c5c34615021e45e3abfadfd50e2
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 连接器
 使用 Power BI Desktop 可以访问 SAP BusinessWarehouse (BW) 数据。
@@ -60,9 +52,9 @@ ms.lasthandoff: 04/16/2018
 
 **导航器**窗口也提供了一些**显示选项**，允许你执行以下操作：
 
-* **显示仅选定项与所有项（默认视图）：**此选项在验证最后一组选定项时十分有用。 查看此类容的另一种方法是选择预览区域中的列名称。
-* **启用数据预览（默认行为）：**还可以控制是否应在此对话框中显示数据预览。 禁用数据预览会减少服务器调用的数量，因其将不再请求数据以进行预览。
-* **技术名称：**对于多维数据集中的对象，SAP BW 支持技术名称的概念。 技术名称允许多维数据集所有者公开多维数据集对象的用户友好名称，而不是仅公开多维数据集中的那些对象的物理名称。
+* **显示仅选定项与所有项（默认视图）：** 此选项在验证最后一组选定项时十分有用。 查看此类容的另一种方法是选择预览区域中的列名称。
+* **启用数据预览（默认行为）：** 还可以控制是否应在此对话框中显示数据预览。 禁用数据预览会减少服务器调用的数量，因其将不再请求数据以进行预览。
+* **技术名称：** 对于多维数据集中的对象，SAP BW 支持技术名称的概念。 技术名称允许多维数据集所有者公开多维数据集对象的用户友好名称，而不是仅公开多维数据集中的那些对象的物理名称。
 
 ![](media/desktop-sap-bw-connector/sap_bw_6.png)
 

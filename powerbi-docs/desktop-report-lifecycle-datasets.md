@@ -1,28 +1,20 @@
 ---
 title: 通过 Power BI Desktop 连接 Power BI 服务中的数据集
 description: 将通用数据集用于多个 Power BI Desktop 报表，并管理报表生命周期
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 04d622bd6cc2c4d0cc00b02bbd538e721bebf133
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 1bf5f83265c9d4fc11532b647207f8d273aab50c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>通过 Power BI Desktop 连接 Power BI 服务中的数据集
 可以与 Power BI 服务中的共享数据集建立实时连接，并根据同一数据集创建多个不同的报表。 也就是说，可以在 Power BI Desktop 中创建理想的数据模型，将其发布到 Power BI 服务中，然后你和其他人可以根据同一通用数据模型创建多个不同的报表（独立的 .pbix 文件）。 此功能称为“Power BI 服务实时连接”。

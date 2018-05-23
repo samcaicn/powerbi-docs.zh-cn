@@ -1,28 +1,20 @@
 ---
 title: 在 Power BI 中使用 DirectQuery 和 SAP Business Warehouse (BW)
 description: 将 DirectQuery 用于 SAP Business Warehouse (BW) 时的注意事项
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 792895f5bff61f52c82823040c974b162493edb2
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: a8fde13b0beeb57fb5d25aa35002358f04ab6cad
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery 和 SAP Business Warehouse (BW)
 可以使用 DirectQuery 直接连接到 SAP Business Warehouse (BW) 数据源。 鉴于 SAP BW 的 OLAP/多维特性，SAP BW 的 DirectQuery 与 SQL Server 等关系源之间存在许多重要区别。 这些区别总结如下：
@@ -49,7 +41,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="additional-visualization-restrictions"></a>其他可视化效果限制
 在 Power BI 中使用 DirectQuery 连接到 SAP BW 时，可视化效果中的其他主要限制如下所示：
 
-* **没有列聚合：**不能更改视觉对象上的列的聚合；它始终为“不汇总”
+* **没有列聚合：** 不能更改视觉对象上的列的聚合；它始终为“不汇总”
 * 禁用度量值筛选：禁用度量值筛选以反映 SAP BW 提供的支持。
 * 多重选择和包括/排除：如果点表示来自多个列的值，则禁用在视觉对象上多重选择数据点的功能。 例如，给定的条形图显示按国家/地区划分的销售额，图例中含有类别，则将不能选择表示（美国，自行车）和（法国，服装）的点。 同样，不能选择表示（美国，自行车）的点并将其从视觉对象中排除。 这两个限制都是为了反映 SAP BW 提供的支持。
 

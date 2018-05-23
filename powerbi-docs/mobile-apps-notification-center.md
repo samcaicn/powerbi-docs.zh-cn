@@ -1,27 +1,19 @@
 ---
-title: "获取 Power BI 移动应用中的通知"
-description: "“通知中心”会将你的 Power BI 体验相关信息通过移动设备立即发送给你。"
-services: powerbi
-documentationcenter: 
+title: 获取 Power BI 移动应用中的通知
+description: “通知中心”会将你的 Power BI 体验相关信息通过移动设备立即发送给你。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 218e7054a195db15f3b8b7c890723be7f0638d0c
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: e97a65e08d3830dc954a88f518c05798d177490f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>获取 Power BI 移动应用中的通知
 适用于：
@@ -60,7 +52,7 @@ ms.lasthandoff: 01/17/2018
 ## <a name="change-or-turn-off-notifications-on-your-mobile-device"></a>更改或关闭移动设备上的通知
 可以更改 Power BI 的通知方式。
 
-1. 在 iOS 设备上，依次转到**“设置”** > **“通知”**。 
+1. 在 iOS 设备上，依次转到 **“设置”** > **“通知”**。 
    
     在 Android 手机上转到“通知设置”。
    

@@ -1,27 +1,19 @@
 ---
-title: "为组织将仪表板集成到应用中"
-description: "了解如何使用 Power BI API 将仪表板集成到或嵌入 Web 应用中。"
-services: powerbi
-documentationcenter: 
+title: 为组织将仪表板集成到应用中
+description: 了解如何使用 Power BI API 将仪表板集成到或嵌入 Web 应用中。
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: e85b745798fd33ffbb5061f4c156054d2218bfb1
-ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
+ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>为组织将仪表板集成到应用中
 了解如何在为组织嵌入内容时，通过调用 REST API 和 Power BI JavaScript API，将仪表板集成到或嵌入 Web 应用中。

@@ -1,27 +1,19 @@
 ---
-title: "为组织将 Power BI 报表集成到应用中"
-description: "了解如何使用 Power BI API 将报表集成到或嵌入 Web 应用中。"
-services: powerbi
-documentationcenter: 
+title: 为组织将 Power BI 报表集成到应用中
+description: 了解如何使用 Power BI API 将报表集成到或嵌入 Web 应用中。
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 10/05/2017
 ms.author: maghan
-ms.openlocfilehash: 9ed341eb4428795bb4714ae8f1a34fd11c1bcbcd
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: d2fa65587fdbd85aabd429d531b79e9e614d2f49
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>为组织将报表集成到应用中
 了解如何在为组织嵌入内容时，通过调用 REST API 和 Power BI JavaScript API，将报表集成到或嵌入 Web 应用中。

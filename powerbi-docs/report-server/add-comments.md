@@ -1,27 +1,19 @@
 ---
-title: "在报表服务器中将注释添加到报表 - Power BI 报表服务器"
-description: "了解如何在 Power BI 报表服务器或 SQL Server Reporting Services 报表服务器上将注释添加到 的 Power BI 或分页报表。"
-services: powerbi
-documentationcenter: 
+title: 在报表服务器中将注释添加到报表 - Power BI 报表服务器
+description: 了解如何在 Power BI 报表服务器或 SQL Server Reporting Services 报表服务器上将注释添加到 的 Power BI 或分页报表。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 24848b978ae88ae890cbd5b6eea24146cd01e542
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e5e49d2f30cca4c0c731d29fe31d2cb6856066f2
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>在报表服务器中将注释添加到报表
 可以在报表服务器 Web 门户中将注释添加到报表，包括 Power BI 报表。 注释与报表存放在一起，拥有适当权限的任何人都可以看到该报表的注释。 请参阅下面的[权限](#permissions)部分，了解详细信息。

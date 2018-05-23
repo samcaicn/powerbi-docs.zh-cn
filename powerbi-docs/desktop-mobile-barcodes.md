@@ -1,27 +1,19 @@
 ---
 title: 在适用于移动应用的 Power BI Desktop 中标记条形码字段
 description: 当你在 Power BI Desktop 的模型中标记条形码字段时，你可以在你的 iPhone 的 Power BI 应用中自动为条形码筛选数据。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: 45cca153bbc65c5bad6c0f2ba8d41fbec4682ca5
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: ae6c7ba3603136aeea3daa412595b9f42ed13d6a
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>在适用于移动应用的 Power BI Desktop 中标记条形码
 在 Power BI Desktop 中，你可以针对列进行[数据分类](desktop-data-categorization.md)，以便 Power BI Desktop 知道如何处理报表中可视化对象的值。 此外还可将列分类为**条形码**。 当你或你的同事通过 iPhone [使用 Power BI 应用扫描产品上的条形码](mobile-apps-scan-barcode-iphone.md)时，你将看到所有包含此条形码的报表。 在移动应用中打开报表时，Power BI 将自动筛选报表中与该条形码相关的数据。

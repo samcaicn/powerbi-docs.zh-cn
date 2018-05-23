@@ -1,27 +1,19 @@
 ---
-title: "优化 Power BI 仪表板以用于手机"
-description: "创建专供在移动电话上查看的仪表板自定义视图很容易。 立即尝试。"
-services: powerbi
-documentationcenter: 
+title: 优化 Power BI 仪表板以用于手机
+description: 创建专供在移动电话上查看的仪表板自定义视图很容易。 立即尝试。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: e31e64aff0801cacaf02b7ea33e6ed3885dd349c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 45c426c3750d25cc262d0b1ddafc63307500fa00
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="optimize-power-bi-dashboard-for-phones"></a>优化 Power BI 仪表板以用于手机
 ### <a name="anytime-is-the-right-time-to-create-a-great-dashboard"></a>随时都可以创建精彩的仪表板

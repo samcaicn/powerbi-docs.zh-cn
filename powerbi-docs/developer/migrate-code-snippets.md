@@ -1,27 +1,19 @@
 ---
-title: "用于从 Power BI Embedded 迁移内容的代码片段"
-description: "以下是内容迁移所需的一些基本操作代码片段"
-services: powerbi
-documentationcenter: 
+title: 用于从 Power BI Embedded 迁移内容的代码片段
+description: 以下是内容迁移所需的一些基本操作代码片段
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: d293f2184f0f9a314a77c362312de4ab6a4dc5df
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 8fbefc7f1b6a9841dcb9c3d34d850c7e8e392881
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>用于从 Power BI 工作区集合迁移内容的代码片段
 以下是内容迁移所需的一些基本操作代码片段。 对于某些报表类型的相关流，请参阅[如何将 Power BI 工作区集合内容迁移到 Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration)。
@@ -149,7 +141,7 @@ using System.Threading.Tasks;
     }
 
     var basicCreds = new BasicCreds() { user = <sqldb_username>, pwd = <sqldb_password> };
-    var body = new SetCredsRequestBody() { credentialType = "Basic", basicCreds = basicCreds };
+    var body = new SetCredsRequestBody() { credentialType = "Basic", basicCredentials = basicCreds };
 
     var url = string.Format("https://api.powerbi.com/v1.0/myorg/gateways/{0}/datasources/{1}", <gateway_id>, <datasource_id>);
     var request = new HttpRequestMessage(new HttpMethod("PATCH"), url);
