@@ -97,7 +97,7 @@ ms.lasthandoff: 05/19/2018
 
 说明如下所示：
   
-1. **安装 SQL Server Profiler 并运行 Power BI Desktop ** 
+1. **安装 SQL Server Profiler 并运行 Power BI Desktop**  
 
    SQL Server Profiler 作为 SQL Server Management Studio 的一部分提供。 
  

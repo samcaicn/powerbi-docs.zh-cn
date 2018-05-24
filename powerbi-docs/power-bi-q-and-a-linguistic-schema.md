@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/20/2018
+ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: b7fb59e7fca6a3211b542b2a942565d6865e560c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: c504280257a959ccd7a46e61b9d377c22b76c14d
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>语言建模和语言架构 
 使用常用短语和自然语言来查询数据是一个非常有用的功能。 在用数据回答问题时，该项功能更为强大，而这就是 Power BI“问答”功能的作用。 向 Power BI“问答”功能提问时，它会尽力给出正确答案。 
@@ -53,10 +53,7 @@ ms.lasthandoff: 05/17/2018
 
     ![想以何种方式打开此文件](media/power-bi-q-and-a-linguistic-schema/power-bi-visual-code.png)
 
-4. 在 Visual Studio Code 中，安装 out-of-the-box YAML 支持扩展程序。
-
-   
-
+4. 在 Visual Studio Code 中，安装 out-of-the-box YAML 支持扩展程序。    
     a. 选择“扩展”选项卡（左侧最后一个）或按 Ctrl+Shift+X。    
     ![“扩展”图标](media/power-bi-q-and-a-linguistic-schema/power-bi-extensions.png)    
     b. 搜索“yaml”并在列表中选择“Red Hat YAML 支持”。    
