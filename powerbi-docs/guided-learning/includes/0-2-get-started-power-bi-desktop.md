@@ -41,7 +41,7 @@
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_7.png)
 
-当你登录并完成此发布过程后后，你将看到以下对话框。 选择**成功!**下面的链接以进入 Power BI 服务，你可以在此处看到你刚刚发布的报表。
+当你登录并完成此发布过程后后，你将看到以下对话框。 选择**成功!** 下面的链接以进入 Power BI 服务，你可以在此处看到你刚刚发布的报表。
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_8.png)
 

@@ -90,7 +90,7 @@ Power BI 使用 Adobe Analytics 报表 API 为以下表定义和运行报表：
 ## <a name="troubleshooting"></a>故障排除
 如果你在提供凭据之后看到指示你没有权限的错误，请向管理员确认你有权访问 Adobe Analytics API。 还需确认提供的 Adobe ID 链接到市场营销云组织（关联到 Adobe Analytics 公司）。
 
-如果你在遇到错误之前已成功通过凭据屏幕，则可能是报表完成花费的时间太长。 常见错误形式如下：*“未能从 Adobe Analytics 报表获取数据。内容包括&quot;引用方，页面&quot;，大致持续时间为 xx 秒”。 请查看“包含的内容”部分，并与 Adobe 实例的大小进行比较。 遗憾的是，目前尚无法解决此超时问题。 但我们正考虑进行更新以支持较大实例，请在 https://ideas.powerbi.com 向我们的 Power BI 团队提供反馈
+如果你在遇到错误之前已成功通过凭据屏幕，则可能是报表完成花费的时间太长。 常见错误形式如下：*“未能从 Adobe Analytics 报表获取数据。内容包括&quot;引用方，页面&quot;，大致持续时间为 xx 秒”*。 请查看“包含的内容”部分，并与 Adobe 实例的大小进行比较。 遗憾的是，目前尚无法解决此超时问题。 但我们正考虑进行更新以支持较大实例，请在 https://ideas.powerbi.com 向我们的 Power BI 团队提供反馈
 
 ## <a name="next-steps"></a>后续步骤
 * [Power BI 中的应用有哪些？](service-install-use-apps.md)
