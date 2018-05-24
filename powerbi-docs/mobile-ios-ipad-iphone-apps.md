@@ -1,27 +1,19 @@
 ---
-title: "在适用于 iOS 设备的 Power BI 移动应用上浏览数据"
-description: "在 iPad、iPhone、Apple Watch 和 iPod Touch 上查看 Power BI 仪表板和报表以及 Reporting Services 移动报表和 KPI，并与之进行交互。"
-services: powerbi
-documentationcenter: 
+title: 在适用于 iOS 设备的 Power BI 移动应用上浏览数据
+description: 在 iPad、iPhone、Apple Watch 和 iPod Touch 上查看 Power BI 仪表板和报表以及 Reporting Services 移动报表和 KPI，并与之进行交互。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 0b09706b8d8f7f4dbf9c2f8d3f6fc844383ce6be
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b0785555e288084f97d06d05161ebef78d21731c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="explore-your-data-on-the-power-bi-mobile-app-for-ios-devices"></a>在适用于 iOS 设备的 Power BI 移动应用上浏览数据
 适用于 iOS 的 Microsoft Power BI 提供了针对 iPad、iPhone、Apple Watch 和 iPod Touch 的移动 BI 体验。 这些应用为重要业务信息提供实时、可触控移动访问，因此无论你身在何处，都可以查看组织的 Power BI 仪表板和报表，以及 Reporting Services 移动报表和 KPI，并与之进行交互。 浏览仪表板中的数据，并通过电子邮件或短信与同事共享这些数据。

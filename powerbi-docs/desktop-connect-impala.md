@@ -1,28 +1,20 @@
 ---
 title: 在 Power BI Desktop 中连接到 Impala 数据库
 description: 通过 Power BI Desktop 轻松连接并使用 Impala 数据库
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bef087b485573ba9a629887bfb05d875c88c8b4c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 9b00120a0c4c22ba8f031663ab19d94d2c482d3b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Impala 数据库
 在 Power BI Desktop 中，你可以连接到 **Impala** 数据库，并以 Power BI Desktop 中使用其他所有数据源相同的方式使用基础数据。
@@ -36,7 +28,7 @@ ms.lasthandoff: 04/26/2018
 
 ![](media/desktop-connect-impala/connect_impala_3a.png)
 
-当收到提示时，输入你的用户名和密码，或匿名连接 - 两种方式均受支持。
+当出现提示时，输入凭据或匿名连接。 Impala 连接器支持匿名身份验证、基本身份验证（用户名和密码）和 Windows 身份验证。
 
 ![](media/desktop-connect-impala/connect_impala_4.png)
 
@@ -52,7 +44,7 @@ ms.lasthandoff: 04/26/2018
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 对于 Impala 连接器，需要牢记以下限制和注意事项：
 
-* 未来计划包括使用 **Power BI Gateway** 启用刷新支持。
+* 支持在本地数据网关上使用 Impala 连接器（使用三种受支持的身份验证机制之一）。
 
 ## <a name="next-steps"></a>后续步骤
 你可以使用 Power BI Desktop 连接到各种数据。 有关数据源的详细信息，请参阅下列资源：

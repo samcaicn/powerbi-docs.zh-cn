@@ -1,27 +1,19 @@
 ---
-title: "将应用注册到 Azure AD"
-description: "演练 - 将数据推送到数据集 - 将应用注册到 Azure AD"
-services: powerbi
-documentationcenter: 
+title: 将应用注册到 Azure AD
+description: 演练 - 将数据推送到数据集 - 将应用注册到 Azure AD
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 48ab2a51a479269b8846288b64089964a0544681
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>步骤 1：将应用注册到 Azure AD
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
@@ -39,7 +31,7 @@ ms.lasthandoff: 01/30/2018
 2. 单击**使用现有帐户登录**，并登录 Power BI 帐户。
 3. 输入**应用名称**，例如“推送数据应用示例”。
 4. 对于**应用类型**，选择**本机应用**。
-5. 输入**重定向 Url**，如 **https://login.live.com/oauth20_desktop.srf**。 对于**本机客户端应用**，重定向 URI 可为 **Azure AD** 提供有关其将进行身份验证的特定应用程序的更多详细信息。 客户端应用的标准 URI 为 https://login.live.com/oauth20_desktop.srf。
+5. 输入重定向 URL（如 **https://login.live.com/oauth20_desktop.srf**）。 对于**本机客户端应用**，重定向 URI 可为 **Azure AD** 提供有关其将进行身份验证的特定应用程序的更多详细信息。 客户端应用的标准 URI 为 https://login.live.com/oauth20_desktop.srf。
 6. 对于**选择要访问的 API**，请选择**读写所有数据集**。 有关所有 Power BI 应用权限的信息，请参阅 [Power BI 权限](power-bi-permissions.md)。
 7. 单击**注册应用**，并保存生成的**客户端 ID**。 **客户端 ID** 用于识别 Azure AD 中的应用。
 

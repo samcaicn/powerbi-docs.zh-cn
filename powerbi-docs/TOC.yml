@@ -847,6 +847,8 @@
             - name: Power BI for Android 应用入门
               href: mobile-android-app-get-started.md
             - name: 修复“你的企业 SSL 证书不受信任”的问题
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: 修复“需要更新 Android System Webview”的问题
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:

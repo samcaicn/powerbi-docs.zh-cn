@@ -1,27 +1,19 @@
 ---
-title: "在 Power BI 移动应用中查找仪表板、报表和应用"
-description: "了解在 Power BI 移动应用中哪里可以找到仪表板、报表和应用（具体要取决于它们原来所在的位置）。"
-services: powerbi
-documentationcenter: 
+title: 在 Power BI 移动应用中查找仪表板、报表和应用
+description: 了解在 Power BI 移动应用中哪里可以找到仪表板、报表和应用（具体要取决于它们原来所在的位置）。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: 26a45efaba84961351008bf7b3497c6214cfd702
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查找仪表板、报表和应用
 适用于：
@@ -51,7 +43,7 @@ ms.lasthandoff: 02/09/2018
 你可以连接到一个或多个本地 Power BI 报表服务器或 SQL Server Reporting Services 服务器。 如果这样操作，则 KPI、Power BI 报表和服务器上的分页报表将在此处显示。 如果已在服务器上收藏了它们，则其还会显示在收藏夹列表中。 详细了解有关[在 Power BI 移动应用中查看本地 KPI 和报表](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)的信息。
 
 ## <a name="3-apps"></a>3 应用
-应用是组织专为特定目的生成的仪表板和报表集合，用于提供关键指标，以实现更快速方便的数据驱动型决策。 在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 中，可以轻松地发现和安装应用。 在安装应用后，可以从任何设备进行查看。 
+应用是组织专为特定目的生成的仪表板和报表集合，用于提供关键指标，以实现更快速方便的数据驱动型决策。 在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 中，可以轻松发现和安装应用。 在安装应用后，可以从任何设备进行查看。 
 
 ![Power BI 新导航](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
@@ -74,7 +66,7 @@ ms.lasthandoff: 02/09/2018
 ![Power BI 与我共享的内容](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5 工作区
-也称为*应用工作区*，它们是 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 中的过渡环境，在该服务中你可以与同事进行协作以创建一个仪表板和报表集合。 然后将此集合分发为*应用*。 
+亦称为“应用工作区”，它们是 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 中的过渡环境，可以在其中与同事协作，共同创建一系列仪表板和报表。 然后将此集合分发为 *应用* 。 
 
 在移动应用中，你可以在任何你是成员或管理员的工作区中查看内容，以及与内容进行交互。你无法从移动应用的工作区发布应用。
 

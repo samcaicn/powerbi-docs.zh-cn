@@ -1,27 +1,19 @@
 ---
-title: "iPad 上的 Power BI 移动应用入门"
-description: "了解如何在 iPad 上使用 iOS 版 Microsoft Power BI 应用随时随地通过移动设备访问本地和云中的业务信息。"
-services: powerbi
-documentationcenter: 
+title: iPad 上的 Power BI 移动应用入门
+description: 了解如何在 iPad 上使用 iOS 版 Microsoft Power BI 应用随时随地通过移动设备访问本地和云中的业务信息。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: identified
-qualitydate: 08/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: ded3ad829a0c9a2d4892a5a06250f60a93662c61
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>iPad 上的 Power BI 移动应用入门
 iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 
@@ -46,7 +38,7 @@ iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报�
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>注册 Power BI 服务
-如果还未注册，请转到 Power BI (https://powerbi.com) 注册该服务。 注册是免费的。
+如果尚未注册，请转到 Power BI (https://powerbi.com) 注册服务。 注册是免费的。
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 应用入门
 1. 在 iPad 中打开 Power BI 应用。

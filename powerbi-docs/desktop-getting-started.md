@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop 入门
 description: Power BI Desktop 入门
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 99f2679f30c8eebf40389883b41601d4fc3da939
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 入门
 欢迎使用 **Power BI Desktop 入门指南**。 此 Power BI Desktop 简短教学课程能让你熟悉它的运作方式、示范它的功能以及加速你构建稳固数据模型的能力 - 以令人惊叹的报表增强你的商业智慧工作。 
@@ -336,6 +328,10 @@ Power BI Desktop 中的查询编辑器除能在功能区中提供可用的工作
 
 你可以使用 Power BI Desktop 和 Power BI 服务来制作各种与数据相关的混搭和可视化效果。 有关详细信息，请查看下一部分。
 
+## <a name="diagnostics"></a>诊断
+
+Power BI Desktop 支持连接到诊断端口。 通过诊断端口，可以连接到其他工具，并执行跟踪来进行诊断。 不支持对模型进行任何更改！更改模型可能会导致损坏和数据丢失。
+
 ## <a name="next-steps"></a>后续步骤
 Power BI Desktop 可用于执行多种操作。 有关其功能的详细信息，请参阅下列资源：
 
@@ -344,4 +340,3 @@ Power BI Desktop 可用于执行多种操作。 有关其功能的详细信息�
 * [连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [Power BI Desktop 中的常见查询任务](desktop-common-query-tasks.md)   
-

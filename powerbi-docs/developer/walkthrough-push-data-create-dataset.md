@@ -1,34 +1,26 @@
 ---
-title: "创建数据集"
-description: "演练 - 将数据推送到数据集 - 在 Power BI 中创建数据集"
-services: powerbi
-documentationcenter: 
+title: 创建数据集
+description: 演练 - 将数据推送到数据集 - 在 Power BI 中创建数据集
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 31677a3d92ece6944825eccad190863f67c3a145
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>步骤 3：在 Power BI 中创建数据集
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
 
 在将数据推送到数据集的**步骤 2**（[获取身份验证访问令牌](walkthrough-push-data-get-token.md)）中，你获得一个对 **Azure AD** 进行身份验证的令牌。 在此步骤中，你将使用该令牌调用[创建数据集](https://msdn.microsoft.com/library/mt203562.aspx)操作。
 
-若要调用 REST 资源，需用定位该资源的 URL，并向 Power BI 服务资源发送描述数据集的 JavaScript 对象表示法 (JSON) 字符串。 REST 资源可标识你想使用的 Power BI 服务的部分。 要将数据推送到数据集，目标资源为**数据集**。 标识数据集的 URL 为 https://api.PowerBI.com/v1.0/myorg/datasets。 如果你正在推送组内的数据，则 URL 应为https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets。
+若要调用 REST 资源，需用定位该资源的 URL，并向 Power BI 服务资源发送描述数据集的 JavaScript 对象表示法 (JSON) 字符串。 REST 资源可标识你想使用的 Power BI 服务的部分。 要将数据推送到数据集，目标资源为**数据集**。 数据集的标识 URL 是 https://api.PowerBI.com/v1.0/myorg/datasets。 若要在组内推送数据，此 URL 为 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets。
 
 若要对 Power BI REST 操作进行身份验证，请将[获取身份验证访问令牌](walkthrough-push-data-get-token.md)中获得的令牌添加到请求头中：
 

@@ -8,14 +8,14 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入门 - 使用 Power BI 服
 
@@ -125,6 +125,19 @@ ms.lasthandoff: 05/17/2018
 ![对内容排序](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 若要了解详细信息，请参阅 [Power BI 导航：搜索、排序、筛选](service-navigation-search-filter-sort.md)
+
+## <a name="clean-up-resources"></a>清理资源
+完成本快速入门后，可以根据需要删除零售分析示例仪表板、报表和数据集。
+
+1. 打开 Power BI 服务 (app.powerbi.com) 并登录。    
+2. 在左侧的导航窗格中，选择“工作区”>“我的工作区”。  
+    观察是否存在指示它为收藏项的黄星    
+3. 在“仪表板”选项卡下，选择零售分析仪表板旁边的垃圾桶“删除”图标。    
+
+    ![删除仪表板](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. 依次选择“报表”选项卡和零售分析报表。
+1. 依次选择“数据集”选项卡和零售分析数据集。
 
 ## <a name="next-steps"></a>后续步骤
 

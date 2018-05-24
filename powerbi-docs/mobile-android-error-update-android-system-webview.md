@@ -1,38 +1,21 @@
 ---
-title: "错误： "
-need: 
-to: 
-update: 
-android: 
-system: 
-webview": 
-'-': 
-power: 
-bi": 
-description: "在登录 Android 移动应用时，你可能会收到一条消息，提示你需要更新 Android System Webview。"
-services: powerbi
-documentationcenter: 
+title: 修复“需要更新 Android System Webview”- Power BI
+description: 在登录 Android 移动应用时，你可能会收到一条消息，提示你需要更新 Android System Webview。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 1a478d8465f05fcc4218d049101c239ed5559fc9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 1b2e440f1c25468f4e947256720ef236a927b23c
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/22/2018
 ---
-# <a name="error-need-to-update-android-system-webview---power-bi"></a>错误：“需要更新 Android System Webview”- Power BI
+# <a name="fixing-need-to-update-android-system-webview"></a>修复“需要更新 Android System Webview”
 登录适用于 Microsoft Power BI 的 Android 移动应用时，可能会收到一条消息，提示你需要更新 Android System Webview。 
 
 假设你转到 Google Play 商店并更新 Android System Webview，然后返回并尝试再次打开 Power BI 移动应用。 
