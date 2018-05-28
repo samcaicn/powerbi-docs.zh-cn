@@ -44,7 +44,7 @@ ms.lasthandoff: 05/17/2018
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 
-如果仍有刷新方面的疑问，请随时与我们联系 ([http://support.powerbi.com](http://support.powerbi.com)) 
+如果仍有刷新方面的问题，请随时与我们联系 [http://support.powerbi.com](http://support.powerbi.com) 
 
 若要了解更多有关 Power BI Xero 内容包的详细信息，请访问 [Xero 内容包帮助页](service-connect-to-xero.md)。
 
