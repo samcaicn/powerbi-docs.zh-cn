@@ -1022,7 +1022,7 @@
           href: report-server/system-requirements.md
         - name: 浏览器支持
           href: report-server/browser-support.md
-        - name: 面向管理员的报表服务器
+        - name: 管理员概述
           href: report-server/admin-handbook-overview.md
         - name: 报表服务器基本信息
           items:
@@ -1080,6 +1080,8 @@
               href: report-server/migrate-report-server.md
             - name: 配置 Kerberos 以使用 Power BI 报表
               href: report-server/configure-kerberos-powerbi-reports.md
+            - name: 远程配置移动应用访问
+              href: report-server/configure-powerbi-mobile-apps-remote.md
             - name: 主机 Excel 工作簿
               href: report-server/excel-oos.md
     - name: 参考
