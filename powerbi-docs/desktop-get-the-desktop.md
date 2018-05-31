@@ -1,28 +1,21 @@
 ---
 title: 获取 Power BI Desktop
 description: 下载并安装 Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 08/15/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/24/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a03e859e769f880b0c627080a864b41e96fc138b
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: eee341314b309eda119dd282eafd18188f8fdfd0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34286626"
 ---
 # <a name="get-power-bi-desktop"></a>获取 Power BI Desktop
 **Power BI Desktop** 允许用户生成高级查询、模型和实现数据可视化效果的报表。 通过 Power BI Desktop，可以生成数据模型、创建报表，并通过发布到 Power BI 服务共享工作。  **Power BI Desktop** 可免费下载。
@@ -82,7 +75,7 @@ ms.lasthandoff: 04/03/2018
 > 不支持在同一台计算机上安装下载的 (MSI) 版本和 Microsoft Store 版本的 Power BI Desktop（有时称为“并行”安装）。 应先手动卸载 Power BI Desktop，然后再从 Microsoft Store 下载它
 > 
 > [!NOTE]
-> Power BI 报表服务器版本 Power BI Desktop 与本文中介绍的版本分开安装，并且安装步骤也不同。 若要了解报表服务器版本 Power BI Desktop，请参阅[快速入门：创建 Power BI 报表服务器的 Power BI 报表](report-server/quickstart-create-powerbi-report.md)一文。
+> Power BI 报表服务器版本 Power BI Desktop 与本文中介绍的版本分开安装，并且安装步骤也不同。 若要了解 Power BI Desktop 的报表服务器版本，请参阅[创建 Power BI 报表服务器的 Power BI 报表](report-server/quickstart-create-powerbi-report.md)一文。
 > 
 > 
 
@@ -101,10 +94,10 @@ ms.lasthandoff: 04/03/2018
 * Windows 7/Windows Server 2008 R2 或更高版本
 * .NET 4.5
 * Internet Explorer 9 或更高版本
-* **内存 (RAM)：**可用量至少为 1 GB，建议量为 1.5 GB 或以上。
-* **显示：**建议分辨率至少为 1440x900 或 1600x900 (16:9)。 不建议使用如 1024x768 或 1280x800 等较低分辨率，原因是某些控件（如关闭启动屏幕）需要更高的分辨率才能显示。
-* **Windows 显示设置：**如果将显示设置设为将文本、应用和其他项的大小更改为大于 100%，可能看不到某些必须先关闭或响应才能继续使用 Power BI Desktop 的对话框。 如果遇到此问题，请在 Windows 中依次转到“设置”>“系统”>“显示”，检查“显示设置”，再使用滑块将显示设置恢复为 100%。
-* **CPU：**建议为 1 千兆赫 (GHz) 或更快的 x86 或 x64 位处理器。
+* **内存 (RAM)：** 可用量至少为 1 GB，建议量为 1.5 GB 或以上。
+* **显示：** 建议分辨率至少为 1440x900 或 1600x900 (16:9)。 不建议使用如 1024x768 或 1280x800 等较低分辨率，原因是某些控件（如关闭启动屏幕）需要更高的分辨率才能显示。
+* **Windows 显示设置：** 如果将显示设置设为将文本、应用和其他项的大小更改为大于 100%，可能看不到某些必须先关闭或响应才能继续使用 Power BI Desktop 的对话框。 如果遇到此问题，请在 Windows 中依次转到“设置”>“系统”>“显示”，检查“显示设置”，再使用滑块将显示设置恢复为 100%。
+* **CPU：** 建议为 1 千兆赫 (GHz) 或更快的 x86 或 x64 位处理器。
 
 ## <a name="next-steps"></a>后续步骤
 一旦安装了 **Power BI Desktop**，以下内容可帮助你快速启动和运行：
