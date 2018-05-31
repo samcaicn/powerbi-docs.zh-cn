@@ -1,29 +1,22 @@
 ---
-title: "Android 手机上的 Power BI 移动应用入门"
-description: "了解如何使用 Android 版 Microsoft Power BI 移动应用随时随地通过移动设备访问本地和云中的业务信息。"
-services: powerbi
-documentationcenter: 
+title: Android 设备上的 Power BI 移动应用入门
+description: 了解如何使用 Android 版 Microsoft Power BI 移动应用随时随地通过移动设备访问本地和云中的业务信息。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 05/18/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: aed84f27ff838456b519283f45ae5f58feaf2521
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297437"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-android-phones"></a>Android 手机上的 Power BI 移动应用入门
+# <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 设备上的 Power BI 移动应用入门
 Android 版 Microsoft Power BI 移动应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 
 
 ![Power BI for Android 应用中的仪表板](media/mobile-android-app-get-started/power-bi-android-dashboard-optimized-090117.png)
@@ -33,34 +26,37 @@ Android 版 Microsoft Power BI 移动应用提供了 Power BI、Power BI 报表�
 * [将报表发布到 Power BI 服务中](service-get-started.md)，并创建仪表板。
 * [在本地将报表发布到 Power BI 报表服务器中](report-server/quickstart-create-powerbi-report.md)。
 
-然后，即可在 Android 手机版 Power BI 应用中与仪表板和报表进行交互，无论它们是在本地还是在云端。
+然后，即可在 Android 版 Power BI 应用中与仪表板和报表进行交互，无论它们是在本地还是在云端。
 
 查找 [Power BI 移动应用中的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
-## <a name="first-things-first"></a>要做的第一件事
-* 获取应用 - 从 Google Play [获取 Power BI for Android 应用](http://go.microsoft.com/fwlink/?LinkID=544867)。
+## <a name="prerequisites"></a>先决条件
+
+### <a name="get-the-app"></a>获取应用
+
+从 Google Play [下载 Android 版 Power BI 应用](http://go.microsoft.com/fwlink/?LinkID=544867)。
   
-  Power BI 可在多种不同的 Android 手机上运行。 你的手机需要运行 Android 5.0 操作系统或更高版本。 若要检查你的手机版本，请转到“设置” > “关于设备” > “Android 版本”。 
-* 在打开应用时开始 - 即使你没有注册或登录，打开该应用后你将浏览登录页面，其中简要介绍了你可以使用 Android 手机上的 Power BI 应用执行的操作。 点击“跳过”以查看和浏览示例，并获取该应用的亲自实践体验。 无论何时需要，你都可以从仪表板主页[返回到示例](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples)。
-* 查看 [Power Bi 移动应用中的新功能](mobile-whats-new-in-the-mobile-apps.md)。
+Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 Android 设备上运行。 若要检查设备，请转到“设置” > “关于设备” > “Android 版本”。 
+
+**打开应用时启动**    
+即使没有注册或登录，打开该应用后，也可以浏览登录页面，获取有关对 Android 设备上的 Power BI 应用执行的操作的概述。 点击“跳过”以查看和浏览示例，并获取该应用的亲自实践体验。 无论何时需要，你都可以从仪表板主页[返回到示例](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples)。
+
+查看 [Power Bi 移动应用中的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>在 Web 上注册 Power BI 服务
-如果你还未注册，请转到 [Power BI 服务 (http://powerbi.com/)](http://powerbi.com/) 注册自己的帐户，以便创建和存储仪表板和报表，并将你的数据集合在一起。 然后可从你的 Android 手机登录到 Power BI，在任何地方都可以查看你自己的仪表板。
+如果尚未登录，请转到 [Power BI 服务 (http://powerbi.com/)](http://powerbi.com/) 登录你自己的帐户，以创建和存储仪表板和报表，并将数据合并在一起。 然后，从 Android 设备登录 Power BI，可从任何位置查看你自己的仪表板。
 
 1. 在 Power BI 服务中点击[注册](http://go.microsoft.com/fwlink/?LinkID=513879)创建 Power BI 帐户。
 2. 开始[创建自己的仪表板和报表](service-get-started.md)。
 
-## <a name="get-started-with-the-power-bi-app-on-your-phone"></a>手机上的 Power BI 应用入门
-1. 在 Android 手机上，从开始屏幕中打开 Power BI for Android 应用。
+## <a name="get-started-with-the-power-bi-app-on-your-device"></a>在设备上开始使用 Power BI 应用
+1. 在 Android 设备上，从开始屏幕打开 Android 版 Power BI 应用。
    
    ![Power BI 图标](media/mobile-android-app-get-started/power-bi-logo-android.png)
 2. 若要查看 Power BI 仪表板和报表，请点击“Power BI”。  
    
-   > [!IMPORTANT]
-   > 如果你收到 Power BI 无法登录的消息，请参阅[“无法进行身份验证，因为你的企业 SSL 证书不受信任”](mobile-android-app-error-corporate-ssl-account-is-untrusted.md)，了解有关如何解决该问题的详细信息。
-   > 
-   > 
-   
+   如果你收到 Power BI 无法登录的消息，请参阅[“无法进行身份验证，因为你的企业 SSL 证书不受信任”](mobile-android-app-error-corporate-ssl-account-is-untrusted.md)，了解有关如何解决该问题的详细信息。
+
    若要查看 Power BI 报表服务器/Reporting Services 报表和 KPI，请点击“报表服务器”。
    
    ![登录到 Power BI](media/mobile-android-app-get-started/power-bi-connect-to-login.png)
@@ -120,7 +116,7 @@ Android 版 Microsoft Power BI 移动应用提供了 Power BI、Power BI 报表�
 详细了解[如何使用 Microsoft Intune 配置适用于 Android 的 Power BI 移动应用](service-admin-mobile-intune.md)。 
 
 ## <a name="next-steps"></a>后续步骤
-下面介绍了还可以在 Android 手机版 Power BI 应用中对 Power BI 仪表板和报表，以及对 Power BI 报表服务器/Reporting Services Web 门户中的报表和 KPI 执行哪些操作。
+下面是可使用 Power BI 中的仪表板和报表在 Android 设备版 Power BI 应用中执行的一些其他操作，以及 Power BI 报表服务器或 Reporting Services Web 门户中的报表和 KPI。
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 仪表板和报表
 * 查看[你的应用](service-install-use-apps.md)。
@@ -130,7 +126,7 @@ Android 版 Microsoft Power BI 移动应用提供了 Power BI、Power BI 报表�
 * 查看[你的应用](service-install-use-apps.md)。
 * [对磁贴进行批注并共享磁贴](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
 * 共享[仪表板](mobile-share-dashboard-from-the-mobile-apps.md)。
-* [扫描 Power BI QR 代码](mobile-apps-qr-code.md)以打开相关的仪表板磁贴或报表。 
+* 使用 Android 手机[扫描 Power BI QR 代码](mobile-apps-qr-code.md)以打开相关仪表板磁贴或报表。 
 * 查看[有关 Power BI 帐户更新的通知](mobile-apps-notification-center.md)，如同事与你共享的仪表板。
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Power BI 报表服务器/Reporting Services Web 门户中的报表和 KPI

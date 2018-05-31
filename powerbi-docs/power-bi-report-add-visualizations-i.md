@@ -1,31 +1,24 @@
 ---
-title: 第 I 部分，向 Power BI 报表添加可视化效果（教程）
-description: 教程：第 I 部分，向 Power BI 报表添加可视化效果
-services: powerbi
-documentationcenter: ''
+title: 第 1 部分，向 Power BI 报表添加可视化效果
+description: 第 1 部分，向 Power BI 报表添加可视化效果
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b6fdc11b19e130272cf715f4cff58721f46dd6e8
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2203d6af692e80ffe5480a81a0e0f2312c62b905
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293757"
 ---
-# <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>第 I 部分，向 Power BI 报表添加可视化效果（教程）
+# <a name="part-i-add-visualizations-to-a-power-bi-report"></a>第 1 部分，向 Power BI 报表添加可视化效果
 本文简要介绍如何使用 Power BI 服务或 Power BI Desktop 在报表中创建可视化效果。  有关更进一步的内容，请[参阅第 II 部分](power-bi-report-add-visualizations-ii.md)。 观看 Amanda 演示在报表画布上创建、编辑视觉对象并对其进行格式设置的一些不同的方法。 然后使用[销售和市场营销示例](sample-datasets.md)创建自己的报表并自行体验。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
@@ -52,7 +45,7 @@ ms.lasthandoff: 04/16/2018
    从地理字段开始，如“地区”>“城市”。 Power BI 与必应地图创建地图可视化效果。
    
    ![](media/power-bi-report-add-visualizations-i/power-bi-map.png)
-2. 创建可视化效果，然后更改其类型。 选择“产品”>“产品计数”和“产品”**>“类别”**将其添加到“值”框中。
+2. 创建可视化效果，然后更改其类型。 选择“产品”>“产品计数”和“产品”**>“类别”** 将其添加到“值”框中。
    
    ![](media/power-bi-report-add-visualizations-i/part1table1.png)
 3. 通过选择柱形图图标将可视化效果更改为柱形图。

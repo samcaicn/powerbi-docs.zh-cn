@@ -1,283 +1,92 @@
 ---
-title: 在组织中管理 Power BI
-description: 在组织中管理 Power BI
-services: powerbi
-documentationcenter: ''
+title: 什么是 Power BI 管理？
+description: 了解有关 Power BI 管理策略、使用情况监视以及预配许可证、容量和组织资源的配置信息。
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/28/2017
+ms.component: powerbi-admin
+ms.topic: overview
+ms.date: 05/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 5e69ed0010c5a2ff496b761f54b4cf2561f9b4ca
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297414"
 ---
-# <a name="administering-power-bi-in-your-organization"></a>在组织中管理 Power BI
-Microsoft Power BI 使用户可以通过直观的新方式实现数据可视化、共享发现和进行协作。 若要了解详细信息，请参阅 [Power BI 入门](service-get-started.md)。
+# <a name="what-is-power-bi-administration"></a>什么是 Power BI 管理？
 
-可在多个位置显示 Power BI 管理员。 以下是两个常用位置。
+Power BI 管理指的是 Power BI 租户管理，包括配置管理策略、使用情况监视以及许可证、容量和组织资源预配。 本文概述了管理角色、任务和工具；并提供了可以获取更多详细信息的文章链接。
 
-> [!NOTE]
-> 帐户必须标记为 Office 365 或 Azure Active Directory 中的 **全局管理员** ，或者已分配到 Power BI 服务管理员角色，才能获取对 Power BI 管理门户的访问权限。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。
-> 
-> 
+![Power BI 管理门户](media/service-admin-administering-power-bi-in-your-organization/admin-portal.png)
 
-* [Power BI 管理门户](https://app.powerbi.com/admin-portal)
-* [Office 365 管理中心](https://portal.office.com/adminportal/home)
+Power BI 旨在用于自助式商业智能，而管理员是 Power BI 租户中数据、过程以及策略的保护者。 Power BI 管理员是团队的关键成员，包括 BI 开发人员、分析人员以及其他角色。 管理员可为组织提供支持帮助，以确保实现关键目标：
 
-若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。
+- 了解用户_实际_需要的 KPI 和指标
+- 减少以 IT 为主导的企业报告的传递时间
+- 通过 Power BI 部署增加采用率和投资回报
 
-## <a name="whats-in-this-article"></a>本文内容
-**注册 Power BI**
+这项工作旨在提高业务用户的工作效率，并确保安全性和法律及法规的合规性。 职责可能包括提供帮助和支持，并在许多情况下，帮助业务用户执行正确操作。
 
-* [用户如何注册 Power BI？](#how-do-users-sign-up-for-power-bi)
-* [组织中的各个用户如何注册？](#how-do-individual-users-in-my-organization-sign-up)
-* [如何阻止用户加入现有 Office 365 租户？](#how-can-i-prevent-users-from-joining-my-existing-office-365-tenant)
-* [如何允许用户加入现有 Office 365 租户？](#how-can-i-allow-users-to-join-my-existing-office-365-tenant)
-* [如何验证是否在租户中实施了阻止？](#how-do-i-verify-if-i-have-the-block-on-in-the-tenant)
-* [如何阻止现有用户开始使用 Power BI？](#how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi)
-* [如何允许现有用户注册 Power BI？](#how-can-i-allow-my-existing-users-to-sign-up-for-power-bi)
 
-**Power BI 的管理**
+## <a name="administrator-roles-related-to-power-bi"></a>与 Power BI 相关的管理员角色
 
-* [这会如何更改我当前为组织中的用户管理标识的方式？](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
-* [我们如何管理 Power BI？](#how-do-we-manage-power-bi)
-* [管理 Microsoft 为我的用户创建的租户的过程是怎样的？](#what-is-the-process-to-manage-a-tenant-created-by-Microsoft-for-my-users)
-* [如果我有多个域，是否可以控制向其中添加用户的 Office 365 租户？](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)
-* [如何为已注册的用户删除 Power BI？](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
-* [如何知道新用户加入了我的租户？](#how-do-i-know-when-new-users-have-joined-my-tenant)
-* [我是否还应为任何其他事项做好准备？](#are-there-any-additional-things-i-should-be-prepared-for)
-* [这是否免费？我是否需要为这些许可证付费？](#is-this-free-will-i-be-charged-for-these-licenses)
-* [我的 Power BI 租户位于何处？](#where-is-my-power-bi-tenant-located)
-* [什么是 Power BI SLA（服务级别协议）？](#what-is-the-power-bi-sla)
+有与 Power BI 管理相关的多个角色，如下表所述。
 
-**Power BI 中的安全性**
+| **管理员类型** | **管理范围** | **Power BI 范围** |
+| --- | --- | --- |
+| Office 365 全局管理员 | Office 365 | 可以管理 Power BI 租户和其他服务的所有方面。 |
+| Office 365 账务管理员 | Office 365 | 可以通过 Office 365 订阅获取 Power BI 许可证。 |
+| Power BI 服务管理员 | Power BI 租户 | 可以完全控制对 Power BI 租户及其管理功能（授权除外）。 |
+| Power BI Premium 容量管理员 | 单个 Premium 容量 | 可以完全控制高级容量及其管理功能。 |
+| Power BI Embedded 容量管理员 | 单个 Embedded 容量 | 可以完全控制嵌入容量及其管理功能。 |
 
-* [Power BI 是否满足特定于国家、地区和行业的合规性要求？](#does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements)
-* [Power BI 中安全性的工作原理是怎样的？](#how-does-security-work-in-power-bi?)
+Office 365 或 Azure Active Directory 中的全局管理员在 Power BI 中具有管理员权限。 Office 365 全局管理员可以将其他用户分配到 Power BI 服务管理员角色，它仅对 Power BI 功能授予管理权限。
 
-## <a name="sign-up-for-power-bi"></a>注册 Power BI
-### <a name="how-do-users-sign-up-for-power-bi"></a>用户如何注册 Power BI？
-可以通过 [Power BI 网站](https://powerbi.microsoft.com)注册 Power BI。 还可以通过 Office 365 管理中心上的购买服务页面进行注册。 当管理员注册 Power BI 时，他们可以将用户许可证分配给应具有访问权限的用户。
+Power BI 服务管理员有权访问 Power BI 管理门户，其中包括有关功能、安全和监视的各种租户级设置。 服务管理员具有对 Power BI 租户所有资源的完全访问权限。 在大多数情况下，服务管理员确定问题，然后跟进资源所有者以便采取纠正措施。
 
-此外，组织中的各个用户能够通过 [Power BI 网站](https://powerbi.microsoft.com)注册 Power BI。 当组织中的某个用户注册 Power BI 时，系统会自动向该用户分配 Power BI 许可证。 [了解详细信息](service-self-service-signup-for-power-bi.md)
+Power BI 服务管理员角色不授予将许可证分配给用户或在 Office 365 中查看审核日志的功能。 因此，作为 Power BI 服务管理员角色单独成员的用户当前无法执行管理 Power BI 的任务。
 
-### <a name="how-do-individual-users-in-my-organization-sign-up"></a>组织中的各个用户如何注册？
-有三种方案可以适用于组织中的用户：
 
-方案 1：组织已具有现有 Office 365 环境，要注册 Power BI 的用户已具有 Office 365 帐户。
-在此方案中，如果用户已在租户（例如，contoso.com）中具有工作或学校帐户，但尚未具有 Power BI，则 Microsoft 只需为该帐户激活计划，用户会自动收到通知，了解如何使用 Power BI 服务。
+## <a name="administrative-tasks"></a>管理任务
 
-方案 2：组织已具有现有 Office 365 环境，要注册 Power BI 的用户没有 Office 365 帐户。
-在此方案中，用户在组织的域（例如，contoso.com）中具有电子邮件地址，但尚未具有 Office 365 帐户。 在这种情况下，用户可以注册 Power BI，会自动获得帐户。 这使用户可以访问 Power BI 服务。 例如，如果名为 Nancy 的员工使用其工作电子邮件地址（例如，Nancy@contoso.com）进行注册，Microsoft 会自动在 Contoso 的 Office 365 环境中将 Nancy 添加为用户，并为此帐户激活 Power BI。
+管理员执行许多任务来支持其组织的 Power BI 租户，如下表所述。
 
-方案 3：组织没有连接到你的电子邮件域的 Office 365 环境。
-组织无需执行任何管理操作即可利用 Power BI。 用户会添加到新的仅限云的用户目录中，你可以选择作为租户管理员进行接管并管理他们。
+| **任务区域** | **典型任务** |
+| --- | --- |
+| 管理 Power BI 租户 |<ul><li>启用和禁用主要的 Power BI 功能<br><li>报告使用情况和性能<br><li>查看和管理事件审核</ul>|
+| 获取和分配 Power BI 许可证 |<ul><li>管理用户注册<br><li>购买和分配 Pro 许可证<br><li>阻止用户访问 Power BI</ul>|
+| 管理 Premium 容量 |<ul><li>获取和使用 Premium 容量<br><li>确保服务质量|
+| 管理 Embedded 容量 |<ul><li>获取 Embedded 容量来简化 ISV 和开发人员对 Power BI 功能的使用</ul>|
+| 确保符合内部策略、法律和法规 | <ul><li>管理业务数据分类<br><li>帮助强制实施内容发布和共享策略</ul>|
+| 管理 Power BI 资源 |<ul><li>管理工作区<br><li>发布自定义视觉对象<br><li>验证用于在其他应用程序中嵌入 Power BI 的代码|
+| 为租户用户提供帮助和支持 |<ul><li>数据访问和其他问题疑难解答</ul>|
+| 其他任务 |<ul><li>部署 Power BI Desktop，例如，使用 System Center Configuration Manager<br><li>使用 Intune 管理 Power BI 移动应用部署<br><li>管理数据隐私和安全，如源数据安全</ul>|
 
-> [!IMPORTANT]
-> 如果组织具有多个电子邮件域，且你希望将所有的电子邮件地址扩展名置于同一个租户中，请先将所有电子邮件地址域添加至一个 Azure Active Directory 租户，然后再注册用户。 没有可在租户创建之后跨租户移动用户的自动机制。 有关此过程的详细信息，请参阅本文后面部分中的[如果我有多个域，是否可以控制向其中添加用户的 Office 365 租户？](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)，以及在线的[将域添加到 Office 365](https://support.office.com/article/Add-your-users-and-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
-> 
-> 
 
-### <a name="how-can-i-prevent-users-from-joining-my-existing-office-365-tenant"></a>如何阻止用户加入现有 Office 365 租户？
-作为管理员，你可以执行一些步骤来阻止用户加入现有 Office 365 租户。 如果阻止此操作，则用户进行注册的尝试会失败，系统会指示他们与其组织管理员联系。如果已禁用了自动许可证分发（例如 Office 365 教育版（学生、教职员工和员工）），则无需重复此过程。
+## <a name="administrative-tools"></a>管理工具
 
-这些步骤需要使用 Windows PowerShell。 若要开始使用 Windows PowerShell，请参阅 [PowerShell 入门指南](http://go.microsoft.com/fwlink/p/?LinkID=286814)。
+有与 Power BI 管理相关的多个工具，如下表所述。 管理员通常在 Power BI 管理门户中花费大部分时间，并根据需要使用其他工具。
 
-若要执行以下步骤，必须安装最新 64 位版本的[用于 Windows PowerShell 的 Azure Active Directory 模块](http://go.microsoft.com/fwlink/p/?LinkID=236297)。
-
-选择链接之后，选择**运行**以运行安装程序包。
-
-**禁用自动租户联接**：使用此 Windows PowerShell 命令可阻止新用户加入托管租户：
-
-* 针对新用户禁用自动租户加入：
-  
-    $msolcred = get-credential   connect-msolservice -credential $msolcred
-  
-    Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
-* 针对新用户启用自动租户加入：
-  
-    $msolcred = get-credential   connect-msolservice -credential $msolcred
-  
-    Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
-
-> [!NOTE]
-> 该阻止行为将阻止组织中的新用户注册 Power BI。 在为组织禁用新注册之前注册 Power BI 的用户仍会保留其许可证。 有关如何为以前注册过 Power BI 的用户删除对该服务的访问权限的说明，请参阅 [如何删除许可证？] 部分。
-> 
-> 
-
-### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>如何允许用户加入现有 Office 365 租户？
-若要允许用户加入租户，请运行与以上问题中所述相反的命令。
-
-若要执行以下步骤，必须安装最新 64 位版本的[用于 Windows PowerShell 的 Azure Active Directory 模块](http://go.microsoft.com/fwlink/p/?LinkID=236297)。
-
-    $msolcred = get-credential
-    connect-msolservice -credential $msolcred
-
-    Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
-
-### <a name="how-do-i-verify-if-i-have-the-block-on-in-the-tenant"></a>如何验证是否在租户中实施了阻止？
-使用以下 PowerShell 脚本。
-
-若要执行以下步骤，必须安装最新 64 位版本的[用于 Windows PowerShell 的 Azure Active Directory 模块](http://go.microsoft.com/fwlink/p/?LinkID=236297)。
-
-    $msolcred = get-credential
-    connect-msolservice -credential $msolcred
-
-    Get-MsolCompanyInformation | fl allow*
-
-### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>如何阻止现有用户开始使用 Power BI？
-作为管理员，你可以执行一些步骤来阻止用户注册 Power BI。 如果阻止此操作，则用户进行注册的尝试会失败，系统会指示他们与其组织管理员联系。如果已禁用了自动许可证分发（例如 Office 365 教育版（学生、教职员工和员工）），则无需重复此过程。 [了解详细信息](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
-
-对此进行控制的 AAD 设置是 **AllowAdHocSubscriptions**。 大多数租户会将此设置设置为 true，这意味着它处于启用状态。 如果你是通过合作伙伴获取 Power BI，则这可能会在默认情况下设置为 false，这意味着它处于禁用状态。
-
-若要执行以下步骤，必须安装最新 64 位版本的[用于 Windows PowerShell 的 Azure Active Directory 模块](http://go.microsoft.com/fwlink/p/?LinkID=236297)。
-
-1. 你需要首先使用 Office 365 凭据登录 Azure Active Directory。 第一行会提示你输入凭据。 第二行连接到 Azure Active Directory。
-   
-     $msolcred = get-credential   connect-msolservice -credential $msolcred
-2. 登录之后，你便可以发出以下命令以查看租户当前是针对哪种类型配置的。
-   
-     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
-3. 可以使用此命令启用 ($true) 或禁用 ($false) AllowAdHocSubscriptions。
-   
-     Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-
-> [!NOTE]
-> AllowAdHocSubscriptions 标记用于控制组织中的若干用户功能，其中包括用户注册 Azure 权限管理服务的功能。 更改此标志会影响所有这些功能。
-> 
-> 
-
-### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>如何允许现有用户注册 Power BI？
-若要允许现有用户注册 Power BI，请运行为以上问题列出的命令，但是传递 true 而不是 false。
-
-若要执行以下步骤，必须安装最新 64 位版本的[用于 Windows PowerShell 的 Azure Active Directory 模块](http://go.microsoft.com/fwlink/p/?LinkID=236297)。
-
-1. 你需要首先使用 Office 365 凭据登录 Azure Active Directory。 第一行会提示你输入凭据。 第二行连接到 Azure Active Directory。
-   
-     $msolcred = get-credential   connect-msolservice -credential $msolcred
-2. 登录之后，你便可以发出以下命令以查看租户当前是针对哪种类型配置的。
-   
-     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
-3. 可以使用此命令启用 ($true) 或禁用 ($false) AllowAdHocSubscriptions。
-   
-     Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-
-> [!NOTE]
-> AllowAdHocSubscriptions 标记用于控制组织中的若干用户功能，其中包括用户注册 Azure 权限管理服务的功能。 更改此标志会影响所有这些功能。
-> 
-> 
-
-## <a name="administration-of-power-bi"></a>Power BI 的管理
-### <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>这会如何更改我当前为组织中的用户管理标识的方式？
-如果组织已具有现有 Office 365 环境，并且组织中的所有用户都具有 Office 365 帐户，标识管理不会更改。
-
-如果组织已具有现有 Office 365 环境，但并非组织中的所有用户都具有 Office 365 帐户，则我们会在租户中创建用户并基于用户的工作或学校电子邮件地址分配许可证。 这意味着在任何特定时间所管理的用户数会随着组织中的用户注册服务而增长。
-
-如果组织没有连接到你的电子邮件域的 Office 365 环境，则管理标识的方式不会发生变化。 用户会添加到新的仅限云的用户目录中，你可以选择作为租户管理员进行接管并管理他们。
-
-### <a name="how-do-we-manage-power-bi"></a>我们如何管理 Power BI？
-Power BI 提供了一个管理门户，它使你可以查看使用情况统计信息，提供了指向 Office 365 管理中心的链接以管理用户和组，并提供了控制租户范围设置的功能。 
-
-> [!NOTE]
-> 你的帐户需要在 Office 365 或 Azure Active Directory 中标记为 **全局管理员** ，才能获取对 Power BI 管理门户的访问权限。
-> 
-> 
-
-有关详细信息，请参阅 [Power BI 管理门户](service-admin-portal.md)。
-
-### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>管理 Microsoft 为我的用户创建的租户的过程是怎样的？
-如果 Microsoft 创建了某个租户，则你可以通过执行以下步骤来声明并管理该租户：
-
-1. 通过注册 Power BI（使用与你要管理的租户域匹配的电子邮件地址域）来加入租户。 例如，如果 Microsoft 创建了 contoso.com 租户，你需要使用以 @contoso.com 结尾的电子邮件地址加入此租户。
-2. 通过验证域所有权来声明管理员控制权：处于租户中之后，你可以通过验证域所有权将自己提升为 *全局管理员* 角色。 为此，请执行以下步骤：
-   
-   1. 转到 [https://portal.office.com](https://portal.office.com)。
-   2. 在左上方选择应用启动器图标，然后选择**管理员**。
-   3. 阅读**成为管理员**页面上的说明，然后选择**是，我想成为管理员**。
-      
-      > [!NOTE]
-      > 如果此选项未出现，则已存在 Office 365 管理员。
-      > 
-      > 
-
-### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>如果我有多个域，是否可以控制向其中添加用户的 Office 365 租户？
-如果不执行任何操作，则会为每个用户电子邮件域和子域都创建一个租户。
-
-如果你希望所有用户都处于相同租户中（不考虑其电子邮件地址扩展）：
-
-* 提前创建目标租户，或使用现有租户，添加你希望在该租户中合并的所有现有域和子域。 随后电子邮件地址以这些域和子域结尾的所有用户都会在注册时自动加入目标租户。
-
-> [!IMPORTANT]
-> 创建租户后，则不存在支持将用户跨租户迁移的自动机制。 若要了解有关域添加到单个 Office 365 租户的信息，请参阅[将用户和域添加到 Office 365](https://support.office.com/article/Add-your-users-and-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
-> 
-> 
-
-### <a name="how-do-i-remove-power-bi-for-users-that-already-signed-up"></a>如何为已注册的用户删除 Power BI？
-如果用户注册了 Power BI，但是你不再希望他们有权访问 Power BI，在可以为该用户删除 Power BI 许可证。
-
-1. 导航到 Office 365 管理中心。
-2. 在左侧导航栏中，选择**用户**  >  **活动用户**。
-3. 找到要删除其许可证的用户，然后选择其名称 > **编辑**。
-4. 在用户详细信息页面上，在左侧导航栏中选择**许可证**。
-5. 取消选中**Power BI (免费)** 或**Power BI Pro**（具体取决于应用于其帐户的许可证）。
-6. 选择“保存”。
-
-> [!NOTE]
-> 也可以对用户执行批量许可证管理。 若要执行该操作，请选择多个用户，然后选择**编辑**。
-> 
-> 
-
-### <a name="how-do-i-know-when-new-users-have-joined-my-tenant"></a>如何知道新用户加入了我的租户？
-已作为此计划的一部分加入租户的用户会分配有唯一的许可证，你可以在管理仪表板中的活动用户窗格内针对它进行筛选。
-
-若要创建此新视图，请在 Office 365 管理中心中，转到**用户**  >  **活动用户**，然后在**选择视图**菜单上，选择**新建视图**。 命名新视图，然后在**已分配的许可证**下，选择 **Power BI (免费)** 或 **Power BI Pro**。 对每个视图只能选择一个许可证。 如果组织中同时具有 **Power BI (免费)** 和 **Power BI Pro** 许可证，则你需要创建两个视图。 创建了新视图之后，你便能够查看租户中已在此计划中注册的所有用户。
-
-### <a name="are-there-any-additional-things-i-should-be-prepared-for"></a>我是否还应为任何其他事项做好准备？
-你可能会遇到密码重置请求增加的情况。 有关此过程的信息，请参阅[重置用户密码](https://support.office.com/article/Reset-a-users-password-7a5d073b-7fae-4aa5-8f96-9ecd041aba9c)。
-
-你可以在 Office 365 管理中心中通过标准过程从租户中删除用户。 但是，如果用户仍然具有来自你的组织的活动电子邮件地址，则他们能够重新加入，除非你阻止所有用户加入。
-
-### <a name="is-this-free-will-i-be-charged-for-these-licenses"></a>这是否免费？ 我是否需要为这些许可证付费？
-**Power BI (免费)** 许可证适用于 Power BI 的免费版本。 如果你对其他功能感兴趣，请看一看 [Power BI Pro 版本](service-premium.md)。
-
-### <a name="where-is-my-power-bi-tenant-located"></a>我的 Power BI 租户位于何处？
-若要了解有关如何查找 Power BI 租户所处的位置（也称为数据区域），请参阅[我的 Power BI 租户位于何处？](service-admin-where-is-my-tenant-located.md)
-
-### <a name="what-is-the-power-bi-sla"></a>什么是 Power BI SLA？
-有关 Power BI SLA（服务级别协议）的信息，请查阅 Microsoft 许可网站上“许可”部分中的[许可条款和文档](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)一文。
-
-## <a name="security-in-power-bi"></a>Power BI 中的安全性
-### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI 是否满足特定于国家、地区和行业的合规性要求？
-若要了解有关 Power BI 合规性的详细信息，请参阅 [Microsoft 信任中心](http://go.microsoft.com/fwlink/?LinkId=785324)。
-
-### <a name="how-does-security-work-in-power-bi"></a>Power BI 中安全性的工作原理是怎样的？
-Power BI 以 Office 365 的功能为基础而构建，后者进而以 Azure 服务（如 Azure Active Directory）为基础而构建。 有关 Power BI 体系结构的概述，请参阅 [Power BI 安全性](service-admin-power-bi-security.md)。 
+| **工具** | **典型任务** |
+| --- | --- |
+| Power BI 管理门户 |<ul><li>阻止用户访问 Power BI<br><li>获取和使用 Premium 容量<br><li>确保服务质量<br><li>管理业务数据分类<br><li>帮助强制实施内容发布和共享策略<br><li>管理工作区<br><li>发布自定义视觉对象<br><li>验证用于在其他应用程序中嵌入 Power BI 的代码<br><li>数据访问和其他问题疑难解答</ul>|
+| Office 365 管理中心 |<ul><li>管理用户注册<br><li>购买和分配 Pro 许可证</ul>|
+| Office 365 安全与合规中心 |<ul><li>查看和管理事件审核</ul>|
+| Azure 门户中的 Azure Active Directory (AAD) |<ul><li>通过 AAD 配置对 Power BI 资源的条件访问<br><li>设置 Power BI Embedded 容量</ul>|
+| PowerShell cmdlet |<ul><li>通过脚本管理工作区和 Power BI 的其他方面</ul>|
+| 管理 API |<ul><li>生成自定义管理工具，以便为 Power BI 管理员的工作提供便利。例如，Power BI Desktop 可以使用这些 API 基于与管理相关的数据来构建报表</ul>|
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 管理门户](service-admin-portal.md)  
-[了解 Power BI 管理员角色](service-admin-role.md)  
-[自助注册 Power BI](service-self-service-signup-for-power-bi.md)  
-[组织中的 Power BI（免费）](service-admin-service-free-in-your-organization.md)  
-[购买 Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
-[Power BI Premium 有哪些特权？](service-premium.md)  
-[如何购买 Power BI Premium](service-admin-premium-purchase.md)  
-[Office 365 用户帐户管理](https://technet.microsoft.com/library/office-365-user-account-management.aspx)  
-[Office 365 组管理](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1)  
-[管理 Power BI 和 Office 365 中的组](service-manage-app-workspace-in-power-bi-and-office-365.md)  
-[Power BI Premium 白皮书](https://aka.ms/pbipremiumwhitepaper)  
+
+我们希望你通过本文快速深入了解 Power BI 管理员的工作，以及所涉及的特定角色、任务和工具。 建议参阅以下两个主题进行深入了解。
+
+[使用 Power BI 管理门户](service-admin-portal.md)
+
+[Power BI 管理常见问题](service-admin-faq.md)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

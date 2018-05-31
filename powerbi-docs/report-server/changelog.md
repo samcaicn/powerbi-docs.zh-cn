@@ -1,27 +1,20 @@
 ---
 title: Power BI 报表服务器的更改日志
 description: 此更改日志适用于 Power BI 报表服务器，并列出了新项和每次发布版本的 bug 修复。
-services: powerbi
-documentationcenter: ''
 author: jtarquino
-manager: jonhp
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+manager: kfile
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 12/11/2017
-ms.author: tankas
-ms.openlocfilehash: 67b9a162d689a8615a3e2459295eab6dad6d2364
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.author: jtarquino
+ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295666"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -31,6 +24,24 @@ ms.lasthandoff: 04/16/2018
 
 ## <a name="march-2018"></a>2018 年 3 月
 - **Power BI 报表服务器**
+    - 版本 1.2.6690.34729（内部版本 15.0.2.402），发布日期：2018 年 4 月 27 日
+        - Bug 修复
+            - 启用 SQL Server Reporting Services 2017 目录迁移
+            - Power BI 报表 (PBIX)
+                - 服务器配置为使用自定义身份验证时，可以刷新报表
+                - 修改报表属性不会重置数据源凭据
+            - 分页报表 (RDL)
+                - `Lookup()` 的使用情况或派生功能（如 RDL 表达式中的 `LookupSet()` 和 `MultiLookup()`）不再导致 `#Error`
+                - 链接报表在打印时接受目标报表页大小
+                - 可以为使用级联参数的链接报表创建订阅
+                - 在使用 IE11 时，可以修改多值参数默认值
+                - 数据驱动订阅传递选项可编辑
+                - 可以在订阅执行期间查看和编辑订阅
+                - 设置数据源凭据不会删除基于表达式的连接字符串
+            - 对于 KPI
+                - 更新数据时会刷新趋势线
+            - 总体稳定性改进
+
     - 版本 1.2.6660.39920（内部版本 15.0.2.389），发布日期：2018 年 3 月 28 日
         - Bug 修复
             - 对于 Power BI 报表 (PBIX)，修复在 Power BI 视觉对象中无法正常工作的导出数据
@@ -120,7 +131,7 @@ ms.lasthandoff: 04/16/2018
 
     - 内部版本 14.0.600.301，发布日期：2017 年 7 月 11 日
         - Bug 修复
-            - {{UserId}} 标记解析为存储的凭据，而不是在 Power BI 报表中执行报表的用户
+            - `{{UserId}}` 标记解析为存储的凭据，而不是在 Power BI 报表中执行报表的用户
             - 某些图像无法在 Power BI 报表服务器报表中呈现
             - 无法在 Power BI 报表服务器中更改 Power BI 报表的名称
             - 无法在 Power BI 移动应用程序中加载自定义视觉对象（需要重新安装移动应用以清除本地缓存）
@@ -136,7 +147,7 @@ ms.lasthandoff: 04/16/2018
 
 [用户手册](user-handbook-overview.md)  
 [管理员手册](admin-handbook-overview.md)  
-[快速入门：安装 Power BI 报表服务器](quickstart-install-report-server.md)  
+[安装 Power BI 报表服务器](install-report-server.md)  
 [安装报表生成器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

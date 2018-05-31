@@ -1,28 +1,21 @@
 ---
 title: 认证的 Power BI 自定义可视化效果
 description: 提交自定义视觉对象以供认证的要求和过程。 已认证的自定义视觉对象的列表。
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: ceb101d02fcacecacb8410052b2d9eaba01d46fd
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: a1d3a18fd2f325cd82cd682feb52205f17dacf93
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297000"
 ---
 # <a name="getting-a-custom-visual-certified"></a>让自定义视觉对象取得认证
 ## <a name="what-is-meant-by-certified"></a>取得认证是指什么？
@@ -105,11 +98,13 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 | [映像网格](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) | |
 | [信息图设计器](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
 | [Akvelon KPI 图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
+| [MAQ 软件 KPI 列](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996) | [视频](https://youtu.be/rU0xoOlIq1U) |
 | [KPI 指示器](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [MAQ 软件 KPI 股票代码](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [视频](https://youtu.be/cudG4gsZ2V8) |
 | [MAQ 软件线性仪表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [视频](https://youtu.be/7_jFaM30dkc) |
 | [点线图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766) | |
 | [马赛克图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380785) | [视频](https://youtu.be/90FLCKpgicA) |
+| [CloudScope 概述](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381477) | |
 | [播放轴（动态切片器）](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [视频](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI 矩阵](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [视频](https://youtu.be/1enze8pcGzY) |

@@ -1,33 +1,34 @@
 ---
-title: 在 Power BI Desktop 中调整和合并数据
-description: 在 Power BI Desktop 中调整和合并数据
-services: powerbi
-documentationcenter: ''
+title: 调整和合并来自多个源的数据
+description: 在本教程中，将了解如何在 Power BI Desktop 中调整和合并数据
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/30/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0bb2f8a8d9299d525085a8ba7d2ecabdcd9e6c78
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288742"
 ---
-# <a name="shape-and-combine-data-in-power-bi-desktop"></a>在 Power BI Desktop 中调整和合并数据
-借助 **Power BI Desktop**，可连接到多个不同类型的数据源，然后调整数据以满足你的需求。 *调整* 意味着转换数据 - 如重命名列或表格、将文本更改为数字、删除行、将第一行设为标题等等。 合并数据意味着连接到两个或多个数据源，根据需要调整它们，然后将其合并到一个有用的查询中。
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>教程：在 Power BI Desktop 中调整和合并数据
 
-本文演示了如何使用 Power BI Desktop 来调整查询，其中突出显示了一些最常见的任务。 有关此处所用查询的更多详细信息，包括如何从头开始创建查询，请参阅 [Power BI Desktop 入门](desktop-getting-started.md)。
+借助 **Power BI Desktop**，可连接到多个不同类型的数据源，然后调整数据以满足你的需求，使你能够创建可与其他人共享的视觉对象报表。 *调整* 意味着转换数据 - 如重命名列或表格、将文本更改为数字、删除行、将第一行设为标题等等。 合并数据意味着连接到两个或多个数据源，根据需要调整它们，然后将其合并到一个有用的查询中。
+
+在本教程中，将了解如何：
+
+* 使用查询编辑器调整数据
+* 连接到数据源
+* 连接到其他数据源
+* 合并这些数据源，以及创建要在报表中使用的数据模型
+
+本教程演示了如何使用 Power BI Desktop 来调整查询，其中突出显示了一些最常见的任务。 有关此处所用查询的更多详细信息，包括如何从头开始创建查询，请参阅 [Power BI Desktop 入门](desktop-getting-started.md)。
 
 有必要知道 Power BI Desktop 中的**查询编辑器**大量地使用右键单击菜单和功能区。 大部分可在**转换**功能区选择的内容也可通过右键单击项目（如某列）并从所显示的菜单中进行选择。
 

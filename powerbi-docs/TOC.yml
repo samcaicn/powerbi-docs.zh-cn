@@ -898,32 +898,14 @@
       items:
         - name: 借助 Power BI API 可以做什么？
           href: developer/overview-of-power-bi-rest-api.md
-        - name: 常见问题解答
-          href: developer/embedded-faq.md
         - name: Power BI 权限
           href: developer/power-bi-permissions.md
         - name: 行级别安全性 (RLS)
           href: developer/embedded-row-level-security.md
-        - name: 嵌入式常见问题解答
-          href: developer/qanda.md
+        - name: 常见问题解答
+          href: developer/embedded-faq.md
     - name: 操作方法
       items:
-        - name: 内容的嵌入方式
-          href: developer/embedding-content.md
-        - name: 将数据推送到仪表板
-          href: developer/walkthrough-push-data.md
-        - name: 如何迁移 Power BI Embedded
-          href: developer/migrate-from-powerbi-embedded.md
-        - name: 将仪表板集成到应用（用户拥有数据）
-          href: developer/integrate-dashboard.md
-        - name: 将 Power BI 磁贴集成到应用（用户拥有数据）
-          href: developer/integrate-tile.md
-        - name: 将 Power BI 报表集成到应用（用户拥有数据）
-          href: developer/integrate-report.md
-        - name: 将内容集成到应用程序（应用拥有数据）
-          href: developer/embed-sample-for-customers.md
-        - name: 将内容集成到主权云的应用程序（应用拥有数据）
-          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: 创建自定义视觉对象
           items:
             - name: 使用开发人员工具创建自定义视觉对象
@@ -938,6 +920,18 @@
           items:
             - name: 使用 Power BI 嵌入
               href: developer/embedding.md
+            - name: 内容的嵌入方式
+              href: developer/embedding-content.md
+            - name: 将仪表板集成到应用（用户拥有数据）
+              href: developer/integrate-dashboard.md
+            - name: 将 Power BI 磁贴集成到应用（用户拥有数据）
+              href: developer/integrate-tile.md
+            - name: 将 Power BI 报表集成到应用（用户拥有数据）
+              href: developer/integrate-report.md
+            - name: 将内容集成到应用程序（应用拥有数据）
+              href: developer/embed-sample-for-customers.md
+            - name: 将内容集成到主权云的应用程序（应用拥有数据）
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: 在应用中嵌入自定义布局
               href: developer/embedded-custom-layout.md
             - name: 创建 Azure Active Directory 租户
@@ -946,14 +940,20 @@
               href: developer/register-app.md
             - name: 对 Power BI 服务进行身份验证
               href: developer/get-azuread-access-token.md
+            - name: 嵌入式常见问题解答
+              href: developer/qanda.md
+            - name: 如何迁移 Power BI Embedded
+              href: developer/migrate-from-powerbi-embedded.md
             - name: Power BI Embedded 迁移工具
               href: developer/migrate-tool.md
             - name: 迁移代码片段
               href: developer/migrate-code-snippets.md
             - name: 嵌入式应用程序疑难解答
               href: developer/embedded-troubleshoot.md
-        - name: 将数据推送到仪表板
+        - name: 推送数据
           items:
+            - name: 将数据推送到仪表板
+              href: developer/walkthrough-push-data.md
             - name: 将应用注册到 Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: 获取身份验证访问令牌
@@ -990,6 +990,8 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: 资源
       items:
+        - name: 用于嵌入的载入体验工具
+          href: 'https://aka.ms/embedsetup'
         - name: JavaScript 演练示例
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: 示例

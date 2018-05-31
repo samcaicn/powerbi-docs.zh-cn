@@ -1,6 +1,6 @@
 ---
-title: 教程：在 Power BI Desktop 中分析 Excel 和 OData 源中的销售数据
-description: 教程：分析来自 Excel 和 OData 源的销售数据
+title: 教程：在 Power BI Desktop 中合并来自 Excel 和 OData 源的数据
+description: 教程：合并来自 Excel 和 OData 源的数据
 services: powerbi
 documentationcenter: ''
 author: davidiseminger
@@ -15,220 +15,254 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
-ms.author: davidi
+ms.date: 05/02/2018
+ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 00c4915df0e18504ec6f5d26540d9289c2f5ddb2
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945977"
 ---
-# <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>教程：分析来自 Excel 和 OData 源的销售数据
-使用 **Power BI Desktop**，你可以连接到各种类型的不同数据源，然后以形成有趣和令人信服的数据分析和可视化效果的方式对它们进行合并和调整。 在本教程中，你将了解如何合并来自两个数据源的数据。 
+# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>教程：合并来自 Excel 和 OData 源的销售数据
 
-数据遍布于多个数据源是很常见的，例如产品信息可能位于某个数据库，而销售信息则位于另一个数据库。 你将在本文档中了解的技术包括 Excel 工作簿和 OData 源，但这些技术也可以应用于其他数据源，如 SQL Server 查询、CSV 文件或 Power BI Desktop 中的任何数据源。
+数据遍布于多个数据源是很常见的，例如产品信息可能位于某个数据库，而销售信息则位于另一个数据库。 使用 Power BI Desktop，可以合并来自不同源的数据，以创建令人感兴趣的、引人注目的数据分析和可视化效果。 
 
-在本教程中，你将从 Excel（包含产品信息）和 OData 源（包含订单数据）导入数据。 你将执行转换和聚合步骤，以及合并来自这两个源的数据以生成呈现交互式可视化效果的 **Total Sales per Product and Year** 报表。 
-
-下面是最终报表的外观：
-
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
-
-若要安装本教程中的步骤，需要 Products 工作簿，可以通过以下方式下载：[单击此处下载 Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
-
-在**另存为**对话框中，将文件命名为**Products.xlsx**。
-
-## <a name="task-1-get-product-data-from-an-excel-workbook"></a>任务 1：从 Excel 工作簿获取产品数据
-在此任务中，需要将 Products.xlsx 文件内的产品导入 Power BI Desktop 中。
-
-### <a name="step-1-connect-to-an-excel-workbook"></a>步骤 1：连接到 Excel 工作簿
-1. 启动 Power BI Desktop。
-2. 从“开始”功能区选择**获取数据**。 Excel 是**最常用**的数据连接之一，因此你可以直接从**获取数据**菜单中选择。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
-3. 如果直接选择“获取数据”按钮，你还可以选择**文件\> Excel**，然后选择**连接。**
-4. 在**打开文件**对话框中，选择 **Products.xlsx** 文件。
-5. 在**导航器**窗格中，选择 **Products** 表，然后选择**编辑**。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_2.png)
-
-### <a name="step-2-remove-other-columns-to-only-display-columns-of-interest"></a>步骤 2：删除其他列，只显示感兴趣的列
-在此步骤中，需要删除除**ProductID**、**ProductName**、**UnitsInStock** 和 **QuantityPerUnit** 之外的所有列。 在 Power BI Desktop 中，完成相同的任务往往有几种方法。 例如，通过在列或单元格上右键单击菜单也能获取位于功能区中的许多按钮。
-
-Power BI Desktop 中包括查询编辑器，你可以在此处对数据连接进行调整和转换。 从**导航器**选择**编辑**时，查询编辑器会自动打开。 还可以通过从 Power BI Desktop 中的**开始**功能区选择**编辑查询**来打开查询编辑器。 在查询编辑器中执行以下步骤。
-
-1. 在查询编辑器中，选择 **ProductID**、**ProductName**、**QuantityPerUnit** 和 **UnitsInStock** 列（通过按住 **Ctrl 并单击**来选择多个列，或按住 **Shift 并单击**来选择相邻的列）。
-2. 从功能区选择**删除列** \> **删除其他列**，或右键单击某个列标题，然后单击**删除其他列**。
-
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_removeothercolumns.png)
-
-### <a name="step-3-change-the-data-type-of-the-unitsinstock-column"></a>步骤 3：更改 UnitsInStock 列的数据类型
-当查询编辑器连接到数据时，它会检查每个字段，并确定最佳的数据类型。 对于 Excel 工作簿，库存产品将始终为整数，因此在此步骤中需要确认 **UnitsInStock** 列的数据类型为整数。
-
-1. 选择 **UnitsInStock** 列。
-2. 选择**开始**功能区中的**数据类型**下拉列表按钮。
-3. 如果没有整数，请从下拉列表中选择**整数**数据类型（**数据类型：**按钮也会显示当前所选的数据类型）。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_wholenumber.png)      
-
-### <a name="power-bi-desktop-steps-created"></a>创建的 Power BI Desktop 步骤
-在查询编辑器中执行查询活动时，将创建查询步骤并在**应用步骤**列表中的**查询设置**窗格中列出。 每个查询的步骤都有相应的公式，也称为“M”语言。 有关“M”公式语言的详细信息，请参阅[了解 Power BI 公式](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)。
-
-| 任务 | 查询步骤 | 公式 |
-| --- | --- | --- |
-| 连接到 Excel 工作簿 |源 |Source{[Name="Products"]}[Data] |
-| 将第一行提升至表格列标题 |FirstRowAsHeader |[Table.PromoteHeaders](https://support.office.com/Article/TablePromoteHeaders-b8eaeb95-042a-42e1-9164-6d3c646acadc "Table.PromoteHeaders") <br /> （产品） |
-| 删除其他列，只显示感兴趣的列 |RemovedOtherColumns |[Table.SelectColumns](https://support.office.com/Article/TableSelectColumns-20bb9e28-9fd3-4cd2-a21b-97972c82ec22 "Table.SelectColumns")  <br />(FirstRowAsHeader,{"ProductID", "ProductName", "QuantityPerUnit", "UnitsInStock"}) |
-| 更改数据类型 |更改的类型 |Table.TransformColumnTypes(\#"Removed Other Columns",{{"UnitsInStock", Int64.Type}}) |
-
-## <a name="task-2-import-order-data-from-an-odata-feed"></a>任务 2：从 OData 源导入订单数据
-在此任务中，你需要导入订单数据。 此步骤中表示连接到销售系统。 将位于下面的 URL 的示例 Northwind OData 的数据导入 Power BI Desktop，你可以从下面的步骤复制（并粘贴）：<http://services.odata.org/V3/Northwind/Northwind.svc/> 
-
-### <a name="step-1-connect-to-an-odata-feed"></a>步骤 1：连接到 OData 源
-1. 从查询编辑器中的**开始**功能区选项卡中选择**获取数据。**
-2. 浏览到 **OData 源**数据源。
-3. 在 **OData 源**对话框中，粘贴 Northwind OData 源的 **URL**。
-4. 选择**确定**。
-5. 在**导航器**窗格中，选择 **Orders** 表，然后选择**编辑**。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_odatafeed.png)
+在本教程中，你将了解如何合并来自两个数据源的数据：包含产品信息的 Excel 工作簿和包含订单数据的 OData 源。 导入每个数据集并执行转换和聚合步骤后，使用这两个源的数据生成具有交互式可视化效果的销售分析报表。 这些技术也可以应用于 SQL Server 查询、CSV 文件和 Power BI Desktop 中的任何其他数据源。
 
 >[!NOTE]
->单击表名即可查看预览，而不必选择复选框。
+>在 Power BI Desktop 中，有若干种完成任务的方法。 例如，许多功能区选择也可以通过右键单击或者列或单元格中的“更多选项”菜单来获得。 以下步骤描述了几种备用方法。 
 
-### <a name="step-2-expand-the-orderdetails-table"></a>步骤 2：展开 Order\_Details 表
-**Orders** 表包含对 **Details** 表的引用，其中包含每个订单中的各个产品。 当你连接到多个表的数据源（如关系数据库）时，可以使用这些引用来构建你的查询。 
+## <a name="import-the-product-data-from-excel"></a>从 Excel 导入产品数据
 
-在此步骤中，展开与 **Orders** 表相关的**Order\_Details** 表，以将**Order\_Details** 中的 **ProductID**、**UnitPrice** 和 **Quantity** 列合并到 **Orders** 表。 这是数据在这些表中的表示形式：
+首先，将 Excel Products.xlsx 工作簿中的产品数据导入 Power BI Desktop。
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orderdetails.png)
+1. [下载 Products.xlsx Excel 工作簿](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)，并将其保存为 Products.xlsx。
+   
+2. 选择 Power BI Desktop 功能区“主页”选项卡中的“获取数据”旁的下拉箭头，然后从“最常用”下拉列表选择“Excel”。 
+   
+   ![获取数据](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
+   
+   >[!NOTE]
+   >你还可以选择“获取数据”项本身，或者从 Power BI“开始”对话框中选择“获取数据”，再在“获取数据”对话框中选择“Excel”或“文件” > “Excel”，然后选择“连接”。
+   
+3. 在“打开”对话框中，导航到 Products.xlsx 文件并选择该文件，然后选择“打开”。
+   
+4. 在**导航器**窗格中，选择 **Products** 表，然后选择**编辑**。
+   
+   ![Excel 的导航器窗格](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_2.png)
+   
+表的预览将在“Power Query 编辑器”中打开，你可以在其中应用转换以清理数据。 
+   
+![Power Query 编辑器](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
+   
+>[!NOTE]
+>你也可以通过以下方法打开 Power Query 编辑器：从 Power BI Desktop 中的“主页”功能区选择“编辑查询” > “编辑查询”，或者右键单击或选择报表视图中任何查询旁的“更多选项”，然后选择“编辑查询”。
 
-**展开**操作会将相关表中的列合并到主体表。 当查询运行时，相关表 (**Order\_Details**) 中的行将合并到主体表 (**Orders**) 中的行。
+## <a name="clean-up-the-products-columns"></a>清理产品列
 
-展开 **Order\_Details** 表后，将会有三个新列和其他行添加到 **Orders** 表中，分别用于嵌套或相关表中的每一行。
+合并的报表将仅使用 Excel 工作簿中的“ProductID”**、**“ProductName”、“QuantityPerUnit”和“UnitsInStock”列，以便可以删除其他列。 
 
-1. 在**查询视图**中，滚动到 **Order\_Details** 列。
-2. 在 **Order\_Details** 列中，选择展开图标 (![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/expand.png))。
+1. 在 Power Query 编辑器中，选择“ProductID”、“ProductName”、“QuantityPerUnit”和“UnitsInStock”列（通过按住 Ctrl 并单击来选择多个列，或按住 Shift 并单击来选择相邻的列）。
+   
+2. 右键单击任何所选标题并从下拉列表中选择“删除其他列”以删除表中除所选列之外的所有列。 
+   你还可以从“主页”功能区选项卡中的“管理列”组中选择“删除列” > “删除其他列”。 
+   
+   ![删除其他列](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/analyzingsalesdata_removeothercolumns.png)
+
+## <a name="import-the-order-data-from-an-odata-feed"></a>从 OData 源导入订单数据
+
+接下来，从示例 Northwind 销售系统 OData 源导入订单数据。 
+
+1. 在 Power Query 编辑器中，选择“新源”，然后从“最常用”下拉列表中选择“OData 源”。 
+   
+   ![获取 OData](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
+   
+2. 在“OData 源”对话框中，粘贴 Northwind OData 源的 URL`http://services.odata.org/V3/Northwind/Northwind.svc/`，然后选择“确定”。
+   
+   ![OData 源对话框](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
+   
+3. 在“导航器”窗格中，选择“订单”表，然后选择“确定”将数据加载到 Power Query 编辑器。
+   
+   ![OData 的导航器窗格](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/analyzingsalesdata_odatafeed.png)
+   
+   >[!NOTE]
+   >在导航器中，选择任何表名称即可查看预览，而不必选中复选框。
+
+## <a name="expand-the-order-data"></a>展开订单数据
+
+当连接到具有多个表的数据源（例如关系数据库或 Northwind OData 源）时，可以使用表之间的引用生成查询。 “订单”表包含对多个相关表的引用。 通过使用“展开”操作，可以将相关“Order_Details”表中的“ProductID”、“UnitPrice”和“数量”列添加到主题（“订单”）表。 
+
+1. 在“订单”表中向右滚动，直到可以看到“Order_Details”列。 请注意，它包含对另一个表的引用，而不是数据。
+   
+   ![Order_Details 列](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
+   
+2. 选择“Order_Details”列标题中的“展开”图标（展开图标![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/expand.png)）。 
+   
 3. 在**展开**下拉列表中：
-   1. 选择**（选择所有列）**以清除所有列。
-   2. 选择 **ProductID**、**UnitPrice** 和 **Quantity**。
-   3. 单击**确定**。
-      ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
-
-### <a name="step-3-remove-other-columns-to-only-display-columns-of-interest"></a>步骤 3：删除其他列，只显示感兴趣的列
-在此步骤中，将删除 **OrderDate、ShipCity**、**ShipCountry**、**Order\_Details.ProductID**、**Order\_Details.UnitPrice** 和 **Order\_Details.Quantity** 以外的所有列。 在上一任务中，你使用了**删除其他列**。 对于此任务中，你需要删除所选的列。
-
-1. 在**查询视图**中选择所有列，方法是完成a. 和 b：
-   1. 单击第一列 (**OrderID**)。
-   2. 按住 Shift 并单击最后一列 (**Shipper**)。
-   3. 现在已选中了所有列，按住 Ctrl 并单击来取消选择以下列：**OrderDate**、**ShipCity**、**ShipCountry**、**Order\_Details.ProductID**、**Order\_Details.UnitPrice** 以及 **Order\_Details.Quantity**。
-2. 现在只选中了我们要删除的列，右键单击任何所选列的标题并单击**删除列**。
-
-### <a name="step-4-calculate-the-line-total-for-each-orderdetails-row"></a>步骤 4：计算每个 Order\_Details 行的项目总计
-Power BI Desktop 可让你创建针对正在导入的列的计算，因此你可以加强连接到的数据。 在此步骤中，你需要创建**自定义列**来计算每个 **Order\_Details** 行的项目总计。
-
-计算每个 **Order\_Details** 行的项目总计：
-
-1. 在**添加列**功能区选项卡上，单击**添加** **自定义列**。
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. 在“添加自定义列”对话框的“自定义列公式”文本框中，输入“[Order\_Details.UnitPrice] \* [Order\_Details.Quantity]”
-3. 在**新的列名称**文本框中输入 **LineTotal**。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)
-4. 单击**确定**。
+   1. 选择 **（选择所有列）** 以清除所有列。
+      
+   2. 选择“ProductID”、“UnitPrice”和“数量”，然后选择“确定”。
+      
+      ![展开对话框](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)
 
-### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>步骤 5：设置 LineTotal 字段的数据类型
-1. 右键单击 **LineTotal** 列。
-2. 选择“更改类型”，然后选择“十进制数”。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
+在展开“Order_Details”表后，“Order_Details”列被嵌套表中的三个新列替换，并且从每个订单添加的数据表中都有新行。 
 
-### <a name="step-6-rename-and-reorder-columns-in-the-query"></a>步骤 6：对查询中的列进行重命名和重新排序
-在此步骤中，你需要对最后的列进行重命名和改变顺序，从而在完成时使模板在创建报表时更易于使用。
+![展开的列](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
-1. 在**查询编辑器**中，将 **LineTotal** 向左拖动到 **ShipCountry** 之后。
+## <a name="create-a-custom-calculated-column"></a>创建自定义的计算列
+
+Power Query 编辑器可以用来创建计算和自定义字段以丰富你的数据。 你将创建自定义列，该列通过用单价乘以项数量来计算订单中每个行项的总价格。
+
+1. 在 Power Query 编辑器的“添加列”功能区选项卡中，选择“自定义列”。
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/10.png)
-2. 通过双击每个列标题，并从列名称中删除文本，删除以下列的 *Order\_Details.* 前缀：**Order\_Details.ProductID**、**Order\_Details.UnitPrice** 和 **Order\_Details.Quantity**。
-
-### <a name="power-bi-desktop-steps-created"></a>创建的 Power BI Desktop 步骤
-在查询编辑器中执行查询活动时，将创建查询步骤并在**应用步骤**列表中的**查询设置**窗格中列出。 每个查询的步骤都有对应的 Power Query 公式，也称为“M”语言。 有关此公式语言的详细信息，请参阅[了解 Power BI 公式](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f "了解 Power Query 公式")。
-
-| 任务 | 查询步骤 | 公式 |
-| --- | --- | --- |
-| 连接到 OData 源 |源 |Source{[Name="Orders"]}[Data] |
-| 展开 Order\_Details 表 |展开 Order\_Details |[Table.ExpandTableColumn](https://support.office.com/Article/TableExpandTableColumn-54903f25-75a2-4a44-a9a3-52a9d895ee98 "Table.ExpandTableColumn") <br /> (Orders, "Order\_Details", {"ProductID", "UnitPrice", "Quantity"}, {"Order\_Details.ProductID", "Order\_Details.UnitPrice", "Order\_Details.Quantity"}) |
-| 删除其他列，只显示感兴趣的列 |RemovedColumns |[Table.RemoveColumns](https://support.office.com/Article/TableRemoveColumns-6265190e-2f58-4300-85b8-df88fc1a67d3 "Table.RemoveColumns") <br />(\#"Expand Order\_Details",{"OrderID", "CustomerID", "EmployeeID", "RequiredDate", "ShippedDate", "ShipVia", "Freight", "ShipName", "ShipAddress", "ShipCity", "ShipRegion", "ShipPostalCode", "ShipCountry", "Customer", "Employee", "Shipper"}) |
-| 计算每个 Order\_Details 行的项目总计： |InsertedColumn |[Table.AddColumn](https://support.office.com/Article/TableAddColumn-6c64d0a5-9654-4d15-bfb6-9cc380aaf3c0 "Table.AddColumn") <br /> (RemovedColumns, "Custom", each [Order\_Details.UnitPrice] \* [Order\_Details.Quantity]) |
-
-## <a name="task-3-combine-the-products-and-total-sales-queries"></a>任务 3：合并 Products 和 Total Sales 查询
-Power BI Desktop 不需要合并查询来建立报表。 相反，你可以创建数据集之间的**关系**。 这些关系可以在数据集通用的任何列上创建。 有关详细信息，请参阅[创建和管理关系](desktop-create-and-manage-relationships.md)。
-
-在本教程中，有共用通用“ProductID”字段的 Orders 和 Products 数据，因此我们需要确保它们在搭配 Power BI Desktop 使用的模型中具有某种关系。 只需在 Power BI Desktop 中指定这两个表中的列相关（即这些列具有相同的值）即可。 Power BI Desktop 会为你找出关系的的方向和基数。 在某些情况下，它甚至会自动检测关系。
-
-在此任务中，你将确认 **Products** 和 **Total Sales** 查询在 Power BI Desktop 中建立了关系。
-
-### <a name="step-1-confirm-the-relationship-between-products-and-total-sales"></a>步骤 1：确认 Products 和 Total Sales 之间的关系
-1. 首先，我们需要将在查询编辑器中创建的模型加载到 Power BI Desktop。 从查询编辑器中的**开始**功能区选择**关闭并加载**。
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. Power BI Desktop 将从这两个查询加载数据。
+2. 在“自定义列”对话框中，在“新列名”字段中键入“LineTotal”。
+
+3. 在 = 后的“自定义列公式”字段中，输入 [Order_Details.UnitPrice] \* [Order_Details.Quantity]。 （你还可以从可用列滚动框中选择字段名称，然后选择“<< 插入”，而不是键入它们。） 
+3. 选择**确定**。
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)      
-3. 加载数据后，选择**开始**功能区中的**管理关系**按钮。
+   ![自定义列对话框](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
+
+新“LineTotal”字段显示为“订单”表中的最后一列。
+
+## <a name="set-the-data-type-for-the-new-field"></a>设置新字段的数据类型
+
+当 Power Query 编辑器连接到数据时，它确定每个字段的最佳数据类型，并相应地显示数据。 你可以通过标题中的图标，或在“主页”功能区选项卡的“转换”组中的“数据类型”下，查看分配给字段的数据类型。 
+
+新“LineTotal”列包含的数据类型为“任何”，但其值是货币。 要分配数据类型，请右键单击“LineTotal”列标题，从下拉列表中选择“更改数据类型”，然后选择“定点十进制数”。 
+
+![更改数据类型](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/12.png)
+
+>[!NOTE]
+>你还可以选择“LineTotal”列，选择“主页”功能区选项卡的“转换”区域中“数据类型”旁的向下箭头，然后选择“定点十进制数”。
+
+## <a name="clean-up-the-orders-columns"></a>清理订单列
+
+若要在报表中更轻松地使用模型，可以删除、重命名和重新排序某些列。
+
+报表将仅使用“OrderDate”、“ShipCity”、“ShipCountry”、“Order_Details.ProductID”、“Order_Details.UnitPrice”和“Order_Details.Quantity”列。 可以像对 Excel 数据那样选择这些列并使用“删除其他列”，或者可以选择除列出列之外的所有列，右键单击所选列之一并选择“删除列”删除它们。 
+
+可以通过删除列名称的“Order_Details.”前缀，更轻松地识别“Order_Details.ProductID”、“Order_Details.UnitPrice”和“Order_Details.Quantity” 列。 若要将列分别重命名为“ProductID”、“UnitPrice”和“Quantity”，请执行下列操作：
+
+1. 双击或者点击并按住每个列标题，或者右键单击列标题并从下拉列表中选择“重命名”。 
+2. 删除每个名称的“Order_Details.” 前缀，然后按 Enter。
+
+最后，若要更轻松地访问“LineTotal”列，将其向左拖动，放到紧靠“ShipCountry”列的右侧。
+
+![清理表](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
+
+## <a name="review-the-query-steps"></a>查看查询步骤
+
+在“Power Query 编辑器”中修整并转换数据后，每个步骤都记录到“Power Query 编辑器”右侧“查询设置”窗格的“应用的步骤”区域。 可以通过“应用的步骤”返回以查看所做的更改，并视需要编辑、删除或重新排列它们（尽管这样做可能存在风险，因为更改前面的步骤可能会中断后续步骤）。 
+
+在 Power Query 编辑器左侧的“查询”列表中选择每个查询，在“查询设置”中查看“应用的步骤”。 在应用以前的数据转换之后，两个查询的“应用的步骤”应如下所示：
+
+![产品查询应用的步骤](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/15.png) &nbsp;&nbsp; ![订单查询应用的步骤](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/17.png)
+
+>[!TIP]
+>基本的“应用的步骤”是以 Power Query 语言编写的公式，也称为 M 语言。 若要查看和编辑该公式，请选择功能区“主页”选项卡“查询”组中的“高级编辑器”。 
+
+## <a name="import-the-transformed-queries"></a>导入转换的查询
+
+如果对转换的数据感到满意，请在“主页”功能区选项卡的“关闭”组中选择“关闭并应用” > “关闭并应用”，以将数据导入 Power BI Desktop“报表”视图。 
+
+![关闭并应用](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
+
+数据加载后，查询将出现在 Power BI Desktop“报表”视图的“字段”列表中。
+
+![字段列表中的查询](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
+
+## <a name="manage-the-relationship-between-the-datasets"></a>管理数据集之间的关系
+
+Power BI Desktop 不需要合并查询来建立报表。 但是，你可以使用数据集之间的关系，基于它们共有的字段，扩展并丰富报表。 Power BI Desktop 可以自动检测关系，或者你可以在 Power BI Desktop“管理关系”对话框中创建关系。 有关 Power BI Desktop 中的关系的更多详细信息，请参阅[创建并管理关系](desktop-create-and-manage-relationships.md)。
+
+本教程中的“订单”和“产品”数据集共享公共“ProductID”字段，因此基于该列在它们之间存在一定的关系。 
+
+1. 在 Power BI Desktop“报表”视图中，在“主页”功能区选项卡的“关系”区域中选择“管理关系”。
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
-4. 选择**新建...** 按钮
+   ![管理关系功能区](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
-5. 当我们尝试创建关系时，我们看到已经存在一个关系！ 如**创建关系**对话框（阴影列）中所示，每个查询中的 **ProductsID** 字段都有一个已建立的关系。
+2. 在“管理关系”对话框中，注意 Power BI Desktop 已检测并列出“产品”和“订单”表之间的活动关系。 若要查看关系，请选择“编辑”。 
    
-    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/12.png)
-6. 选择**取消**，然后选择 Power BI Desktop 中的**关系**视图。
+   ![管理关系对话框](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_7.png)
-7. 如下图所示，查询之间的关系将以视觉化方式显示。
+   “编辑关系”对话框打开，其中显示有关关系的详细信息。  
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
-8. 当双击连接到查询的线条上的箭头时，将会显示**编辑关系**对话框。
+   ![编辑关系对话框](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_7.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_9.png)
-9. 由于无需进行任何更改，因此我们只需选择**取消**来关闭**编辑关系**对话框。
+3. Power BI Desktop 已正确自动探测到关系，因此你可以选择“取消”，然后选择“关闭”以退出关系对话框。
 
-## <a name="task-4-build-visuals-using-your-data"></a>任务 4：使用数据生成视觉效果
-Power BI Desktop 使你可以创建多种可视化效果来深入探索你的数据。 你可以生成多页报表，而且每页可以有多个视觉效果。 你可以与可视化效果进行交互，以帮助分析和了解你的数据。 有关编辑报表的详细信息，请参阅[编辑报表](service-interact-with-a-report-in-editing-view.md)。
+你还可以通过选择 Power BI Desktop 窗口左侧的“关系”视图，查看并管理查询之间的关系。 双击连接两个查询的线上的箭头，以打开“编辑关系”对话框并查看或更改关系。 
 
-在本任务中，你将基于以前加载的数据创建报表。 使用字段窗格选择要从中创建可视化效果的列。
+![关系视图](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
 
-### <a name="step-1-create-charts-showing-units-in-stock-by-product-and-total-sales-by-year"></a>步骤 1：创建显示产品的库存单位数量和年度总销售额的图表
-将 **UnitsInStock** 从字段窗格（字段窗格位于屏幕最右侧）拖到画布上的空白区域。 这样便创建了表可视化效果。 接下来，将 ProductName 拖动到可视化效果窗格下半部分的“轴”框中。 然后使用可视化效果右上角的图示来选择**排序依据 \>UnitsInStock**。
+若要从“关系”视图返回到“报表”视图，选择“报表视图”图标。 
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
+![报表视图图标，](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_9.png)
 
-将 **OrderDate** 拖动到第一个图表下方的画布上，然后将 LineTotal（再次从字段窗格）拖动到视觉效果，然后选择折线图。 这样便创建了如下所示的可视化效果。
+## <a name="create-visualizations-using-your-data"></a>使用数据创建可视化效果
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/15.png)
+在 Power BI Desktop“报表”视图中，可以创建多种可视化效果，以深入探索你的数据。 你可以生成多页报表，而且每页可以有多个视觉效果。 你可以与他人就可视化效果进行交互，以帮助分析和了解你的数据。 有关查看和编辑 Power BI 服务（站点）中的报表的详细信息，请参阅[编辑报表](service-interact-with-a-report-in-editing-view.md)。
 
- 接下来，将 **ShipCountry** 拖动到右上角画布上的空白处。 由于你已经选择了地理字段，因此会自动创建地图。 现在，将 **LineTotal** 拖动到**值**字段；地图上代表每个国家/地区的圆圈将会根据运送至该国家/地区的订单的 **LineTotal** 呈现出相对应的大小。
+你可以使用这两个数据集以及它们之间的关系，帮助可视化和分析销售数据。 
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/17.png)
+首先，创建堆积柱形图，该图使用这两个查询的字段来显示每个订购产品的数量。 
 
-### <a name="step-2-interact-with-your-report-visuals-to-analyze-further"></a>步骤 2：与报表视觉效果进行交互以进一步分析
-Power BI Desktop 使你可以与相互突出显示和筛选的视觉效果进行交互，从而发觉进一步的趋势。 有关详细信息，请参阅[在报表中进行筛选和突出显示](power-bi-reports-filters-and-highlighting.md)
-
-1. 单击位于**加拿大**中心的浅蓝色圆形。 请注意如何筛选其他视觉效果，才能只显示加拿大的库存 (**ShipCountry**) 和总订单数 (**LineTotal**)。
+1. 从右侧“字段”窗格中的“订单”选择“数量”字段，或将其拖到画布上的空白区域。 这将创建一个显示所有订购产品的总数量的堆积柱形图。 
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
+2. 从“字段”窗格中的“产品”选择“ProductName”，或将其拖放到图表，以显示每个订购产品的量排序。 
+   
+3. 若要按从最多订购到最少订购对产品排序，选择可视化效果右上角的“更多选项”省略号 (...)，然后选择“按数量排序”。
+   
+4. 使用图表角部的图柄进行放大，使更多产品名称可见。 
+   
+   ![按 ProductName 显示数量条形图](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/19.png)
 
-## <a name="complete-sales-analysis-report"></a>完成销售分析报表
-执行所有这些步骤后，你将拥有一个合并了来自 Products.xlsx 文件和 Northwind OData 源的数据的销售报表。 此报表显示帮助分析来自不同国家/地区的销售信息的视觉效果。 你可以在[此处](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Sales_Data.pbix)下载本教程的完整 Power BI Desktop 文件。
+接下来，创建一个图，显示随时间推移 (OrderDate) 的订单美元金额 (LineTotal)。 
+
+1. 在画布上未选择任何对象的情况下，从“字段”窗格中的“订单”选择“LineTotal”，或者将其拖到画布上的空白区域。 堆积柱形图显示所有订单的总美元金额。 
+   
+2. 在选择该图表的情况下，从“订单”选择“OrderDate”，或将其拖到该图表。 该图表现在显示每个订单日期的行合计。 
+   
+3. 通过拖动角调整可视化效果的大小，以便能够看到更多数据。 
+   
+   ![按 OrderDate 显示 LineTotals 折线图](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/20.png)
+   
+   >[!TIP]
+   >如果你只在图表上看到“年份”（只有三个数据点），下拉“可视化效果”窗格的“轴”字段中“OrderDate”旁的箭头，然后选择“OrderDate”而不是“日期层次结构”。 
+
+最后，创建显示每个国家/地区的订单数量的地图可视化效果。 
+
+1. 在画布上未选择任何对象的情况下，从“字段”窗格中的“订单”选择“ShipCountry”，或者将其拖到画布上的空白区域。 Power BI Desktop 检测到数据是国家/地区名称，将自动创建地图可视化效果，针对具有订单的每个国家/地区显示一个数据点。 
+   
+2. 若要使数据点的大小反映每个国家/地区的订购量，将“LineTotal”字段拖动到地图上（或将其拖动到“可视化效果”窗格下半部分中“大小”下的“将数据字段拖动到此处”）。 现在，地图上的圆圈大小反映每个国家/地区的订单美元金额。 
+   
+   ![按 ShipCountry 显示 LineTotals 地图可视化效果](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/21.png)
+
+## <a name="interact-with-your-report-visuals-to-analyze-further"></a>与报表视觉效果进行交互以进一步分析
+
+Power BI Desktop 使你可以与相互突出显示和筛选的视觉效果进行交互，从而发觉进一步的趋势。 有关详细信息，请参阅[在报表中进行筛选和突出显示](power-bi-reports-filters-and-highlighting.md)。 
+
+由于查询之间的关系，与一个可视化效果交互将影响页上的所有其他可视化效果。 
+
+在地图可视化效果中，选择“加拿大”中间的圆圈。 请注意，其他两个可视化效果进行筛选，以仅突出显示加拿大的行总计和订单数量。
+
+![为加拿大筛选的销售数据](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/22.png)
+
+如果在“按 ProductName 显示数量”图表中选择产品之一，则地图和日期图表进行筛选以反映该产品的数据；如果在“按 OrderDate 显示 LineTotal”图表中选择日期之一，则地图和产品图表进行筛选以显示该日期的数据。 
+>[!TIP]
+>若要取消选择所选内容，再次选择它，或者选择其他可视化效果之一。 
+
+## <a name="complete-the-sales-analysis-report"></a>完成销售分析报表
+
+完成的报表对 Products.xlsx Excel 文件与视觉对象中 Northwind OData 源的数据进行组合，帮助分析不同国家/地区、时间范围和产品的订单信息。 报表准备就绪后，可以[将其上传到 Power BI 服务](desktop-upload-desktop-files.md)，将其与其他 Power BI 用户共享。
 
 ## <a name="next-steps"></a>后续步骤
 * [阅读其他 Power BI Desktop 教程](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [观看 Power BI Desktop 视频](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [访问 Power BI 论坛](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [阅读 Power BI 博客](http://go.microsoft.com/fwlink/?LinkID=519327)
-
-

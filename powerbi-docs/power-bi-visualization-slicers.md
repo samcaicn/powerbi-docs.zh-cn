@@ -1,6 +1,6 @@
 ---
-title: Power BI 中的切片器（教程）
-description: 教程：Power BI 中的切片器
+title: Power BI 中的切片器
+description: Power BI 中的切片器
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 03/05/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 30f548e73dd9f3c4fb93f048dec0c46eee3845ca
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 223b408186f445791a95ead30c04efe7b59888bf
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813452"
 ---
-# <a name="slicers-in-power-bi-tutorial"></a>Power BI 中的切片器（教程）
+# <a name="slicers-in-power-bi"></a>Power BI 中的切片器
 你希望报表读者能够查看总体销售指标，但同时突出显示各个地区经理和不同时间范围的业绩表现。 可以创建单独的报表或比较图表，也可以使用切片器。 切片器是另一种筛选方法，用于限制在报表的其他可视化效果中显示的部分数据集。 
 
 本教程通过免费的[零售分析示例](sample-retail-analysis.md)，演示如何创建、格式化以及使用列表及日期范围切片器。 通过有趣的新方法使用切片器并进行格式化。 
@@ -177,10 +178,10 @@ Power BI 切片器存在以下限制：
 
 ### <a name="other-formatting-options"></a>其他格式设置选项
 其他格式设置选项默认关闭。 当启用时： 
-- **标题：**在切片器顶部添加标题并设置其格式（附加在标头上且与标头无关）。 
-- **背景：**将背景颜色添加到整个切片器并设置其透明度。
-- **锁定纵横比：**重新调整大小后，切片器的形状保持不变。
-- **边框：**在切片器周围添加 1 像素的边框并设置其颜色。 （此切片器边框是单独的，不受常规边框设置影响。） 
+- **标题：** 在切片器顶部添加标题并设置其格式（附加在标头上且与标头无关）。 
+- **背景：** 将背景颜色添加到整个切片器并设置其透明度。
+- **锁定纵横比：** 重新调整大小后，切片器的形状保持不变。
+- **边框：** 在切片器周围添加 1 像素的边框并设置其颜色。 （此切片器边框是单独的，不受常规边框设置影响。） 
 
 ## <a name="next-steps"></a>后续步骤
 [试用一下 - 完全免费！](https://powerbi.com/)

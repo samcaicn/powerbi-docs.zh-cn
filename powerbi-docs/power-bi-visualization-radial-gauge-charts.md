@@ -1,16 +1,16 @@
 ---
-title: "教程 - Power BI 中的径向仪表图"
-description: "教程：Power BI 中的径向仪表盘"
+title: Power BI 中的径向仪表图
+description: Power BI 中的径向仪表图
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: xmja6Epqa
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5b0b5861c567997bb5636c4fe00085535debc8f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a972e3ae702fc1746bebecbc5de00f47031f76a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813038"
 ---
-# <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Power BI 中的径向仪表图表（教程）
+# <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的径向仪表图
 径向仪表盘有一个圆弧，并且显示单个值，该值用于衡量针对目标/KPI 的进度。  使用直线（针）表示目标或目标值。 使用明暗度表示针对目标的进度。  表示进度的值在圆弧内以粗体显示。所有可能的值沿圆弧均匀分布，从最小值（最左边的值）到最大值（最右边的值）。
 
 在下面的示例中，我们是汽车零售商，需要跟踪销售团队每月的平均销量。 我们的目标是 140，用黑色针表示。  可能的最小平均销量为 0，我们已将最大值设为 200。  蓝色显示本月的平均销量接近 120。 幸运的是，我们仍有一周的时间来实现这一目标。

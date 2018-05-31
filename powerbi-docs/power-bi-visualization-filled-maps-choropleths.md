@@ -1,6 +1,6 @@
 ---
-title: Power BI 中的着色地图（等值线图）（教程）
-description: 文档 - 有关在 Power BI 中创建着色地图（等值线图）的教程
+title: Power BI 中的着色地图（等值线图）
+description: 有关在 Power BI 中创建着色地图（等值线图）的文档
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a6cddcf361072bdd265a94de9efd5dbc7ecf05c8
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: e982fa5cc75249ab2475e02150a92294cb87980a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812302"
 ---
-# <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Power BI 中的着色地图（等值线图）（教程）
+# <a name="filled-maps-choropleths-in-power-bi"></a>Power BI 中的着色地图（等值线图）
 着色地图使用明暗度、颜色或图案来显示不同地理位置或区域之间的值在比例上有何不同。  使用从浅（不太频繁/较低）到深（较频繁/较多）的明暗度快速显示这些相对差异。    
 
 ![](media/power-bi-visualization-filled-maps-choropleths/large_map.png)

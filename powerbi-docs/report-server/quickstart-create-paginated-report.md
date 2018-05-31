@@ -1,29 +1,22 @@
 ---
-title: "快速入门：为 Power BI 报表服务器创建分页报表"
-description: "了解如何通过执行简单几步为 Power BI 报表服务器创建分页报表。"
-services: powerbi
-documentationcenter: 
+title: 为 Power BI 报表服务器创建分页报表
+description: 了解如何通过执行简单几步为 Power BI 报表服务器创建分页报表。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 1e77a1ef92826010d6bc2fa28749a2ee17bbe723
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294907"
 ---
-# <a name="quickstart-create-a-paginated-report-for-power-bi-report-server"></a>快速入门：为 Power BI 报表服务器创建分页报表
+# <a name="create-a-paginated-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建分页报表
 顾名思义，分页报表可以生成很多页。 它们以固定格式布局，并允许进行精准自定义。 分页报表是 .rdl 文件。
 
 可以在 Power BI 报表服务器 Web 门户中存储和管理分页报表，就像在 SQL Server Reporting Services (SSRS) Web 门户中一样。 在 SQL Server Data Tools (SSDT) 中的报表生成器或报表设计器中创建和编辑分页报表，然后将其发布到任意 Web 门户。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。

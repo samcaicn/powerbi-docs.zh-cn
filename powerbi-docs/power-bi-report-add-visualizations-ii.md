@@ -1,15 +1,15 @@
 ---
-title: "第 2 部分，向 Power BI 报表添加可视化对象（教程）"
-description: "教程：第 2 部分，向 Power BI 报表添加可视化对象"
+title: 第 2 部分，向 Power BI 报表添加可视化效果
+description: 第 2 部分，向 Power BI 报表添加可视化效果
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 567bece0089a01170e218af9606331e44cb7834f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 39f11f2740918e5ec3fc62c86c72bac4544d5ff6
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33814303"
 ---
-# <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>第 2 部分，向 Power BI 报表添加可视化对象（教程）
+# <a name="part-2-add-visualizations-to-a-power-bi-report"></a>第 2 部分，向 Power BI 报表添加可视化效果
 在[第 1 部分](power-bi-report-add-visualizations-ii.md)中，通过选中字段名称旁边的复选框来创建基本可视化对象。  在第 2 部分中，你将了解如何使用拖放功能并充分利用“字段”和“可视化对象”窗格创建和修改可视化对象。
 
 ### <a name="prerequisites"></a>先决条件

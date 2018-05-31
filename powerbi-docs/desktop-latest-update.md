@@ -1,36 +1,29 @@
 ---
 title: 最新 Power BI Desktop 更新中有哪些新增功能？
 description: 最新 Power BI Desktop 更新中有哪些新增功能？
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 05/31/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/04/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 08dbb8c68ba7ca50766f104d0a7581c9f876f6d1
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: 5a677164f068ba4ad4796b2db42b7b052233d3da
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34285683"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新 Power BI Desktop 更新中有哪些新增功能？
 
-## <a name="april-2018-update-2575068501"></a>2018 年 4 月更新 (2.57.5068.501)
+## <a name="may-2018-update-2585103281"></a>2018 年 5 月更新 (2.58.5103.281)
+
+我们在这个月的更新中涌现出一系列丰富多彩的功能和改进，我们希望能在你的报告中传播阳光，让它们带着优异的见解美丽绽放。
 
 你现在可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop。 无论采用哪种方式安装 Power BI Desktop，每月版本都相同。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
-
-我们没开玩笑，非常高兴本月更新 Power BI Desktop。 我们将提供数个领域的更新，希望这些能帮助你以令人惊叹的精美视觉对象来增色未来报表。 
 
 每个更新旁边的链接表示以下含义：
 
@@ -43,41 +36,52 @@ ms.lasthandoff: 04/06/2018
 
 下面介绍了本月新推出的 Power BI Desktop 更新：
 
+
 ### <a name="reporting"></a>报表
 
-* 问答资源管理器  [[视频]](https://youtu.be/W_Nb73Od_AI?t=13s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer) 
-* 触发操作的按钮  [[视频]](https://youtu.be/W_Nb73Od_AI?t=9m42s)  [[文章]](desktop-buttons.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#buttons) 
-* 组合图线条样式  [[视频]](https://youtu.be/W_Nb73Od_AI?t=16m55s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#comboLines) 
-* 改进了针对视觉对象的默认排序  [[视频]](https://youtu.be/W_Nb73Od_AI?t=19m21s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sort) 
-* 数值切片器现已正式发布  [[视频]](https://youtu.be/W_Nb73Od_AI?t=21m13s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#numericSlicer) 
+* 通过其他字段设置条件格式 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=55s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#conditionalFormatting) 
+* 高级切片器同步 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=3m40s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#slicerSync) 
+* 日志轴改进 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=5m47s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#logAxis) 
+* 漏斗图的数据标签选项 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=6m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#funnelChart) 
+* 将线条笔划宽度设置为零 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=6m49s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#lineStroke) 
 
-### <a name="analytics"></a>分析
+### <a name="analytics"></a>Analytics
 
-* 更新语言架构  [[视频]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[文章]](power-bi-custom-visuals-organization.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
-* 新 DAX 函数：COMBINEVALUES()  [[视频]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
+* 度量值钻取 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[文章]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
+
+### <a name="power-bi-premium"></a>Power BI Premium
+
+* 增量刷新（预览）[[视频]](https://youtu.be/-_GMCE1TLvQ?t=7m42s) [[文章]](service-premium-incremental-refresh.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#incrementalRefresh) 
 
 ### <a name="custom-visuals"></a>自定义视觉对象
 
-* 组织的视觉对象现已公开发布  [[视频]](https://youtu.be/W_Nb73Od_AI?t=26m11s)  [[文章]](power-bi-custom-visuals-organization.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
-* 多个新的自定义视觉对象  [[视频]](https://youtu.be/W_Nb73Od_AI?t=28m8s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
+* 多个新的自定义视觉对象  [[视频]](https://youtu.be/-_GMCE1TLvQ?t=9m44s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>数据连接
 
-* Adobe Analytics 连接器现已公开发布  [[视频]](https://youtu.be/kuI6MMzDh34?t=32m)  [[文章]](desktop-multi-select.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#adobeAnalytics) 
-* SAP HANA 连接器改进：端口选项  [[视频]](https://youtu.be/kuI6MMzDh34?t=32m44s)  [[文章]](desktop-directquery-sap-hana.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
-* Dynamics 365 Business Central 连接器  [[视频]](https://youtu.be/kuI6MMzDh34?t=34m10s)  [[文章]](desktop-directquery-sap-hana.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#dynamics365BusinessCentral) 
+* 新的“通过 Web”连接器 - 通过示例数据提取（预览版）[[视频]](https://youtu.be/-_GMCE1TLvQ?t=10m17s) [[文章]](desktop-connect-to-web-by-example.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#FromWebConnector) 
+* 应用连接器的常用数据服务 (beta) [[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#cdsApps) 
+* Azure KustoDB 连接器 (beta) [[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#kustoDB) 
+* Google BigQuery 和 Azure HDInsight Spark 连接器现已公开提供 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#googleBigQueryAzureHDInsightSpark) 
+* Adobe Analytics 连接器更新 - 支持多个域登录（预览）[[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#AdobeAnalytics) 
+* Visual Studio Team Services 连接器更新 - 分析视图支持 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#vsts) 
+* OLE DB 连接器更新 - 支持备用 Windows 凭据 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#oledb) 
+* SAP BW DirectQuery 连接器更新 - 改进的技术名称支持 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#sapBW) 
 
+### <a name="data-preparation"></a>数据准备
+
+* “从示例中添加列”的改进 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m57s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#addColumnFromExamples) 
 
 
 > [!NOTE]
 > 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
 
-想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
 
 
 以下视频介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/W_Nb73Od_AI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-_GMCE1TLvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
 > 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。

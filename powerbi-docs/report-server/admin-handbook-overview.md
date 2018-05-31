@@ -1,34 +1,35 @@
 ---
-title: "管理员手册概述：Power BI 报表服务器"
-description: "欢迎阅读 Power BI 报表服务器的管理员手册。Power BI 报表服务器是用于存储和管理 Power BI 报表、移动报表和分页报表的本地位置。"
+title: 管理员概述：Power BI 报表服务器
+description: 本文是 Power BI 报表服务器管理概述，该服务器是用于存储和管理 Power BI、移动报表和分页报表的本地位置。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 05/07/2018
 ms.author: maghan
-ms.openlocfilehash: 130a4264b2e8c4e511527f34088a580a7787673b
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 52b2c9cac7fd07564480fdbf3a6a91e04e72db11
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33883077"
 ---
-# <a name="administrator-handbook-overview-power-bi-report-server"></a>管理员手册概述：Power BI 报表服务器
-欢迎阅读 Power BI 报表服务器的管理员手册。Power BI 报表服务器是用于存储和管理 Power BI 报表、移动报表和分页报表的本地位置。
+# <a name="admin-overview-power-bi-report-server"></a>管理员概述：Power BI 报表服务器
+本文是 Power BI 报表服务器管理概述，该服务器是用于存储和管理 Power BI、移动报表和分页报表的本地位置。 本文介绍规划、部署和管理 Power BI 报表服务器的概念，以及指向详细信息的链接。
 
 ![](media/admin-handbook-overview/admin-handbook.png)
 
-本手册将帮助你了解如何规划、部署和管理 Power BI 报表服务器这些相关概念。
+
 
 ## <a name="installing-and-migration"></a>安装和迁移
 必须安装 Power BI 报表服务器，才能开始使用。 我们提供了有关如何处理此任务的信息。
@@ -36,10 +37,9 @@ ms.lasthandoff: 01/30/2018
 在开始安装、升级或迁移到 Power BI 报表服务器之前，请先查看报表服务器的[系统要求](system-requirements.md)。
 
 ### <a name="installing"></a>安装
-若要部署新的 Power BI 报表服务器，请参阅以下对你有所帮助的文档。 为了方便你快速入门，我们提供了快速入门文档。 也可以查看安装文档，了解完整详情。
+若要部署新的 Power BI 报表服务器，请参阅以下对你有所帮助的文档。 
 
-* [快速入门：安装 Power BI 报表服务器](quickstart-install-report-server.md)
-* [安装 Power BI 报表服务器](install-report-server.md)
+[安装 Power BI 报表服务器](install-report-server.md)
 
 ### <a name="migration"></a>迁移
 无法就地升级 SQL Server Reporting Services。 如果要让现有 SQL Server Reporting Services 实例成为 Power BI 报表服务器，必须进行迁移。 还有其他可能原因需要执行迁移。 请查看迁移文档，了解更多详细信息。
@@ -55,8 +55,8 @@ ms.lasthandoff: 01/30/2018
 安全和保护措施对每个组织都非常重要。 可以查看[安全](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection)文档，了解身份验证、授权、角色和权限。
 
 ## <a name="next-steps"></a>后续步骤
-[快速入门：安装 Power BI 报表服务器](quickstart-install-report-server.md)  
-[如何查找报表服务器产品密钥](find-product-key.md)  
+[安装 Power BI 报表服务器](install-report-server.md)  
+[查找报表服务器产品密钥](find-product-key.md)  
 [安装更适合 Power BI 报表服务器的 Power BI Desktop](install-powerbi-desktop.md)  
 [安装报表生成器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

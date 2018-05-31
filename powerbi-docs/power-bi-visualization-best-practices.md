@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813360"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>设计报表和视觉对象的最佳做法
 <!-- Shared newnav Include -->
@@ -734,7 +735,7 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
 
 有关详细信息，请参阅：
 
-* [教程：Power BI 中的组合图](power-bi-visualization-combo-chart.md)
+* [Power BI 中的组合图](power-bi-visualization-combo-chart.md)
 * [在视觉对象中使用双比例坐标轴存在的危险](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf)
 
 ### <a name="scatter-chart"></a>散点图
@@ -810,8 +811,8 @@ KPI 占用的空间相同，但却显示了值、状态、目标、与目标的�
 
 有关详细信息，请参阅：
 
-* [教程：Power BI 中的径向仪表图表](power-bi-visualization-radial-gauge-charts.md)
-* [教程：Power BI 中的 KPI](power-bi-visualization-kpi.md)
+* [Power BI 中的径向仪表图](power-bi-visualization-radial-gauge-charts.md)
+* [Power BI 中的 KPI](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>结论
 现在，是时候验证这些最佳做法了。  请与我们保持联系，分享你自己的最佳做法。 不同意我们的建议，或有令人信服的理由来“违反规则”？  我们也很想听听你的这些想法。  

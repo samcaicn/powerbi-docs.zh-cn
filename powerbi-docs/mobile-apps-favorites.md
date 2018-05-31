@@ -1,27 +1,28 @@
 ---
-title: "Power BI 移动应用中的收藏夹"
-description: "了解如何在移动应用中收藏和查看 Power BI 仪表板、报表和应用，以及 Power BI 报表服务器和 Reporting Services 报表和 KPI。"
+title: Power BI 移动应用中的收藏夹
+description: 了解如何在移动应用中收藏和查看 Power BI 仪表板、报表和应用，以及 Power BI 报表服务器和 Reporting Services 报表和 KPI。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/09/2018
+ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: d3b53618f43652fffcb53502fd9d55ef91f2aff3
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 4edffdbf918e4ccf7e31821d359df54dfc275f46
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812141"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中收藏和查看
 适用于：
@@ -80,7 +81,7 @@ ms.lasthandoff: 02/11/2018
     ![Android“收藏”五角星](media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
 
 ## <a name="make-favorite-power-bi-report-server-and-reporting-services-reports-and-kpis"></a>收藏 Power BI 报表服务器/Reporting Services 报表和 KPI
-可以在 Power BI 移动应用中查看收藏的 Power BI 报表服务器/Reporting Services 报表和 KPI，但不能在移动应用中收藏它们。 在 [Web 门户中将它们标记为收藏项](report-server/getting-around.md#tag-your-favorite-reports-and-kpis)。 
+可以在 Power BI 移动应用中查看收藏的 Power BI 报表服务器/Reporting Services 报表和 KPI，但不能在移动应用中收藏它们。 在 [Web 门户中将它们标记为收藏项](report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites)。 
 
 ## <a name="next-steps"></a>后续步骤
 * [Power BI 服务中最喜爱的仪表板](service-dashboard-favorite.md) 

@@ -1,27 +1,20 @@
 ---
-title: "查看 Power BI 移动应用中的仪表板和报表"
-description: "在 Power BI 服务中创建或连接仪表板和报表。 然后可以在 Power BI 移动应用中对其进行查看。"
-services: powerbi
-documentationcenter: 
+title: 查看 Power BI 移动应用中的仪表板和报表
+description: 在 Power BI 服务中创建或连接仪表板和报表。 然后可以在 Power BI 移动应用中对其进行查看。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 07/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/16/2018
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295859"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>查看 Power BI 移动应用中的仪表板和报表
 适用于：
@@ -37,8 +30,8 @@ ms.lasthandoff: 01/17/2018
 
 要在移动设备上查看仪表板和报表，则需要在 Web 浏览器中创建或连接它们。 
 
-1. 转到 Power BI 服务 ([https://www.powerbi.com](https://www.powerbi.com))，并[注册帐户](service-self-service-signup-for-power-bi.md)。
-2. [创建你自己的 Power BI 仪表板和报表](service-get-started.md)或连接到现有 [Power BI 应用](service-connect-to-services.md)，以获取各种服务，例如 [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) 和 [Adobe Analyics](service-connect-to-adobe-analytics.md)。
+1. 转到 Power BI 服务 ([https://www.powerbi.com](https://www.powerbi.com)) 和[注册帐户](service-self-service-signup-for-power-bi.md)。
+2. [创建你自己的 Power BI 仪表板和报表](service-get-started.md)，或连接到各种不同服务的现有 [Power BI 应用](service-connect-to-services.md)，如 [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) 和 [Adobe Analytics](service-connect-to-adobe-analytics.md)。
 
 此处是一个 Power BI 服务中的 Power BI 仪表板：
 
@@ -115,31 +108,21 @@ ms.lasthandoff: 01/17/2018
    
    ![主仪表板](media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-     -     黄色星标  ![收藏夹星标](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 表示仪表板已加入收藏夹。 
+    黄色星标  ![收藏夹星标](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 表示仪表板已加入收藏夹。 
 
-     -     仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](service-data-classification.md)。
-
+    仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](service-data-classification.md)。
 
     在 Android 手机上 Power BI 仪表板看起来稍有不同。 所有磁贴宽度相同，从顶部到底部一个接一个排列。
 
     ![仪表板纵向视图](media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-     还可以旋转手机，在横向模式下查看它们。
-
-    > [AZURE.TIP] 如果你是仪表板所有者，则可以在 Power BI 服务中[创建手机专用仪表板纵向模式视图](service-create-dashboard-mobile-phone-view.md)。 
+    如果你是仪表板所有者，则可以在 Power BI 服务中[创建手机专用仪表板纵向模式视图](service-create-dashboard-mobile-phone-view.md)。 
 
 1. 在仪表板上，你可以点击名称旁边的垂直省略号 (...) 来邀请同事，刷新或获取有关仪表板的信息：
    
    ![省略号菜单](media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. 向上和向下轻扫可查看[仪表板中的所有磁贴](mobile-tiles-in-the-mobile-apps.md)。 
 3. 若要返回到仪表板主页，请点击仪表板名称，打开痕迹线索，然后点击“**我的工作区**”。   
-
-### <a name="view-dashboards-in-landscape-mode-on-your-android-phone"></a>在 Android 手机上的横向模式下查看仪表板
-你还可以在横向模式下查看仪表板，只需旋转你的手机。 仪表板布局从一系列磁贴变为整个仪表板的视图 &#151; 你可以看到仪表板的所有磁贴，和 Power BI 服务中展示的一样。
-
-![仪表板横向](media/mobile-apps-view-dashboard/power-bi-android-landscape-dashboard.png)
-
-你可以在仪表板的不同区域使用“收缩”手势进行放大和缩小，你还可以使用平移来进行导航。 你仍然可以[点击磁贴](mobile-tiles-in-the-mobile-apps.md)以在焦点模式下打开该磁贴，并与你的数据进行交互。
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>在 Android 平板电脑上查看仪表板
 1. 在 Android 平板电脑上，打开并登录 Power BI 应用。

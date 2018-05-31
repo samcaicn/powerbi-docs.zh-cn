@@ -1,30 +1,24 @@
 ---
-title: 教程︰在 Power BI 中通过 Analysis Services 表格模型实现动态行级别安全性
-description: 教程︰通过 Analysis Services 表格模型实现动态行级别安全性
-services: powerbi
-documentationcenter: ''
+title: 在 Power BI 中通过 Analysis Services 表格模型实现动态行级别安全性
+description: 通过 Analysis Services 表格模型实现动态行级别安全性
 author: selvarms
 manager: amitaro
-backup: davidi
+ms.reviewer: davidi
 editor: davidi
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/12/2017
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456125"
 ---
-# <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>教程︰通过 Analysis Services 表格模型实现动态行级别安全性
+# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>通过 Analysis Services 表格模型实现动态行级别安全性
 本教程演示在 Analysis Services 表格模型中实现“行级别安全性”的所需步骤，以及如何将其用于 Power BI 报表。 本教程中的步骤在示例数据集上完成，旨在让您了解必需的步骤。
 
 在本教程中，详细描述了以下步骤，帮助您了解在Analysis Services 表格模型中实现动态行级别安全性而需执行的步骤︰

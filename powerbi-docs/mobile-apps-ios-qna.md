@@ -1,75 +1,96 @@
 ---
-title: "通过 iOS 应用中的问答虚拟分析师提出问题 - Power BI"
-description: "在本教程中，可以在 iOS 设备上使用 Power BI 移动应用中的问答虚拟分析师，用自己的话语来询问有关此示例数据的问题。"
+title: iOS 应用中的问答虚拟分析师 - Power BI
+description: 在 iOS 设备上使用 Power BI 移动应用中的问答虚拟分析师，用自己的话语来询问有关示例数据的问题。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
+ms.component: powerbi-mobile
 ms.devlang: NA
-ms.topic: article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 531d067566a03289f0806d21309e9db7cfb837b1
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: eaa8960de53b5c3e48c4bd619469beeec384b033
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812164"
 ---
-# <a name="ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>通过 iOS 应用中的问答虚拟分析师提出关于数据的问题 - Power BI
+# <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 应用中的问答虚拟分析师 - Power BI
+
+了解数据的最简单方式是用自己的话咨询有关数据的问题。 在本文中，在 iPad、iPhone 和 iPod Touch 上使用 Microsoft Power BI 移动应用中的问答虚拟分析师询问有关示例数据的问题并查看特别推荐的见解。 
+
 适用于：
 
 | ![iPhone](media/mobile-apps-ios-qna/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-ios-qna/ipad-logo-50-px.png) |
 |:--- |:--- |
 | iPhone |iPad |
 
-了解数据的最简单方式是用自己的话咨询有关数据的问题。 在本教程中，请通过问答虚拟分析师尝试提出问题并查看关于示例数据的特别推荐的见解。
+常见问题虚拟分析师是可在 Power BI 服务 [(https://powerbi.com)](https://powerbi.com) 中访问基础常见问题数据的对话 BI 体验。 它会提供数据见解建议，你可以键入或说出自己的问题。
 
 ![杰出销售员问答虚拟分析师](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-intro.png)
 
-在 iPad、iPhone 和 iPod Touch 上的 Microsoft Power BI 移动应用中，问答虚拟分析师是一种对话型 BI 体验，增强了 iOS 中以前版本的问答功能。 问答虚拟分析师仍可以在 Power BI 服务 [(https://powerbi.com)](https://powerbi.com) 中访问基础问答数据。 用户仍然可以键入或说出问题，并在上下文中提供数据见解。
+如果未注册 Power BI，请[免费注册](https://app.powerbi.com/signupredirect?pbi_source=web)后再进行操作。
 
-## <a name="download-the-samples"></a>下载示例
-教程中的第一个步骤是在 Power BI 服务中下载零售分析示例和机会分析示例。
+## <a name="prerequisites"></a>先决条件
 
-* 在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 上的工作区中：
+### <a name="install-the-power-bi-for-ios-app"></a>安装 iOS 版 Power BI 应用
+[下载 iOS 应用](http://go.microsoft.com/fwlink/?LinkId=522062 "从 Apple App Store 下载 iPhone 应用") 到你的 iPad、iPhone 或 iPod Touch 中。
 
-  * 依次选择“获取数据” > “示例” > “机会分析示例” > “连接”。
-  * 下载完机会分析示例后，依次选择“获取数据” > “示例” > “零售分析示例” > “连接”。
+以下版本支持 iOS 版 Power BI 应用：
+- 操作系统为 iOS 10 或更高版本的 iPad。
+- 操作系统为 iOS 10 或更高版本的 iPhone 5 及更高版本。 
+- 操作系统为 iOS 10 或更高版本的 iPod Touch。
 
-## <a name="try-featured-insights"></a>尝试“特别推荐的见解”
-1. 在 iPhone 或 iPad 上，打开 Power BI 应用，再转到“机会分析示例”仪表板。
-2. 点击问答虚拟分析师图标 ![问答虚拟分析师图标](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) 。
+### <a name="download-samples"></a>下载示例
+第一个步骤是在 Power BI 服务中下载零售分析示例和机会分析示例。
 
-     ![“机会分析示例”仪表板](media/mobile-apps-ios-qna/power-bi-ios-qna-opportunity-analysis.png)
+**获取零售分析示例**
 
-     Power BI 问答虚拟分析师推荐了一些可快速上手的见解。
+1. 打开 Power BI 服务 (app.powerbi.com) 并登录。
 
-     ![“特别推荐的见解”按钮](media/mobile-apps-ios-qna/power-bi-ios-qna-suggest-insights.png)
-3. 点击“特别推荐的见解”。
+2. 在左侧的导航窗格中，选择“工作区”>“我的工作区”。
 
-     问答虚拟分析师推荐了一些见解。
-4. 向右滚动，再点击“见解 2”。
+3. 在左下角，选择“获取数据”。
+   
+    ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
 
-    ![“见解 2”按钮](media/mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
+3. 在“获取数据”页上选择“示例”图标。
+   
+   ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
 
-     此时，问答虚拟分析师会显示“见解 2”。
+4. 选择“零售分析示例”。
+ 
+    ![零售分析示例](media/mobile-apps-ios-qna/power-bi-rs.png)
+ 
+8. 选择“连接”。  
+  
+   ![零售分析示例](media/mobile-apps-ios-qna/retail16.png)
+   
+5. Power BI 导入内容包，并将新的仪表板、报表和数据集添加到当前工作区。
+   
+   ![零售分析示例](media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
 
-    ![见解 2](media/mobile-apps-ios-qna/power-bi-ios-qna-show-insight-2.png)
-5. 点击图表，在焦点模式下打开它。
+**获取机会分析示例**
 
-    ![在焦点模式下打开的“见解 2”图表](media/mobile-apps-ios-qna/power-bi-ios-qna-open-insight-2.png)
-6. 点击左上角的箭头，可返回到问答虚拟分析师体验。
+- 完成为零售分析示例执行的相同步骤，但在步骤 4 中，选择“机会分析示例”。
+
+    ![零售分析示例](media/mobile-apps-ios-qna/power-bi-oa.png)
+  
+好了，你已准备好在 iOS 设备上查看这些示例。
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>尝试在 iPhone 或 iPad 上提问
-1. 在 iPhone 或 iPad 上，打开 Power BI 应用，然后转到“零售分析示例”仪表板。
+1. 在你的 iPhone 或 iPad 上，点击全局导航按钮![全局导航按钮](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) > “工作区” > “我的工作区”，然后打开零售分析示例仪表板。
+
 2. 点击页面底部（如果是 iPad，则位于页面顶部）操作菜单中的“问答虚拟分析师”图标![“问答虚拟分析师”图标](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png)。
      问答虚拟分析师推荐了一些可快速上手的见解。
 3. 键入“显示”，点击建议列表中的“销售”，再点击“发送”![“发送”图标](media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。

@@ -1,5 +1,5 @@
 ---
-title: Power BI 报表和仪表板中的表可视化效果（教程）
+title: Power BI 报表和仪表板中的表可视化效果
 description: 在 Power BI 报表和仪表板中使用表可视化效果的教程，包括如何调整列宽大小。
 services: powerbi
 documentationcenter: ''
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 0f7084cf2e0ad4db88ad99bd969ada20ba40aa57
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812624"
 ---
-# <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>使用 Power BI 报表和仪表板中的表（教程）
+# <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>使用 Power BI 报表和仪表板中的表
 表是以逻辑序列的行和列表示的包含相关数据的网格。 它还包含标头和合计行。 表格可以进行数量比较，可以在其中查看单个类别的多个值。 例如，该表显示了**类别**的 5 个不同的度量值。
 
 ![](media/power-bi-visualization-tables/table.png)

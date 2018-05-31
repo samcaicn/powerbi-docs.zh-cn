@@ -1,16 +1,16 @@
 ---
-title: "格式化 Power BI 可视化效果入门（教程）"
-description: "教程：自定义可视化效果的标题、背景和图例"
+title: 格式化 Power BI 可视化效果入门
+description: 自定义可视化效果的标题、背景和图例
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e81f4e9ede3591accc94576291179b4fd40215e5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9a61d0aa7bed1e46109b5e467e64922cf434c10e
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813268"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>自定义可视化效果的标题、图例和背景（教程）
+# <a name="customize-visualization-titles-legends-and-backgrounds"></a>自定义可视化效果的标题、图例和背景
 在本教程中，你将学习一些用于自定义可视化效果的不同方式。   有许多选项用于自定义可视化效果，了解所有这些选项的最佳方法是：浏览格式设置窗格（选择 paintroller 图标）。  为了帮助你入门，本文演示了如何自定义可视化效果的标题、图例和背景。  
 
 并非所有可视化效果都可以进行自定义，[查看完整列表](#list)。  

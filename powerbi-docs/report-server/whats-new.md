@@ -15,25 +15,31 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 04/19/2018
 ms.author: maggies
-ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 21769ee9c88dd2310da2a86be8dbadd1f17522ff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813245"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 了解 Power BI 报表服务器中的新增功能。 本文涉及主要功能方面，并会在新功能发布时随之进行更新。
 
 若要下载 Power BI 报表服务器和针对 Power BI 报表服务器进行了优化的 Power BI Desktop，请转到[使用 Power BI 报表服务器进行本地报告](https://powerbi.microsoft.com/report-server/)。
 
-有关相关的“新增功能”的信息，请参阅：
+此外查看下面这些源，以便随时了解 Power BI 报表服务器中的新增功能。
+
+* [Microsoft Power BI 博客](https://powerbi.microsoft.com/blog/)
+* [SQL Server Reporting Services 团队博客](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [Guy in a Cube YouTube 频道](https://aka.ms/guyinacube)
+
+若要了解相关的 Power BI“新增功能”信息，请参阅：
 
 * [Power BI 服务中的最近更新](../service-whats-new.md)
 * [Power BI Desktop 中的新增功能](../desktop-latest-update.md)
 * [Power BI 移动应用中的新增功能](../mobile-whats-new-in-the-mobile-apps.md)
-* [Power BI 团队博客](https://powerbi.microsoft.com/blog/)
 
 ## <a name="march-2018-release"></a>2018 年 3 月版本
 
@@ -103,14 +109,14 @@ ms.lasthandoff: 03/20/2018
 - [搜索“格式化”和“分析”窗格](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [字段属性窗格和字段说明](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>分析
+### <a name="analytics"></a>Analytics
 
 - [UTCNOW() 和 UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [标记自定义日期表](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
 - [钻取筛选其他视觉对象](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 - [适用于多行卡片的多维 AS 模型的单元格级格式设置](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
  
-### <a name="performance"></a>性能
+### <a name="performance"></a>Performance
 
 - [筛选功能性能改进](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
 - [DirectQuery 性能改进](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
@@ -208,7 +214,7 @@ Power BI 报表服务器现在支持新的 Power BI 表和矩阵视觉对象。 
 ## <a name="next-steps"></a>后续步骤
 [用户手册](user-handbook-overview.md)  
 [管理员手册](admin-handbook-overview.md)  
-[快速入门：安装 Power BI 报表服务器](quickstart-install-report-server.md)  
+[安装 Power BI 报表服务器](install-report-server.md)  
 [安装报表生成器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

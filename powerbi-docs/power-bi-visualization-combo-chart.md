@@ -1,31 +1,24 @@
 ---
-title: 教程 - 组合图
+title: Power BI 中的组合图
 description: 组合图教程，介绍了何时使用组合图，以及如何在 Power BI 服务和 Power BI Desktop 中生成组合图。
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b5e89a9a1f2e88ed793dff6457b58fd9ac609ef5
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 9288c44194a7eabebfa9888b1bca0023a54950e8
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293573"
 ---
-# <a name="combo-chart-in-power--tutorial"></a>Power BI 中的组合图（教程）
+# <a name="combo-chart-in-power-bi"></a>Power BI 中的组合图
 在 Power BI 中，组合图是将折线图和柱形图合并在一起的单个可视化效果。 通过将两个图表合并为一个图表可以进行更快的数据比较。
 
 组合图可以具有一个或两个 Y 轴。
@@ -48,7 +41,7 @@ Power BI 服务和 Power BI Desktop 均支持组合图。 本教程使用 Power 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>  
 
-<a name="create"></a> 若要创建自己的组合图，请登录 Power BI 服务，再依次选择**“获取数据”\>示例“零售分析示例”>“连接”>“转至仪表板”\>**。
+<a name="create"></a> 若要创建自己的组合图，请登录 Power BI 服务，再依次选择 **“获取数据”\>示例“零售分析示例”>“连接”>“转至仪表板”\>**。
 
 1. 从“零售分析示例”仪表板中，选择**总商店数**磁贴以打开“零售分析示例”报表。
 2. 选择**编辑报表**在编辑视图中打开报表。

@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2a92426061b37753c529b84a1de6b8068cb3bc5f
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 79d72cefbf6c6e5cf27aa0e4f90b4a1eb3114013
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33810911"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>使用 Power BI Desktop 中的计算列
 凭借计算列，你可以将新数据添加到模型中已存在的表。 但请勿从数据源查询并将值加载到新列中，而是创建用于定义列值的数据分析表达式 (DAX) 公式。 在 Power BI Desktop 中，使用“报表”视图中的“新建列”功能创建计算列。
@@ -59,7 +60,7 @@ Jeff 右键单击“地理”表，然后单击“新建列”。 然后他在�
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
 ## <a name="learn-more"></a>了解详细信息
-我们在此仅提供了关于计算列的快速介绍。 请务必参阅[在 Power BI Desktop 中创建计算列](desktop-tutorial-create-calculated-columns.md)教程，在其中可以下载示例文件并获取有关如何创建更多列的分步课程。 
+我们在此仅提供了关于计算列的快速介绍。 请务必参阅[教程：在 Power BI Desktop 中创建计算列](desktop-tutorial-create-calculated-columns.md)教程，在其中可以下载示例文件并获取有关如何创建更多列的分步课程。 
 
 若要了解有关 DAX 的详细信息，请参阅 [Power BI Desktop 中的 DAX 基本概念](desktop-quickstart-learn-dax-basics.md)。
 

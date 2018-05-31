@@ -1,15 +1,15 @@
 ---
-title: "Power BI 中的圆环图（教程）"
-description: "教程：Power BI 中的圆环图"
+title: Power BI 中的圆环图
+description: Power BI 中的圆环图
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dca772fd2a1b8f40fa61f1abc41145e8ff6e5a8a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a8f0b07cd21314549df27ef3206743cad058f98f
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812716"
 ---
-# <a name="doughnut-charts-in-power-bi-tutorial"></a>Power BI 中的圆环图（教程）
+# <a name="doughnut-charts-in-power-bi"></a>Power BI 中的圆环图
 圆环图类似于饼图，因为它显示部分与整体的关系。 唯一的区别是中心为空，因而有空间可用于标签或图标。
 
 ## <a name="create-a-doughnut-chart"></a>创建圆环图

@@ -1,168 +1,196 @@
 ---
-title: "教程︰使用 Power BI Desktop 从网页导入和分析数据"
-description: "教程︰使用 Power BI Desktop 从网页导入和分析数据"
+title: 教程：使用 Power BI Desktop 从网页导入和分析数据
+description: 教程：使用 Power BI Desktop 从网页导入和分析数据
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 9650f0be6ca795fdea3395721c0eb02e80464821
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 14c6cc0d221e5ed0a2fe6ead88deb9e8fb867290
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945954"
 ---
-# <a name="analyzing-web-page-data-using-power-bi-desktop-tutorial"></a>使用 Power BI Desktop 分析网页数据（教程）
-在本教程中，您将学习如何从网页导入数据并创建报表以可视化数据。 在此过程中，您将在网页中各个表之间导航，并应用数据转换步骤以调整表。
+# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>教程：使用 Power BI Desktop 分析网页数据
 
- 本文内容：
+作为资深球迷，你想要获得多年来欧足联欧洲锦标赛（欧洲杯）获胜队的报导。 使用 Power BI Desktop，可以将此数据从网页导入到报表，并创建显示数据的可视化效果。 在本教程中，将学习如何使用 Power BI Desktop 完成以下操作：
 
-* **任务 1︰**连接到 Web 数据源
-* **任务 2**︰在“查询”视图中调整数据
-  * 步骤 1：删除其他列，只显示所需的列
-  * 步骤 2︰替换值以清理所选列中的值
-  * 步骤 3 ︰筛选列中的值
-  * 步骤 4 ︰重命名列
-  * 步骤 5︰筛选列中的 null 值
-  * 步骤 6 ︰重命名列
-  * 已创建查询步骤
-* **任务 3**︰使用“报表”视图创建可视化效果
-  * 步骤 1 ︰将查询加载到您的报表
-  * 步骤 2 ︰创建地图可视化效果
+- 连接到 Web 数据源并在其可用表之间导航，
+- 调整并转换 Power Query 编辑器中的数据，
+- 命名查询并将其导入 Power BI Desktop 报表，并且 
+- 创建和自定义地图和饼图可视化效果。
 
-## <a name="task-1-connect-to-a-web-data-source"></a>任务 1 ︰连接到 Web 数据源
- 在任务 1 中，您从 UEFA European Football Championship Wikipedia 页面上的以下位置导入 Tournament Summary 表︰http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship
+## <a name="connect-to-a-web-data-source"></a>连接到 Web 数据源
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
+你可以从 http://en.wikipedia.org/wiki/UEFA_European_Football_Championship 处的欧足联欧洲锦标赛维基百科页面上的结果表中获得欧足联获胜队的数据。 
 
-### <a name="add-a-wikipedia-page-data-source"></a>添加 Wikipedia 页面数据源
-1. 在**入门**对话框中或**主页功能区选项卡**中，选择**获取数据**。
-2. 将显示**获取数据**对话框，您可以在其中选择各种数据源以便向 Power BI Desktop 导入数据。 我们将选择位于**所有**或**其他**组下的 **Web**。
-3. 在 **Web 内容**对话框中的 **URL** 文字框中，粘贴 Wikipedia URL (http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship)。
-4. 单击**确定**。
+![维基百科结果表](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
-建立与网页的连接后，将在**导航器**对话框中显示此 Wikipedia 页面上的可用表的列表。 可以单击其中每个表，以预览数据。
+若要导入数据，请执行下列操作：
 
-在**导航器**左窗格中，选择**结果 [编辑]** 表了解 Tournament Summary 结果，或选择**结果 [编辑]** 表，然后选择**编辑**。 这将使我们能够在将此表加载到报表前调整此表，因为数据无法满足我们要执行的分析的要求。
+1. 在 Power BI Desktop“主页”功能区选项卡中，下拉“获取数据”旁边的箭头，然后选择“Web”。
+   
+   ![从功能区获取数据](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web3.png) 
+   
+   >[!NOTE]
+   >你还可以选择“获取数据”项本身，或者从 Power BI“开始”对话框中选择“获取数据”，再从“获取数据”对话框的“所有”或“其他”部分中选择“Web”，然后选择“连接”。
+   
+2. 在“从 Web”对话框中，将 URL `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` 粘贴到“URL”文本框，然后选择“确定”。
+   
+    ![从对话框获取数据](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
+   
+   在连接到维基百科网页后，Power BI“导航器”对话框会在页面上显示可用表的列表。 可以选择任意表名称以预览其数据。 “结果[编辑]”表具有所需的数据，尽管它不完全是你希望的外观。 你可以先重新修整并清理数据，然后再将其加载到报表中。 
+   
+   ![导航器对话框](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
+   
+   >[!NOTE]
+   >“预览”窗格显示最近选择的表，但当选择“编辑”或“加载”时，并非所有选择的表都加载到“Power Query 编辑器”。 
+   
+3. 在“导航器”列表中选择“结果[编辑]”表，然后选择“编辑”。 
+   
+   表的预览将在“Power Query 编辑器”中打开，你可以在其中应用转换以清理数据。 
+   
+   ![Power Query 编辑器](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+   
+## <a name="shape-data-in-power-query-editor"></a>在 Power Query 编辑器中修整数据
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
+你希望通过仅显示年份和获胜的国家/地区，使数据更易于扫描。 你可以使用“Power Query 编辑器”执行这些数据修整和清理步骤。
 
-将在“查询”视图中显示表的预览，并且我们可以在此视图中应用一组转换步骤来清理数据。
+首先，从表中删除除“年份”和“最终获胜队”之外的所有列。
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+1. 在“Power 查询编辑器”网格中，选择“年份”和“最终获胜队”列（按住 Ctrl 键以选择多个项）。
+   
+2. 右键单击并从下拉列表中选择“删除其他列”，或者从“主页”功能区选项卡中的“管理列”组选择“删除列” > “删除其他列”，以从表中删除所有其他列。 
+   
+   ![删除其他列下拉列表](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) 或 ![删除其他列功能区](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
 
-## <a name="task-2-shape-data-in-the-subject-table"></a>任务 2︰在主题表中调整数据
-现在，已为数据查询中选择主题表，您将学习如何执行各种数据调整和清理步骤。
-
-**步骤 1**：删除其他列，只显示所需的列
-
-在此步骤中，除 **Year** 和 **Final Winners** 外的所有列都将删除。
-
-1. 在**查询预览**网格中，选择 **Year** 和 **Final Winners** 列（使用 **CTRL** + **单击**操作执行）。
-2. 右键单击**查询预览**网格中的列标题，然后单击**删除其他列**以删除未选定的列。 请注意，也可在**主页**功能区选项卡的**管理列**组中执行此操作。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
-
-**步骤 2**︰替换值以清理所选列中的值
-
-在此步骤中，替换 **Year** 列中的“详细信息”后缀。 请注意，此后缀置于新行中，因此在表预览中不可见。 但是，如果单击 Year 列中含数值的单元格，您将在详细视图中看到完整值。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage5.png)
+接下来，从“年份”列单元格中删除额外的词“详细信息”。
 
 1. 选择 **Year** 列。
-2. 在**查询视图**功能区上，单击**主页**选项卡下的**替换值**，或右键单击 **Year** 列并单击**替换值**，将“详细信息”替换为空文本。
-3. 在**替换值**对话框框中，在**要查找的值**文本框中键入详细信息，将**替换为**文本框留空。
-4. 单击**确定**。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage6.png)
-
- **步骤 3**
-
-在此步骤中，将筛选 **Year** 列以显示不包含“Year”行。
-
-1. 单击 **Year** 列中的筛选器下拉箭头。
-2. 在**筛选器**下拉列表中，清除 **Year** 选项。
-3. 单击**确定**。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
-
-**步骤 4**︰重命名列
-
-现在，已清理 **Year** 列中的数据，然后我们将处理 **Final Winner** 列。
-
-由于我们只搜索获胜者的列表，因此可以将该列重命名为 **Country**。
-
-1. 在查询预览中选择 **Final Winner** 列。
-2. 在**查询视图**功能区的**转换**选项卡和**任何列**组下，会显示**重命名**。
-3. 这将使列名称可编辑。 我们将该列重命名为 **Country**。
-
-**步骤 5：**筛选出列中的 null 值
-
-我们还需要筛选出 **Country** 列中的 null 值。 为此，可使用步骤 3 中所示的筛选器菜单，或者可以执行以下操作︰
-
-1. 右键单击 **Country** 列中包含 null 值的一个单元格。
-2. 在上下文菜单中选择**文本筛选器 -\> 不等于**。
-3. 将创建一个新筛选器步骤以删除 **Country** 列中含 null 值的行。
-
-**步骤 6︰** 命名查询
-
-在此步骤中，将最终查询命名为 **Euro Cup Winners**。
-
-1. 在**查询设置**窗格中的**名称**文字框中，输入 **Euro Cup Winners**。
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
-
-## <a name="task-3-create-visualizations-using-the-report-view"></a>任务 3︰使用“报表”视图创建可视化效果
-现在我们已将数据转换成所需形式以用于执行分析，我们可以将所得表加载到报告，并创建几种可视化。
-
-**第 1 步**︰将查询加载到您的报表
-
-为了将查询结果加载到 Power BI Desktop 以及创建报表，我们从**主页**功能区中选择**关闭并加载**。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
-
-这将导致评估查询以及将表输出内容加载到报表。 在 Power BI Desktop 中，选择**报表**图标可在“报表”视图中查看 Power BI Desktop。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage10.png)
-
-您可以在**报表视图**右侧的**字段窗格**中看到所生成的表字段。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
-
-**步骤 2**︰创建地图可视化
-
-要创建可视化，我们可以将字段从**字段列表**拖放到**报表画布**中。
-
-1. 将 **Country** 字段拖放到**报表画布**。 将在**报表画布**中创建新的可视化。 在此示例中，由于我们具有 Country 列表，因此它将创建**地图可视化**。
+2. 右键单击，然后从下拉列表中选择“替换值”，或者从功能区的“主页”选项卡中的“转换”组中选择“替换值”（该选项还位于“转换”选项卡中的“任何列”组中）。 
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage12.png)
-2. 可以方便地通过在**可视化效果**窗格中选择不同图标来更改可视化效果类型。
+   ![替换值下拉列表](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web7.png) 或 ![替换值功能区](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8a.png)
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage13.png)
-3. 我们将继续使用**地图**可视化类型。对于地图，还可以调整可视化效果，方法是将可视化效果的一个角拖到所需大小。
+3. 在“替换值”对话框中，在“要查找的值”文本框中键入“详细信息”，保留“替换为”文本框为空，然后选择“确定”从“年份”条目中删除“详细信息”一词。
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
-4. 请注意，地图中的所有当前点具有相同的大小。 我们需要对此进行更改，以便使拥有多个 Euro Cup 大赛冠军的国家/地区由地图中较大的点表示。 为此，我们可以将**字段列表**中的 **Year** 字段拖动到**字段窗格**下半部分的**值**框中。
+   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage6.png)
+
+某些“年份”单元格仅包含单词“年份”而不是年份值。 你可以筛选“年份”列以仅显示不包含“年份”一词的行。 
+
+1. 在“年份”列上选择筛选器下拉箭头。
+   
+2. 在下拉列表中向下滚动，清除“年份”选项旁的复选框，然后选择“确定”，以在“年份”列中删除仅具有“年份”一词的行。 
+
+   ![筛选数据](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
+
+既然已清理“年份”列中的数据，可以处理“最终获胜队”列。 因为你现在只查看最终获胜队数据，可以将此列重命名“国家/地区”。 若要重命名列，请执行下列操作：
+
+1. 双击或点击并按住“最终获胜队”列标题，或者 
+   - 右键单击“最终获胜队”列标题，然后从下拉列表中选择“重命名”，或者 
+   - 选择“最终获胜队”列，从功能区的“转换”选项卡中的“任何列”组中选择“重命名”。 
+   
+   ![重命名下拉列表](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7a.png) 或 ![重命名功能区](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8.png)
+   
+2. 在标题中键入“国家/地区”，然后按 Enter 重命名列。
+
+你还想在“国家/地区”列中筛选出具有类似“2020”的 null 值的行。 你可以像处理“年份”值那样使用筛选器菜单，也可以：
+
+1. 在具有 null 值的“2020”行中右键单击“国家/地区”单元格。 
+2. 在上下文菜单中选择“文本筛选器” > “不等于”以删除任何包含该单元格的值的行。
+   
+   ![文本筛选器](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web11.png)
+   
+## <a name="import-the-query-into-report-view"></a>将查询导入报表视图
+
+既然已按所需的方式修整数据，你可以准备命名查询“欧洲杯获胜队”并将其导入报表。
+
+1. 在“查询设置”窗格的“名称”文字框中，输入“欧洲杯获胜队”，然后按“Enter”。
+   
+   ![命名查询](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
+
+2. 从功能区的“主页”选项卡选择“关闭并应用” > “关闭并应用”。
+   
+   ![关闭并应用](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
+   
+查询将加载到 Power BI Desktop 报表视图，你可以在“字段”窗格中看到该查询。 
+   
+   ![字段窗格](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
+>[!TIP]
+>通过以下方法，始终可以返回到“Power Query 编辑器”以编辑并优化查询：
+>- 在“字段”窗格中选择“欧洲杯获胜队”旁的“更多选项”省略号 (...)，并从下拉列表中选择**编辑查询**，或者
+>- 在报表视图中“主页”功能区选项卡的“外部数据”组中，选择“编辑查询” > “编辑查询”。 
+
+## <a name="create-a-visualization"></a>创建可视化效果
+
+若要基于数据创建可视化效果，请执行下列操作： 
+
+1. 在“字段”窗格中选择“国家/地区”字段，或者将其拖到报表画布。 Power BI Desktop 会将数据识别为国家/地区名称，并自动创建“地图”可视化效果。 
+   
+   ![地图可视化效果](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web14.png)
+   
+2. 通过拖动角部图柄放大地图，以使所有获胜的国家/地区名称可见。  
+
+   ![放大地图](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
+   
+3. 地图针对每个欧洲杯锦标赛获胜国家/地区显示相同的数据点。 若要使每个数据点的大小反映国家/地区的获胜频率，将“年份”字段拖动到“可视化效果”窗格下半部分“大小”下的“将数据字段拖至此处”。 字段自动更改为“年份计数”度量值，地图可视化效果现在针对锦标赛获胜次数较多的国家/地区显示较大数据点。 
    
    ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage15.png)
+   
 
-如您所见，可以非常方便地在报表中自定义可视化效果以便你按所需方式呈现数据。 Power BI Desktop 提供无缝的端到端体验（从各种数据源获取数据到拆分以满足您的分析需求再到以丰富的交互方式可视化这些数据）。 在报表准备就绪后，您可以[将其上载到 Power BI](desktop-upload-desktop-files.md) 并基于它创建仪表板与其他 Power BI 用户共享。
+## <a name="customize-the-visualization"></a>自定义可视化效果
 
-我们的**从 Web 导入数据**教程到此为止。 你可以在[此处](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Data_From_The_Web.pbix)下载完整的 Power BI Desktop 文件。
+如你所见，基于数据创建可视化效果相当容易。 还可以很方便地自定义可视化效果以更好地按所需方式呈现数据。 
 
-## <a name="where-else-can-i-get-more-information"></a>我还可以在哪些位置获取详细信息？
+### <a name="format-the-map"></a>设置地图格式
+可以更改可视化效果的外观，方法是在“可视化效果”窗格中选中它，然后选择“格式”（绘制辊）图标。 例如，可视化效果中的“德国”数据点具有误导性，因为西德获胜两次锦标赛而德国获胜一次，地图重叠这两个点而不是将它们分隔或一起添加。 你可以分别为这两个点添加颜色，以突出显示它们。 你还可以为地图提供一个更具描述性和吸引力的标题。 
+
+1. 选择可视化效果后，选择“格式”图标，然后选择“数据颜色”以展开数据颜色选项。 
+   
+   ![设置数据颜色的格式](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   
+2. 将“全部显示”设为“开启”，选择“西德”旁的下拉列表，然后选择黄色。 
+   
+   ![更改颜色](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web16.png)
+   
+3. 选择“标题”以展开标题选项，在“标题文本”字段中，键入“欧洲杯获胜队”以替代当前标题。 
+4. 将“字体颜色”更改为红色，将“文本大小”更改为 12，将“字体系列”更改为“Segoe (Bold)”。 
+   
+   ![设置数据颜色的格式](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   
+
+现在你的地图可视化效果类似如下所示：
+
+![已设置格式的地图可视化效果](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web18.png)
+   
+### <a name="change-the-visualization-type"></a>更改可视化效果类型
+你可以更改可视化效果类型，方法是选中它，然后选择“可视化效果”窗格顶部的其他图标。 例如，地图可视化效果缺少苏联和捷克斯洛伐克数据，因为这些国家/地区在世界地图上不再存在。 另一种类似于树状图或饼图的可视化效果可能更加准确，因为它显示了所有值。 
+
+若要将地图更改为饼图，选择地图，然后选择“可视化效果”窗格中的“饼图”图标。 
+   
+![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web19.png)
+
+>[!TIP]
+>- 可以使用“数据颜色”格式设置选项将“德国”和“西德”设为相同的颜色。 
+>- 若要在饼图上将获胜次数多的国家/地区分组在一起，请选择可视化效果右上方的省略号 (...)，然后从下拉列表中选择“按年份计数排序”。 
+
+Power BI Desktop 提供无缝的端到端体验（从各种数据源获取数据、调整数据以满足你的分析需求，再到以丰富的交互方式可视化这些数据）。 在报表准备就绪后，您可以[将其上载到 Power BI](desktop-upload-desktop-files.md) 并基于它创建仪表板与其他 Power BI 用户共享。
+
+## <a name="see-also"></a>另请参阅
 * [阅读其他 Power BI Desktop 教程](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [观看 Power BI Desktop 视频](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [访问 Power BI 论坛](http://go.microsoft.com/fwlink/?LinkID=519326)

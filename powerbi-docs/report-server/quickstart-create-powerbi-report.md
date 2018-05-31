@@ -1,29 +1,22 @@
 ---
-title: 快速入门：为 Power BI 报表服务器创建 Power BI 报表
+title: 为 Power BI 报表服务器创建 Power BI 报表
 description: 了解如何通过执行简单几步为 Power BI 报表服务器创建 Power BI 报表。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 3/22/2018
 ms.author: maggies
-ms.openlocfilehash: 7c0f7ad804a61aeade6f120f2a2d2bd048219ee2
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9f5ea2a83fff37be07933669403b7eb53ceb09c0
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
+ms.locfileid: "34310466"
 ---
-# <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>快速入门：为 Power BI 报表服务器创建 Power BI 报表
+# <a name="create-a-power-bi-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建 Power BI 报表
 可以在 Power BI 报表服务器 Web 门户中在本地存储和管理 Power BI 报表，就像在 Power BI 服务 (https://powerbi.com)) 中的云中存储 Power BI 报表一样。 可以在 Power BI Desktop 中创建和编辑报表，并将其发布到 Web 门户中。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。
 
 ![Web 门户中的 Power BI 报表](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
@@ -131,11 +124,10 @@ Power BI 报表服务器报表不支持 Power BI 移动应用中的如下功能�
 
 ## <a name="next-steps"></a>后续步骤
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-若要了解如何在 Power BI Desktop 中创建报表，可以参阅许多有价值的资源。 不妨先从下面这些链接入手。
+若要了解如何在 Power BI Desktop 中创建报表，可以参阅许多有价值的资源。 此链接是一个良好的开端。
 
 * [Power BI Desktop 入门](../desktop-getting-started.md)
-* 引导式学习：[Power BI Desktop 入门](../guided-learning/gettingdata.yml#step-2)
-
+* 引导式学习：[Power BI Desktop 入门](../guided-learning/gettingdata.yml?tutorial-step=2)
 
 ### <a name="power-bi-report-server"></a>Power BI 报表服务器
 * [安装更适合 Power BI 报表服务器的 Power BI Desktop](install-powerbi-desktop.md)  

@@ -1,31 +1,24 @@
 ---
-title: "Power BI 中的树状图（教程）"
-description: "教程：Power BI 中的树状图"
-services: powerbi
-documentationcenter: 
+title: Power BI 中的树状图
+description: Power BI 中的树状图
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a803256e5902ffc19e77c67a450d4895982b4b8b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8b3f49487677f00e1026c9eab813633f470e6b41
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295344"
 ---
-# <a name="treemaps-in-power-bi-tutorial"></a>Power BI 中的树状图（教程）
+# <a name="treemaps-in-power-bi"></a>Power BI 中的树状图
 树状图将分层数据显示为一组嵌套矩形。  一个有色矩形（通常称为“分支”）代表层次结构中的一个级别，该矩形包含其他矩形（“叶”）。  根据所测量的定量值分配每个矩形的内部空间，从左上方（最大）到右下方（最小）按大小排列矩形。
 
 ![](media/power-bi-visualization-treemaps/pbi-nancy_viz_treemap.png)

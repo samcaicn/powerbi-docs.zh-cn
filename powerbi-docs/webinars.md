@@ -1,27 +1,20 @@
 ---
 title: Power BI 网络研讨会
 description: Power BI 网络研讨会
-services: powerbi
-documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/26/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/09/2018
 ms.author: maikelson
-ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
-ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
+ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34299277"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -31,17 +24,13 @@ ms.lasthandoff: 04/27/2018
 
 注册以听取 Power BI 专家的建议并参加实时问答会话
 
-**[Power BI 采用框架网络研讨会系列](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
-<br>作者：Manu Kanwarpal 和 Paul Henwood
-<br>*2018 年 3 月、4 月和 5 月上午 9:00（太平洋标准时间），下午 12:00（东部标准时间）*
+**使用 Power BI 和 Visio 绘制正确的见解**
+<br>作者：Shakun Grover
+<br>2018 年 5 月 22 日上午 10:00（太平洋标准时间）/下午 1:00（东部标准时间）
 
-计划为组织有效推出 Power BI，并探索有效软件即服务 (SaaS) 管理的细微差别。 此网络研讨系列包括五个部分，旨在为组织挖掘 Power BI 的潜力。
+加入此网络研讨会，了解如何将 Power BI 仪表板与 Microsoft Visio 图表组合以创建功能强大的视觉对象见解。 Visio 和 Power BI 极为直观且自然互补。 通过 Visio，可以创建说明性图表，例如互连工作流和实际布局。 Power BI 有助于使用图表和地图生成直观的仪表板，以测量关键绩效指标并跟踪目标。
 
-[注册观看 5 月 1 日 - 第 5 部分 - 推出：成功推出 Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
-<br>[注册并立即观看 - 第 4 部分 - 安全性：使用 Power BI 保护数据](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
-<br>[注册并立即观看 - 第 3 部分 - 服务管理：Power BI 服务管理见解](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
-<br>[注册并立即观看 - 第 2 部分 - 监管：管理 Power BI 的使用](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
-<br>[注册并立即观看 - 第 1 部分 - 采用：采用数据驱动的区域性](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+[注册后即可观看 5 月 22 日的节目](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **在 20 分钟内了解 Power BI Embedded**
 <br>主讲人：Megan Asarrane 和 Colin Murphy
@@ -88,6 +77,10 @@ ms.lasthandoff: 04/27/2018
 **如何设计具有极佳视觉效果的 Power BI 报表**
 <br>作者：Charles Sterling
 <br>[立即观看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**超出电子表格的功能**
+<br>作者：Gohul Shanmugalingam
+<br>[注册并立即观看](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
 
 **将报表从良好转换为极好！**
 <br>作者：Reid Havens
@@ -139,6 +132,14 @@ ms.lasthandoff: 04/27/2018
 <br>作者：Nagasaikiran Kambhampati 和 Miguel Martinez
 <br>[注册观看](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[下载高级分析初学者工具包以跟进](https://aka.ms/pbiaawebinar)
+
+**[Power BI 采用框架网络研讨会系列](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+<br>作者：Manu Kanwarpal 和 Paul Henwood
+<br>[注册并立即观看 - 第 1 部分 - 采用：采用数据驱动的区域性](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+<br>[注册并立即观看 - 第 2 部分 - 监管：管理 Power BI 的使用](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[注册并立即观看 - 第 3 部分 - 服务管理：Power BI 服务管理见解](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[注册并立即观看 - 第 4 部分 - 安全性：使用 Power BI 保护数据](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[注册并立即观看第 5 部分 - 推出：成功推出 Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **Office 365 金融专业人员网络研讨会系列**
 <br>主讲人：Mark Traverso、Carlos Otero、Johnnie Thomas、Amanda Cofsky 和 Miguel Martinez

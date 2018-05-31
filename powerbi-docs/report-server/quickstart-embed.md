@@ -1,108 +1,107 @@
 ---
-title: "使用 iFrame 嵌入报表"
-description: "Power BI 报表服务器本身安装起来非常快。 从下载到安装和配置，只需几分钟，即可快速上手使用。"
-services: powerbi
-documentationcenter: 
+title: 使用 iFrame 嵌入报表
+description: 在 SharePoint Server 的 iFrame 中嵌入 Power BI 报表服务器报表
 author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/09/2017
 ms.author: maghan
-ms.openlocfilehash: 56835bfb25c8c930099fadf710137f69fa89fc2e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 05/04/2018
+ms.topic: quickstart
+ms.service: powerbi
+ms.component: powerbi-report-server
+ms.custom: mvc
+manager: kfile
+ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293688"
 ---
-# <a name="quickstart-embed-a-power-bi-report-using-an-iframe-and-url-parameters"></a>快速入门：使用 iFrame 和 URL 参数嵌入 Power BI 报表
+# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>快速入门：在 SharePoint Server 中使用 iFrame 嵌入 Power BI 报表服务器报表
 
-可以通过在应用程序中使用 iFrame 嵌入任何报表。 
+在本快速入门中，你将了解如何通过在 SharePoint 页面中使用 iFrame 嵌入 Power BI 报表服务器报表。 如果正在使用 SharePoint Online，则必须可以公开访问 Power BI 报表服务器。 在 SharePoint Online 中，使用 Power BI 服务的 Power BI Web 部件不会使用 Power BI 报表服务器。 
 
-## <a name="url-parameter"></a>URL 参数
+![iFrame 示例](media/quickstart-embed/quickstart_embed_01.png)
+## <a name="prerequisites"></a>先决条件
+* 需要安装和配置 [Power BI 报表服务器](https://powerbi.microsoft.com/en-us/report-server/)。
+* 需要安装[更适合 Power BI 报表服务器的 Power BI Desktop](install-powerbi-desktop.md)。
+* 需要安装和配置 [SharePoint](https://docs.microsoft.com/en-us/sharepoint/install/install) 环境。
 
-对于指向报表的任何 URL，可以添加查询字符串参数 `?rs:Embed=true`。
+## <a name="creating-the-power-bi-report-server-report-url"></a>创建 Power BI 报表服务器报表 URL
 
-例如：
+1. 从 GitHub 下载示例 - [博客演示](https://github.com/Microsoft/powerbi-desktop-samples)。
 
-```
-http://myserver/reports/powerbi/Sales?rs:embed=true
-```
+    ![下载示例 PBIX 文件](media/quickstart-embed/quickstart_embed_14.png)
 
-这将适用于 Power BI 报表服务器中的所有报表类型。
+2. 在“更适合 Power BI 报表服务器的 Power BI Desktop”中从 GitHub 打开示例 PBIX 文件。
 
-## <a name="iframe"></a>iFrame
+    ![PBI RS 桌面工具](media/quickstart-embed/quickstart_embed_02.png)
 
-有了 URL 后，可以在 Web 页面中创建 iFrame 来托管报表。
+3. 将报表保存到 Power BI 报表服务器。 
 
-例如：
+    ![PBI RS 保存](media/quickstart-embed/quickstart_embed_03.png)
 
-```
-<iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
-```
+4. 在 Web 门户中查看报表。
 
-## <a name="url-filter"></a>URL 筛选器
+    ![Web 门户](media/quickstart-embed/quickstart_embed_04.png)
 
-可以将查询字符串参数添加到 URL 来筛选在 Power BI 报表中返回的数据。
+### <a name="capturing-the-url-parameter"></a>捕获 URL 参数
 
-语法很简单；从报表 URL 入手，然后依次添加问号和筛选语法。
+有了 URL 后，可以在 SharePoint 页面中创建 iFrame 来托管报表。 对于任何 Power BI 报表服务器报表 URL，可以添加 `?rs:embed=true` 的查询字符串参数，从而将报表嵌入到 iFrame 中。 
 
-URL?filter=***表***/***字段*** eq '***值***'
+   例如：
+    ``` 
+    http://myserver/reports/powerbi/Sales?rs:embed=true
+    ```
+## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>在 SharePoint iFrame 中嵌入 Power BI 报表服务器报表
 
-请记住以下注意事项：
+1. 导航到 SharePoint“网站内容”页面。
 
-- 表和字段名称区分大小写，值不区分大小写。
-- 可以筛选字段在报表视图中隐藏的报表。
-- 必须用单引号将**值**括起来。
-- 字段类型必须是字符串。
-- 表和字段名称中不能有任何空格。
+    ![网站内容页面](media/quickstart-embed/quickstart_embed_05.png)
 
-###  <a name="example-filter-on-a-field"></a>示例：筛选一个字段
+2. 选择要添加报表的页面。
 
-以[零售分析示例](../sample-datasets.md)为例。 假设这是报表服务器上名为“power-bi”的文件夹中的报告的 URL：
+    ![网站内容页面应用](media/quickstart-embed/quickstart_embed_06.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample
-```
+3. 选择右上方的齿轮，然后选择“编辑页面”。
 
-你会在零售分析示例中看到地图可视化效果，其中显示了北卡罗来纳州和其他州的商店。
+    ![“编辑页面”选项](media/quickstart-embed/quickstart_embed_07.png)
 
-![零售分析示例地图可视化效果](media/quickstart-embed/report-server-retail-analysis-sample-map.png)
+4. 选择“添加 Web 部件”。
 
-NC 是存储在“Store”表的“Territory”字段中的北卡罗来纳州值。 因此，要筛选报表以仅显示北卡罗来纳州商店的数据，请将以下内容附加到 URL 中：
+    ![添加 Web 部件](media/quickstart-embed/quickstart_embed_08.png)
 
-?filter=Store/Territory eq 'NC'
+5. 在“类别”下选择“媒体和内容”，在“部件”下选择“内容编辑器”，然后选择“添加”。
 
-现在，报表针对北卡罗来纳州进行了筛选；报表页上的所有可视化效果都只显示北卡罗来纳州的数据。
+    ![选择内容编辑器 Web 部件](media/quickstart-embed/quickstart_embed_09.png)![选择添加](media/quickstart-embed/quickstart_embed_091.png)
 
-![零售分析示例筛选可视化效果](media/quickstart-embed/report-server-retail-analysis-sample-filtered-map.png)
+6. 选择“单击此处以添加新内容”。
 
-### <a name="create-a-dax-formula-to-filter-on-multiple-values"></a>创建 DAX 公式对多个值进行筛选
+    ![添加新内容](media/quickstart-embed/quickstart_embed_10.png)
 
-对多个字段进行筛选的另一方法是在 Power BI Desktop 中创建一个将两个字段合并成一个值的计算列。 然后，便可以筛选此值。
+7. 在功能区中选择“格式文本”选项卡，然后选择“编辑源”。
 
-例如，零售分析示例包含两个字段：Territory 和 Chain。 在 Power BI Desktop 中，可以[创建一个计算列](../desktop-tutorial-create-calculated-columns.md)（字段），并将其命名为“TerritoryChain”。 请注意，“字段”名称中不能有任何空格。 下面是此计算列的 DAX 公式。
+     ![编辑源](media/quickstart-embed/quickstart_embed_11.png)
 
-TerritoryChain = [Territory] & "-" & [Chain]
+8. 在“编辑源”窗口中粘贴 iFrame 代码，然后选择“确定”。
 
-将报表发布到 Power BI 报表服务器，然后使用 URL 查询字符串筛选出 NC 中 Lindseys 商店的数据。
+    ![iFrame 代码](media/quickstart-embed/quickstart_embed_12.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample?filter=Store/TerritoryChain eq 'NC-Lindseys'
+     例如：
+     ```
+     <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
+     ```
 
-```
+9. 在功能区中选择“页面”选项卡，然后选择“停止编辑”。
+
+    ![停止编辑](media/quickstart-embed/quickstart_embed_13.png)
+
+10. 现在应该可以看到页面上的报表。
+
+    ![iFrame 示例](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>后续步骤
 
 [快速入门：为 Power BI 报表服务器创建 Power BI 报表](quickstart-create-powerbi-report.md)  
 [快速入门：为 Power BI 报表服务器创建分页报表](quickstart-create-paginated-report.md)  
 
-更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/) 
