@@ -1,29 +1,21 @@
 ---
 title: 设计报表和视觉对象的最佳做法（白皮书）
 description: 白皮书：有关如何在 Power BI 中设计报表的最佳做法
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 8716e6b5b75c7cd3db1b8daecfaae240f0647a50
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813360"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297253"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>设计报表和视觉对象的最佳做法
 <!-- Shared newnav Include -->

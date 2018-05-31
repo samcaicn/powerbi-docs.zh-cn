@@ -1,29 +1,20 @@
 ---
 title: 教程：浏览 VM 中的 Power BI 报表服务器
 description: 在本教程中，使用已安装的 Power BI 报表服务器创建虚拟机，并浏览 Web 门户。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.component: powerbi-report-server
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-report-server
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: a77dceac19368fc7997f79513b0b5f946a914dfc
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813935"
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34444994"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教程：浏览 VM 中的 Power BI 报表服务器 Web 门户
 在本教程中，使用已安装的 Power BI 报表服务器创建 Azure 虚拟机，以便可以查看、编辑和管理示例 Power BI、分页报表和 KPI。
@@ -59,6 +50,8 @@ ms.locfileid: "33813935"
 
 6. 对于资源组，保留“新建”，并称之为 **reportserverresourcegroup**。
 
+    如果要多次参阅本教程，则需要在该资源组首次出现之后为其指定一个其他名称。 不能在同一个订阅中两次都使用相同的资源组名称。 
+
 7. 保留其他默认值 >“确定”。
 
     ![命名 VM 和资源组](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create-resource-group.png)
@@ -91,7 +84,7 @@ ms.locfileid: "33813935"
 
 7. 下一个对话框中显示无法识别远程计算机的标识。 选择“是”。
 
-   Voila -- 将打开新的 VM。
+   随即将打开新的 VM。
 
 ## <a name="power-bi-report-server-on-the-vm"></a>VM 中的 Power BI 报表服务器
 
@@ -165,6 +158,8 @@ ms.locfileid: "33813935"
      随即在 Power BI Desktop 中打开报表。 请记住上栏中的名称，“Power BI Desktop（2018 年 3 月）”。 这是更适合 Power BI 报表服务器的版本。
 
     ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
+
+     使用安装在 VM 上的 Power BI Desktop 版本。 不能跨域上传报表。
 
 3. 在“字段”窗格中，展开“客户”表并将“职业”字段拖动到报表级别筛选器。
 
@@ -252,7 +247,9 @@ ms.locfileid: "33813935"
 
 ## <a name="next-steps"></a>后续步骤
 
-在本教程中，已使用 Power BI 报表服务器创建 VM。 已尝试过 Web 门户的一些功能，并且已在各自的编辑器中打开 Power BI 报表和分页报表。 若要了解有关为 Power BI 报表服务器创建报表的详细信息，请继续操作。
+在本教程中，已使用 Power BI 报表服务器创建 VM。 已尝试过 Web 门户的一些功能，并且已在各自的编辑器中打开 Power BI 报表和分页报表。 此 VM 已安装 SQL Server Analysis Services 数据源，因此你可以尝试使用这些相同的数据源创建你自己的 Power BI 和分页报表。 
+
+若要了解有关为 Power BI 报表服务器创建报表的详细信息，请继续操作。
 
 > [!div class="nextstepaction"]
 > [为 Power BI 报表服务器创建 Power BI 报表](./quickstart-create-powerbi-report.md)
