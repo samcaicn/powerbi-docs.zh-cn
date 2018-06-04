@@ -11,10 +11,10 @@ ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 5a677164f068ba4ad4796b2db42b7b052233d3da
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34285683"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新 Power BI Desktop 更新中有哪些新增功能？
@@ -45,7 +45,7 @@ ms.locfileid: "34285683"
 * 漏斗图的数据标签选项 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=6m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#funnelChart) 
 * 将线条笔划宽度设置为零 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=6m49s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#lineStroke) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 * 度量值钻取 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[文章]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 

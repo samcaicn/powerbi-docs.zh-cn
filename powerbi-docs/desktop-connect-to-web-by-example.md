@@ -1,29 +1,21 @@
 ---
 title: 通过 Power BI Desktop 中的示例从网页提取数据（预览）
 description: 通过提供想要请求的示例从网页提取数据
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3d67d9737ff09e3d5959ab24e615473f537654ab
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
-ms.locfileid: "33917196"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290973"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>通过提供示例从网页获取数据（预览）
 

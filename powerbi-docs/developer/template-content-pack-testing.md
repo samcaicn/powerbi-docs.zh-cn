@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maghan
 ms.openlocfilehash: 3658a569a0bd15822cd50fefb73e706d771b6c80
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34288581"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>测试 Power BI 的模板内容包
 提交内容包进行发布之前，有多种方法测试你的内容包。  

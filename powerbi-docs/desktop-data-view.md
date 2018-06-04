@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 264dc3ee1daafd077a6e9a56f62eb86c6a3f528a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291365"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop 中的数据视图
 **数据视图**有助于你检查、浏览和了解 Power BI Desktop 模型中的数据。 它与你在**查询编辑器**中查看表、列和数据的方式不同。 在数据视图中，你所看到的数据是在将其加载到模型*之后*的样子。

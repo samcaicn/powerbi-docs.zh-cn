@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Administration
 ms.openlocfilehash: 3438fcb1fed71345454d1e518a3d87487b884f38
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295965"
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI 和 ExpressRoute
 借助 **Power BI** 和 **ExpressRoute**，可以创建从组织到 Power BI 的专用网络连接（或使用 ISP 的主机托管设施），从而绕过 Internet 以更好地保护敏感 Power BI 数据和连接。
@@ -31,17 +32,17 @@ ms.lasthandoff: 05/17/2018
 > 
 
 ## <a name="power-bi-expressroute-exceptions"></a>Power BI ExpressRoute 例外情况
-Power BI 符合 ExpressRoute 标准，但是在少数例外情况下 Power BI 会通过公共 Internet 获取或发送数据。 这些特定例外情况通常包括静态数据，例如从最近的**内容交付网络 (CDN)** 节点下载的浏览器配置文件。 有一些适用于所有 Power BI 的广泛例外情况，还有一些特定于服务或功能的例外情况（以下各部分中记录了每种例外情况下）。
+Power BI 符合 ExpressRoute 标准，但是在少数例外情况下 Power BI 会通过公共 Internet 获取或发送数据。 这些特定例外情况通常包括静态数据，例如从最近的**内容分发网络 (CDN)** 节点下载的浏览器配置文件。 有一些适用于所有 Power BI 的广泛例外情况，还有一些特定于服务或功能的例外情况（以下各部分中记录了每种例外情况下）。
 
 ### <a name="overall-exceptions-to-power-bi-and-expressroute"></a>Power BI 和 ExpressRoute 的整体例外情况
 **Power BI** 和 **ExpressRoute** 的例外情况意味着与 Power BI 之间来回传输的数据要通过公共 Internet 传输，而不是通过专用 ExpressRoute 链路传输。
 
 使用 ExpressRoute 的 Power BI 的两个整体例外情况是：
 
-* 从**内容交付网络 (CDN)** 和网站下载的静态文件
+* 从**内容分发网络 (CDN)** 和网站下载的静态文件
 * 通过公共 Internet 发送的**遥测**数据
 
-Power BI 使用多个**内容交付网络 (CDN)** 或网站来高效地根据地理区域设置将所需的静态内容和文件通过公共 Internet 分发到用户。 这些静态文件包括产品下载（如 Power BI Desktop、本地数据网关或来自各个独立服务提供商的 Power BI 内容包）、用于发起和建立与 Power BI 的任何后续连接的浏览器配置文件以及初始安全 Power BI 登录页 - 实际凭据仅通过 ExpressRoute 进行发送。   
+Power BI 使用多个**内容分发网络 (CDN)** 或网站来高效地根据地理区域设置将所需的静态内容和文件通过公共 Internet 分发到用户。 这些静态文件包括产品下载（如 Power BI Desktop、本地数据网关或来自各个独立服务提供商的 Power BI 内容包）、用于发起和建立与 Power BI 的任何后续连接的浏览器配置文件以及初始安全 Power BI 登录页 - 实际凭据仅通过 ExpressRoute 进行发送。   
 
 某些**遥测数据**也通过公共 Internet 和 ExpressRoute 进行发送。 遥测数据包括使用情况统计信息和相似数据，它们会传输给用于监视使用情况和活动的服务。
 

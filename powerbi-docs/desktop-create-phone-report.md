@@ -7,36 +7,37 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/08/2017
+ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 58fa5214d1a5b7e7c80d199e23cfae9762a80f36
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6ac85bcaba34f705b0f21efc86ed1583e69c8c2c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721055"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>创建针对 Power BI 手机应用的优化报表
 [在 Power BI Desktop 中创建报表时](desktop-report-view.md)，通过创建专用于手机的报表版本，可以改善在手机的移动应用中使用此报表的体验。 通过重新排列和调整视觉对象（或许不包括所有视觉对象）可以为手机调整报表，以便获得最佳体验。 此外，还可以创建[响应式视觉对象](#optimize-a-visual-for-any-size)和[响应式切片器](#enhance-slicers-to-to-work-well-in-phone-reports)，它们可以流畅地重设大小，以供在手机上显示。 另外，如果向报表添加筛选器，这些筛选器会自动显示在手机报表中。 报表阅读者可以查看它们，并使用这些筛选器筛选报表。
 
-![更适合在手机上显示的报表](media/desktop-create-phone-report/07-power-bi-phone-report-portrait.png)
+![更适合在手机上显示的报表](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
 ## <a name="lay-out-a-report-page-for-the-phone-in-power-bi-desktop"></a>在 Power BI Desktop 中为手机设计报表页布局
 在 [ Power BI Desktop 中创建报表](desktop-report-view.md)后，可以针对手机对其进行优化。
 
 1. 在 Power BI Desktop 中，选择左侧导航栏中的“**报表视图**”。
    
-    ![报表视图图标，](media/desktop-create-phone-report/pbi_reportviewinpbidesigner_changeview.png)
+    ![报表视图图标，](media/desktop-create-phone-report/desktop-create-phone-report-2.png)
 2. 在“视图”选项卡上，选择“手机布局”。  
    
-    ![“手机布局”图标](media/desktop-create-phone-report/power-bi-phone-layout-icon.png)
+    ![“手机布局”图标](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
    
     你会看到空白手机画布。 原始报表页上的所有视觉对象将列在右侧的“可视化效果”窗格中。
 3. 要将视觉对象添加到手机布局中，请将它从“可视化效果”窗格拖动到手机画布中。
    
     手机报表使用网格布局。 在将视觉对象拖动到移动画布时，它们将与该网格对齐。
    
-    ![拖放视觉对象](media/desktop-create-phone-report/02_dragging_and_droping_a_vis.gif)
+    ![拖放视觉对象](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
     可以将部分或全部主报表页面视觉对象添加到手机报表页。 每个视觉对象仅可添加一次。
 4. 就像调整仪表板和移动仪表板上的磁贴一样，你也可以在网格上调整视觉对象大小。
@@ -46,14 +47,14 @@ ms.lasthandoff: 05/17/2018
    > 
    > 
    
-   ![重设视觉对象大小](media/desktop-create-phone-report/03_resizing_a_viz_to_grid.gif)
+   ![重设视觉对象大小](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>将视觉对象优化为适应任意大小
 可以将仪表板或报表中的视觉对象设置为响应式，即动态缩放，尽可能显示最多的数据和见解，无论屏幕大小如何。 
 
 在视觉对象缩放时，Power BI 会优先确保显示数据视图。例如，自动删除填充，并将图例移至视觉对象顶部，这样即便视觉对象变小，也仍可提供信息。
 
-![响应式视觉对象重设大小](media/desktop-create-phone-report/power-bi-responsive-visual.gif)
+![响应式视觉对象重设大小](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
 用户可自行选择是否为每个视觉对象启用响应式设置。 详细了解如何[优化视觉对象](desktop-create-responsive-visuals.md)。
 
@@ -69,7 +70,7 @@ ms.lasthandoff: 05/17/2018
   
    在这一部分，删除视觉对象只将其从手机布局画布中删除。 视觉对象和原始报表不受影响。
   
-   ![删除视觉对象](media/desktop-create-phone-report/05_removing_a_vis.gif)
+   ![删除视觉对象](media/desktop-create-phone-report/desktop-create-phone-report-7.gif)
 
 ## <a name="enhance-slicers-to-to-work-well-in-phone-reports"></a>增强切片器功能，使其在手机报表中正常运行
 切片器提供在画布上筛选报表数据的功能。 在常规报表创作模式下设计切片器时，可以修改某些切片器设置以使其在手机报表中更易于使用：
@@ -80,7 +81,7 @@ ms.lasthandoff: 05/17/2018
 
 如果将切片器设置为响应式，则在改变它大小和形状时，它显示更多或更少的选项。 它可以是调高、调短、调宽或调窄。 如果将其调整得足够小，它将变为报表页上的一个筛选器图标。 
 
-![Power BI 响应式切片器](media/desktop-create-phone-report/power-bi-slicer-2-rows.png)
+![Power BI 响应式切片器](media/desktop-create-phone-report/desktop-create-phone-report-8.png)
 
 详细了解有关[创建响应式切片器](power-bi-slicer-filter-responsive.md)的信息。
 
@@ -98,7 +99,7 @@ ms.lasthandoff: 05/17/2018
 
 如果只优化了某些页，读取器将看到纵向视图中的消息，指示该报表可提供横向视图。
 
-![手机页未优化](media/desktop-create-phone-report/06-power-bi-phone-report-page-not-optimized.png)
+![手机页未优化](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
 报表读取器可使手机转向一侧，以查看横向模式页。 详细了解如何[与更适合在手机上显示的 Power BI 报表进行交互](mobile-apps-view-phone-report.md)。
 
