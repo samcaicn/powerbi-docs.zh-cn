@@ -1,22 +1,21 @@
 ---
 title: 比较 Power BI 报表服务器和 Power BI 服务
 description: 本文将 Power BI 报表服务器和 Power BI 服务的功能进行比较。
-services: powerbi
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.component: powerbi-report-server
 ms.date: 05/07/2018
 ms.topic: overview
 ms.service: powerbi
+ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: d0a3e2870edc8b18cb982c33582c7578aa67f2c3
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: c47722fda28fc45289858f082a0838f583b53dbb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813889"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296770"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
@@ -37,7 +36,7 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | 使用应用分发报表组 | 否 | 是 | [创建和发布包含仪表板和报表的应用](../service-create-distribute-apps.md) 
 | 内容包 | 否 | 是 | [组织内容包：简介](../service-organizational-content-pack-introduction.md) 
 | 连接到 Salesforce 等服务 | 否 | 是 | 使用 Power BI 服务[连接到所使用的服务](../service-connect-to-services.md)
-| 问题解答 | 否 | 是 | [Power BI 服务和 Power BI Desktop 中的问答](../power-bi-q-and-a.md) 
+| 问答 | 否 | 是 | [Power BI 服务和 Power BI Desktop 中的问答](../power-bi-q-and-a.md) 
 | 快速见解 | 否 | 是 | [通过 Power BI 自动生成数据见解](../service-insights.md) 
 | 在 Excel 中分析 | 否 | 是 | [在 Excel 中分析](../service-analyze-in-excel.md) 
 | 分页报表 | 是 | 否 | 分页报表在 Power BI 服务中不可用，但可以[将分页报表项固定到 Power BI 仪表板](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)

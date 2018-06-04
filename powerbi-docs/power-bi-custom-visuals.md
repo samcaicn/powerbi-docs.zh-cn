@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cf5383f034b47708aa6b75ca5ead3e79b8e270
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d8c3a33a3ae6166d33ea7a613917616613b84696
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721446"
 ---
 # <a name="custom-visuals-in-power-bi"></a>在 Power BI 中自定义视觉对象
 创建或编辑 Power BI 报表时，可以使用多种不同类型的视觉对象。 这些视觉对象显示在“可视化效果”窗格中。 下载 Power BI Desktop 或打开 Power BI 服务 (app.powerbi.com) 时，这组视觉对象都已“预打包”。
@@ -53,10 +54,10 @@ Power BI 管理员可以将自定义视觉对象部署到他们的组织中，�
 
 ### <a name="certified-visuals"></a>已认证的视觉对象
 
-Power BI 取得认证的视觉对象是已通过其他严格质量测试的商城视觉对象，支持用于其他情形，如[电子邮件订阅](https://docs.microsoft.com/en-us/power-bi/service-report-subscribe)和[导出到 PowerPoint](https://docs.microsoft.com/en-us/power-bi/service-publish-to-powerpoint)。
-若要查看已认证的自定义视觉对象列表或提交你自己的自定义视觉对象，请参阅[已认证的自定义视觉对象](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-certified)。
+Power BI 取得认证的视觉对象是已通过其他严格质量测试的商城视觉对象，支持用于其他情形，如[电子邮件订阅](https://docs.microsoft.com/power-bi/service-report-subscribe)和[导出到 PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint)。
+若要查看已认证的自定义视觉对象列表或提交你自己的自定义视觉对象，请参阅[已认证的自定义视觉对象](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified)。
 
-你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 AppSource 感兴趣吗？ 请参阅[开发人员工具入门](https://docs.microsoft.com/en-us/power-bi/service-custom-visuals-getting-started-with-developer-tools)，了解如何[将自定义视觉对象发布到 AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)。
+你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 AppSource 感兴趣吗？ 请参阅[开发人员工具入门](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools)，了解如何[将自定义视觉对象发布到 AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)。
 
 ### <a name="import-a-custom-visuals-from-a-file"></a>从文件导入自定义视觉对象
 
