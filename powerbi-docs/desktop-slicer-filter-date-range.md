@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 1d074cbd61373bf53e22ecc60c0c1389c0b94881
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34285660"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>在 Power BI Desktop 中使用相对日期切片器和筛选器
 借助相对日期切片器或筛选器，可以向数据模型中的任意日期列应用时间筛选器。 例如，可以使用相对日期切片器，仅显示过去 30 天（或月、日历月等）的销售数据。 刷新数据时，相对时间段会自动应用相应的相对日期约束。
@@ -34,7 +35,7 @@ ms.lasthandoff: 05/17/2018
 
 然后，可以选择设置。 对于“相对日期切片器”中的第一个下拉列表，可以选择下列选项：
 
-* 最后一个
+* 过去
 * 下一步
 * 此
 

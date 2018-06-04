@@ -11,10 +11,11 @@ ms.date: 02/22/2018
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 219687e7e5a98cecdaaa5d17291fc0841a4b165f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34285729"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>使用 Power BI Desktop 的“查看数据”和“查看记录”功能
 在 Power BI Desktop 中，可以深入了解可视化效果的详细信息，并能查看选定视觉对象的基础数据或单个数据记录的文本表示形式。 这些功能有时亦称为“单击后了解详细信息”、“深入了解”或“深入了解详细信息”。

@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: d7170ce02294c3eadbfa38f0a25a2ab58777720b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289317"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>在 Power BI 中使用 R 驱动的自定义视觉对象
 在 Power BI Desktop 和 Power BI 服务中，无需掌握任何 R 知识，也无需使用任何 R 脚本，即可使用 R 驱动的自定义视觉对象。 这样一来，无需学习任何 R 知识，也无需自行进行任何编程，即可利用 R 视觉对象和 R 脚本的分析和视觉功能。
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/17/2018
 
 若要在在线 AppSource 网站中浏览并选择视觉对象，请按照以下步骤操作：
 
-1. 转到 [https://appsource.microsoft.com](https://appsource.microsoft.com/) 中的 Power BI 视觉对象库。选中“按产品细分”下的“Power BI 应用”复选框，再单击“查看全部”链接。
+1. 转到 [https://appsource.microsoft.com](https://appsource.microsoft.com/) 中的 Power BI 视觉对象库。 选中“按产品细分”下的“Power BI 应用”复选框，再单击“查看全部”链接。
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2a.png)
 

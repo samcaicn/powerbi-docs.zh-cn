@@ -10,10 +10,11 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: ae6c7ba3603136aeea3daa412595b9f42ed13d6a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286902"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>在适用于移动应用的 Power BI Desktop 中标记条形码
 在 Power BI Desktop 中，你可以针对列进行[数据分类](desktop-data-categorization.md)，以便 Power BI Desktop 知道如何处理报表中可视化对象的值。 此外还可将列分类为**条形码**。 当你或你的同事通过 iPhone [使用 Power BI 应用扫描产品上的条形码](mobile-apps-scan-barcode-iphone.md)时，你将看到所有包含此条形码的报表。 在移动应用中打开报表时，Power BI 将自动筛选报表中与该条形码相关的数据。
