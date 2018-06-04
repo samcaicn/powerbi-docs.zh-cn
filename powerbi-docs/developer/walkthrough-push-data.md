@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
 ms.openlocfilehash: 76d07c8384123a303c8801a45ecd05b9e6ed0321
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289455"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>将数据推送到 Power BI 数据集
 借助 Power BI API，你可以将数据推送到 Power BI 数据集。 例如，想要扩展现有业务工作流以将关键数据推送到数据集时，即可使用它。 在本例中，你想要将带有“产品”表的“市场部市场营销”数据集推送到数据集。

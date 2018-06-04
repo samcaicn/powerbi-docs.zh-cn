@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250045"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>使用 Power BI 连接到 Windows 开发人员中心
 使用 Power BI 内容包在 Power BI 中浏览和监视 Windows 开发人员中心应用分析数据。 此数据将每天自动刷新一次。

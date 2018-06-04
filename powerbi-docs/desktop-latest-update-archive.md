@@ -1,29 +1,21 @@
 ---
 title: 此前的每月 Power BI Desktop 更新
 description: Power BI Desktop 此前各版本的功能更新
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: identified
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 11e1b210d6d90f0f813f378775daac36e53dbaf0
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: f371e9bd4e1681d2e8fa06b1aeabfcd58a5dc4d1
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2018
-ms.locfileid: "33917173"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291157"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -55,7 +47,7 @@ ms.locfileid: "33917173"
 * 改进了针对视觉对象的默认排序  [[视频]](https://youtu.be/W_Nb73Od_AI?t=19m21s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sort) 
 * 数值切片器现已正式发布  [[视频]](https://youtu.be/W_Nb73Od_AI?t=21m13s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#numericSlicer) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 * 更新语言架构  [[视频]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[文章]](power-bi-custom-visuals-organization.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * 新 DAX 函数：COMBINEVALUES()  [[视频]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
@@ -113,7 +105,7 @@ ms.locfileid: "33917173"
 * SAP BW DirectQuery 现已公开发布 [[视频]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[文章]](desktop-directquery-sap-hana.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
 * Azure Analysis Services 连接器现已公开发布 [[视频]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[文章]](desktop-directquery-sap-hana.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
 
-### <a name="other"></a>Other
+### <a name="other"></a>其他
 
 * 改进了错误报告 [[视频]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[文章]](desktop-directquery-about.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
 * 查看之前遇到的错误 [[视频]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
@@ -164,7 +156,7 @@ ms.locfileid: "33917173"
 * 组织自定义视觉对象（预览）[[视频]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[文章]](power-bi-custom-visuals-organization.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 * 设置自定义日期表格 [[视频]](https://youtu.be/KeVB5RwMzJo?t=16m4s) [[文章]](desktop-date-tables.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
 * 快速度量值现已公开发布 [[视频]](https://youtu.be/KeVB5RwMzJo?t=17m52s) [[文章]](desktop-quick-measures.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
@@ -173,7 +165,7 @@ ms.locfileid: "33917173"
 
 * 针对 SAP HANA 的 DirectQuery 的改进（预览）[[视频]](https://youtu.be/KeVB5RwMzJo?t=30m1s) [[文章]](desktop-directquery-sap-hana.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
 
-### <a name="other"></a>Other
+### <a name="other"></a>其他
 
 * DirectQuery 性能改进 [[视频]](https://youtu.be/KeVB5RwMzJo?t=32m24s) [[文章]](desktop-directquery-about.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
 * 打开和保存性能改进 [[视频]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
@@ -223,7 +215,7 @@ ms.locfileid: "33917173"
 -   问答中的前 N 个选择[[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
 -   多个新的自定义视觉对象[[视频]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 -   相关系数快速度量[[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
 
@@ -274,7 +266,7 @@ ms.locfileid: "33917173"
 -   最近发布的自定义视觉对象 [[视频]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 -   钻取筛选其他视觉对象[[视频]](https://youtu.be/ZPU8B-1BxjI?t=28m53s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
 
@@ -329,7 +321,7 @@ ms.locfileid: "33917173"
 -   最近发布的自定义视觉对象 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=20m50s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 -   适用于多行卡片的多维 AS 模型的单元格级格式设置 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=27m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
 
@@ -339,7 +331,7 @@ ms.locfileid: "33917173"
 -   对 Impala 连接器的 Windows 身份验证支持 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
 
 
-### <a name="other"></a>Other
+### <a name="other"></a>其他
 
 -   查询编辑 -“通过示例添加列”功能改进 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=28m34s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
 

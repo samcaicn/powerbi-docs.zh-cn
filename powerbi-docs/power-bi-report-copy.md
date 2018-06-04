@@ -11,10 +11,11 @@ ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247794"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>从现有报表中创建新报表（复制报表）
 你可能拥有已连接到数据集的报表，以及某些希望重新使用或修改的视觉效果。  为什么不复制该报表，作为新报表的基础？  若要执行此操作：

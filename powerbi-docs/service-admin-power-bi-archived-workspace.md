@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 8b9fcf1c6121c4aeecfdf948b77493f1f2a7f825
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293619"
 ---
 # <a name="power-bi-archived-workspace"></a>Power BI 存档工作区
 借助 Power BI，任何人都可以在几分钟内进行注册并开始使用服务。  组织的 IT 部门以后可以选择针对组织中的用户接管 Power BI 的管理。  如果进行这种接管，则你会得益于对组织中的用户和权限进行集中管理，并且你能够利用简化登录（使用在组织中用于其他服务的相同用户名和密码）。 

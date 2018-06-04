@@ -11,10 +11,11 @@ ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 38c8787592407e15711617f0baac10f2a81790dd
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291595"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服务和 Power BI Desktop 中移动和调整报表中的可视化对象
 只有报表创建者与所有者可以移动和调整可视化对象。 在 Power BI 服务 (app.powerbi.com) 中，这意味着会在 [“编辑视图”](service-reading-view-and-editing-view.md) 中打开报表。

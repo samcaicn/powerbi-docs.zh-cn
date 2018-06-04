@@ -12,10 +12,11 @@ ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310282"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Power BI 报表中的静态内容
 使用 Power BI 服务和 Power BI Desktop 可将文本框和形状添加到报表。 在这两种情况下，必须具有报表的编辑权限。 如果已在 Power BI 服务中与你共享报表，你将没有编辑权限。 

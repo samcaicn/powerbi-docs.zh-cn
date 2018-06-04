@@ -11,10 +11,11 @@ ms.date: 12/21/2017
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 37f4663a176e81f2c235111092fcfa5576bfe08a
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244506"
 ---
 # <a name="analytics-pane-in-power-bi-service"></a>Power BI 服务中的分析窗格
 通过 **Power BI 服务**的“**分析**”窗格，可以向可视化效果添加动态参考行，并重点关注重要趋势或见解。

@@ -11,10 +11,11 @@ ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298311"
 ---
 # <a name="power-bi-premium-release-notes"></a>Power BI Premium 发行说明
 以下是 Power BI Premium 的发行说明，Power BI Premium 具有专用容量，可为组织或团队提供更可靠的性能、更大的数据量，并且支持在不具有每用户许可证的情况下为查看者分发内容。

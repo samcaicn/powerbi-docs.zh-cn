@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 955f4347630a781174d399d6a1363683745a4b3e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293481"
 ---
 # <a name="governance-and-deployment-approaches"></a>管理和部署方法
 在过去几十年中，各公司已迅速意识到策略性地利用数据资产从市场机遇中获利的必要性。 目前许多组织已通过进行竞争力分析或了解运营模式意识到将数据策略作为增强竞争力的途径大有裨益。  

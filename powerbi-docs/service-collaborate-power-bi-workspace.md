@@ -11,10 +11,11 @@ ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34245445"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>在 Power BI 应用工作区中展开协作
 Power BI 应用工作区是在仪表板、报表和数据集上与同事协作以创建应用的好地方。 这便是创建工作区的目的所在，即用于协作。 与同事在仪表板和报表上完成协作后，会将其打包为一个应用进行分发。 详细了解如何[在 Power BI 中创建应用和应用工作区](service-create-distribute-apps.md)。 

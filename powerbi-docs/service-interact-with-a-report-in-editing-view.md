@@ -11,10 +11,11 @@ ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34240421"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>在 Power BI 服务的“编辑视图”中与报表进行交互
 可在 Power BI 服务和 Power BI Desktop 中创建和编辑报表。 在 Power BI 服务中，可在“编辑视图”中创建和编辑报表。 而在 Power BI Desktop 中，可在“[报表视图](desktop-report-view.md)”中创建和编辑报表。 本文介绍了 Power BI 服务中的“编辑视图”。 

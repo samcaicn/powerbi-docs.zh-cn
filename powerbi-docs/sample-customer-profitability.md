@@ -11,10 +11,11 @@ ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
 ms.openlocfilehash: f20fe4595236381106b6cb2a676ffd3d3baa3971
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34471769"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客户盈利率示例：教程
 
@@ -164,7 +165,7 @@ ms.lasthandoff: 05/24/2018
 
 2.  从顶部菜单栏中，选择“提问”打开“问答”问题框。
 
-    ![提出与数据有关的问题](media/sample-customer-profitability/power-bi-ask-question.png)
+    ![询问数据相关问题](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. 键入 **Valery 的按行业划分的总收入**。 请注意当你键入问题时，可视化效果更新的方式。
 

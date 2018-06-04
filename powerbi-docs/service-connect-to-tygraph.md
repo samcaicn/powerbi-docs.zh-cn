@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 11073e7df57d4717e27fa73c6a5e1e315a9a8dcc
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34241127"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>使用 Power BI 连接到 tyGraph
 通过 Power BI 内容包可视化和浏览 Power BI 中的 tyGraph 数据。 首先，连接到你的 tyGraph 帐户并加载仪表板、报表和数据集。 现成内容包括见解，比如积极参与度（MAE 评分）和排名靠前的参与者。 进一步自定义它，以突出显示你最关注的信息。  将根据你设置的计划自动刷新数据。
@@ -37,7 +38,7 @@ ms.lasthandoff: 05/17/2018
 5. 提供 tyGraph 密钥进行连接。 请参阅以下有关查找此值的详细信息。
    
     **如果你是经过 Yammer 验证的管理员**  
-    成功创建 tyGraph 帐户后，API 密钥将通过电子邮件发送给你。 如果你再也找不到密钥，则可以通过向 support@unlimitedviz.com 发送一封电子邮件来请求新的密钥。如果你还没有 tyGraph 帐户，你可以在 [http://www.tygraph.com/](http://www.tygraph.com/) 开始试用。 
+    成功创建 tyGraph 帐户后，API 密钥将通过电子邮件发送给你。 如果你再也找不到密钥，则可以通过向 support@unlimitedviz.com 发送一封电子邮件来请求新的密钥。 如果你还没有 tyGraph 帐户，你可以在 [http://www.tygraph.com/](http://www.tygraph.com/) 开始试用。 
    
     **如果你不是经过 Yammer 验证的管理员**
    

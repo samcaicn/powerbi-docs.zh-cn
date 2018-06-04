@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 39c6c11e4815df507431648b1d317f9a62a4b1c3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299185"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 服务中的 R 程序包
 可以使用功能强大的 [R 编程语言](https://www.r-project.org/)在 Power BI 服务中创建视觉对象。 许多 R 程序包在 Power BI 服务中受到支持（并且更多包始终受支持），某些包不受支持。
@@ -95,7 +96,7 @@ R 程序包存在大量要求和限制：
 | catnet |1.14.8 |https://cran.r-project.org/web/packages/catnet/index.html |
 | caTools |1.17.1 |https://cran.r-project.org/web/packages/caTools/index.html |
 | cclust |0.6-20 |https://cran.r-project.org/web/packages/cclust/index.html |
-| class |7.3-14 |https://cran.r-project.org/web/packages/class/index.html |
+| 类 |7.3-14 |https://cran.r-project.org/web/packages/class/index.html |
 | clue |0.3-51 |https://cran.r-project.org/web/packages/clue/index.html |
 | cluster |2.0.3 |https://cran.r-project.org/web/packages/cluster/index.html |
 | coda |0.18-1 |https://cran.r-project.org/web/packages/coda/index.html |
@@ -109,7 +110,7 @@ R 程序包存在大量要求和限制：
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
 | data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
-| date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
+| 日期 |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
 | deepnet |0.2 |https://cran.r-project.org/web/packages/deepnet/index.html |
@@ -266,7 +267,7 @@ R 程序包存在大量要求和限制：
 | multcomp |1.4-4 |https://cran.r-project.org/web/packages/multcomp/index.html |
 | munsell |0.4.3 |https://cran.r-project.org/web/packages/munsell/index.html |
 | mvtnorm |1.0-5 |https://cran.r-project.org/web/packages/mvtnorm/index.html |
-| NbClust |3 |https://cran.r-project.org/web/packages/NbClust/index.html |
+| NbClust |季度 3 |https://cran.r-project.org/web/packages/NbClust/index.html |
 | ncvreg |3.5-1 |https://cran.r-project.org/web/packages/ncvreg/index.html |
 | networkD3 |0.2.13 |https://cran.r-project.org/web/packages/networkD3/index.html |
 | neuralnet |1.33 |https://cran.r-project.org/web/packages/neuralnet/index.html |

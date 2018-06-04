@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 05/19/2018
 ms.author: mihart
-ms.openlocfilehash: f9aa2a0d18e53c661b4639001bacdef6a508a7a4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bf196ccf45e964f6fc1044723f7232eaf60230e7
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34471792"
 ---
 # <a name="power-bi-videos"></a>Power BI 视频
 我们有一个关于 Power BI 的 YouTube 频道！ 你可以访问[我们的频道](https://www.youtube.com/user/mspowerbi/videos)，并且如果你是初次接触 Power BI，那么[使用 Power BI 分析和可视化数据播放列表](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)会是一个不错的起点。

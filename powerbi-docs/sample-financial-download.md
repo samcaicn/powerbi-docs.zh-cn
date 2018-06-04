@@ -11,10 +11,11 @@ ms.date: 05/21/2018
 ms.author: amac
 LocalizationGroup: Samples
 ms.openlocfilehash: 8a586561ea91fc8a66d70099938818372456df98
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34456018"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>下载 Power BI 的财务示例工作簿
 需要一些数据来尝试使用 Power BI 服务？ 我们有一个简单的 Excel 工作簿，其中包含可供下载的示例财务数据。  下面介绍如何进行下载：

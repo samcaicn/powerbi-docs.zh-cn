@@ -12,10 +12,11 @@ ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: f0e0dc02fc07849c68c00ce857da0ccbeb2d76df
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34240178"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 报表中的可视化效果
 可视化效果（亦称为“视觉对象”）显示已发现的数据见解。 在 Power BI 报表中，既可能一个页面上只有一个视觉对象，也可能页面上有大量视觉对象。 在 Power BI 服务中，可以将视觉对象[从报表固定到仪表板](service-dashboard-pin-tile-from-report.md)。 

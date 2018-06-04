@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: e77c77acb7808923097eb3e2146bef816eda51ee
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a1cbcc6d265504bc93ef6447a6be381ca6399063
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721745"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>使用适用于 Power BI 报表服务器的 REST API 进行开发
 Power BI 报表服务器支持表述性状态转移 (REST) API。 REST API 是支持一组 HTTP 操作（方法）的服务终结点，支持在报表服务器中创建、检索、更新或删除资源访问权限。
 
 REST API 提供以编程方式访问 Power BI 报表服务器目录中对象的选项。 对象的示例包括文件夹、报表、KPI、数据源、数据集、刷新计划、订阅等。 例如，你可以使用 REST API 导航文件夹层次结构，查找文件夹内容或下载报表定义等。 另外，还可以创建、更新和删除对象。 使用对象的示例包括上传报表、执行刷新计划、删除文件夹等。
+
+[!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 ## <a name="components-of-a-rest-api-requestresponse"></a>REST API 请求/响应的组件
 REST API 请求/响应对可以分为五个组件：

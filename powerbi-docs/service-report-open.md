@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 05/18/2018
 ms.author: mihart
-ms.openlocfilehash: 13a745e65f1166690ade4f0279e0374ed95f053b
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 8ff358b44697625c2971989ba562e3fd9a69afd8
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722876"
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>在 Power BI 服务 (app.powerbi.com) 中打开报表
 在 Power BI 服务、Power BI Desktop、移动 Power BI 甚至嵌入的 Power BI 中均提供了报表。 本文适用于在 Power BI 服务中打开报表。

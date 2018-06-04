@@ -12,10 +12,11 @@ ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34471585"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入门 - 使用 Power BI 服
 
@@ -127,7 +128,7 @@ ms.lasthandoff: 05/24/2018
 若要了解详细信息，请参阅 [Power BI 导航：搜索、排序、筛选](service-navigation-search-filter-sort.md)
 
 ## <a name="clean-up-resources"></a>清理资源
-完成本快速入门后，可以根据需要删除零售分析示例仪表板、报表和数据集。
+完成此快速入门后，如果需要，可以删除零售分析示例仪表板、报表和数据集。
 
 1. 打开 Power BI 服务 (app.powerbi.com) 并登录。    
 2. 在左侧的导航窗格中，选择“工作区”>“我的工作区”。  

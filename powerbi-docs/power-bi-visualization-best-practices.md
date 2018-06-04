@@ -11,10 +11,10 @@ ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 8716e6b5b75c7cd3db1b8daecfaae240f0647a50
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34297253"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>设计报表和视觉对象的最佳做法
@@ -24,7 +24,7 @@ ms.locfileid: "34297253"
 ## <a name="introduction"></a>简介
 本白皮书介绍了有关如何在 Power BI 中设计报表的最佳做法。 它从规划入手，介绍了可应用于报表及其页面和各个视觉对象的设计原则。  其中许多最佳做法同样适用于设计仪表板。
 
-我们希望你可以本白皮书为起点，将所掌握的知识活学活用，设计你自己的报表和可视化效果，同时访问 community.powerbi.com 继续相关交流。BI 报表设计和可视化效果用法是最近的热门话题，许多舆论导向者、博主和网站都对本主题进行了有广度、有深度的探究（我们在本文末尾处列出了几个示例）。   
+我们希望你可以本白皮书为起点，将所掌握的知识活学活用，设计你自己的报表和可视化效果，同时访问 community.powerbi.com 继续相关交流。 BI 报表设计和可视化效果用法是最近的热门话题，许多舆论导向者、博主和网站都对本主题进行了有广度、有深度的探究（我们在本文末尾处列出了几个示例）。   
 
 > [!NOTE]
 > 本白皮书中的建议是你在适用情况下遵循的准则。 对于下述每个原则，通常有令人信服的理由才能“违反规则”。

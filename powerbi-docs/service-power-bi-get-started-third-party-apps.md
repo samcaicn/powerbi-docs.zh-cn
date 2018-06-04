@@ -11,10 +11,11 @@ ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Get started
 ms.openlocfilehash: 7ac6cee3331333b40119d6f5ab014b2e39d2ef23
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251740"
 ---
 # <a name="get-started-with-third-party-apps"></a>开始使用第三方应用
 借助 Power BI，你可以使用由 Microsoft 以外的其他公司或个人构建的应用。 例如，你可以使用一个第三方应用，该应用将 Power BI 集成到自定义构建的 web 应用程序中。 当你使用第三方应用时，将要求你向应用程序授予对你的 Power BI 帐户和资源的某些权限。 重要的一点是，应仅向你知晓和信任的应用程序授予权限。 可随时撤消已授予应用程序的权限。 请参阅[撤消第三方应用权限](#revoke)。

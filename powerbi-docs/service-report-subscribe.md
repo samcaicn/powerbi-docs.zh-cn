@@ -1,21 +1,30 @@
 ---
 title: 在 Power BI 服务中订阅报表和仪表板
 description: 了解如何为你自己和其他人订阅 Power BI 报表和仪表板快照。
+services: powerbi
+documentationcenter: ''
 author: mihart
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: saQx7G0pxhc
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-service
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: fc4a84e3489b4b7adc24a58ed19c8e9eedb94293
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: af93d9d49b25fe2bc8fefcc2128dea74effc65ec
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34723014"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service-apppowerbicom"></a>在 Power BI 服务 (app.powerbi.com) 中订阅报表或仪表板
 现在，及时更新最重要的仪表板和报表，比以前更加轻松。 订阅最重要的报表页和仪表板，Power BI 将会通过电子邮件将快照发送到收件箱。 告知 Power BI 所需的电子邮件接收频率：从每天一次到每周一次。 
@@ -108,7 +117,7 @@ ms.lasthandoff: 05/17/2018
 * 电子邮件订阅与报表的默认筛选器和切片器状态一起发送。 你在订阅前对默认设置所做的任何更改都不会显示在电子邮件中。    
 * 由 Power BI Desktop 创建的实时连接到服务功能的报表页尚不支持电子邮件订阅。    
 * 对于仪表板订阅，具体来说，尚不支持某些类型的磁贴。  其中包括流磁贴、视频磁贴、自定义 Web 内容磁贴。     
-* 如果与租户外部的同事共享仪表板，此人将无法订阅仪表板或其关联的报表页。 因此，如果你是 aaron@xyz.com，可以与 anyone@ABC.com 共享内容。不过，anyone@ABC.com 无法订阅共享的内容。    
+* 如果与租户外部的同事共享仪表板，此人将无法订阅仪表板或其关联的报表页。 因此，如果你是 aaron@xyz.com，可以与 anyone@ABC.com 共享内容。  不过，anyone@ABC.com 无法订阅共享的内容。    
 * 由于电子邮件大小限制，可能无法订阅包含极大图像的仪表板或报表。    
 * 如果超过 2 个月一直没有人访问仪表板和报表，那么 Power BI 会自动暂停刷新与它们关联的数据集。  不过，如果添加对仪表板或报表的订阅，即使无人访问，也不会暂停刷新。    
 * 如果未收到订阅电子邮件，请确保用户主体名称 (UPN) 能够接收电子邮件。 [Power BI 团队正在努力放宽此要求](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163)，敬请关注。 

@@ -11,15 +11,16 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249059"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 中的仪表板磁贴
 仪表板和仪表板磁贴是 Power BI 服务的一项功能，而不是 Power BI Desktop 的功能。 虽然无法在 Power BI 移动设备中创建或固定仪表板磁贴，但可以[查看和共享](mobile-tiles-in-the-mobile-apps.md)这些磁贴。 在 Power BI 移动设备中，可以[使用 iPhone 应用将照片添加到仪表板](mobile-iphone-app-get-started.md)。
 
-## <a name="dashboard-tiles"></a>仪表板磁贴
+## <a name="dashboard-tiles"></a>在推入数据时
 ![Power BI 仪表板](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 磁贴就是固定到仪表板的数据快照。 磁贴可以从报表、数据集、仪表板、问答框、Excel 和 SQL Server Reporting Services (SSRS) 等中创建。  此屏幕截图显示了固定到仪表板的许多不同的磁贴。
