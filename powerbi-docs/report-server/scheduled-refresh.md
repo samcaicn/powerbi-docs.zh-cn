@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: fceeda7a135d097c3269c25e25fde0c8cd639767
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1e29898ed2c72b3a28bc2fd90dd430e45b5cde03
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296885"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799524"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表计划的刷新
 通过对 Power BI 报表设置计划的刷新，可使报表数据保持最新状态。
@@ -60,9 +60,6 @@ Power BI 报表服务器为所有计划的操作维护事件队列。 它会每�
 有关如何监视 Analysis Services 实例的信息，请参阅[监视 Analysis Services 实例](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance)。
 
 有关 Analysis Services 中内存设置的信息，请参阅[内存属性](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)。
-
-### <a name="authentication-and-kerberos"></a>身份验证和 Kerberos
-如果你的数据源被设置为使用 Windows 凭据，则可能需要配置 Kerberos 约束委派以正常工作。 有关详细信息，请参阅[在报表服务器上配置 Windows 身份验证](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)。
 
 ## <a name="next-steps"></a>后续步骤
 在 Power BI 报表上配置[计划的刷新](configure-scheduled-refresh.md)

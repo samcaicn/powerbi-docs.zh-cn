@@ -23,5 +23,5 @@
 
 如果你想做到面面俱到，请将 **ComputerName** 和 **Port** 值替换为对[端口](../service-gateway-onprem.md#ports)列出的相应项
 
-防火墙可能也会阻止 Azure 服务总线与 Azure 数据中心之间的连接。 如果是这种情况，那么你需要把这些数据中心中你所在区域的 IP 地址列入允许列表（取消阻止）。 你可以在[此处](https://www.microsoft.com/download/details.aspx?id=41653)获得 Azure IP 地址列表。
+防火墙可能也会阻止 Azure 服务总线与 Azure 数据中心之间的连接。 如果是这种情况，那么你需要把这些数据中心中你所在区域的 IP 地址列入白名单（取消阻止）。 你可以在[此处](https://www.microsoft.com/download/details.aspx?id=41653)获得 Azure IP 地址列表。
 

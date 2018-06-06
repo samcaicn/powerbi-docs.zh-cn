@@ -1,5 +1,5 @@
 ## <a name="sign-in-account"></a>登录帐户
-用户将使用工作或学校帐户登录。 这是你的组织帐户。 如果你注册了 Office 365 产品/服务，但没有提供实际的工作电子邮件，则可能类似于 nancy@contoso.onmicrosoft.com。你在云服务中的帐户存储于 Azure Active Directory (AAD) 中的租户内。 在大多数情况下，你的 AAD 帐户的 UPN 将与电子邮件地址匹配。
+用户将使用工作或学校帐户登录。 这是你的组织帐户。 如果你注册了 Office 365 产品/服务，但没有提供实际的工作电子邮件，则可能类似于 nancy@contoso.onmicrosoft.com。 你在云服务中的帐户存储于 Azure Active Directory (AAD) 中的租户内。 在大多数情况下，你的 AAD 帐户的 UPN 将与电子邮件地址匹配。
 
 ## <a name="windows-service-account"></a>Windows 服务帐户
 本地数据网关配置为使用 NT SERVICE\PBIEgwService 作为 Windows 服务登录凭据。 默认情况下，它有权作为服务登录。 这位于正在安装网关的计算机的上下文中。
@@ -16,7 +16,7 @@
 ## <a name="ports"></a>端口
 网关将创建与 Azure 服务总线的出站连接。 它可在以下出站端口上进行通信：TCP 443（默认）、5671、5672、9350 至 9354。  网关不需要入站端口。 [了解详细信息](https://azure.microsoft.com/documentation/articles/service-bus-fundamentals-hybrid-solutions/)
 
-建议你将防火墙中数据区域的 IP 地址列入允许列表。 可以下载 [Microsoft Azure 数据中心 IP 列表](https://www.microsoft.com/download/details.aspx?id=41653)。 此列表每周更新。 网关使用 IP 地址以及完全限定的域名 (FQDN) 与 Azure 服务总线进行通信。 如果使用 HTTPS 强制网关进行通信，则网关将仅使用 FQDN，如果使用 IP 地址则不会进行通信。
+建议你将防火墙中数据区域的 IP 地址列入白名单。 可以下载 [Microsoft Azure 数据中心 IP 列表](https://www.microsoft.com/download/details.aspx?id=41653)。 此列表每周更新。 网关使用 IP 地址以及完全限定的域名 (FQDN) 与 Azure 服务总线进行通信。 如果使用 HTTPS 强制网关进行通信，则网关将仅使用 FQDN，如果使用 IP 地址则不会进行通信。
 
 > [!NOTE]
 > Azure 数据中心 IP 列表中的 IP 地址以 CIDR 表示法列出。 例如，10.0.0.0/24 并不意味着 10.0.0.0 至 10.0.0.24。 了解有关 [CIDR 表示法](http://whatismyipaddress.com/cidr)的详细信息。
