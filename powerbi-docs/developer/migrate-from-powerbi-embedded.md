@@ -6,13 +6,14 @@ manager: kfile
 ms.reviewer: ''
 ms.Embedded: powerbi
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: bfee68658816d46e23a3b66f9b04b2069704a2b8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689774"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何将 Power BI 工作区集合内容迁移到 Power BI Embedded
 了解如何从 Power BI 工作区集合迁移到 Power BI Embedded，以及如何利用此改进功能在应用中嵌入内容。
@@ -26,9 +27,14 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/en-u
 > [!IMPORTANT]
 > 虽然 Power BI Embedded 上的迁移具有依赖项，但在使用嵌入令牌时，Power BI 上没有为应用程序的用户提供依赖项。 用户不需要注册 Power BI 来查看应用程序中嵌入的内容。 可为嵌入的非 Power BI 用户使用此嵌入方法。
 > 
-> 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
+
+开始迁移到新的 Power BI Embedded 之前，可以快速完成一个演练，它可以帮助你使用[载入体验工具](https://aka.ms/embedsetup)设置新的 Power BI Embedded 环境。
+
+选择最适合你的解决方案：
+* **为客户嵌入** - 适用于对[应用拥有数据](https://aka.ms/embedsetup/AppOwnsData)解决方案感兴趣的用户。 通过[为客户嵌入内容](embedding.md#embedding-for-your-customers)，可为没有 Power BI 帐户的用户嵌入仪表板和报表。 
+* **为组织嵌入** - 适用于对[用户拥有数据](https://aka.ms/embedsetup/UserOwnsData)解决方案感兴趣的用户。 通过[为组织嵌入内容](embedding.md#embedding-for-your-organization)，可以扩展 Power BI 服务。
 
 ## <a name="prepare-for-the-migration"></a>迁移准备
 需要完成一些准备工作才能从 Power BI 工作区集合迁移到 Power BI Embedded。 你将需要一个可用的租户，以及具有 Power BI Pro 许可证的用户。
@@ -63,10 +69,6 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/en-u
    
 > [!NOTE]
 > 这只是组织中用于嵌入用途的常规用户帐户。
->
-
-> [!NOTE]
-> 如果应用程序需要仅应用令牌身份验证，请单击[此处](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement)与我们联系。
 >
 
 ## <a name="app-registration-and-permissions"></a>应用注册和权限

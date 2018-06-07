@@ -8,14 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/19/2017
+ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 757f59b59ea13478a943650f23ef98d9cc5b3e08
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34553556"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>使用报表 Web 部件在 SharePoint Online 中嵌入报表
 
@@ -142,7 +143,9 @@ Power BI Web 部件中可能无法加载报表，并显示以下消息。
 
 * 如果使用的是 Internet Explorer 10，可能会遇到问题。 可以查看 [Power BI 支持的浏览器](service-browser-support.md)和 [Office 365 支持的浏览器](https://products.office.com/office-system-requirements#Browsers-section)。
 
-* Power BI Web 部件在[国家云](https://powerbi.microsoft.com/en-us/clouds/)中不可用。 
+* Power BI Web 部件在[主权云](https://powerbi.microsoft.com/en-us/clouds/)中不可用。
+
+* 此 Web 部件不支持经典 SharePoint Server。
 
 ## <a name="next-steps"></a>后续步骤
 

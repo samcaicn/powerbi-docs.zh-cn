@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 21ceec0ea522bd45a937096bcd778f2695c1edc3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722807"
 ---
 # <a name="on-premises-data-gateway"></a>本地数据网关
 
@@ -93,6 +94,11 @@ ms.lasthandoff: 05/17/2018
 
 目前没有一个集中位置供租户管理员在其中管理其他用户已安装并配置的所有网关。  如果你是租户管理员，建议你请求组织中的用户将你添加为他们所安装的每个网关的管理员。 这样你便可以通过“网关设置”页或通过 [PowerShell 命令](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters)管理组织中的所有网关。 
 
+## <a name="enabling-outbound-azure-connections"></a>启用出站 Azure 连接 
+本地数据网关依赖 Azure 服务总线提供云连接，并相应地建立到其关联 Azure 区域的出站连接。 默认情况下，这是你的 Power BI 租户的位置。 查看我的 [Power BI 租户位于何处？](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+如果防火墙阻止出站连接，则必须配置防火墙，使其允许从本地数据网关到其关联 Azure 区域的出站连接。 请参阅 [Microsoft Azure 数据中心 IP 范围](https://www.microsoft.com/en-us/download/details.aspx?id=41653)详细了解每个 Azure 数据中心 IP 地址范围。
+> [!NOTE]
+> IP 地址范围可能随时间而变化，因此请确保定期下载最新信息。 
 
 ## <a name="troubleshooting"></a>故障排除
 如果在安装和配置网关时遇到问题，请务必参阅[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)。 如果你认为你的防火墙有问题，请参阅故障排除文章中的[防火墙或代理](service-gateway-onprem-tshoot.md#firewall-or-proxy)部分。

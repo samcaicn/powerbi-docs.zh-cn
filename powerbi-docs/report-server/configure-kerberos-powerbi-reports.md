@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: c4429c33f52954852f430e582064c813b11555b7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a9173ba6b4689a6cc71eba679f9bcc0c54de048c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481776"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>配置 Kerberos 以使用 Power BI 报表
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -214,7 +215,7 @@ SPN 的放置也类似于 Power BI 报表服务器 SPN 的放置。 不同之处
 虽然此配置在大多数情况下都适用于 Kerberos，但也可以指定不同的配置，具体视环境而定。 如果报表仍未加载，请与你的域管理员联系以展开进一步调查，或与支持人员联系。
 
 ## <a name="next-steps"></a>后续步骤
-[管理员手册](admin-handbook-overview.md)  
+[管理员概述](admin-handbook-overview.md)  
 [安装 Power BI 报表服务器](install-report-server.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

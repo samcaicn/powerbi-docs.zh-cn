@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ab5afb36458d7e1b5271a356bb1532ba77de6408
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722649"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>为本地数据网关配置代理设置
 你的工作环境可能要求你通过代理访问 Internet。 这会阻止本地数据网关连接到该服务。
@@ -50,6 +51,19 @@ superuser.com 上的以下文章讨论了尝试确定网络上有无代理的可
     </system.net>
 
 默认配置适用于 Windows 身份验证。 如果你的代理服务器使用另一种形式的身份验证，则你将需要更改设置。 如果你不确定，则应与你的网络管理员联系。
+
+除使用默认凭据外，还可以添加 <proxy> 元素以更详细地定义代理服务器设置。 例如，可以通过将 bypassonlocal 参数设为 false，指定本地数据网关应始终使用代理，即使对于本地资源也是如此。 如果想在代理日志文件中跟踪来自本地数据网关的所有 https 请求，这样做有助于进行故障排除。 下面的示例配置指定所有请求都必须通过 IP 地址为 192.168.1.10 的特定代理。
+
+    <system.net>
+        <defaultProxy useDefaultCredentials="true">
+            <proxy  
+                autoDetect="false"  
+                proxyaddress="http://192.168.1.10:3128"  
+                bypassonlocal="false"  
+                usesystemdefault="true"
+            />  
+        </defaultProxy>
+    </system.net>
 
 若要了解有关 .NET 配置文件代理元素配置的详细信息，请参阅 [defaultProxy 元素（网络设置）](https://msdn.microsoft.com/library/kd3cf2ex.aspx)。
 

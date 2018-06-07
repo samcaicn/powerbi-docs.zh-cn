@@ -3,18 +3,18 @@ title: 为客户将 Power BI 内容嵌入应用中
 description: 了解如何使用 Power BI API，为客户将报表、仪表板或磁贴集成到或嵌入 Web 应用中。
 author: markingmyname
 ms.author: maghan
-ms.date: 05/07/2018
+ms.date: 05/25/2018
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: dd46617f5a3b1445c597656148e4068ef3cfed92
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: ae683dfbeb7b3848575ab766c33b695eb823d497
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2018
-ms.locfileid: "34445224"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721032"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 报表、仪表板或磁贴嵌入应用程序中
 使用“Azure 中的 Power BI Embedded”，可以借助“应用拥有数据”将报表、仪表板或磁贴嵌入到应用程序中。 **应用拥有数据**是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 这通常是一种 ISV 开发者方案。 ISV 开发者可以创建 Power BI 内容以便在完全集成并交互的应用程序中显示报表、仪表板或磁贴，应用程序的用户无需 Power BI 许可证，甚至不必知道是在 Power BI 下操作。 本教程演示当针对使用“应用拥有数据”的客户使用“Azure 中的 Power BI Embedded”时，如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将报表集成到应用程序中。
@@ -36,6 +36,9 @@ ms.locfileid: "34445224"
 
 在开始将报表、仪表板和磁贴嵌入到应用程序中之前，需要确保环境已设置为允许嵌入。 在设置过程中，需要执行以下操作。
 
+可跟随[载入体验工具](https://aka.ms/embedsetup/AppOwnsData)完成操作，以便快速开始并下载示例应用程序，它会逐步引导你创建环境并嵌入报表。
+
+但是，如果选择手动设置环境，则可以继续进行下面的操作。
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>在 Azure Active Directory (Azure AD) 中注册应用程序
 
 向 Azure Active Directory 注册应用程序，以允许应用程序访问 Power BI REST API。 此操作能够为应用程序建立标识，并指定对 Power BI REST 资源的权限。

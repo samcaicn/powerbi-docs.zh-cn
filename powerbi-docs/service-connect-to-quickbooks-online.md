@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ab914cd883d9a297150dd9a33dce9c6ce76308bf
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7caf471674c20607826550fc14f8ebc8e772b61a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584245"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>使用 Power BI 连接到 QuickBooks Online
 从 Power BI 连接到 QuickBooks Online 数据时，你将立即获得一个 Power BI 仪表板和 Power BI报表，报表提供了关于业务现金流、盈利率和客户等的信息。 按原样使用仪表板和报表，或者对其进行自定义以突出显示你最关注的信息。 此数据每天自动刷新一次。
@@ -22,7 +23,7 @@ ms.lasthandoff: 05/17/2018
 连接到适用于 Power BI 的 [QuickBooks Online 内容包](https://dxt.powerbi.com/getdata/services/quickbooks-online)。
 
 >[!NOTE]
->若要将你的 QuickBooks Online 数据导入 Power BI，你需要是 QuickBooks Online 帐户管理员，并使用管理员帐户凭据进行登录。
+>若要将你的 QuickBooks Online 数据导入 Power BI，你需要是 QuickBooks Online 帐户管理员，并使用管理员帐户凭据进行登录。 无法在 QuickBooks Desktop 软件中使用此连接器。 
 
 ## <a name="how-to-connect"></a>如何连接
 1. 选择左侧导航窗格底部的**获取数据**。

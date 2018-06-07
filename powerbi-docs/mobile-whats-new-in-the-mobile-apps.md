@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 5bd38c7973a4820b98e6591a12a8950987759b93
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482167"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -21,6 +22,12 @@ ms.lasthandoff: 05/17/2018
 * [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 中的新增功能](desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](service-whats-new.md)  
+
+## <a name="may-2018"></a>2018 年 5 月
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>为报表服务器远程配置 Power BI iOS 移动应用
+
+现在，你的 IT 管理员可以使用 MDM 工具配置 Power BI iOS 移动应用对报表服务器的访问权限。 有关详细信息，请参阅[远程配置 Power BI iOS 移动应用对报表服务器的访问权限](report-server/configure-powerbi-mobile-apps-remote.md)。
 
 ## <a name="april-2018"></a>2018 年 4 月
 
@@ -187,7 +194,7 @@ Power BI 报表服务器预览 - 在本地创建和发布 Power BI 报表。 然
 #### <a name="ios-devices"></a>iOS 设备
 使用问答这一预览功能就你的数据提问 
 
-借助问答功能，可以用自己的话就你的数据提问，然后 Power BI 会回答你的问题。 问答已在 http://powerbi.com 上的 Power BI 服务中提供。现在它也在 [iPhone 或 iPad 上的移动应用中提供](mobile-apps-ios-qna.md)。
+借助问答功能，可以用自己的话就你的数据提问，然后 Power BI 会回答你的问题。 问答已在 http://powerbi.com 上的 Power BI 服务中提供。 现在它也在 [iPhone 或 iPad 上的移动应用中提供](mobile-apps-ios-qna.md)。
 
 连接多台 SSRS 服务器 
 

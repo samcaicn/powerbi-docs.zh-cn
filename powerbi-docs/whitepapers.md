@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
 ms.openlocfilehash: e64850351c9bdc1877eed3a53323e7934e11fbe7
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34445109"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 白皮书
 
@@ -34,7 +35,7 @@ ms.lasthandoff: 05/22/2018
 | [双向筛选](desktop-bidirectional-filtering.md) |介绍了 Power BI Desktop 中的双向交叉筛选（此白皮书还介绍了 SQL Server Analysis Services 2016，两者行为相同）。 |
 | [SQL Server 2016 Analysis Services 中的 DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |针对 SQL Server 2016，DirectQuery 经过重新设计，显著提高了速度和性能，但现在的理解和实现过程也更为复杂。 |
 | [Power BI 和 SAP BW](https://aka.ms/powerbiandsapbw)| 本文档介绍 SAP 客户如何在连接 Power BI 和现有 SAP Business Warehouse (BW) 系统的过程中受益。|
-| [Power BI 治理和部署方法](http://go.microsoft.com/fwlink/?LinkId=785915&clcid=0x409) | 介绍了 Power BI 生态系统内部治理的概念、方法和建议。 |
+| [Power BI 治理和部署方法](http://go.microsoft.com/fwlink/?LinkId=785915&clcid=0x409) | 提供 Power BI 内部生态系统管理的概念、选项和建议。 |
 | [保护表格 BI 语义模型](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |本白皮书介绍了表格 BI 语义和 Power BI 的安全模型。 你将了解如何创建角色，实现动态安全性，配置模拟设置，管理角色，以及选择连接到在你的网络安全上下文中工作的模型的方法。 |
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

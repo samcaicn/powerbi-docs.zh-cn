@@ -234,6 +234,8 @@
                   href: service-dashboard-featured.md
                 - name: Power BI 统一通知中心
                   href: service-notification-center.md
+                - name: 仪表板主题
+                  href: service-dashboard-themes.md
             - name: 报表
               items:
                 - name: 更改 Power BI 报表中的图表排序方式
@@ -572,6 +574,8 @@
               href: desktop-import-excel-workbooks.md
             - name: 使用泛型接口连接到数据
               href: desktop-connect-using-generic-interfaces.md
+            - name: 连接到 Adobe Analytics
+              href: desktop-connect-adobe-analytics.md
             - name: 连接到 Oracle 数据库
               href: desktop-connect-oracle-database.md
             - name: 在 Power BI Desktop 中运行 R 脚本
@@ -616,8 +620,6 @@
               href: desktop-directquery-sap-hana.md
             - name: Power BI Desktop 中的假设引用完整性设置
               href: desktop-assume-referential-integrity.md
-            - name: Oracle 和 Teradata 数据库的 DirectQuery
-              href: desktop-directquery-for-oracle-teradata.md
             - name: 在 Power BI Desktop 中使用 SAP BW 连接器（预览）
               href: desktop-sap-bw-connector.md
             - name: 在 Power BI Desktop 中使用 OneDrive for Business 链接
@@ -712,7 +714,7 @@
               href: desktop-create-phone-report.md
             - name: 使用“查看数据”和“查看记录”
               href: desktop-see-data-see-records.md
-        - name: 可视化效果
+        - name: 可视化
           items:
             - name: 可视化最佳实践
               href: power-bi-visualization-best-practices.md
@@ -788,6 +790,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: Power BI 报表中的辅助功能
           href: desktop-accessibility.md
+        - name: 管理 Power BI Desktop 登录窗体
+          href: desktop-admin-sign-in-form.md
 - name: Power BI 移动应用
   items:
     - name: 概述

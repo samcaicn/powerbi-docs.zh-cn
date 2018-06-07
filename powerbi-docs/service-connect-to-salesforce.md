@@ -7,14 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f5eeb877488539254478ad4bc25d64d663b797f1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e36cff803af74d212f4c1804fe3a955a11c193cf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722442"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>使用 Power BI 连接到 Salesforce
 你可以使用 Power BI 轻松连接到你的 Salesforce.com 帐户。 创建此连接可检索你的数据，并自动提供基于数据的仪表板和相关报表。
@@ -74,6 +75,11 @@ ms.lasthandoff: 05/17/2018
 
 ## <a name="troubleshooting"></a>故障排除
 如果遇到任何错误，请查看上述要求。 另请注意，当前不支持登录到自定义或沙盒域的功能。
+
+### <a name="unable-to-connect-to-the-remote-server-message"></a>“无法连接到远程服务器”消息
+
+如果在尝试连接到 Salesforce 帐户时收到“无法连接到远程服务器”消息，请参阅 Outsystems 论坛上的这一解决方案：[Salesforce 连接器登录错误消息：无法连接到远程服务器](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)
+
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 入门](service-get-started.md)

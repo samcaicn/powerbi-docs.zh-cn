@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 51f813d4d92ac94b43c0f2b7cd0fcad1f0673b5e
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722945"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI 中的 SQL Server Analysis Services 实时数据
 在 Power BI 中，有两种方法可以连接到实时的 SQL Server Analysis Services 服务器。 获取数据时，可以连接到 SQL Server Analysis Services 服务器，或者可以连接到已连接到 Analysis Services 服务器的 [Power BI Desktop 文件](service-desktop-files.md)或 [Excel 工作簿](service-excel-workbook-files.md)。 根据最佳做法，Microsoft 强烈建议使用 Power BI Desktop，因为它提供丰富的工具集，并且能够在本地维护 Power BI Desktop 文件的备份副本。
@@ -44,9 +45,12 @@ ms.lasthandoff: 05/22/2018
 ## <a name="dashboard-tiles"></a>仪表板磁贴
 如果将视觉对象从报表固定到仪表板，那么将每 10 分钟自动刷新固定的磁贴。 如果更新了本地 Analysis Services 服务器中的数据，那么 10 分钟后会自动更新磁贴。
 
+## <a name="common-issues"></a>常见问题
+
+* 无法加载模型架构错误 - 连接到 SSAS 的用户无权访问 SSAS 数据库、多维数据集和模型时，会发生此错误。
+
 ## <a name="next-steps"></a>后续步骤
 [本地数据网关](service-gateway-onprem.md)  
 [管理 Analysis Services 数据源](service-gateway-enterprise-manage-ssas.md)  
 [本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
-

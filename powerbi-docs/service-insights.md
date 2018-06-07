@@ -8,22 +8,22 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 19b7bf6105a2d178d51d8068f0226160b8a28467
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 8be938b1a75f754b7c23a57a5a0ccfdb4e60032b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561876"
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>通过 Power BI 自动生成数据见解
 你有新数据集，但不太确定要从何处着手？  需要快速生成仪表板？  想要查找你可能错失的见解？
 
 运行快速见解便可基于你的数据生成有趣的交互式可视化效果。 你可以对整个数据集（快速见解）或对特定仪表板磁贴（作用域内见解）运行快速见解。 甚至可以在某个见解上运行见解！
 
-> 注意：见解不适用于 DirectQuery，仅适用于上传到 Power BI 的数据。
-> 
+> **注意**：见解不适用于 DirectQuery，仅适用于上传到 Power BI 的数据。
 > 
 
 见解功能以一组与 Microsoft Research 联合开发且数量不断增长的[高级分析算法](service-insight-types.md)为基础构建而成，我们将继续通过该功能让更多人以新颖直观的方式从其数据中寻找见解。

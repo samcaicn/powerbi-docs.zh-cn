@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 94f137f0b8627bf34e78d9ac36574c64dd5d4752
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561807"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI 报表服务器容量计划指南
 Power BI 报表服务器是自助式 BI 和企业报表解决方案，客户可以在本地（防火墙后）进行部署。 它将 Power BI Desktop 的交互式报表功能与 SQL Server Reporting Services 的本地服务器平台相结合。 随着企业中对分析和报表的大量日益频繁使用，对衡量企业用户群所需的硬件基础结构和软件许可证进行预算可能会成为一项挑战。 本文旨在通过共享针对报表服务器的各种工作负载的大量加载测试执行的结果，提供 Power BI 报表服务器的容量计划指南。 虽然组织的报表、查询和使用模式差异巨大，但是本文中显示的结果，以及所用的实际测试和测试执行方式的详细描述，均可用作部署 Power BI 报表服务器早期阶段计划过程中的任何用户的参考点。
@@ -49,7 +50,7 @@ Power BI 报表服务器部署由以下虚拟机组成：
 请参阅附录 1.1 Power BI 报表服务器拓扑和附录 1.2 Power BI 报表服务器虚拟机配置，了解拓扑中所用的每台虚拟机的全面配置。
 
 ### <a name="tests"></a>测试
-GitHub 项目“Reporting Services LoadTest”(https://github.com/Microsoft/Reporting-Services-LoadTest) 公开了负载测试中运行的测试。 此工具可以让用户研究 SQL Server Reporting Services 和 Power BI 报表服务器的性能、可靠性、可伸缩性和可恢复性特征。 此项目包含四组测试用例：
+负载测试运行中所用的测试在名为 [Reporting Services LoadTest](https://github.com/Microsoft/Reporting-Services-LoadTest) 的 GitHub 项目公开可用。 此工具可以让用户研究 SQL Server Reporting Services 和 Power BI 报表服务器的性能、可靠性、可伸缩性和可恢复性特征。 此项目包含四组测试用例：
 
 * 模拟呈现 Power BI 报表的测试、
 * 模拟呈现移动报表的测试、
@@ -113,7 +114,7 @@ GitHub 项目“Reporting Services LoadTest”(https://github.com/Microsoft/Repo
 ### <a name="1-topology"></a>1 拓扑
 **1.1 Power BI 报表服务器拓扑**
 
-为专注于不同配置下的 Power BI 报表服务器行为，修复了每种类型的计算机（托管 Power BI 报表服务器的计算机除外）的 VM 配置。 根据具有高级存储磁盘的第二代 (v2) D 系列计算机对每台计算机进行了预配。 可以在 https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/ 上的“常规用途”下详细了解各个 VM 大小。
+为专注于不同配置下的 Power BI 报表服务器行为，修复了每种类型的计算机（托管 Power BI 报表服务器的计算机除外）的 VM 配置。 根据具有高级存储磁盘的第二代 (v2) D 系列计算机对每台计算机进行了预配。 可以在 https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/ 上的“常规用途”下找到有关每个 VM 大小的详细信息。
 
 | 虚拟机类型 | 处理器 | 内存 | Azure VM 大小 |
 | --- | --- | --- | --- |
@@ -123,7 +124,7 @@ GitHub 项目“Reporting Services LoadTest”(https://github.com/Microsoft/Repo
 
 **1.2 Power BI 报表服务器虚拟机配置** 
 
-不同的处理器和内存配置用于托管 Power BI 报表服务器的虚拟机。 和其他 VM 不同，此计算机根据具有高级存储磁盘的第三代 (v3) D 系列计算机进行了预配。 可以在 https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/ 上的“常规用途”下详细了解此 VM 大小。
+不同的处理器和内存配置用于托管 Power BI 报表服务器的虚拟机。 和其他 VM 不同，此计算机根据具有高级存储磁盘的第三代 (v3) D 系列计算机进行了预配。 可以在 https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/ 上的“常规用途”下找到有关此 VM 大小的详细信息。
 
 | 虚拟机 | 处理器 | 内存 | Azure VM 大小 |
 | --- | --- | --- | --- |
@@ -133,7 +134,7 @@ GitHub 项目“Reporting Services LoadTest”(https://github.com/Microsoft/Repo
 ### <a name="2-run-the-loadtest-tool"></a>2 运行 LoadTest 工具
 如果想针对自己的 Power BI 报表服务器部署或 Power BI 报表服务器的 Microsoft Azure 部署运行 Reporting Services LoadTest 工具，请遵循以下步骤。
 
-1. 从 GitHub 克隆“Reporting Services LoadTest”项目 (https://github.com/Microsoft/Reporting-Services-LoadTest)。
+1. 从 GitHub 中克隆 Reporting Services LoadTest 项目 (https://github.com/Microsoft/Reporting-Services-LoadTest))。
 2. 在项目目录中，将找到一个名为 RSLoadTests.sln 的解决方案文件。 在 Visual Studio 2015 或更高版本中打开此文件。
 3. 确定是要针对自己的 Power BI 报表服务器部署，还是针对 Microsoft Azure 中的 Power BI 报表服务器部署运行此工具。 如果要对自己的部署运行此工具，请转到步骤 5。
 4. 按照 https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure 上列出的说明操作，在 Azure 中创建 Power BI 报表服务器环境。

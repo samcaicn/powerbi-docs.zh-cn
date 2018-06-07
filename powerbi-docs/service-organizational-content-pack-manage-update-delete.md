@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4ede737287c830d70283e3a73b627c59c38d1564
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4371846e77412c67d7441a993dca80493ef92e34
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689863"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和删除组织内容包
 > [!NOTE]
@@ -71,7 +72,7 @@ ms.lasthandoff: 05/17/2018
 作为内容包创建者，你可以[计划数据集的刷新](refresh-data.md)。  当你创建并上传内容包时，该刷新计划将于数据集一起上传。 如果更改刷新计划，你需要重新发布内容包（见上文）。
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>从 AppSource 中删除组织内容包
-只有内容包创建者才能从 AppSource 中删除内容包。 
+只有内容包创建者才能从 AppSource 中删除内容包。 如果已在应用工作区中创建组织内容包，又决定删除该工作区，请务必先删除内容包。 如果在未先删除内容包的情况下删除工作区，你将失去对这些内容包的全部访问权限，需要联系 Microsoft 支持部门以获取帮助。 
 
 > [!TIP]
 > 如果不是内容包创建者，可以[断开与内容包的连接](service-organizational-content-pack-disconnect.md)。 此操作不会从 AppSource 中删除内容包。

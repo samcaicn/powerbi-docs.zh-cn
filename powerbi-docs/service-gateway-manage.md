@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 53995f0ee723590ae4e419eb62de0d9230deb4b6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34298403"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722580"
 ---
 # <a name="manage-a-power-bi-gateway"></a>管理 Power BI 网关
 
@@ -48,7 +48,7 @@ Power BI 支持多个本地数据源，每个都具有自己的要求。 对于�
 
 5. 对于 SQL Server，你可以选择 Windows 或“基本”的“身份验证方法”（SQL 身份验证）。  如果选择“基本”，则输入数据源的凭据。
 
-6. 在“高级设置”下，可以选择配置数据源的[“隐私级别”]((https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540))（不适用于 [DirectQuery](desktop-directquery-about.md)）。
+6. 在“高级设置”下，可以选择配置数据源的[隐私级别](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)（不适用于 [DirectQuery](desktop-directquery-about.md)）。
 
     ![高级设置](media/service-gateway-manage/advanced-settings.png)
 
