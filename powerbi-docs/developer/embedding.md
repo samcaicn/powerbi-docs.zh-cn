@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/30/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 043bd43ac6d0abcd4cc4bae54f4ee57cc4ef2a41
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561738"
 ---
 # <a name="embedding-with-power-bi"></a>使用 Power BI 嵌入
 Power BI 提供用于将仪表板和报表嵌入应用的 API。 在嵌入内容时，Power BI API 提供一组固定不变的功能，并提供对最新 Power BI 功能（如仪表板、网关和应用工作区）的访问权限。
@@ -32,11 +33,13 @@ Power BI 提供用于将仪表板和报表嵌入应用的 API。 在嵌入内容
 
 若要为组织嵌入内容，请参阅以下演练：
 
+* [将报表集成到应用](integrate-report.md)
 * [将仪表板集成到应用](integrate-dashboard.md)
 * [将磁贴集成到应用](integrate-tile.md)
-* [将报表集成到应用](integrate-report.md)
 
 为 Power BI 用户进行嵌入时，通过 [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) 可使用编辑和保存等自助服务功能。
+
+可浏览[用于为组织嵌入的载入体验工具](https://aka.ms/embedsetup/UserOwnsData)以快速开始并下载示例应用程序，它会逐步引导你为组织集成报表。
 
 ## <a name="embedding-for-your-customers"></a>为客户嵌入内容
 通过为客户嵌入内容，可为没有 Power BI 帐户的用户嵌入仪表板和报表。 客户无需了解有关 Power BI 的一切。 至少需要有一个 Power BI Pro 帐户才能创建嵌入式应用程序。 Power BI Pro 帐户充当应用程序的主帐户。 将其视为代理帐户。 借助 Power BI Pro 帐户，还可以生成嵌入令牌，用于访问应用程序拥有/管理的 Power BI 服务中的仪表板和报表。 
@@ -50,11 +53,12 @@ Power BI 提供用于将仪表板和报表嵌入应用的 API。 在嵌入内容
 > [!IMPORTANT]
 > 尽管嵌入操作依赖于 Power BI 服务，但在为客户嵌入内容时并不依赖于 Power BI Pro。 用户不需要注册 Power BI 来查看应用程序中嵌入的内容。
 > 
-> 
 
 准备迁移到生产环境时，必须为应用工作区分配容量。 Microsoft Azure 中的 Power BI Embedded 提供对应用使用的容量。
 
 有关嵌入方法的详细信息，请参阅[如何嵌入 Power BI 仪表板、报表和磁贴](embedding-content.md)。
+
+可跟随[用于为客户嵌入的载入体验工具](https://aka.ms/embedsetup/AppOwnsData)完成操作，以便快速开始并下载示例应用程序，它会逐步引导你向应用程序中集成报表。
 
 如果使用的是 Power BI 工作区集合 Azure 服务，请参阅[从 Power BI 工作区集合 Azure 服务迁移内容](migrate-from-powerbi-embedded.md)，了解如何迁移内容。
 

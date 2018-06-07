@@ -24,3 +24,6 @@
 ### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>错误：无法将用户添加到组。  (-2147463168   PBIEgwService   Performance Log Users   )
 如果尝试在域控制器上安装网关，你可能会收到此错误。 不支持在域控制器上部署。 你需要在不是域控制器的计算机上部署网关。
 
+### <a name="installation-fails"></a>安装失败
+如果安装计算机上的防病毒软件已过期，可能会遇到安装失败。 可以更新防病毒软件安装，或者仅在网关安装期间禁用防病毒软件，完成后立即重新启用防病毒软件。
+

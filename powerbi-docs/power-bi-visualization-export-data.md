@@ -8,14 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a3192910faf41bee925eb4938098bccb6434bb2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4d67499c571d736da3a8cebed5826c708911cc4d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584153"
 ---
 # <a name="export-data-from-visualizations"></a>从可视化效果导出数据
 若要查看用于创建可视化效果的数据，可以[在 Power BI 中显示该数据](service-reports-show-data.md)或将这些数据以 .xlsx 或.csv 文件形式导出到 Excel。   
@@ -31,7 +32,7 @@ Watch 将从其报表中的其中一个可视化效果导出数据，将其保�
 2. 选择导出数据图标。
    
     ![](media/power-bi-visualization-export-data/pbi_export_dash.png)
-3. 数据导出到.csv 文件中。 如果筛选了视觉对象，那么下载的数据也将进行筛选。
+3. 数据导出到.csv 文件中。 如果筛选了视觉对象，那么下载的数据也将进行筛选。    
 4. 你的浏览器将提示你保存该文件。  保存后，在 Excel 中打开该 .csv 文件。
    
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
@@ -84,6 +85,7 @@ Watch 将从其报表中的其中一个可视化效果导出数据，将其保�
 * Power BI 仅支持导出使用基本聚合的视觉对象。 不支持导出使用模型或报表度量值的视觉对象。
 * 目前不支持自定义视觉对象和 R 视觉对象。
 * 不可以对使用已与其共享的仪表板的组织外用户导出数据。 
+* 在 Power BI 中，双击字段并键入新的名称，即可对该字段（列）进行重命名。  这个新的名称叫作别名。 Power BI 报表可以包含重复的字段名称，但 Excel 不允许重复。  因此，将数据导出到 Excel 后，字段别名将还原为其原始字段（列）名称。  
 * 如果 .csv 文件中存在 unicode 字符，那么 Excel 中的文本可能不会正常显示。 不过，在记事本中打开它则会正常显示。 Unicode 字符的示例是货币符号和外语单词。 对此的解决方法是将 csv 文件导入到 Excel 中，而不是直接打开 csv 文件。 如何执行此操作：
   
   1. 打开 Excel

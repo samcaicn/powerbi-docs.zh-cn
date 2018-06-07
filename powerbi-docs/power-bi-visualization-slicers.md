@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2018
+ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297345"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721492"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的切片器
 你希望报表读者能够查看总体销售指标，但同时突出显示各个地区经理和不同时间范围的业绩表现。 可以创建单独的报表或比较图表，也可以使用切片器。 切片器是另一种筛选方法，用于限制在报表的其他可视化效果中显示的部分数据集。 
@@ -43,6 +43,13 @@ Power BI 切片器存在以下限制：
 ## <a name="create-slicers"></a>创建切片器
 
 若要创建新的切片器，可以选择切片器图标，然后选择要筛选的数据字段（或将其拖到“可视化效果”窗格的“字段”框中），也可以首先选择或拖动数据字段来创建可视化效果，然后选择切片器图标将可视化效果转换为切片器。 不同数据类型创建不同类型的切片器，并带有不同的效果和选项。 
+
+首次更改报表时，“重置为默认值”按钮将亮起。 这可以提醒你，你已对原始报表设置进行更改。 如果离开报表，将保存（保留）这种更改。 返回报表时，不需要对报表进行重新切片。  但是，如果想将报表重置为作者的默认设置，请选择顶部菜单栏中的“重置为默认值”按钮。
+
+![“还原为默认值”按钮](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+
+> [!NOTE]
+> 如果“重置为默认值”按钮保持禁用状态，则表示报表作者已为报表禁用该功能，或报表包含自定义视觉对象。 将鼠标悬停在该按钮上，即可查看工具提示以获取说明。 
 
 **创建新的切片器来按地区经理筛选数据**
 

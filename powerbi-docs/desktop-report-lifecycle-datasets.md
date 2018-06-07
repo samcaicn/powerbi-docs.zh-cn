@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1bf5f83265c9d4fc11532b647207f8d273aab50c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721101"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>通过 Power BI Desktop 连接 Power BI 服务中的数据集
 可以与 Power BI 服务中的共享数据集建立实时连接，并根据同一数据集创建多个不同的报表。 也就是说，可以在 Power BI Desktop 中创建理想的数据模型，将其发布到 Power BI 服务中，然后你和其他人可以根据同一通用数据模型创建多个不同的报表（独立的 .pbix 文件）。 此功能称为“Power BI 服务实时连接”。
@@ -35,6 +36,8 @@ Power BI 的普及带来了一个问题，就是报表、仪表板及其基础�
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>使用实时连接功能连接 Power BI 服务数据集
 创建自己的报表（及其依据的数据集）后，Anna 将报表发布到 **Power BI 服务**中，此报表显示在 Power BI 服务中她团队的工作区内。 现在，她的工作区中的每个人都可以查看并使用此报表。
+
+若要了解有关工作区的详细信息，请参阅[应用工作区](service-create-distribute-apps.md#app-workspaces)。
 
 她的工作区中的其他成员现在可以与 Anna 共享的数据模型建立实时连接（使用 **Power BI 服务实时连接**功能），并根据她的原始数据集创建自己独一无二的报表。
 

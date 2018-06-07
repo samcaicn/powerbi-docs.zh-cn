@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 391edc8a2187f9a4af43b93f0713d40e41f6e943
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 07c393425d2a04376a4fcf81c2c35a0e115eeaee
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295413"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481939"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 了解 Power BI 报表服务器中的新增功能。 本文涉及主要功能方面，并会在新功能发布时随之进行更新。
@@ -32,6 +32,12 @@ ms.locfileid: "34295413"
 * [Power BI 服务中的最近更新](../service-whats-new.md)
 * [Power BI Desktop 中的新增功能](../desktop-latest-update.md)
 * [Power BI 移动应用中的新增功能](../mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2018"></a>2018 年 5 月
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>为报表服务器远程配置 Power BI iOS 移动应用
+
+作为 IT 管理员，你现在可以使用组织的 MDM 工具来远程配置 Power BI iOS 移动应用对报表服务器的访问权限。 有关详细信息，请参阅[远程配置 Power BI iOS 移动应用对报表服务器的访问权限](configure-powerbi-mobile-apps-remote.md)。
 
 ## <a name="march-2018-release"></a>2018 年 3 月版本
 
@@ -101,7 +107,7 @@ ms.locfileid: "34295413"
 - [搜索“格式化”和“分析”窗格](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [字段属性窗格和字段说明](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 - [UTCNOW() 和 UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [标记自定义日期表](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
@@ -204,7 +210,7 @@ Power BI 报表服务器现在支持新的 Power BI 表和矩阵视觉对象。 
 * 通过注释增强了报表协作
 
 ## <a name="next-steps"></a>后续步骤
-[用户手册](user-handbook-overview.md)  
+[什么是 Power BI 报表服务器？](get-started.md) 
 [管理员手册](admin-handbook-overview.md)  
 [安装 Power BI 报表服务器](install-report-server.md)  
 [安装报表生成器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  

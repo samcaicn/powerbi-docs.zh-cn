@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/15/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721377"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>浏览报表“筛选器”窗格
 本文将深入介绍报表“筛选器”窗格。 你将在 [Power BI 服务编辑视图和阅读视图](service-reading-view-and-editing-view.md)以及 [Power BI Desktop 报表视图](desktop-report-view.md)中看到该窗格。
@@ -22,7 +23,7 @@ ms.lasthandoff: 05/17/2018
 在 Power BI 中可以使用多种不同的方式筛选数据，我们建议首先阅读 [关于筛选器和突出显示](power-bi-reports-filters-and-highlighting.md)。
 
 ## <a name="working-with-the-report-filters-pane"></a>使用报表“筛选器”窗格
-在 Power BI Desktop 中，报表是在“报表视图”中打开的。 在 Power BI 服务中，可在[“编辑视图”或“读取视图”](service-reading-view-and-editing-view.md)中打开报表。 在“编辑视图”和“Desktop 报表视图”中，报表所有者可[向报表添加筛选器](power-bi-report-add-filter.md)，这些筛选器将与报表一起保存。 在“读取视图”中查看报表的人员可与这些筛选器进行交互，但不能向报表添加新的筛选器。
+在 Power BI Desktop 中，报表是在“报表视图”中打开的。 在 Power BI 服务中，可在[“编辑视图”或“读取视图”](service-reading-view-and-editing-view.md)中打开报表。 在“编辑视图”和“Desktop 报表视图”中，报表所有者可[向报表添加筛选器](power-bi-report-add-filter.md)，这些筛选器将与报表一起保存。 在“阅读”视图中查看报表的人员可与这些筛选器进行交互并保存更改，但不能向报表添加新的筛选器。
 
 在 Power BI 服务中，报表会保留你在“筛选器”窗格中做出的所有更改，并且这些更改会保留至该报表的移动版本。 要将“筛选器”窗格还原为创建者默认值，请从顶部菜单栏中选择“还原为默认值”。     
 

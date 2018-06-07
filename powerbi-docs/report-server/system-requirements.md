@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/18/2018
 ms.author: maghan
-ms.openlocfilehash: 2963dbe2a5d1109e4396568624e16bf49d98da10
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481709"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>安装 Power BI 报表服务器所要满足的硬件和软件要求
 本文介绍了安装并运行 Power BI 报表服务器所要满足的最低硬件和软件要求。
@@ -57,7 +58,7 @@ Power BI 报表服务器将安装默认值，以配置报表服务器正常运�
  虽然报表服务器可以安装在包含只读域控制器 (RODC) 的环境中，但 Reporting Services 必须有权访问读/写域控制器，才能正常工作。 如果 Reporting Services 仅有权访问 RODC，那么你可能会在尝试管理服务时看到错误消息。
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Power BI 报表和 Analysis Services 实时连接
-你可以使用针对表格或多维实例的实时连接。 Analysis Services 服务器必须满足正确的版本要求，才能正常工作。
+你可以使用针对表格或多维实例的实时连接。 Analysis Services 服务器必须满足适当的版本要求，才能正常工作。
 
 | **服务器版本** | **所需的 SKU** |
 | --- | --- |
@@ -66,8 +67,8 @@ Power BI 报表服务器将安装默认值，以配置报表服务器正常运�
 | 2016 和更高版本 |标准 SKU 或更高版本 |
 
 ## <a name="next-steps"></a>后续步骤
-[用户手册](user-handbook-overview.md)  
-[管理员手册](admin-handbook-overview.md)  
+[什么是 Power BI 报表服务器？](get-started.md)  
+[管理员概述](admin-handbook-overview.md)  
 [安装 Power BI 报表服务器](install-report-server.md)  
 [安装报表生成器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

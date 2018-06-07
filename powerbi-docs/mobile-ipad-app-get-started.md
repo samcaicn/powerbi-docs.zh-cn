@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
 ms.openlocfilehash: ded3ad829a0c9a2d4892a5a06250f60a93662c61
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294769"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>iPad 上的 Power BI 移动应用入门
 iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 
@@ -38,7 +39,7 @@ iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报�
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>注册 Power BI 服务
-如果尚未注册，请转到 Power BI (https://powerbi.com) 注册服务。 注册是免费的。
+如果还未注册，请转到 Power BI (https://powerbi.com)) 以注册该服务。 注册是免费的。
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 应用入门
 1. 在 iPad 中打开 Power BI 应用。
@@ -56,7 +57,7 @@ iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报�
 ### <a name="power-bi-samples"></a>Power BI 示例
 可以查看 Power BI 仪表板示例并与之交互，但有一些事项不能对其执行操作。 无法打开仪表板背后的报表、与他人共享示例，或将其加入收藏夹。
 
-1. 点击左上角的 ![全局导航按钮 ](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) ，然后点击“设置”图标 ![设置图标](media/mobile-ipad-app-get-started/power-bi-ios-settings-gear.png)。
+1. 点击左上角的 ![全局导航按钮 ](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) ，然后点击“设置”图标 ![设置图标](media/mobile-ipad-app-get-started/power-bi-ios-settings-gear.png).
 2. 点击“Power BI 示例”，然后选择一个角色，并浏览该角色的示例仪表板。  
    
    ![Power BI 示例](media/mobile-ipad-app-get-started/pbi_ipad_samples2.png)
@@ -67,7 +68,7 @@ iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报�
    > 
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services 移动报表示例
-1. 点击左上角的 ![全局导航按钮 ](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) ，然后点击“设置”图标 ![设置图标](media/mobile-ipad-app-get-started/power-bi-ios-settings-gear.png)。
+1. 点击左上角的 ![全局导航按钮 ](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) ，然后点击“设置”图标 ![设置图标](media/mobile-ipad-app-get-started/power-bi-ios-settings-gear.png).
 2. 点击“Reporting Services 示例”，然后打开零售报表或销售报表文件夹以浏览 KPI 和移动报表。
    
    ![Reporting Services 示例](media/mobile-ipad-app-get-started/power-bi-reporting-services-samples.png)

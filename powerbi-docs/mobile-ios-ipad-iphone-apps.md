@@ -10,17 +10,18 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
 ms.openlocfilehash: b0785555e288084f97d06d05161ebef78d21731c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34292952"
 ---
 # <a name="explore-your-data-on-the-power-bi-mobile-app-for-ios-devices"></a>在适用于 iOS 设备的 Power BI 移动应用上浏览数据
 适用于 iOS 的 Microsoft Power BI 提供了针对 iPad、iPhone、Apple Watch 和 iPod Touch 的移动 BI 体验。 这些应用为重要业务信息提供实时、可触控移动访问，因此无论你身在何处，都可以查看组织的 Power BI 仪表板和报表，以及 Reporting Services 移动报表和 KPI，并与之进行交互。 浏览仪表板中的数据，并通过电子邮件或短信与同事共享这些数据。
 
 ![iPhone 和 iPad](media/mobile-ios-ipad-iphone-apps/pbi_ipad_iphonedevices.png)
 
-转到 Power BI (https://powerbi.com) 注册 Power BI 服务。
+转到 Power BI (https://powerbi.com)) 注册 Power BI 服务。
 
 请参阅 [what's new in the Power BI mobile apps（Power BI 移动应用中的新功能）](mobile-whats-new-in-the-mobile-apps.md)。
 

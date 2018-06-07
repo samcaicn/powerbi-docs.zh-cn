@@ -7,24 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/18/2017
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 4277a8353fa6d9538ff050f0c08b9644d4a218c6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482236"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看本地报表服务器报表和 KPI
+
+使用 Power BI 移动应用，可以通过触控移动设备实时访问 Power BI 报表服务器和 SQL Server 2016 Reporting Services (SSRS) 中的本地业务信息。
+
 适用于：
 
 | ![iPhone](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![iPad](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![Android 手机](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![Android 平板电脑](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手机 |Android 平板电脑 |
 
-使用 Power BI 移动应用，可以通过触控移动设备实时访问 Power BI 报表服务器和 SQL Server 2016 Reporting Services (SSRS) 中的本地业务信息。 
 
- ![移动应用中的报表服务器主文件夹](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-pbi-report-server-home.png)
+![移动应用中的报表服务器主文件夹](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-pbi-report-server-home.png)
 
 ## <a name="first-things-first"></a>要做的第一件事
 移动应用是用于查看 Power BI 内容（而不是创建内容）的地方。
@@ -38,12 +41,12 @@ ms.lasthandoff: 05/17/2018
 ## <a name="explore-samples-in-the-mobile-apps-without-a-server-connection"></a>不使用服务器连接在移动应用中探索示例
 即使无权访问 Reporting Services Web 门户，也仍可以探索 Reporting Services 移动报表和 KPI 的功能。 
 
-1. 点击左上角的 ![全局导航按钮 ](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) ，然后点击右上角的齿轮图标 ![齿轮图标](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png)。
+1. 点击左上角的 ![全局导航按钮 ](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) ，然后点击右上角的齿轮图标 ![齿轮图标](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png).
 2. 点击“Reporting Services 示例”，然后转到相应位置，与示例 KPI 和移动报表进行交互。
    
    ![Reporting Services 示例](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
-## <a name="connect-to-an-on-premises-server"></a>连接本地服务器
+## <a name="connect-to-an-on-premises-report-server"></a>连接到本地报表服务器
 可以在 Power BI 移动应用中查看本地 Power BI 报表、Reporting Services 移动报表和 KPI。 
 
 1. 在移动设备中，打开 Power BI 应用。
@@ -78,10 +81,28 @@ ms.lasthandoff: 05/17/2018
    
    ![左侧导航窗格中的报表服务器](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
+## <a name="connect-to-an-on-premises-report-server-in-ios"></a>在 iOS 中连接到本地报表服务器
+
+如果你在 iOS 移动应用中查看 Power BI，IT 管理员可能定义了应用配置策略。 如果是这样，连接报表服务器的体验就会得到简化，连接报表服务器时不需要提供这么多的信息。 
+
+1. 你将看到一条消息，表示以为移动应用配置报表服务器。 点击“登录”。
+
+    ![登录报表服务器](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-sign-in.png)
+
+2.  在“连接到服务器”页上，已填写报表服务器详细信息。 点击“连接”。
+
+    ![已填写报表服务器详细信息](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-remote-configure-connect-server.png)
+
+3. 键入密码进行身份验证，然后点击“登录”。 
+
+    ![已填写报表服务器详细信息](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-address.png)
+
+现在，你可以查看存储在报表服务器上的 KPI 和 Power BI 报表并与之交互。
+
 ## <a name="view-power-bi-reports-and-kpis-in-the-power-bi-app"></a>在 Power BI 应用中查看 Power BI 报表和 KPI
 Power BI 报表、Reporting Services 移动报表和 KPI 的文件夹与它们在 Reporting Services Web 门户上的文件夹相同。 
 
-* 点击 Power BI 报表 ![Power BI 报表图标](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png)。 它将以横向模式打开，并可在 Power BI 应用中与之交互。
+* 点击 Power BI 报表 ![Power BI 报表图标](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). 它将以横向模式打开，并可在 Power BI 应用中与之交互。
   
     ![Power BI 报表](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
 * 在 Power BI Desktop 中，报表所有者可以为 Power BI 移动应用[优化报表](desktop-create-phone-report.md)。 在你的移动手机上，已优化的报表都具有一个特殊的图标 ![Optimized Power BI report icon](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png)和布局。

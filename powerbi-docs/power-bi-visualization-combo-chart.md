@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9288c44194a7eabebfa9888b1bca0023a54950e8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6cc9b9cafe2b3efdb8e51e89c203e2cb123e909a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293573"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584268"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI 中的组合图
 在 Power BI 中，组合图是将折线图和柱形图合并在一起的单个可视化效果。 通过将两个图表合并为一个图表可以进行更快的数据比较。
@@ -105,6 +105,7 @@ Power BI 服务和 Power BI Desktop 均支持组合图。 本教程使用 Power 
 
 * [将组合图添加为仪表板磁贴](service-dashboard-tiles.md)。
 * [保存报表](service-report-save.md)。
+* [残障人士能够更轻松地访问报表](desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>交叉突出显示和交叉筛选
 

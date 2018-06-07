@@ -1,6 +1,6 @@
 ---
 title: Power BI 服务内容包程序概述
-description: 内容包认证计划
+description: 内容包认证程序
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 02/20/2018
 ms.author: maghan
 ms.openlocfilehash: cfb9727a41d602ce14bfd2a403a87e82d2f0e94d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290628"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 服务内容包程序概述
 内容包是一组全新的内容，允许用户立即获取源中的见解。 内容包通常集中在特定业务方案，提供关于角色、域或工作流的见解。
@@ -41,7 +42,7 @@ ISV 可以生成模板内容包，允许客户使用其自己的帐户连接并�
 * 必须具有由业务用户使用的 SaaS 应用程序。
 * SaaS 应用程序具有可以在 Power BI 中进行可视化的用户数据。
 * SaaS 应用程序具有可通过公共 Internet 访问的 API。 理想情况下，API 是基于 REST 的 API 或 OData 数据源。 Power BI 内容包支持多种身份验证类型，如基本身份验证、OAuth 2.0 和 API 密钥。 
-* 你的 SaaS 应用程序批准用于发布内容包。 您的请求提交到 pbiservicesapps@microsoft.com。我们将对每次提交的相关性和预期使用情况进行评审。 
+* 你的 SaaS 应用程序批准用于发布内容包。 您的请求提交到 pbiservicesapps@microsoft.com。 我们将对每次提交的相关性和预期使用情况进行评审。 
 * 已签署合作伙伴协议。 你将在[提交步骤](template-content-pack-testing.md#submission)中执行该操作。
 
 请查看[创作](template-content-pack-authoring.md)部分，了解有关技术要求的详细信息。
@@ -76,7 +77,7 @@ Power BI 服务内容包支持任何 REST API 或 OData 数据源。 Power BI �
 
 可以随时通过以下电子邮件向我们发送你的问题：[pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
-## <a name="support"></a>Support
+## <a name="support"></a>支持
 若要在开发过程中获取支持，请访问 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)。 该网站有专门人员监视和管理。 客户事件可快速找到通往合适团队的方法。
 
 ## <a name="next-step"></a>下一步

@@ -11,16 +11,17 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fb1344bea9256c63e3f8e34581fcabe7f5136f90
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 321e66fd5ed185a92c98bf7832dc3b71944be98d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689705"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 服务中的数据警报
 设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。 
 
-只能为报表视觉对象固定到的磁贴设置警报，而且只能为仪表、KPI 和卡片设置警报。 可以为从报表固定到仪表板的流数据集中创建的视觉对象设置警报，但无法直接在仪表板上使用“添加磁贴” > “自定义流数据”为创建的流磁贴设置警报。 
+如果你拥有 Power BI Pro 许可证，或者有人利用[高级版功能](service-premium.md)与你共享了仪表板，你可以为磁贴设置警报。 只能为报表视觉对象固定到的磁贴设置警报，而且只能为仪表、KPI 和卡片设置警报。 可以为从报表固定到仪表板的流数据集中创建的视觉对象设置警报，但无法直接在仪表板上使用“添加磁贴” > “自定义流数据”为创建的流磁贴设置警报。 
 
 即使共享你的仪表板，也只有你可以看到自己设置的警报。 数据警报跨平台完全同步；可以在 [Power BI 移动应用](mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服务中设置和查看数据警报。 它们对 Power BI Desktop 不可用。 警报甚至可以是[与 Microsoft Flow 集成的自动警报](https://flow.microsoft.com) - [试试吧](service-flow-integration.md)。
 
@@ -77,10 +78,10 @@ ms.lasthandoff: 05/17/2018
 ### <a name="from-the-tile-itself"></a>从磁贴本身
 1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 ![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png)，重新打开“管理警报”。 将显示已为该磁贴设置的所有警报。
    
-    ![管理警报窗口](media/service-set-data-alerts/powerbi-see-alerts.png)。
+    ![管理警报窗口](media/service-set-data-alerts/powerbi-see-alerts.png).
 2. 若要修改警报，请选择警报名称左侧的箭头。
    
-    ![警报名称旁的箭头](media/service-set-data-alerts/powerbi-see-alerts-arrow.png)。
+    ![警报名称旁的箭头](media/service-set-data-alerts/powerbi-see-alerts-arrow.png).
 3. 若要删除警报，请选择警报名称右侧的垃圾桶。
    
       ![已选中垃圾桶图标](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
@@ -88,7 +89,7 @@ ms.lasthandoff: 05/17/2018
 ### <a name="from-the-power-bi-settings-menu"></a>从 Power BI 设置菜单
 1. 从 Power BI 菜单栏选择齿轮图标。
    
-    ![齿轮图标](media/service-set-data-alerts/powerbi-gear-icon.png)。
+    ![齿轮图标](media/service-set-data-alerts/powerbi-gear-icon.png).
 2. 在“设置”下，选择“警报”。
    
     ![“设置”窗口的“警报”选项卡](media/service-set-data-alerts/powerbi-alert-settings.png)

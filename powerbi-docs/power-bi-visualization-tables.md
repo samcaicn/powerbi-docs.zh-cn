@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37f4e06aee41b8741dd3a1a1a52e3237fbd893a3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 22eb44048d8a4f681d8d112ce3fdb5a841d0511e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293251"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584222"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>使用 Power BI 报表和仪表板中的表
 表是以逻辑序列的行和列表示的包含相关数据的网格。 它还包含标头和合计行。 表格可以进行数量比较，可以在其中查看单个类别的多个值。 例如，该表显示了**类别**的 5 个不同的度量值。
@@ -80,7 +80,7 @@ ms.locfileid: "34293251"
   
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 
-### <a name="conditional-formatting"></a>条件格式设置
+### <a name="conditional-formatting"></a>条件格式
 一种类型的格式设置称为条件格式设置，可应用于 Power BI 服务或桌面的“可视化效果”窗格的“值”框的字段中。 
 
 通过表的条件格式设置，可以根据单元格值指定自定义单元格背景色和字体颜色，包括使用渐变色。 
@@ -119,6 +119,9 @@ ms.locfileid: "34293251"
 有时 Power BI 会截断仪报表中或仪表板上的列标题。 若要显示整个列名称，将鼠标悬停在标题右侧的空白处以显示双箭头，然后选择并拖动它。
 
 ![](media/power-bi-visualization-tables/resizetable.gif)
+
+## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
+* 应用列格式时，每列只能选择一个对齐选项：自动、左对齐、居中和右对齐。 通常情况下，一个列包含的内容全部为文本或全部为数字，而不是二者的混合。 但如果某列同时包含数字和文本，选择“自动”选项时，文本左对齐、数字右对齐。 此行为支持从左往右阅读的语言。   
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 891e9d35be271f6479a832b234a69132736f09a5
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6e1b2960eee8f436f8dbce660e755a5d0b39a68e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721561"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>刷新方案故障排除
 此处介绍了关于在 Power BI 服务中刷新数据时可能会遇到的各种情况的信息。
@@ -56,6 +57,14 @@ Microsoft 正在研究一个解决方案，允许数据加载过程刷新令牌�
 
 ## <a name="scheduled-refresh-timeout"></a>计划的刷新超时
 导入数据集的计划刷新在两个小时后超时。 对于高级工作区中的数据集，此超时增加到五个小时。 如果你遇到此限制，可以考虑降低数据集的大小或复杂性，或者考虑将数据集拆分为更小的部分。
+
+## <a name="access-to-the-resource-is-forbidden"></a>禁止访问该资源  
+缓存凭据过期可能导致发生此错误。 转到 Power BI 签名并转到 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true，以清除 Internet 浏览器缓存。 这将强制更新你的凭据。 
+    
+    
+## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>密码更改或凭据过期会导致数据刷新失败 
+数据刷新也可能因缓存过期而失败。 转到 Power BI 签名并转到 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true，以清除 Internet 浏览器缓存。 这将强制更新你的凭据。
+
 
 ## <a name="next-steps"></a>后续步骤
 [数据刷新](refresh-data.md)  

@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e5e49d2f30cca4c0c731d29fe31d2cb6856066f2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721952"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>在报表服务器中将注释添加到报表
 可以在报表服务器 Web 门户中将注释添加到报表，包括 Power BI 报表。 注释与报表存放在一起，拥有适当权限的任何人都可以看到该报表的注释。 请参阅下面的[权限](#permissions)部分，了解详细信息。
@@ -44,7 +45,7 @@ ms.lasthandoff: 05/17/2018
 * 查看所有注释；发布、编辑和删除自己的注释；以及删除其他人的注释。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 报表服务器用户手册](user-handbook-overview.md)  
+* [什么是 Power BI 报表服务器？](get-started.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

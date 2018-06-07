@@ -10,15 +10,16 @@ ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maghan
 ms.openlocfilehash: 1a29767eb76122865e93927bbbec1fbdcebe5678
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290766"
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Power BI 中的模板内容包体验
 本节重点介绍了连接到 ISV [内容包](../service-connect-to-services.md)的用户典型体验。 
 
-通过在 https://app.powerbi.com/getdata/services 上连接到已发布的内容包（如下述的 [GitHub 内容包](https://app.powerbi.com/getdata/services/github)），亲自尝试连接体验。
+通过连接到已发布的内容包，亲自尝试连接体验，地址是 https://app.powerbi.com/getdata/services（例如以下所述的 [GitHub 内容包](https://app.powerbi.com/getdata/services/github)）。
 
 ## <a name="connect"></a>连接
 若要开始，用户需浏览内容包库并选择要连接的内容包。 内容包条目提供名称、图标以及为用户提供详细信息的描述性文本。

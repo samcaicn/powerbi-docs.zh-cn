@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7006d35a76780313e4d57d0d489b5b25ed92b4d2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561692"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>向 Power BI 服务报表添加筛选器（在“编辑视图”中）
 > [!TIP]
@@ -28,7 +29,7 @@ ms.lasthandoff: 05/17/2018
 可使用下列两种模式与报表交互：[阅读视图](service-reading-view-and-editing-view.md)和[编辑视图](service-interact-with-a-report-in-editing-view.md)。  而筛选功能会根据你所用的模式来提供。
 
 * 在“编辑视图”中，可以添加报表、页面和视觉对象筛选器。 保存报表时，筛选器将随之一起保存。 在“读取视图”中查看报表的人可以与你添加的筛选器交互。
-* 在“读取视图”中，可以与报表中已存在的任意报表、钻取、页面和视觉对象筛选器交互，但不能添加新的筛选器。 你在“筛选器”窗格中所做的更改会随报表一起保存，即使是使用移动应用查看该报表。  
+* 在“读取视图”中，可以与报表中已存在的任意报表、钻取、页面和视觉对象筛选器交互，但不能添加新的筛选器。 但是，即使是在移动应用中查看报表，即使离开报表后返回，你在“筛选器”窗格中进行的更改也会随报表一起保存下列。  
 
 > [!NOTE]
 > 本文介绍了如何在报表“**编辑视图**”中创建筛选器。  有关“读取视图”中的筛选器的详细信息，请参阅[在报表“读取视图”中与筛选器交互](service-reading-view-and-editing-view.md)。
@@ -44,7 +45,11 @@ ms.lasthandoff: 05/17/2018
 - **钻取筛选器**可应用于报表中的单个实体    
 - **报表筛选器**可应用于报表中的所有页面    
 
-    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+    ![“阅读视图”中的“筛选器”窗格](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+
+因为筛选器具有持久性，即当你离开报表时，Power BI 将保留你对筛选器、切片器和其他数据视图的更改。 所以当你返回报表时，可以从离开的位置继续。 如果不希望保留你对筛选器的更改，请选择顶部菜单栏中的“重置为默认值”。
+
+![“持久性筛选器”按钮](media/power-bi-report-add-filter/power-bi-reset-to-default.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>向特定可视化效果添加筛选器（又称视觉筛选器）
 有两种方法可以实现此目的： 
@@ -135,12 +140,13 @@ ms.lasthandoff: 05/17/2018
 1. 选择后退箭头返回到上一个报表页。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>为何你的视觉级筛选器与页面级筛选器会返回不同的结果
-当你添加视觉级筛选器时，Power BI 会筛选聚合结果。  默认聚合为“求和”，不过你也可以[更改聚合类型](service-aggregates.md)。  
 
-当你添加页面级筛选器时，Power BI 会筛选但不聚合。  这是因为页面可能有多个视觉对象，而且每个视觉对象可能使用不同的聚合类型。  因此，该筛选器会应用于每个数据行。
+- 某些情况下，视觉对象级别筛选器与页面级别筛选器会返回不同的结果。  例如，添加视觉对象级别筛选器时，Power BI 会筛选聚合结果。  默认聚合为“求和”，不过你也可以[更改聚合类型](service-aggregates.md)。  
 
-如果未看到“字段”窗格，请确保你处于报表[编辑视图](service-interact-with-a-report-in-editing-view.md)中
+    然而，添加页面级别筛选器时，Power BI 会在不聚合的情况下进行筛选。  这是因为页面可能有多个视觉对象，而且每个视觉对象可能使用不同的聚合类型。  因此，该筛选器会应用于每个数据行。
+
+- 如果未看到“字段”窗格，请确保你处于报表[编辑视图](service-interact-with-a-report-in-editing-view.md)中    
+- 如果对筛选器进行了大量更改，而希望返回报表作者的默认设置，请选择顶部菜单栏中的“重置为默认值”。
 
 ## <a name="next-steps"></a>后续步骤
  [如何使用报表筛选器](power-bi-how-to-report-filter.md)

@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b70a9ef7774d1ba49bc5bf825a5c1cde47197f2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561784"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>更改 Power BI 报表中的图表排序方式
 在 Power BI 报表中，可以按图表中类别名称的字母顺序，或者每个类别的数值对大多数可视化对象排序。 例如，下图按商店名称排序。
@@ -29,6 +30,13 @@ ms.lasthandoff: 05/17/2018
    ![](media/power-bi-report-change-sort/sortby.gif)
 
    **注意**：并非所有视觉对象都可以排序。  例如，以下视觉对象无法排序：树状图、地图、着色地图、散点图、仪表图、卡片图、多行卡片图、瀑布图。
+
+## <a name="saving-changes-you-make-to-sort-order"></a>保存对排序顺序的更改
+Power BI 报表可保留你对筛选器、切片器、排序和其他数据视图的更改。 因此，如果离开报表并在稍后返回，会保存你的更改。  如果想要将更改还原为报表作者的设置，请选择顶部菜单栏中的“重置为默认值”。 
+
+![持久性排序](media/power-bi-report-change-sort/power-bi-reset-to-default.png)
+
+但是，如果“重置为默认值”按钮灰显，则表示作者已禁用保存（保留）更改的功能。
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>使用其他条件排序

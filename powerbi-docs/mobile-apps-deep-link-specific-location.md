@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
 ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34297713"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>创建指向 Power BI 移动应用中特定位置的链接
 可以创建和使用统一资源标识符 (URI) 链接到所有移动平台（iOS、Android 设备和 Windows 10）上 Power BI 移动应用中的特定位置（即 *深层链接* ）。
@@ -33,7 +34,7 @@ URI 链接可以直接指向仪表板、磁贴和报表。
 
     mspbi://app/OpenDashboard?DashboardObjectId=<36-character-dashboard-id>
 
-若要查找包含 36 个字符的仪表板对象 ID，请转到 Power BI 服务 (https://powerbi.com) 中的特定仪表板。 有关示例，请参阅以下 URL 中的突出显示部分：
+若要查找包含 36 个字符的仪表板对象 ID，请转到 Power BI 服务 (https://powerbi.com)) 中的特定仪表板。 有关示例，请参阅以下 URL 中的突出显示部分：
 
 https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**
 
@@ -48,7 +49,7 @@ mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60
 
     mspbi://app/OpenTile?DashboardObjectId=<36-character-dashboard-id>&TileObjectId=<36-character-tile-id>
 
-若要查找包含 36 个字符的仪表板和磁贴对象 ID，请转到 Power BI 服务 (https://powerbi.com) 中的特定仪表板，再打开处于焦点模式的磁贴。 有关示例，请参阅以下 URL 中的突出显示部分：
+若要查找包含 36 个字符的仪表板和磁贴对象 ID，请转到 Power BI 服务 (https://powerbi.com)) 中的特定仪表板，然后打开处于焦点模式的磁贴。 有关示例，请参阅以下 URL 中的突出显示部分：
 
 https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus
 
@@ -65,7 +66,7 @@ https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7*
 
     mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>
 
-若要查找包含 36 个字符的报表对象 ID，请转到 Power BI 服务 (https://powerbi.com) 中的特定报表。 有关示例，请参阅以下 URL 中的突出显示部分：
+若要查找包含 36 个字符的报表对象 ID，请转到 Power BI 服务 (https://powerbi.com)) 中的特定报表。 有关示例，请参阅以下 URL 中的突出显示部分：
 
 https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
 
@@ -74,7 +75,7 @@ https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
 
     mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>&reportPage=ReportSection<number>
 
-此报表页名为“ReportSection（后跟一个数字）”。 同样，在 Power BI 服务 (https://powerbi.com) 中打开报表，再转到特定的报表页。 
+此报表页名为“ReportSection（后跟一个数字）”。 同样，在 Power BI 服务 (https://powerbi.com)) 中打开报表，再转到特定的报表页。 
 
 有关示例，请参阅以下 URL 中的突出显示部分：
 

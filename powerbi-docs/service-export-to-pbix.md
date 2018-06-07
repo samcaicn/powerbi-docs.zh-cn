@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722534"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>将报表从 Power BI 服务导出到 Power BI Desktop（预览）
 在 Power BI Desktop 中，可以通过保存报表并选择“ **发布** ”来导出（也称为“ *下载* ”）报表至 Power BI 服务。 也可以从其他方向导出，并将报表从 Power BI 服务下载至 Desktop。 无论导出方向如何，导出文件的扩展名都是 .pbix。
@@ -57,6 +58,7 @@ ms.lasthandoff: 05/19/2018
 * 此功能对最初在 **Power BI 服务**中创建的报表及内容包均不适用。
 * 应始终使用 **Power BI Desktop** 的最新版本打开下载的文件。 在 **Power BI Desktop** 的非当前版本中可能无法打开下载的 *.pbix* 文件。
 * 如果你的管理员已关闭了导出数据的功能，则该功能在 **Power BI 服务**中将不可见。
+* 不能将包含递增刷新的数据集下载到 .pbix 文件。
 
 ## <a name="next-steps"></a>后续步骤
 查看有关此功能的 **Guy in a Cube** 一分钟视频：

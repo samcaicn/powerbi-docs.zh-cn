@@ -8,14 +8,15 @@ featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d6bb6bbed1d5423acbcf53ac50717debdfea4eaa
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584061"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>从 Excel 将磁贴固定到 Power BI 仪表板
 若要从 Excel 工作簿固定磁贴，请将该工作簿连接到 Power BI 服务 (app.powerbi.com)。 实际上，连接工作簿会将该工作簿链接的只读版本引入 Power BI 服务，并允许用户将区域固定到仪表板。 甚至可以将整个工作表固定到仪表板。  
@@ -65,7 +66,7 @@ ms.lasthandoff: 05/17/2018
     ![“已固定到仪表板”对话框](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. 选择“转到仪表板”。 在此处可以对已固定的可视化效果执行[重命名、重设大小、添加链接和移动](service-dashboard-edit-tile.md)操作。 默认情况下，选择固定的磁贴将在 Power BI 中打开工作簿。
 
-## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>将整个表或数据透视图固定到仪表板
+## <a name="pin-an-entire-table-or-pivottable-to-a-dashboard"></a>将整个表或数据透视表固定到仪表板
 按照上述步骤操作，只不过不选择单元格的区域，而是选择整个表或数据透视表。
 
 要固定表，请选择表的整个区域，并确保包含标头。  要固定数据透视表，请确保包含数据透视表的每个可见部分，包括筛选器（如果使用的话）。
