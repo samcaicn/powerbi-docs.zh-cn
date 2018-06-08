@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726d084201c59182655fbaf5ef35a0e999bc07fc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c92e91a08026ab3e4fce4513aa8e0892fa0c3db3
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799478"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 Analysis Services 表格数据
 借助 Power BI Desktop，你有两种方法可以连接到 SQL Server Analysis Services 表格模型并从中获取数据：通过使用实时连接浏览或选择项目并将其导入到 Power BI Desktop。
@@ -84,4 +85,10 @@ ms.lasthandoff: 05/17/2018
 2. 输入新的服务器名称。
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_chname_dialog.png)
+   
+   
+## <a name="troubleshooting"></a>故障排除 
+以下列表介绍了连接到 SQL Server Analysis Services (SSAS) 或 Azure Analysis Services 时出现的所有已知问题。 
+
+* **错误：无法加载模型架构** - 当用户连接到 Analysis Services 而无法访问数据库/模型时，通常会出现此错误。
 

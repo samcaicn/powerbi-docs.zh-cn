@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 94152d1c1dc30bcaea212638e5ef65da6faf7ff7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286143"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799570"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的 SSAS 多维模型
 使用 Power BI Desktop，你可以访问 **SSAS 多维模型**，通常称为 **SSAS MD**。
@@ -98,3 +98,7 @@ Power BI Desktop 中支持以下 SSAS MD 功能：
   * ImageUrls
   * 维度安全性
 
+## <a name="troubleshooting"></a>故障排除 
+以下列表介绍了连接到 SQL Server Analysis Services (SSAS) 时出现的所有已知问题。 
+
+* **错误：无法加载模型架构** - 当用户连接到 Analysis Services 而无法访问数据库/多维数据集时，通常会出现此错误。

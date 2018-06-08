@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297667"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799409"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -81,25 +81,30 @@ Power BI 报表作者可以创建专门针对手机进行优化的报表布局�
    ![对视觉对象排序](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * 若要反向排序，请依次重新点击省略号 (...) 和相同的字段名称。
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>在 iPad 或平板电脑上向下钻取
-如果报表作者已将向下钻取功能添加到视觉对象，可以在 iPad 或平板电脑上向下钻取视觉对象，以查看其中所包含的值。 在 Power BI Desktop 或 Power BI 服务中[向视觉对象添加向下钻取功能](power-bi-visualization-drill-down.md)。 
+## <a name="drill-down-and-up-in-a-visual"></a>在视觉对象中向下钻取和向上钻取
+如果报表作者已将向下钻取功能添加到视觉对象，则可以向下钻取视觉对象，查看其中所包含的值。 在 Power BI Desktop 或 Power BI 服务中[向视觉对象添加向下钻取功能](power-bi-visualization-drill-down.md)。 
 
-> [!NOTE]
-> 暂无法在 iPad 或平板电脑中向下钻取地图。
-> 
-> 
+* 点击视觉对象中的数据点可显示其工具提示。 如果它具有向下钻取功能，则工具提示底部具有可点击的箭头。 
+  
+  ![在视觉对象中向下钻取](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-* 点击一个视觉对象。 如果左上角或右上角有向上和向下箭头 ![向上钻取图标、向下钻取图标](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png)，则可以向下钻取。 若要向下钻取一个值，请依次点击右上角的箭头和视觉对象中的值（在此示例中，为深蓝色 FD-04 气泡）。
+* 要向上钻取，请点击工具提示中的向上箭头。
   
-  ![在视觉对象中向下钻取](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* 若要返回向上钻取，点击左上角的向上箭头。
-  
-  ![向上钻取](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![向上钻取](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>回到我的工作区
-* 依次点击报表名称旁边的箭头和“我的工作区”。
-  
-  ![返回顶部](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+* 还可在视觉对象中向下钻取所有数据点。 在焦点模式下打开数据点，点击“浏览”图标，然后选择显示所有下一级别，或将其展开以显示当前级别和下一级别。
+
+   ![Power BI 向下钻取所有内容](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>从某一页钻取到另一页
+
+通过钻取，Power BI 会在你点击视觉对象的特定部分时，转到报表中的另一页，筛选出点击的值。 报表作者可定义一个或多个钻取操作，每个操作分别转到不同页面。 在这种情况下，可选择所需的钻取操作。 在以下示例中，点击仪表中的值时，可选择钻取“各业务领域的开销”或“各业务领域的计划”。
+
+![Power BI 移动版钻取报表](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+钻取时，使用返回按钮即可返回到之前的报表页。
+
+了解如何[在 Power BI Desktop 中添加钻取](desktop-drillthrough.md)。
 
 ## <a name="next-steps"></a>后续步骤
 * [查看手机优化版 Power BI 报表并与之交互](mobile-apps-view-phone-report.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d2f657423903b783c2e57822cabb577acd10a8bc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5d5544fba824443b1ba7b58c3e9d21f7769554d6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294677"
+ms.locfileid: "34755314"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>使用 Power BI 服务或 Power BI Desktop 为 Cortana 创建自定义回复页
 使用 Power BI 的全部功能创建专为回答 Cortana 问题而设计的专用报表页，称为“Cortana 回复页”（有时称为“Cortana 回复卡”）。
@@ -46,6 +46,12 @@ ms.locfileid: "34294677"
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)
 3. 创建一个或一组想要在 Cortana 中显示的视觉对象，以用于响应特定问题（或多个问题）。
+
+> [!NOTE]
+> 目前，Cortana 回复页不支持其中显示有静态图像的图像。 根据数据中的 URL 动态提取的表格或矩阵视觉对象中可包含图像。 
+> 
+> 
+
 4. 确保所有视觉对象都能放在页边框内。 可选择性地修改显示设置、数据标签、颜色和背景。  
    
     ![](media/service-cortana-answer-cards/pbi_cortana_modify-new.png)

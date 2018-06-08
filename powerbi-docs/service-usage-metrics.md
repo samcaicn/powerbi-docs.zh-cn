@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 82015b3e0c497f58b0505804adc852ebfb7a0202
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 387780371a82ab4f2c834683ab522258d130e18e
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584314"
+ms.locfileid: "34755245"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>仪表板和报表的使用指标
 如果你创建仪表板和报表，使用指标可帮助你了解它们的影响。 运行仪表板使用情况指标或报表使用情况指标时，可查看整个组织使用这些仪表板和报表的情况 - 正在使用的内容、使用人员以及使用目的。  
 
-使用情况指标将跟踪 SharePoint Online 中嵌入的报表的使用情况。 它们还通过“用户拥有凭据”和“应用拥有凭据”流来跟踪仪表板和报表的嵌入。 使用情况指标将不跟踪通过[发布到 Web](service-publish-to-web.md) 嵌入的报表的使用情况。
+  > **请注意**：使用情况指标将跟踪 SharePoint Online 中嵌入的报表的使用情况。 但是，使用情况指标不会通过“用户拥有凭据”或“应用拥有凭据”流来跟踪仪表板和报表的嵌入。 使用情况指标也不会跟踪通过[发布到 Web](service-publish-to-web.md) 嵌入的报表的使用情况。
 
 这些使用情况指标报表是只读的。 但是，可以通过使用“另存为”对使用情况指标报表进行个性化处理。 这将创建全新的数据集，并将只读报表转换为功能齐全的可编辑 Power BI 报表。 不仅个性化报表包含所选仪表板或报表的指标，而且通过删除默认筛选器，现在还可以访问所选工作区中所有仪表板或所有报表的使用情况指标。
 

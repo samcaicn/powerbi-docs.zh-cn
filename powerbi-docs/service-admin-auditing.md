@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 04dc755eb7d575aa8438b4a5000ad40549c6220f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bcf012d94dedfd912479c3e51e0de388b177c294
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297069"
+ms.locfileid: "34755015"
 ---
 # <a name="using-auditing-within-your-organization"></a>在组织内使用审核
 
 了解如何使用 Power BI 的审核功能来监测和调查采取的操作。 可以使用安全性和符合性中心或使用 PowerShell。
 
-了解 Power BI 租户中谁正在对何项目执行何种操作对帮助组织满足其需求非常关键（如满足法规遵从性和记录管理需求）。
+了解 Power BI 租户中谁正在对何项目执行何种操作对帮助组织满足其需求非常关键（如满足法规遵从性和记录管理需求）。 可使用 Power BI 审核来审核“查看报告”和“查看仪表板”等用户执行的操作。 无法使用审核来审核权限。 
 
 可按日期范围、用户、仪表板、报表、数据集和活动类型筛选审核数据。 还可将活动下载到 CSV（逗号分隔值）文件供脱机分析。
 
@@ -29,18 +29,18 @@ ms.locfileid: "34297069"
 必须满足以下要求才能访问审核日志：
 
 - 若要访问 Office 365 安全性和符合性中心的审核部分，必须具有 Exchange Online 许可证（Office 365 企业版 E3 和 E5 订阅已随附）。
-- 或者，必须是全局管理员，或者是有权访问审核日志的 Exchange 管理员角色。 
 
-  Exchange 管理员角色通过 Exchange 管理员中心进行控制。 有关详细信息，请参阅 [Exchange Online 中的权限](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx)。
+- 或者，必须是全局管理员，或者是有权访问审核日志的 Exchange 管理员角色。 Exchange 管理员角色通过 Exchange 管理员中心进行控制。 有关详细信息，请参阅 [Exchange Online 中的权限](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx)。
 
 - 如果你有权访问审核日志但不是全局管理员或 Power BI 服务管理员，则无法访问 Power BI 管理员门户。 在这种情况下，必须获取 Office 365 安全性和符合性中心的直接链接。
 
-> [!NOTE]
-> 若要在租户中查看 Power BI 审核日志，则租户中需要至少有一个 Exchange 邮箱许可证。
+- 若要在租户中查看 Power BI 审核日志，则租户中需要至少有一个 Exchange 邮箱许可证。
 
 ## <a name="accessing-your-audit-logs"></a>访问审核日志
 
-若要审核 Power BI 日志，必须访问 O365 安全与合规中心。
+要审核 Power BI 日志，请访问 O365 安全性和符合性中心。
+
+启用审核后，最多可能会延迟 48 小时才能查看审核数据。 如果无法立即查看数据，请稍后检查审核日志。 获取查看审核日志的权限和得以访问日志之间也存在类似的延迟。
 
 1. 选择右上角的“齿轮图标”。
 
@@ -56,8 +56,7 @@ ms.locfileid: "34297069"
 
 或者，可以浏览到 [Office 365 | 安全与合规](https://protection.office.com/#/unifiedauditlog)。
 
-> [!NOTE]
-> 若要对非管理员帐户提供审核日志的访问权限，则必须在 Exchange Online 管理中心内分配权限。 例如，可以将用户分配至“组织管理”等现有角色组，或者可以创建一个新的包含“审核日志”角色的角色组。 有关详细信息，请参阅 [Exchange Online 中的权限](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx)。
+若要对非管理员帐户提供审核日志的访问权限，则必须在 Exchange Online 管理中心内分配权限。 例如，可以将用户分配至“组织管理”等现有角色组，或者可以创建一个新的包含“审核日志”角色的角色组。 有关详细信息，请参阅 [Exchange Online 中的权限](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx)。
 
 ## <a name="search-only-power-bi-activities"></a>仅搜索 Power BI 活动
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e688561b6b669aab68c4251fa5e25157dc219cd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722991"
+ms.locfileid: "34755061"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>本地数据网关故障排除
 本文介绍在使用本地数据网关时可能会遇到的一些常见问题。
@@ -149,6 +149,9 @@ ms.locfileid: "34722991"
 **在 Power BI 服务中使用 Analysis Services 的“获取数据”功能时，无法查看数据网关数据源**
 
 确保你的帐户列于网关配置中数据源的**用户**选项卡。 如果你没有权限访问网关，请与网关管理员核对，并请他们进行验证。 仅**用户**列表中的帐户可查看列于 Analysis Services 列表中的数据源。
+
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>错误：没有为此数据集中的数据源安装或配置任何网关
+请确保已按[添加数据源](service-gateway-manage.md#add-a-data-source)中所述，向网关添加一个或多个数据源。 如果“管理网关”下的管理门户中未显示网关，请尝试清除浏览器缓存或注销服务然后重新登录。
 
 ## <a name="datasets"></a>数据集
 ### <a name="error-there-is-not-enough-space-for-this-row"></a>错误：对于此行没有足够的空间。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5b4a35d9cdfa820956201e7fee20251b3c5ac0b7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584291"
+ms.locfileid: "34755130"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理门户
 
@@ -92,7 +92,7 @@ ms.locfileid: "34584291"
 
 ## <a name="audit-logs"></a>审核日志
 
-管理门户中的第三张选项卡为“审核日志”。 这些日志位于 Office 365 安全与合规中心内。 通过此分区，可在 Office 365 内快速访问该区域。 
+管理门户中的第三张选项卡为“审核日志”。 这些日志位于 Office 365 安全与合规中心内。 通过此分区，可在 Office 365 内快速访问该区域。
 
 有关审核日志的详细信息，请参阅[在组织中审核 Power BI](service-admin-auditing.md)
 
@@ -227,8 +227,6 @@ ms.locfileid: "34584291"
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>为整个组织启用自定义视觉对象
 组织中的用户可以与自定义视觉对象进行交互并共享。 [了解详细信息](power-bi-custom-visuals.md)
 
-![自定义视觉对象设置](media/service-admin-portal/powerbi-admin-custom-visuals.png)
-
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
 
@@ -247,7 +245,7 @@ ms.locfileid: "34584291"
 
 组织中的用户可以使用审核来监视组织中的其他用户在 Power BI 中执行的操作。 [了解详细信息](service-admin-auditing.md)
 
-需要为审核日志条目启用此设置，才能对其进行记录。
+需要为审核日志条目启用此设置，才能对其进行记录。 启用审核后，最多可能会延迟 48 小时才能查看审核数据。 如果无法立即查看数据，请稍后检查审核日志。 获取查看审核日志的权限和得以访问日志之间也存在类似的延迟。
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
