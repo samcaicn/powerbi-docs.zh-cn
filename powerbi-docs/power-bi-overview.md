@@ -1,32 +1,32 @@
 ---
 title: 什么是 Power BI？
-description: 有关 Power BI 以及如何将不同部分组合在一起的概述 - Power BI Desktop、Power BI 服务、Power BI 移动版、报表服务器。
+description: 概述了 Power BI 以及如何完美组合使用各种产品（Power BI Desktop、Power BI 服务、Power BI 移动版、报表服务器、Power BI Embedded）。
 author: mihart
 manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 05/27/2018
+ms.date: 06/04/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b91c7b4bc96ea5b3f1e4a8db844ef6d9987c9b38
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 78edb9d45df1332a25ec27476562d6105c7a8a48
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584176"
+ms.locfileid: "34755360"
 ---
 # <a name="what-is-power-bi"></a>什么是 Power BI？
 **Power BI** 是软件服务、应用和连接器的集合，它们协同工作以将相关数据来源转换为连贯的视觉逼真的交互式见解。 无论你的数据是简单的 Excel 电子表格，还是基于云和本地混合数据仓库的集合，**Power BI** 都可让你轻松地连接到数据源，直观看到（或发现）重要内容，与任何所希望的人进行共享。
 
-![](media/power-bi-overview/c0a0_1.png)
+![展示 Power BI 输入源的关系图](media/power-bi-overview/power-bi-input.png)
 
 **Power BI** 简单且快速，能够从 Excel 电子表格或本地数据库创建快速见解。 同时 **Power BI** 也是可靠的、企业级的，可进行丰富的建模和实时分析，及自定义开发。 因此它既是你的个人报表和可视化工具，还可用作组项目、部门或整个企业背后的分析和决策引擎。
 
 ## <a name="the-parts-of-power-bi"></a>Power BI 的组成部分
 Power BI 包含 Windows 桌面应用程序（称为 **Power BI Desktop**）、联机 SaaS（软件即服务）服务（称为 **Power BI 服务**），及移动 Power BI **应用**（可在 Windows 手机和平板电脑及 iOS 和 Android 设备上使用）。
 
-![](media/power-bi-overview/c0a0_2.png)
+![Power BI Desktop、Power BI 服务、Power BI 移动版](media/power-bi-overview/power-bi-blocks.png)
 
 这三个元素 - **Desktop**、**服务**和**移动**，旨在使用户通过最有效的方式创建、共享和使用商业见解。
 
@@ -42,7 +42,8 @@ Power BI 包含 Windows 桌面应用程序（称为 **Power BI Desktop**）、�
 也许你在服务的实时仪表板中查看库存和生产进度，也使用 **Power BI Desktop** 来为自己团队创建有关客户参与统计信息的报表。 如何使用 Power BI 基于哪项 Power BI 功能或服务是适用于所处情景的最佳工具，但是 Power BI 的每个部分都会提供给你，因此它非常灵活、令人无法抗拒。
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Power BI 中的工作流
-通过连接到数据源并在 Power BI Desktop 中生成报表，Power BI 中的常见工作流将开始。 然后，报表会从“Desktop”发送到“Power BI 服务”并共享，以便“服务”和“移动版”中的用户可以使用（查看并与其交互）报表。 有时，你可能想要为同事提供类似于你自己的权限（“创建者”权限），以便他们可以使用“服务”来编辑报表、创建仪表板，同时共享其工作。
+通过连接到数据源并在 Power BI Desktop 中生成报表，Power BI 中的常见工作流将开始。 然后，报表会从“Desktop”发送到“Power BI 服务”并共享，以便“服务”和“移动版”中的用户可以使用（查看并与其交互）报表。
+有时，你可能想要为同事提供类似于你自己的权限（“创建者”权限），以便他们可以使用“服务”来编辑报表、创建仪表板，同时共享其工作。
 
 它不总是以这种方式发生，尽管这是一个更为常见的工作流，而且会显示三个主要的 Power BI 元素如何相互补充。
 
@@ -51,9 +52,9 @@ Power BI 包含 Windows 桌面应用程序（称为 **Power BI Desktop**）、�
 ## <a name="on-premises-reporting-with-power-bi-report-server"></a>使用 Power BI 报表服务器进行本地报告
 使用 Power BI 报表服务器提供的各种现成工具和服务在本地创建、部署和管理 Power BI 报表、移动报表和分页报表。
 
-![](media/power-bi-overview/power-bi-report-server2.png)
+![针对本地的关系图](media/power-bi-overview/power-bi-report-server2.png)
 
-Power BI 报表服务器是在防火墙后部署的一种解决方案，然后以不同方式将报表交付给正确用户，无论是在 Web 浏览器、移动设备还是在电子邮件中查看它们。 Power BI 报表服务器与云中的 Power BI 兼容，因此可以在就绪时转到云。 
+Power BI 报表服务器是在防火墙后部署的一种解决方案，然后以不同方式将报表交付给正确用户，无论是在 Web 浏览器、移动设备还是在电子邮件中查看它们。 Power BI 报表服务器与云中的 Power BI 兼容，因此可以在就绪时转到云。
 
 ## <a name="next-steps"></a>后续步骤
 [登录、获取数据并以自己的方式了解 Power BI 服务](service-the-new-power-bi-experience.md)

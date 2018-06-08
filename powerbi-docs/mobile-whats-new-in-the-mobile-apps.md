@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482167"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799616"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -25,9 +25,26 @@ ms.locfileid: "34482167"
 
 ## <a name="may-2018"></a>2018 年 5 月
 
-### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>为报表服务器远程配置 Power BI iOS 移动应用
+### <a name="mobile-drill-through-all-mobile-apps"></a>移动钻取：所有移动应用
+
+可以在移动应用中从选定数据点钻取到另一报表页，前提是报表作者已定义此操作。 
+
+### <a name="back-button-all-mobile-apps"></a>“后退”按钮：所有移动应用
+
+现在，如果通过轻扫手势、在操作栏中选择报表页或使用钻取功能来浏览整个报表，“后退”按钮会返回到刚才浏览的上一页。 
+
+### <a name="dashboard-themes-all-mobile-apps"></a>仪表板主题：所有移动应用
+
+如果报表作者在 Power BI 服务中自定义仪表板主题，移动应用中的仪表板外观也会随之变化。 不过，看不到背景图像。
+
+### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS：远程配置对报表服务器的 Power BI iOS 移动应用访问权限
 
 现在，你的 IT 管理员可以使用 MDM 工具配置 Power BI iOS 移动应用对报表服务器的访问权限。 有关详细信息，请参阅[远程配置 Power BI iOS 移动应用对报表服务器的访问权限](report-server/configure-powerbi-mobile-apps-remote.md)。
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 应用（预览版）
+
+Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉浸在虚拟世界中查看仪表板和报表，或将它们放在环境的上下文中的特定位置查看。 有关详情，请观看新发布的 [Power BI for HoloLens 简介](https://www.youtube.com/watch?v=J_X_nOFUBss)视频，或阅读与新推出的 [Power BI for Mixed Reality 应用](mobile-mixed-reality-app.md)相关的文章。
+
 
 ## <a name="april-2018"></a>2018 年 4 月
 

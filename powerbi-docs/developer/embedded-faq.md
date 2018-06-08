@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3e1b3b59fff26242e662d90365a6b8acc98259e6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721009"
+ms.locfileid: "34754923"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -103,8 +103,7 @@ Power BI Embedded 将继续使用 Azure AD 对主用户（指定的 Power BI Pro
 
 如果你已有 Azure AD 租户，则可以使用现有的目录，也可以创建新的 Azure AD 租户以确保你的嵌入式应用程序内容安全。
 
-若要获取 AAD 令牌，可以使用其中一个 Azure Active Directory 身份验证库。 有适用于多个平台的客户端库。
-https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
+若要获取 AAD 令牌，可以使用 Azure Active Directory 身份验证库 (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries) 之一。 有适用于多个平台的客户端库。
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Power BI Embedded 与其他 Azure 服务有什么不同？
 

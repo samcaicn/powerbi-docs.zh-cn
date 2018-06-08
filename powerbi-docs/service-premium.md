@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 980aa830e38e49613b54ad473ef23eb7eac78ed2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722784"
+ms.locfileid: "34755084"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium 有哪些特权？
 Power BI Premium 资源专用于为组织或团队运行 Power BI 服务，为你提供更可靠的性能和更大的数据卷。 Premium 还可以广泛发布内容，无需为查看者购买许可证。
@@ -61,9 +61,8 @@ Power BI 中有两种类型的容量。 共享容量和 Power BI 高级容量。
 ### <a name="premium-capacity-nodes"></a>高级容量节点
 不同虚拟核心容量的节点配置中可使用 Power BI Premium。 有关特定 SKU 产品/服务和成本的详细信息，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)。 也可使用[成本计算器](https://powerbi.microsoft.com/calculator/)。 有关嵌入分析容量规划的信息，请参阅[“规划 Power BI Enterprise 部署”白皮书](https://aka.ms/pbienterprisedeploy)。
 
-* P 节点可以用于嵌入式部署或服务部署
-* EM 节点仅用于嵌入式部署
-* EM1 和 EM2 
+* P 节点可用于嵌入式部署或服务部署。
+* EM 节点只能用于嵌入式部署。 EM 节点无权使用高级功能，如与没有 Power BI Pro 许可证的用户共享应用。
 
 >[!NOTE]
 >只有充当 Office 365 全局管理员的用户才能正常运行此表中的链接 - 其他人会收到 404 错误。 

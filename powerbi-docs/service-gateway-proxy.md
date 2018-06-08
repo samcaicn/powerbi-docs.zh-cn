@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722649"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799547"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>为本地数据网关配置代理设置
 你的工作环境可能要求你通过代理访问 Internet。 这会阻止本地数据网关连接到该服务。
@@ -50,7 +50,7 @@ superuser.com 上的以下文章讨论了尝试确定网络上有无代理的可
         <defaultProxy useDefaultCredentials="true" />
     </system.net>
 
-默认配置适用于 Windows 身份验证。 如果你的代理服务器使用另一种形式的身份验证，则你将需要更改设置。 如果你不确定，则应与你的网络管理员联系。
+默认配置适用于 Windows 身份验证。 如果你的代理服务器使用另一种形式的身份验证，则你将需要更改设置。 如果你不确定，则应与你的网络管理员联系。 不建议执行基本代理身份验证，如果尝试执行，可能会导致代理身份验证错误出现，进而导致错误配置网关。 若要解决此问题，请使用更强大的代理身份验证机制。
 
 除使用默认凭据外，还可以添加 <proxy> 元素以更详细地定义代理服务器设置。 例如，可以通过将 bypassonlocal 参数设为 false，指定本地数据网关应始终使用代理，即使对于本地资源也是如此。 如果想在代理日志文件中跟踪来自本地数据网关的所有 https 请求，这样做有助于进行故障排除。 下面的示例配置指定所有请求都必须通过 IP 地址为 192.168.1.10 的特定代理。
 
@@ -93,6 +93,10 @@ superuser.com 上的以下文章讨论了尝试确定网络上有无代理的可
 5. 使用恢复密钥还原网关。
    
     这将使新的服务帐户能够解密存储的数据源凭据。
+    
+> [!NOTE]
+> 如果直接使用服务控制面板更改服务帐户，它不会自动更新 ACL。 必须确保新服务帐户有权访问安装文件和文件夹。 “网关安装”文件夹位于 C:\Program Files\On-premises data gateway 下。 
+> 
 
 ## <a name="next-steps"></a>后续步骤
 [本地数据网关（个人模型）](service-gateway-personal-mode.md)

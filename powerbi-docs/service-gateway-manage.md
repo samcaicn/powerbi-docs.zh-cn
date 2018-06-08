@@ -10,21 +10,25 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722580"
+ms.locfileid: "34755153"
 ---
 # <a name="manage-a-power-bi-gateway"></a>管理 Power BI 网关
 
-[安装 Power BI 数据网关](service-gateway-install.md)后，可以在本地计算机上的网关应用中通过 Power BI 服务的“管理网关”区域并使用 PowerShell 脚本管理该网关。 本文重点介绍 Power BI 服务。 如果刚安装了网关，我们建议你接下来[添加数据源](#add-a-data-source)，然后[添加用户](#add-users-to-a-data-source)，以便他们可以访问数据源。
+[安装 Power BI 数据网关](service-gateway-install.md)后，根据需求管理网关。 本主题介绍了如何添加和删除数据源和用户、如何重启网关，以及如何迁移、还原、接管和删除网关。 
+
+可以通过 Power BI 服务的“管理网关”部分、本地计算机上的网关应用和 PowerShell 脚本来管理网关。 本文重点介绍 Power BI 服务。 
+
+如果刚安装了网关，我们建议你接下来[添加数据源](#add-a-data-source)，然后[添加用户](#add-users-to-a-data-source)，以便他们可以访问数据源。
 
 
 ## <a name="manage-data-sources"></a>管理数据源
 
-Power BI 支持多个本地数据源，每个都具有自己的要求。 对于此示例，我们将向你演示如何添加 SQL Server 作为数据源，但步骤与其他数据源的步骤类似。
+Power BI 支持多个本地数据源，每个都具有自己的要求。 网关可用于一个数据源，也可用于多个数据源。 对于此示例，我们将向你演示如何添加 SQL Server 作为数据源，但步骤与其他数据源的步骤类似。
 
 
 ### <a name="add-a-data-source"></a>添加数据源
@@ -113,6 +117,14 @@ Power BI 支持多个本地数据源，每个都具有自己的要求。 对于�
 
 所有新的“计划刷新”请求和 DirectQuery 操作都将自动路由到给定网关群集的主实例。 如果主网关实例不处于联机状态，则请求将路由到群集中的另一个网关实例。
 
+
+## <a name="share-a-gateway"></a>共享网关
+
+不得共享网关本身，但可以将管理员添加到网关中，并能将用户添加到网关的数据源中。 
+
+安装网关后，你默认就是此网关的管理员。 如前所述，可以将其他人添加为管理员。 这些管理员可以添加数据源、配置和删除网关。
+
+还可以将用户分配到你在每个网关下创建的数据源。 然后，用户可以使用这些数据源刷新 Power BI 报表。 不过，用户无法更改任何数据源或网关设置。
 
 ## <a name="migrate-restore-or-take-over-a-gateway"></a>迁移、还原或接管网关
 
