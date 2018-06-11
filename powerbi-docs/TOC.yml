@@ -14,7 +14,7 @@
           href: service-tutorial-connect-to-github.md
     - name: 概念
       items:
-        - name: Power BI 服务中的新增功能
+        - name: Power BI 服务中的新功能
           href: service-whats-new.md
         - name: 自助注册
           href: service-self-service-signup-for-power-bi.md
@@ -56,17 +56,17 @@
               href: power-bi-reports-filters-and-highlighting.md
         - name: 在 Power BI 中工作
           items:
-            - name: Power BI 中的快速见解
+            - name: Power BI 中的 Quick Insights
               href: service-insights.md
-            - name: 从文件获取数据
+            - name: 从文件中获取数据
               href: service-get-data-from-files.md
             - name: 在阅读视图或编辑视图中打开 Power BI 报表
               href: service-reading-view-and-editing-view.md
-            - name: 报表编辑器...简要了解
+            - name: 报表编辑器...教程
               href: service-the-report-editor-take-a-tour.md
             - name: Power BI 中的可视化效果
               href: power-bi-report-visualizations.md
-            - name: Power BI 的数据源
+            - name: Power BI 数据源
               href: service-get-data.md
             - name: 激活延长的专业版试用期
               href: service-extended-pro-trial.md
@@ -76,9 +76,9 @@
               href: service-govde-faq.md
             - name: Power BI 开始使用第三方应用
               href: service-power-bi-get-started-third-party-apps.md
-            - name: Power BI 支持的快速见解类型
+            - name: Power BI 支持的 Quick Insights 类型
               href: service-insight-types.md
-            - name: Power BI 中的聚合（求和、求平均值、求最大值等）
+            - name: Power BI 中的聚合函数（计算总和、平均值、最大值等）
               href: service-aggregates.md
             - name: Power BI 报表中的页面显示设置
               href: power-bi-report-display-settings.md
@@ -90,7 +90,7 @@
               items:
                 - name: 在 Power BI 中收藏仪表板、报表和应用
                   href: service-dashboard-favorite.md
-                - name: 以焦点模式显示仪表板磁贴
+                - name: 在焦点模式下显示仪表板磁贴
                   href: service-focus-mode.md
                 - name: '打印仪表板, 打印仪表板磁贴, 打印报表页'
                   href: service-print.md
@@ -104,7 +104,7 @@
                   href: service-govus-signup.md
                 - name: Power BI 服务中的数据警报
                   href: service-set-data-alerts.md
-                - name: 有关通过 Power BI 中的问答进行提问的提示和技巧
+                - name: 使用 Power BI 中“问答”进行提问的提示和技巧
                   href: service-q-and-a-tips.md
                 - name: 安装和使用包含仪表板和报表的应用
                   href: service-install-use-apps.md
@@ -194,7 +194,7 @@
                   href: service-connect-to-smartsheet.md
                 - name: SparkPost
                   href: service-connect-to-sparkpost.md
-                - name: SQL Database Auditing
+                - name: SQL 数据库审核
                   href: service-connect-to-azure-sql-database-auditing.md
                 - name: SQL Sentry
                   href: service-connect-to-sql-sentry.md
@@ -238,7 +238,7 @@
                   href: service-report-open.md
                 - name: 更改 Power BI 报表中的图表排序方式
                   href: power-bi-report-change-sort.md
-                - name: 从可视化效果导出数据
+                - name: 从可视化效果中导出数据
                   href: power-bi-visualization-export-data.md
                 - name: 如何使用报表筛选器
                   href: power-bi-how-to-report-filter.md
@@ -264,25 +264,25 @@
                   href: service-pin-tile-to-another-dashboard.md
                 - name: 从 Excel 将磁贴固定到 Power BI 仪表板
                   href: service-dashboard-pin-tile-from-excel.md
-                - name: 从问答问题框将磁贴固定到 Power BI 仪表板
+                - name: 从“问答”问题框将磁贴固定到 Power BI 仪表板
                   href: service-dashboard-pin-tile-from-q-and-a.md
                 - name: 将整个报表页固定到 Power BI 仪表板
                   href: service-dashboard-pin-live-tile-from-report.md
                 - name: 仪表板使用指标
                   href: service-usage-metrics.md
-                - name: 将图像、文本框、视频或 Web 代码添加到仪表板
+                - name: 向仪表板添加图像、文本框、视频或 Web 代码
                   href: service-dashboard-add-widget.md
                 - name: 编辑磁贴 - 重设大小、移动、重命名、固定、删除、添加超链接
                   href: service-dashboard-edit-tile.md
-                - name: 有关设计出色 Power BI 仪表板的提示
+                - name: 设计出色 Power BI 仪表板的提示
                   href: service-dashboards-design-tips.md
-                - name: 针对 Power BI 快速见解优化你的数据
+                - name: 面向 Power BI Quick Insights 优化数据
                   href: service-insights-optimize.md
                 - name: 创建仪表板电话视图
                   href: service-create-dashboard-mobile-phone-view.md
-                - name: 为磁贴创建 QR 码
+                - name: 为磁贴创建 QR 代码
                   href: service-create-qr-code-for-tile.md
-                - name: 添加图像到仪表板
+                - name: 向仪表板添加图像
                   href: service-dashboard-add-image.md
                 - name: 仪表板数据分类
                   href: service-data-classification.md
@@ -292,11 +292,11 @@
                   href: power-bi-tutorial-q-and-a.md
                 - name: 搭配使用问答和 Power BI Gateway - Enterprise 数据（预览版）
                   href: service-q-and-a-direct-query.md
-                - name: 让数据可以很好地与 Power BI 中的问答配合发挥作用
+                - name: 让你的数据与 Power BI 中的问答功能很好地协作
                   href: service-prepare-data-for-q-and-a.md
-                - name: 启用适用于 Power BI 的 Cortana
+                - name: 为 Power BI 启用 Cortana
                   href: service-cortana-enable.md
-                - name: 为 Power BI 问答创建特选问题
+                - name: 创建 Power BI 问答的精选问题
                   href: service-q-and-a-create-featured-questions.md
                 - name: Power BI 中的可视化效果类型
                   href: power-bi-visualization-types-for-reports-and-q-and-a.md
@@ -338,19 +338,19 @@
                   href: power-bi-report-copy.md
                 - name: 最近内容
                   href: service-recent.md
-                - name: 向 Power BI 报表添加页
+                - name: 向 Power BI 报表添加页面
                   href: power-bi-report-add-page.md
-                - name: 向 Power BI 中的报表添加筛选器
+                - name: 在 Power BI 中向报表添加筛选器
                   href: power-bi-report-add-filter.md
                 - name: 在 Power BI 中保存报表
                   href: service-report-save.md
                 - name: 从数据集中创建新报表
                   href: service-report-create-new.md
-                - name: 在 Power BI 中与“编辑视图”中的报表交互
+                - name: 与 Power BI 中的编辑视图中的报表进行交互
                   href: service-interact-with-a-report-in-editing-view.md
                 - name: 在 Excel 中分析
                   href: service-analyze-in-excel.md
-                - name: 更改报表中视觉对象的交互方式
+                - name: 更改视觉对象在报表中的交互方式
                   href: service-reports-visual-interactions.md
                 - name: 在 Power BI 服务中创建报表的提示和技巧
                   href: power-bi-reports-tips-and-tricks-for-creating.md
@@ -358,13 +358,13 @@
                   href: service-analytics-pane.md
                 - name: 报表使用指标
                   href: service-usage-metrics.md
-                - name: 为报表创建 QR 码
+                - name: 为报表创建 QR 代码
                   href: service-create-qr-code-for-report.md
                 - name: 在 Power BI 报表中更改页面的显示设置
                   href: power-bi-change-report-display-settings.md
                 - name: 在 Power BI 中对报表中的页面重新排序
                   href: service-report-reorder-pages.md
-                - name: 在 Power BI 中复制报表页
+                - name: 在 Power BI 中复制报表页面
                   href: power-bi-report-copy-paste-page.md
                 - name: 将报表从 Power BI 服务导出到 Power BI Desktop（预览）
                   href: service-export-to-pbix.md
@@ -376,9 +376,9 @@
                   href: power-bi-visualizations-arcgis.md
             - name: 文件中的数据
               items:
-                - name: 立即从 Excel 工作簿转变为出色的报表
+                - name: 立刻从 Excel 工作簿变为出色的报表
                   href: service-from-excel-to-stunning-report.md
-                - name: 从 Excel 工作簿文件获取数据
+                - name: 从 Excel 工作簿文件中获取数据
                   href: service-excel-workbook-files.md
                 - name: 从 Power BI Desktop 文件获取数据
                   href: service-desktop-files.md
@@ -388,7 +388,7 @@
                   href: service-real-time-streaming.md
                 - name: 从 Excel 2016 发布到 Power BI
                   href: service-publish-from-excel.md
-                - name: 减小 Excel 工作簿的大小以在 Power BI 中查看它
+                - name: 减小 Excel 工作簿的大小以便在 Power BI 中进行查看
                   href: reduce-the-size-of-an-excel-workbook.md
             - name: 数据库中的数据
               items:
@@ -396,7 +396,7 @@
                   href: service-azure-sql-data-warehouse-with-direct-connect.md
                 - name: 具有 DirectQuery 的 Azure SQL 数据库
                   href: service-azure-sql-database-with-direct-connect.md
-                - name: 具有 DirectQuery 的 HDInsight 上的 Spark
+                - name: 使用 DirectQuery 的 HDInsight 上的 Spark
                   href: spark-on-hdinsight-with-direct-connect.md
                 - name: Power BI 中的 SQL Server Analysis Services 实时数据
                   href: sql-server-analysis-services-tabular-data.md
@@ -406,27 +406,27 @@
               items:
                 - name: 配置计划刷新
                   href: refresh-scheduled-refresh.md
-                - name: 刷新创建自 Power BI Desktop 文件的数据集 - 本地
+                - name: 刷新从本地的 Power BI Desktop 文件创建的数据集
                   href: refresh-desktop-file-local-drive.md
-                - name: 刷新创建自 Power BI Desktop 文件的数据集 - 云
+                - name: 刷新使用云端的 Power BI Desktop 文件创建的数据集
                   href: refresh-desktop-file-onedrive.md
-                - name: 刷新创建自 Excel 工作簿的数据集 - 本地
+                - name: 刷新使用本地 Excel 工作簿创建的数据集
                   href: refresh-excel-file-local-drive.md
-                - name: 刷新创建自 Excel 工作簿的数据集 - 云
+                - name: 刷新使用云端 Excel 工作簿创建的数据集
                   href: refresh-excel-file-onedrive.md
-                - name: 刷新创建自 OneDrive 上逗号分隔值 (.csv) 文件的数据集
+                - name: 在 OneDrive 上刷新使用逗号分隔值 (.csv) 文件创建的数据集
                   href: refresh-csv-file-onedrive.md
-                - name: 刷新方案疑难解答
+                - name: 刷新方案故障排除
                   href: refresh-troubleshooting-refresh-scenarios.md
             - name: 故障排除
               items:
-                - name: 忘记了 Power BI 密码？
+                - name: 忘记了 Power BI 的密码？
                   href: service-admin-forgot-your-password.md
                 - name: 捕获 Power BI 的其他诊断信息
                   href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
                 - name: 用于 Power BI 的备用电子邮件地址
                   href: service-admin-alternate-email-address-for-power-bi.md
-                - name: 如何使用相同的帐户登录 Power BI 和 Azure
+                - name: 如何将相同的帐户登录名用于 Power BI 和 Azure
                   href: service-admin-how-to-use-the-same-account-as-azure.md
                 - name: Office 365 专用 - 已知问题
                   href: service-admin-office-365-dedicated-known-issues.md
@@ -438,13 +438,13 @@
                   href: service-gateway-onprem-tshoot.md
                 - name: Power BI Gateway - Personal 故障排查
                   href: service-admin-troubleshooting-power-bi-personal-gateway.md
-                - name: 不支持刷新的数据源疑难解答
+                - name: 刷新不支持的数据源故障排除
                   href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-                - name: Azure SQL 数据库的计划刷新疑难解答
+                - name: Azure SQL 数据库计划刷新中的故障排除
                   href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-                - name: 错误：我们在你的 Excel 工作簿中找不到任何数据
+                - name: '错误: 我们在你的 Excel 工作簿中找不到任何数据'
                   href: service-admin-troubleshoot-excel-workbook-data.md
-                - name: 磁贴错误疑难解答
+                - name: 磁贴错误故障排除
                   href: refresh-troubleshooting-tile-errors.md
                 - name: 刷新失败时，如何刷新 Xero 内容包证书
                   href: service-refresh-xero-credentials.md
@@ -496,11 +496,11 @@
           href: sample-customer-profitability.md
         - name: IT 支出分析示例：导览
           href: sample-it-spend.md
-        - name: 人力资源示例：简要了解
+        - name: 人力资源示例：教程
           href: sample-human-resources.md
         - name: 机遇分析示例：导览
           href: sample-opportunity-analysis.md
-        - name: 采购分析示例：简要了解
+        - name: 采购分析示例：教程
           href: sample-procurement.md
         - name: 零售分析示例：导览
           href: sample-retail-analysis.md
@@ -536,7 +536,7 @@
           href: desktop-data-view.md
         - name: Power BI Desktop 中的查询概述
           href: desktop-query-overview.md
-        - name: Power BI Desktop 中的 DAX 基础信息
+        - name: Power BI Desktop 中的 DAX 基本概念
           href: desktop-quickstart-learn-dax-basics.md
         - name: Power BI Desktop 中的关系视图
           href: desktop-relationship-view.md
@@ -544,9 +544,9 @@
           href: desktop-report-view.md
         - name: 连接到 Power BI Desktop 中的多个数据源
           href: desktop-connect-to-data.md
-        - name: 从 Power BI Desktop 发布
+        - name: 从 Power BI Desktop 进行发布
           href: desktop-upload-desktop-files.md
-        - name: 在 Power BI 中自定义可视化效果
+        - name: Power BI 中的自定义可视化效果
           href: power-bi-custom-visuals.md
         - name: Power BI 中适用于组织的自定义视觉对象
           href: power-bi-custom-visuals-organization.md
@@ -612,7 +612,7 @@
               href: desktop-analysis-services-tabular-data.md
             - name: 在 Power BI Desktop 中使用 DirectQuery
               href: desktop-use-directquery.md
-            - name: 适用于 Oracle 和 Teradata 数据库的 DirectQuery
+            - name: Oracle 和 Teradata 数据库的 DirectQuery
               href: desktop-directquery-for-oracle-teradata.md
             - name: DirectQuery 和 SAP Business Warehouse (BW)
               href: desktop-directquery-sap-bw.md
@@ -624,9 +624,9 @@
               href: desktop-sap-bw-connector.md
             - name: 在 Power BI Desktop 中使用 OneDrive for Business 链接
               href: desktop-use-onedrive-business-links.md
-            - name: 第三方服务：用于 Power BI Desktop 的 Facebook 连接器
+            - name: 第三方服务：适用于 Power BI Desktop 的 Facebook 连接器
               href: service-facebook-connector.md
-            - name: 第三方服务：用于 Power BI Desktop 的 Google Analytics 连接器
+            - name: 第三方服务：适用于 Power BI Desktop 的 Google Analytics 连接器
               href: service-google-analytics-connector.md
             - name: Project Online：通过 Power BI Desktop 连接到数据
               href: desktop-project-online-connect-to-data.md
@@ -646,7 +646,7 @@
               href: desktop-mobile-geofiltering.md
             - name: Power BI Desktop 中的计算列
               href: desktop-calculated-columns.md
-            - name: Power BI Desktop 中的计算表格
+            - name: Power BI Desktop 中的计算表
               href: desktop-calculated-tables.md
             - name: Power BI Desktop 中的度量值
               href: desktop-measures.md
@@ -700,9 +700,9 @@
               href: desktop-slicer-numeric-range.md
             - name: 创建可以重设大小的响应式切片器
               href: power-bi-slicer-filter-responsive.md
-            - name: 创建自定义 Power BI Cortana 回复卡
+            - name: 为 Cortana 创建自定义 Power BI 答案卡
               href: service-cortana-answer-cards.md
-            - name: 行级安全性
+            - name: 行级别安全性
               href: desktop-rls.md
             - name: 在 Power BI Desktop 中自定义工具提示
               href: desktop-custom-tooltips.md
@@ -714,7 +714,7 @@
               href: desktop-create-phone-report.md
             - name: 使用“查看数据”和“查看记录”
               href: desktop-see-data-see-records.md
-        - name: 可视化
+        - name: 可视化效果
           items:
             - name: 可视化最佳实践
               href: power-bi-visualization-best-practices.md
@@ -722,13 +722,13 @@
               href: service-reports-show-data.md
             - name: 更改 Power BI 报表中的可视化效果类型
               href: power-bi-report-change-visualization-type.md
-            - name: 开始使用颜色格式和轴属性
+            - name: 颜色格式设置和轴属性入门
               href: service-getting-started-with-color-formatting-and-axis-properties.md
             - name: Power BI 中颜色格式设置的提示和技巧
               href: service-tips-and-tricks-for-color-formatting.md
-            - name: 在 Power BI 中复制粘贴可视化效果
+            - name: 在 Power BI 中复制并粘贴可视化效果
               href: power-bi-visualization-copy-paste.md
-            - name: 在 Power BI 报表中移动、重设大小、弹出可视化效果
+            - name: 在 Power BI 报表中移动可视化效果、调整其大小和弹出可视化效果
               href: power-bi-visualization-move-and-resize.md
             - name: 在 Power BI 中深入探索可视化效果
               href: power-bi-visualization-drill-down.md
@@ -836,9 +836,9 @@
               href: mobile-apps-deep-link-specific-location.md
             - name: 在 Power BI 移动应用中按位置筛选报表
               href: mobile-apps-geographic-filtering.md
-            - name: 从你的电话上扫描 Power BI QR 码
+            - name: 使用手机扫描 Power BI QR 代码
               href: mobile-apps-qr-code.md
-            - name: 移动版 Power BI 的仪表板
+            - name: 移动 Power BI 的仪表板
               href: mobile-apps-view-dashboard.md
             - name: 查看针对手机进行优化的报表
               href: mobile-apps-view-phone-report.md
@@ -846,7 +846,7 @@
               href: mobile-reports-in-the-mobile-apps.md
             - name: 使用 OAuth 连接到 Reporting Services
               href: mobile-oauth-ssrs.md
-            - name: 通过 Intune 配置移动应用
+            - name: 使用 Intune 配置移动应用
               href: service-admin-mobile-intune.md
         - name: Android 设备
           items:
@@ -860,7 +860,7 @@
           items:
             - name: 开始使用 iOS 应用
               href: mobile-iphone-app-get-started.md
-            - name: 开始使用 iPad 应用
+            - name: iPad 应用入门
               href: mobile-ipad-app-get-started.md
             - name: iOS 移动应用中的问答虚拟分析师
               href: mobile-apps-ios-qna.md
@@ -956,7 +956,7 @@
           items:
             - name: 将数据推送到仪表板
               href: developer/walkthrough-push-data.md
-            - name: 为应用注册 Azure AD
+            - name: 将应用注册到 Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: 获取身份验证访问令牌
               href: developer/walkthrough-push-data-get-token.md
@@ -964,13 +964,13 @@
               href: developer/walkthrough-push-data-create-dataset.md
             - name: 获取数据集以添加行
               href: developer/walkthrough-push-data-get-datasets.md
-            - name: 将行添加到表格
+            - name: 向表中添加行
               href: developer/walkthrough-push-data-add-rows.md
-            - name: 完成代码列表
+            - name: 完整代码清单
               href: developer/walkthrough-push-data-complete-code.md
         - name: 内容包认证
           items:
-            - name: 内容包认证程序
+            - name: 内容包认证计划
               href: developer/service-content-pack-overview.md
             - name: 模板内容包创作
               href: developer/template-content-pack-authoring.md
@@ -1136,6 +1136,8 @@
           href: service-gateway-onprem-manage-oracle.md
         - name: 管理企业数据源 - 导入/计划刷新
           href: service-gateway-enterprise-manage-scheduled-refresh.md
+        - name: 合并本地和云数据源
+          href: service-gateway-mashup-on-premises-cloud.md
         - name: 使用 Kerberos 进行单一登录 (SSO)
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: 配置代理设置
@@ -1192,7 +1194,7 @@
       items:
         - name: Power BI 管理门户
           href: service-admin-portal.md
-        - name: 通过新的 Office 365 试用版注册 Power BI
+        - name: 通过新 Office 365 试用版注册 Power BI
           href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
         - name: 我的租户位于何处？
           href: service-admin-where-is-my-tenant-located.md
@@ -1206,7 +1208,7 @@
           href: service-admin-closing-your-account.md
         - name: 组织中的 Power BI Pro
           href: service-admin-power-bi-pro-in-your-organization.md
-        - name: 面向组织的 Power BI（免费）
+        - name: 组织中的 Power BI（免费）
           href: service-admin-service-free-in-your-organization.md
         - name: Power BI 和 ExpressRoute
           href: service-admin-power-bi-expressroute.md
@@ -1218,7 +1220,7 @@
           href: service-admin-power-bi-archived-workspace.md
         - name: 无法将 Power BI 添加到 O365 合作伙伴
           href: service-admin-syndication-partner.md
-        - name: 通过 Intune 配置移动应用
+        - name: 使用 Intune 配置移动应用
           href: service-admin-mobile-intune.md
     - name: 资源
       items:
