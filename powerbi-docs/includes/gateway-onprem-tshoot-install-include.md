@@ -4,8 +4,6 @@
 ## <a name="common-issues"></a>常见问题
 以下是一些常见的问题及解决方案，这些解决方案已帮助了许多处于 Internet 访问受限环境的客户。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-t7RO6mHATI?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 ### <a name="authentication-to-proxy-server"></a>对代理服务器的身份验证
 代理可能需要对域用户帐户进行身份验证。 默认情况下，网关使用 Windows 服务登录用户的服务 SID。 将登录用户更改为域用户可有助于完成此操作。 有关详细信息，请参阅[将网关服务帐户更改为域用户](../service-gateway-proxy.md#changing-the-gateway-service-account-to-a-domain-user)。
 

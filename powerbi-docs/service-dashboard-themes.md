@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/30/2018
+ms.date: 06/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1ea92be426312a738e03d78454a4c83a82b233c5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722511"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813793"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>在 Power BI 服务中使用仪表板主题
 借助“仪表板主题”，可以将颜色主题应用于整个仪表板，如企业品牌颜色、流行色或可能要应用的其他任何颜色主题。 应用“仪表板主题”时，仪表板中的所有视觉对象都会使用选定主题中的颜色（少数例外情况除外，本文稍后将进行介绍）。
 
 ![带主题的仪表板示例](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 
-更改仪表板上报表视觉对象的颜色，不会影响报表中的视觉对象。 此外，固定来自[已应用报表主题](/desktop-report-themes.md)的报表的磁贴时，可以选择保留当前主题或使用仪表板主题。
+更改仪表板上报表视觉对象的颜色，不会影响报表中的视觉对象。 此外，固定来自[已应用报表主题](desktop-report-themes.md)的报表的磁贴时，可以选择保留当前主题或使用仪表板主题。
 
 
 ## <a name="prerequisites"></a>先决条件

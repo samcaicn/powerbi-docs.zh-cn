@@ -8,12 +8,12 @@ ms.Embedded: powerbi
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d9dfdf3f77629a58b324945815a8608fa45f509f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689774"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813494"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何将 Power BI 工作区集合内容迁移到 Power BI Embedded
 了解如何从 Power BI 工作区集合迁移到 Power BI Embedded，以及如何利用此改进功能在应用中嵌入内容。
@@ -159,7 +159,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/en-u
 
 ## <a name="rebuild-your-application"></a>重新生成应用程序
 1. 需要修改应用程序以使用 Power BI REST API 和 powerbi.com 中的报表位置。
-2. 使用应用程序的*主*帐户重新生成 AuthN/AuthZ 身份验证。 可以使用[嵌入令牌](https://msdn.microsoft.com/library/mt784614.aspx)来允许此用户代表其他用户执行操作。
+2. 使用应用程序的*主*帐户重新生成 AuthN/AuthZ 身份验证。 可以使用[嵌入令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken)来允许此用户代表其他用户执行操作。
 3. 将报表从 powerbi.com 嵌入到应用程序。
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>将用户映射到 Power BI 用户

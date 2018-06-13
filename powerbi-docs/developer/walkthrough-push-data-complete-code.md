@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: e5866b249d95cd3b05c7d769fe0cdbab984a978d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a41acec10e2801d046185d34c64e4d51b5e9dae0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289915"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813080"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>将数据推送到数据集的完整代码清单
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
@@ -228,7 +228,7 @@ ms.locfileid: "34289915"
 [在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)  
 [获取数据集以将行添加到 Power BI 表](walkthrough-push-data-get-datasets.md)  
 [向 Power BI 表中添加行](walkthrough-push-data-add-rows.md)  
-[Power BI REST API 引用](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/)  
 [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
 
 

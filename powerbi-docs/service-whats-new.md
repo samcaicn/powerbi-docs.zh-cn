@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/09/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0589ef3ad4f55a9684f0a7b31ed6421936c3e5c2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: db32f7d0d3f7ca7b6943ca5347dc349c8c44be85
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34299162"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301840"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
@@ -24,7 +24,7 @@ ms.locfileid: "34299162"
 - [Power BI Desktop 中的新增功能](desktop-latest-update.md)  
 - [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI 团队博客](https://powerbi.microsoft.com/blog/)
-- Dynamics 365 [2018 年春季商业应用程序发行说明](https://aka.ms/bagspring2018releasenotes_internal)：我们推出了商业应用程序的最新更新，以及在我们平台的基础之上生成应用程序和扩展的新功能。 
+- Dynamics 365 [2018 年春季商业应用程序发行说明](http://aka.ms/businessappsreleasenotes)：我们推出了商业应用程序的最新更新，以及在我们平台的基础之上生成应用程序和扩展的新功能。 
 
 还可以查看 YouTube 频道，了解“新增功能”和功能的相关信息。
 
