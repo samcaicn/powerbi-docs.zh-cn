@@ -900,8 +900,18 @@
           href: developer/embed-sample-for-customers.md
     - name: 概念
       items:
-        - name: 借助 Power BI API 可以做什么？
-          href: developer/overview-of-power-bi-rest-api.md
+        - name: 使用 Power BI REST API
+          items:
+            - name: 借助 Power BI API 可以做什么？
+              href: developer/overview-of-power-bi-rest-api.md
+            - name: Power BI REST API 限制
+              href: developer/api-rest-api-limitations.md
+            - name: 数据集属性
+              href: developer/api-dataset-properties.md
+            - name: 数据模型版本控制
+              href: developer/api-data-model-versioning.md
+        - name: 使用开发人员工具创建自定义视觉对象
+          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Power BI 权限
           href: developer/power-bi-permissions.md
         - name: 行级别安全性 (RLS)
@@ -968,6 +978,8 @@
               href: developer/walkthrough-push-data-add-rows.md
             - name: 完整代码清单
               href: developer/walkthrough-push-data-complete-code.md
+            - name: 实时数据的自动保留策略
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
         - name: 内容包认证
           items:
             - name: 内容包认证计划

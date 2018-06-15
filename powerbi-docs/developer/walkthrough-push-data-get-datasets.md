@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c550b911eef43ade98b3bc771e3f13929b805e11
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ae8919bbe06c729cc43e230146c4c1a216a80168
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287615"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813220"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步骤 4：获取数据集以向 Power BI 表中添加行
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
 
-在将数据推送到数据集的**步骤 3**（[在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)）中，你调用了[创建数据集](https://msdn.microsoft.com/library/mt203562.aspx)操作以在 Power BI 中创建数据集。 在此步骤中，你将使用[获取数据集](https://msdn.microsoft.com/library/mt203567.aspx)操作和 Newtonsoft.Json 来获取数据集 ID。在步骤 4 中使用数据集 ID 向数据集添加行。 
+在将数据推送到数据集的**步骤 3**（[在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)）中，你调用了[创建数据集](https://docs.microsoft.com/rest/api/power-bi/datasets)操作以在 Power BI 中创建数据集。 在此步骤中，你将使用[获取数据集](https://docs.microsoft.com/rest/api/power-bi/getdatasets)操作和 Newtonsoft.Json 来获取数据集 ID。在步骤 4 中使用数据集 ID 向数据集添加行。 
 
-要将数据推送到 Power BI 数据集，需要引用数据集中的表。 要引用数据集中的表，首先需要获取**数据集 ID**。 使用[获取数据集](https://msdn.microsoft.com/library/mt203567.aspx)操作获取**数据集 ID**。 **获取数据集**操作将返回一个 JSON 字符串，它包含 Power BI 中所有数据集的列表。 对 JSON 字符串进行反序列化的推荐的方法是使用 [Newtonsoft.Json](http://www.newtonsoft.com/json)。
+要将数据推送到 Power BI 数据集，需要引用数据集中的表。 要引用数据集中的表，首先需要获取**数据集 ID**。 使用“按 ID 获取数据集”[操作获取数据集 ID](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid)。 “按 ID 获取数据集”操作将返回一个 JSON 字符串，它包含 Power BI 中所有数据集的列表。 对 JSON 字符串进行反序列化的推荐的方法是使用 [Newtonsoft.Json](http://www.newtonsoft.com/json)。
 
 下面介绍如何获取数据集。
 
@@ -267,10 +267,10 @@ ms.locfileid: "34287615"
 ## <a name="next-steps"></a>后续步骤
 [向 Power BI 表中添加行](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
-[获取数据集](https://msdn.microsoft.com/library/mt203567.aspx)  
+[获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [将数据推送到 Power BI](walkthrough-push-data.md)  
 [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
-[Power BI REST API 引用](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/)  
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 
