@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3a27a3c39f1ddcee6a882184f511874313d77c9a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b1085c3715d9b4b75925cec1b94ec49b0f5792f7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291180"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813126"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Amazon Redshift
 在 **Power BI Desktop** 中，你可以连接到 **Amazon Redshift** 数据库，并以 Power BI Desktop 中使用其他所有数据源相同的方式使用基础数据。
@@ -29,7 +29,7 @@ ms.locfileid: "34291180"
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 
-出现提示时，输入你的用户名和密码。
+出现提示时，输入你的用户名和密码。 应使用与 SSL 证书精确匹配的服务器名称，以避免错误。 
 
 ![](media/desktop-connect-redshift/connect_redshift_5.png)
 

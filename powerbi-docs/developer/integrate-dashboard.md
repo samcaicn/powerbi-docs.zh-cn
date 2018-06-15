@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dd7276eb436dfd9d842930f6a2c550a2a6b521f3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290260"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812942"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>为组织将仪表板集成到应用中
 了解如何在为组织嵌入内容时，通过调用 REST API 和 Power BI JavaScript API，将仪表板集成到或嵌入 Web 应用中。
@@ -28,7 +28,7 @@ ms.locfileid: "34290260"
 > 
 > 
 
-若要将仪表板集成到 Web 应用中，请使用 Power BI REST API/Power BI C# SDK 和 Azure Active Directory (AD) 授权访问令牌来获取仪表板。 然后，使用相同的访问令牌加载仪表板。 **Power BI** API 向某些 **Power BI** 资源提供了编程访问权限。 有关详细信息，请参阅 [Power BI REST API 概述](https://msdn.microsoft.com/library/dn877544.aspx)和 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
+若要将仪表板集成到 Web 应用中，请使用 Power BI REST API/Power BI C# SDK 和 Azure Active Directory (AD) 授权访问令牌来获取仪表板。 然后，使用相同的访问令牌加载仪表板。 **Power BI** API 向某些 **Power BI** 资源提供了编程访问权限。 有关详细信息，请参阅 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 和 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
 
 ## <a name="download-the-sample"></a>下载示例
 本文展示了 GitHub 上 [integrate-dashboard-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) 中使用的代码。 若要按照此演练操作，可以下载这个示例。
@@ -44,12 +44,12 @@ ms.locfileid: "34290260"
 在应用内，需要先从 Azure AD 获取访问令牌，再调用 Power BI REST API。 有关详细信息，请参阅[对用户进行身份验证并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。
 
 ## <a name="step-3---get-a-dashboard"></a>第 3 步 - 获取仪表板
-若要获取 **Power BI** 仪表板，请使用[获取仪表板](https://msdn.microsoft.com/library/mt465739.aspx)操作，它将获取 **Power BI** 仪表板的列表。 从仪表板的列表中，你可以获取仪表板 ID。
+若要获取 **Power BI** 仪表板，请使用[获取仪表板](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)操作，它将获取 **Power BI** 仪表板的列表。 从仪表板的列表中，你可以获取仪表板 ID。
 
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>使用访问令牌获取仪表板
-使用在[第 2 步](#step-2-get-an-access-token-from-azure-ad)中检索的访问令牌，可以调用[获取仪表板](https://msdn.microsoft.com/library/mt465739.aspx)操作。 [获取仪表板](https://msdn.microsoft.com/library/mt465739.aspx)操作将返回仪表板列表。 可以获取仪表板列表中的一个仪表板。 下面是获取仪表板的完整 C# 方法。 
+使用在[第 2 步](#step-2-get-an-access-token-from-azure-ad)中检索的访问令牌，可以调用[获取仪表板](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)操作。 [获取仪表板](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)操作将返回仪表板列表。 可以获取仪表板列表中的一个仪表板。 下面是获取仪表板的完整 C# 方法。 
 
 若要执行 REST API 调用，必须添加格式为“持有者 {访问令牌}”的授权标头。
 
@@ -258,7 +258,7 @@ Tile Clicked
 ```
 
 ## <a name="working-with-groups-app-workspaces"></a>使用组（应用工作区）
-若要从组（应用工作区）嵌入仪表板，建议执行以下 REST API 调用，获取组中所有可用仪表板的列表。 若要查找有关此 REST API 调用的详细信息，请参阅[获取仪表板](https://msdn.microsoft.com/library/mt465739.aspx)。 必须在组中拥有权限，请求才能返回结果。
+若要从组（应用工作区）嵌入仪表板，建议执行以下 REST API 调用，获取组中所有可用仪表板的列表。 若要查找有关此 REST API 调用的详细信息，请参阅[获取仪表板](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)。 必须在组中拥有权限，请求才能返回结果。
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards

@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 382d600a6e50d926fc61163ea1b0e4f1273fdcc9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287523"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812528"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步骤 5：向 Power BI 表中添加行
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
 
-在“将数据推送到数据集”的**步骤 4**（[获取数据集以向 Power BI 表中添加行](walkthrough-push-data-get-datasets.md)）中，你使用了[获取数据集](https://msdn.microsoft.com/library/mt203567.aspx)操作和 Newtonsoft.Json 来获取数据集 ID。在此步骤中，你将该数据集 ID 与[添加行](https://msdn.microsoft.com/library/mt203561.aspx) 操作一起使用，将行添加到 **Power BI** 数据集。 
+在“将数据推送到数据集”的**步骤 4**（[获取数据集以向 Power BI 表中添加行](walkthrough-push-data-get-datasets.md)）中，你使用了[获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作和 Newtonsoft.Json 来获取数据集 ID。在此步骤中，将该数据集 ID 用于 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作，将行添加到 **Power BI** 数据集。 
 
-当你调用[添加行](https://msdn.microsoft.com/library/mt203561.aspx)操作时，会将行添加到数据集。
+调用 [PostRows ](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)操作时，会将行添加到数据集。
 
 ![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -308,9 +308,8 @@ ms.locfileid: "34287523"
     }
 
 ## <a name="next-steps"></a>后续步骤
-[添加行](https://msdn.microsoft.com/library/mt203561.aspx)  
 [将数据推送到 Power BI 仪表板](walkthrough-push-data.md)  
 [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
-[Power BI REST API 引用](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

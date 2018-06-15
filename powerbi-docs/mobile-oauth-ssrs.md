@@ -1,26 +1,27 @@
 ---
-title: 使用 OAuth 连接到 Reporting Services
-description: 了解如何将环境配置为支持 OAuth 对 Power BI 移动应用进行身份验证以连接到 Reporting Services 2016 或更高版本。
+title: 使用 OAuth 连接到 Power BI 报表服务器和 SSRS
+description: 了解如何将环境配置为支持 OAuth 对 Power BI 移动应用进行身份验证以连接到 SQL Server Reporting Services 2016 或更高版本。
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 4c9b2f5233ab984e57bf48978284441850c0c48f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852201"
 ---
-# <a name="using-oauth-to-connect-to-reporting-services"></a>使用 OAuth 连接到 Reporting Services
-了解如何将环境配置为支持 OAuth 对 Power BI 移动应用进行身份验证以连接到 Reporting Services 2016 或更高版本。
+# <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 连接到 Power BI 报表服务器和 SSRS
+了解如何将环境配置为支持 OAuth 对 Power BI 移动应用进行身份验证以连接到 Power BI Report Server 和 SQL Server Reporting Services 2016 或更高版本。
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-在过去，Power BI 移动应用仅支持通过 HTTPS 进行基本身份验证，以连接到 Reporting Services 来显示移动报表或 KPI。 许多组织出于安全考虑禁用这种类型的配置。 通过对 Power BI 移动应用的更新，现在可以使用 OAuth 连接到 Reporting Services。 Windows Server 2016 向 Web 应用程序代理角色提供了一些改进，以允许此种类型的身份验证。
+可使用 OAuth 连接到 Power BI 报表服务器和 Reporting Services，以显示移动报表或 KPI。 Windows Server 2016 向 Web 应用程序代理 (WAP) 角色提供了一些改进，以允许此种类型的身份验证。 请注意，此配置不支持在 Power BI 移动应用中查看 Power BI 报表。 但是，可以在移动设备上使用浏览器查看它们。 若要在移动应用中查看 Power BI 报表，必须使用 Windows 身份验证。
 
 ## <a name="requirements"></a>要求
 Windows Server 2016 是 Web 应用程序代理 (WAP) 和 Active Directory 联合身份验证服务 (ADFS) 服务器的必备组件。 无需具备 Windows 2016 功能级别的域。
@@ -202,7 +203,8 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 可以启用多重身份验证为环境启用其他安全功能。 若要了解详细信息，请参阅[配置 AD FS 2016 和 Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)。
 
 ## <a name="troubleshooting"></a>故障排除
-**收到错误消息“无法登录 SSRS 服务器。请确认服务器配置。”**
+
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>收到错误消息“无法登录 SSRS 服务器。 请验证服务器配置。
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

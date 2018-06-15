@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afed2bc87e7e358d9ba02a465c43d223f6e7cba3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288305"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813770"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>将磁贴集成到应用中（用户拥有数据）
 了解如何在为组织嵌入内容时，通过调用 REST API 和 Power BI JavaScript API，将磁贴集成到或嵌入 Web 应用中。
@@ -28,7 +28,7 @@ ms.locfileid: "34288305"
 > 
 > 
 
-若要将磁贴集成到 Web 应用中，请使用 Power BI REST API/Power BI C# SDK 和 Azure Active Directory (AD) 授权访问令牌来获取磁贴。 然后，使用相同的访问令牌加载磁贴。 **Power BI** API 向某些 **Power BI** 资源提供了编程访问权限。 有关详细信息，请参阅 [Power BI REST API 概述](https://msdn.microsoft.com/library/dn877544.aspx)和 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
+若要将磁贴集成到 Web 应用中，请使用 Power BI REST API/Power BI C# SDK 和 Azure Active Directory (AD) 授权访问令牌来获取磁贴。 然后，使用相同的访问令牌加载磁贴。 **Power BI** API 向某些 **Power BI** 资源提供了编程访问权限。 有关详细信息，请参阅 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 和 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
 
 ## <a name="download-the-sample"></a>下载示例
 本文展示了 GitHub 上 [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) 中使用的代码。 若要按照此演练操作，可以下载这个示例。
@@ -44,12 +44,12 @@ ms.locfileid: "34288305"
 在应用内，需要先从 Azure AD 获取访问令牌，再调用 Power BI REST API。 有关详细信息，请参阅[对用户进行身份验证并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。
 
 ## <a name="step-3---get-a-tile"></a>第 3 步 - 获取磁贴
-若要获取 Power BI 磁贴，请使用[获取磁贴](https://msdn.microsoft.com/library/mt465741.aspx)操作，以获取给定仪表板中的 Power BI 磁贴列表。 在磁贴列表中，可以获取磁贴 ID 和嵌入 URL。
+若要获取 Power BI 磁贴，请使用[获取磁贴](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles)操作，以获取给定仪表板中的 Power BI 磁贴列表。 在磁贴列表中，可以获取磁贴 ID 和嵌入 URL。
 
 必须先检索仪表板 ID，然后才能获取磁贴。 若要了解如何检索仪表板，请参阅[将仪表板集成到应用中（用户拥有数据）](integrate-dashboard.md)。
 
 ### <a name="get-tiles-using-an-access-token"></a>使用访问令牌获取磁贴
-使用在[第 2 步](#step-2-get-an-access-token-from-azure-ad)中检索的访问令牌，可以调用[获取磁贴](https://msdn.microsoft.com/library/mt465741.aspx)操作。 [获取磁贴](https://msdn.microsoft.com/library/mt465741.aspx)操作可返回磁贴列表。 可以获取磁贴列表中的一个磁贴。 下面展示了用于获取磁贴的完整 C# 方法。 
+使用在[第 2 步](#step-2-get-an-access-token-from-azure-ad)中检索的访问令牌，可以调用[获取磁贴](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles)操作。 [获取磁贴](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles)操作可返回磁贴列表。 可以获取磁贴列表中的一个磁贴。 下面展示了用于获取磁贴的完整 C# 方法。 
 
 若要执行 REST API 调用，必须添加格式为“持有者 {访问令牌}”的授权标头。
 
@@ -216,7 +216,7 @@ function updateEmbedTile() {
 ![Web 应用中嵌入的磁贴](media/integrate-tile/powerbi-embedded-tile.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>使用组（应用工作区）
-若要从组（应用工作区）嵌入磁贴，建议执行以下 REST API 调用，获取组仪表板中所有可用磁贴的列表。 若要详细了解此 REST API 调用，请参阅[获取磁贴](https://msdn.microsoft.com/library/mt465741.aspx)。 必须在组中拥有权限，请求才能返回结果。
+若要从组（应用工作区）嵌入磁贴，建议执行以下 REST API 调用，获取组仪表板中所有可用磁贴的列表。 若要详细了解此 REST API 调用，请参阅[获取磁贴](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles)。 必须在组中拥有权限，请求才能返回结果。
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards/{dashboard_id}/tiles

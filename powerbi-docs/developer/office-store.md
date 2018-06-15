@@ -9,11 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 6ecb9426ba1344fdf55789a22daec6b9fb6c6e89
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301771"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>将自定义视觉对象发布到 AppSource
 了解如何将自定义视觉对象发布到 AppSource 供其他人发现和使用。 office
@@ -25,9 +26,9 @@ ms.lasthandoff: 05/17/2018
 什么是 AppSource？ 简而言之，可以在其中查找 Microsoft 产品和服务的 SaaS 应用与加载项。 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 为 Office 365、Dynamics 365、Cortana Intelligence 和其他产品的数百万用户提供解决方案，帮助他们更高效、更有见地或更为完美地完成工作。
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>准备提交自定义视觉对象
-在完成编码、测试自定义视觉对象，并将其打包到 pbiviz 文件后，还应准备好以下内容以供提交。
+对自定义视觉对象进行编码和测试并将其打包到 pbiviz 文件后，还应准备以下信息用于提交。
 
-| 项 | 必填 | 说明 |
+| 商品 | 必填 | 说明 |
 | --- | --- | --- |
 | Pbiviz 程序包包含全部所需元数据 |是 |视觉对象名称<br>显示名称<br>GUID<br>版本<br>说明<br>作者姓名和电子邮件 |
 | 示例 .pbix 报表文件 |是 |要展示你的视觉对象，应帮助用户了解该视觉对象。 应向用户强调该视觉对象可以带来的价值，并提供使用示例，格式设置选项等。还可以添加 *“提示”* 页，并在页面末尾附上一些提示和技巧、操作注意事项以及类似内容。<br>示例 .pbix 报表文件必须脱机运行且无任何外部连接 |

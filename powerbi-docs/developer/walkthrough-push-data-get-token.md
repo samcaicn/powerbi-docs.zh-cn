@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 640c6dac9a896cff55bddad46ceef8bce7ccae14
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 238d068e5083c8f46ac3299faddd4e0872f0654d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289363"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812620"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>步骤 2：获取身份验证访问令牌
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
@@ -104,7 +104,7 @@ ms.locfileid: "34289363"
        #endregion
 ```
 
-获得身份验证令牌后，就可以调用任何 Power BI 操作。 下一步演示如何调用[创建数据集](https://msdn.microsoft.com/library/mt203562.aspx)操作来创建数据集，以便将数据推送到仪表板。
+获得身份验证令牌后，就可以调用任何 Power BI 操作。 下一步演示如何调用 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作来创建数据集，以便将数据推送到仪表板。
 
 下一步将演示如何[在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)。
 
@@ -181,6 +181,6 @@ ms.locfileid: "34289363"
 [Azure AD Authentication Library for .NET NuGet 程序包](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
 [将数据推送到 Power BI 数据集](walkthrough-push-data.md)  
 [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
-[Power BI REST API 引用](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

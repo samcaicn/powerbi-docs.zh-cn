@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
 ms.author: maghan
-ms.openlocfilehash: 86dd69cede6975021aff4b0ce3dada112db980ad
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d1fd42f059f8050662adc80018748d11c1e73e2b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287776"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813747"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded 中的问答
 Power BI Embedded 提供了一种将问答融入应用的方法，使用户能够使用自然语言提问并收到视觉对象（例如图表和图形）形式的即时答复。
@@ -93,7 +93,7 @@ qna.on("visualRendered", function(event) {
 ```
 
 ## <a name="embed-token"></a>嵌入令牌
-创建数据集的嵌入令牌以启动问答部分。 有关更多信息，请参阅[为问答生成令牌](https://msdn.microsoft.com/library/mt784614.aspx#qanda)。
+创建数据集的嵌入令牌以启动问答部分。 有关详细信息，请参阅[生成令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken)。
 
 ## <a name="next-steps"></a>后续步骤
 若要尝试问答嵌入，请查看 [JavaScript 嵌入示例](https://microsoft.github.io/PowerBI-JavaScript/demo/)。

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bd0565420382fc22af67b1363b41f6d8ed6e92ab
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6147f41ea99ad4a0416f6aa9c01288102f792771
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290743"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812919"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 报表中的辅助功能
 Power BI Desktop 具有使残疾人士能够更轻松地使用 Power BI Desktop 报表并与之进行交互的功能。 这些功能包括通过键盘或屏幕阅读器使用报表、通过按 Tab 键将焦点移动到页面中的各个对象以及在可视化效果中方便地使用标记。
@@ -66,6 +66,23 @@ Power BI Desktop 具有使残疾人士能够更轻松地使用 Power BI Desktop 
 * 请确保报表在文本和任意背景颜色之间有足够的对比度。
 * 使用易于阅读的文本大小和字体。 文本太小或难以阅读的字体对辅助功能没有任何帮助。
 * 包括所有视觉对象中的标题、轴标签和数据标签。
+
+## <a name="high-contrast-support-for-reports"></a>报表的高对比度支持
+
+使用 Windows 中的高对比度模式时，所选设置和调色板也会应用到 Power BI Desktop 的报表中。 
+
+![Windows 高对比度设置](media/desktop-accessibility/accessibility_05.png)
+
+Power BI Desktop 自动检测 Windows 中使用的高对比度主题，并将这些设置应用到报表。 报表发布到 Power BI 服务或其他位置时，这些高对比度颜色也会跟随报表。
+
+![Windows 高对比度设置](media/desktop-accessibility/accessibility_05b.png)
+
+Power BI 服务还尝试检测 Windows 选择的高对比度设置，但该检测的有效性和准确性取决于用于 Power BI 服务的浏览器。 如果要在 Power BI 服务中手动设置主题，可选择“视图”>“高对比度颜色”，然后选择要应用于报表的主题。
+
+![在 Power BI 服务中设置高对比度](media/desktop-accessibility/accessibility_06.png)
+
+请注意：在 Power BI Desktop 中，“可视化效果”和“字段”字段等区域不反映 Windows 高对比度配色方案的选择。
+
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 辅助功能存在一些已知问题和限制，如以下列表所述：

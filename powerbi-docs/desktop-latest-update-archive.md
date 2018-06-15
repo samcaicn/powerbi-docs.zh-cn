@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f371e9bd4e1681d2e8fa06b1aeabfcd58a5dc4d1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 53c4250949a696f4abbd0722cf89207f2c8d37c8
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291157"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813839"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -34,10 +34,67 @@ ms.locfileid: "34291157"
 
 以下各节描述了 **Power BI Desktop** 之前月份的更新。
 
+
+## <a name="may-2018-update-2585103281"></a>2018 年 5 月更新 (2.58.5103.281)
+
+五月的更新中涌现出一系列丰富多彩的功能和改进，我们希望能在你的报告中传播阳光，让它们带着优异的见解美丽绽放。
+
+下面介绍了 5 月更新中的 Power BI Desktop 新增功能：
+
+### <a name="reporting"></a>报表
+
+* 通过其他字段设置条件格式 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=55s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#conditionalFormatting) 
+* 高级切片器同步 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=3m40s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#slicerSync) 
+* 日志轴改进 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=5m47s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#logAxis) 
+* 漏斗图的数据标签选项 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=6m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#funnelChart) 
+* 将线条笔划宽度设置为零 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=6m49s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#lineStroke) 
+
+### <a name="analytics"></a>分析
+
+* 度量值钻取 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[文章]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
+
+### <a name="power-bi-premium"></a>Power BI Premium
+
+* 增量刷新（预览）[[视频]](https://youtu.be/-_GMCE1TLvQ?t=7m42s) [[文章]](service-premium-incremental-refresh.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#incrementalRefresh) 
+
+### <a name="custom-visuals"></a>自定义视觉对象
+
+* 多个新的自定义视觉对象  [[视频]](https://youtu.be/-_GMCE1TLvQ?t=9m44s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>数据连接
+
+* 新的“通过 Web”连接器 - 通过示例数据提取（预览版）[[视频]](https://youtu.be/-_GMCE1TLvQ?t=10m17s) [[文章]](desktop-connect-to-web-by-example.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#FromWebConnector) 
+* 应用连接器的常用数据服务 (beta) [[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#cdsApps) 
+* Azure KustoDB 连接器 (beta) [[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#kustoDB) 
+* Google BigQuery 和 Azure HDInsight Spark 连接器现已公开提供 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#googleBigQueryAzureHDInsightSpark) 
+* Adobe Analytics 连接器更新 - 支持多个域登录（预览）[[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#AdobeAnalytics) 
+* Visual Studio Team Services 连接器更新 - 分析视图支持 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#vsts) 
+* OLE DB 连接器更新 - 支持备用 Windows 凭据 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#oledb) 
+* SAP BW DirectQuery 连接器更新 - 改进的技术名称支持 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#sapBW) 
+
+### <a name="data-preparation"></a>数据准备
+
+* “从示例中添加列”的改进 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=12m57s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#addColumnFromExamples) 
+
+> [!NOTE]
+> 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
+
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+
+
+以下视频介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-_GMCE1TLvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+> [!NOTE]
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+
+
 ## <a name="april-2018-update-2575068501"></a>2018 年 4 月更新 (2.57.5068.501)
 
 我们没开玩笑，非常高兴四月更新 Power BI Desktop。 我们将提供数个领域的更新，希望这些能帮助你以令人惊叹的精美视觉对象来增色未来报表。 
 
+下面介绍 4 月更新的 Power BI Desktop 新增功能：
 
 ### <a name="reporting"></a>报表
 

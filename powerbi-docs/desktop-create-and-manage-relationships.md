@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 264071f314e4a05a3d0b283ab58d644dff4b44a1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813655"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中创建和管理关系
 导入多个表时，你很可能要使用所有这些表中的数据来执行一些分析。 为准确计算结果并在报表中显示正确信息，这些表格之间的关系是必需的。 Power BI Desktop 可轻松创建这些关系。 事实上，在大多数情况下你无需执行任何操作，自动检测功能将替你执行。 但在某些情况下，你可能需要自行创建关系，或者可能需要对关系进行一些更改。 无论哪种方法，都有必要了解 Power BI Desktop 中的关系及其创建和编辑方式。
@@ -35,6 +36,16 @@ ms.lasthandoff: 05/17/2018
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
 默认情况下，Power BI Desktop 会自动配置新关系的基数（方向）、交叉筛选器方向和活动属性；但必要时，可对其进行更改。 若要了解更多信息，请参阅本文后面的“了解其他选项”部分。
+
+请注意：如果为关系选择的表均没有唯一值，会显示一条错误：其中一列必须有唯一值。 关系中至少有一个表必须具有密钥值的不同的唯一列表，该列表是对所有关系数据库技术的常见要求。 
+
+如果遇到此错误，可采用以下方式修复：
+
+* 使用“删除重复行”创建具有唯一值的列。 此方法的缺点是删除重复行时信息会丢失，而通常重复行是有用的。
+* 将包含不同密钥值列表的中间表添加到模型，该模型会链接到关系中的两个原始列。
+
+有关详细信息，请参阅[博客文章](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/)，该文章对此进行了详细介绍。
+
 
 ## <a name="edit-a-relationship"></a>编辑关系
 1. 在**开始**选项卡上，单击**管理关系**。

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 99ee9e87584202420239658a3522ad82cb383227
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bdf3791d74510b1630bc13c279ed0cd5ebddc3ec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286534"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813448"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>解决 Power BI Desktop 不启动时的问题
 在 Power BI Desktop 中，已安装且正在运行旧版 Power BI 本地数据网关的用户可能无法启动 Power BI Desktop，因为 Power BI 本地网关对本地计算机的命名管道施加了管理策略限制。 
@@ -33,6 +33,13 @@ ms.locfileid: "34286534"
 或者，可以管理员身份启动 Power BI Desktop，这也会使其成功启动。 仍建议安装最新版 Power BI 本地数据网关，如本文先前部分中所述。
 
 值得注意的是，Power BI Desktop 是作为多进程体系结构设计的，其中一些进程使用 Windows 命名管道进行通信。 可能会有其他进程干扰这些命名管道。 此类干扰最常见原因是安全性，包括防病毒软件或防火墙可能会阻止管道或将流量重定向到特定端口的情况。 使用管理员权限启动 Power BI Desktop 可以解决该问题。 如果无法使用管理员权限启动，请与管理员联系，确定应用了哪些阻止命名管道正确通信的安全规则，并将 Power BI Desktop 及其各自的子进程列入白名单。
+
+## <a name="resolve-issues-when-connecting-to-sql-server"></a>解决连接到 SQL Server 时发生的问题
+如果连接 SQL Server 数据库时遇到类似以下错误消息，通常可以管理员身份启动 Power BI Desktop，然后连接 SQL Server，以解决此问题：
+
+    "An error happened while reading data from the provider: 'Could not load file or assembly 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxx' or one of its dependencies. Either a required impersonation level was not provided, or the provided impersonation level is invalid. (Exception from HRESULT: 0x80070542)'"
+
+以管理员身份启动并建立连接后，可正确注册所需 DLL。 此后，无需以管理员身份启动 Power BI Desktop。
 
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>帮助解决在启动 Power BI Desktop 时遇到的其他问题
 我们会尽可能地收录 Power BI Desktop 出现的问题。 我们会定期查看可能会对大量客户造成影响的问题，并将其收录到我们的文章中。

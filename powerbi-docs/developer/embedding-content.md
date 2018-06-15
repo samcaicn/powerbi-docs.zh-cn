@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/12/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 6824436af46caaa78d5ae23d1e1047f27bd30bba
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813034"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>嵌入 Power BI 仪表板、报表和磁贴
 
@@ -21,7 +22,7 @@ ms.lasthandoff: 05/17/2018
 
 Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft-accelerates-modern-bi-adoption-with-power-bi-premium/)，这是基于容量的全新许可模型，让用户可以更灵活地访问、共享和分发内容。 产品/服务还为 Power BI 服务提高其他可伸缩性和性能。 还发布了 Power BI Embedded，可方便用户在 Microsoft Azure 中创建容量。 Power BI Embedded 主要面向应用和客户。 
 
-本文将介绍如何为组织和客户嵌入 Power BI 内容。 两种方案的步骤相似。 如果是专为客户嵌入内容的步骤，则会有标注。
+本文介绍如何为组织和客户嵌入 Power BI 内容。 两种方案的步骤相似。 如果是专为客户嵌入内容的步骤，则会有标注。
 
 为了实现此操作，你的应用程序需要完成以下几个步骤。 我们会完成所需的步骤，方便你在应用程序中创建和使用嵌入内容。
 
@@ -34,10 +35,17 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 
 * [确保具有 Azure Active Directory 租户](embedding-content.md#azureadtenant)
 * [创建 Power BI Pro 帐户](embedding-content.md#proaccount)
-* [注册 Azure Active Directory 应用程序和权限](embedding-content.md#appreg)
+
+可使用[载入体验工具](https://aka.ms/embedsetup)快速开始并下载示例应用程序。
+
+选择最适合你的解决方案：
+* 通过[为客户嵌入内容](embedding.md#embedding-for-your-customers)，可为没有 Power BI 帐户的用户嵌入仪表板和报表。 运行[为客户嵌入](https://aka.ms/embedsetup/AppOwnsData)解决方案。
+* 通过[为组织嵌入内容](embedding.md#embedding-for-your-organization)，可以扩展 Power BI 服务。 运行[为组织嵌入](https://aka.ms/embedsetup/UserOwnsData)解决方案。
+
+但是，如果选择手动设置环境，则可以继续进行下面的操作。 
 
 > [!NOTE]
-> Power BI 容量对应用开发毫无影响。 应用程序的开发人员将需要具有 Power BI Pro 许可证。
+> 开发应用程序不需要专用容量。 应用程序的开发人员需要具有 Power BI Pro 许可证。
 
 ### <a name="azureadtenant"></a>Azure Active Directory 租户
 
@@ -55,25 +63,25 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 
 只需要一个 Power BI Pro 帐户即可嵌入内容。 但是，你可能想要有几个对各项目具有特定访问权限的不同用户。 下面介绍租户中可能需要考虑的用户。
 
-租户中将需要存在以下帐户，并需要向其分配 Power BI Pro 许可证。 需要 Power BI Pro 许可证才能与 Power BI 中的应用工作区配合使用。
+租户中需要存在以下帐户，并需要向其分配 Power BI Pro 许可证。 需要 Power BI Pro 许可证才能与 Power BI 中的应用工作区配合使用。
 
 #### <a name="an-organizationtenant-admin-user"></a>组织/租户管理员用户
 
-若要为客户嵌入内容，建议应用不要使用组织/租户全局管理员用户作为帐户。 这是为了最大限度地减少应用帐户在租户中拥有的访问权限。 建议将管理员用户设置为出于嵌入内容目的而创建的所有应用工作区的管理员。
+若要为客户嵌入内容，建议应用不要使用组织/租户全局管理员用户作为帐户。 这是为了最大限度地减少应用帐户在租户中拥有的访问权限。 建议将管理员用户作为为嵌入创建的所有应用工作区的管理员。
 
-#### <a name="accounts-for-analysts-that-will-create-content"></a>将创建内容的分析师帐户
+#### <a name="accounts-for-analysts-that-create-content"></a>创建内容的分析师帐户
 
-你可能有多个为 Power BI 创建内容的用户。 对于创建内容并将内容部署到 Power BI 的每个分析师，都将需要一个相应的 Power BI Pro 帐户。
+你可能有多个为 Power BI 创建内容的用户。 对于创建内容并将内容部署到 Power BI 的每个分析师，需要一个相应的 Power BI Pro 帐户。
 
 #### <a name="an-application-master-user-account-for-embedding-for-your-customers"></a>用于为客户嵌入内容的应用主用户帐户
 
-主帐户是为客户嵌入内容时，应用将使用的帐户。 此方案通常适用于 ISV 应用。 主帐户实际上是组织中唯一需要的帐户。 此外可用作管理员和分析师帐户，但不建议这样做。 应用程序的后端将存储此帐户的凭据，并将其用于获取与 Power BI API 一起使用的 Azure AD 身份验证令牌。 此帐户可用于生成应用要对客户使用的嵌入令牌。
+主帐户是为客户嵌入内容时，应用程序使用的帐户。 此方案通常适用于 ISV 应用。 主帐户是组织中唯一需要的帐户。 此外可用作管理员和分析师帐户，但不建议这样做。 应用程序的后端存储此帐户的凭据，并将其用于获取与 Power BI API 一起使用的 Azure AD 身份验证令牌。 此帐户生成应用要对客户使用的嵌入令牌。
 
 主帐户只是拥有用于应用的 Power BI Pro 许可证的常规用户。 此帐户必须是用于嵌入内容的应用工作区的管理员。
 
 ### <a name="appreg"></a>应用注册和权限
 
-必须向 Azure AD 注册应用，才能执行 REST API 调用。 有关详细信息，请参阅[注册 Azure AD 应用以便嵌入 Power BI 内容](register-app.md)。
+需要先向 Azure AD 注册应用程序，才能执行 REST API 调用。 有关详细信息，请参阅[注册 Azure AD 应用以便嵌入 Power BI 内容](register-app.md)。
 
 ### <a name="create-app-workspaces"></a>创建应用工作区
 
@@ -91,7 +99,7 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 
 ## <a name="step-2-embed-your-content"></a>步骤 2：嵌入内容
 
-在应用程序内，需要对 Power BI 进行身份验证。 若要为客户嵌入内容，将在应用中存储主帐户的凭据。 有关详细信息，请参阅[对用户进行身份验证并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。
+在应用程序内，需要对 Power BI 进行身份验证。 若要为客户嵌入内容，可在应用中存储主帐户的凭据。 有关详细信息，请参阅[对用户进行身份验证并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。
 
 通过身份验证后，在应用中使用 Power BI REST API 和 JavaScript API，将仪表板和报表嵌入应用中。 
 
@@ -105,7 +113,7 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 
 * [将仪表板、磁贴或报表集成到应用中](embed-sample-for-customers.md)
 
-为客户嵌入内容时，必须使用嵌入令牌。 有关详细信息，请参阅 [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx)。
+为客户嵌入内容时，必须使用嵌入令牌。 要了解详细信息，请参阅[嵌入令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken)。
 
 ## <a name="step-3-promote-your-solution-to-production"></a>步骤 3：将解决方案提升到生产环境
 
@@ -115,7 +123,7 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 
 若要为组织嵌入内容，只需让人们知道如何转到应用即可。 
 
-免费用户可以使用从应用工作区（组）嵌入的内容，前提是相应工作区受容量支持。 将免费用户列为应用工作区（组）的成员，否则将看到 401 未授权错误。 下表列出了 Office 365 中可用的 Power BI Premium SKU。
+如果专用容量支持工作区，免费用户可以使用从应用工作区（组）嵌入的内容。 将免费用户列为应用工作区（组）的成员，否则将看到 401 未授权错误。 下表列出了 Office 365 中可用的 Power BI Premium SKU。
 
 | 容量节点 | 总核心数<br/>（后端 + 前端） | 后端核心数 | 前端核心数 | DirectQuery/实时连接限制 | 高峰时间的最大显示页数 |
 | --- | --- | --- | --- | --- | --- |
@@ -127,6 +135,10 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 > [!NOTE]
 > 在租户中，只有作为全局管理员或帐单管理员才能购买 Power BI Premium。 有关如何购买 Power BI Premium 的信息，请参阅[如何购买 Power BI Premium](../service-admin-premium-purchase.md)。
 
+>[!Note]
+>[为组织设置嵌入分析环境。](#step-1-setup-your-embedded-analytics-development-environment)
+>
+
 ### <a name="embedding-for-your-customers"></a>为客户嵌入内容
 
 若要为客户嵌入内容，请执行以下操作。
@@ -135,7 +147,7 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 * 购买符合需求的容量。 请参阅下表，了解可能需要的 Power BI Embedded 容量 SKU。 有关详细信息，请参阅[嵌入式分析容量规划白皮书](https://aka.ms/pbiewhitepaper)。 准备购买时，可以在 [Microsoft Azure 门户](https://portal.azure.com)中完成购买。 若要详细了解如何创建 Power BI Embedded 容量，请参阅[在 Azure 门户中创建 Power BI Embedded 容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)。
 
 > [!IMPORTANT]
-> 由于嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 对于嵌入生产方案，[必须购买容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)。 购买容量后便不会限制嵌入令牌生成。 转到[获取可用功能](https://msdn.microsoft.com/en-us/library/mt846473.aspx)，检查已使用多少免费嵌入令牌。
+> 由于嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 对于嵌入生产方案，[必须购买容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)。 购买专用容量后便不会限制嵌入令牌生成。 转到[可用功能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures)，查看已使用多少免费嵌入令牌。
 
 | 容量节点 | 总核心数<br/>（后端 + 前端） | 后端核心数 | 前端核心数 | DirectQuery/实时连接限制 | 高峰时间的最大显示页数 |
 | --- | --- | --- | --- | --- | --- |
@@ -146,13 +158,15 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 | A5 |16 个虚拟核心 |8 核，50 GB RAM |8 核 |每秒 60 个 |2,401-4,800 |
 | A6 |32 个虚拟核心 |16 核，100 GB RAM |16 核 |每秒 120 个 |4,801-9600 |
 
-* 编辑应用工作区，并在“高级”下为它分配容量。
+* 编辑应用工作区，并在“高级”下为它分配专用容量。
 
     ![为应用工作区分配容量](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * 将更新后的应用部署到生产环境，并开始嵌入 Power BI 仪表板和报表。
 
-
+>[!Note]
+>[为客户设置嵌入分析环境。](#step-1-setup-your-embedded-analytics-development-environment) 
+>
 
 ## <a name="admin-settings"></a>管理员设置
 
@@ -171,4 +185,3 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 [Power BI Premium 白皮书](https://aka.ms/pbipremiumwhitepaper)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
-

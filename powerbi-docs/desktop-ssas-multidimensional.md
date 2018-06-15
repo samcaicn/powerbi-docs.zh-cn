@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
-ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
+ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34799570"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813333"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的 SSAS 多维模型
 使用 Power BI Desktop，你可以访问 **SSAS 多维模型**，通常称为 **SSAS MD**。
@@ -75,11 +75,12 @@ ms.locfileid: "34799570"
 ### <a name="security"></a>安全性
 通过 *角色* 方法，多维模型支持维度和单元格级别的安全性。 当使用 Power BI 链接到多维数据集时，将对你进行适当权限的身份验证和评估。 当用户应用了 *维度安全性* 时，Power BI 中的用户将无法看到相应的维度成员。 但是，当用户定义了 *单元格安全性* 权限时，某些单元格将受到限制，并且该用户无法使用 Power BI 连接到多维数据集。
 
-## <a name="limitations-of-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop 中 SSAS 多维模型的限制
+## <a name="considerations-and-limitations"></a>注意事项和限制
 使用 **SSAS MD** 具有某些特定限制：
 
 * 服务器必须运行 SQL Server 2012 SP1 CU4 或更高版本的 Analysis Services，才能使 Power BI Desktop SSAS MD 连接器正常工作
 * *操作* 和 *命名集* 不会公开到 Power BI，但你仍然可以连接到包含 *操作* 或 *命名集* 的多维数据集，并创建视觉对象和报表。
+* 可能会遇到以下问题：Power BI 显示 SSAS 模型元数据，但无法从模型检索数据。 如果系统上安装的 MSOLAP 提供程序是 32 位版本，而不是 64 位版本，则会出现此问题。 安装 64 位版本可以解决此问题。
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop 中支持的 SSAS MD 功能
 Power BI Desktop 中支持以下 SSAS MD 功能：

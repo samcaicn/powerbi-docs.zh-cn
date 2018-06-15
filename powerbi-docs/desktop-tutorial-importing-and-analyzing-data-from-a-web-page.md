@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 20bcc45fa95bcff6eb8a761dae58c67a875f55cd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32de597b594fe8b148a2b0471352e4784d596cec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34455987"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813172"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>教程：使用 Power BI Desktop 分析网页数据
 
@@ -31,6 +31,8 @@ ms.locfileid: "34455987"
 你可以从 http://en.wikipedia.org/wiki/UEFA_European_Football_Championship 处的欧足联欧洲锦标赛维基百科页面上的结果表中获得欧足联获胜队的数据。 
 
 ![维基百科结果表](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
+
+请注意：仅使用基本身份验证建立 Web 连接。 需要身份验证的网站可能无法正常使用 Web 连接器。
 
 若要导入数据，请执行下列操作：
 

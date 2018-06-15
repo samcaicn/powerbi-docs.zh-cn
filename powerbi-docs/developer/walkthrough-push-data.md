@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 76d07c8384123a303c8801a45ecd05b9e6ed0321
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289455"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813103"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>将数据推送到 Power BI 数据集
 借助 Power BI API，你可以将数据推送到 Power BI 数据集。 例如，想要扩展现有业务工作流以将关键数据推送到数据集时，即可使用它。 在本例中，你想要将带有“产品”表的“市场部市场营销”数据集推送到数据集。
@@ -31,14 +31,14 @@ ms.locfileid: "34289455"
 下一部分是关于推送数据的 Power BI API 操作的一般讨论。
 
 ## <a name="power-bi-api-operations-to-push-data"></a>推送数据的 Power BI API 操作
-借助 Power BI REST API，你可以将数据源推送到 Power BI。 当应用向数据集添加行时，将使用更新的数据自动更新仪表板上的磁贴。 若要推送数据，请使用[创建数据集](https://msdn.microsoft.com/library/mt203562.aspx)操作和[添加行](https://msdn.microsoft.com/library/mt203561.aspx)操作。 若要查找数据集，请使用[获取数据集](https://msdn.microsoft.com/library/mt203567.aspx)操作。 进行以上任意操作时，可以传递组 ID 以将其用于组。 使用[获取组](https://msdn.microsoft.com/library/mt243842.aspx)操作以获取组 ID 的列表。
+借助 Power BI REST API，你可以将数据源推送到 Power BI。 当应用向数据集添加行时，将使用更新的数据自动更新仪表板上的磁贴。 若要推送数据，请使用 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作和 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作。 若要查找数据集，请使用[获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作。 进行以上任意操作时，可以传递组 ID 以将其用于组。 使用[获取组](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)操作以获取组 ID 的列表。
 
 将数据推送到数据集的操作如下：
 
-* [创建数据集](https://msdn.microsoft.com/library/mt203562.aspx)
-* [获取数据集](https://msdn.microsoft.com/library/mt203567.aspx)
-* [添加行](https://msdn.microsoft.com/library/mt203561.aspx)
-* [获取组](https://msdn.microsoft.com/library/mt243842.aspx)
+* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
+* [Post Rows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [获取组](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
 通过将 JavaScript 对象表示法 (JSON) 字符串传递给 Power BI 服务，在 Power BI 中创建数据集。 若要了解有关 JSON 的详细信息，请参阅 [JSON 简介](http://json.org/)。
 
@@ -113,10 +113,6 @@ ms.locfileid: "34289455"
 
 ## <a name="next-steps"></a>后续步骤
 [注册 Power BI](create-an-azure-active-directory-tenant.md)  
-[创建数据集](https://msdn.microsoft.com/library/mt203562.aspx)  
-[获取数据集](https://msdn.microsoft.com/library/mt203567.aspx)  
-[添加行](https://msdn.microsoft.com/library/mt203561.aspx)  
-[获取组](https://msdn.microsoft.com/library/mt243842.aspx)  
 [JSON 简介](http://json.org/)  
 [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

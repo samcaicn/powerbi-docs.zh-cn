@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3e1b3b59fff26242e662d90365a6b8acc98259e6
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: bcdb20d22790b74b54caca5d21325039d6e718bf
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34754923"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812735"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -51,7 +51,7 @@ Microsoft 建议企业购买企业级自助服务云 BI 解决方案 Power BI Pr
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>我可以创建多少嵌入令牌？
 
-使用 PRO 许可证的嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 必须[购买容量](#technical)才能嵌入生产环境。 购买容量后便不会限制生成嵌入令牌的数量。 转到[获取可用功能](https://msdn.microsoft.com/library/mt846473.aspx)以检查使用情况值，该值以百分比表示当前嵌入使用情况。
+使用 PRO 许可证的嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 必须[购买容量](#technical)才能嵌入生产环境。 购买容量后便不会限制生成嵌入令牌的数量。 转到[可用功能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures)查看使用量值，该值以百分比表示当前嵌入使用量。
 
 ## <a name="technical"></a>技术
 

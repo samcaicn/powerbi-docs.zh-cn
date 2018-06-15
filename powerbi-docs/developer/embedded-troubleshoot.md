@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34720802"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813149"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -108,7 +108,7 @@ Azure 门户或 Power BI 应用注册页面中的错误消息将提到权限不�
 
 若要验证是哪一个，请尝试以下操作。
 
-* 执行 [get dataset](https://msdn.microsoft.com/library/mt784653.aspx)。 属性 IsEffectiveIdentityRequired 是否为 true？
+* 执行[获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets)。 属性 IsEffectiveIdentityRequired 是否为 true？
 * Username 是任何 EffectiveIdentity 必需的。
 * 如果 IsEffectiveIdentityRolesRequired 为 true，则 Role 是必需的。
 * DatasetId 是任何 EffectiveIdentity 必需的。

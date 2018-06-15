@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 06/05/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c91e257d79e9d16fa5a7a58b696d58aefaaaaf92
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722807"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812804"
 ---
 # <a name="on-premises-data-gateway"></a>本地数据网关
 
@@ -47,7 +47,9 @@ ms.locfileid: "34722807"
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>下载并安装本地数据网关
-若要下载网关，请选择“下载”菜单下的“数据网关”。 下载[本地数据网关](http://go.microsoft.com/fwlink/?LinkID=820925)。
+若要下载网关，请选择“下载”菜单下的“数据网关”。 下载[本地数据网关](http://go.microsoft.com/fwlink/?LinkID=820925)。 
+
+请注意：通过重新安装网关来更新本地数据网关，如本部分中所述。 更新网关（通过重新安装）时，会保留现有的网关设置。
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -56,9 +58,8 @@ ms.locfileid: "34722807"
 
 ## <a name="install-the-gateway-in-personal-mode"></a>在个人模式下安装网关
 > [!NOTE]
-> 个人模式仅适用于 Power BI。
-> 
-> 
+> 网关的个人版本仅适用于 Power BI。
+
 
 安装个人网关后，你将需要启动 **Power BI Gateway - Personal 配置向导**。
 

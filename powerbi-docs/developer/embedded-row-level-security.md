@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 218f4cd0aaaa5ffc8cab3a06b06af9544b02143d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301725"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>对 Power BI 已嵌入内容使用行级别安全性
 行级安全性 (RLS) 可用于限制用户对仪表板、磁贴、报表和数据集中数据的访问。 多个不同的用户都可以在查看不同的数据时处理这些相同的项目。 嵌入支持 RLS。
@@ -75,9 +76,9 @@ RLS 在 Power BI Desktop 中进行编写。 当打开数据集和报表时，我
 ## <a name="applying-user-and-role-to-an-embed-token"></a>将用户和角色应用于签入令牌
 现在，已经配置了 Power BI Desktop 角色，需要在应用程序中进行某些操作才能利用这些角色。
 
-用户由应用程序进行身份验证和授权，而嵌入令牌用于授予用户对特定 Power BI Embedded 报表的访问权限。 Power BI Embedded 不具备有关用户身份的任何特定信息。 要使 RLS 正常工作，需要以标识的形式，将一些其他上下文作为嵌入令牌的一部分进行传递。 这会通过 [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API 的方式完成。
+用户由应用程序进行身份验证和授权，而嵌入令牌用于授予用户对特定 Power BI Embedded 报表的访问权限。 Power BI Embedded 不具备有关用户身份的任何特定信息。 要使 RLS 正常工作，需要以标识的形式，将一些其他上下文作为嵌入令牌的一部分进行传递。 这通过 [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken)（嵌入令牌）API 来实现。
 
-[GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API 接受具有相关数据集指示的标识列表。 要使 RLS 正常工作，需要将以下内容作为标识的一部分进行传递。
+API 接受具有相关数据集指示的标识列表。 要使 RLS 正常工作，需要将以下内容作为标识的一部分进行传递。
 
 * **用户名（必填）** – 这是一个字符串，可用于在应用 RLS 规则时帮助标识用户。 只能列出单个用户。
 * **角色（必填）** – 一个字符串，包含在应用“行级别安全性”规则时要选择的角色。 如果传递多个角色，则这些角色应该作为字符串数组传递。
@@ -177,7 +178,7 @@ CustomData 字符串属性已添加到令牌生成方案中的有效标识。
 * 使用嵌入令牌时，在 Power BI 服务中向角色分配用户不会影响 RLS。
 * 虽然 Power BI 服务不会将 RLS 设置应用于管理员或具有编辑权限的成员，当提供具有嵌入令牌的标识时，它将应用于数据。
 * 本地服务器支持 Analysis Services 实时连接。
-* Azure Analysis Services 实时连接支持按角色筛选，但不支持按用户名动态筛选。
+* Azure Analysis Services 实时连接支持按角色筛选，但不支持按用户名动态筛选。 可使用 CustomData 执行动态筛选。
 * 如果基础数据集不需要 RLS，则 GenerateToken 请求不得包含有效的标识。
 * 如果基础数据集是云模型（缓存的模型或 DirectQuery），则有效的标识必须至少包含一个角色，否则不会发生角色分配。
 * 使用标识列表可以嵌入仪表板的多个标识标记。 对于其他所有项目，该列表包含单个标识。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755130"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301817"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理门户
 
@@ -218,10 +218,13 @@ ms.locfileid: "34755130"
 > [!NOTE]
 > 禁用“**导出数据**”还会阻止用户使用“**在 Excel 中分析**”功能。
 
-### <a name="user-arcgis-maps-for-power-bi-preview"></a>使用适用于 Power BI 的 ArcGIS 地图（预览）
+### <a name="use-arcgis-maps-for-power-bi"></a>使用 ArcGIS Maps for Power BI
 
-组织中的用户可以使用 Esri 提供的适用于 Power BI 的 ArcGIS 地图（预览）可视化效果。 [了解详细信息](power-bi-visualization-arcgis.md)
+组织中的用户可以使用 Esri 提供的 ArcGIS Maps for Power BI 可视化效果。 [了解详细信息](power-bi-visualization-arcgis.md)
 
+### <a name="use-global-search-for-power-bi-preview"></a>使用 Power BI（预览版）的全局搜索
+
+组织中的用户可以使用依赖于 Azure 搜索的的外部搜索功能。 例如，用户可以使用 Cortana 直接从 Power BI 仪表板和报表检索关键信息。 [了解详细信息](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>自定义视觉对象设置
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>为整个组织启用自定义视觉对象
