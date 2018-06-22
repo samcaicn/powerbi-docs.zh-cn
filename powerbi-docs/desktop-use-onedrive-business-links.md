@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290697"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 OneDrive for Business 链接
 很多人将 Excel 工作簿存储在 OneDrive for Business 驱动器上，这在 OneDrive 中使用起来非常方便。 通过 **Power BI Desktop**，你可以使用 **OneDrive for Business** 中存储的 **Excel** 文件的联机链接来创建报表和视觉对象。 你可以使用 **OneDrive for Business** 组帐户或 **OneDrive for Business** 个人帐户。

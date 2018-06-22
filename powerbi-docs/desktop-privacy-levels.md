@@ -15,6 +15,7 @@ ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/23/2018
+ms.locfileid: "34455964"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop 隐私级别
 在 **Power BI Desktop** 中，隐私级别指定隔离级别，该隔离级别定义一个数据源与其他数据源的隔离程度。 尽管严格的隔离级别能阻止数据源之间的信息交换，但也可能降低功能和影响性能。

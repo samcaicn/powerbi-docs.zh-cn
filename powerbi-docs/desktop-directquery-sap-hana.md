@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290605"
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery 和 SAP HANA
 可以使用 DirectQuery 直接连接到 SAP HANA 数据源。 连接到 SAP HANA 时存在两个选项：
