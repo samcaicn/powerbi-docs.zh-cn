@@ -11,10 +11,10 @@ ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c5679105cb37bc2f3198d6cb7bd33c22e34b77d1
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34455964"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop 隐私级别
@@ -31,7 +31,7 @@ ms.locfileid: "34455964"
 | --- | --- | --- |
 | **私有数据源** |**隐私**数据源包含敏感或机密信息，并且数据源的查看权限可能仅限于授权用户。 隐私数据源与其他数据源完全隔离。 |Facebook 数据、包含股票奖励的文本文件或包含员工查看信息的工作簿。 |
 | **组织数据源** |**组织**数据源将数据源的可见性限制为仅受信任的人员组。 **组织**数据源与所有**公共**数据源隔离，但对于其他**组织**数据源可见。 |位于受信任的 intranet SharePoint 站点，向受信任的组启用了权限的 **Microsoft Word** 文档。 |
-| **公共数据源** |**公共**数据源给予每个人对数据源中包含的数据的查看权限。 只有文件、Internet 数据源或工作簿数据可以标记为“公共”。 |来自 Microsoft Azure Marketplace 的免费数据、来自维基百科页的数据或包含从公共网页复制的数据的本地文件。 |
+| **公共数据源** |**公共**数据源给予每个人对数据源中包含的数据的查看权限。 只有文件、Internet 数据源或工作簿数据可以标记为“公共”。 |来自 Microsoft Azure 市场的免费数据、来自维基百科页的数据或包含从公共网页复制的数据的本地文件。 |
 
 ## <a name="configure-privacy-level-settings"></a>配置隐私级别设置
 每个数据源的“隐私”设置对话框可在“文件”>“选项和设置”>“数据源设置”中找到。

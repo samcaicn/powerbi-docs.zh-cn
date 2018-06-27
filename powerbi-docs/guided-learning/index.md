@@ -3,10 +3,10 @@ title: Microsoft Power BI 指导式学习
 description: 本系列课程将开启你的学习旅程，帮助你了解 Microsoft Power BI 广博而强大的功能。
 layout: LandingPage
 ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34310144"
 ---
 <div id="main" class="v2">

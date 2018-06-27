@@ -11,10 +11,10 @@ ms.date: 03/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: a8fde13b0beeb57fb5d25aa35002358f04ab6cad
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34288558"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery 和 SAP Business Warehouse (BW)
@@ -58,7 +58,7 @@ ms.locfileid: "34288558"
 | 键与文本（短、中、长） |对于如 CostCenter 等 SAP BW 特性，字段列表将显示单个列“成本中心”。  使用此列将显示默认文本。  通过显示隐藏的字段，还可以看到唯一的名称列（返回由 SAP BW 分配的唯一名称，并且是唯一性的基础）。<br/> <br/>  键和其他文本字段不可用。 |
 | 特性的多个层次结构 |在 SAP 中，某一特性可以具有多个层次结构。 在 BEx 分析器等工具中，当特性包含在查询中时，用户可以选择要使用的层次结构。 <br/> <br/> 在 Power BI 中，可以在字段列表中将各种层次结构视为同一维度上的不同层次结构。  但是，从位于同一维度的两个不同层次结构中选择多个级别将导致 SAP 返回空数据。 |
 | 不规则层次结构的处理 |![](media/desktop-directquery-sap-bw/directquery-sap-bw_01.png) |
-| 缩放系数/反转符号 |在 SAP 中，键数字可以具有定义为格式选项的缩放系数（如 1000），这意味着所有显示都会按照该系数进行缩放。 <br/> <br/> 同样，它可以具有反转符号的属性设置。 在 Power BI 中使用此类键数字（在视觉对象中或作为计算的一部分）将导致使用未缩放的数字（并且不会反转符号）。 基础缩放系数不可用。 在 Power BI 视觉对象中，轴（K、M、B）上显示的缩放单位可作为视觉对象格式的一部分进行控制。 |
+| 缩放系数/反转符号 |在 SAP 中，键数字可以具有定义为格式选项的缩放系数（如 1000），这意味着所有显示都会按照该系数进行缩放。 <br/> <br/> 同样，它可以具有反转符号的属性设置。 在 Power BI 中使用此类键数字（在视觉对象中或作为计算的一部分）将导致使用未缩放的数字（并且不会反转符号）。 基础缩放系数不可用。 在 Power BI 视觉对象中，轴（K、M、B）上显示的缩放单元可作为视觉对象格式的一部分进行控制。 |
 | 级别动态显示/消失的层次结构 |最初连接到 SAP BW 时，将检索关于层次结构级别的信息，从而导致字段列表中出现一组字段。 将缓存这些字段，如果级别设置发生更改，那么在调用“刷新”之前，这组字段的设置不会更改。 <br/> <br/> 这仅在 Power BI Desktop 中可行。 发布后，无法在 Power BI 服务中调用反映级别更改的此类“刷新”。 |
 | 默认筛选器 |BEx 查询可以包含默认筛选器，SAP BEx 分析器将自动应用该筛选器。 这些不会公开，因此 Power BI 中的等效用法默认不会应用相同的筛选器。 |
 | 隐藏的键数字 |BEx 查询可以控制键数字的可见性，隐藏的数字不会显示在 SAP BEx 分析器中。 这不会通过公共 API 反映，因此此类隐藏的键数字仍将显示在字段列表中。 但是，它们可以隐藏在 Power BI 中。 |

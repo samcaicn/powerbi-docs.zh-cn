@@ -10,10 +10,10 @@ ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
 ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34444994"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教程：浏览 VM 中的 Power BI 报表服务器 Web 门户
@@ -37,7 +37,7 @@ ms.locfileid: "34444994"
 
 幸运的是，Power BI 团队已创建已安装的 Power BI 报表服务器附带的 VM。
 
-1. 在 Azure Marketplace 中，打开 [Power BI 报表服务器](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview)。  
+1. 在 Azure 市场中，打开 [Power BI 报表服务器](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview)。  
 
 2. 选择“立即获取”。
 3. 若要同意提供商的使用条款和隐私策略，请选择“继续”。
