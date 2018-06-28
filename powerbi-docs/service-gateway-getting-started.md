@@ -11,17 +11,17 @@ ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 1da7591a490ae5bc6d132136691db05af7cffd81
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34754900"
 ---
 # <a name="what-are-power-bi-gateways"></a>什么是 Power BI 网关？
 
 Power BI 网关是安装在本地网络中的软件；它便于访问该网络中的数据。 这类似于网关守卫侦听连接请求，并仅在用户请求满足特定条件时才授权访问。 这样，组织可以使数据库和其他数据源保留在其本地网络上，但可安全地使用 Power BI 报表和仪表板中的本地数据。
 
-网关可用于单个数据源或多个数据源。 下图显示基本视图，其中包含处理来自三个本地计算机的云的请求的网关。 我们稍后将在本文中对其进行阐述。
+网关可用于一个数据源，也可用于多个数据源。 下图显示基本视图，其中包含处理来自三个本地计算机的云的请求的网关。 我们稍后将在本文中对其进行阐述。
 
 ![网关概述](media/service-gateway-getting-started/gateway-overview.png)
 

@@ -12,10 +12,10 @@ ms.date: 06/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 9d166dec82aa56fec1512e3d859e60142afcccd6
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34755268"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service-apppowerbicom"></a>在 Power BI 服务 (app.powerbi.com) 中订阅报表或仪表板

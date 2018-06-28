@@ -11,10 +11,10 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34310052"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>有关获取 Power BI 问题解答的 10 个提示
@@ -50,8 +50,10 @@ Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog
 
 还可以在网上找到其他培训选项，例如：
 
-* **edX.org** 提供免费课程[使用 Power BI 分析和直观呈现数据](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)。
-* **Lynda.com** 提供 [Power BI Pro 基础培训](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)等课程。
+* 
+  **edX.org** 提供免费课程[使用 Power BI 分析和直观呈现数据](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)。
+* 
+  **Lynda.com** 提供 [Power BI Pro 基础培训](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)等课程。
 * 查找“**从仪表板开始一天**”面对面培训会议。
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>提示 7：在 Power BI 社区中提问或搜索

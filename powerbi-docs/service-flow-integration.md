@@ -12,15 +12,16 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: dc79282a5c221e85fae7838009f6cecf91cbfdb8
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34246818"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 和 Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started) 是一款跨企业用户依赖的日益增多的应用程序和 SaaS 服务自动执行工作流的 SaaS。 使用 Flow，可以通过集成常用应用和服务（包括 Power BI）来自动执行任务，从而获得通知、同步文件、收集数据等。 借助工作流自动化，执行重复任务不再是难事。
+
+  [Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started) 是一款跨企业用户依赖的日益增多的应用程序和 SaaS 服务自动执行工作流的 SaaS。 使用 Flow，可以通过集成常用应用和服务（包括 Power BI）来自动执行任务，从而获得通知、同步文件、收集数据等。 借助工作流自动化，执行重复任务不再是难事。
 
 [立即开始使用 Flow。](https://flow.microsoft.com/documentation/getting-started)
 

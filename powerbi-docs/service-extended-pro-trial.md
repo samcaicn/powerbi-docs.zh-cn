@@ -11,10 +11,10 @@ ms.date: 07/18/2017
 ms.author: maghan
 LocalizationGroup: Get started
 ms.openlocfilehash: c38b94b278bf0e2fe308e3249b27acf8ed7e7837
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34247978"
 ---
 # <a name="extended-pro-trial-activation"></a>激活延长的专业版试用期
@@ -103,7 +103,8 @@ Power BI Pro 没有任何更改。 2017 年 6 月 1 日及之后登陆服务的�
 不行。 管理员无法阻止用户激活延长 Pro 试用期或 Power BI Pro 的服务内 60 天试用期。
 
 ## <a name="next-steps"></a>后续步骤
-[延长 Pro 试用期优惠的条款和条件](https://aka.ms/power-bi-trial)  
+
+  [延长 Pro 试用期优惠的条款和条件](https://aka.ms/power-bi-trial)  
 [适用于个人用户的 Power BI 服务协议](https://powerbi.microsoft.com/terms-of-service/)  
 [Power BI Premium 公告](https://aka.ms/pbipremium-announcement)  
 [查找已登录的 Power BI 用户](service-admin-access-usage.md)

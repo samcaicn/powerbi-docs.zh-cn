@@ -11,10 +11,10 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: d7170ce02294c3eadbfa38f0a25a2ab58777720b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34289317"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>在 Power BI 中使用 R 驱动的自定义视觉对象
@@ -81,7 +81,7 @@ ms.locfileid: "34289317"
 
 ### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>在 Power BI Desktop 中获取自定义视觉对象
 
-1. 也可以从 Power BI Desktop 获取自定义视觉对象。 在“Power BI Desktop”中，单击“可视化效果”窗格中的省略号 (...)，再选择“从 Marketplace 导入”。
+1. 也可以从 Power BI Desktop 获取自定义视觉对象。 在“Power BI Desktop”中，单击“可视化效果”窗格中的省略号 (...)，再选择“从市场导入”。
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 

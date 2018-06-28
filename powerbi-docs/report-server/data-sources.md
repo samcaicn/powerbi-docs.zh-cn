@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
 ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34310443"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表数据源
@@ -85,7 +85,7 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | Dynamics 365 for Financials (Beta) |是 |否 |否 |
 | GitHub (Beta) |是 |否 |否 |
 | Google BigQuery (Beta) |是 |否 |否 |
-| IBM Informix 数据库 (Beta) |是 |否 |否 |
+| IBM Informix 数据库(Beta) |是 |否 |否 |
 | IBM Netezza (Beta) |是 |否 |否 |
 | Kusto (Beta) |是 |否 |否 |
 | MailChimp (Beta) |是 |否 |否 |
@@ -168,7 +168,7 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | Dynamics 365 for Financials (Beta) |否 |否 |否 |否 |
 | GitHub (Beta) |否 |否 |否 |否 |
 | Google BigQuery (Beta) |否 |否 |否 |否 |
-| IBM Informix 数据库 (Beta) |否 |否 |否 |否 |
+| IBM Informix 数据库(Beta) |否 |否 |否 |否 |
 | IBM Netezza (Beta) |否 |否 |否 |否 |
 | Kusto (Beta) |否 |否 |否 |否 |
 | MailChimp (Beta) |否 |否 |否 |否 |
