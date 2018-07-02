@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584107"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964759"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI 中的散点图和气泡图
 散点图始终具有两个数值轴以显示水平轴上的一组数值数据和垂直轴上的另一组数值数据。 图表在 x 和 y 数值的交叉处显示点，将这些值单独合并到各个数据点。 根据数据，这些数据点可能均衡或不均衡地分布在水平轴上。
@@ -116,9 +116,9 @@ ms.locfileid: "34584107"
 要创建新字段，请[使用 Power BI Desktop 查询编辑器将索引列添加到数据集](desktop-add-custom-column.md)。  然后将该列添加到你的可视化效果的**详细信息**区域。
 
 ## <a name="next-steps"></a>后续步骤
- [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[试用一下 - 完全免费！](https://powerbi.com/)  
+[注册免费试用版](https://powerbi.microsoft.com/get-started/)  
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

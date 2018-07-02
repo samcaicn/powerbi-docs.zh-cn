@@ -10,12 +10,12 @@ ms.topic: conceptual
 sktopms.date: 06/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e8af4695ba54fee91820552802cf18d8a758e8b0
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755038"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964805"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
@@ -24,8 +24,10 @@ ms.locfileid: "34755038"
 ## <a name="what-is-microsoft-power-bi"></a>什么是 Microsoft Power BI？
 Power BI 是一种基于云的业务分析服务，使任何人能够用更快的速度、更高的效率以及在更深入了解的情况下，可视化和分析数据。 它通过生动展示数据的易用仪表板、交互式报表和引人注目的可视化效果，让用户看到更广泛的数据。 阅读有关[什么是 Power BI](power-bi-overview.md) 的详细信息。
 
-## <a name="whats-the-difference-between-power-bi-and-power-bi-pro"></a>Power BI 与 Power BI Pro 之间的区别是什么？
-Power BI 提供了各种类型的功能，可帮助你以全新方式浏览数据。 Power BI Pro 不仅提供了 Power BI 中的所有相同功能，还提供了其他功能，例如更大的存储容量、计划数据刷新频率比每天一次更频繁、具有完全交互性的实时数据源、分组等等。 详细了解 [Power BI Pro 和免费的 Power BI 之间的差异](https://powerbi.microsoft.com/pricing)。
+## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro 与 Power BI Premium 之间的区别是什么？
+Power BI Pro 是单个许可证，允许访问 Power BI 服务中的所有内容和功能，包括共享内容以及与其他 Pro 用户协作的功能。 只有 Pro 用户可以将内容发布到应用工作区，使用这些内容，共享仪表板并订阅仪表板及报表。 
+
+Premium 提供专用容量，在 Power BI 中具有更高的一致性并支持更大的数据量。 对于个人用户，Premium 还允许 Pro 用户广泛分发内容，且不要求查看内容的每个收件人用户都提供许可证。
 
 ## <a name="how-much-does-power-bi-cost"></a>Power BI 价格是多少？
 Power BI Desktop 是免费的。 Power BI Pro 还可提供 60 天的免费试用版。 有关定价，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing)。
@@ -34,7 +36,7 @@ Power BI Desktop 是免费的。 Power BI Pro 还可提供 60 天的免费试用
 与 Power BI Premium 相关的问题，请参阅 [Power BI Premium 常见问题解答](service-premium-faq.md)。
 
 ## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>如何查明组织中谁具有 Power BI 帐户？
-可查看 Power BI 的 Azure Active Directory 集成应用程序报表，从而发现组织中的活跃用户。 Azure AD 报表不指示用户在 Power BI 中使用的是免费版还是 Pro。 它只报告哪些用户已登录到 Power BI 及其登录时间。 有关详细信息，请参阅[查找已登录的 Power BI 用户](service-admin-access-usage.md)。
+可查看 Power BI 的 Azure Active Directory 集成应用程序报表，从而发现组织中的活跃用户。 Azure AD 报表并不会指出每个用户拥有的许可证类型。 它只报告哪些用户已登录到 Power BI 及其登录时间。 有关详细信息，请参阅[查找已登录的 Power BI 用户](service-admin-access-usage.md)。
 
 ## <a name="what-is-power-bi-desktop"></a>什么是 Power BI Desktop？
 Power BI Desktop 是一款免费的桌面应用程序，可将其直接安装在自己的计算机上。 Power BI Desktop 通过提供具有高度交互性的可视化效果的高级数据浏览、定型、建模和报告创建功能，紧密配合 Power BI 服务进行工作。 你可以将工作保存到文件，并将数据和报表直接发布到 Power BI 站点，以与其他人共享。 阅读有关[什么是 Power BI Desktop](desktop-what-is-desktop.md) 的详细信息。

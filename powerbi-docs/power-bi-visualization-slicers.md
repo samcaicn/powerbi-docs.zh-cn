@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 338b72ef39c5b9c9fe454c1063f26602e8ce2299
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721492"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964782"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的切片器
 你希望报表读者能够查看总体销售指标，但同时突出显示各个地区经理和不同时间范围的业绩表现。 可以创建单独的报表或比较图表，也可以使用切片器。 切片器是另一种筛选方法，用于限制在报表的其他可视化效果中显示的部分数据集。 
@@ -183,7 +183,7 @@ Power BI 切片器存在以下限制：
 - **边框：** 在切片器周围添加 1 像素的边框并设置其颜色。 （此切片器边框是单独的，不受常规边框设置影响。） 
 
 ## <a name="next-steps"></a>后续步骤
-[试用一下 - 完全免费！](https://powerbi.com/)
+[注册免费试用版](https://powerbi.microsoft.com/get-started/)
 
 你有关于如何改进 Power BI 的想法吗？ [提交想法](https://ideas.powerbi.com/forums/265200-power-bi-ideas)。
 
