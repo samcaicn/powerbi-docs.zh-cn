@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584061"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599585"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>从 Excel 将磁贴固定到 Power BI 仪表板
 若要从 Excel 工作簿固定磁贴，请将该工作簿连接到 Power BI 服务 (app.powerbi.com)。 实际上，连接工作簿会将该工作簿链接的只读版本引入 Power BI 服务，并允许用户将区域固定到仪表板。 甚至可以将整个工作表固定到仪表板。  
@@ -60,7 +60,7 @@ ms.locfileid: "34584061"
    * 现有仪表板：从下拉列表中选择仪表板的名称。
    * 新仪表板：键入新仪表板的名称。
    
-    ![“固定到仪表板”对话框](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+     ![“固定到仪表板”对话框](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. 选择“固定”。 一条成功消息（右上角附近）会告知你已将范围以磁贴的形式添加到你的仪表板中。 
    
     ![“已固定到仪表板”对话框](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
