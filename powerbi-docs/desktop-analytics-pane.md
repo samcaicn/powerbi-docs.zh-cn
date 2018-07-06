@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 817e01f83904a8481fa1d0915f671c6761247795
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 957408729812ab348cc171360416ee01b432d2e0
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287661"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136585"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>使用 Power BI Desktop 中的“分析”窗格
 通过 **Power BI Desktop** 的“**分析**”窗格，你可以向视觉对象添加动态参考行，并重点关注重要趋势或见解。 “分析”窗格位于 Power BI Desktop 的“可视化效果”区域中。
@@ -114,7 +114,7 @@ Power BI Desktop 可用于执行多种操作。 有关其功能的详细信息�
 
 * [Power BI Desktop 中的新增功能](desktop-latest-update.md)
 * [下载 Power BI Desktop](desktop-get-the-desktop.md)
-* [Power BI Desktop 入门](desktop-getting-started.md)
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 的查询概述](desktop-query-overview.md)
 * [Power BI Desktop 中的数据类型](desktop-data-types.md)
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
