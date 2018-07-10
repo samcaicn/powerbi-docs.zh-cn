@@ -2,12 +2,12 @@
 title: Microsoft Power BI 指导式学习
 description: 本系列课程将开启你的学习旅程，帮助你了解 Microsoft Power BI 广博而强大的功能。
 layout: LandingPage
-ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2cd748b60da6781ff9ea710b5802f3d68c3bc6b8
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310144"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600667"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -272,8 +272,8 @@ ms.locfileid: "34310144"
                                 <span style="margin-left: 32px; align-self: center;">9 分钟</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">创建自定义问答建议</a>
-                                <span style="margin-left: 32px; align-self: center;">4 分钟</span>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">创建自定义问答建议&amp;</a>4 分钟
+                                <span style="margin-left: 32px; align-self: center;"></span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
                                 <a class="barLink" href="exploringdata.yml?tutorial-step=6">与组织共享仪表板</a>
