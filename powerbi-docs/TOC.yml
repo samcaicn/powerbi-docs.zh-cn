@@ -12,6 +12,8 @@
       items:
         - name: 连接到 GitHub 示例
           href: service-tutorial-connect-to-github.md
+        - name: 开始使用 Power BI
+          href: service-get-started.md
     - name: 概念
       items:
         - name: Power BI 服务中的新功能
@@ -382,6 +384,8 @@
                   href: service-excel-workbook-files.md
                 - name: 从 Power BI Desktop 文件获取数据
                   href: service-desktop-files.md
+                - name: 数据集的参数设置
+                  href: service-parameters.md
                 - name: 从逗号分隔值 (.csv) 文件中获取数据
                   href: service-comma-separated-value-files.md
                 - name: Power BI 中的实时流式处理（预览）
@@ -860,16 +864,12 @@
           items:
             - name: 开始使用 iOS 应用
               href: mobile-iphone-app-get-started.md
-            - name: iPad 应用入门
-              href: mobile-ipad-app-get-started.md
             - name: iOS 移动应用中的问答虚拟分析师
               href: mobile-apps-ios-qna.md
             - name: Power BI Apple Watch 应用
               href: mobile-apple-watch.md
             - name: 使用 iPhone 上的应用扫描条形码
               href: mobile-apps-scan-barcode-iphone.md
-            - name: Power BI for iOS 应用
-              href: mobile-ios-ipad-iphone-apps.md
         - name: iOS 和 Android
           items:
             - name: 在移动应用中批注并共享
@@ -940,8 +940,6 @@
               href: developer/integrate-tile.md
             - name: 将 Power BI 报表集成到应用（用户拥有数据）
               href: developer/integrate-report.md
-            - name: 将内容集成到应用程序（应用拥有数据）
-              href: developer/embed-sample-for-customers.md
             - name: 将内容集成到主权云的应用程序（应用拥有数据）
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: 在应用中嵌入自定义布局
@@ -1234,6 +1232,13 @@
           href: service-admin-syndication-partner.md
         - name: 使用 Intune 配置移动应用
           href: service-admin-mobile-intune.md
+    - name: 参考
+      items:
+        - name: PowerShell、REST API 和 .NET SDK
+          href: service-admin-reference.md
+        - name: 适用于 PowerShell 的 Power BI cmdlet
+          href: 'https://docs.microsoft.com/en-us/powershell/power-bi/'
+          maintainContext: true
     - name: 资源
       items:
         - name: Power BI 管理和部署方法
