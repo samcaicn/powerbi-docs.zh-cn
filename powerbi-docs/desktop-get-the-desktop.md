@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 52ef1f6526b83a54ba26fdffaf8150049c55880d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 319c636c660aff3ab651475e2d7b553fef49b8cd
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813310"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137321"
 ---
 # <a name="get-power-bi-desktop"></a>获取 Power BI Desktop
 **Power BI Desktop** 允许用户生成高级查询、模型和实现数据可视化效果的报表。 通过 Power BI Desktop，可以生成数据模型、创建报表，并通过发布到 Power BI 服务共享工作。  **Power BI Desktop** 可免费下载。
@@ -110,7 +110,7 @@ ms.locfileid: "34813310"
 ## <a name="next-steps"></a>后续步骤
 一旦安装了 **Power BI Desktop**，以下内容可帮助你快速启动和运行：
 
-* [Power BI Desktop 入门](desktop-getting-started.md)
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 的查询概述](desktop-query-overview.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)

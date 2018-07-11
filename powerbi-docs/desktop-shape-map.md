@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 019aa1425d05fcfdc4415570acdc29e7a684dc25
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 88b8b4a50913cd45c5e4ff80a5d5e0ded2eb4cdb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290950"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600731"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop 中的形状地图（预览版）
 在 Power BI Desktop 中，可以创建**形状地图**视觉对象，以便通过向不同区域应用不同颜色，在地图上显示区域的相对比较。 与**地图**视觉对象相反，**形状地图**无法在地图上显示数据点的准确地理位置；其主要用途是通过对区域应用不同的颜色，在地图上显示其相对比较。
@@ -40,23 +40,23 @@ Power BI Desktop 将创建一个空的“形状地图”视觉对象设计画布
 通过执行以下步骤创建**形状地图**：
 
 1. 在“字段”窗格中，将具有区域名称（或缩写）的数据字段拖至“位置”Bucket，将数据度量值字段拖至“色彩饱和度”Bucket（暂时看不到地图）。
-   
+
    > [!NOTE]
-> 有关如何快速获取地图数据以测试形状地图的信息，请参阅下文的“获取地图数据”一节。
+   > 有关如何快速获取地图数据以测试形状地图的信息，请参阅下文的“获取地图数据”一节。
    > 
    > 
-   
+
    ![](media/desktop-shape-map/shape-map_3a.png)
 2. 在“格式”设置窗格中，展开“形状”，并从“标准地图”下拉列表中选择某个地图来显示你的数据。 此时将出现一个绘制工具，如下图所示。
-   
+
    ![](media/desktop-shape-map/shape-map_3b.png)
-   
+
    > [!NOTE]
-> 本文末尾的“区域键”一节中有一组具有地图区域键的表，可以使用这些区域键来测试“形状地图”视觉对象。
+   > 本文末尾的“区域键”一节中有一组具有地图区域键的表，可以使用这些区域键来测试“形状地图”视觉对象。
    > 
    > 
 3. 然后，可以从“格式”设置窗格中修改地图投影和缩放设置，以及数据点的颜色。 还可以修改缩放设置。 例如，可以更改颜色、设置最大值和最小值等等。
-   
+
    ![](media/desktop-shape-map/shape-map_3d.png)
 4. 还可以向“图例”存储段添加一个类别数据列，并基于类别对地图区域分类。
 
@@ -114,6 +114,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 在此预览版中使用以下**区域键**来测试**形状地图**。
 
 ### <a name="australia-states"></a>澳大利亚：州
+
 | ID | 缩写 | iso | 名称 | 邮政编码 |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |西澳大利亚 |WA |
@@ -126,6 +127,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | au-act |ACT |AU-ACT |澳大利亚首都直辖区 |ACT |
 
 ### <a name="austria-states"></a>奥地利：州
+
 | ID | iso | 名称 | 中文名称 | 邮政编码 |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |维也纳 |维也纳 |WI |
@@ -139,6 +141,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | at-bu |AT-1 |布尔根兰 |布尔根兰 |BU |
 
 ### <a name="brazil-states"></a>巴西：州
+
 | ID |
 | --- |
 | 托刊亭斯州 |
@@ -174,6 +177,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 争议区域 4 |
 
 ### <a name="canada-provinces"></a>加拿大：省
+
 | ID | iso | 名称 | 邮政编码 |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |努勒维特 |NU |
@@ -191,6 +195,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ca-ab |CA-AB |亚伯达 |AB |
 
 ### <a name="france-regions"></a>法国：区域
+
 | ID | 名称 | 中文名称 |
 | --- | --- | --- |
 | 阿尔萨斯 |阿尔萨斯 |阿尔萨斯 |
@@ -217,6 +222,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 阿基坦 |阿基坦 |阿基坦 |
 
 ### <a name="germany-states"></a>德国：州
+
 | ID | iso | 名称 | 中文名称 | 邮政编码 |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |柏林 |柏林 |BE |
@@ -237,6 +243,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | de-bw |DE-BW |巴登-符腾堡州 |巴登-符腾堡州 |BW |
 
 ### <a name="ireland-counties"></a>爱尔兰：郡
+
 | ID |
 | --- |
 | 威克洛 |
@@ -267,6 +274,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 卡洛 |
 
 ### <a name="italy-regions"></a>意大利：区域
+
 | ID | iso | 名称 | 中文名称 | 邮政编码 |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |威尼托 |威尼托 |VN |
@@ -291,6 +299,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | it-ab |IT-65 |阿布鲁佐 |阿布鲁佐 |AB |
 
 ### <a name="mexico-states"></a>墨西哥：州
+
 | ID | 缩写 | iso | 名称 | 中文名称 | 邮政编码 |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |萨卡特卡斯 |萨卡特卡斯 |ZA |
@@ -327,6 +336,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | mx-agu |Ags. |MX-AGU |阿瓜斯卡连特斯 |阿瓜斯卡连特斯 |AG |
 
 ### <a name="netherlands-provinces"></a>荷兰：省
+
 | ID | iso | 名称 | 中文名称 |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |南荷兰 |南荷兰 |
@@ -343,6 +353,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | nl-dr |NL-DR |德伦特 |德伦特 |
 
 ### <a name="uk-countries"></a>英国：国家/地区
+
 | ID | iso | 名称 |
 | --- | --- | --- |
 | gb-wls |GB-WLS |威尔士 |
@@ -351,6 +362,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | gb-eng |GB-ENG |英格兰 |
 
 ### <a name="usa-states"></a>美国：州
+
 | ID | 名称 | 邮政编码 |
 | --- | --- | --- |
 | us-mi |密歇根 |MI |

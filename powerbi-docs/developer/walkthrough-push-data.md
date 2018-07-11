@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813103"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598540"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>将数据推送到 Power BI 数据集
 借助 Power BI API，你可以将数据推送到 Power BI 数据集。 例如，想要扩展现有业务工作流以将关键数据推送到数据集时，即可使用它。 在本例中，你想要将带有“产品”表的“市场部市场营销”数据集推送到数据集。
@@ -98,6 +98,7 @@ ms.locfileid: "34813103"
 对于 Power BI 表架构，可以使用以下数据类型。
 
 ## <a name="power-bi-table-data-types"></a>Power BI 表数据类型
+
 | **数据类型** | **限制** |
 | --- | --- |
 | Int64 |不允许使用 Int64.MaxValue 和 Int64.MinValue。 |

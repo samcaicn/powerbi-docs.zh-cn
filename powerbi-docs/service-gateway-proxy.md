@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 621a5f92ebd9c7314b719b6643f5bfef958916c3
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799547"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599326"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>为本地数据网关配置代理设置
 你的工作环境可能要求你通过代理访问 Internet。 这会阻止本地数据网关连接到该服务。
@@ -77,23 +77,23 @@ superuser.com 上的以下文章讨论了尝试确定网络上有无代理的可
 
 ### <a name="change-the-on-premises-data-gateway-service-account"></a>更改本地数据网关服务帐户
 1. 更改“本地数据网关服务”的 Windows 服务帐户。
-   
+
     此服务的默认帐户是 NT SERVICE\PBIEgwService。 你会想要在 Active Directory 域内将其更改为域用户帐户。 或者，你会想要使用托管服务帐户以避免更改密码。
-   
+
     你会想要在 Windows 服务属性中的“登录”选项卡上更改帐户。
 2. 重启“本地数据网关服务”。
-   
+
     从管理员命令提示符中，发出以下命令。
-   
+
         net stop PBIEgwService
-   
+
         net start PBIEgwService
 3. 启动“本地数据网关配置器”。 可选择 Windows“开始”按钮，然后搜索“本地数据网关”。
 4. 登录到 Power BI。
 5. 使用恢复密钥还原网关。
-   
+
     这将使新的服务帐户能够解密存储的数据源凭据。
-    
+
 > [!NOTE]
 > 如果直接使用服务控制面板更改服务帐户，它不会自动更新 ACL。 必须确保新服务帐户有权访问安装文件和文件夹。 “网关安装”文件夹位于 C:\Program Files\On-premises data gateway 下。 
 > 

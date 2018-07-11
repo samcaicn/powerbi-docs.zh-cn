@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1a39b347a68cb5557ffff7758efbfba86884b5ce
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297092"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598992"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>自定义可视化效果的标题、图例和背景
 在本教程中，你将学习一些用于自定义可视化效果的不同方式。   有许多选项用于自定义可视化效果，了解所有这些选项的最佳方法是：浏览格式设置窗格（选择 paintroller 图标）。  为了帮助你入门，本文演示了如何自定义可视化效果的标题、图例和背景。  
@@ -41,26 +41,26 @@ ms.locfileid: "34297092"
 
 1. 导航到报表的“新建商店”页面，并选择“按开业月份划分的开业商店计数...”柱形图。
 2. 在可视化效果窗格中，选择 paintroller 图标以显示格式设置选项。  然后选择“标题”展开此部分。  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
 3. 通过选择“打开”（或“关闭”）滑块来打开和关闭**标题**。 现在，将它保留为**打开**。  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
 4. 通过在文本字段中输入**按开业月份划分的商店计数**来更改**标题文本**。  
 5. 将**字体颜色**更改为橙色，并将**背景色**更改为黄色。
-   
+
    * 选择下拉菜单，然后从**主题颜色**、**最近使用的颜色**或**自定义颜色**中选择颜色。
    * 选择下拉菜单以关闭颜色窗口。  
      ![](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
-   
+
    始终可以通过在颜色窗口中选择**恢复到默认值**，来恢复为默认颜色。
 6. 将文本大小增加到 12。
 7. 我们对图表标题进行的最后一个自定义是使它在可视化效果中居中。 标题位置默认为左对齐。  
    ![](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
-   
+
     此时在教程中，柱形图“标题”应如下所示：  
     ![](media/power-bi-visualization-customize-title-background-and-legend/tutorialprogress1.png)
-   
+
     要恢复目前为止我们进行的所有标题自定义，请在**标题**自定义窗格底部选择**默认到默认值**。  
     ![](media/power-bi-visualization-customize-title-background-and-legend/revertall.png)
 
@@ -69,29 +69,30 @@ ms.locfileid: "34297092"
 
 1. 通过选择“打开”（或“关闭”）滑块来打开和关闭背景。 现在，将它保留为**打开**。
 2. 将背景色更改为 74% 灰色。
-   
+
    * 选择下拉菜单，然后从“主题颜色”、“最近使用的颜色”或“自定义颜色”中选择灰色。
    * 将透明度更改为 74%。   
      ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
-   
+
    要恢复目前为止我们进行的所有背景自定义，请在**背景**自定义窗格底部选择**默认到默认值**。
 
 ## <a name="customize-visualization-legends"></a>自定义可视化效果图例
 1. 打开**概述**报告页面并选择“按会计月份和区域经理划分的总销售额差异”图表。
 2. 在“可视化效果”选项卡中，选择画笔图标以打开格式设置窗格。  
 3. 展开**图例**选项。
-   
+
       ![](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
 4. 通过选择“打开”（或“关闭”）滑块来打开和关闭图例。 现在，将它保留为**打开**。
 5. 将图例移动到可视化效果左侧。    
 6. 通过将**标题**切换为**打开**，然后在**图例名称**字段中输入**经理**，来添加图例标题。
    ![](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
-   
+
    要恢复目前为止我们进行的所有图例自定义，请在**图例**自定义窗格底部选择**默认到默认值**。
 
 <a name="list"></a>
 
 ## <a name="visualization-types-that-can-be-customized"></a>可以自定义的可视化效果类型
+
 | 可视化效果 | 标题 | 背景 | 图例 |
 |:--- |:--- |:--- |:--- |
 | 分区图 |是 |是 |是 |

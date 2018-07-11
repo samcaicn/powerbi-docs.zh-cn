@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: f20fe4595236381106b6cb2a676ffd3d3baa3971
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fb06b83ca2fe949751337347c91b3947e115286d
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471769"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944712"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客户盈利率示例：教程
 
@@ -48,7 +48,7 @@ ms.locfileid: "34471769"
 ### <a name="get-the-pbix-file-for-this-sample"></a>获取 .pbix 文件形式的此示例
 
 也可以将此示例下载为 .pbix 文件，这是专为 Power BI Desktop 量身定制的文件格式。
-[客户盈利率示例](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer-Profitability-Sample-PBIX.pbix)
+[客户盈利率示例](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 

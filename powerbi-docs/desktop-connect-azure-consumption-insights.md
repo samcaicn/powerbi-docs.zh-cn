@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 59723d4c8e241781b7f29773ea182cd5b075e0c2
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f42efcb833c723e7af9132f7e039c8ff8805d17d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288190"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137367"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (Beta) 中连接到 Azure 使用情况见解
 借助 Azure 使用情况见解连接器，可以使用 Power BI Desktop 连接到 Azure，并获取有关组织 Azure 服务使用情况更详细的数据和信息。 还可以创建度量值、自定义列和视觉对象来报告和共享组织的 Azure 使用情况。 此版本的 Azure 使用情况和见解连接器处于测试阶段，随时可能更改。
@@ -193,7 +193,7 @@ Azure 门户中的列和名称详细信息与 API 和连接器中的相关信息
 ## <a name="next-steps"></a>后续步骤
 你可以使用 Power BI Desktop 连接到各种数据。 有关数据源的详细信息，请参阅下列资源：
 
-* [Power BI Desktop 入门](desktop-getting-started.md)
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [通过 Power BI Desktop 连接到 Excel 工作簿](desktop-connect-excel.md)   

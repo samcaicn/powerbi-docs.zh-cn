@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd4198bb6b826f8d4af22e83e313c4c0b8101024
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 016237c95d3494435931e143ff34dbe4a82abb55
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299300"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599640"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>在 Power BI 服务中创建 R 视觉对象
 Power BI 服务支持查看使用 R 脚本创建的视觉对象并与之交互。 使用 R 脚本创建的视觉对象通常称为  *R 视觉对象* ，它可以借助 R 丰富的分析和可视化功能来显示高级数据成型和分析（如预测）。
@@ -37,7 +37,7 @@ R 视觉对象在 [Power BI Desktop 报表](desktop-get-the-desktop.md)中创建
 
 请注意，该服务并不支持所有 R 程序包。 有关 Power BI 服务当前支持的程序包的列表，请参阅本文末尾的“支持的程序包”。
 
-你可以下载这个包含数个 R 视觉对象的 [Power BI Desktop 示例文件](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample SL.pbix)（.pbix 文件），以了解其工作原理并进行试验。
+你可以下载这个包含数个 R 视觉对象的 [Power BI Desktop 示例文件](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix)（.pbix 文件），以了解其工作原理并进行试验。
 
 对于在 **Power BI Desktop** 中创建，然后发布到 Power BI 服务的 R 视觉对象，其行为很大程度上与 Power BI 服务中的其他任何视觉对象类似；你可以与之进行交互，对其进行筛选和切分，还可以将其固定到仪表板，或与他人共享。 有关共享仪表板和视觉对象的详细信息，请参阅[与同事和其他人共享仪表板](service-share-dashboards.md)。 与其他视觉对象的不同之处在于，R 视觉对象不能显示工具提示，并且不能用于筛选其他视觉对象。
 

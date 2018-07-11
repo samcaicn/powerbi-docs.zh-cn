@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 6f03a8615f4ea679b1778e7612a2d6fc4449f457
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5e69f9416f1de84cd4e2268964620b6a114d4016
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722238"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944482"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI 销售与市场营销示例：教程
 
@@ -30,7 +30,7 @@ VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想�
 
 ## <a name="prerequisites"></a>先决条件
 
- 必须先将示例下载为[内容包](https://docs.microsoft.com/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample)、[.pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales-and-Marketing-Sample-PBIX.pbix) 或 [Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529785)，然后才能使用它。
+ 必须先将示例下载为[内容包](https://docs.microsoft.com/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample)、[.pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) 或 [Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529785)，然后才能使用它。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>获取内容包形式的此示例
 

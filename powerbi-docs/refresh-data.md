@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 779bfb3e69a76d0fe9e9a34d6576b2054de89cc1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: aa7fcc720861d1459183aaf7a82a2af8912eb5b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253610"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599739"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 中的数据刷新
 确保始终获得最新数据对于制定正确决策通常是至关重要的。 你可能已在 Power BI 中使用“获取数据”连接到并上载一些数据，创建了一些报表和仪表板。 现在，你要确保数据确实是最新且最好的。
@@ -101,6 +101,7 @@ ms.locfileid: "34253610"
 将文件保留在 OneDrive（或 SharePoint Online）上并从 Power BI 连接到它们可提供非常高的灵活性。 不过与这一灵活性随之而来的，是它也成为最难以理解的情况之一。 针对存储在 OneDrive（或 SharePoint Online）中的文件的计划的刷新与包刷新不同。 可以在[刷新的类型](#types-of-refresh)部分中了解详细信息。
 
 ### <a name="power-bi-desktop-file"></a>Power BI Desktop 文件
+
 | **数据源** | **自动刷新** | **用户配置的手动或计划的刷新** | **需要网关** |
 | --- | --- | --- | --- |
 | “获取数据”（在功能区中）用于连接到任何列出的联机数据源并从中查询数据。 |否 |是 |否（见下文） |
@@ -117,6 +118,7 @@ ms.locfileid: "34253610"
 有关详细信息，请参阅[刷新从 OneDrive 上的 Power BI Desktop 文件创建的数据集](refresh-desktop-file-onedrive.md)。
 
 ### <a name="excel-workbook"></a>Excel 工作簿
+
 | **数据源** | **自动刷新** | **用户配置的手动或计划的刷新** | **需要网关** |
 | --- | --- | --- | --- |
 | 未加载到 Excel 数据模型中的工作表中的数据表。 |是，每小时 *（仅限 OneDrive/SharePoint Online）* |仅限手动 *（仅限 OneDrive/SharePoint Online）* |否 |
@@ -131,6 +133,7 @@ ms.locfileid: "34253610"
 有关详细信息，请参阅[刷新从 OneDrive 上的 Excel 工作簿创建的数据集](refresh-excel-file-onedrive.md)。
 
 ### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive 或 SharePoint Online 上的逗号分隔值 (.csv) 文件
+
 | **数据源** | **自动刷新** | **用户配置的手动或计划的刷新** | **需要网关** |
 | --- | --- | --- | --- |
 | 简单的逗号分隔值 |是，每小时 |仅限手动 |否 |
@@ -145,6 +148,7 @@ Power BI 中有两种类型的内容包：
 **组织内容包**：由你自己组织中的用户创建并共享。 内容包使用者无法设置刷新计划或手动刷新。 只有内容包创建者才能为内容包中的数据集设置刷新。 刷新设置随数据集一起继承。
 
 ### <a name="content-packs-from-online-services"></a>来自联机服务的内容包
+
 | **数据源** | **自动刷新** | **用户配置的手动或计划的刷新** | **需要网关** |
 | --- | --- | --- | --- |
 | “获取数据”&gt;“服务”中的联机服务 |是 |是 |否 |
@@ -237,7 +241,7 @@ Power BI 中有两种类型的内容包：
 > 
 > 
 
-若要了解详细信息，请参阅 [Power BI 中的 Excel 数据](service-excel-workbook-files.md)、[Power BI Gateway - Personal](personal-gateway.md)、[本地数据网关](service-gateway-onprem.md)、[刷新从本地驱动器上的 Excel 工作簿创建的数据集](refresh-excel-file-local-drive.md)。
+若要了解详细信息，请参阅 [Power BI 中的 Excel 数据](service-excel-workbook-files.md)、[Power BI Gateway - Personal](service-gateway-personal-mode.md)、[本地数据网关](service-gateway-onprem.md)、[刷新从本地驱动器上的 Excel 工作簿创建的数据集](refresh-excel-file-local-drive.md)。
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>包含来自 OData 源的数据的 Power BI Desktop 文件
 在此例中，使用 Power BI Desktop 中的“获取数据”连接到 OData 源并从中导入人口普查数据。  在 Power BI Desktop 中创建多个报表，随后将文件命名为 WACensus 并将它保存在公司中的共享上。 随后将该文件发布到 Power BI 服务。
@@ -270,7 +274,7 @@ Power BI 中有两种类型的内容包：
 ## <a name="next-steps"></a>后续步骤
 [用于解决刷新问题的工具](service-gateway-onprem-tshoot.md)  
 [刷新方案故障排除](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI Gateway - Personal](personal-gateway.md)  
+[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
 [本地数据网关](service-gateway-onprem.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

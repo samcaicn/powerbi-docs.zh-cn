@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 58e6dc99198eb4f031dd28b5c80cc8babb03dbfb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247255"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145401"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI 网关故障排除 - 个人
 以下介绍使用 Power BI 个人网关时可能遇到的一些常见问题。
@@ -146,7 +146,7 @@ ms.locfileid: "34247255"
 ## <a name="next-steps"></a>后续步骤
 [为 Power BI Gateway 配置代理设置](service-gateway-proxy.md)  
 [数据刷新](refresh-data.md)  
-[Power BI Gateway - Personal](personal-gateway.md)  
+[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
 [磁贴错误故障排除](refresh-troubleshooting-tile-errors.md)  
 [本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

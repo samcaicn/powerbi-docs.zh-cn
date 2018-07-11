@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296288"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600361"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>使用开发人员工具创建自定义视觉对象
 自定义视觉对象可以满足用户的需求并匹配应用的设计。 了解如何使用开发人员工具为 Power BI 创建自定义视觉对象。
@@ -32,14 +32,14 @@ ms.locfileid: "34296288"
 
 1. 下载并安装 [NodeJS](https://nodejs.org)。 需要版本 4.0 或更高版本，但建议使用 5.0 或更高版本。
 2. 安装命令行工具。 从命令提示符处运行以下命令。
-   
+
         npm install -g powerbi-visuals-tools
 3. 通过运行以下不带任何参数的命令可以确认已安装这些工具。
-   
+
         pbiviz
-   
+
     可以看到以下帮助输出。
-   
+
     <pre><code>
          +syyso+/
     oms/+osyhdhyso/
@@ -59,22 +59,22 @@ ms.locfileid: "34296288"
                /dmmh /mmmm/ /osyhhy/
                  //   dmmd
                        ++
-   
+
        PowerBI Custom Visual Tool
-   
+
     Usage: pbiviz [options] [command]
-   
+
     Commands:
-   
+
     new [name]        Create a new visual
     info              Display info about the current visual
     start             Start the current visual
     package           Package the current visual into a pbiviz file
     update [version]  Updates the api definitions and schemas in the current visual. Changes the version if specified
     help [cmd]        display help for [cmd]
-   
+
     Options:
-   
+
     -h, --help      output usage information
     -V, --version   output the version number
     --install-cert  Install localhost certificate
@@ -103,7 +103,7 @@ ms.locfileid: "34296288"
 若要安装证书，请运行以下命令。
 
     pbiviz --install-cert
-    
+
 > [!NOTE]
 > 应该会看到一条消息，其中指明了使用新生成的密码来安装 PFX 证书。
 > 
@@ -112,20 +112,20 @@ ms.locfileid: "34296288"
 **Windows 操作系统**
 
 1. 选择“安装证书...”。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows.png)
 2. 选择“当前用户”，然后选择“下一步”。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows2.png)
 3. 选择“将所有证书放在以下存储”，然后选择“浏览…”。
 4. 选择“受信任的根证书颁发机构”，然后选择“确定”。 选择**下一步**。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows3.png)
 5. 选择**完成**。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows4.png)
 6. 在安全警告对话框上选择“是”。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows5.png)
 7. 关闭已打开的任何浏览器。
 
@@ -137,13 +137,13 @@ ms.locfileid: "34296288"
 **OSX**
 
 1. 如果左上角的锁处于锁定状态，则选择它以解除锁定。 搜索 localhost，并双击该证书。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx.png)
 2. 选择“始终信任”并关闭窗口。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx2.png)
 3. 输入用户名和密码。 选择“更新设置”。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx3.png)
 4. 关闭已打开的任何浏览器。
 
@@ -157,15 +157,15 @@ ms.locfileid: "34296288"
 
 1. 浏览并登录到 [app.powerbi.com](https://app.powerbi.com)。
 2. 选择**齿轮图标**，然后选择“设置”。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings.png)
 3. 选择“开发人员”，然后选择“启用开发人员视觉对象以用于测试”。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings-enable-developer-live-preview.png)
 4. 在“可视化效果”窗格中选择“开发人员视觉对象”。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
-   
+
    > [!NOTE]
    > 该操作要求已从开发计算机上的视觉对象文件夹中运行 `pbiviz start`。 有关创建视觉对象的更多信息，请参阅本文中的[创建新的视觉对象](#create-a-new-visual)。
    > 
@@ -196,11 +196,11 @@ pbiviz new My Visual name
 1. 打开提示符。
 2. 将目录更改为视觉对象文件夹。 这是包含 `pbiviz.json` 文件的文件夹。
 3. 运行以下命令。
-   
+
     ```
     pbiviz start
     ```
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-start-visual.png)
 
 如果位于错误的位置，可看到类似于以下内容的错误消息。
@@ -249,7 +249,7 @@ pbiviz new My Visual name
 1. 打开提示符。
 2. 将目录更改为视觉对象文件夹。 这是包含 `pbiviz.json` 文件的文件夹。
 3. 运行以下命令。
-   
+
     ```
     pbiviz package
     ```
@@ -294,6 +294,7 @@ pbiviz update 1.2.0
 视觉对象项目是运行 `pbiviz new` 命令时创建的文件夹。 
 
 ### <a name="file-structure"></a>文件结构
+
 | 项 | 说明 |
 | --- | --- |
 | assets/ |用于存储视觉对象资产（图标、屏幕截图等）。 |

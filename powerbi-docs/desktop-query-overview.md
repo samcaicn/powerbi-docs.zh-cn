@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 35171c5b1d61b9df860b72ee98d8fb63a875092d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4ee0f114e6d905f202505f71b194a5b56fd6397
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286373"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137344"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop 中的查询概述
 借助 **Power BI Desktop**，可以连接到世界上的数据，创建具有吸引力的基础报表，与依赖你的工作、扩展自身商业智能工作的其他人共享你的工作。
@@ -137,7 +137,7 @@ Power BI Desktop 还附带有**查询编辑器**，其中你可连接到一个�
 ## <a name="next-steps"></a>后续步骤
 Power BI Desktop 可用于执行多种操作。 有关其功能的详细信息，请参阅下列资源：
 
-* [Power BI Desktop 入门](desktop-getting-started.md)
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)

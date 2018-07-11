@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 9b896c9db6c1368c5e435df21c28cd99b8dda15f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 354ba336407f200d2c311f6bf0de91967cf3f5d1
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721699"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598130"
 ---
 # <a name="manage-content-in-the-web-portal"></a>管理 Web 门户中的内容 
 Power BI 报表服务器 Web 门户是用于查看、存储和管理 Power BI 报表、移动报表和分页报表以及 KPI 的本地位置。

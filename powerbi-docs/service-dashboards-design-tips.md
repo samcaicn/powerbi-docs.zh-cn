@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9c67aa0982733847cdca7d6079fa8887e6c1d1d2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247038"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944965"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>设计出色 Power BI 仪表板的提示
 现在，你已创建了一个仪表板并添加了一些磁贴，可考虑如何使你的仪表板不仅美观，而且实用。 一般来说，这意味着突出显示最重要的信息，使其整洁有序。
@@ -59,7 +59,7 @@ ms.locfileid: "34247038"
 ## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>对数据使用适当的可视化效果并设置其格式以方便阅读
 避免出于多样性的目的而使可视化效果多样。  可视化效果应对图片润色，且应易于“阅读”和解释。  对于某些数据和可视化效果，简单的图形可视化就足够了。 但其他数据可能会要求更复杂的可视化效果 - 确保使用标题和标签以及其他自定义来帮助读者。  
 
-* [选择适当的数据可视化效果](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx)。 请谨慎使用扭曲实体的图表，即三维图表。 请记住，对人脑来说，很难解释圆形形状。 饼图、环形图、仪表以及其他圆形的图表类型可能看起来相当美观，但它们不是最佳的数据可视化效果。
+* [选择适当的数据可视化效果](https://www.youtube.com/watch?v=-tdkUYrzrio)。 请谨慎使用扭曲实体的图表，即三维图表。 请记住，对人脑来说，很难解释圆形形状。 饼图、环形图、仪表以及其他圆形的图表类型可能看起来相当美观，但它们不是最佳的数据可视化效果。
 * 与轴上的图表比例、图表维序，以及用于图表内维度值的颜色保持一致。
 * 务必恰当地对定量数据进行编码。 显示数字时，不要超过三个或四个数字。 对小数点左侧的一个或两个数字显示度量值并显示千或百万的单位，即 3.4 百万，而不是 3,400,000。
 * 不要混合精度和时间的级别。 确保时间范围易于理解。  不要将上个月的图表置于该年度特定月份的已筛选图表旁。

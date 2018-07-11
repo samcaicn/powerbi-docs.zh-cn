@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286074"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134676"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>在 Power BI Desktop（预览版）中使用见解
 可以让 Power BI Desktop 解释图表中出现的增加或减少情况，并获得有关数据的快速、自动化且深入的分析。 只需右键单击数据点，然后选择“分析”>“解释此减少情况”（或者如果前一栏较低，则选择“解释此增长情况”），就可以在易用窗口中收到见解。
@@ -72,7 +72,7 @@ ms.locfileid: "34286074"
 ## <a name="next-steps"></a>后续步骤
 有关 Power BI Desktop 以及如何入门的详细信息，请查看以下文章。
 
-* [Power BI Desktop 入门](desktop-getting-started.md)
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 的查询概述](desktop-query-overview.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)

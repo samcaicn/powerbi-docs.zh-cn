@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 42f5353c49d562f4fefeec81867fd9e9ff4831c2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5f64c32b2e4756d8815316cc45ddfd96a2167d71
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239016"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092267"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>刷新使用 OneDrive 或 SharePoint Online 上的 .CSV 文件创建的数据集
 ## <a name="what-are-the-advantages"></a>有什么好处？
@@ -31,7 +31,7 @@ ms.locfileid: "34239016"
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive 或 OneDrive for Business。 有什么区别？
 如果同时拥有个人版 OneDrive 和 OneDrive for Business，建议将 Power BI 中要连接到的任何文件保存在 OneDrive for Business 中。 原因如下：你有可能使用两个不同的帐户登录到它们。
 
-连接到 Power BI 中的 OneDrive for Business 通常是无缝的，因为你用于登录 Power BI 的同一个帐户通常是用来登录 OneDrive for Business 的同一个帐户。 但使用个人 OneDrive 时，你可能需要使用其他 [Microsoft 帐户](http://www.microsoft.com/account/default.aspx)才能登录。
+连接到 Power BI 中的 OneDrive for Business 通常是无缝的，因为你用于登录 Power BI 的同一个帐户通常是用来登录 OneDrive for Business 的同一个帐户。 但使用个人 OneDrive 时，你可能需要使用其他 [Microsoft 帐户](https://account.microsoft.com)才能登录。
 
 登录 Microsoft 帐户时，请确保选中“保持我的登录状态”。 然后 Power BI 将与 Power BI 中的数据集同步任何更新
 

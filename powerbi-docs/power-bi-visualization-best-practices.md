@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8716e6b5b75c7cd3db1b8daecfaae240f0647a50
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e9b37ba2b44a23fa0f198bce7a649c67335ac0ed
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297253"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945126"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>设计报表和视觉对象的最佳做法
 <!-- Shared newnav Include -->
@@ -787,8 +787,6 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
 他确实有一次提及到饼图在比较部分与整体关系时非常有用。 但即使是这一点也强不到哪里去。例如，与百分比堆积条形图相比。
 
 [Darkhorse Analytics 站点](http://www.darkhorseanalytics.com/blog/salvaging-the-pie)上发布了另一篇有关饼图的有趣文章（和动画）。
-
-或者，了解一下截然相反的观点（[《为什么 Tufte 对饼图的看法完全错误》](http://speakingppt.com/2013/03/18/why-tufte-is-flat-out-wrong-about-pie-charts/)）
 
 #### <a name="radial-gauges--kpis"></a>径向仪表和 KPI
 ![](media/power-bi-visualization-best-practices/power-bi-gauge.png)

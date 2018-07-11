@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec5b46dcfebf614e70a0b8ebf858af7b34906eae
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8813294f359c6bd6e1bb01fa3cc2ec3f5eb3d280
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290697"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598248"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 OneDrive for Business 链接
 很多人将 Excel 工作簿存储在 OneDrive for Business 驱动器上，这在 OneDrive 中使用起来非常方便。 通过 **Power BI Desktop**，你可以使用 **OneDrive for Business** 中存储的 **Excel** 文件的联机链接来创建报表和视觉对象。 你可以使用 **OneDrive for Business** 组帐户或 **OneDrive for Business** 个人帐户。
@@ -26,7 +26,7 @@ ms.locfileid: "34290697"
 1. 使用浏览器导航到你的 OneDrive for Business 位置。 右键单击你要使用的文件，并选择**在 Excel 中打开**。
    
    > [!NOTE]
-> 你的浏览器界面可能与以下图像不完全相同。 在 **OneDrive for Business** 浏览器界面中，可使用多种方法来选择要对其执行**在 Excel 中打开**操作的文件。 可使用任何允许你在 Excel 中打开文件的选项。
+   > 你的浏览器界面可能与以下图像不完全相同。 在 **OneDrive for Business** 浏览器界面中，可使用多种方法来选择要对其执行**在 Excel 中打开**操作的文件。 可使用任何允许你在 Excel 中打开文件的选项。
    > 
    > 
    

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b4e45d2ce20e42b4289ffcaaf7c487e4ae746ca0
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 7feb562c5d2d96c4d726b93393a0b4a26c658415
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301748"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134745"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Impala 数据库
 在 Power BI Desktop 中，你可以连接到 **Impala** 数据库，并以 Power BI Desktop 中使用其他所有数据源相同的方式使用基础数据。
@@ -50,7 +50,7 @@ ms.locfileid: "35301748"
 ## <a name="next-steps"></a>后续步骤
 你可以使用 Power BI Desktop 连接到各种数据。 有关数据源的详细信息，请参阅下列资源：
 
-* [Power BI Desktop 入门](desktop-getting-started.md)
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [通过 Power BI Desktop 连接到 Excel 工作簿](desktop-connect-excel.md)   

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: maggies
-ms.openlocfilehash: a7012bf96ee0f8ac7e73d1db21e9a36f0fea88cb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b09fd5846689299f426fc779061efaa30f8f6909
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34481040"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599149"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI 报表服务器的支持日程表
 Power BI 报表服务器每年都会发布几次。 安全更新和关键更新在下一版本全面推出 (GA) 前发布。 在下一版本推出后，旧版本将在 12 个月的发行生命周期的剩余时间里继续接收安全更新程序。
@@ -27,6 +27,7 @@ Power BI 报表服务器每年都会发布几次。 安全更新和关键更新�
     ![说明支持时间范围的关系图](media/support-timeline/report-server-support-timeline-mar-2018.png)
 
 ## <a name="version-history"></a>版本历史记录
+
 | **版本** | **可用日期** | **支持结束日期** |
 | --- | --- | --- |
 | 2017 年 6 月 |2017 年 6 月 12 日 |2018 年 6 月12 日 |

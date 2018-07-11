@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 175852a05c4964e6a476abf50684d9ffc12c4468
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34309914"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599860"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 入门
 欢迎使用 **Power BI Desktop 入门指南**。 此 Power BI Desktop 简短教学课程能让你熟悉它的运作方式、示范它的功能以及加速你构建稳固数据模型的能力 - 以令人惊叹的报表增强你的商业智慧工作。 
@@ -313,7 +313,7 @@ Power BI Desktop 中的查询编辑器除能在功能区中提供可用的工作
 
 你可以通过从报表画布上方选择**编辑报表**对 **Power BI** 服务中的报表做出更改。
 
-若要保存报表，请从服务中选择**文件 \> 另存为**。 你可以在 **Power BI** 服务中，从你的报表创建各种有趣的视觉对象，并可以将该报表固定到 *仪表板* 。 若要了解有关 **Power BI** 服务中的仪表板的详细信息**[，请参阅有关设计出色的仪表板提示](service-dashboards-design-tips.md)**。
+若要保存报表，请从服务中选择**文件 \> 另存为**。 你可以在 **Power BI** 服务中，从你的报表创建各种有趣的视觉对象，并可以将该报表固定到 *仪表板* 。 若要了解有关 **Power BI** 服务中的仪表板的详细信息<strong>[，请参阅有关设计出色的仪表板提示](service-dashboards-design-tips.md)</strong>。
 
  ![](media/desktop-getting-started/gsg_share5.png)
 

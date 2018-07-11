@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: 9988d108c33e086938aca76d088c6852bb1117a4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813268"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599474"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>注册 Azure AD 应用以便嵌入 Power BI 内容
 了解如何在 Azure Active Directory (Azure AD) 中注册应用程序，用于嵌入 Power BI 内容。
@@ -54,9 +54,8 @@ ms.locfileid: "34813268"
     然后会获得客户端 ID，如果选择“服务器端 Web 应用”，会获得客户端密码。 如有需要，稍后可以从 Azure 门户中检索客户端 ID。 如果忘记了客户端密码，需要在 Azure 门户中新建一个密码。
 
 8. 需要导航到 Azure 以选择“授予权限”。
-> [!Note]
-    > 必须是 Azure 租户中的全局管理员才能完成此操作
->
+   > [!Note]
+   > 必须是 Azure 租户中的全局管理员才能完成此操作
 
 * 转到 Azure。
 * 搜索并选择“应用注册”。
@@ -83,8 +82,8 @@ ms.locfileid: "34813268"
     ![](media/register-app/azuread-new-app-registration.png)
 5. 按照提示进行操作，并创建新的应用程序。
    
-   * 对于 Web 应用，请输入“登录 URL”，即用户可以登录的应用基 URL 例如 http://localhost:13526) 。
-   * 对于本机应用程序，请提供“重定向 URI”，Azure AD 用其返回令牌响应。 输入特定于应用程序的值，例如 http://myapplication/redirect
+   * 对于 Web 应用，请输入“登录 URL”，即用户可以登录的应用基 URL 例如 `http://localhost:13526`) 。
+   * 对于本机应用程序，请提供“重定向 URI”，Azure AD 用其返回令牌响应。 输入特定于应用程序的值，例如 `http://myapplication/redirect`
 
 有关如何在 Azure Active Directory 中注册应用程序的详细信息，请参阅 [Azure Active Directory 集成应用程序](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -161,44 +160,44 @@ ms.locfileid: "34813268"
    * AllPrincipals 仅可由租户管理员使用，用于代表租户中的所有用户授予权限。
    * Principal 用于代表特定用户授予权限。 在此情况下，应将附加属性添加到请求正文 - principalId={User_ObjectId}。
     
-    主帐户若要避免收到获取 Azure AD 同意的提示，需要“获取权限”，而这在进行非交互式登录情况下是不可能的。
+     主帐户若要避免收到获取 Azure AD 同意的提示，需要“获取权限”，而这在进行非交互式登录情况下是不可能的。
    
-    ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
-    "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
-    ```
+     ```
+     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+     Authorization: Bearer ey..qw
+     Content-Type: application/json
+     { 
+     "clientId":"{Service_Plan_ID}",
+     "consentType":"AllPrincipals",
+     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
+     "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+     "startTime":"2017-03-29T14:35:32.4933413+03:00"
+     }
+     ```
 
-5.  向 Azure Active Directory (AAD) 授予应用权限
+5. 向 Azure Active Directory (AAD) 授予应用权限
    
-    consentType 值可提供 AllPrincipals 或 Principal。
+   consentType 值可提供 AllPrincipals 或 Principal。
 
-    * AllPrincipals 仅可由租户管理员使用，用于代表租户中的所有用户授予权限。
-    * Principal 用于代表特定用户授予权限。 在此情况下，应将附加属性添加到请求正文 - principalId={User_ObjectId}。
+   * AllPrincipals 仅可由租户管理员使用，用于代表租户中的所有用户授予权限。
+   * Principal 用于代表特定用户授予权限。 在此情况下，应将附加属性添加到请求正文 - principalId={User_ObjectId}。
     
-    主帐户若要避免收到获取 Azure AD 同意的提示，需要“获取权限”，而这在进行非交互式登录情况下是不可能的。
+   主帐户若要避免收到获取 Azure AD 同意的提示，需要“获取权限”，而这在进行非交互式登录情况下是不可能的。
 
- ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
-    "scope":"User.Read Directory.AccessAsUser.All",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
- ```
+   ```
+   Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+   Authorization: Bearer ey..qw
+   Content-Type: application/json
+   { 
+   "clientId":"{Service_Plan_ID}",
+   "consentType":"AllPrincipals",
+   "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
+   "scope":"User.Read Directory.AccessAsUser.All",
+   "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+   "startTime":"2017-03-29T14:35:32.4933413+03:00"
+   }
+   ```
 
 ## <a name="next-steps"></a>后续步骤
 至此，已在 Azure AD 中注册了应用程序，需要在应用程序中对用户进行身份验证。 若要了解详细信息，请参阅[对用户进行身份验证，并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。

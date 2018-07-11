@@ -1,27 +1,29 @@
 ---
 title: Power BI 中的作者模板内容包
 description: 模板内容包创作
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
-ms.author: maghan
-ms.openlocfilehash: f3f3343122857cbf06c0004d2a3e5e5247f07e48
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.author: maggies
+ms.openlocfilehash: 02c4725617960474cff7a9a1452861d1ab5d5b8d
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290866"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Power BI 中的作者模板内容包
-在创作模板内容包时需使用 Power BI Desktop 和 PowerBI.com。内容包具有四个组件︰
+在创作模板内容包时需使用 Power BI Desktop 和 PowerBI.com。 内容包具有四个组件︰
 
 * 查询功能允许你[连接](../desktop-connect-to-data.md)和[转换](../desktop-query-overview.md)数据，以及定义[参数](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)  
 * 用于创建[关系](../desktop-create-and-manage-relationships.md)、[度量值](../desktop-measures.md)和问题解答的改进的数据模型  
 * 报表[页](../desktop-report-view.md)中包括视觉对象和筛选器，以帮助洞察你的数据  
-* [仪表板](../service-dashboards.md)和[磁贴](../service-dashboard-create.md)提供对内含见解的概览  
+* 
+  [仪表板](../service-dashboards.md)和[磁贴](../service-dashboard-create.md)提供对内含见解的概览  
 
 你可能熟悉其中每个部分（作为现有 Power BI 功能）。 在生成内容包时，还需考虑其中每个方面的其他一些事项。请参阅下一节了解有关详细信息。
 

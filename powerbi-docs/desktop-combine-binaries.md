@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 7a0a4f6296df351272a69ca30c8a8c08e1f9bcbc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5d889787b6ae7e6331522bbef1a6f1c748d4533d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287845"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136332"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>合并 Power BI Desktop 中的文件（二进制文件）
 向 **Power BI Desktop** 导入数据的一个强大的方法是将具有同一架构的多个文件合并到一个逻辑表中。 随着 2016 年 11 月 **Power BI Desktop**（及后续版本）的发行，这一方便且受欢迎的方法变得更为便捷并被更广泛地使用，如本文中所述。
@@ -58,7 +58,7 @@ Power BI Desktop 现在可以更有效地合并文件（二进制文件）。 �
 ## <a name="next-steps"></a>后续步骤
 你可以使用 Power BI Desktop 连接到各种数据。 有关数据源的详细信息，请参阅下列资源：
 
-* [Power BI Desktop 入门](desktop-getting-started.md)
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [通过 Power BI Desktop 连接到 CSV 文件](desktop-connect-csv.md)   

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 51889b066095f7f69782bc72556d816007e1574a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3a1a458ab263eb1e03c565e7a47679994afda82e
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291088"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136125"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>直接在 Power BI Desktop 中输入数据
 使用 Power BI Desktop，你可以直接输入数据并在报表和可视化效果中使用该数据。 例如，可以复制部分工作簿或网页，然后将其粘贴到 Power BI Desktop。
@@ -41,7 +41,7 @@ ms.locfileid: "34291088"
 ### <a name="next-steps"></a>后续步骤
 你可以使用 Power BI Desktop 连接到各种数据。 有关数据源的详细信息，请参阅下列资源：
 
-* [Power BI Desktop 入门](desktop-getting-started.md)
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [通过 Power BI Desktop 连接到 Excel 工作簿](desktop-connect-excel.md)   

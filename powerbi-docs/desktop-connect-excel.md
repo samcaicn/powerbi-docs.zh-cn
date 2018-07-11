@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bb35e8762b4cbe79e8efe2aede15bcac66f2ac8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 699df2cf1cfcfde25eaadcec2946e9be922c56d9
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289777"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136079"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Excel
 从 Power BI Desktop 连接到 Excel 工作簿很简单，本文将指导你完成所有步骤。
@@ -48,7 +48,7 @@ Power BI Desktop 会从“导航器”窗口的工作簿中展示其他数据元
 ### <a name="next-steps"></a>后续步骤
 你可以使用 Power BI Desktop 连接到各种数据。 有关数据源的详细信息，请参阅下列资源：
 
-* [Power BI Desktop 入门](desktop-getting-started.md)
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [通过 Power BI Desktop 连接到 CSV 文件](desktop-connect-csv.md)   

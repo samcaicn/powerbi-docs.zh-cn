@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 9ea17fd80c928ee0193ca94aac88fa00f362a523
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 864e7a3d78386f6996d866f45558add3b51faa69
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240457"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145180"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>刷新不支持的数据源故障排除
 尝试为计划的刷新配置数据集时，你可能会遇到错误。
@@ -39,7 +39,7 @@ ms.locfileid: "34240457"
 
 ## <a name="next-steps"></a>后续步骤
 [数据刷新](refresh-data.md)  
-[Power BI Gateway - Personal](personal-gateway.md)  
+[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
 [本地数据网关](service-gateway-onprem.md)  
 [本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 [Power BI Gateway - Personal 故障排除](service-admin-troubleshooting-power-bi-personal-gateway.md)  

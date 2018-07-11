@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6f80c1cc5d0b97318fe9e9b0653d166d571d1310
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290651"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137482"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常见查询任务
 使用 Power BI Desktop 的**查询编辑器**窗口时，可执行很多常用任务。 本文档演示了这些常见的任务，并提供其他信息的链接。 
@@ -218,7 +218,7 @@ Power BI Desktop 提供了一组全面的公式类别。 有关详细信息和�
 ## <a name="next-steps"></a>后续步骤
 Power BI Desktop 可用于执行多种操作。 有关其功能的详细信息，请参阅下列资源：
 
-* [Power BI Desktop 入门](desktop-getting-started.md)
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 的查询概述](desktop-query-overview.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755061"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926575"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>本地数据网关故障排除
 本文介绍在使用本地数据网关时可能会遇到的一些常见问题。
@@ -31,10 +31,10 @@ ms.locfileid: "34755061"
 因为网关作为 Windows 服务运行，因此可使用多种方式进行其启动和停止。 例如，可以在网关正在运行的计算机上使用提升权限打开命令提示符，然后运行以下命令之一：
 
 * 若要停止服务，则运行该命令：
-  
+
     '''   net stop PBIEgwService   '''
 * 若要启动服务，则运行该命令：
-  
+
     '''   net start PBIEgwService   '''
 
 ### <a name="error-failed-to-create-gateway-please-try-again"></a>错误：无法创建网关。 请重试。
@@ -70,7 +70,7 @@ ms.locfileid: "34755061"
 
 1. 卸载网关。
 2. 删除以下文件夹。
-   
+
         c:\Program Files\On-premises data gateway
 3. 重新安装网关。
 4. 酌情应用恢复密钥以还原现有网关。
@@ -129,11 +129,11 @@ ms.locfileid: "34755061"
 
 1. 连接 SQL Server Management Studio 中的 Analysis Services 计算机。 在高级连接属性中，输入问题用户的 EffectiveUserName，并检查是否会产生错误。
 2. 可以使用 dsacls Active Directory 工具来验证是否列出了属性。 此工具通常可在域控制器上找到。 你需要知道帐户的可分辨域名是什么，并将其传递给该工具。
-   
+
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
-   
+
     你应该在结果中看到与以下类似的内容。
-   
+
             Allow BUILTIN\Windows Authorization Access Group
                                           SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
                                           READ PROPERTY
@@ -184,15 +184,15 @@ ms.locfileid: "34755061"
 
 1. 在[网关日志](#logs)中查找有效的用户名。
 2. 传递值后，验证其是否正确。 如果它是你的用户，可以从命令提示符处使用以下命令，查看 UPN 应该是什么。 UPN 类似电子邮件地址。
-   
+
         whoami /upn
 
 或者，你可以查看 Power BI 从 Azure Active Directory 获取的内容。
 
-1. 浏览到 [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net)。
+1. 浏览到 [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer)。
 2. 选择右上角的“登录”。
 3. 运行以下查询。 你将看到相当大的 JSON 响应。
-   
+
         https://graph.windows.net/me?api-version=1.5
 4. 查找 **userPrincipalName**。
 
@@ -206,7 +206,7 @@ ms.locfileid: "34755061"
 1. 选择 Power BI 服务右上角方的 **?** 。
 2. 选择“关于 Power BI”。
 3. 你的数据区域将被列入“你的数据存储于”。
-   
+
     ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 如果你仍未前往任何位置，则可以尝试使用 [fiddler](#fiddler) 或 netsh 一类的工具来获取网络跟踪，不过这些都是高级收集方法，并且你在分析所收集的数据时可能需要帮助。 可以联系[支持人员](https://support.microsoft.com)以获得帮助。
@@ -329,6 +329,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 <a name="activities"></a>
 
 ### <a name="activity-types"></a>活动类型
+
 | 活动类型 | 说明 |
 | --- | --- |
 | MGEQ |通过 ADO.NET 执行的查询。 包括 DirectQuery 数据源。 |
@@ -342,9 +343,9 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 2. 搜索[活动类型](#activities)来查找查询。 此处的示例为 MGEQ。
 3. 记下次要 GUID，因为这是请求 id。
 4. 继续搜索 MGEQ，直到找到具有持续时间的 FireActivityCompletedSuccessfullyEvent 条目。 确认该条目具有相同请求 id。持续时间以毫秒为单位。
-   
+
         DM.EnterpriseGateway Verbose: 0 : 2016-09-26T23:08:56.7940067Z DM.EnterpriseGateway    baf40f21-2eb4-4af1-9c59-0950ef11ec4a    5f99f566-106d-c8ac-c864-c0808c41a606    MGEQ    21f96cc4-7496-bfdd-748c-b4915cb4b70c    B8DFCF12 [DM.Pipeline.Common.TracingTelemetryService] Event: FireActivityCompletedSuccessfullyEvent (duration=5004)
-   
+
    > [!NOTE]
    > FireActivityCompletedSuccessfullyEvent 是一个详细条目。 除非 TraceVerbosity 处于级别 5，否则不会记录此条目。
    > 
@@ -423,12 +424,12 @@ ImpersonationLevel 与 SPN 设置或本地策略设置相关。
 在计划刷新中使用网关时，如果需要创建一个支持请求，**刷新历史记录**可帮助查看发生了什么错误，以及提供有用的数据。 可以查看计划刷新和按需刷新。 下面是有关如何**刷新历史记录**的说明。
 
 1. 在 Power BI 导航窗格中的**数据集**中，选择一个数据集&gt;打开菜单&gt;**计划刷新**。
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 2. 在**设置...**&gt;**计划刷新**中，选择**刷新历史记录**。
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
-   
+
     ![](media/service-gateway-onprem-tshoot/refresh-history.png)
 
 若要详细了解如何对刷新方案进行故障排除，请参阅[对刷新方案进行故障排除](refresh-troubleshooting-refresh-scenarios.md)一文。

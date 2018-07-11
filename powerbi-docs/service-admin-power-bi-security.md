@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: d3b3e077ac3dadf92a1c25d3704a4f59adea588b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ec8f1e40cac1c98bcfb5049d1fe8dd7397b616d6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296218"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598817"
 ---
 # <a name="power-bi-security"></a>Power BI 安全
 有关 Power BI 安全的详细说明，请[下载 Power BI 安全白皮书](http://go.microsoft.com/fwlink/?LinkId=829185)：
@@ -27,7 +27,7 @@ Power BI 服务基于 **Azure**，后者是 Microsoft 的云计算基础结构�
 ## <a name="power-bi-architecture"></a>Power BI 体系结构
 每个 Power BI 部署均包含两个群集 – Web 前端 (**WFE**) 群集和**后端**群集。
 
-**WFE** 群集为 Power BI 管理初始连接和身份验证进程，使用 AAD 对客户端进行身份验证并为后续客户端连接到 Power BI 服务提供令牌。 Power BI 还使用 **Azure 流量管理器** (ATM) 将用户流量定向到最近的数据中心，由针对身份验证进程尝试连接并下载静态内容和文件的客户端的 DNS 记录确定。 Power BI 使用 **Azure 内容交付网络** (CDN) 来有效地根据地理区域设置将所需的静态内容和文件分发到用户。
+**WFE** 群集为 Power BI 管理初始连接和身份验证进程，使用 AAD 对客户端进行身份验证并为后续客户端连接到 Power BI 服务提供令牌。 Power BI 还使用 **Azure 流量管理器** (ATM) 将用户流量定向到最近的数据中心，由针对身份验证进程尝试连接并下载静态内容和文件的客户端的 DNS 记录确定。 Power BI 使用 **Azure 内容分发网络** (CDN) 来有效地根据地理区域设置将所需的静态内容和文件分发到用户。
 
 ![](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 
@@ -48,7 +48,7 @@ Power BI 使用两个主要的存储库进行数据存储和管理：用户上�
 ## <a name="user-authentication"></a>用户身份验证
 Power BI 使用 Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) 对要登录到 Power BI 服务的用户进行身份验证，反过来，只要用户尝试获取要求进行身份验证的资源，均使用 Power BI 登录凭据。 用户使用用于建立其 Power BI 帐户的电子邮件地址登录到 Power BI 服务，Power BI 使用登录电子邮件作为*有效用户名*，每当用户尝试连接到数据时，就会将其传递给资源。 然后，*有效用户名*将映射到*用户主体名称* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx))，解析为关联的 Windows 域帐户，对其应用身份验证。
 
-对于使用工作电子邮件（如 *david@contoso.com*）进行 Power BI 登录的组织，*有效用户名*映射到 UPN 非常简单。 对于未使用工作电子邮件（如 *david@contoso.onmicrosoft.com*）进行 Power BI 登录的组织，AAD 和本地凭据之间的映射需要[目录同步](https://technet.microsoft.com/library/jj573653.aspx)才能正常工作。
+对于使用工作电子邮件（如 <em>david@contoso.com</em>）进行 Power BI 登录的组织，*有效用户名*映射到 UPN 非常简单。 对于未使用工作电子邮件（如 <em>david@contoso.onmicrosoft.com</em>）进行 Power BI 登录的组织，AAD 和本地凭据之间的映射需要[目录同步](https://technet.microsoft.com/library/jj573653.aspx)才能正常工作。
 
 Power BI 的平台安全还包括多租户环境安全、网络安全和添加其他基于 AAD 的安全措施的能力。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: a86b1d6823a1d889b47015d1213a9a056c537703
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250306"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926642"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>无法将 Power BI 添加到 Office 365 合作伙伴订阅
 Office 365 允许公司转售与自己的解决方案捆绑和集成的 Office 365，从而为最终客户提供用于购买、计帐和支持的单点联系。
@@ -33,7 +33,7 @@ Office 365 允许公司转售与自己的解决方案捆绑和集成的 Office 3
 
 [Power BI（免费）](#power-bi-free)
 
-[Power BI Pro 和 Premium](#power-bi-pro)
+[Power BI Pro 和 Premium](#power-bi-pro-and-premium)
 
 ## <a name="power-bi-free"></a>Power BI（免费）
 如果你对 Power BI 的免费产品/服务感到满意，则可以注册免费服务。 默认情况下，个人注册（也称为临时订阅）处于禁用状态。 尝试注册 Power BI 时，你会看到一条消息，指示 IT 部门已关闭了 Microsoft Power BI 的注册。

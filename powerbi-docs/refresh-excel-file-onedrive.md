@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: b7a49a04ed344d6977dba5ac739c0f0d41aca5b9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6be8c6b5837fc9e9a0b8456b7c545e7f942eabe5
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239121"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092198"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>刷新使用 OneDrive 或 SharePoint Online 上的 Excel 工作簿创建的数据集
 可导入存储在本地计算机或云存储（如 OneDrive for Business 或 SharePoint Online）中的 Excel 工作簿。 下面讨论使用云存储处理 Excel 文件的优点。 有关如何将 Excel 文件导入 Power BI 的详细信息，请参阅[从 Excel 工作簿文件获取数据](service-excel-workbook-files.md)。
@@ -45,7 +45,7 @@ ms.locfileid: "34239121"
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive 或 OneDrive for Business。 有什么区别？
 如果同时拥有个人 OneDrive 和 OneDrive for Business，建议保留要导入到 OneDrive for Business 中的 Power BI 的所有文件。 原因如下：你有可能使用两个不同的帐户登录到它们。
 
-连接到 Power BI 中的 OneDrive for Business 通常是无缝的，因为你用于登录 Power BI 的同一个帐户通常是用来登录 OneDrive for Business 的同一个帐户。 但使用个人 OneDrive 时，你可能需要使用其他 [Microsoft 帐户](http://www.microsoft.com/account/default.aspx)才能登录。
+连接到 Power BI 中的 OneDrive for Business 通常是无缝的，因为你用于登录 Power BI 的同一个帐户通常是用来登录 OneDrive for Business 的同一个帐户。 但使用个人 OneDrive 时，你可能需要使用其他 [Microsoft 帐户](https://account.microsoft.com)才能登录。
 
 当使用 Microsoft 帐户登录时，请确保选中“使我保持登录状态”。 随后，Power BI 会将在 Power BI Desktop 文件中进行的所有更新与 Power BI 中的数据集同步。  
     ![](media/refresh-excel-file-onedrive/refresh_signin_keepmesignedin.png)

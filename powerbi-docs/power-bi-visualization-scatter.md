@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 8931bc773f0543cc8687c1a8f9f63681109247e2
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964759"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600195"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI 中的散点图和气泡图
 散点图始终具有两个数值轴以显示水平轴上的一组数值数据和垂直轴上的另一组数值数据。 图表在 x 和 y 数值的交叉处显示点，将这些值单独合并到各个数据点。 根据数据，这些数据点可能均衡或不均衡地分布在水平轴上。
@@ -57,9 +57,9 @@ ms.locfileid: "36964759"
    - “销售额” > “总销售差额 %”
    - “地区” > “地区”
 
-    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
+     ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 
-    如果使用的是 Power BI 服务，请确保在 [“编辑视图”](service-interact-with-a-report-in-editing-view.md) 中打开报表。
+     如果使用的是 Power BI 服务，请确保在 [“编辑视图”](service-interact-with-a-report-in-editing-view.md) 中打开报表。
 
 3. 转换为散点图。 在可视化组件窗格中，选择散点图图标
 

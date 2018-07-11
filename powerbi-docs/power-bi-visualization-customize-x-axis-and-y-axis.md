@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 372f00e7bd62068688bdcc22c1e983c3fe629f8a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d28c6f4a0237253847cd474a3c3558399ba6fa64
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295672"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600510"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>自定义 X 轴和 Y 轴属性
 在本教程中，你会学习很多用于自定义视觉对象的 X 轴和 Y 轴的不同方式。 并非所有视觉对象都具有轴或是可以自定义；例如，饼图没有轴。 而且自定义选项因视觉对象而异，选项太多，无法在一篇文章中进行介绍。 因此我们讨论一些最常用的轴自定义，使你可以熟练地在 Power BI 报表画布中使用视觉对象格式设置选项卡。  
@@ -86,9 +86,9 @@ ms.locfileid: "34295672"
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
->[NOTE]: For help sorting by month, see [sorting by other criteria](power-bi-report-change-sort.md#other)
-1. 一月的 GM% 是 35%，在四月达到峰值 45%，在七月下降，在八月再次达到峰值。 去年和本年度的销售额是否会呈现类似模式？
-2. 将**本年度销售额 > 值**和**去年销售额**添加到折线图。 “去年毛利率”的比例尺（沿 0% 去年毛利率网格线的蓝线）比“销售额”的比例尺小得多，这样就更难比较了。 而且，Y 轴标签百分比很不合理。      
+> [NOTE]: For help sorting by month, see [sorting by other criteria](power-bi-report-change-sort.md#other)
+> 1. 一月的 GM% 是 35%，在四月达到峰值 45%，在七月下降，在八月再次达到峰值。 去年和本年度的销售额是否会呈现类似模式？
+> 2. 将**本年度销售额 > 值**和**去年销售额**添加到折线图。 “去年毛利率”的比例尺（沿 0% 去年毛利率网格线的蓝线）比“销售额”的比例尺小得多，这样就更难比较了。 而且，Y 轴标签百分比很不合理。      
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
 5. 若要使视觉对象更易于查看和解释，请将折线图转换为折线和堆积柱形图。

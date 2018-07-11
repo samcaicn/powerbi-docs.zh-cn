@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50a5d3d97e90879dcb542c441f129f468a95c6c7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4b1077b62baeee2412620e6ee2aa6aabc6838863
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285545"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136378"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的数据
 通过 Power BI Desktop，可以轻松连接到持续扩展的数据世界。 如果没有 Power BI Desktop，你可以[下载](http://go.microsoft.com/fwlink/?LinkID=521662)并进行安装。
@@ -67,7 +67,7 @@ Power BI Desktop.中有 *各种* 可用数据源。 下图显示了如何通过�
 ### <a name="next-steps"></a>后续步骤
 Power BI Desktop 可用于执行多种操作。 有关其功能的详细信息，请参阅下列资源：
 
-* [Power BI Desktop 入门](desktop-getting-started.md)
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 的查询概述](desktop-query-overview.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)

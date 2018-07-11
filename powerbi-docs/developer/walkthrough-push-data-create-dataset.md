@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c6cbdf9effa3264eadf19de97be864cc3f152e8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9a6d8919f8ccb032fa7b4bd3312217501c1acb77
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812413"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092520"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>步骤 3：在 Power BI 中创建数据集
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
@@ -228,8 +228,8 @@ ms.locfileid: "34812413"
 ## <a name="next-steps"></a>后续步骤
 [获取数据集以将行添加到 Power BI 表](walkthrough-push-data-get-datasets.md)  
 [获取身份验证访问令牌](walkthrough-push-data-get-token.md)  
-[PostDataset](https://docs.microsoft.com/rest/api/power-bi/datasets_postdataset)  
-[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/datasets_postdatasetingroup)  
+[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)  
+[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
 [将数据推送到 Power BI 仪表板](walkthrough-push-data.md)  
 [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
 [Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/)  

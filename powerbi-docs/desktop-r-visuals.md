@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 641a4f457782711902ee7e2414cb9afffb391afc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32b21e23a6cc4a5e6d9ae4915ddc56f9f9957d14
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286327"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599634"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 创建 Power BI 视觉对象
 借助 **Power BI Desktop**，可以使用 **R** 将数据可视化。
@@ -81,9 +81,9 @@ Power BI Desktop 既不包括，也不会部署或安装 R 引擎。 若要在 *
    * 当从“R 脚本编辑器”标题栏选择“运行”
    * 每当数据更改发生时（由于数据刷新、筛选或突出显示所导致）
 
-    下图显示相关绘图代码的示例，并绘制不同类型汽车特征间的关联。
+     下图显示相关绘图代码的示例，并绘制不同类型汽车特征间的关联。
 
-    ![](media/desktop-r-visuals/r-visuals-6.png)
+     ![](media/desktop-r-visuals/r-visuals-6.png)
 
 5. 若要获取可视化效果的较大视图，你可以尽量减小 **R 脚本编辑器**。 当然，如同 Power BI Desktop 中的其他视觉对象，你可以只选择环形视觉对象（在上面的示例图像中，为右侧的圆形视觉对象）中的跑车，交叉筛选相关绘图。
 

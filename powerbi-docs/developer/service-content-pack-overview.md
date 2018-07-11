@@ -1,20 +1,20 @@
 ---
 title: Power BI 服务内容包程序概述
-description: 内容包认证程序
-author: markingmyname
+description: 内容包认证计划
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 02/20/2018
-ms.author: maghan
-ms.openlocfilehash: cfb9727a41d602ce14bfd2a403a87e82d2f0e94d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.author: maggies
+ms.openlocfilehash: 6697c820ff5aac30f12794cd28ca403faec4761f
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290628"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290912"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 服务内容包程序概述
 内容包是一组全新的内容，允许用户立即获取源中的见解。 内容包通常集中在特定业务方案，提供关于角色、域或工作流的见解。
@@ -77,7 +77,7 @@ Power BI 服务内容包支持任何 REST API 或 OData 数据源。 Power BI �
 
 可以随时通过以下电子邮件向我们发送你的问题：[pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
-## <a name="support"></a>支持
+## <a name="support"></a>Support
 若要在开发过程中获取支持，请访问 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)。 该网站有专门人员监视和管理。 客户事件可快速找到通往合适团队的方法。
 
 ## <a name="next-step"></a>下一步

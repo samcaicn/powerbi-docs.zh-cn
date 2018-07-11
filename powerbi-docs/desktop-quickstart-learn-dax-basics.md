@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 49f6e073d40ef00413ba38dd709780758cf1e448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c9f838261658a77fa8a4d019e610de72649bbbb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291019"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600765"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 中的 DAX 基本概念
 本文适用于刚开始使用 Power BI Desktop 的用户。 其目的是为你提供有关如何使用数据分析表达式 (DAX) 的快速而简单的介绍，以便解决一些基本计算和数据分析问题。 我们将逐一探讨一些概念性信息、一系列可以完成的任务以及测试所学内容的几项测验。 学习完本文后，你便可充分了解 DAX 中最重要的基本概念。
@@ -83,33 +83,33 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 ### <a name="task-create-a-measure-formula"></a>任务：创建度量值公式
 若要完成此任务，需要打开 Power BI Desktop 的 Contoso 销售示例文件。
     
-1.  在“报表”视图的字段列表中，右键单击 **Sales** 表，然后单击**新度量值**。
+1. 在“报表”视图的字段列表中，右键单击 **Sales** 表，然后单击**新度量值**。
     
-2.  在编辑栏中，通过键入新的度量值名称 **Previous Quarter Sales** 来替换**度量值**。
+2. 在编辑栏中，通过键入新的度量值名称 **Previous Quarter Sales** 来替换**度量值**。
     
-3.  在等号后键入 **SUM**，其后紧跟左括号。
+3. 在等号后键入 **SUM**，其后紧跟左括号。
     
-    我们将输入另一个函数来筛选想要求和的数据，而不是立即键入列名来求和。
+   我们将输入另一个函数来筛选想要求和的数据，而不是立即键入列名来求和。
     
-4.  在括号中，键入 **CALCULATE**，其后紧跟左括号。
+4. 在括号中，键入 **CALCULATE**，其后紧跟左括号。
     
-    你将通过我们传递给 CALCULATE 函数的参数，使用 CALCULATE 函数来筛选要求和的金额。 这就是所谓的嵌套函数。 CALCULATE 函数至少有两个参数。 第一个参数是要计算的表达式，第二个参数是筛选器。
+   你将通过我们传递给 CALCULATE 函数的参数，使用 CALCULATE 函数来筛选要求和的金额。 这就是所谓的嵌套函数。 CALCULATE 函数至少有两个参数。 第一个参数是要计算的表达式，第二个参数是筛选器。
    
-5.  在 **CALCULATE** 函数的括号 **()** 中，键入 **Sales[SalesAmount]**。 这是 CALCULATE 函数的第一个表达式参数。
+5. 在 **CALCULATE** 函数的括号 **()** 中，键入 **Sales[SalesAmount]**。 这是 CALCULATE 函数的第一个表达式参数。
     
-6.  键入逗号 (,) 来指定第一个筛选器，然后键入 PREVIOUSQUARTER，其后紧跟左括号。
+6. 键入逗号 (,) 来指定第一个筛选器，然后键入 PREVIOUSQUARTER，其后紧跟左括号。
     
-    你将使用 PREVIOUSQUARTER 时间智能函数按上一季度来筛选求和结果。
+   你将使用 PREVIOUSQUARTER 时间智能函数按上一季度来筛选求和结果。
     
-7.  在 PREVIOUSQUARTER 函数的括号 **()** 中，键入“Calendar[DateKey]”。
+7. 在 PREVIOUSQUARTER 函数的括号 **()** 中，键入“Calendar[DateKey]”。
     
-    PREVIOUSQUARTER 函数有一个参数，即包含连续日期范围的列。
+   PREVIOUSQUARTER 函数有一个参数，即包含连续日期范围的列。
     
-8.  请确保传递给 PREVIOUSQUARTER 和 CALCULATE 函数的两个自变量都后跟两个右括号 **))**。
+8. 请确保传递给 PREVIOUSQUARTER 和 CALCULATE 函数的两个自变量都后跟两个右括号 **))**。
     
    该公式现在应如下所示：
     
-    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
+   **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
     
 9. 单击公式栏中的复选标记 ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) 或按 Enter 键，验证公式并将其添加到模型中。
 

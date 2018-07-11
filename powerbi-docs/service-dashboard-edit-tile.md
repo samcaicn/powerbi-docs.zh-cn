@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248333"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598969"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>编辑或删除仪表板磁贴
 
@@ -35,12 +35,12 @@ ms.locfileid: "34248333"
 * [将磁贴固定到其他仪表板](#different)
 * [删除磁贴](#delete)
   
- > [!TIP]
- > 若要更改磁贴本身显示的可视化效果，请删除磁贴，并添加新的 [仪表板磁贴](service-dashboard-tiles.md)。
- > 
+  > [!TIP]
+  > 若要更改磁贴本身显示的可视化效果，请删除磁贴，并添加新的 [仪表板磁贴](service-dashboard-tiles.md)。
 
- ### <a name="prerequisites"></a>先决条件
- 1. 若要跟着介绍一起操作，请打开 Power BI 服务（而非 Power BI Desktop），并[下载“IT 支出分析示例”](sample-it-spend.md)。 看到“成功”消息时，选择“转至仪表板”
+  
+## <a name="prerequisites"></a>先决条件
+若要跟着介绍一起操作，请打开 Power BI 服务（而非 Power BI Desktop），并[下载“IT 支出分析示例”](sample-it-spend.md)。 看到“成功”消息时，选择“转至仪表板”
 
 - - -
 <a name="create"></a>

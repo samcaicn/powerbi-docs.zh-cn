@@ -1,4 +1,5 @@
 ### <a name="on-premises-data-gateway"></a>本地数据网关
+
 | **数据源** |
 | --- |
 | Analysis Services 表格 |

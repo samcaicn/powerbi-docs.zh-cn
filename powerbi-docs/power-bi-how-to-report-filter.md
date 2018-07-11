@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c25a402138c209eb6a4a36bf39865c30c1c0e5b9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721377"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598933"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>浏览报表“筛选器”窗格
 本文将深入介绍报表“筛选器”窗格。 你将在 [Power BI 服务编辑视图和阅读视图](service-reading-view-and-editing-view.md)以及 [Power BI Desktop 报表视图](desktop-report-view.md)中看到该窗格。
@@ -77,7 +77,7 @@ ms.locfileid: "34721377"
 ## <a name="add-a-filter"></a>添加筛选器
 * 在 Desktop 和 Power BI 服务编辑视图中，通过从“字段”窗格中选择一个字段并将其拖动到相应的筛选器（其中你会看到“将字段拖至此处”字样），从而将筛选器添加到视觉对象、页面、钻取或报表。 将字段作为筛选器添加后，使用基本筛选和高级筛选控件对其进行微调（如下所述）。
 
-- 将新字段拖动到视觉对象级筛选器区域不会将该字段添加到视觉对象，但是它的确允许你使用此新字段来筛选该视觉对象。 在以下示例中，“**链**”作为新筛选器添加至视觉对象中。 请注意，在使用基本或高级筛选控制前，仅将“**链**”添加为筛选器不会更改视觉对象。
+* 将新字段拖动到视觉对象级筛选器区域不会将该字段添加到视觉对象，但是它的确允许你使用此新字段来筛选该视觉对象。 在以下示例中，“**链**”作为新筛选器添加至视觉对象中。 请注意，在使用基本或高级筛选控制前，仅将“**链**”添加为筛选器不会更改视觉对象。
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 

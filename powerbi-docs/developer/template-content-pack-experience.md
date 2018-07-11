@@ -1,20 +1,20 @@
 ---
 title: Power BI 中的模板内容包体验
 description: 模板内容包体验
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
-ms.author: maghan
-ms.openlocfilehash: 1a29767eb76122865e93927bbbec1fbdcebe5678
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.author: maggies
+ms.openlocfilehash: 08ef57499c53c084b3b738e8f847d4b7742aae70
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290766"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290568"
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Power BI 中的模板内容包体验
 本节重点介绍了连接到 ISV [内容包](../service-connect-to-services.md)的用户典型体验。 

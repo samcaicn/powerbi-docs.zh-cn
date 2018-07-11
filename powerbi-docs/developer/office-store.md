@@ -9,15 +9,15 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301771"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092106"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>将自定义视觉对象发布到 AppSource
-了解如何将自定义视觉对象发布到 AppSource 供其他人发现和使用。 office
+了解如何将自定义视觉对象发布到 AppSource 供其他人发现和使用。
 
 在创建自定义视觉对象后，你可能想要将其发布到 AppSource 供其他人发现和使用。 在执行该操作之前，必须完成一些准备工作。 有关如何创建自定义视觉对象的详细信息，请参阅[使用开发人员工具创建自定义视觉对象](../service-custom-visuals-getting-started-with-developer-tools.md)。
 
@@ -36,7 +36,7 @@ ms.locfileid: "35301771"
 | 屏幕截图 |是 |必须至少提供一个屏幕截图。 格式可以为 .png、.jpg、.jpeg 或 .gif。 尺寸必须正好是 1366 像素（宽度）x 768 像素（高度）。 文件大小不能超过 1024 KB。 *为了实现更好的利用率，添加文本气泡以阐明每个屏幕截图中所示的主要功能的价值主张。* |
 | 支持下载链接 |是 |提供 URL 以便为对视觉对象有疑问的客户提供支持。 URL 的格式应包含 https:// 或 http://。 |
 | 隐私文档链接 |是 |为使用你的视觉对象的客户提供隐私策略链接。 链接的格式应包含 https:// 或 http://。 |
-| 最终用户许可协议 (EULA) |是 |必须上载 EULA 文件。 这可以是你自己的 EULA，也可以使用 Office 应用商店中适用于 Power BI 自定义视觉对象的默认 EULA。 若要使用默认 EULA，请将以下 URL 粘贴到卖家面板的“最终用户许可协议”文件上传对话框中：[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf)。 |
+| 最终用户许可协议 (EULA) |是 |必须上载 EULA 文件。 这可以是你自己的 EULA，也可以使用 Office 应用商店中适用于 Power BI 自定义视觉对象的默认 EULA。 若要使用默认 EULA，请将以下 URL 粘贴到卖家面板的“最终用户许可协议”文件上传对话框中：[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf)。 |
 | 视频链接 |否 |为了增加用户对自定义视觉对象的兴趣，建议提供一个指向视觉对象视频的链接。 URL 的格式应包含 https:// 或 http://。 |
 | GitHub 存储库 |否 |最好提供一个有效的公共链接，可以链接到包含你的视觉对象和示例数据资源的 [GitHub](https://www.github.com) 存储库，以允许其他开发人员提供反馈并为代码提出改进意见。 |
 
@@ -97,7 +97,7 @@ ms.locfileid: "35301771"
    * 视频链接
    * 最终用户许可协议 (EULA)
      
-       必须上载 EULA 文件。 这可以是你自己的 EULA，也可以使用 Office 应用商店中适用于 Power BI 自定义视觉对象的默认 EULA。 若要使用默认 EULA，请将以下 URL 粘贴到卖家面板的“最终用户许可协议”文件上传对话框中：[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf)。
+       必须上载 EULA 文件。 这可以是你自己的 EULA，也可以使用 Office 应用商店中适用于 Power BI 自定义视觉对象的默认 EULA。 若要使用默认 EULA，请将以下 URL 粘贴到卖家面板的“最终用户许可协议”文件上传对话框中：[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf)。
 8. 选择“下一步”以前往**详细信息**页。
 9. 选择“语言”，并从列表中选择一种语言。
    

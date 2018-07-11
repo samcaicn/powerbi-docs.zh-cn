@@ -7,19 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/13/2018
 ms.author: maghan
-ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481709"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37780540"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>安装 Power BI 报表服务器所要满足的硬件和软件要求
 本文介绍了安装并运行 Power BI 报表服务器所要满足的最低硬件和软件要求。
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>处理器、内存和操作系统要求
+
 | 组件 | 要求 |
 | --- | --- |
 | .NET Framework |4.6<br><br>可以从[适用于 Windows 的 Microsoft.NET Framework 4.6（Web 安装程序）](http://support.microsoft.com/kb/3045560)手动安装 .NET Framework。<br/><br/> 有关 .NET Framework 4.6 的详细信息、建议和指南，请参阅[面向开发者的 .NET Framework 部署指南](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)。<br/><br/>Windows 8.1 和 Windows Server 2012 R2 中必须有 [KB2919355](http://support.microsoft.com/kb/2919355)，才能安装 .NET Framework 4.6。 |
@@ -41,8 +42,6 @@ SQL Server 用于托管报表服务器数据库。 SQL Server 数据库引擎实
 * SQL Server 2016
 * SQL Server 2014
 * SQL Server 2012
-* SQL Server 2008 R2
-* SQL Server 2008
 
 在远程计算机上创建报表服务器数据库时，需要将连接配置为使用域用户帐户或具有网络访问权限的服务帐户。 如果决定使用远程 SQL Server 实例，请仔细考虑报表服务器应使用哪些凭据来连接到 SQL Server 实例。 有关详细信息，请参阅[配置报表服务器数据库连接](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)。
 

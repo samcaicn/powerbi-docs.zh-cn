@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 472be555bb4c46da41eb762c1eeae14ef991e742
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ed9ab95aace7ab1ff0774732241bdd4a7fffcb15
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290858"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600980"
 ---
 # <a name="using-directquery-in-power-bi"></a>在 Power BI 中使用 DirectQuery
 使用 Power BI Desktop 或 Power BI 服务时，可以连接各种类型的数据源，并且可以通过不同的方式连接这些数据。 可以将数据导入 Power BI，也可以在其原始源存储库中直接连接数据，前者是获取数据最常见的方法，后者称为 DirectQuery。 本文介绍 DirectQuery 及其功能，具体包括以下主题：
@@ -152,7 +152,7 @@ SSAS 报表发布到 Power BI 服务时，其行为在以下方面与 DirectQuer
     
     原因是，如果有大量项，此类度量值可能导致性能不佳。
 * 不支持计算表：DirectQuery 模式不支持使用 DAX 表达式定义计算表。
-* 关系筛选仅限于单方向：使用 DirectQuery 时，不能将交叉筛选关系方向设置为“双向”。 例如，以下三个表格不能生成显示每个客户[性别]和每个客户购买的产品[类别]数量的视觉对象。 [本白皮书](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional cross-filtering in Analysis Services 2016 and Power BI.docx)中详细说明了这类双向筛选的使用（本文介绍了 SQL Server Analysis Services 上下文中的示例，但基本要点也同样适用于 Power BI）。
+* 关系筛选仅限于单方向：使用 DirectQuery 时，不能将交叉筛选关系方向设置为“双向”。 例如，以下三个表格不能生成显示每个客户[性别]和每个客户购买的产品[类别]数量的视觉对象。 [本白皮书](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)中详细说明了这类双向筛选的使用（本文介绍了 SQL Server Analysis Services 上下文中的示例，但基本要点也同样适用于 Power BI）。
   
   ![](media/desktop-directquery-about/directquery-about_01.png)
   

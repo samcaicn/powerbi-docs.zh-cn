@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6c1bb67b0c7fb8d3e3344cbb48f7fcf52dac64ed
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288742"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137298"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>教程：在 Power BI Desktop 中调整和合并数据
 
@@ -233,7 +233,7 @@ ms.locfileid: "34288742"
 ## <a name="next-steps"></a>后续步骤
 Power BI Desktop 可用于执行多种操作。 有关其功能的详细信息，请参阅下列资源：
 
-* [Power BI Desktop 入门](desktop-getting-started.md)
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 的查询概述](desktop-query-overview.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3575a94ede595b4d83fef0cddcbb279ea7a533c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0e0f9e857816b44782831640a74801b515919bae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285522"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136746"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>在 Power BI 中使用功能区图表
 可以在 Power BI 中使用“功能区图表”来直观显示数据，并快速确定哪个数据类别具有最高排名（最大值）。 功能区图表能够高效地显示排名变化，并且会在每个时间段内始终将最高排名（值）显示在最顶部。 2017 年 9 月发行版 Power BI Desktop 开始提供功能区图表，后续 Power BI 服务更新版本中也会提供此图表。
@@ -44,7 +44,7 @@ ms.locfileid: "34285522"
 ## <a name="next-steps"></a>后续步骤
 有关 Power BI Desktop 以及如何入门的详细信息，请查看以下文章。
 
-* [Power BI Desktop 入门](desktop-getting-started.md)
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 的查询概述](desktop-query-overview.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)

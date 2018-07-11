@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c57ae7a0213ce324f673e53862ba3dfa38f57409
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481891"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092658"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>使用 Office Online Server (OOS) 将报表服务器配置为托管 Excel 工作簿
 除了在 Web 门户中查看 Power BI 报表之外，Power BI 报表服务器也可以使用 [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) 来托管 Excel 工作簿。 报表服务器将成为用于发布和查看自助服务 Microsoft BI 内容的单个位置。
@@ -78,7 +78,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **参数**
 
-* –InternalURL 是运行 Office Online Server 的服务器的完全限定的域名 (FQDN)，如 http://servername.contoso.com。
+* –InternalURL 是运行 Office Online Server 的服务器的完全限定的域名 (FQDN)，如 `http://servername.contoso.com`。
 * –ExternalURL 是在 Internet 上可访问的 FQDN。
 * –CertificateName 是证书的友好名称。
 
@@ -91,7 +91,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **参数**
 
-* –InternalURL 是运行 Office Online Server 的服务器的名称，如 http://servername。
+* –InternalURL 是运行 Office Online Server 的服务器的名称，如 `http://servername`。
 * –AllowHttp 将场配置为使用 HTTP。
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>验证 Office Online Server 场是否已成功创建
