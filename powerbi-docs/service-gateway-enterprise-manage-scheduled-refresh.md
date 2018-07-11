@@ -11,11 +11,11 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 17c608b017123b5ae7111ef6d97703cdbc30940d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297322"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38937318"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>管理数据源 - 导入/计划刷新
 安装本地数据网关之后，需要添加可与该网关结合使用的数据源。 本文将介绍如何结合使用网关和用于计划刷新的数据源，而不是 DirectQuery 或实时连接。

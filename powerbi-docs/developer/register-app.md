@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599474"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924992"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>注册 Azure AD 应用以便嵌入 Power BI 内容
 了解如何在 Azure Active Directory (Azure AD) 中注册应用程序，用于嵌入 Power BI 内容。
@@ -23,7 +23,6 @@ ms.locfileid: "37599474"
 
 > [!IMPORTANT]
 > 注册 Power BI 应用之前，需要一个 [Azure Active Directory 租户和一个组织用户](create-an-azure-active-directory-tenant.md)。 如果尚未以租户中的用户身份注册 Power BI，则无法成功完成应用注册。
-> 
 > 
 
 注册应用程序有两种方法。 第一种方法是使用 [Power BI 应用注册工具](https://dev.powerbi.com/apps/)，第二种方法是直接在 Azure 门户中注册。 Power BI 应用注册工具只需填充几个字段即可，是最简单的注册方式。 若要更改应用，请使用 Azure 门户。
@@ -45,7 +44,7 @@ ms.locfileid: "37599474"
    
     只有将应用程序类型选择为“服务器端 Web 应用”，“主页 URL”才可用。
    
-    对于“为客户嵌入内容”和 integrate-dashboard-web-app 示例，重定向 URL 为 `http://localhost:13526/redirect`。 对于报表和磁贴示例，重定向 URL 为 `http://localhost:13526/`。
+    对于 *“为客户嵌入内容”* 和 *integrate-dashboard-web-app* 示例，**重定向 URL** 为 `http://localhost:13526/Redirect`。 对于报表和磁贴示例，**重定向 URL** 为 `http://localhost:13526/`。
 6. 选择具有访问权限的应用程序的 API。 有关 Power BI 访问权限的详细信息，请参阅 [Power BI 权限](power-bi-permissions.md)。
    
     ![](media/register-app/app-registration-apis.png)
@@ -83,7 +82,7 @@ ms.locfileid: "37599474"
 5. 按照提示进行操作，并创建新的应用程序。
    
    * 对于 Web 应用，请输入“登录 URL”，即用户可以登录的应用基 URL 例如 `http://localhost:13526`) 。
-   * 对于本机应用程序，请提供“重定向 URI”，Azure AD 用其返回令牌响应。 输入特定于应用程序的值，例如 `http://myapplication/redirect`
+   * 对于本机应用程序，请提供 **“重定向 URL”**，Azure AD 用其返回令牌响应。 输入特定于应用程序的值，例如 `http://myapplication/Redirect`
 
 有关如何在 Azure Active Directory 中注册应用程序的详细信息，请参阅 [Azure Active Directory 集成应用程序](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
