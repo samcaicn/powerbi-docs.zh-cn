@@ -1,6 +1,6 @@
 如果你想在移动中对数据进行跟踪，你可以使用适用于 iOS、Android 和 Windows 设备的其中一个 Power BI 移动应用程序。
 
-当使用 Power BI 应用时，请首先使用你的 Power BI 服务帐户信息登录你的帐户。 在 Windows 移动设备上（在此示例中为平板电脑），“登录”如下所示。
+当使用 Power BI 应用时，请首先使用 Power BI 服务帐户信息登录你的帐户。 在 Windows 移动设备上（在此示例中为平板电脑），“登录”如下所示。
 
 ![](media/4-4a-power-bi-mobile/4-4a_1.png)
 
