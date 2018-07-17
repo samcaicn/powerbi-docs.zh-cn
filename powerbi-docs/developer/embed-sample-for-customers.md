@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: d9e2f76c63ee9ebff01080686277a3fbb5af46f3
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: a8833cb6b41ea76d50814975ada6239690a0c196
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900068"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877409"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 报表、仪表板或磁贴嵌入应用程序中
 使用“Azure 中的 Power BI Embedded”，可以借助“应用拥有数据”将报表、仪表板或磁贴嵌入到应用程序中。 **应用拥有数据**是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 这通常是一种 ISV 开发者方案。 ISV 开发者可以创建 Power BI 内容以便在完全集成并交互的应用程序中显示报表、仪表板或磁贴，应用程序的用户无需 Power BI 许可证，甚至不必知道是在 Power BI 下操作。 本教程演示当针对使用“应用拥有数据”的客户使用“Azure 中的 Power BI Embedded”时，如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将报表集成到应用程序中。
@@ -54,7 +54,7 @@ ms.locfileid: "37900068"
     ![应用注册搜索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![新应用注册](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
-4. 按照提示进行操作，并创建新的应用程序。 对于“应用拥有数据”，需要使用“本机”作为应用程序类型。 你还需要提供“重定向 URI”，Azure AD 用其返回令牌响应。 输入特定于应用程序的值，例如 `http://localhost:13526/redirect`。
+4. 按照提示进行操作，并创建新的应用程序。 对于“应用拥有数据”，需要使用“本机”作为应用程序类型。 你还需要提供“重定向 URI”，Azure AD 用其返回令牌响应。 输入特定于应用程序的值，例如 `http://localhost:13526/Redirect`。
 
     ![创建应用](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
 

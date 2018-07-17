@@ -11,11 +11,11 @@ ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944551"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38925427"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium 有哪些特权？
 Power BI Premium 资源专用于为组织或团队运行 Power BI 服务，为你提供更可靠的性能和更大的数据卷。 Premium 还可以广泛发布内容，无需为查看者购买许可证。
