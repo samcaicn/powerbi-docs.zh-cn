@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6592405de2d76c14334c8c31e4af84cd5a090ed9
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1a9b9c8c7cde59cf7cd05b383070183b219159da
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247541"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136263"
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>使用 Power BI 连接到 SweetIQ
 Power BI 内容包从 SweetIQ 帐户拉取数据，并生成一组可立即使用的内容，让你可以轻松浏览数据集。 使用 SweetIQ 内容包分析有关你的位置、排名、评级和评论的数据。 该数据设置为每日刷新，确保你正在监视的数据时刻保持最新。
@@ -54,7 +54,7 @@ Power BI 内容包从 SweetIQ 帐户拉取数据，并生成一组可立即使�
 向管理员咨询你的 API 密钥，以访问特定客户端的数据。
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 入门](service-get-started.md)
+[什么是 Power BI？](power-bi-overview.md)
 
 [获取 Power BI 的数据](service-get-data.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94b019f04fb6fabcad3092524fd2724015a6d8e1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242181"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137004"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>使用 Power BI 连接到 Microsoft Dynamics Marketing
 通过 Power BI 的 Microsoft Dynamics Marketing 内容包，你可以轻松访问和分析来自 Dynamics Marketing 的数据 该内容包使用以 OData 数据源为基础的描述性模型，其中包括所有所需条目和度量值，例如程序、活动、市场营销联系人、公司、潜在客户、潜在客户互动、潜在客户分级、营销电子邮件和网站、行为观察、预算、财务交易、绩效 KPI 等。 
@@ -72,5 +72,5 @@ ms.locfileid: "34242181"
 ## <a name="next-steps"></a>后续步骤
 [获取 Power BI 的数据](service-get-data.md)
 
-[Power BI 入门](service-get-started.md)
+[什么是 Power BI？](power-bi-overview.md)
 

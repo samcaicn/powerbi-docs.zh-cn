@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 060bebbc79db02d28755cc7832f4a4ef3d2d578f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: abc53080456e27e58d8b9519c9d6543e66142780
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299484"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926481"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>以个人身份注册 Power BI
 了解如何注册 Power BI 并开始使用，以满足你个人的报表和可视化需求。
@@ -32,8 +32,7 @@ Power BI 既是你的个人报表和可视化工具，还可用作组项目、�
 如果你的组织当前使用 Office 365，你仍然可以注册免费帐户。 你的 IT 管理员在购买 Power BI Pro 并分配许可证方面也有多种选择。 有关 IT 管理员可用选择的详细信息，请参阅[购买 Power BI Pro](service-admin-purchasing-power-bi-pro.md)。
 
 > [!NOTE]
-> 如果你在组织中，个人注册可能会被禁用。 如果收到表示它已关闭的错误消息，请参阅[个人注册已关闭](#individual-sign-up-has-been-turned-off)以了解详细信息。
->
+> 如果你在组织中，个人注册可能会被禁用。 如果收到指示注册已被禁用的错误，请联系 IT 部门了解详细信息。
 
 ## <a name="what-you-need-to-sign-up"></a>注册所需前提条件
 
@@ -69,16 +68,16 @@ Power BI 要求使用工作或学校电子邮件地址才能注册。 不支持�
 
 1. 浏览到 [powerbi.com](https://powerbi.microsoft.com)。
 2. 选择“免费开始”或“免费注册”。
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup1.png)
 3. 在入门页，选择 Power BI 下的“免费试用 >”。
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup2.png)
 4. 输入注册使用的电子邮件地址，然后选择**注册**。 请确保你的电子邮件地址可用于进行注册。 有关可以使用的电子邮件地址的详细信息，请参阅[哪些电子邮件地址可用于 Power BI](#what-email-address-can-be-used-with-power-bi)。
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup3.png)
 5. 你将收到指示查看电子邮件的消息。
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
 6. 选择电子邮件内的链接以确认你的电子邮件地址。 这将返回到注册流程。 你可能需要提供一些有关自己的其他信息。
 7. 然后转到 https://app.powerbi.com，你可以作为免费用户开始使用 Power BI。
@@ -123,7 +122,7 @@ Power BI 要求使用工作或学校电子邮件地址才能注册。 不支持�
 > 
 
 ### <a name="what-this-looks-like-within-the-service"></a>这在服务中显示的内容
-使用服务时，可以转到**齿轮*图标，然后选择“管理个人存储”，从而验证拥有的是否是 Pro 试用版帐户。
+使用服务时，可以转到齿轮图标，然后选择“管理个人存储”，验证拥有的是否是 Power BI Pro 试用版帐户。
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial3.png)
 
@@ -133,11 +132,12 @@ Power BI 要求使用工作或学校电子邮件地址才能注册。 不支持�
 ## <a name="troubleshooting"></a>故障排除
 在许多情况下，通过下面列出的简易自助注册过程可以实现 Power BI 注册。 但是，也有几个导致你可能无法完成自助注册的原因。  下表总结了你可能无法完成注册的某些最常见的原因以及解决这些问题的方法。
 
-| **症状/错误消息** | **原因和解决方法** |
-| --- | --- |
-| **个人电子邮件地址（例如，nancy@gmail.com）** 在注册期间看到如下消息： <br /><br /> *你输入的是个人电子邮件地址：请输入你的工作电子邮件地址，以便我们可以安全地存储你公司的数据。* <br /><br /> 或 <br /><br /> *这看起来像个人电子邮件地址。请输入你的工作地址，以便我们可以将你和公司中的其他人相连接。请不必担心。我们不会向任何人分享你的地址。* |Power BI 不支持由使用者电子邮件服务或电信提供商提供的电子邮件地址。 <br /><br /> 若要完成注册，请使用你的工作单位或学校分配的电子邮件地址再试一次。 <br /><br /> 如果你仍无法注册并且愿意完成更高级的安装过程，则可以[注册新的 Office 365 试用版订阅并使用该电子邮件地址进行注册](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 <br /><br /> 以 [Azure B2B 来宾](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)的形式邀请用户帐户。 |
-| **自助注册已禁用**在注册期间，你会收到一条消息，如下所示： <br /><br /> *我们无法完成注册。你的 IT 部门已经关闭了注册 Microsoft Power BI。请与他们联系以完成注册。* <br /><br /> 或 <br /><br /> *这看起来像个人电子邮件地址。请输入你的工作地址，以便我们可以将你和公司中的其他人相连接。请不必担心。我们不会向任何人分享你的地址。* |你组织的 IT 管理员已禁用自助注册 Power BI。 <br /><br /> 若要完成注册，请与 IT 管理员联系，要求他们按照以下页面上的说明允许现有用户注册 Power BI，并允许新用户加入现有租户。 <br/><br/> 如果通过合作伙伴注册 Office 365，也可能会遇到此问题。 [了解详细信息](service-admin-syndication-partner.md) <br /><br /> [组织中的 Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant) |
-| **电子邮件地址不是 Office 365 ID**在注册期间，你会收到一条消息，如下所示： <br /><br /> *我们在 contoso.com 找不到你。你在工作或学校时使用其他 ID 吗？<br /><br />请使用该 ID 尝试登录，如果不起作用，请与你的 IT 部门联系。* |你的组织使用不同于你的电子邮件地址的 ID 登录到 Office 365 和其他 Microsoft 服务。  例如，你的电子邮件地址可能是 Nancy.Smith@contoso.com，但你的 ID 是 nancys@contoso.com。 <br /><br /> 若要完成注册，请使用你的组织分配的用于登录到 Office 365 或其他 Microsoft 服务的 ID。  如果你不知道这是什么，请与你的 IT 管理员联系。 <br /><br /> 如果你仍无法注册并且能够完成更高级的安装过程，则可以[注册新的 Office 365 试用版订阅并使用该电子邮件地址进行注册](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 |
+
+|                                                                                                                                                                                                                          **症状/错误消息**                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                **原因和解决方法**                                                                                                                                                                                                                                                                                                                                                |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <strong>个人电子邮件地址（例如，nancy@gmail.com）</strong>在注册期间看到如下消息： <br /><br /> *你输入的是个人电子邮件地址：请输入你的工作电子邮件地址，以便我们可以安全地存储你公司的数据。* <br /><br /> 或 <br /><br /> *这看起来像个人电子邮件地址。请输入你的工作地址，以便我们可以将你和公司中的其他人相连接。请不必担心。我们不会向任何人分享你的地址。* |                          Power BI 不支持由使用者电子邮件服务或电信提供商提供的电子邮件地址。 <br /><br /> 若要完成注册，请使用你的工作单位或学校分配的电子邮件地址再试一次。 <br /><br /> 如果你仍无法注册并且愿意完成更高级的安装过程，则可以[注册新的 Office 365 试用版订阅并使用该电子邮件地址进行注册](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 <br /><br /> 以 [Azure B2B 来宾](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)的形式邀请用户帐户。                           |
+|            **自助注册已禁用**在注册期间，你会收到一条消息，如下所示： <br /><br /> *我们无法完成注册。你的 IT 部门已经关闭了注册 Microsoft Power BI。请与他们联系以完成注册。* <br /><br /> 或 <br /><br /> *这看起来像个人电子邮件地址。请输入你的工作地址，以便我们可以将你和公司中的其他人相连接。请不必担心。我们不会向任何人分享你的地址。*             |                             你组织的 IT 管理员已禁用自助注册 Power BI。 <br /><br /> 若要完成注册，请与 IT 管理员联系，要求他们按照以下页面上的说明允许现有用户注册 Power BI，并允许新用户加入现有租户。 <br/><br/> 如果通过合作伙伴注册 Office 365，也可能会遇到此问题。 [了解详细信息](service-admin-syndication-partner.md) <br /><br /> [组织中的 Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
+|                                                                                          **电子邮件地址不是 Office 365 ID**在注册期间，你会收到一条消息，如下所示： <br /><br /> *我们在 contoso.com 找不到你。你在工作或学校时使用其他 ID 吗？<br /><br />请使用该 ID 尝试登录，如果不起作用，请与你的 IT 部门联系。*                                                                                           | 你的组织使用不同于你的电子邮件地址的 ID 登录到 Office 365 和其他 Microsoft 服务。  例如，你的电子邮件地址可能是 Nancy.Smith@contoso.com，但你的 ID 是 nancys@contoso.com。 <br /><br /> 若要完成注册，请使用你的组织分配的用于登录到 Office 365 或其他 Microsoft 服务的 ID。  如果你不知道这是什么，请与你的 IT 管理员联系。 <br /><br /> 如果你仍无法注册并且能够完成更高级的安装过程，则可以[注册新的 Office 365 试用版订阅并使用该电子邮件地址进行注册](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 |
 
 ## <a name="next-steps"></a>后续步骤
 [组织中的 Power BI（免费）](service-admin-service-free-in-your-organization.md)  

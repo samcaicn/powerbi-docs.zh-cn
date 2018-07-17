@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: d41b0a84d512c5ef6cebf810a89fd74a838c672e
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301725"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864344"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>对 Power BI 已嵌入内容使用行级别安全性
 行级安全性 (RLS) 可用于限制用户对仪表板、磁贴、报表和数据集中数据的访问。 多个不同的用户都可以在查看不同的数据时处理这些相同的项目。 嵌入支持 RLS。
@@ -65,11 +65,11 @@ RLS 在 Power BI Desktop 中进行编写。 当打开数据集和报表时，我
 3. 在“地区”表中，输入以下 DAX 表达式：[District Manager] = USERNAME()。
    
     ![RLS 规则的 DAX 语句](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. 要确保规则正常工作，请在“建模”选项卡上，选择“以角色身份查看”，然后选择刚刚创建的“经理”角色，以及“其他用户”。 输入 Andrew Ma 作为用户。
+4. 为确保这些规则有效，请在“建模”选项卡上，选择“以角色身份查看”，然后选择刚刚创建的“经理”角色，以及“其他用户”。 输入 AndrewMa 作为用户。
    
     ![“以角色身份查看”对话框](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
    
-    报表现在将显示数据，就像以 Andrew Ma 的身份登录那样。
+    报表现在将显示数据，就像以 AndrewMa 的身份登录那样。
 
 应用该筛选器（我们此处进行的操作）将筛选出“地区”、“商店”和“销售”表中的所有记录。 但是，由于“销售”和“时间”与“销售”和“项目”之间关系的筛选器方向，将不会筛选出“项目”和“时间”表。 要了解有关双向交叉筛选的详细信息，请下载 [SQL Server Analysis Services 2016 和 Power BI Desktop 中的双向交叉筛选](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)白皮书。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 36351491f7cb99a2e597ef4fd498ef7c38da386e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dd9b5b9f9db95b73a7001c34bcabcd2deacb8b4c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243882"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136541"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>适用于 Power BI 的 SQL 数据库审核内容包
 通过适用于 Azure [SQL 数据库审核](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/)的 Power BI 内容包可以了解数据库活动并深入了解可能指示业务问题或可疑安全冲突的差异和异常。 
@@ -69,4 +69,4 @@ ms.locfileid: "34243882"
 
 ## <a name="next-steps"></a>后续步骤
 [获取 Power BI 数据](service-get-data.md)
-[获取 Power BI 数据](service-get-started.md)
+[什么是 Power BI？](power-bi-overview.md)

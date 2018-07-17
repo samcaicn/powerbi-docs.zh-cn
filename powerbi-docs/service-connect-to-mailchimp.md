@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6a62b97a4c7d75644bd3a824118414509ef8438f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f54841b77d79854334ddb6d93ccdc9b5926201ac
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241173"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136683"
 ---
 # <a name="connect-to-mailchimp-with-power-bi"></a>使用 Power BI 连接到 MailChimp
 Power BI 内容包将从你的 MailChimp 帐户拉取数据，并生成一个仪表板、一组报表和一个数据集以便你浏览数据。 拉入分析以创建 [MailChimp 仪表板](https://powerbi.microsoft.com/integrations/mailchimp)，并快速确定你的活动、报表和个人订阅者中的趋势。 该数据设置为每日刷新，确保你正在监视的数据时刻保持最新。
@@ -51,7 +51,7 @@ Power BI 内容包将从你的 MailChimp 帐户拉取数据，并生成一个仪
 * 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 入门](service-get-started.md)
+[什么是 Power BI？](power-bi-overview.md)
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

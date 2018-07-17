@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 920e61ed173e979a92958e56f9e0276f26288b3f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 7fe40fa3ea4a80198c3b06d2594c7ad0837ee923
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250666"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136171"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>在 Power BI 服务中收藏仪表板、报表和应用
 收藏内容后，可从所有工作区访问它。  收藏夹中通常放置最常访问的内容。
@@ -76,7 +76,7 @@ ms.locfileid: "34250666"
 > 
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 入门](service-get-started.md)
+[什么是 Power BI？](power-bi-overview.md)
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

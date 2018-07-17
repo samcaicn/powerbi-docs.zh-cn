@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0d11c1bd865aade1ad54a361a0616f6426da1a67
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248402"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136953"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的报表
 ## <a name="what-is-a-power-bi-report"></a>什么是 Power BI 报表？
@@ -76,7 +76,7 @@ Power BI ***报表***是数据集的多角度视图，使用可视化效果表�
 > 
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 入门](service-get-started.md) 
+[什么是 Power BI？](power-bi-overview.md) 
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

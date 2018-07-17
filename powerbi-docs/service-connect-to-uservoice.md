@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250817"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092152"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>使用 Power BI 连接到 UserVoice
 借助 Power BI 和 UserVoice 内容包，可轻松跟踪和浏览你的 UserVoice 数据。 Power BI 可以检索你的数据，包括票证和满意度，然后基于该数据生成全新的仪表板和报表。
@@ -35,7 +35,7 @@ ms.locfileid: "34250817"
 3. 选择 **UserVoice**，然后选择**获取**。
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. 出现提示时，输入你的 UserVoice URL。 URL 需要完全遵循以下模式 https://fabrikam.uservoice.com 并将“fabrikam”替换为你的产品或服务名称。
+4. 出现提示时，输入你的 UserVoice URL。 URL 需要完全遵循以下模式 `https://fabrikam.uservoice.com` 并将“fabrikam”替换为你的产品或服务名称。
    
    >[!NOTE]
    >末尾没有尾部斜杠，并且连接使用的是 https。
@@ -63,7 +63,7 @@ ms.locfileid: "34250817"
 
 如果键入 UserVoice URL 后看到此错误。 请确保满足以下要求：
 
-* URL 完全采用这种模式“https://fabrikam.uservoice.com”，并将“fabrikam”替换为正确的 UserVoice URL 前缀。
+* URL 完全采用这种模式 `https://fabrikam.uservoice.com`，并将“fabrikam”替换为正确的 UserVoice URL 前缀。
 * 请确保所有字母均为小写。
 * 请确保 URL 采用的是 http**s**。
 * 请确保此 URL 的末尾没有尾随正斜杠。

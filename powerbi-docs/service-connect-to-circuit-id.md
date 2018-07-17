@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0cc0125f35dc90a03eeaeed0d5e69c0a5c3115ae
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 56be5b6a0618dea28ac286f5cbaa0c019d9037d2
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241150"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135987"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>使用 Power BI 连接到 Circuit ID
 借助 Power BI 轻松分析 Circuit ID 的通信数据。 Power BI 检索数据，然后生成默认的仪表板并基于此数据生成相关的报表。 创建连接后，你可以根据需要管理数据并自定义仪表板。 数据每日自动刷新。
@@ -47,7 +47,7 @@ ms.locfileid: "34241150"
 * 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 入门](service-get-started.md)
+[什么是 Power BI？](power-bi-overview.md)
 
 [获取 Power BI 的数据](service-get-data.md)
 

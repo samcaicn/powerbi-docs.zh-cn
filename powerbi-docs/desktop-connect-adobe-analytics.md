@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f54aa5a67739a3ad6f9ea0a42f8a2b872e51d52d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: da688638170db8a296c680bc88c1030924078967
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34230913"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134538"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Adobe Analytics 
 在 Power BI Desktop 中，可连接到“Adobe Analytics”并使用基础数据（就像在 Power BI Desktop 中使用其他所有数据源一样）。 
@@ -43,7 +43,7 @@ ms.locfileid: "34230913"
 ## <a name="next-steps"></a>后续步骤
 你可以使用 Power BI Desktop 连接到各种数据。 有关数据源的详细信息，请参阅下列资源：
 
-* [Power BI Desktop 入门](desktop-getting-started.md)
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [通过 Power BI Desktop 连接到 Excel 工作簿](desktop-connect-excel.md)   

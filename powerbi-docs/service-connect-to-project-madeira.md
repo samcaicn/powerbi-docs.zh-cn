@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245596"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599775"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>使用 Power BI 连接到 Project "Madeira"
 通过 Power BI 和 Project "Madeira" 内容包，可以轻松获得有关 Project "Madeira" 数据的深入见解。 Power BI 会检索数据（销售和财务数据），然后基于该数据生成全新的仪表板和报表。
@@ -33,7 +33,7 @@ ms.locfileid: "34245596"
     ![](media/service-connect-to-project-madeira/services.png)
 3. 选择 **Project "Madeira"**，然后选择**获取**。  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. 出现提示时，输入你的 Project "Madeira" URL。 URL 需要完全按照以下模式：https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US')，加上你的 Project“Madeira”公司名称。 请注意，末尾没有尾部斜杠，并且连接必须是 HTTPS。 请参阅[以下](#FindingParams)有关查找此 URL 的详细信息。  
+4. 出现提示时，输入你的 Project "Madeira" URL。 URL 需要完全按照以下模式：<https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US>')，加上你的 Project“Madeira”公司名称。 请注意，末尾没有尾部斜杠，并且连接必须是 HTTPS。 请参阅[以下](#FindingParams)有关查找此 URL 的详细信息。  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. 出现提示时，选择“基本”作为身份验证方法，输入你的 Project "Madeira" 电子邮件地址作为用户名，然后输入 Project "Madeira" 帐户的 Web 服务访问密钥作为密码。 如果你已经在浏览器中登录到 Project "Madeira"，则可能不会看到凭据提示。 请参阅[以下](#FindingParams)有关生成此访问密钥的详细信息。  
@@ -93,10 +93,10 @@ Power BI 仪表板依赖于上面所列的已发布的 Web 服务，并且如果
 
 如果在输入 Project "Madeira" URL 后看到此错误消息，请确保满足以下要求：  
 
-   - URL 完全采用这种模式 https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-   - 删除括号中公司名后的任何文本  
-   - 请确保此 URL 的末尾没有尾随正斜杠。  
-   - 确保此 URL 使用安全连接，如以 HTTPS 开头的 URL 所示。  
+- URL 完全采用这种模式 https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')  
+- 删除括号中公司名后的任何文本  
+- 请确保此 URL 的末尾没有尾随正斜杠。  
+- 确保此 URL 使用安全连接，如以 HTTPS 开头的 URL 所示。  
 
 **“登录失败”** 如果在你使用 Project "Madeira" 凭据登录到仪表板时，收到“登录失败”错误，这可能是由于以下问题之一导致的：  
 
@@ -104,16 +104,16 @@ Power BI 仪表板依赖于上面所列的已发布的 Web 服务，并且如果
    - 你正在尝试连接到的 Project "Madeira" 实例不具有有效的 SSL 证书。 在这种情况下，你将看到更详细的错误消息（“无法建立受信任的 SSL 关系”）。 请注意，不支持自签名的证书。  
 
 **“糟糕”** 如果在你通过身份验证对话框后，看到“糟糕”错误对话框，这一错误经常是由于连接到内容包的数据时出现的问题所造成的。 验证该 URL 是否采用了之前指定的模式：  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')
 
 一个常见错误指定特定 Web 服务的完整 URL：  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')/powerbifinance
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')/powerbifinance
 
 或者，你可能忘记了指定公司名称：   
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/
+    https://<em>mycronusus</em>.projectmadeira.com:7048/NAV/OData/
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 入门](service-get-started.md)
+[什么是 Power BI？](power-bi-overview.md)
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/18/2017
+ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 27b2eb90a07d3112b771fd3ee23cc86353a46991
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a1ae30097e0af90d5da8acd0d41b11f513756f88
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242240"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135895"
 ---
 # <a name="azure-sql-database-with-directquery"></a>具有 DirectQuery 的 Azure SQL 数据库
 了解如何直接连接到 Azure SQL 数据库并使用实时数据创建报表。 你可以在源中（不是在 Power BI 中）保存数据。
@@ -31,7 +31,11 @@ ms.locfileid: "34242240"
 * 问答不可用于 DirectQuery 数据集
 * 不会自动选取架构更改
 
-随着我们继续改进体验，这些限制和说明可能会发生变化。 下面详细介绍了用于连接的步骤。 
+随着我们继续改进体验，这些限制和说明可能会发生变化。 下面详细介绍了用于连接的步骤。
+
+> [!Important]
+> 我们在不断改进与 Azure SQL 数据库的连接。  若要获取连接到 Azure SQL 数据库数据源的最佳体验，请使用 Power BI Desktop。  生成模型和报表后，即可将其发布到 Power BI 服务中。  Power BI 服务的 Azure SQL 数据库现已弃用直接连接器。
+>
 
 ## <a name="power-bi-desktop-and-directquery"></a>Power BI Desktop 和 DirectQuery
 若要使用 DirectQuery 连接到 Azure SQL 数据库，则必须使用 Power BI Desktop。 这种方法具有更高的灵活性和更多功能。 使用 Power BI Desktop 创建的报表随后可以发布到 Power BI 服务。 可了解如何在 Power BI Desktop 内[使用 DirectQuery 连接到 Azure SQL 数据库](desktop-use-directquery.md)的详细信息。 
@@ -57,6 +61,6 @@ SSO 选项针对使用此数据源的所有数据集生效。 它不影响用于
 
 ## <a name="next-steps"></a>后续步骤
 [在 Power BI Desktop 中使用 DirectQuery](desktop-use-directquery.md)  
-[Power BI 入门](service-get-started.md)  
+[什么是 Power BI？](power-bi-overview.md)  
 [获取 Power BI 的数据](service-get-data.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32bf2d3cedbeeb2430620855a2ac95bf349af9a2
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34444994"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092037"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教程：浏览 VM 中的 Power BI 报表服务器 Web 门户
 在本教程中，使用已安装的 Power BI 报表服务器创建 Azure 虚拟机，以便可以查看、编辑和管理示例 Power BI、分页报表和 KPI。
@@ -100,7 +100,7 @@ ms.locfileid: "34444994"
 |![编号 4](media/tutorial-explore-report-server-web-portal/number-4.png) | 启动更适合 Power BI 报表服务器的 Power BI Desktop（2018 年 3 月）  |
 |![编号 5](media/tutorial-explore-report-server-web-portal/number-5.png) | 在浏览器中打开 Power BI 报表服务器 Web 门户   |
 
-双击“报表服务器 Web 门户”图标。 浏览器将打开 http://localhost/reports/browse。 在 Web 门户中，将看到按类型分组的各种文件。 
+双击“报表服务器 Web 门户”图标。 浏览器将打开 `http://localhost/reports/browse`。 在 Web 门户中，将看到按类型分组的各种文件。 
 
 ![Power BI 报表服务器 Web 门户](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

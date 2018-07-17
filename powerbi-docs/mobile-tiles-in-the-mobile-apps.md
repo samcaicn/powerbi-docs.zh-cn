@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 4680ab3709f1a2cbe56445e6719ea4de15396eb0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297644"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598596"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览磁贴
 适用于：
@@ -40,7 +40,7 @@ ms.locfileid: "34297644"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *例如，在此折线图中，所选的值为**本年度**和**上年度****八月份**的销售额。*  
+   例如，在此折线图中，所选的值为本年度和上年度八月份的销售额<em>*。  
    
    在饼图中，点击饼图的一个扇区以显示饼图顶部扇区的值。  
    
@@ -107,7 +107,7 @@ ms.locfileid: "34297644"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   在此条形图中，**Decor** 条的值显示在图表的顶部。
+   在此条形图中，Decor 条的值显示在图表的顶部。
    
    点击“全屏”图标 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)，以全屏幕模式打开磁贴而不显示导航和菜单栏。
    
@@ -126,6 +126,6 @@ ms.locfileid: "34297644"
 4. 点击后退箭头或后退按钮以关闭磁贴并返回到仪表板。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 入门](service-get-started.md)
+* [什么是 Power BI？](power-bi-overview.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

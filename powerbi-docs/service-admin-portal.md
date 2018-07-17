@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301817"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965495"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理门户
 
@@ -99,6 +99,8 @@ ms.locfileid: "35301817"
 ## <a name="tenant-settings"></a>租户设置
 
 管理门户中的第三个选项卡是**租户设置**。 租户设置使你可以更好地控制向组织提供的功能。 如果你担心敏感数据、我们的某些功能可能不适合你的组织，或者你只需要为特定组提供给定的功能。 如果出现这种情况，则可以在租户中关闭它。
+
+例如，默认情况下，每个用户的数据都启用了使用指标并在指标报表中包含内容创建者帐户信息。 如果不希望某些或所有用户包含此信息，请为特定安全组或整个组织禁用此功能。 帐户信息随后会在报表中显示为“未命名”。
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -235,7 +237,7 @@ ms.locfileid: "35301817"
 
 ## <a name="r-visuals-settings"></a>R 视觉对象设置
 
-### <a name="interact-with-an-dshare-r-visuals"></a>与 dshare R 视觉对象进行交互
+### <a name="interact-with-and-share-r-visuals"></a>与 R 视觉对象进行交互并共享
 
 组织中的用户可以与使用 R 脚本创建的视觉对象进行交互并共享。 [了解详细信息](service-r-visuals.md)
 

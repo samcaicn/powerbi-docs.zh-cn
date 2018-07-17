@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 997dd8b598e67d590723c72fb35245c3b3486c8b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afcaae9499aa1c7e1461030cfa6b5d7b35a47188
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242437"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136010"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>使用 Power BI 连接到 Zendesk
 Zendesk 内容包提供 Power BI 仪表板和一组 Power BI 报表，这些报表提供有关你的票证量和代理性能的深入分析。 可以使用提供的仪表板和报表，或自定义它们以突出显示你最关注的信息。  此数据将每天自动刷新一次。 
@@ -84,6 +84,6 @@ Zendesk URL 将与你用于登录 Zendesk 帐户的 URL 相同。 如果不能�
 如果遇到连接问题，请检查你的 Zendesk URL，确保使用的是 Zendesk 管理员帐户。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 入门](service-get-started.md)
+* [什么是 Power BI？](power-bi-overview.md)
 * [获取数据](service-get-data.md)
 

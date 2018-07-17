@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813034"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945226"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>嵌入 Power BI 仪表板、报表和磁贴
 
@@ -35,6 +35,9 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 
 * [确保具有 Azure Active Directory 租户](embedding-content.md#azureadtenant)
 * [创建 Power BI Pro 帐户](embedding-content.md#proaccount)
+* [应用注册和权限](embedding-content.md#appreg)
+* [创建应用工作区](embedding-content.md#appws)
+* [创建并上传报表](embedding-content.md#createreports)
 
 可使用[载入体验工具](https://aka.ms/embedsetup)快速开始并下载示例应用程序。
 
@@ -67,7 +70,7 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 
 #### <a name="an-organizationtenant-admin-user"></a>组织/租户管理员用户
 
-若要为客户嵌入内容，建议应用不要使用组织/租户全局管理员用户作为帐户。 这是为了最大限度地减少应用帐户在租户中拥有的访问权限。 建议将管理员用户作为为嵌入创建的所有应用工作区的管理员。
+若要为客户嵌入内容，建议应用不要使用组织/租户全局管理员用户作为帐户。 这是为了最大限度地减少应用帐户在租户中拥有的访问权限。 要求将管理员用户作为为嵌入创建的所有应用工作区的管理员。
 
 #### <a name="accounts-for-analysts-that-create-content"></a>创建内容的分析师帐户
 
@@ -83,7 +86,7 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 
 需要先向 Azure AD 注册应用程序，才能执行 REST API 调用。 有关详细信息，请参阅[注册 Azure AD 应用以便嵌入 Power BI 内容](register-app.md)。
 
-### <a name="create-app-workspaces"></a>创建应用工作区
+### <a name="appws"></a>创建应用工作区
 
 若要为客户嵌入仪表板和报表，必须将这些仪表板和报表置于应用工作区中。 上面提到的主帐户必须是应用工作区的管理员。
 
@@ -93,13 +96,17 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 > 非管理员用户最多只能创建 250 个 应用工作区。 若要创建更多工作区，需要使用租户管理员帐户。
 >
 
-### <a name="create-and-upload-your-reports"></a>创建并上传报表
+### <a name="createreports"></a>创建并上传报表
 
 可使用 Power BI Desktop 创建报表和数据集，然后将这些报表发布到应用工作区。 发布报表的最终用户需要拥有 Power BI Pro 许可证才可发布到应用工作区。
 
 ## <a name="step-2-embed-your-content"></a>步骤 2：嵌入内容
 
-在应用程序内，需要对 Power BI 进行身份验证。 若要为客户嵌入内容，可在应用中存储主帐户的凭据。 有关详细信息，请参阅[对用户进行身份验证并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。
+在应用程序内，需要对 Power BI 进行身份验证。 若要为客户嵌入内容，可在应用中存储主帐户的凭据。
+
+> [!NOTE]
+> 有关为客户嵌入内容时对用户进行身份验证的详细信息，请参阅[对用户进行身份验证并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。
+>
 
 通过身份验证后，在应用中使用 Power BI REST API 和 JavaScript API，将仪表板和报表嵌入应用中。 
 
@@ -123,7 +130,7 @@ Microsoft [发布了 Power BI Premium](https://powerbi.microsoft.com/blog/micros
 
 若要为组织嵌入内容，只需让人们知道如何转到应用即可。 
 
-如果专用容量支持工作区，免费用户可以使用从应用工作区（组）嵌入的内容。 将免费用户列为应用工作区（组）的成员，否则将看到 401 未授权错误。 下表列出了 Office 365 中可用的 Power BI Premium SKU。
+如果专用容量支持该工作区，所有用户（无论其分配的许可证为何）都可使用从应用工作区（组）嵌入的内容。 话虽如此，对于没有 Power BI Pro 许可证的任何用户，必须显式添加到应用工作区；否则，将收到 401 未经授权的错误。 下表列出了 Office 365 中可用的 Power BI Premium SKU。
 
 | 容量节点 | 总核心数<br/>（后端 + 前端） | 后端核心数 | 前端核心数 | DirectQuery/实时连接限制 | 高峰时间的最大显示页数 |
 | --- | --- | --- | --- | --- | --- |

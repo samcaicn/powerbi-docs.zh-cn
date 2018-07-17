@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298955"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926504"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>教程：连接到 SQL Server 中的本地数据
 
@@ -128,7 +128,7 @@ ms.locfileid: "34298955"
 
 ## <a name="add-sql-server-as-a-gateway-data-source"></a>添加 SQL Server 作为网关数据源
 
-在 Power BI Desktop 中直接连接到 SQL Server，但 Power BI 服务需要一个网关来充当网桥。 现在，将 SQL Server 实例作为在前一个项目中创建的网关数据源（在[先决条件](#prereqisites)下列出）。 
+在 Power BI Desktop 中直接连接到 SQL Server，但 Power BI 服务需要一个网关来充当网桥。 现在，将 SQL Server 实例作为在前一个项目中创建的网关数据源（在[先决条件](#prerequisites)下列出）。 
 
 1. 在 Power BI 服务的右上角，选择齿轮图标![“设置”齿轮图标](media/service-gateway-sql-tutorial/icon-gear.png) > “管理网关”。
 
@@ -142,15 +142,17 @@ ms.locfileid: "34298955"
 
     ![输入数据源设置](media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    | 选项 | 值 |
-    | ---    | ---   |
-    | **数据源名称**       | test-sql-source      |
-    | **数据源类型**       | SQL Server      |
-    | **服务器**       |  SQL Server 实例名称（必须与你在 Power BI Desktop 中指定的名称相同）    |
-    | **数据库**       | TestGatewayDocs      |
-    | **身份验证方法**       | Windows      |
-    | **用户名**        |  用于连接到 SQL Server 的帐户，如 michael@contoso.com     |
-    | **密码**       |  用于连接到 SQL Server 的帐户密码    |
+
+   |          选项           |                                               值                                                |
+   |---------------------------|----------------------------------------------------------------------------------------------------|
+   |   **数据源名称**    |                                          test-sql-source                                           |
+   |   **数据源类型**    |                                             SQL Server                                             |
+   |        **服务器**         | SQL Server 实例名称（必须与你在 Power BI Desktop 中指定的名称相同） |
+   |       **数据库**        |                                          TestGatewayDocs                                           |
+   | **身份验证方法** |                                              Windows                                               |
+   |       **用户名**        |             用于连接到 SQL Server 的帐户，如 michael@contoso.com             |
+   |       **密码**        |                   用于连接到 SQL Server 的帐户密码                    |
+
 
 4. 选择**添加**。 此过程成功时，会看到“连接成功”。
 

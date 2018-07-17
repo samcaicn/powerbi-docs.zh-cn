@@ -3,18 +3,18 @@ title: 有关 Power BI Embedded 的常见问题
 description: 浏览有关 Power BI Embedded 的常见问题和解答列表。
 author: markingmyname
 manager: kfile
+ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
-ms.openlocfilehash: bcdb20d22790b74b54caca5d21325039d6e718bf
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.date: 06/22/2018
+ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812735"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599941"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -57,7 +57,7 @@ Microsoft 建议企业购买企业级自助服务云 BI 解决方案 Power BI Pr
 
 ### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure 中的 A SKU 与 Office 365 中的 EM SKU 之间有什么区别？
 
-PowerBI.com 是一个企业解决方案，包括软件即服务产品中的许多功能，例如社交协作、电子邮件订阅等
+PowerBI.com 是一个企业解决方案，包括软件即服务套餐中的许多功能，例如社交协作、电子邮件订阅等
 
 Power BI Embedded 是一组 API，可供开发人员在平台即服务产品中创建嵌入式分析解决方案。 对于嵌入式分析方案，应使用 PowerBI.com 帮助 ISV 和开发人员管理他们的嵌入式分析解决方案内容和租户级设置。
 
@@ -76,7 +76,7 @@ Power BI Embedded 是一组 API，可供开发人员在平台即服务产品中�
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |购买     |Azure 门户 |Office |Office |
-|用例 |* 在自己的应用程序中嵌入内容 |* 在自己的应用程序中嵌入内容<br>* 与 PowerBI.com 外部的 Power BI（免费）用户共享内容，并嵌入其他 SaaS 应用程序（SharePoint，Teams） |* 在自己的应用程序中嵌入内容<br>* 与 PowerBI.com 外部的 Power BI（免费）用户共享内容，并嵌入其他 SaaS 应用程序（SharePoint，Teams）<br>* 通过 PowerBI.com 与 Power BI（免费）用户共享内容  |
+|用例 |* 在自己的应用程序中嵌入内容 |* 在自己的应用程序中嵌入内容<br>* 与 PowerBI.com 外部的 Power BI（免费）用户共享内容，并嵌入其他 SaaS 应用程序（SharePoint、[Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)） |* 在自己的应用程序中嵌入内容<br>* 与 PowerBI.com 外部的 Power BI（免费）用户共享内容，并嵌入其他 SaaS 应用程序（SharePoint，Teams）<br>* 通过 PowerBI.com 与 Power BI（免费）用户共享内容  |
 |账单 |每小时 |每月 |每月 |
 |承诺  |无承诺 |每年  |每月/每年 |
 |区别 |全弹性 - 可以在 Azure 门户中或通过 API 纵向/横向扩展、暂停/恢复资源  |可用于在 SharePoint Online 和 Microsoft Teams 中嵌入内容 |合并嵌入在应用程序中并在相同的容量中使用 Power BI 服务 |
@@ -95,6 +95,58 @@ Power BI Embedded 是一组 API，可供开发人员在平台即服务产品中�
 
 虽然现在没有自动缩放，但是所有 API 都可以在任何时候缩放。
 
+### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>为什么创建/缩放/恢复容量会导致将容量置于挂起状态？
+
+预配容量（缩放/恢复/创建）可能会失败。 预配调用的调用方应使用获取详细信息 API（[容量 - 获取详细信息](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails)）检查容量的预配状态。
+
+### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>为什么只能在特定区域创建 PBIE？
+
+你只能为 PBI 租户区域创建 PBIE 容量。
+
+### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>如何找到我的 PBI 租户区域内容？
+
+可使用 PBI 门户了解 PBI 租户区域的内容。
+
+https://app.powerbi.com/ > ? > 关于 Power BI
+
+![关于 Power BI](media/embedded-faq/about-01.png)
+![租户区域](media/embedded-faq/tenant-location-01.png)
+
+### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>通信顺序进程 (CSP) 通道支持什么内容？
+
+* 可以为订阅类型为 CSP 的租户创建 PBIE
+* 合作伙伴帐户可以登录到客户租户并为将客户租户用户指定为 Power BI 容量管理员的客户租户购买 PBIE
+
+### <a name="why-do-i-get-an-unsupported-account-message"></a>为什么收到不受支持的帐户消息？
+
+Power BI 要求使用组织帐户注册。 不支持使用 MSA（Microsoft 帐户）注册 Power BI。
+
+### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>是否可以使用 API 创建和管理 Azure 的容量？
+
+是，可使用 Powershell cmdlet 和 ARM API 创建和管理 PBIE 资源。
+
+* Rest API - https://docs.microsoft.com/rest/api/power-bi-embedded/
+* Powershell cmdlet - https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
+
+### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解决方案中的 PBI Embedded 专用容量角色是什么？
+
+为了[将解决方案提升到生产](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)，需要 Power BI 内容（在要分配给专用容量的应用程序中使用的应用工作区）。
+
+### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>什么是可使用 PBI Embedded 的 Azure 区域？
+
+[PAM](https://ecosystemmanager.azurewebsites.net/home) (EcoManager) - 请参阅“产品可用性管理器”
+
+可用性区域（16 个 - 与 Power BI 的区域相同）
+* 美国（6 个）- 美国东部、美国东部 2，美国中北部、美国中南部、美国西部、美国西部 2
+* 欧洲（2 个）- 北欧、西欧
+* 亚太地区（2 个）- 东南亚、东亚
+* 巴西（1 个）- 巴西南部
+* 日本（1 个）- 日本东部
+* 澳大利亚（1 个）- 澳大利亚东南部
+* 印度（1 个）- 印度西部
+* 加拿大（1 个）- 加拿大中部
+* 英国（1 个）- 英国南部
+
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>什么是 Power BI Embedded 的身份验证模型？
 
 Power BI Embedded 将继续使用 Azure AD 对主用户（指定的 Power BI Pro 许可用户）进行身份验证，进而对 Power BI 中的应用程序进行身份验证。
@@ -104,6 +156,17 @@ Power BI Embedded 将继续使用 Azure AD 对主用户（指定的 Power BI Pro
 如果你已有 Azure AD 租户，则可以使用现有的目录，也可以创建新的 Azure AD 租户以确保你的嵌入式应用程序内容安全。
 
 若要获取 AAD 令牌，可以使用 Azure Active Directory 身份验证库 (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries) 之一。 有适用于多个平台的客户端库。
+
+### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>我的应用程序已使用 AAD 进行用户身份验证。 对“用户拥有数据”方案中的 Power BI 进行身份验证时，如何才能使用此标识？ 
+
+它是标准 OAuth 代理流 (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) 需要配置应用程序，使其具有访问 PowerBI 服务的权限（在要求的范围内），用户获得应用令牌后，只需使用用户访问令牌调用 ADAL API AcquireTokenAsync 并将 PowerBI 资源 URL 指定为资源 ID 即可，请参阅以下代码片段了解操作方法：
+
+```csharp
+var context = new AD.AuthenticationContext(authorityUrl);
+var userAssertion = new AD.UserAssertion(userAccessToken);
+var clientAssertion = new AD.ClientAssertionCertificate(MyAppId, MyAppCertificate)
+var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAssertion, userAssertion);
+```
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Power BI Embedded 与其他 Azure 服务有什么不同？
 
@@ -181,8 +244,8 @@ Power BI Embedded 可用于某些[主权云](embed-sample-for-customers-sovereig
 
 3. 为生产做好准备后，购买 Power BI Embedded 专用容量，并将你的 Power BI 内容（工作区）分配给该容量。
 
->[!Note]
-当使用 Power BI Embedded 解决方案并行生成时，可以继续使用 Power BI 工作区集合。 准备就绪后，可以让客户迁移到新的 Power BI Embedded 解决方案，停用 Power BI 工作区集合解决方案。
+> [!Note]
+> 当使用 Power BI Embedded 解决方案并行生成时，可以继续使用 Power BI 工作区集合。 准备就绪后，可以让客户迁移到新的 Power BI Embedded 解决方案，停用 Power BI 工作区集合解决方案。
 
 有关详细信息，请参考[如何将 Power BI 工作区集合内容迁移到 Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)
 

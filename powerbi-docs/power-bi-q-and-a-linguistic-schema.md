@@ -7,15 +7,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c504280257a959ccd7a46e61b9d377c22b76c14d
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: 08a65e7d312b0f57ec2824431bd00456c06860be
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2018
-ms.locfileid: "34471884"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945195"
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>语言建模和语言架构 
 使用常用短语和自然语言来查询数据是一个非常有用的功能。 在用数据回答问题时，该项功能更为强大，而这就是 Power BI“问答”功能的作用。 向 Power BI“问答”功能提问时，它会尽力给出正确答案。 
@@ -340,7 +340,7 @@ Binding: {Table: Customers}
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 如果对不符合语言架构格式的 .lsdl.yaml 文件进行了更改，现在会显示与下面类似的验证波浪线来指出问题： 
 
-    ![yaml file showing errors](media/power-bi-q-and-a-linguistic-schema/power-bi-yaml-errors.png)
+![显示错误的 yaml 文件](media/power-bi-q-and-a-linguistic-schema/power-bi-yaml-errors.png)
 
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

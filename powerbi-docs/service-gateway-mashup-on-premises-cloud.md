@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/06/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3550a3fc0cfc51b61e1d7e51a50c2a36325f2388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 2547be7f7bdadb7f991db54230d4fd791941838d
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250569"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600054"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>合并或追加本地和云数据源
 
@@ -38,17 +38,17 @@ ms.locfileid: "35250569"
 
 4. 在此网关群集下，添加查询中使用的任何[本地数据源](service-gateway-enterprise-manage-scheduled-refresh.md#add-a-data-source)。 无需在此处添加云数据源。
 
-4. 将包含合并了本地和云数据源的查询的 Power BI Desktop 文件上传到 Power BI 服务。
+5. 将包含合并了本地和云数据源的查询的 Power BI Desktop 文件上传到 Power BI 服务。
 
-5. 在新数据集的“数据集设置”页上：
+6. 在新数据集的“数据集设置”页上：
 
-    - 对于本地源，选择与此数据源关联的网关。
+   - 对于本地源，选择与此数据源关联的网关。
 
-    - 在“数据源凭据”下，根据需要编辑云数据源凭据。
+   - 在“数据源凭据”下，根据需要编辑云数据源凭据。
 
-    ![数据集设置](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
+     ![数据集设置](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-6. 设置云凭据后，可使用“立即刷新”选项刷新数据集，或计划为定期刷新。
+7. 设置云凭据后，可使用“立即刷新”选项刷新数据集，或计划为定期刷新。
 
 
 ## <a name="next-steps"></a>后续步骤

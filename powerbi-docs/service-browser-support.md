@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/09/2018
+ms.date: 06/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: fe5aeb070ed647d81801186228ba8e3c595952b6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 56604cc1e708772e9b0f6b31fda880215a24d90d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254001"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137511"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI 支持的浏览器
 在以下浏览器中运行 Power BI：
@@ -29,7 +29,7 @@ ms.locfileid: "34254001"
 可用的所有平台都支持这些浏览器。
 
 ### <a name="next-steps"></a>后续步骤
-* [Power BI 入门](service-get-started.md)
+* [什么是 Power BI？](power-bi-overview.md)
 * 尝试在 [Power BI 社区](http://community.powerbi.com/)中获取信息
 * 仍有问题？ 请访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)
 

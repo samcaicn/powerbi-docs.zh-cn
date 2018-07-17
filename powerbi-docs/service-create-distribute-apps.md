@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2018
+ms.date: 06/20/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6efd54d868a5a1f2d8d657d352c7133d4036b0b6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 25aa03c12b36bf19c05fe01dc6c24a0e4a3a2416
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254823"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965288"
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中创建和发布包含仪表板和报表的应用
 
@@ -22,17 +22,15 @@ ms.locfileid: "34254823"
 
 ![Power BI 应用](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
-业务用户通常需要多个 Power BI 仪表板和报表，才能经营自己的业务。 应用会将各个仪表板组合在一起，因此，用户无需记住所有仪表板的名称及位置。  
-
-利用 Power BI 应用（现为预览版），可以创建各组仪表板和报表，并向整个组织或特定人员或组发布这些应用。 对于报表创建者或管理员，应用能使管理仪表板集合的权限变得更轻松。
+业务用户通常需要多个 Power BI 仪表板和报表，才能经营自己的业务。 应用会将各个仪表板组合在一起，因此，用户无需记住所有仪表板的名称及位置。 使用 Power BI 应用，可以创建仪表板和报表集合并将这些应用发布到整个组织或发布到特定人员或组。 对于报表创建者或管理员，应用能使管理仪表板集合的权限变得更轻松。
 
 业务用户可以通过多种不同的方式获取你的应用。 如果 Power BI 管理员已授予你权限，则可以将这些应用自动安装到同事的 Power BI 帐户中。 或者，他们可以从 Microsoft AppSource 安装这些应用，也可以直接向他们发送一个链接。 他们可以轻松地找到并返回到你的内容，因为所有内容都在同一个位置。 他们将自动获得更新，你可以控制数据刷新的频率。 详细了解[业务用户的应用体验](service-install-use-apps.md)。
 
 ### <a name="licenses-for-apps"></a>应用许可证
-应用创建者需要 Power BI Pro 许可证。 应用用户有两个选项。
+应用创建者需要 Power BI Pro 许可证。 应用用户查看应用有两种选择。
 
-* 选项 1：所有业务用户需要 Power BI Pro 许可证才能查看应用。 
-* 选项 2：如果应用驻留在 Power BI Premium 容量，则组织中的免费用户可以查看应用内容。 请阅读[什么是 Power BI Premium？](service-premium.md)了解详细信息。
+* 选择 1：应用用户已分配有 Power BI Pro许可证。 
+* 选择 2：应用用户未分配有 Power BI Pro 许可证，但该应用位于 Power BI Premium 某个功能中。 请阅读[什么是 Power BI Premium？](service-premium.md)了解详细信息。
 
 ### <a name="apps-and-organizational-content-packs"></a>应用和组织内容包
 应用由组织内容包演变而来。 如果你已具有组织内容包，它们将继续与应用并行工作。

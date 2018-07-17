@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/26/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 770e200b0aa6916ac6d2de144902a04e9660e552
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3c73476351671d9c37bea824b2ade0f7e79dd274
+ms.sourcegitcommit: db03649b8241bf34566968bbede8c9a0d35852fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482006"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37067232"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI 的人力资源示例：教程
 
@@ -32,7 +32,7 @@ ms.locfileid: "34482006"
 
 ## <a name="prerequisites"></a>先决条件
 
- 必须先将示例下载为[内容包](https://docs.microsoft.com/power-bi/sample-human-resources#get-the-content-pack-for-this-sample)、[pbix 文件](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human-Resources-Sample-PBIX.pbix)或 [Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529780)，然后才能使用它。
+ 必须先将示例下载为[内容包](https://docs.microsoft.com/power-bi/sample-human-resources#get-the-content-pack-for-this-sample)、[pbix 文件](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)或 [Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529780)，然后才能使用它。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>获取内容包形式的此示例
 
@@ -54,7 +54,7 @@ ms.locfileid: "34482006"
 
 也可以将此示例下载为 .pbix 文件，这是专为 Power BI Desktop 量身定制的文件格式。 
 
- * [人力资源示例](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)
+ * [人力资源示例 PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529780)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7caf471674c20607826550fc14f8ebc8e772b61a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b4cd8974316119978749db4f3996db76d907ab38
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584245"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136056"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>使用 Power BI 连接到 QuickBooks Online
 从 Power BI 连接到 QuickBooks Online 数据时，你将立即获得一个 Power BI 仪表板和 Power BI报表，报表提供了关于业务现金流、盈利率和客户等的信息。 按原样使用仪表板和报表，或者对其进行自定义以突出显示你最关注的信息。 此数据每天自动刷新一次。
@@ -80,7 +80,7 @@ ms.locfileid: "34584245"
 ![](media/service-connect-to-quickbooks-online/pbi_qbo_countrynotsupported.png)
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 入门](service-get-started.md)
+[什么是 Power BI？](power-bi-overview.md)
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

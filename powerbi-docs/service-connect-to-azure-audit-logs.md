@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 22020595b4f972f112f10e16fe7ae7d7fd4abed7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 903f2a345ba4d87cb217ececa459a3cca14d72fa
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241718"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134630"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>使用 Power BI 连接到 Azure 审核日志
 借助 Azure 审核日志内容包，你可以分析和可视化审核日志中存储的信息。 Power BI 会检索数据，生成现成的仪表板，并基于该数据创建报表。
@@ -69,6 +69,6 @@ Azure 审核日志内容包需要可以在 Azure 门户中访问审核日志。 
 如果你遇到凭据错误或是在尝试刷新时由于凭据无效而出现的错误，请尝试删除 Azure 审核日志内容包的所有实例并重新连接。
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 入门](service-get-started.md)  
+[什么是 Power BI？](power-bi-overview.md)  
 [Power BI - 基本概念](service-basic-concepts.md)  
 

@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d0cc0ce18a187280c48be0c84bf9adf680ea3ea4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
+ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813425"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37900045"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 连接器
 使用 Power BI Desktop 可以访问 SAP BusinessWarehouse (BW) 数据。
 
 有关 SAP 客户如何在连接 Power BI 和现有 SAP Business Warehouse (BW) 系统的过程中受益的信息，请参阅 [Power BI and SAP BW 白皮书](https://aka.ms/powerbiandsapbw)。
 
-从 Power BI Desktop 的 2018 年 6 月版本开始，可使用包含性能和功能重大改进的实现的 SAP BW 连接器。 SAP BW 连接器的此更新版本由 Microsoft 开发，称为 Implementation 2.0。 可选择标准 SAP BW 连接器或 Implementation 2.0 SAP 连接器。 以下部分依次介绍每个版本的安装。 从 Power BI Desktop 连接到 SAP BW 时，可选择其中一个连接器。
+从 Power BI Desktop 的 2018 年 6 月版本开始，可使用包含性能和功能重大改进的实现的 SAP BW 连接器。 SAP BW 连接器的此更新版本由 Microsoft 开发，称为 Implementation 2.0。 可选择 SAP BW 连接器版本 1 (v1) 或 Implementation 2.0 SAP 连接器。 以下部分依次介绍每个版本的安装。 从 Power BI Desktop 连接到 SAP BW 时，可选择其中一个连接器。
 
 建议尽可能使用 Implementation 2.0 SAP 连接器。
 
-## <a name="installation-of-the-standard-sap-bw-connector"></a>安装标准 SAP BW 连接器
-建议尽可能使用 Implementation 2.0 SAP 连接器（请参阅下一节中的说明）。 此节介绍标准 SAP BW 连接器的安装，安装步骤如下：
+## <a name="installation-of-version-1-of-the-sap-bw-connector"></a>安装 SAP BW 连接器版本 1
+建议尽可能使用 Implementation 2.0 SAP 连接器（请参阅下一节中的说明）。 此节介绍 SAP BW 连接器版本 1 的安装，安装步骤如下：
 
 1. 在本地计算机上安装 **SAP NetWeaver** 库。 你可以从 SAP 管理员处获取 **SAP Netweaver** 库，也可以直接从 [SAP 软件下载中心](https://support.sap.com/swdc)下载。 由于 **SAP 软件下载中心**的结构经常发生变化，因此没有有关站点导航的更多具体指导。 **SAP NetWeaver** 库通常还包括在 SAP 客户端工具安装中。
    
@@ -54,11 +54,11 @@ SAP 连接器的 Implementation 2.0 需要使用 SAP .NET 连接器 3.0。 可�
 ![SAP 可选安装步骤](media/desktop-sap-bw-connector/sap_bw_2b.png)
 
 > [!NOTE]
-> 标准 SAP BW 实现需要使用 Netweaver DLL；如果使用 SAP 连接器的 Implementation 2.0 而不使用标准版本，则无需使用 Netweaver DLL。
+> SAP BW 实现版本 1 需要使用 Netweaver DLL；如果使用 SAP 连接器的 Implementation 2.0 而不使用版本 1，则无需使用 Netweaver DLL。
 
 
-## <a name="standard-sap-bw-connector-features"></a>标准 SAP BW 连接器功能
-通过 Power BI Desktop 中的标准 SAP BW 连接器，可从 SAP Business Warehouse 服务器多维数据集导入数据，或者可使用 DirectQuery。 
+## <a name="version-1-sap-bw-connector-features"></a>SAP BW 连接器版本 1 的功能
+通过 Power BI Desktop 中的 SAP BW 连接器版本 1，可从 SAP Business Warehouse 服务器多维数据集导入数据，或者可使用 DirectQuery。 
 
 若要深入了解 SAP BW 连接器以及如何将其与 DirectQuery 一起使用，请参阅 [DirectQuery 和 SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)。
 
@@ -101,7 +101,7 @@ SAP 连接器的 Implementation 2.0 需要使用 SAP .NET 连接器 3.0。 可�
 
     ![“SAP 连接”对话框](media/desktop-sap-bw-connector/sap_bw_7.png)
 
-3. 选择“确认”，“导航器”体验与之前标准 SAP BW 连接器一节中所述相同。 
+3. 选择“确认”，“导航器”体验与之前 SAP BW 连接器版本 1 一节中所述相同。 
 
 ### <a name="new-options-for-implementation-20"></a>Implementation 2.0 的新选项 
 
@@ -163,7 +163,7 @@ Implementation 2.0 支持以下选项：
 
     ![查询代码片段](media/desktop-sap-bw-connector/sap_bw_12.png)
 
-4. 我们已尽最大努力使 SAP BW 连接器的 Implementation 2.0 与标准 SAP BW 连接器兼容。 但是，由于使用的 SAP BW MDX 执行模式不同，因此可能不一致。 若要解决任何不一致问题，请尝试在不同执行模式之间切换。
+4. 我们已尽最大努力使 SAP BW 连接器的 Implementation 2.0 与 SAP BW 连接器版本 1 兼容。 但是，由于使用的 SAP BW MDX 执行模式不同，因此可能不一致。 若要解决任何不一致问题，请尝试在不同执行模式之间切换。
 
 ## <a name="troubleshooting"></a>故障排除
 本部分提供有关使用 SAP BW 连接器的故障排除情景（和解决方案）。

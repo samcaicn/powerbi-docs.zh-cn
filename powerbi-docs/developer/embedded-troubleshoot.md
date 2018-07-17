@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 07/03/2018
 ms.author: maghan
-ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813149"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926550"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -96,6 +96,44 @@ Azure 门户或 Power BI 应用注册页面中的错误消息将提到权限不�
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
 ```
 
+## <a name="authentication"></a>身份验证
+
+### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>身份验证失败并显示 AADSTS70002 或 AADSTS50053
+
+**AADSTS70002: 验证凭据时出错。AADSTS50053: 你使用不正确的用户 ID 或密码尝试登录的次数过多）**
+
+如果使用 Power BI Embedded 并利用 Azure AD 直接身份验证，则会收到以下形式的消息日志记录：***error:unauthorized_client,error_description:AADSTS70002: 验证凭据时出错。AADSTS50053: 你使用不正确的用户 ID 或密码尝试登录的次数过多***，这是因为自 2018 年 6 月 14 日起已关闭直接身份验证。
+
+建议使用 [Azure AD 条件访问](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/)阻止旧式身份验证或使用 [Azure AD Directory 直通身份验证](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication)。
+
+但组织或[服务主体](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)可使用 [Azure AD 策略](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)重新开启此选项。
+
+建议仅用作每个应用时或仅作为一种解决方法时才启用此选项
+
+需要是在其中创建和分配策略的目录中的全局管理员才能创建此策略。 以下为创建策略并将其分配到此应用程序的 SP 的示例脚本：
+
+1. 安装 [Azure AD 预览版 PowerShell 模块](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
+
+2. 逐行运行以下 powershell 命令（确保变量 $sp 的结果只有 1 个应用程序）。
+
+```powershell
+Connect-AzureAD
+```
+
+```powershell
+$sp = Get-AzureADServicePrincipal -SearchString "Name_Of_Application"
+```
+
+```powershell
+$policy = New-AzureADPolicy -Definition @("{`"HomeRealmDiscoveryPolicy`":{`"AllowCloudPasswordValidation`":true}}") -DisplayName EnableDirectAuth -Type HomeRealmDiscoveryPolicy -IsOrganizationDefault $false
+```
+
+```powershell
+Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id 
+```
+
+分配策略后，请等待传播完成（大约 15 到 20 秒），然后再进行测试。
+
 **提供有效标识时生成标记失败**
 
 由于几个不同的原因，GenerateToken 可能会失败，并提供有效标识。
@@ -113,6 +151,30 @@ Azure 门户或 Power BI 应用注册页面中的错误消息将提到权限不�
 * 如果 IsEffectiveIdentityRolesRequired 为 true，则 Role 是必需的。
 * DatasetId 是任何 EffectiveIdentity 必需的。
 * 对于 Analysis Services，主用户必须是网关管理员。
+
+### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: 授予需要管理员权限
+
+**表现：**</br>
+非管理员用户首次尝试登录到应用程序并授予许可时，会收到以下错误：
+* ConsentTest 需要具有访问组织中的资源的权限，而只有管理员才能授予此权限。 请让管理员授予访问此应用的权限，否则你将无法使用该应用。
+* AADSTS90094: 授予需要管理员权限。
+
+    ![同意测试](media/embedded-troubleshoot/consent-test-01.png)
+
+管理员用户可以成功登录并授予许可。
+
+**根本原因：**</br>
+对租户禁用用户同意。
+
+**可能会出现几个修补程序：**
+
+对整个租户（所有用户和所有应用程序）启用用户同意
+1. 在 Azure 门户中，导航到“Azure Active Directory”= >“用户和组”= >“用户设置”
+2. 启用“用户可以同意应用代表他们访问公司数据”设置并保存更改
+
+    ![同意测试修补程序](media/embedded-troubleshoot/consent-test-02.png)
+
+由管理员授予权限 由管理员授予（整个租户或特定用户）访问应用程序的权限。
 
 ## <a name="data-sources"></a>数据源
 
@@ -175,7 +237,7 @@ Azure 门户或 Power BI 应用注册页面中的错误消息将提到权限不�
 
     AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
 
-这是因为为 web-server 应用程序指定的重定向 URL 不同于示例的 URL。 如果想要注册示例应用程序，请使用 http://localhost:13526/ 作为重定向 URL。
+这是因为为 web-server 应用程序指定的重定向 URL 不同于示例的 URL。 如果想要注册示例应用程序，请使用 `http://localhost:13526/` 作为重定向 URL。
 
 如果想要编辑已注册的应用程序，请了解如何编辑[已向 AAD 注册的应用程序](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)，使应用程序可以向 Web API 提供访问权限。
 

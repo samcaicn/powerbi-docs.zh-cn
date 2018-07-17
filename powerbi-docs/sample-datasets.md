@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/26/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: b6ef85549b729b1a91aa4a9a5f4686dcbbabaeb1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a90dbf4341bd801c4ab7de05b68211be62a4d69d
+ms.sourcegitcommit: db03649b8241bf34566968bbede8c9a0d35852fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471976"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37067092"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>有哪些示例数据可用于 Power BI？
 假设你初次接触 Power BI，想要试用但没有任何数据。  或者你有一个数据集，但由于你（尚）不了解 Power BI 的工作原理，担心由于某种原因可能损坏数据集？
@@ -173,21 +173,21 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
 ## <a name="the-power-bi-samples-as-pbix-files"></a>.pbix 文件 Power BI 示例
 每个示例内容包还会作为 Power BI .pbix 文件提供。 .pbix 文件旨在与 Power BI Desktop 一起使用。  
 
-1. 使用下面的链接单独下载各个文件。
+1. 使用下面的链接单独下载各个文件。 选择下面的链接会将文件自动保存到 Downloads 文件夹。 
 
-   * [零售分析示例](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix)
-   * [供应商质量分析示例](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
-   * [人力资源示例](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human-Resources-Sample-PBIX.pbix)
-   * [客户盈利率示例](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer-Profitability-Sample-PBIX.pbix)
-   * [机会跟踪示例](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity-Analysis-Sample-PBIX.pbix)
-   * [IT 支出分析示例](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT-Spend-Analysis-Sample-PBIX.pbix)
-   * [采购分析示例](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement-Analysis-Sample-PBIX.pbix)
-   * [销售和市场营销示例](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales-and-Marketing-Sample-PBIX.pbix)
-2. 保存下载的文件。
-3. 在 Desktop 上，选择“**文件 > 打开**”并导航到保存示例 .pbix 的位置。
+   * [零售分析示例 PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+   * [供应商质量分析示例 PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier%20Quality%20Analysis%20Sample%20PBIX.pbix)
+   * [人力资源示例 PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+   * [客户盈利率示例 PBIX](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
+   * [机会跟踪示例 PBIX](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+   * [IT 支出分析示例 PBIX](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+   * [采购分析示例 PBIX](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+   * [销售和市场营销示例 PBIX](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+1. 在 Power BI Desktop 上，选择“文件 > 打开”并导航到保存示例 .pbix 的位置。
 
    ![](media/sample-datasets/power-bi-desktop-open.png)
-4. 选择要在 Desktop 中打开的 .pbix 文件。
+4. 选择要在 Power BI Desktop 中打开的 .pbix 文件。
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 基本概念](service-basic-concepts.md)

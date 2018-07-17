@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 236a3d1bde84d4259d921d44730057a4e2fd3591
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e1320135ba0abb737a487036948c2822d0c337ae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34256739"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136493"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>使用 DirectQuery 的 HDInsight 上的 Spark
 通过使用 DirectQuery 的 Azure HDInsight 上的 Spark 你可以根据 Spark 群集中已有的数据和指标来创建动态报表。 借助 DirectQuery，查询会在你浏览报表视图中的数据时发送回 Azure HDInsight Spark 群集。 对于熟悉自己连接到的实体的用户，建议使用此体验。
@@ -26,6 +26,10 @@ ms.locfileid: "34256739"
 > 
 
 可使用以下步骤并通过 Power BI 服务中的 DirectQuery 的连接到 Azure HDInsight 上的 Spark 数据源。
+
+> [!Important]
+> 我们在不断改进与 Spark 的连接。  若要获取连接到 Spark 数据源的最佳体验，请使用 Power BI Desktop。  生成模型和报表后，即可将其发布到 Power BI 服务中。  Power BI 服务的 Spark 现已弃用直接连接器。
+>
 
 1. 选择左侧导航窗格底部的**获取数据**。
    
@@ -71,7 +75,7 @@ ms.locfileid: "34256739"
 
 ## <a name="next-steps"></a>后续步骤
 [入门：使用 Spark SQL 在 HDInsight Linux 上创建 Apache Spark 群集并运行交互式查询](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
-[Power BI 入门](service-get-started.md)  
+[什么是 Power BI？](power-bi-overview.md)  
 [获取 Power BI 的数据](service-get-data.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

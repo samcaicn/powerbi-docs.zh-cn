@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310052"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137160"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>有关获取 Power BI 问题解答的 10 个提示
 使用 Power BI 时，是否会因遇到的 Power BI 问题得不到及时解答（即“实时”帮助）感到灰心失望或很费劲？ 
@@ -71,6 +71,6 @@ Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog
 例如，假设你想知道能否与安全组共享仪表板。 为了回答这个问题，请转到共享对话框，然后尝试添加安全组。 无论采用上述哪种方式，都可以在此测试后获得答案。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 入门](service-get-started.md)
+* [什么是 Power BI？](power-bi-overview.md)
 * 尝试在 [Power BI 社区](http://community.powerbi.com/)中获取信息
 * 仍有问题？ 请访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)

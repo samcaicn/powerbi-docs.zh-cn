@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f264dadf9d9d91083094d393e1b63d9f53aaca4c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0f2c3649a2c6e0582fe7536473f7a6ee9067ee1d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722350"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137436"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>具有 DirectQuery 的 Azure SQL 数据仓库
 通过具有 DirectQuery 的 Azure SQL 数据仓库可以基于在 Azure SQL 数据仓库中已具有的数据和指标来创建动态报表。 借助 DirectQuery，查询会在你浏览数据时实时发送回 Azure SQL 数据仓库。 这种情况与 SQL 数据仓库的规模相结合，使用户可以在数分钟内针对以 TB 计的数据创建动态报表。 此外，**在 Power BI 中打开**按钮的引入使用户可以直接将 Power BI 连接到其 SQL 数据仓库，而不必手动指定信息。
@@ -32,6 +32,11 @@ ms.locfileid: "34722350"
 随着我们继续改进体验，这些限制和说明可能会发生变化。 下面详细介绍了用于连接的步骤。
 
 ## <a name="using-the-open-in-power-bi-button"></a>使用“在 Power BI 中打开”按钮
+
+> [!Important]
+> 我们在不断改进与 Azure SQL 数据仓库的连接。  若要获取连接到 Azure SQL 数据仓库数据源的最佳体验，请使用 Power BI Desktop。  生成模型和报表后，即可将其发布到 Power BI 服务中。  Power BI 服务的 Azure SQL 数据仓库现已弃用直接连接器。
+>
+
 在 SQL 数据仓库与 Power BI 之间移动的最简单方法是使用 Azure 预览门户中的**在 Power BI 中打开**按钮。 通过此按钮可以无缝地开始在 Power BI 中创建新仪表板。
 
 1. 若要开始，请在 Azure 预览版门户中导航到 SQL 数据仓库实例。 请注意，SQL 数据仓库当前只在 Azure 预览门户中存在。
@@ -82,7 +87,7 @@ SQL 数据仓库还在 Power BI 获取数据页面上列出。
 >
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 入门](service-get-started.md)  
+[什么是 Power BI？](power-bi-overview.md)  
 [获取 Power BI 的数据](service-get-data.md)  
 [Azure SQL 数据仓库](https://azure.microsoft.com/documentation/services/sql-data-warehouse/)  
 

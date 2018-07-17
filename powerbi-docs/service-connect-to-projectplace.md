@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e9c97bd754155de52d75df5211212c6c283928b3
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: d86cd0498102dda5530e42230e48fef292f30479
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964736"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134975"
 ---
 # <a name="connect-to-projectplace-by-planview-with-power-bi"></a>使用 Power BI 连接到 Projectplace by Planview
 通过 Projectplace by Planview 内容包，你能够以全新的方式直接在 Power BI 中可视化你的协作项目数据。 使用你的 Projectplace 登录凭据交互式查看关键项目统计信息，找出最活跃和最富生产力的团队成员，并识别出 Projectplace 帐户各项目中存在风险的卡片和活动。 你还可以扩展现成的仪表板和报表，以获取对你最重要的信息。
@@ -58,7 +58,7 @@ ms.locfileid: "36964736"
 要将 Projectplace 数据导入 Power BI，则你必须是 Projectplace 用户。 此过程假设你已使用 Power BI 帐户登录到 Microsoft Power BI 主页。 如果没有 Power BI 帐户，请转到 [powerbi.com](https://powerbi.microsoft.com/get-started/)，在“Power BI - 云协作和共享”下，选择“免费试用”。 然后单击“获取数据”。
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 入门](service-get-started.md)
+[什么是 Power BI？](power-bi-overview.md)
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

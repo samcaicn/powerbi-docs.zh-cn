@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722192"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926527"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>查找已登录的 Power BI 用户
 如果你是租户管理员，想查看已登录 Power BI 的用户，则可以使用 Azure Active Directory 访问和使用情况报告进行查看。
@@ -25,9 +25,7 @@ ms.locfileid: "34722192"
 可以访问 Azure Active Directory (Azure AD) [新](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)门户和[经典](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)门户中的活动报告。 上面的视频使用经典门户作为示例，但本文将重点介绍新门户。
 
 > [!NOTE]
-> 此活动报告包括 Power BI（免费）和 Power BI Pro 用户，但不会按用户所拥有的许可证对他们进行标识。
-> 
-> 
+> 此活动报表不会识别每个用户具有的许可证类型。
 
 ## <a name="requirements"></a>要求
 下面是查看登录活动报告的要求。
@@ -70,7 +68,7 @@ ms.locfileid: "34722192"
 
 ## <a name="next-steps"></a>后续步骤
 [Azure Active Directory 门户中的“登录活动”报告（新门户）](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[查看访问和使用情况报告（经典门户）](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports#view-or-download-a-report)  
+[查看访问和使用情况报告（经典门户）](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
 [登录示例 PowerShell 脚本](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
 [Azure Active Directory 报告保留策略](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
 [在组织内使用审核](service-admin-auditing.md)  

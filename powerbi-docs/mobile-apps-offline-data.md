@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 5dd171ccd7d8859286abeac2f87771b454421448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: cade8b126742610814f47587c950458796cca474
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292837"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136461"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看你的脱机数据
 适用于：
@@ -55,7 +55,8 @@ ms.locfileid: "34292837"
 * Power BI 可以脱机缓存最多 250 MB 的数据。
 * 某些磁贴类型需要可用的服务器连接，因此，在脱机状态下这些磁贴不可用&#151;例如，必应地图磁贴和一些自定义磁贴。
 * 在 Power BI 中整个 Excel 工作簿脱机时将不可用。
-* 如果你在连接时查看了 Reporting Services 移动报表和 KPI，那么脱机时也可以对其进行查看。 不会在后台刷新报表和 KPI。 而是每次打开它们时将其刷新。 
+* 如果你在连接时查看了 Reporting Services 移动报表和 KPI，那么脱机时也可以对其进行查看。 不会在后台刷新报表和 KPI。 而是每次打开它们时将其刷新。
+* 在 Power BI 移动应用中，看不到已保存到 Power BI 报表服务器的 Power BI Desktop (.pbix) 文件。 
 
 ## <a name="next-steps"></a>后续步骤
 你的反馈将帮助我们决定未来要做什么，如果你想在 Power BI 移动应用中看到其他功能，别忘了向我们提出你的建议。 
@@ -63,5 +64,5 @@ ms.locfileid: "34292837"
 * [适用于移动设备的 Power BI 应用](mobile-apps-for-mobile-devices.md)
 * 关注 Twitter 上的 @MSPowerBI
 * 加入 [Power BI 社区](http://community.powerbi.com/)的对话
-* [Power BI 入门](service-get-started.md)
+* [什么是 Power BI？](power-bi-overview.md)
 

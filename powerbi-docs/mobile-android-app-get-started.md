@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297437"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136516"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 设备上的 Power BI 移动应用入门
 Android 版 Microsoft Power BI 移动应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 
@@ -23,7 +23,7 @@ Android 版 Microsoft Power BI 移动应用提供了 Power BI、Power BI 报表�
 
 可以在 Power BI Desktop 中创建 Power BI 报表，然后发布报表：
 
-* [将报表发布到 Power BI 服务中](service-get-started.md)，并创建仪表板。
+* [将报表发布到 Power BI 服务中](power-bi-overview.md)，并创建仪表板。
 * [在本地将报表发布到 Power BI 报表服务器中](report-server/quickstart-create-powerbi-report.md)。
 
 然后，即可在 Android 版 Power BI 应用中与仪表板和报表进行交互，无论它们是在本地还是在云端。
@@ -136,7 +136,7 @@ Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 
 
 ### <a name="see-also"></a>另请参阅
 * 从 Android 应用商店[下载 Android 应用](http://go.microsoft.com/fwlink/?LinkID=544867)
-* [Power BI 入门](service-get-started.md)
+* [什么是 Power BI？](power-bi-overview.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e36cff803af74d212f4c1804fe3a955a11c193cf
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722442"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136769"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>使用 Power BI 连接到 Salesforce
 你可以使用 Power BI 轻松连接到你的 Salesforce.com 帐户。 创建此连接可检索你的数据，并自动提供基于数据的仪表板和相关报表。
@@ -82,7 +82,7 @@ ms.locfileid: "34722442"
 
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 入门](service-get-started.md)
+[什么是 Power BI？](power-bi-overview.md)
 
 [获取数据](service-get-data.md)
 

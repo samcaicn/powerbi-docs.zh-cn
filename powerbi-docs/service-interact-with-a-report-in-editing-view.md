@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a6b4795be959cfc1842a07f1ba0a74dd81109e89
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240421"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965587"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>在 Power BI 服务的“编辑视图”中与报表进行交互
 可在 Power BI 服务和 Power BI Desktop 中创建和编辑报表。 在 Power BI 服务中，可在“编辑视图”中创建和编辑报表。 而在 Power BI Desktop 中，可在“[报表视图](desktop-report-view.md)”中创建和编辑报表。 本文介绍了 Power BI 服务中的“编辑视图”。 
 
-Power BI 服务有两种与报表交互的模式 -- 针对报表使用者的[阅读视图](service-reading-view-and-editing-view.md)以及针对报表所有者和创建者的“编辑视图”。  共享报告和编辑他人创建的报告需要 Power BI Pro 许可证。 如果你是 Power BI 免费用户，仍然能够创建报表，但无法使用[共享](service-share-reports.md)。    
+Power BI 服务有两种与报表交互的模式 -- 针对报表使用者的[阅读视图](service-reading-view-and-editing-view.md)以及针对报表所有者和创建者的“编辑视图”。  共享报告和编辑他人创建的报告需要 Power BI Pro 许可证。 如果没有 Power BI Pro 许可证，仍然能够创建报表，但无法[共享](service-share-reports.md)。    
 
 在报表的“编辑视图”中，你可以自由地浏览和设计报表。 所有[阅读视图](service-reading-view-and-editing-view.md)中的功能都可用 -- 并且还有更多的功能。 “编辑视图”仅适用于报表的创建者，或者[作为应用工作区的成员或管理员共同拥有报表](service-create-distribute-apps.md)的同事。
 
@@ -39,7 +39,7 @@ Power BI 服务有两种与报表交互的模式 -- 针对报表使用者的[阅
 * 复制报表页面
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-需要 Power BI Pro 许可证才能编辑他人创建的报表，并与他人分享你的报表。  如果你是 Power BI 免费用户，仍然能够创建报表，但无法使用[共享](service-share-reports.md)。
+需要 Power BI Pro 许可证才能编辑他人创建的报表，并与他人分享你的报表。  如果没有 Power BI Pro 许可证，仍然能够创建报表，但无法[共享](service-share-reports.md)。
 
 
 ## <a name="next-steps"></a>后续步骤

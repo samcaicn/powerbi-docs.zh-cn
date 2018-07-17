@@ -3,18 +3,18 @@ title: 为客户将 Power BI 内容嵌入应用中
 description: 了解如何使用 Power BI API，为客户将报表、仪表板或磁贴集成到或嵌入 Web 应用中。
 author: markingmyname
 ms.author: maghan
-ms.date: 05/25/2018
+ms.date: 06/20/2018
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: ae683dfbeb7b3848575ab766c33b695eb823d497
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d9e2f76c63ee9ebff01080686277a3fbb5af46f3
+ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721032"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37900068"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 报表、仪表板或磁贴嵌入应用程序中
 使用“Azure 中的 Power BI Embedded”，可以借助“应用拥有数据”将报表、仪表板或磁贴嵌入到应用程序中。 **应用拥有数据**是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 这通常是一种 ISV 开发者方案。 ISV 开发者可以创建 Power BI 内容以便在完全集成并交互的应用程序中显示报表、仪表板或磁贴，应用程序的用户无需 Power BI 许可证，甚至不必知道是在 Power BI 下操作。 本教程演示当针对使用“应用拥有数据”的客户使用“Azure 中的 Power BI Embedded”时，如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将报表集成到应用程序中。
@@ -25,7 +25,7 @@ ms.locfileid: "34721032"
 >* 将 Power BI 报表嵌入到应用程序。
 
 ## <a name="prerequisites"></a>先决条件
-若要开始操作，你需要 Power BI Pro 帐户（作为你的主帐户）和 Microsoft Azure 帐户。
+若要开始操作，你需要 Power BI Pro 帐户（作为你的主帐户）和 Microsoft Azure 订阅。
 
 * 如果未注册 Power BI Pro，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/en-us/pricing/)。
 * 如果没有 Azure 订阅，请在开始之前先创建一个[免费帐户](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)。
@@ -54,7 +54,7 @@ ms.locfileid: "34721032"
     ![应用注册搜索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![新应用注册](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
-4. 按照提示进行操作，并创建新的应用程序。 对于“应用拥有数据”，需要使用“本机”作为应用程序类型。 你还需要提供“重定向 URI”，Azure AD 用其返回令牌响应。 输入特定于应用程序的值，例如 http://localhost:13526/redirect)。
+4. 按照提示进行操作，并创建新的应用程序。 对于“应用拥有数据”，需要使用“本机”作为应用程序类型。 你还需要提供“重定向 URI”，Azure AD 用其返回令牌响应。 输入特定于应用程序的值，例如 `http://localhost:13526/redirect`。
 
     ![创建应用](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
 
@@ -94,7 +94,7 @@ ms.locfileid: "34721032"
 
 8. 在“所需权限”中，选择“授予权限”。
    
-    必须为“主帐户”调用“授予权限”操作，以免 Azure AD 提示提供内容。 如果执行此操作的帐户是全局管理员，将向组织内此应用的所有用户授予权限。 如果执行此操作的帐户是主帐户，而不是全局管理员，将仅向此应用的主帐户授予权限。
+    需要为“主帐户”调用“授予权限”操作，以免 Azure AD 提示提供内容。 如果执行此操作的帐户是全局管理员，则需要向组织内此应用的所有用户授予权限。 如果执行此操作的帐户是主帐户，而不是全局管理员，则只需向此应用的主帐户授予权限。
    
     ![“必需权限”对话框中的“授予权限”](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
@@ -126,9 +126,9 @@ ms.locfileid: "34721032"
 
 6. 确定每个人员的身份是成员还是管理员。管理员可以编辑工作区本身，包括添加其他成员。 成员可以编辑工作区中的内容，除非他们只具有“仅查看”访问权限。 管理员和成员均可以发布应用。
 
-现在，可以查看新工作区。 Power BI 创建工作区并将其打开。 它显示在你作为成员的工作区的列表中。 作为管理员，你可以选择省略号(…) 返回并进行更改，添加新成员或更改其权限。
+    现在，可以查看新工作区。 Power BI 创建工作区并将其打开。 它显示在你作为成员的工作区的列表中。 作为管理员，你可以选择省略号(…) 返回并进行更改，添加新成员或更改其权限。
 
-   ![新工作区](media/embed-sample-for-customers/embed-sample-for-customers-025.png)
+    ![新工作区](media/embed-sample-for-customers/embed-sample-for-customers-025.png)
 
 ### <a name="create-and-publish-your-reports"></a>创建并发布报表
 
@@ -144,15 +144,13 @@ ms.locfileid: "34721032"
 
 3. 发布到应用工作区
 
-   ![PBI Desktop 报表](media/embed-sample-for-customers/embed-sample-for-customers-028.png)
+   ![发布 Desktop 报表](media/embed-sample-for-customers/embed-sample-for-customers-028.png)
 
-    现在，可以在 Power BI 在线服务中查看报表
+    现在即可在 Power BI 服务在线版中查看报表。
 
-   ![PBI Desktop 报表](media/embed-sample-for-customers/embed-sample-for-customers-029.png)
+   ![服务中的 PBI Desktop 报表视图](media/embed-sample-for-customers/embed-sample-for-customers-029.png)
 
-## <a name="embed-your-content"></a>嵌入内容
-
-客户在应用程序中嵌入内容时，需要从 Azure AD 获取主帐户的访问令牌。 为使用“应用拥有数据”的 Power BI 应用程序[获取 Azure AD 访问令牌](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)是必需的，这样才能对 Power BI API 进行调用。
+## <a name="embed-your-content-using-the-sample-application"></a>嵌入使用示例应用程序的内容
 
 请按照这些步骤，使用示例应用程序开始嵌入内容。
 
@@ -160,37 +158,36 @@ ms.locfileid: "34721032"
 
     ![“应用拥有数据”应用程序示例](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. 在示例应用程序中打开 Web.config 文件。 需要填写 5 个字段才能成功运行该应用程序。 “clientID”、“groupId”、“reportId”、“pbiUsername”和“pbiPassword”。
+2. 在示例应用程序中打开 Web.config 文件。 需要填写 5 个字段才能成功运行该应用程序。 “clientId”、“groupId”、“reportId”、“pbiUsername”和“pbiPassword”。
 
-      ![Web 配置文件](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
+    ![Web 配置文件](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    * 使用 Azure 中的“应用程序 ID”填写“clientId”信息。 应用程序使用“clientId”向你从其请求权限的用户标识其自身。 若要获取“clientId”，请执行下列步骤：
+    使用 Azure 中的“应用程序 ID”填写“clientId”信息。 应用程序使用“clientId”向你从其请求权限的用户标识其自身。 若要获取“clientId”，请执行下列步骤：
 
-    1. 登录到 [Azure 门户](https://portal.azure.com)。
+    登录到 [Azure 门户](https://portal.azure.com)。
 
-        ![Azure 门户主视图](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
+    ![Azure 门户主视图](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-    2. 在左侧导航窗格中，依次选择“所有服务”和“应用注册”。
+    在左侧导航窗格中，依次选择“所有服务”和“应用注册”。
 
-        ![应用注册搜索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
-    3. 选择要为其获取“clientId”的应用程序。
+    ![应用注册搜索](media/embed-sample-for-customers/embed-sample-for-customers-003.png) 选择要为其获取“clientId”的应用程序。
 
-        ![选择应用](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
+    ![选择应用](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    4. 你应该会看到列为 GUID 的“应用程序 ID”。 使用此“应用程序 ID”作为应用程序的“clientId”。
+    你应该会看到列为 GUID 的“应用程序 ID”。 使用此“应用程序 ID”作为应用程序的“clientId”。
 
-        ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)     
+    ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    * 使用 Power BI 中的“应用工作区 GUID”填写“groupId”信息。
+    使用 Power BI 中的“应用工作区 GUID”填写“groupId”信息。
 
-        ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+    ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-    * 使用 Power BI 中的“报表 GUID”填写“reportId”信息。
+    使用 Power BI 中的“报表 GUID”填写“reportId”信息。
 
-        ![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)    
+    ![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
-    * 使用主用户 Power BI 帐户填写“pbiUsername”。
-    * 使用主用户 Power BI 帐户的密码填写“pbiPassword”。
+    * 使用 Power BI 主用户帐户填写“pbiUsername”。
+    * 使用 Power BI 主用户帐户的密码填写“pbiPassword”。
 
 3. 运行应用程序！
 
@@ -201,10 +198,125 @@ ms.locfileid: "34721032"
     然后，选择“嵌入报表”。 根据你选择测试使用的内容（报表、仪表板或磁贴），在应用程序中选择该选项。
 
     ![选择内容](media/embed-sample-for-customers/embed-sample-for-customers-034.png)
- 
+
     现在，可以在示例应用程序查看报表。
 
     ![查看应用程序](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
+
+## <a name="embed-your-content-within-your-application"></a>在应用程序中嵌入内容
+即使可以使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 完成嵌入内容的步骤，也可使用 .NET SDK 编写本文中所述的示例代码。
+
+客户在应用程序中嵌入内容时，需要从 Azure AD 获取主帐户的访问令牌。 必须为使用“应用拥有数据”的 Power BI 应用程序获取 [Azure AD 访问令牌](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，这样才能对 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 进行调用。
+
+要使用访问令牌创建 Power BI 客户端，建议创建 Power BI 客户端对象，以便能够与 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 进行交互。 为此，请使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken。
+
+```csharp
+using Microsoft.IdentityModel.Clients.ActiveDirectory;
+using Microsoft.Rest;
+using Microsoft.PowerBI.Api.V2;
+
+var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
+
+// Create a Power BI Client object. It is used to call Power BI APIs.
+using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
+{
+    // Your code to embed items.
+}
+```
+
+### <a name="get-the-content-item-you-want-to-embed"></a>获取要嵌入的内容项
+可使用 Power BI 客户端对象检索对要嵌入的项的引用。
+
+下面的代码示例展示了如何从给定工作区检索首个报表。
+
+[示例应用程序](#embed-your-content-within-a-sample-application)的 Controllers\HomeController.cs 文件中提供了获取内容项的示例，内容项包括报表、仪表板和希望嵌入的磁贴。
+
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// You need to provide the GroupID where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+
+// Get the first report in the group.
+Report report = reports.Value.FirstOrDefault();
+```
+
+### <a name="create-the-embed-token"></a>创建嵌入令牌
+需要生成嵌入令牌，以便能够通过 JavaScript API 使用此令牌。 嵌入令牌特定于要嵌入的项。 因此，只要嵌入 Power BI 内容，就需要为其新建嵌入令牌。 有关详细信息（包括要使用哪个 accessLevel），请参阅 [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)。
+
+下面是关于将报表嵌入令牌添加到应用程序的示例。
+
+[示例应用程序](#embed-your-content-within-a-sample-application)的 Controllers\HomeController.cs 文件中提供了为报表、仪表板或磁贴创建嵌入令牌的示例。
+
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// Generate Embed Token.
+var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
+
+// Generate Embed Configuration.
+var embedConfig = new EmbedConfig()
+{
+    EmbedToken = tokenResponse,
+    EmbedUrl = report.EmbedUrl,
+    Id = report.Id
+};
+```
+
+假设为 EmbedConfig 和 TileEmbedConfig 创建了类。 Models\EmbedConfig.cs 文件和 Models\TileEmbedConfig.cs 文件中提供了相关示例。
+
+### <a name="load-an-item-using-javascript"></a>使用 JavaScript 加载项
+可以使用 JavaScript 将报表加载到网页上的 div 元素中。 
+
+此示例对报表使用 EmbedConfig 模型和 TileEmbedConfig 模型及视图。
+
+[示例应用程序](#embed-your-content-within-a-sample-application)的 the Views\Home\EmbedReport.cshtml、Views\Home\EmbedDashboard.cshtml 或 Views\Home\Embedtile.cshtml 文件中提供了为报表、仪表板或磁贴添加视图的示例。
+
+```javascript
+<script src="~/scripts/powerbi.js"></script>
+<div id="reportContainer"></div>
+<script>
+    // Read embed application token from Model
+    var accessToken = "@Model.EmbedToken.Token";
+
+    // Read embed URL from Model
+    var embedUrl = "@Html.Raw(Model.EmbedUrl)";
+
+    // Read report Id from Model
+    var embedReportId = "@Model.Id";
+
+    // Get models. models contains enums that can be used.
+    var models = window['powerbi-client'].models;
+
+    // Embed configuration used to describe the what and how to embed.
+    // This object is used when calling powerbi.embed.
+    // This also includes settings and options such as filters.
+    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
+    var config = {
+        type: 'report',
+        tokenType: models.TokenType.Embed,
+        accessToken: accessToken,
+        embedUrl: embedUrl,
+        id: embedReportId,
+        permissions: models.Permissions.All,
+        settings: {
+            filterPaneEnabled: true,
+            navContentPaneEnabled: true
+        }
+    };
+
+    // Get a reference to the embedded report HTML element
+    var reportContainer = $('#reportContainer')[0];
+
+    // Embed the report and display it within the div container.
+    var report = powerbi.embed(reportContainer, config);
+</script>
+```
+
+有关使用 JavaScript API 的完整示例，可以使用[演练工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 这是演练不同类型的 Power BI Embedded 示例的快速方法。 还可以通过访问 [PowerBI JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 页，获取有关 JavaScript API 的详细信息。
 
 ## <a name="move-to-production"></a>移动到生产环境
 
@@ -213,11 +325,9 @@ ms.locfileid: "34721032"
 ### <a name="create-a-dedicated-capacity"></a>创建专用容量
 通过创建专用容量，可以利用好客户的专用资源。 未分配到专用容量的工作区，则使用共享容量。 可使用 Azure 中的 [Power BI Embedded 专用容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)解决方案创建专用容量。
 
->[!Note]
->使用 PRO 许可证的嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 必须购买专用容量才能嵌入到生产环境。 为专用容量生成嵌入令牌时，可生成的数量不受限制。 转到[获取可用功能](https://msdn.microsoft.com/library/mt846473.aspx)以检查使用情况值，该值以百分比表示当前嵌入使用情况。
->
+使用 PRO 许可证的嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 必须购买专用容量才能嵌入到生产环境。 为专用容量生成嵌入令牌时，可生成的数量不受限制。 转到[可用功能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)查看使用量值，该值以百分比表示当前嵌入使用量。 使用量基于每个主帐户。
 
-### <a name="assign-app-workspace-to-dedicated-capacity"></a>为应用工作区分配专用容量
+### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>为应用工作区分配专用容量
 
 创建专用容量后，请将该专用容量分配给应用工作区。 要完成此操作，请按照下列步骤执行。
 
@@ -228,8 +338,6 @@ ms.locfileid: "34721032"
 2. 展开“高级”，启用“专用容量”，然后选择所创建的专用容量。 然后，选择“保存”。
 
     ![分配专用容量](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
-
-有关使用 JavaScript API 的完整示例，可以使用[演练工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 这是演练不同类型的 Power BI Embedded 示例的快速方法。 还可以通过访问 [PowerBI JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 页，获取有关 JavaScript API 的详细信息。
 
 有关 Power BI Embedded 的更多问题，请访问[常见问题](embedded-faq.md)页。  有关应用程序中的 Power Bi Embedded 的问题，请访问[排除故障](embedded-troubleshoot.md)页。
 

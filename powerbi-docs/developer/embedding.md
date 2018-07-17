@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 06/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 82a4c9c58567f5ace943363b7bed59fa744e85a5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561738"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944091"
 ---
 # <a name="embedding-with-power-bi"></a>使用 Power BI 嵌入
 Power BI 提供用于将仪表板和报表嵌入应用的 API。 在嵌入内容时，Power BI API 提供一组固定不变的功能，并提供对最新 Power BI 功能（如仪表板、网关和应用工作区）的访问权限。
@@ -29,7 +29,7 @@ Power BI 提供用于将仪表板和报表嵌入应用的 API。 在嵌入内容
 ## <a name="embedding-for-your-organization"></a>为组织嵌入内容
 通过为组织嵌入内容，可以扩展 Power BI 服务。 应用程序的用户在查看其内容时必须登录到 Power BI 服务。 组织中的用户登录后，只能访问他们拥有的，或者在 Power BI 服务中与之共享的仪表板和报表。 
 
-为组织嵌入内容的示例包括内部 Web 应用、SharePoint Online Web 部件和 Microsoft Teams 集成。
+为组织嵌入内容的示例包括内部 Web 应用、SharePoint Online Web 部件和 [Microsoft Teams 集成（必须具有管理权限）](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)。
 
 若要为组织嵌入内容，请参阅以下演练：
 

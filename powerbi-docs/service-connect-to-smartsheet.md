@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b30e9934c6a1779538aeb5fe82db59e018fdb880
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dfcaabc7f36dd65c6e7dbf56b84778c62760da5d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249450"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135688"
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>使用 Power BI 连接到 Smartsheet
 Smartsheet 提供了协作和文件共享的简单平台。 Power BI 的 Smartsheet 内容包提供仪表板、报表和显示你的 Smartsheet 帐户概述的数据集。 还可以使用 [Power BI Desktop](desktop-connect-to-data.md) 直接连接到你帐户中的单独工作表。 
@@ -60,6 +60,6 @@ Power BI 的 Smartsheet 内容包包含你的 Smartsheet 帐户的概述，例�
 
 ## <a name="next-steps"></a>后续步骤：
 
-[Power BI 入门](service-get-started.md)
+[什么是 Power BI？](power-bi-overview.md)
 
 [获取 Power BI 的数据](service-get-data.md)

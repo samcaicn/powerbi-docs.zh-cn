@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f283a8ed273dcb609e9d5160adbeb714e8935ab9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 57e1e8ce015db9b5f88f7b685c80092023540a6f
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251924"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599123"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>使用 Power BI 连接到 Zuora
 借助适用于 Power BI 的 Zuora，可以将重要收入、帐单和订阅数据可视化。 使用默认的仪表板和报表来分析使用情况趋势、跟踪计帐和付款、监视定期收入或进行自定义以满足自己独特的仪表板和报表需求。
@@ -32,7 +32,7 @@ ms.locfileid: "34251924"
 3. 选择 **Zuora**\>**获取**。
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. 指定你的 Zuora URL。 通常为“ https://www.zuora.com ”，有关详细信息，请参阅下方的[查找这些参数](#FindingParams)。
+4. 指定你的 Zuora URL。 通常为“ <https://www.zuora.com> ”，有关详细信息，请参阅下方的[查找这些参数](#FindingParams)。
 
    ![](media/service-connect-to-zuora/params.png)
 5. 对于**身份验证方法**，请选择**基本**并提供用户名和密码（区分大小写），然后选择**登录**。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 75636885da6357a756508558841c99435aa5f442
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245573"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092175"
 ---
 # <a name="enable-qa-for-live-connections"></a>启用实时连接问答
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>什么是本地数据网关？  什么是实时连接？
@@ -56,6 +56,7 @@ ms.locfileid: "34245573"
 
 * 最初此功能只可用于 SQL Server 2016 Analysis Services 表格数据源。 此功能非常适合用于处理表格格式数据。 某些功能可用于多维数据源，但多维数据源尚不支持完整的问答体验。 今后将逐渐推出本地数据网关支持的其他数据源。
 * 在最初的公共预览版中，并不完全支持 SQL Server Analysis Services 中定义的行级别安全性。 在问答中提问时，输入时“自动完成”的问题可以显示用户不能访问的字符串值。 但是，由于考虑对在模型中定义的 RLS 使用报表和图表视觉对象，因此不能公开任何基础数值数据。 将在接下来的更新中发布选项以控制此行为。
+* 不支持对象级别安全性 (OLS)。 “问答”不受对象级别安全性的限制，并且可能向不具备访问权限的用户显示表或列名称。 应启用 RLS，确保也相应地保护数据值。 
 * 仅在使用本地数据网关时支持实时连接。 因此，这不能与个人网关一起使用。
 
 ## <a name="next-steps"></a>后续步骤

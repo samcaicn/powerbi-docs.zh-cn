@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4c8601e15a415e680028b2259a4c2b8e56dbd3b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297230"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926574"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常见问题 (FAQ)
 
@@ -41,14 +41,13 @@ ms.locfileid: "34297230"
 * [如何为已注册的用户删除 Power BI？](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [如何知道新用户加入了我的租户？](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [我是否还应为任何其他事项做好准备？](#are-there-any-additional-things-i-should-be-prepared-for)
-* [这是否免费？我是否需要为这些许可证付费？](#is-this-free-will-i-be-charged-for-these-licenses)
 * [我的 Power BI 租户位于何处？](#where-is-my-power-bi-tenant-located)
 * [什么是 Power BI SLA（服务级别协议）？](#what-is-the-power-bi-sla)
 
 **Power BI 中的安全性**
 
 * [Power BI 是否满足特定于国家、地区和行业的合规性要求？](#does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements)
-* [Power BI 中安全性的工作原理是怎样的？](#how-does-security-work-in-power-bi?)
+* [Power BI 中安全性的工作原理是怎样的？](#how-does-security-work-in-power-bi)
 
 ## <a name="sign-up-for-power-bi"></a>注册 Power BI
 ### <a name="how-do-users-sign-up-for-power-bi"></a>用户如何注册 Power BI？
@@ -232,9 +231,6 @@ Power BI 提供了一个管理门户，它使你可以查看使用情况统计�
 
 你可以在 Office 365 管理中心中通过标准过程从租户中删除用户。 但是，如果用户仍然具有来自你的组织的活动电子邮件地址，则他们能够重新加入，除非你阻止所有用户加入。
 
-### <a name="is-this-free-will-i-be-charged-for-these-licenses"></a>这是否免费？ 我是否需要为这些许可证付费？
-**Power BI (免费)** 许可证适用于 Power BI 的免费版本。 如果你对其他功能感兴趣，请看一看 [Power BI Pro 版本](service-premium.md)。
-
 ### <a name="where-is-my-power-bi-tenant-located"></a>我的 Power BI 租户位于何处？
 若要了解有关如何查找 Power BI 租户所处的位置（也称为数据区域），请参阅[我的 Power BI 租户位于何处？](service-admin-where-is-my-tenant-located.md)
 
@@ -252,7 +248,6 @@ Power BI 以 Office 365 的功能为基础而构建，后者进而以 Azure 服�
 [Power BI 管理门户](service-admin-portal.md)  
 [了解 Power BI 管理员角色](service-admin-role.md)  
 [自助注册 Power BI](service-self-service-signup-for-power-bi.md)  
-[组织中的 Power BI（免费）](service-admin-service-free-in-your-organization.md)  
 [购买 Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [Power BI Premium 有哪些特权？](service-premium.md)  
 [如何购买 Power BI Premium](service-admin-premium-purchase.md)  

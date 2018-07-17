@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: db201098d6bd7207164b2ff08acb363563211f72
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295859"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137252"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>查看 Power BI 移动应用中的仪表板和报表
 适用于：
@@ -195,6 +195,6 @@ ms.locfileid: "34295859"
 ## <a name="next-steps"></a>后续步骤
 * 从 Google play [下载 Android 应用](http://go.microsoft.com/fwlink/?LinkID=544867)  
 * [适用于 Power BI 的 Android 应用入门](mobile-android-app-get-started.md)  
-* [Power BI 入门](service-get-started.md)
+* [什么是 Power BI？](power-bi-overview.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 02a88f04d3c23746da702db043c1992267baf054
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d0e1fdc79ae4bcd5946d82f2cbf7b929a47372cb
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248668"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136792"
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI 服务中的仪表板
 
@@ -84,7 +84,7 @@ Power BI ***仪表板***是单个页面，通常称为画布，使用可视化�
 > 
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 入门](service-get-started.md)  
+[什么是 Power BI？](power-bi-overview.md)  
 [Power BI - 基本概念](service-basic-concepts.md)  
 [Power BI Premium 有哪些特权？](service-premium.md)  
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cd129d898f7ac958a3441754e87366aa1a9dddca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4a7e8d0ad254f2b5130026d793629a0cf4cf3be
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34238238"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137275"
 ---
 # <a name="connect-to-github-with-power-bi"></a>使用 Power BI 连接到 GitHub
 适用于 Power BI 的 GitHub 内容包允许你通过参与、问题、拉取请求和活动用户的相关数据，深入了解 GitHub 存储机制（也称为存储库）。
@@ -97,5 +97,5 @@ ms.locfileid: "34238238"
 3. 返回到 Power BI，尝试连接到 GitHub。 在“配置 GitHub”对话框中，使用相同存储库的存储库名称和存储库所有者。  
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 入门](service-get-started.md)
+* [什么是 Power BI？](power-bi-overview.md)
 * [获取数据](service-get-data.md)

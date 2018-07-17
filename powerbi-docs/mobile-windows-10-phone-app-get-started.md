@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/05/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 6cd1c8aec1bf31a8cae43074531014cbeef71bd5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2ee490107b802957b262d0a133d8e8b0e2a42754
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295114"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135780"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>适用于 Windows 10 的 Power BI 移动应用入门
 适用于 Windows 10 的 Power BI 移动应用让你可以在平板电脑或手机上使用 Power BI，可提供对业务信息的最新的、可触控移动式访问。 在任何地方查看公司仪表板并与之进行交互&#151;就在 [Windows 开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上查看。
@@ -121,6 +121,6 @@ ms.locfileid: "34295114"
 
 ## <a name="next-steps"></a>后续步骤
 * 从 Windows 应用商店[下载 Power BI 应用](http://go.microsoft.com/fwlink/?LinkID=526478)。  
-* [Power BI 入门](service-get-started.md)
+* [什么是 Power BI？](power-bi-overview.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

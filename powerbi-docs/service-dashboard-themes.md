@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813793"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944643"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>在 Power BI 服务中使用仪表板主题
 借助“仪表板主题”，可以将颜色主题应用于整个仪表板，如企业品牌颜色、流行色或可能要应用的其他任何颜色主题。 应用“仪表板主题”时，仪表板中的所有视觉对象都会使用选定主题中的颜色（少数例外情况除外，本文稍后将进行介绍）。
@@ -89,7 +89,6 @@ Power BI 仪表板的默认主题是“浅色”。 如果想要自定义颜色�
 
     ![使用目标主题](media/service-dashboard-themes/power-bi-use-destination.png)
 
-* 目前，查看使用 REST API 嵌入的仪表板、在移动设备上查看仪表板或由外部用户查看仪表板时，不支持仪表板主题。    
 * 不能对已固定的实时报表页、iframe 磁贴、SSRS 磁贴、工作簿磁贴或映像应用仪表板主题。
 * 可以在移动设备上查看仪表板主题，但只能在 Power BI 服务中创建仪表板主题。 
 * 仪表板自定义主题仅适用于从报表中固定的磁贴。 

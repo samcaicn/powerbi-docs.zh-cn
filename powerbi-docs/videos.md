@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: mihart
-ms.openlocfilehash: bf196ccf45e964f6fc1044723f7232eaf60230e7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fda707d3f36e6db2157d04887780bb957567a523
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471792"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136240"
 ---
 # <a name="power-bi-videos"></a>Power BI 视频
 我们有一个关于 Power BI 的 YouTube 频道！ 你可以访问[我们的频道](https://www.youtube.com/user/mspowerbi/videos)，并且如果你是初次接触 Power BI，那么[使用 Power BI 分析和可视化数据播放列表](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)会是一个不错的起点。
@@ -46,7 +46,7 @@ ms.locfileid: "34471792"
 * [Guy in a Cube 频道](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w) - 有关 Power BI 特性和功能的最新视频
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 入门](service-get-started.md)
+[什么是 Power BI？](power-bi-overview.md)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

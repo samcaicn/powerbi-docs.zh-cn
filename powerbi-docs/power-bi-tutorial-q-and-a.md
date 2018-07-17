@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0e98c68e62f36114257052171e0928db25853f24
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239479"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599221"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>教程：如何使用 Power BI 问答创建可视化效果和生成报表
 [问答概述](power-bi-q-and-a.md)介绍了 Power BI 问答，并对使用者（与其共享了仪表板和报表）和创建者（拥有基础报表和数据集）进行了区分。 本教程的第一部分主要是面向通过 Power BI 服务使用仪表板的用户。 第二部分是面向使用 Power BI 服务或 Power BI Desktop 创建报表的用户。 [Power BI 问答和 Power BI 移动版](mobile-apps-ios-qna.md)以及 [Power BI Embedded 中的 Power BI 问答](developer/qanda.md)均通过单篇文章进行介绍。
@@ -90,9 +90,9 @@ Power BI 问答的提问框位于仪表板的左上角，这就是用户使用�
 
 6. 与新可视化效果进行交互。 无论是如何创建可视化效果的，都不要紧，因为可交互性、格式设置和功能全都完全相同。
 
-  ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
+   ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
 
-  如果已在 Power BI 服务中创建了可视化效果，甚至可以[将它固定到仪表板](service-dashboard-pin-tile-from-q-and-a.md)。
+   如果已在 Power BI 服务中创建了可视化效果，甚至可以[将它固定到仪表板](service-dashboard-pin-tile-from-q-and-a.md)。
 
 ## <a name="tell-qa-which-visualization-to-use"></a>告知问答要使用哪个可视化效果。
 使用 Power BI 问答，不仅可以让数据为自己“发声”，还可以指示 Power BI 如何显示答案。 只需将“以<visualization type>显示”添加到问题的末尾即可。  例如，“显示工厂的库存量（以地图形式）”和“显示总库存（以卡片形式）”。  亲自动手。

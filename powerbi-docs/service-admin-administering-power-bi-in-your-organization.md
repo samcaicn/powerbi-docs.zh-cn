@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 05/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5e69ed0010c5a2ff496b761f54b4cf2561f9b4ca
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1f3c871d4ac47a110f2085ef1bdccb166fc00643
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297414"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944298"
 ---
 # <a name="what-is-power-bi-administration"></a>什么是 Power BI 管理？
 
@@ -73,12 +73,12 @@ Power BI 服务管理员角色不授予将许可证分配给用户或在 Office 
 
 | **工具** | **典型任务** |
 | --- | --- |
-| Power BI 管理门户 |<ul><li>阻止用户访问 Power BI<br><li>获取和使用 Premium 容量<br><li>确保服务质量<br><li>管理业务数据分类<br><li>帮助强制实施内容发布和共享策略<br><li>管理工作区<br><li>发布自定义视觉对象<br><li>验证用于在其他应用程序中嵌入 Power BI 的代码<br><li>数据访问和其他问题疑难解答</ul>|
-| Office 365 管理中心 |<ul><li>管理用户注册<br><li>购买和分配 Pro 许可证</ul>|
-| Office 365 安全与合规中心 |<ul><li>查看和管理事件审核</ul>|
-| Azure 门户中的 Azure Active Directory (AAD) |<ul><li>通过 AAD 配置对 Power BI 资源的条件访问<br><li>设置 Power BI Embedded 容量</ul>|
-| PowerShell cmdlet |<ul><li>通过脚本管理工作区和 Power BI 的其他方面</ul>|
-| 管理 API |<ul><li>生成自定义管理工具，以便为 Power BI 管理员的工作提供便利。例如，Power BI Desktop 可以使用这些 API 基于与管理相关的数据来构建报表</ul>|
+| Power BI 管理门户 |<ul><li>获取和使用 Premium 容量</li><li>确保服务质量</li><li>管理业务数据分类</li><li>帮助强制实施内容发布和共享策略</li><li>管理工作区<br><li>发布自定义视觉对象</li><li>验证用于在其他应用程序中嵌入 Power BI 的代码</li><li>数据访问和其他问题疑难解答</li></ul>|
+| Office 365 管理中心 |<ul><li>管理用户注册</li><li>购买和分配 Pro 许可证</li><li>阻止用户访问 Power BI</li></ul>|
+| Office 365 安全与合规中心 |<ul><li>查看和管理事件审核</li></ul>|
+| Azure 门户中的 Azure Active Directory (AAD) |<ul><li>通过 AAD 配置对 Power BI 资源的条件访问</li><li>设置 Power BI Embedded 容量</li></ul>|
+| PowerShell cmdlet |<ul><li>通过脚本管理工作区和 Power BI 的其他方面</li></ul>|
+| 管理 API 和 SDK |<ul><li>生成自定义管理工具，以便为 Power BI 管理员的工作提供便利。例如，Power BI Desktop 可以使用这些 API 基于与管理相关的数据来构建报表</li></ul>|
 
 ## <a name="next-steps"></a>后续步骤
 

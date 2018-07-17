@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/13/2018
 ms.author: maggies
-ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32d73b4be55190b908353083b497581cb1b08c6e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482236"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599015"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看本地报表服务器报表和 KPI
 
@@ -41,7 +41,7 @@ ms.locfileid: "34482236"
 ## <a name="explore-samples-in-the-mobile-apps-without-a-server-connection"></a>不使用服务器连接在移动应用中探索示例
 即使无权访问 Reporting Services Web 门户，也仍可以探索 Reporting Services 移动报表和 KPI 的功能。 
 
-1. 点击左上角的 ![全局导航按钮 ](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) ，然后点击右上角的齿轮图标 ![齿轮图标](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png).
+1. 点击左上角的 ![全局导航按钮 ](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) ，然后点击右上角的齿轮图标 ![齿轮图标](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png)。
 2. 点击“Reporting Services 示例”，然后转到相应位置，与示例 KPI 和移动报表进行交互。
    
    ![Reporting Services 示例](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
@@ -102,7 +102,10 @@ ms.locfileid: "34482236"
 ## <a name="view-power-bi-reports-and-kpis-in-the-power-bi-app"></a>在 Power BI 应用中查看 Power BI 报表和 KPI
 Power BI 报表、Reporting Services 移动报表和 KPI 的文件夹与它们在 Reporting Services Web 门户上的文件夹相同。 
 
-* 点击 Power BI 报表 ![Power BI 报表图标](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). 它将以横向模式打开，并可在 Power BI 应用中与之交互。
+* 点击 Power BI 报表 ![Power BI 报表图标](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png)。 它将以横向模式打开，并可在 Power BI 应用中与之交互。
+
+    > [!NOTE]
+  > Power BI 报表服务器上的 Power BI 报表中当前未启用向下钻取和向上钻取功能。
   
     ![Power BI 报表](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
 * 在 Power BI Desktop 中，报表所有者可以为 Power BI 移动应用[优化报表](desktop-create-phone-report.md)。 在你的移动手机上，已优化的报表都具有一个特殊的图标 ![Optimized Power BI report icon](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png)和布局。
@@ -129,6 +132,6 @@ Power BI 报表、Reporting Services 移动报表和 KPI 的文件夹与它们�
 3. 点击“删除服务器”。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 入门](service-get-started.md)  
+* [什么是 Power BI？](power-bi-overview.md)  
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

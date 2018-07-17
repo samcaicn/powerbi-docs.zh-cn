@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/01/2018
+sktopms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964805"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145378"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
@@ -54,7 +54,7 @@ Power BI 不支持由使用者电子邮件服务或电信提供商提供的电�
 Power BI 服务 [https://powerbi.com](https://powerbi.com) 不可用作专用的内部云服务。 但是，还有其他三个选项可用于查看和处理本地数据。 
 
 ### <a name="on-premises-data-gateway"></a>本地数据网关
-通过 Power BI 和 Power BI Desktop，可以安全地连接到自己的本地数据源。 通过[本地数据网关](service-gateway-onprem.md)，可以实时连接到本地 SQL Server Analysis Services 服务器以及其他数据源。 还可以使用集中式网关设置计划刷新。 如果网关不可用，则可以使用 [Power BI Gateway - Personal](personal-gateway.md) 从本地数据源刷新数据。
+通过 Power BI 和 Power BI Desktop，可以安全地连接到自己的本地数据源。 通过[本地数据网关](service-gateway-onprem.md)，可以实时连接到本地 SQL Server Analysis Services 服务器以及其他数据源。 还可以使用集中式网关设置计划刷新。 如果网关不可用，则可以使用 [Power BI Gateway - Personal](service-gateway-personal-mode.md) 从本地数据源刷新数据。
 
 ### <a name="power-bi-report-server"></a>Power BI 报表服务器
 Power BI 报表服务器是在自己的本地环境中部署的解决方案，用于创建、发布和管理报表，然后以不同的方式将报表传送给不同的用户：通过 Web 浏览器、移动设备或通过用户收件箱中电子邮件的形式。 详细了解 [Power BI 报表服务器](report-server/get-started.md)。
@@ -138,6 +138,7 @@ Power BI for Office 365 体验已被弃用。
 * 若要**撤消**上一操作或最近几项操作，请按 CTRL+Z。
 
 ## <a name="next-steps"></a>后续步骤
+* [什么是 Power BI？](power-bi-overview.md)
 * 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 * 仍有问题？ 请访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)
 

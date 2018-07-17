@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 53c4250949a696f4abbd0722cf89207f2c8d37c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 166d61c78f8e85a91dafa5de698d782b456834a7
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813839"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37601628"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -28,7 +28,7 @@ ms.locfileid: "34813839"
 * 当讨论某项功能时，将会在新的浏览器选项卡上播放 **[视频]** 片段。
 * 某些功能通过 **[文章]** 来提供更多详细信息。
 * 大多数功能在每月更新的 **[博客]** 文章中均有说明。
-* 最后，一些明白易懂的功能则不需要文章或视频。
+* 最后，一些明白易懂的功能未提供相关文章或视频。
 
 也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的**最新更新**视频。
 
@@ -255,7 +255,7 @@ ms.locfileid: "34813839"
 * 当讨论某项功能时，将会在新的浏览器选项卡上播放 **[视频]** 片段。
 * 某些功能通过 **[文章]** 来提供更多详细信息。
 * 大多数功能在每月更新的 **[博客]** 文章中均有说明。
--   最后，一些明白易懂的功能则不需要文章或视频。
+* 最后，一些明白易懂的功能则不需要文章或视频。
 
 还可单击更新列表下方视频图像上的“播放”按钮，直接在本文中从头观看“最新更新”视频。
 
@@ -1844,15 +1844,15 @@ ms.locfileid: "34813839"
     -   提供更好的多维度源（Analysis Services 和 SAP BusinessObjects）预览体验
     -   显示“选定项”选项
     -   改进了导航树中的“搜索”功能
--   新转换
-    -   用于日期/时间列的 Age 和 Subtract 操作
-    -   聚合列：用于禁用新列前缀的选项
--   字段列表改进
-    -   展开/折叠表格
-    -   隐藏/取消隐藏字段
-    -   优化布局（间距、边距和字体）
--   报表页导航 - 键盘操作支持
--   修复了大量 bug
+- 新转换
+  -   用于日期/时间列的 Age 和 Subtract 操作
+  -   聚合列：用于禁用新列前缀的选项
+- 字段列表改进
+  -   展开/折叠表格
+  -   隐藏/取消隐藏字段
+  -   优化布局（间距、边距和字体）
+- 报表页导航 - 键盘操作支持
+- 修复了大量 bug
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/-bZFeS1S1wU" frameborder="0" allowfullscreen></iframe>
 

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: aa4aac1b0628fb0670a4265095ba2abcae3c1dcf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2ca419e1e07485ad29c486d8626e78d9605c8468
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292561"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965012"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中设置数据警报
 适用于：
@@ -25,7 +25,7 @@ ms.locfileid: "34292561"
 
 可以在 Power BI 移动应用和 Power BI 服务中的仪表板上设置警报。 当磁贴中的数据更改超出设置的限制时，警报会通知你。 警报适用于包含单一数字的磁贴（如卡和仪表），但不适用于包含流数据的磁贴。 你可以在移动设备上设置数据警报，并在 Power BI 服务中查看，反之亦然。 即使你共享了仪表板或磁贴的快照，也只有你可以看到自己设置的数据警报。
 
-如果你拥有 Power BI Pro 许可证，或者具有免费的 Power BI 许可证并且共享仪表板采用高级容量，则可以在磁贴上设置警报。 
+如果拥有 Power BI Pro 许可证，或者共享仪表板采用高级容量，则可以在磁贴上设置警报。 
 
 > [!WARNING]
 > 数据驱动的警报通知提供有关数据的信息。 如果设备被盗，我们建议你转到 Power BI 服务，关闭所有数据驱动的警报规则。 

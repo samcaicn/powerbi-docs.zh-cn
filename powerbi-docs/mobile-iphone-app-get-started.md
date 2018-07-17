@@ -1,48 +1,46 @@
 ---
-title: iPhone 上的 Power BI 移动应用入门
-description: 了解如何在 iPhone 上使用 iOS 版 Microsoft Power BI 应用随时随地通过移动设备访问本地和云中的业务信息。
+title: iOS 版 Power BI 移动应用入门
+description: 了解如何使用 iOS 版 Microsoft Power BI 移动应用随时随地通过移动设备访问本地和云中的业务信息。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/25/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 9a3177dc0fe80ebc6c1041ce64b1186cb5865e37
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1700d5bb6a3c17b0a76e6cf04155050a01136e96
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294401"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136540"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>iPhone 或 iPod Touch 上的 Power BI 移动应用入门
-iPhone 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 在你的 [Apple Watch](mobile-apple-watch.md) 上保持最新的数据。  
+# <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 设备上的 Power BI 移动应用入门
+iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 在你的 [Apple Watch](mobile-apple-watch.md) 上保持最新的数据。  
 
-![Power BI iPhone 移动应用仪表板](media/mobile-iphone-app-get-started/power-bi-mobile-get-started-dash.png)
+![iPhone 或 iPad 上的 Power BI 移动应用](media/mobile-iphone-app-get-started/pbi_ipad_iphonedevices.png)
 
 可以在 Power BI Desktop 中创建 Power BI 报表，然后发布报表：
 
 * [将报表发布到 Power BI 服务中](service-get-started.md)，并创建仪表板。
 * [在本地将报表发布到 Power BI 报表服务器中](report-server/quickstart-create-powerbi-report.md)。
 
-然后，即可在 iPhone 版 Power BI 应用中与仪表板和报表进行交互，无论它们是在本地还是在云端。
+然后，即可在 iOS 版 Power BI 移动应用中与本地或云中的仪表板和报表进行交互。
 
 查找 [Power BI 移动应用中的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="download-the-app"></a>下载应用
-[下载 iOS 应用](http://go.microsoft.com/fwlink/?LinkId=522062 "从 Apple App Store 下载 iPhone 应用") 到你的 iPhone 或 iPod Touch 中。
+[下载 iOS 应用]从 Apple App Store (http://go.microsoft.com/fwlink/?LinkId=522062 "下载 iOS 应用")到你的 iPhone、iPad 或 iPod Touch。
 
-> [!NOTE]
-> 可以在 iOS 10 或更高版本的 iPhone 5 及以上版本上运行 Power BI for iOS 应用。 也可以在 iOS 10 或更高版本的 iPod Touch 上运行。
-> 
-> 
+可以在 iOS 10 或更高版本的 iPhone 5 及以上版本上运行 Power BI for iOS 应用。 也可在 iOS 10 或更高版本的 iPad 或 iPod Touch 上运行该应用。 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>注册 Power BI 服务
-如果还未注册，请转到 Power BI (https://powerbi.com)) 以注册该服务。 注册是免费的。
+如果还没有注册，请转到 [powerbi.com](https://powerbi.microsoft.com/get-started/)，在“Power BI - 云协作和共享”下，选择“免费试用”。
+
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 应用入门
-1. 在 iPhone 中打开 Power BI 应用。
+1. 在 iOS 设备中，打开 Power BI 应用。
 2. 若要查看 Power BI 仪表板，请点击“Power BI”。  
    若要查看 Reporting Services 移动报表和 KPI，请点击“SQL Server Reporting Services”。
    
@@ -72,7 +70,7 @@ iPhone 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI
 2. 点击右上角的齿轮图标 ![Gear icon](media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png)，然后点击“Reporting Services 示例”。
 3. 打开零售报表或销售报表文件夹以浏览 KPI 和移动报表。
    
-   ![Power BI 移动应用中的 Reporting Services 示例](media/mobile-iphone-app-get-started/power-bi-iphone-ssrs-samples.png)
+   ![Power BI 移动应用中的 Reporting Services 示例](media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查找内容
 仪表板和报表将存储在 Power BI 移动应用的不同位置，具体取决要于它们原来所在的位置。 了解如何[在移动应用中查找内容](mobile-apps-find-content-mobile-devices.md)。 此外，可以始终在 Power BI 移动应用中搜索你所拥有的内容。 
@@ -104,34 +102,14 @@ iPhone 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI
 使用 Microsoft Intune，组织可以控制各项事务，如要求提供访问 PIN、控制应用程序处理数据的方式，甚至是在未使用应用时加密应用程序数据。
 
 > [!NOTE]
-> 如果你在 iPhone 上使用 Power BI 移动应用，并且组织已配置 Microsoft Intune MAM，则会关闭后台数据刷新。 在你下次进入应用时，Power BI 会刷新 Power BI 服务 Web 数据。
-> 
+> 如果在 iOS 设备上使用 Power BI 移动应用，并且组织已配置 Microsoft Intune MAM，则会关闭后台数据刷新。 在你下次进入应用时，Power BI 会刷新 Power BI 服务 Web 数据。
 > 
 
 详细了解[如何使用 Microsoft Intune 配置 Power BI 移动应用](service-admin-mobile-intune.md)。 
 
 ## <a name="next-steps"></a>后续步骤
-下面介绍了还可以在 iPhone 应用中对 Power BI 仪表板和报表，以及对 Power BI 报表服务器/Reporting Services Web 门户中的报表和 KPI 执行哪些操作。
 
-### <a name="power-bi-dashboards-and-reports"></a>Power BI 仪表板和报表
-* 查看[你的应用](service-install-use-apps.md)。
-* 查看 [Power BI 仪表板](mobile-apps-view-dashboard.md)。
-* 用你自己的语言通过“问答”功能[询问数据相关问题](mobile-apps-ios-qna.md)
-* 在 [Apple Watch](mobile-apple-watch.md) 上查看 Power BI 磁贴。
-* 为你的数据设置[数据警报](mobile-set-data-alerts-in-the-mobile-apps.md)。
-* 共享 [Power BI 仪表板](mobile-share-dashboard-from-the-mobile-apps.md)。
-* [批注并共享](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)磁贴、报表或可视化效果。
-* [扫描 Power BI QR 代码](mobile-apps-qr-code.md)以打开相关的仪表板磁贴或报表。
-* 使用 iPhone 应用[创建图片磁贴](mobile-iphone-app-get-started.md)。
-* 查看[有关 Power BI 帐户更新的通知](mobile-apps-notification-center.md)，如同事与你共享的仪表板。
-
-### <a name="reports-and-kpis-on-the-report-server-web-portals"></a>报表服务器 Web 门户上的报表和 KPI
-* 在 iOS 设备版 Power BI 移动应用中[查看 Web 门户中的报表和 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。
-* [在 Web 门户中创建 KPI](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services)。
-* [在 Power BI Desktop 中创建报表，然后将报表发布到 Power BI 报表服务器 Web 门户中](report-server/quickstart-create-powerbi-report.md)
-
-### <a name="see-also"></a>另请参阅
-* [Power BI 入门](service-get-started.md)
+* [什么是 Power BI？](power-bi-overview.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 
 

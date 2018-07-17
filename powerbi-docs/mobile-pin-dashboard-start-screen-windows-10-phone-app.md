@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/25/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5492ed25dc5bd803661186694e7f9d3f4e19c30f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6ba62900206149f754f774f6bfd031aeb71f7437
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291549"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134837"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>从 Power BI 移动应用将仪表板固定到 Windows 10“开始”屏幕
 可以将 Power BI 仪表板从适用于 Windows 10 的 Power BI 移动应用固定到 Windows “开始”屏幕。 它们即变为动态磁贴。 如果点击“开始”屏幕中的磁贴，仪表板会在适用于 Windows 10 的 Power BI 移动应用中打开。
@@ -34,6 +34,6 @@ ms.locfileid: "34291549"
 ## <a name="next-steps"></a>后续步骤
 * 从 Windows 应用商店中[下载适用于 Windows 10 的 Power BI 移动应用](http://go.microsoft.com/fwlink/?LinkID=526478)  
 * [适用于 Windows 10 的 Power BI 移动应用入门](mobile-windows-10-phone-app-get-started.md)  
-* [Power BI 入门](service-get-started.md)
+* [什么是 Power BI？](power-bi-overview.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7c0399072bfef35a1103a5db448da183f64f74c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245353"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944735"
 ---
 # <a name="manage-your-data-storage"></a>管理数据存储
 了解如何管理个人数据存储或应用工作区，以确保可以继续发布报表和数据集。
 
 用户和应用工作区有自己的数据容量
 
-* 免费和 Pro 版用户的数据存储上限为 10GB。
-* Pro 版用户可以创建应用工作区，每个工作区的数据存储上限为 10GB。
+* 所有用户的数据存储上限均为 10 GB。
+* 拥有 Power BI Pro 许可证的用户可以创建应用工作区，每个工作区的数据存储上限为 10 GB。
 
 在租户一级，跨租户中的所有 Pro 版用户和应用工作区，每个 Pro 版用户的总使用量不能超过 10GB。
 

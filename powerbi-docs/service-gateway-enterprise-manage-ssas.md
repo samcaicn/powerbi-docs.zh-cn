@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297138"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599172"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理数据源 - Analysis Services
 安装本地数据网关之后，需要添加可与该网关结合使用的数据源。 本文将探讨如何使用网关和数据源。 你可以使用 Analysis Services 数据源进行计划刷新或实时连接。
@@ -52,7 +52,7 @@ ms.locfileid: "34297138"
 
 1. 选择右上角的齿轮图标 ![](media/service-gateway-enterprise-manage-ssas/pbi_gearicon.png) > **管理网关**。
 2. “网关”> **删除**
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>添加数据源
@@ -119,15 +119,13 @@ ms.locfileid: "34297138"
 2. 展开包含 Analysis Services 数据源的网关。 或者，如果尚未创建 Analysis Services 数据源，可以在此时创建。
 3. 选择数据源，然后选择**用户**选项卡。
 4. 选择**映射用户名**。
-   
+
     ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_02.png)
 
 随即你将看到添加规则和对给定用户进行测试的选项。
 
 > [!NOTE]
 > 可能会无意间更改不想更改的用户。 例如，如果 **Replace（原始值）** 是 @contoso.com 且 **With（新名称）** 是 @contoso.local，则登录名包含 @contoso.com 的所有用户都将被替换为 @contoso.local。 此外，如果 **Replace（原始名称）** 是 dave@contoso.com 且 **With（新名称）** 是 dave@contoso.local，则登录名为 v-dave@contoso.com 的用户将作为 v-dave@contoso.local 发送。
-> 
-> 
 
 ### <a name="ad-lookup-mapping"></a>AD 查找映射
 若要通过执行本地 AD 属性查找来将 AAD UPN 重映射到 Active Directory 用户，请按照此部分中的步骤操作。 首先，我们将介绍这种方法的工作原理。
@@ -154,10 +152,10 @@ Power BI 服务中将发生以下事件：
 1. 下载和安装最新网关
 2. 在网关中，需要将“本地数据网关服务”更改为使用域帐户（而不是本地服务帐户，否则 AD 查找将无法在运行时正常工作）运行。 你将需要重启网关服务才能使更改生效。  转到你的计算机上的网关应用（搜索“本地数据网关”）。 为此，请依次转到“服务设置”>“更改服务帐户”。 请确保自己拥有此网关的恢复密钥，因为需要在同一台计算机上还原它，除非要改为新建网关。 
 3. 以管理员身份转到此网关的安装文件夹 C:\Program Files\On-premises data gateway，以确保自己拥有写入权限并编辑下列文件：
-   
+
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. 根据自己设定的 AD 用户 Active Directory 属性配置，编辑以下两个配置值。 下面显示的配置值只是示例，需要根据自己的 Active Directory 配置指定它们。 
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
 5. 重启本地数据网关服务才能使配置更改生效。
 

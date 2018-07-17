@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755084"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944551"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium 有哪些特权？
 Power BI Premium 资源专用于为组织或团队运行 Power BI 服务，为你提供更可靠的性能和更大的数据卷。 Premium 还可以广泛发布内容，无需为查看者购买许可证。
@@ -36,11 +36,11 @@ Power BI 中有两种类型的容量。 共享容量和 Power BI 高级容量。
 | 刷新频率 |每天 8 次 |不受限制 |
 | 专用硬件隔离 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用") |
 | 面向所有用户的企业分发 | | |
-| 应用 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用")<sup>1</sup> |
+| 应用和共享 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用")<sup>1</sup> |
 | 嵌入式 API 和控件 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用")<sup>2</sup> |
 | 在本地发布 Power BI 报表 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用") |
 
-*<sup>1</sup> 应用中用户可以免费使用的功能包括在 Web 和移动设备中查看内容、使用问答、Quick Insights、Cortana 以及导出到 CSV、Excel 和 PowerPoint。其他未列出的活动（如在共享数据集上创建报表和在 Excel 中分析）需要 Pro 许可证。详细了解 [Power BI 免费版与 Pro](service-free-vs-pro.md) 功能。*  
+*<sup>1</sup> 有关详细信息，请参阅 [Power BI Pro 和 Power BI Premium 的用户功能](service-free-vs-pro.md)中的功能。*  
 *<sup>2</sup> Power BI Premium 公开发布后推出的增强功能。*
 
 ### <a name="premium-capacity"></a>高级容量
@@ -51,7 +51,7 @@ Power BI 中有两种类型的容量。 共享容量和 Power BI 高级容量。
 * 预定刷新：使用导入的模型计划刷新时，用户以前的限制为每天 8 次。 对 Premium 工作区的数据集解除了此限制。 这不适用于 DirectQuery 的预定缓存刷新设置。 在高级容量和共享容量之间，这些设置保持相同。
 * 专用硬件隔离 – 根据共享容量的性质，报表和仪表板的性能可能会该容量中受其他工作负荷的资源需求影响，尽管我们对此有所防护。 相反，Premium 通过隔离不相关的工作负荷，为你的工作负荷提供更一致、更可靠的性能。
 
-如果应用受高级容量支持（即它是当前分配到高级容量的应用工作区发布的），则此后组织中的任何用户都可以使用发布的这个应用，而无需考虑分配给他们的许可证。 这意味着即使是 Power BI 免费用户也可以使用这些已发布的应用。
+如果应用受高级容量支持（即它是当前分配到高级容量的应用工作区发布的），则此后组织中的任何用户都可以使用发布的这个应用，而无需考虑分配给他们的许可证。
 
 ### <a name="shared-capacity"></a>共享容量
 默认情况下，你的工作区属于共享容量。 这包括你个人的“我的工作区”以及应用工作区。 “共享容量”是指在 Power BI 使用体验中，工作负荷在其他客户共享的计算资源上运行。

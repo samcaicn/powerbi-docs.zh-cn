@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310535"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598833"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 性能最佳做法 
 本文将介绍如何在 Power BI 中构建快速可靠的报表  
@@ -115,7 +115,7 @@ ms.locfileid: "34310535"
    [msmdsrv.exe] 
 
    查找 msmdsrv.exe 使用的端口，并将其写下来以供将来使用。 在本例中，你可以使用端口 55786。 
-3.  **将 SQL Server Profiler 连接到 Power BI Desktop** 
+3. **将 SQL Server Profiler 连接到 Power BI Desktop** 
 
    - 从“开始”菜单启动 SQL Server Profiler 
    - “文件” > “新建跟踪” 

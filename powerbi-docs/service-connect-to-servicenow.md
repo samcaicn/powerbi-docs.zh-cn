@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4b05fcc005f821c4fee24071f28651b5df57709c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5a0c00b6082b3561a1e07e5eef4e4e21f71f97a3
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249335"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135458"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>使用 Power BI 连接到 ServiceNow 以报告事件
 ServiceNow 提供包括业务、运营和 IT 管理在内的多个产品和解决方案，从而提升你的业务。 此内容包包含有关打开、最近解决的和最近关闭的事件的多个报表和见解。  
@@ -61,7 +61,7 @@ ServiceNow 提供包括业务、运营和 IT 管理在内的多个产品和解�
 如果加载时间较长，请检查连接期间指定的事件数量和天数并考虑将其减少。
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 入门](service-get-started.md)
+[什么是 Power BI？](power-bi-overview.md)
 
 [Power BI - 基本概念](service-basic-concepts.md)
 
