@@ -1,6 +1,6 @@
 ---
-title: Power BI 服务入门
-description: Power BI 服务入门
+title: Power BI 服务（Power BI 在线版）入门
+description: Power BI 在线版入门 (app.powerbi.com)
 author: adamw
 manager: kfile
 ms.reviewer: ''
@@ -8,22 +8,37 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d66653ebe9232cb6da2f3c53b01e791ca9966db9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34310121"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598612"
 ---
-# <a name="get-started-with-power-bi-service-apppowerbicom"></a>Power BI 服务入门 (app.powerbi.com)
-本教程将帮助你开启使用 ***Power BI 服务*** 之旅。 若要了解 Power BI 服务如何适应其他 Power BI 产品/服务，我们强烈建议你先阅读[什么是 Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)。
+# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>教程：Power BI 服务入门 (app.powerbi.com)
+本教程将帮助你开启使用 ***Power BI 服务*** 之旅。 若要了解 Power BI 服务如何适应其他 Power BI 产品/服务，我们强烈建议你先阅读[什么是 Power BI](power-bi-overview.md)。
 
-![图片展示桌面、服务和移动之间的关系](media/service-get-started/power-bi-components.png)
+![显示桌面、服务和移动之间的关系的图片](media/service-get-started/power-bi-components.png)
 
-Power BI 服务提供免费版本和 Pro 版本。 无论使用哪个版本，如果你已创建帐户，则只需打开浏览器并键入 app.powerbi.com 即可打开 Power BI 服务。 对于新用户，我们建议从 www.powerbi.com 入手。 在该网站中，可以先详细了解 Power BI，然后再登录到该服务。  如果你已做好试用的准备，请选择右上角显示的“免费注册”链接。 如果管理员已为你启用 Power BI，请不要使用“免费注册”按钮，而可直接转到 app.powerbi.com。 
+在本教程中，将完成以下步骤：
+
+> [!div class="checklist"]
+> * 查找 Power BI 服务的其他入门内容
+> * 登录 Power BI 在线版帐户或进行注册（如果还没有帐户）
+> * 打开 Power BI 服务
+> * 获取一些数据并在报表视图中打开
+> * 使用该数据创建可视化效果并将其另存为报表
+> * 从该报表固定磁贴，创建仪表板
+> * 使用问答自然语言工具将另一个可视化效果添加到仪表板
+> * 删除数据集、报表和仪表板，清理资源
+
+## <a name="sign-up-for-power-bi-service"></a>注册 Power BI 服务
+如果未注册 Power BI，请先[注册一个 Power BI Pro 免费试用版](https://app.powerbi.com/signupredirect?pbi_source=web)，再进行操作。
+
+如果已创建帐户，则只需打开浏览器并键入 app.powerbi.com 即可打开 Power BI 服务。 
 
 ![登录或免费注册](media/service-get-started/power-bi-sign-up.png)
 
@@ -36,10 +51,9 @@ Power BI 服务提供免费版本和 Pro 版本。 无论使用哪个版本，�
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
-> 
-> 
 
-Microsoft Power BI 可帮助你及时掌握对你重要的信息。  借助 Power BI 服务，***仪表板***可帮助你对企业状况了如指掌。  你的仪表板显示各种***磁贴***，你可单击这些磁贴打开***报表***来进一步了解详情。  连接到多个***数据集***将所有相关数据组合在一起。 是否需要了解构成 Power BI 的构建块的帮助？  请参阅 [Power BI - 基本概念](service-basic-concepts.md)。
+## <a name="what-is-power-bi-service"></a>什么是 Power BI 服务？
+Microsoft Power BI 服务有时也称为 Power BI 在线版或 app.powerbi.com。 Power BI 可帮助你及时掌握对你重要的信息。  借助 Power BI 服务，***仪表板***可帮助你对企业状况了如指掌。  你的仪表板显示各种***磁贴***，你可单击这些磁贴打开***报表***来进一步了解详情。  连接到多个***数据集***将所有相关数据组合在一起。 是否需要了解构成 Power BI 的构建块的帮助？  请参阅 [Power BI - 基本概念](service-basic-concepts.md)。
 
 如果你在 Excel 或 CSV 文件中具有重要数据，你可以创建 Power BI 仪表板以便随时随地掌握最新信息，并与他人分享自己的见解。  你是否订阅了 SaaS 应用程序（如 Salesforce）？  从连接到 Salesforce 开始，基于该数据自动创建仪表板，或[查看可以连接到的所有其他 SaaS 应用](service-get-data.md)。 如果你是组织成员，请查看是否已向你发布任何[应用](service-create-distribute-apps.md)。
 
@@ -48,7 +62,7 @@ Microsoft Power BI 可帮助你及时掌握对你重要的信息。  借助 Powe
 ## <a name="step-1-get-data"></a>步骤 1：获取数据
 下面举例说明如何从 CSV 文件中获取数据。 想要学习此教程吗？ [下载此示例 CSV 文件](http://go.microsoft.com/fwlink/?LinkID=521962)。
 
-1. [登录 Power BI](http://www.powerbi.com/)。 还没有帐户？ 别担心，可以免费注册。
+1. [登录 Power BI](http://www.powerbi.com/)。 还没有帐户？ 别担心，可以注册一个免费试用版。
 2. Power BI 将在浏览器中打开。 在左侧导航栏底部选择“获取数据”。
    
    ![获取数据](media/service-get-started/getdata3.png)
@@ -94,21 +108,21 @@ Microsoft Power BI 可帮助你及时掌握对你重要的信息。  借助 Powe
    
    ![“固定”图标](media/service-get-started/pinnew.png)
 
-5. 由于这是新报表，因此在将可视化对象固定到仪表板之前，系统会提示保存。 为报表命名（例如“按时间的销售额”），然后选择“保存并继续”。 
+4. 由于这是新报表，因此在将可视化对象固定到仪表板之前，系统会提示保存。 为报表命名（例如“按时间的销售额”），然后选择“保存并继续”。 
    
    ![“保存报表”对话框](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
-6. 我们将折线图固定到新仪表板并将其命名为“用于教程的财务示例”。 
+5. 我们将折线图固定到新仪表板并将其命名为“用于教程的财务示例”。 
    
    ![为报表命名](media/service-get-started/power-bi-pin.png)
    
- 1. 选择“固定”。
+1. 选择“固定”。
    
     会显示一条成功消息（右上角附近），告知你可视化效果已作为磁贴添加到你的仪表板中。
    
     ![“已固定到仪表板”对话框](media/service-get-started/power-bi-pin-success.png)
 
-8. 选择“转至仪表板”，查看以磁贴形式固定到新仪表板的折线图。 通过添加更多可视化对象磁贴和[重命名、调整大小、链接和重新定位磁贴](service-dashboard-edit-tile.md)来优化仪表板。
+6. 选择“转至仪表板”，查看以磁贴形式固定到新仪表板的折线图。 通过添加更多可视化对象磁贴和[重命名、调整大小、链接和重新定位磁贴](service-dashboard-edit-tile.md)来优化仪表板。
    
    ![固定了可视化效果的仪表板](media/service-get-started/power-bi-new-dashboard.png)
    
@@ -128,26 +142,21 @@ Microsoft Power BI 可帮助你及时掌握对你重要的信息。  借助 Powe
 
    ![固定了图表的仪表板](media/service-get-started/power-bi-final-dashboard.png)
 
+## <a name="clean-up-resources"></a>清理资源
+完成本教程后，现可删除数据集、报表和仪表板。 
+
+1. 在左侧导航栏中，选择“我的工作区”。
+2. 选择“数据集”选项卡并找到本教程导入的数据集。  
+3. 选择省略号 (...)，再选择“删除”。
+
+    ![删除数据集](media/service-get-started/power-bi-delete.jpg)
+
+    删除数据集也将删除报表和仪表板。 
+
+
 ## <a name="next-steps"></a>后续步骤
 准备好尝试了解更多内容？  可以参考以下主题来了解 Power BI。
 
-* [连接到另一个数据集](service-get-data.md)。
-* 与你的同事[共享仪表板](service-share-dashboards.md) 。
-* 阅读[设计仪表板的提示](service-dashboards-design-tips.md)。
-* 借助[移动设备上的 Power BI 应用程序](mobile-apps-for-mobile-devices.md)查看你的仪表板
-
-还没有做好充分准备？ 请先了解以下主题，这些主题旨在帮助你适应 Power BI。
-
-* [了解报表、数据集、仪表板和磁贴如何组合在一起](service-basic-concepts.md)
-* 请访问我们的 [Power BI 引导式学习](guided-learning/index.md)站点，并学习几篇课程（非常简短）
-* 观看一些 [Power BI 视频](videos.md)
-* [了解我们提供了哪些示例供你使用](sample-datasets.md)
-
-### <a name="stay-in-touch-with-power-bi"></a>时刻关注 Power BI 动态
-* 关注 [Twitter 上的 @MSPowerBI](https://twitter.com/mspowerbi)
-* 订阅我们的 [YouTube 视频信道](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
-* 观看我们的 [Power BI 入门网络研讨会](webinars.md)点播
-* 不确定从何处获得帮助？ 请查看我们的 [10 条关于如何获取帮助的提示](service-tips-for-finding-help.md)页
-
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+> [!div class="nextstepaction"]
+> [连接到所使用的联机服务](./service-connect-to-services.md)
 
