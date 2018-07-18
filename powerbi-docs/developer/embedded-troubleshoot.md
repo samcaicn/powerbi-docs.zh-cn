@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/09/2018
 ms.author: maghan
-ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926550"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877015"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -102,13 +102,11 @@ Azure 门户或 Power BI 应用注册页面中的错误消息将提到权限不�
 
 **AADSTS70002: 验证凭据时出错。AADSTS50053: 你使用不正确的用户 ID 或密码尝试登录的次数过多）**
 
-如果使用 Power BI Embedded 并利用 Azure AD 直接身份验证，则会收到以下形式的消息日志记录：***error:unauthorized_client,error_description:AADSTS70002: 验证凭据时出错。AADSTS50053: 你使用不正确的用户 ID 或密码尝试登录的次数过多***，这是因为自 2018 年 6 月 14 日起已关闭直接身份验证。
+如果使用 Power BI Embedded 并利用 Azure AD 直接身份验证，则会收到以下形式的消息日志记录：***error:unauthorized_client,error_description:AADSTS70002: 验证凭据时出错。AADSTS50053：你使用不正确的用户 ID 或密码尝试登录的次数过多***，这是因为自 2018 年 6 月 14 日起已禁用直接身份验证。
 
-建议使用 [Azure AD 条件访问](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/)阻止旧式身份验证或使用 [Azure AD Directory 直通身份验证](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication)。
+可以使用组织或[服务主体](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)范围内的 [Azure AD 策略](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)重新启用此功能。
 
-但组织或[服务主体](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)可使用 [Azure AD 策略](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)重新开启此选项。
-
-建议仅用作每个应用时或仅作为一种解决方法时才启用此选项
+建议仅逐个应用地启用。
 
 需要是在其中创建和分配策略的目录中的全局管理员才能创建此策略。 以下为创建策略并将其分配到此应用程序的 SP 的示例脚本：
 

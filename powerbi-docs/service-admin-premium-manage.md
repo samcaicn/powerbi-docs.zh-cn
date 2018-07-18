@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 08d5d5b8d44d1ebceab2bb41ddbb244afda64fb6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945034"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924783"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>管理 Power BI Premium 和 Power BI Embedded 中的容量
-了解如何管理为内容提供专用资源的 Power BI Premium 和 Power BI Embedded 容量。
+了解如何管理提供专用内容资源的 Power BI Premium 和 Power BI Embedded 容量。
 
 ![Power BI 容量设置屏幕](media/service-admin-premium-manage/premium-capacity-management.png)
 
-容量是 Power BI Premium 和 Power BI Embedded 产品/服务的重中之重。
+容量是 Power BI Premium 和 Power BI Embedded 产品/服务的核心所在。
 
 ## <a name="what-is-capacity"></a>什么是容量？
 容量是保留以供专门使用的资源集。 拥有容量后，可向整个组织内的用户发布仪表板、报表和数据集，而无需为他们购买许可证。 还可保证容量中的内容具有稳定可靠的性能。
@@ -32,6 +32,16 @@ ms.locfileid: "36945034"
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
 有关详细信息，请参阅[什么是 Power BI Premium？](service-premium.md)。
+
+### <a name="capacity-admins"></a>容量管理员
+> [!NOTE]
+> 在 Microsoft Azure 门户中定义 Power BI Embedded 容量的容量管理员。
+
+被指定为容量的容量管理员时，可以完全控制容量及其管理功能。 可以从 Power BI 管理门户添加更多的容量管理员（仅限 Power BI Premium）或为用户授予容量分配权限。 可以为容量批量分配工作区，还可以查看容量的使用情况指标。
+
+每个容量都有自己的管理员。 定义一个容量的容量管理员并不意味着授予他们访问你组织中所有容量的权限。 默认情况下，容量管理员无权访问 Power BI 管理员权限范围内的所有内容，如使用情况指标、审核日志或租户设置。 同样，容量管理员也无权设置新的容量或更改现有容量的 SKU。 只有全局管理员或 Power BI 服务管理员有权访问这些项。
+
+所有 Office 365 全局管理员和 Power BI 管理员都会自动成为 Power BI Premium 容量和 Power BI Embedded 容量的容量管理员。
 
 ## <a name="purchase-capacity"></a>购买容量
 若要利用专用容量，需要在 Office 365 管理中心内为 Power BI Premium 购买订阅，或在 Microsoft Azure 门户中创建 Power BI Embedded 资源。 有关详细信息，请参阅以下内容：
@@ -43,21 +53,9 @@ ms.locfileid: "36945034"
 
 > [!NOTE]
 > 订阅结束后，你将拥有 30 天的完全访问权限，但在此之后，内容将恢复到共享容量。 > 1 GB 的模型将不会受到常规共享许可证的支持。
->
 
-## <a name="capacity-admins"></a>容量管理员
-> [!NOTE]
-> 在 Microsoft Azure 门户中定义 Power BI Embedded 容量的容量管理员。
->
->
 
-被指定为容量的容量管理员时，可以完全控制容量及其管理功能。 可以从 Power BI 管理门户添加更多的容量管理员（仅限 Power BI Premium）或为用户授予容量分配权限。 可以为容量批量分配工作区，还可以查看容量的使用情况指标。
-
-每个容量都有自己的管理员。 定义一个容量的容量管理员并不意味着授予他们访问你组织中所有容量的权限。 默认情况下，容量管理员无权访问 Power BI 管理员权限范围内的所有内容，如使用情况指标、审核日志或租户设置。 同样，容量管理员也无权设置新的容量或更改现有容量的 SKU。 只有全局管理员或 Power BI 服务管理员有权访问这些项。
-
-所有 Office 365 全局管理员和 Power BI 管理员都会自动成为 Power BI Premium 容量和 Power BI Embedded 容量的容量管理员。
-
-## <a name="managing-capacity"></a>管理容量
+## <a name="manage-capacity"></a>管理容量
 在 Office 365 中购买容量节点后，需要设置新容量。 此操作通过 [Power BI 管理门户](service-admin-portal.md)完成。 在管理门户中，将看到“容量设置”部分。 你将在此为组织管理 Power BI 高级容量。
 
 ![管理门户中的“容量设置”](media/service-admin-premium-manage/admin-portal-premium.png)
@@ -96,8 +94,6 @@ V 核心数将反映使用量以及可用于创建容量的数量。 可供组�
 
 > [!NOTE]
 > 在 Microsoft Azure 门户中管理 Power BI Embedded 容量设置。
->
->
 
 ### <a name="change-capacity-size-power-bi-premium"></a>更改容量大小 (Power BI Premium)
 Power BI 管理员和 Office 365 全局管理员通过选择“更改容量大小”来更改 Power BI Premium 容量大小。 如果容量管理员不是 Power BI 管理员或 Office 365 全局管理员，将无法使用此选项。
@@ -128,35 +124,6 @@ Power BI 管理员和 Office 365 全局管理员通过选择“更改容量大�
 ![](media/service-admin-premium-manage/capacity-user-permissions.png)
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
-
-## <a name="usage-measurements-power-bi-premium"></a>使用情况度量 (Power BI Premium)
-对于每个容量，可看到 CPU、内存使用情况、内存抖动和直接查询的使用情况度量。 建议保留这些指标的选项卡，确保用户体验到良好的容量性能：
-
-![最近 7 天的使用情况](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> 在 Azure 门户中监视 Power BI Embedded 容量的使用情况。
-
-| 指标 | 说明 |
-| --- | --- |
-| CPU |CPU 使用率超过 80% 的次数。 |
-| 内存抖动 |表示后端核心的内存压力。 具体而言，这一指标指示因使用多个数据集产生的内存压力，而从内存清除数据集的次数。 |
-| 内存使用情况 |平均内存使用量，以千兆字节 (GB) 表示。 |
-| DQ/秒 | 直接查询和实时连接数超过限制的 80% 的次数。 <br> <br> * 我们限制 DirectQuery 的总数和每秒实时连接查询数。<br><br>* 限制如下：P1、P2、P3 分别为 30/s、60/s 和 120/s。<br><br> * 直接查询和实时连接查询数计入上述限额。 例如，如果一秒内有 15 个 DirectQueries 和 15 次实时连接，则达到限制。<br/><br>* 这同样适用于本地连接和云连接。 |
-
-指标反映的是过去一周的利用率。  如果想要查看更详尽的指标视图，可单击任意摘要磁贴进行查看。  此操作将调出详细图表，显示高级容量的每个指标。  这些图表过去一周内每小时汇总一次，有助于在高级容量可能出现特定的性能相关事件时进行隔离。  
-
-![详细的 CPU 使用情况图表](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![详细的内存抖动使用情况图表](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![详细的内存大小使用情况图表](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![详细的内存抖动使用情况图表](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-也可将指标的基础数据随意导出到 csv 文件。  导出后，过去一周每天每隔三分钟即显示一次详细信息。
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>将工作区分配到容量
 有几种方式可以将工作区分配到容量。
@@ -193,6 +160,36 @@ Power BI 管理员和 Office 365 全局管理员通过选择“更改容量大�
 5. 选择**保存**。
 
 保存后，工作区及其所有内容都会被迁移到高级容量，这不会影响最终用户的任何体验。
+
+
+## <a name="monitor-capacity-usage"></a>监视容量使用情况
+对于每个容量，可看到 CPU、内存使用情况、内存抖动和直接查询的使用情况度量。 建议保留这些指标的选项卡，确保用户体验到良好的容量性能：
+
+![最近 7 天的使用情况](media/service-admin-premium-manage/premium-dashboard-tiles.png)
+
+> [!NOTE]
+> 在 Azure 门户中监视 Power BI Embedded 容量的使用情况。
+
+| 指标 | 说明 |
+| --- | --- |
+| CPU |CPU 使用率超过 80% 的次数。 |
+| 内存抖动 |表示后端核心的内存压力。 具体而言，这一指标指示因使用多个数据集产生的内存压力，而从内存清除数据集的次数。 |
+| 内存使用情况 |平均内存使用量，以千兆字节 (GB) 表示。 |
+| DQ/秒 | 直接查询和实时连接数超过限制的 80% 的次数。 <br> <br> * 我们限制 DirectQuery 的总数和每秒实时连接查询数。<br><br>* 限制如下：P1、P2、P3 分别为 30/s、60/s 和 120/s。<br><br> * 直接查询和实时连接查询数计入上述限额。 例如，如果一秒内有 15 个 DirectQueries 和 15 次实时连接，则达到限制。<br/><br>* 这同样适用于本地连接和云连接。 |
+
+指标反映的是过去一周的利用率。  如果想要查看更详尽的指标视图，可单击任意摘要磁贴进行查看。  此操作将调出详细图表，显示高级容量的每个指标。  这些图表过去一周内每小时汇总一次，有助于在高级容量可能出现特定的性能相关事件时进行隔离。  
+
+![详细的 CPU 使用情况图表](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
+
+![详细的内存抖动使用情况图表](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
+
+
+![详细的内存大小使用情况图表](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
+
+
+![详细的内存抖动使用情况图表](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
+
+也可将指标的基础数据随意导出到 csv 文件。  导出后，过去一周每天每隔三分钟即显示一次详细信息。
 
 ## <a name="what-premium-looks-like-for-users"></a>高级容量的用户体验
 大多数情况下，用户甚至不需要知道他们处于高级容量中。 其仪表板和报表还会正常工作。 作为一个可视化提示，你将看到高级容量中的工作区旁有一个的菱形图标。
