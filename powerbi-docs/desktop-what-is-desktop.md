@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: overview
-ms.date: 12/06/2017
+ms.date: 07/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: be29d5879ef62ab3d7fcef271e61337a0d2fb050
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 57d5158098f6ba7b2754ae25afaca524723255f5
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289179"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39031893"
 ---
 # <a name="what-is-power-bi-desktop"></a>什么是 Power BI Desktop？
 
@@ -87,7 +87,7 @@ Power BI Desktop 的最常见用途如下：
 
 ## <a name="next-steps"></a>后续步骤
 
-若要开始使用 Power BI Desktop，首先需要想到的是下载并安装应用程序。 有两种方法可用于获取 Power BI Desktop：
+要开始使用 Power BI Desktop，首先需要下载并安装应用程序。 有两种方法可用于获取 Power BI Desktop：
 
 * [从 Web 下载 Power BI Desktop](desktop-get-the-desktop.md)
 * [通过 Windows 应用商店获取 Power BI Desktop](http://aka.ms/pbidesktopstore)

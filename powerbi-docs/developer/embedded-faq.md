@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599941"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032062"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -76,7 +76,7 @@ Power BI Embedded 是一组 API，可供开发人员在平台即服务产品中�
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |购买     |Azure 门户 |Office |Office |
-|用例 |* 在自己的应用程序中嵌入内容 |* 在自己的应用程序中嵌入内容<br>* 与 PowerBI.com 外部的 Power BI（免费）用户共享内容，并嵌入其他 SaaS 应用程序（SharePoint、[Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)） |* 在自己的应用程序中嵌入内容<br>* 与 PowerBI.com 外部的 Power BI（免费）用户共享内容，并嵌入其他 SaaS 应用程序（SharePoint，Teams）<br>* 通过 PowerBI.com 与 Power BI（免费）用户共享内容  |
+|用例 |* 在自己的应用程序中嵌入内容 |* 在自己的应用程序中嵌入内容<br>* 在其他 SaaS 应用程序（[SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)）中嵌入内容 |* 在自己的应用程序中嵌入内容<br>* 在其他 SaaS 应用程序（[SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)）中嵌入内容<br>* 通过 [Power BI 服务](https://powerbi.microsoft.com/en-us/)与 Power BI 用户共享内容  |
 |账单 |每小时 |每月 |每月 |
 |承诺  |无承诺 |每年  |每月/每年 |
 |区别 |全弹性 - 可以在 Azure 门户中或通过 API 纵向/横向扩展、暂停/恢复资源  |可用于在 SharePoint Online 和 Microsoft Teams 中嵌入内容 |合并嵌入在应用程序中并在相同的容量中使用 Power BI 服务 |

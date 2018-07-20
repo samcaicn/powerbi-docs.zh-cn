@@ -10,15 +10,17 @@ ms.topic: conceptual
 ms.date: 12/05/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e15983bf754a2fc1e2fe9ae376eedbed36e20ce4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9777131c25974a2bc9936ef1c1ce285bb652028c
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298771"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032016"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>本地数据网关的高可用性群集
-可以创建“本地数据网关”安装项目的“高可用性群集”，确保组织能够访问 Power BI 报表和仪表板中使用的本地数据资源。 网关管理员可通过此类群集将网关分组，以避免访问本地数据资源时出现单一故障点。 本文介绍创建本地数据网关的高可用性群集时可以执行的步骤，并分享有关设置此类群集的最佳做法。 高可用性网关群集要求对本地数据网关应用 2017 年 11 月更新或更高版本。
+可以创建“本地数据网关”安装项目的“高可用性群集”，确保组织能够访问 Power BI 报表和仪表板中使用的本地数据资源。 网关管理员可通过此类群集将网关分组，以避免访问本地数据资源时出现单一故障点。 Power BI 服务始终使用群集中的主网关，除非该网关不可用。 在这种情况下，该服务将切换到群集中的下一个网关，依次类推。
+
+本文介绍创建本地数据网关的高可用性群集时可以执行的步骤，并分享有关设置此类群集的最佳做法。 高可用性网关群集要求对本地数据网关应用 2017 年 11 月更新或更高版本。
 
 
 ## <a name="setting-up-high-availability-clusters-of-gateways"></a>设置网关的高可用性群集

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34553556"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032039"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>使用报表 Web 部件在 SharePoint Online 中嵌入报表
 
@@ -84,7 +84,7 @@ ms.locfileid: "34553556"
 > [!IMPORTANT]
 > 请务必在 Power BI 中检查哪些人员可以查看报表，然后向未列出的人员授予访问权限。
 
-在 Power BI 服务中授予报表访问权限的方法有两种。 若要使用 Office 365 组生成 SharePoint Online 团队网站，请在 Power BI 服务中将用户列为应用工作区的成员。 这样就能确保用户可以查看相应组的内容。 有关详细信息，请参阅[在 Power BI 中创建和分发应用](service-create-distribute-apps.md)。
+在 Power BI 服务中授予报表访问权限的方法有两种。 若要使用 Office 365 组生成 SharePoint Online 团队网站，请在 Power BI 服务和 SharePoint 页中将用户列为应用工作区的成员。 这样就能确保用户可以查看相应组的内容。 有关详细信息，请参阅[在 Power BI 中创建和分发应用](service-create-distribute-apps.md)。
 
 或者，可以按下列步骤来授予用户报表访问权限。
 
@@ -129,7 +129,7 @@ Power BI Web 部件中可能无法加载报表，并显示以下消息。
 
 ## <a name="known-issues-and-limitations"></a>已知问题和限制
 
-* **错误：“出错，请尝试注销并重新登录，然后重新访问此页。相关 ID:未定义; http 响应状态: 400;服务器错误代码: 10001;消息:缺少刷新令牌”**
+* 错误：“出错，请尝试注销并重新登录，然后重新访问此页。 相关 ID: 未定义; http 响应状态: 400; 服务器错误代码: 10001; 消息: 缺少刷新令牌”
   
   如果看到此错误，请尝试执行下列一项操作。
   
@@ -154,5 +154,4 @@ Power BI Web 部件中可能无法加载报表，并显示以下消息。
 [与同事和其他人共享仪表板](service-share-dashboards.md)  
 [Power BI Premium 有哪些特权？](service-premium.md)  
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/) 
-
+更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
