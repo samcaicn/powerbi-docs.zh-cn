@@ -1021,7 +1021,9 @@
             - name: 借助 Power BI API 可以做什么？
               href: developer/overview-of-power-bi-rest-api.md
         - name: 教程
-          items: null
+          items:
+            - name: 将数据推送到数据集
+              href: developer/walkthrough-push-data.md
         - name: 概念
           items:
             - name: 实时数据的自动保留策略
@@ -1036,8 +1038,6 @@
                   href: developer/api-data-model-versioning.md
         - name: 操作方法
           items:
-            - name: 将数据推送到数据集
-              href: developer/walkthrough-push-data.md
             - name: 将应用注册到 Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: 获取身份验证访问令牌
