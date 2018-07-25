@@ -577,8 +577,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 * 我们非常高兴地宣布我们将发布 Power BI 的通用版本 (GA)。 立即注册 [Power BI Pro](service-self-service-signup-for-power-bi.md)。 作为 GA 版的一部分，我们将提供一些出色的新功能：
 * 全新的可视化效果和报表创建体验：新的报表画布可选择更多可视化效果，能更好地控制标题、图例、坐标轴、颜色、背景等的格式设置。
-* 
-  [Power BI 组](service-create-distribute-apps.md)：组功能可提供以 Office 365 组为基础的强大的协作体验。
+* [Power BI 组](service-create-distribute-apps.md)：组功能可提供以 Office 365 组为基础的强大的协作体验。
 * [组织内容包](service-organizational-content-pack-introduction.md)：Power BI 使仪表板和报表的创建变得非常简单，现在用户可以将此内容发布到组织内容库。
 * [引入整个 Excel 文件](service-excel-workbook-files.md)：你可以将存储在 OneDrive for Business 上的任何 Excel 工作簿引入 Power BI，并查看整个工作簿，就像在 Excel Online 中一样。
 * [引入 CSV 文件](service-get-data-from-files.md)：和 Excel 或 Power BI Desktop 文件一样，逗号分隔值文本文件 (CSV) 也可以是 Power BI 仪表板和报表的数据集。
@@ -588,8 +587,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 **2015 年 7 月 14 日**
 
 * Acumatica 云 ERP 提供了由强大而灵活的平台支持的一系列完全集成的业务管理应用，如财务、分配、CRM 和项目记帐。 通过 Power BI [Acumatica 内容包](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)可以快速连接并深入了解商机数据。 此内容包包括现成的仪表板、一组报表和一个策展数据集，用于浏览并提供详细信息，如按日期的赢得的商机总数。 在[此处](service-connect-to-acumatica.md)阅读更多信息。 
-* 
-  [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) 现在提供完全托管的 Spark 服务。 此功能允许迭代机器学习和交互式数据分析等场景。 Power BI 允许你直接连接到提供简单和实时浏览的 HDInsight 上的 Spark 中的数据。 阅读我们的[帮助文档](spark-on-hdinsight-with-direct-connect.md)以了解更多信息。
+* [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) 现在提供完全托管的 Spark 服务。 此功能允许迭代机器学习和交互式数据分析等场景。 Power BI 允许你直接连接到提供简单和实时浏览的 HDInsight 上的 Spark 中的数据。 阅读我们的[帮助文档](spark-on-hdinsight-with-direct-connect.md)以了解更多信息。
 * [Office 365 导航和应用程序启动器集成](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher)。 现在只需单击一下就可以导航到所有 Office 365 应用程序。
 * [指定用户单击磁贴时导航到的自定义 URL](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url)。 现在你可以准确控制用户转至的位置：特定报表、其他仪表板、SSRS 报表或外部网站。 
 * [Power BI 中你使用的存储的可见性和管理](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)
@@ -607,8 +605,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 * 将 Power BI Desktop 文件上载到 Power BI 服务后可以[刷新](http://blogs.msdn.com/b/powerbi/archive/2015/06/22/announcing-refresh-support-for-power-bi-designer-files-in-the-power-bi-service.aspx)（计划刷新和立即刷新）该文件。
 * 自 12 月以来我们发布了 Power BI 的最重大的可视化变更：更清晰、更简单的[获取数据](http://blogs.msdn.com/b/powerbi/archive/2015/06/23/the-new-get-data-experience.aspx)功能体验。  现在当你单击“获取数据”时，将显示单个屏幕，其中包括一组可供选择的类别。 这样你可以更加容易地找到对你很重要的内容。
-* 
-  [Azure SQL 数据仓库](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx)具有灵活的伸缩性，并且可进行大规模的并行处理。 在今天宣布的有限公共预览版中，Power BI 允许你直接连接到 Azure SQL 数据仓库中存储的数据，以便进行简单而动态的数据浏览。 创建到数据仓库的连接后，将在你浏览数据时实时生成查询，并将查询发送回源。 这样你无需创建并上载自定义数据模型，并且可以交互的方式浏览数据。
+* [Azure SQL 数据仓库](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx)具有灵活的伸缩性，并且可进行大规模的并行处理。 在今天宣布的有限公共预览版中，Power BI 允许你直接连接到 Azure SQL 数据仓库中存储的数据，以便进行简单而动态的数据浏览。 创建到数据仓库的连接后，将在你浏览数据时实时生成查询，并将查询发送回源。 这样你无需创建并上载自定义数据模型，并且可以交互的方式浏览数据。
 
 **2015 年 6 月 16 日**
 
