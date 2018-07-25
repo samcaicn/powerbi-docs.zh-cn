@@ -530,6 +530,12 @@
       items:
         - name: 最新 Power BI Desktop 更新中有哪些新增功能？
           href: desktop-latest-update.md
+        - name: Power BI Desktop 中的复合模型（预览）
+          href: desktop-composite-models.md
+        - name: Power BI Desktop 中的多对多关系（预览）
+          href: desktop-many-to-many-relationships.md
+        - name: Power BI Desktop 中的存储模式（预览）
+          href: desktop-storage-mode.md
         - name: 在 Power BI Desktop（预览版）中进行双向交叉筛选
           href: desktop-bidirectional-filtering.md
         - name: Power BI 和 DirectQuery
@@ -670,6 +676,8 @@
               href: desktop-import-and-display-kpis.md
         - name: 创建报表
           items:
+            - name: 报表的视觉对象元素
+              href: desktop-visual-elements-for-reports.md
             - name: Power BI Desktop 中的问答
               href: desktop-qna-in-reports.md
             - name: Power BI Desktop 中的分析窗格
@@ -1244,6 +1252,8 @@
               href: service-premium-large-datasets.md
             - name: 增量刷新
               href: service-premium-incremental-refresh.md
+            - name: 多地理位置支持（预览）
+              href: service-admin-premium-multi-geo.md
             - name: Power BI Premium 常见问题解答
               href: service-premium-faq.md
             - name: Power BI Premium 发行说明
