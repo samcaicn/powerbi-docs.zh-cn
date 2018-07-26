@@ -10,7 +10,7 @@
 
 请记住，每次在 DAX 表达式中引用变量时，Power BI 必须根据定义重新计算它的值。 因此，在函数中避免使用重复变量是一个好做法。
 
-> 视频内容由 [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) 提供
+> 视频内容由 [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax) 提供
 > 
 > 
 

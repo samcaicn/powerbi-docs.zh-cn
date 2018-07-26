@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a656866b1c9cdc0d1eb83b67c0edf79c182d1a71
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 596d399e7c304d40be5b7839c5c16060eb9e8155
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244424"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39255966"
 ---
 # <a name="azure-and-power-bi"></a>Azure 和 Power BI
 借助“Azure”服务和“Power BI”，你可以将数据处理工作转换为可以提供实时业务策略的分析和报告。 无论你处理的数据基于云还是位于本地、简单还是复杂、采用单一来源还是大量混合来源、封存还是实时的，Azure 和 Power BI 提供的内置连接和集成都可以使你的商业智能努力成为现实。
@@ -52,7 +52,7 @@ Power BI 拥有多种 Azure 连接可用，而且使用这些服务创建的商�
 ### <a name="connect-your-app-data-using-power-bi-apis"></a>使用 Power BI API 连接应用程序数据
 你还可以在现有的应用程序中使用 Power BI 来获取策略。 借助 Power BI API，应用程序开发人员可以将全部数据集以编程的方式发送到 Power BI。 需要持续更新？ 借助 Power BI API，开发人员可以发送实时数据更新以快速启动，然后根据规模需求，转为使用 Azure 流分析。
 
-在 [Power BI 开发人员门户](http://dev.powerbi.com)中查看 Power BI API 的详细信息。 你还可以通过 [Power BI 开发人员博客](http://blogs.msdn.com/powerbidev)了解其他人利用 Power BI 以编程方式进行的操作。 还有一个网页专门致力于[帮助你实现 Power BI 研发快速入门](https://msdn.microsoft.com/library/dn889824.aspx)。
+在 [Power BI 开发人员门户](http://dev.powerbi.com)中查看 Power BI API 的详细信息。 
 
 ### <a name="what-could-you-do-with-azure-and-power-bi"></a>Azure 和 Power BI 可以用来做什么？
 **Azure** 和 **Power BI** 可以在各种场景下组合，其可能性和机遇与你的业务一样独一无二。 有关“Azure 服务”的详细信息，请查看此[概览页](http://go.microsoft.com/fwlink/?LinkId=535031&clcid=0x409)，其中会介绍**使用 Azure 的数据分析场景**，并可以了解如何将数据源转换为推动业务的信息。

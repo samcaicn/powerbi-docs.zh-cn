@@ -57,7 +57,7 @@
 * 新的度量值名称
 * 至少一个函数或表达式
 
-> 视频内容由 [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) 提供
+> 视频内容由 [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax) 提供
 > 
 > 
 

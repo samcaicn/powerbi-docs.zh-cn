@@ -34,7 +34,7 @@ Power BI 报表生成人员想要回答的一个常见问题是：
 
 你还可以使用 DAX 函数创建整个计算表。 使用 DAX 创建的计算表要求有一个**名称**和一个**表**函数。 计算的表的使用，包括建立关系，和任何其他表一样。
 
-> 视频内容由 [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) 提供
+> 视频内容由 [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax) 提供
 > 
 > 
 

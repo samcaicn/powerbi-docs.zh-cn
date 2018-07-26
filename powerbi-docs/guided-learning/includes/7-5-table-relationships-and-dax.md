@@ -15,7 +15,7 @@ DAX 具有让你可以与建立了关系的表进行互动的**关系函数**。
 
 你可以使用关系函数生成包含跨多个表的值的表达式。 DAX 将返回这些函数的一个结果，而不会考虑关系链的长度。
 
-> 视频内容由 [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) 提供
+> 视频内容由 [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax) 提供
 > 
 > 
 

@@ -89,7 +89,7 @@ DAX 包含以下**日期**函数：
 
 尽管这些函数对于从日期值中计算和提取信息很有用，但它们并不适用于使用日期表的时间智能。
 
-> 视频内容由 [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) 提供
+> 视频内容由 [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax) 提供
 > 
 > 
 
