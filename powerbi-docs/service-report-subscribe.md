@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 0b1aa1f9cdabc3508906cc87a4d41f277cd0b0b6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 9436f94add8c8aff4d0378734c83891ef407955d
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092681"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256069"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service-apppowerbicom"></a>在 Power BI 服务 (app.powerbi.com) 中订阅报表或仪表板
 现在，及时更新最重要的仪表板和报表，比以前更加轻松。 为自己和同事订阅最重要的报表页和仪表板，Power BI 将通过电子邮件将快照发送到收件箱。 告知 Power BI 所需的电子邮件接收频率：从每天一次到每周一次。 
@@ -83,8 +83,10 @@ ms.locfileid: "37092681"
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 * 对于仪表板电子邮件说明，如果任何磁贴应用了行级别安全性 (RLS)，则不会显示这些磁贴。  对于报表电子邮件说明，如果数据集使用 RLS，则无法创建订阅。
 * 报表页订阅与报表页面的名称是相关联的。 如果你订阅一个报表页，而后将其重命名，则必须重新创建订阅
+* 为其他用户订阅时，当前不支持使用实时连接数据集的报表和仪表板的电子邮件订阅。
 * 对于实时连接数据集上的电子邮件订阅，你只会在数据更改时收到电子邮件。 因此，如果发生刷新但没有数据更改，Power BI 不会向你发送电子邮件。
 * 电子邮件订阅不支持大多数[自定义视觉对象](power-bi-custom-visuals.md)。  已经过[认证](power-bi-custom-visuals-certified.md)的自定义视觉对象除外。  
+* 目前电子邮件订阅不支持 R 驱动的自定义视觉对象。  
 * 如果任何仪表板磁贴应用了行级别安全性 (RLS)，则不会显示这些磁贴。
 * 如果报表应用了行级别安全性 (RLS)，则无法为其他用户创建订阅。
 * 电子邮件订阅与报表的默认筛选器和切片器状态一起发送。 在订阅后对默认设置所做的任何更改都不会显示在电子邮件中。    

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/19/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3c91a6a70899a4a59c3d98cd9ab948284df5b662
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 144cdace662b5f6dbe546a213e07f087d634dcff
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298380"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256000"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI 中颜色格式设置的提示和技巧
 Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介绍了一些技巧，可以让你的 Power BI 可视化效果更引人注目、生动有趣，并可根据你的需求进行自定义。
@@ -97,7 +97,7 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_12.png)
 
-现在我们来看如果在**最小值**和**最大值**框中输入数值将会发生什么。该框位于**最小值**和**最大值**颜色选择器的下方。（如下图所示）） 我们将**最小值**设置为 20,000,000，并将**最大值**设置为 20,000,000。
+现在我们来看如果在**最小值**和**最大值**框中输入数值将会发生什么。该框位于**最小值**和**最大值**颜色选择器的下方。（如下图所示）） 我们将最小值设置为 20,000,000，并将最大值设置为 20,000,001。
 
 设置这两个值后，渐变将不再应用于图表上低于**最小值**或高于**最大值**的值；任何高于**最大值**的条形图都会以绿色显示，并且任何低于**最小值**的条形如都会以红色显示。
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 94f4bf71f0b97b202ce05f1caadee43ccea6a733
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: f7c619a5696a6f432f24e5e2c875cfde335ab32c
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135918"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256046"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
@@ -58,7 +58,7 @@ Azure 分布在多个云中。 默认情况下，租户可以打开对云专属�
 * **Power BI 美国政府版**仅可用作 **Pro** 许可证。 在管理门户中（或作为用户）对 Power BI（免费版）许可证的所有引用均在商业版 Power BI 服务云中运行。
 * **审核** - 自 2018 年 6 月起，可通过 Office 365 安全与合规门户进行审核。
 * **Cortana 中的 Power BI 内容** - Power BI 结果不会显示在 Cortana 搜索结果中，包括 Power BI 内容（仪表板、报表、应用）结果，以及显示特定关键字的 Cortana 优化报表页的结果。
-* **外部用户共享** - 允许在 Power BI 租户内共享；自 2018 年 6 月起，也可与 Power BI 租户外部用户共享。
+* **外部用户共享** - 允许在 Power BI 租户内共享；自 2018 年 6 月起，也可与 Power BI 租户外部用户共享。 请参阅[使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户](service-admin-azure-ad-b2b.md)。
 * **仪表板和报表的使用情况指标** - 使用情况指标不适用于报表和仪表板。 客户可以使用审核日志数据，获取其组织内的内容的使用情况信息。
 
 如果已将 **Power BI** 免费版许可证分配给你的帐户，则这些帐户将在 **Power BI** 服务的商业版中运行，而不属于 **Power BI 美国政府版**产品/服务的组成部分。 对于这些免费版帐户，可能会遇到以下问题：
