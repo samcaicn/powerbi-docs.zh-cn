@@ -35,7 +35,7 @@ ms.locfileid: "37137004"
 3. 选择 **Microsoft Dynamics Marketing** \> **获取**。
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. 提供与你的帐户相关联的 OData URL。  应采用“https://[instance\_name].marketing.dynamics.com/analytics”形式。
+4. 提供与你的帐户相关联的 OData URL。  应采用 “https:// [instance\_name].marketing.dynamics.com/analytics” 形式。
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. 出现提示时，请提供凭据（如果你已使用了浏览器登录，则可跳过此步骤）。 对于身份验证方法，输入 **oAuth2**，然后单击**登录**：
@@ -54,7 +54,7 @@ ms.locfileid: "37137004"
 
 ## <a name="system-requirements"></a>系统要求
 * 需要为 Dynamics Marketing 实例指定有效的 OData URL（此内容包对于本地 CRM 版本无效）。  
-* 管理员必须启用站点设置中的 OData 终结点。 在**组织数据服务**部分中，导航到**开始 \> 设置 \> 站点设置**，可以找到 OData 终结点的地址。  OData URL 的格式为：https://[instance\_name].marketing.dynamics.com/analytics  
+* 管理员必须启用站点设置中的 OData 终结点。 在**组织数据服务**部分中，导航到**开始 \> 设置 \> 站点设置**，可以找到 OData 终结点的地址。  OData URL 的格式为： https:// [instance\_name].marketing.dynamics.com/analytics  
 * 用于访问 Microsoft Dynamics Marketing 的用户帐户/身份必须与注册用于 Power BI 的用户帐户/身份一致。 登录 Microsoft Dynamics Marketing 时，使用用于 Power BI 的相同身份自动登录。 若希望使用其他帐户登录 Microsoft Dynamics Marketing，请先使用该帐户注册为 Power BI 用户。 我们希望在即将发布的版本中解决此问题。   
 
 ## <a name="troubleshooting"></a>故障排除
