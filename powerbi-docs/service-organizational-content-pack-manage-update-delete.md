@@ -7,15 +7,15 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 07/19/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34852293"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182785"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和删除组织内容包
 > [!NOTE]
@@ -52,7 +52,7 @@ ms.locfileid: "34852293"
 4. 在**更新内容包**窗口中进行任何所需更改，然后选择**更新**。 将显示**成功**消息。
    
    * 对于未自定义内容包的组成员，将自动应用更新。
-   * 已自定义内容包的组成员将收到有新版本的通知。  他们可以转到 AppSource，并获取更新后的内容包，而不会丢失个性化版本。  他们现将具有 2 个版本：个性化版本和更新的内容包。  在个性化版本中，来自原始内容包的所有磁贴将消失。  但仍将呈现固定自其他报表的磁贴。    
+   * 已自定义内容包的组成员将收到有新版本的通知。  他们可以转到 AppSource，并获取更新后的内容包，而不会丢失个性化版本。  他们现将具有 2 个版本：个性化版本和更新的内容包。  在个性化版本中，来自原始内容包的所有磁贴将消失。  但仍将呈现固定自其他报表的磁贴。 然而，一旦内容包所有者删除内容包所基于的数据集，则整个报表将消失。  
 
 ## <a name="update-the-audience-expand-or-restrict-access"></a>更新受众：扩展或限制访问权限
 内容包创建者可进行另一种修改，即扩展和限制对内容包的访问权限。  也许你将内容包发布到了广泛的受众，又决定将访问权限限制于一个较小的组。  

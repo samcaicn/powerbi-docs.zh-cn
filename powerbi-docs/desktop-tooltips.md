@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34232099"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210321"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>根据 Power BI Desktop（预览版）中的报表页创建工具提示
 根据 Power BI Desktop 中创建的报表页，可创建直观丰富的报表工具提示，这些提示在你将鼠标悬停在视觉对象上时显示。 通过创建用作工具提示的报表页，使自定义工具提示包含视觉对象、图像以及在报表页中创建的项的所有其他集合。 
@@ -119,6 +119,7 @@ ms.locfileid: "34232099"
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 在这款报表工具提示预览版中需注意以下一些限制和事项。
 
+* 自 2018 年 7 月发布“Power BI Desktop”以来，工具提示支持表和矩阵视觉对象。 
 * 在移动应用或嵌入式环境（包括“发布到 Web”）中查看报表时，不支持报表工具提示。 
 * 自定义视觉对象不可使用报表工具提示。 
 * 当前不支持将群集作为可在报表工具提示中显示的字段。 

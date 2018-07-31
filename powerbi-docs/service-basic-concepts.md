@@ -8,15 +8,15 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0536dc6fd637db07c0e26a4ed7f0da1071b646eb
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: a1719f8a6f9f4ad3989aa498c584b337cd9fdd00
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137413"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182739"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI 服务的基本概念
 
@@ -48,9 +48,9 @@ Power BI 服务 UI 的主要功能如下：
 Power BI 的 4 个主要构建基块包括：仪表板、报表和工作簿和数据集。 这些基块一起组织成工作区。 在深入了解 4 个构建基块之前，我们必须先了解工作区。 
 
 ## <a name="workspaces"></a>工作区
-工作区是 Power BI 中仪表板、报表、工作簿和数据集的容器。 有两种类型的工作区：*“我的工作区”和应用工作区。 什么是应用？ Power BI 应用是仪表板和报表的集合，生成应用的目的是为组织提供关键指标。 应用是交互性的，但不可编辑 
+工作区是 Power BI 中仪表板、报表、工作簿和数据集的容器。 有两种类型的工作区：“我的工作区”和“应用工作区”。 什么是应用？ Power BI 应用是仪表板和报表的集合，生成应用的目的是为组织提供关键指标。 应用是交互性的，但不可编辑。 
 
-- “我的工作区”是个人工作区，任何 Power BI 客户在其中处理其内容。 只有你自己才有权访问你的工作区。 如果你想要共享任何内容，可以采用多种做法：创建一个应用工作区并在其中将内容捆绑到某个应用，然后向组织中的其他人提供此内容；或者创建一个应用工作区，并向同事授予对该工作区的访问权限，以便你们可以共享内容和展开协作。     
+- “我的工作区”是个人工作区，供任何 Power BI 客户在其中处理自己的内容。 只有你自己才有权访问你的工作区。 可以从“我的工作区”共享仪表板和报表。 如果想要在仪表板和报表上展开合作或创建应用，那么你会想要在应用工作区中工作。      
 -  应用工作区用于与同事展开协作和共享内容。 也可以在其中为组织创建、发布和管理应用。 可将应用工作区视为构成 Power BI 应用的内容的暂存区域和容器。 可将同事添加到应用工作区，然后在仪表板、报表、工作簿和数据集方面进行协作。 所有应用工作区成员需要 Power BI Pro 许可证，但应用使用者（有权访问应用的同事）不一定需要 Pro 许可证。  
 
 若要了解详细信息，请参阅“目录”中的**共享工作**部分，并从[如何展开协作和共享仪表板与报表](service-how-to-collaborate-distribute-dashboards-reports.md)开始

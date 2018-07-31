@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/23/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 8f69eec2ce7273898698fb086f372daa2201eed8
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134676"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210252"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>在 Power BI Desktop（预览版）中使用见解
-可以让 Power BI Desktop 解释图表中出现的增加或减少情况，并获得有关数据的快速、自动化且深入的分析。 只需右键单击数据点，然后选择“分析”>“解释此减少情况”（或者如果前一栏较低，则选择“解释此增长情况”），就可以在易用窗口中收到见解。
+可以让“Power BI Desktop”解释图表中出现的增加或减少情况，查看图表中的分配系数并获得有关数据的快速、自动化且深入的分析。 只需右键单击数据点，然后选择“分析”>“解释此减少情况”（或者如果前一栏较低，则选择“解释此增长情况”），或“分析”>“查找此分配不同之处”，就可以在易用窗口中收到见解。
 
 ![](media/desktop-insights/insights_01.png)
 

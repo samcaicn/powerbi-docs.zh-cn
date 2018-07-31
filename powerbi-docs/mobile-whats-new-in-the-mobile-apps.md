@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
-ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
+ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "37864390"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182716"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -22,6 +22,19 @@ ms.locfileid: "37864390"
 * [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 中的新增功能](desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](service-whats-new.md)  
+
+## <a name="july-2018"></a>2018 年 7 月
+
+### <a name="ios-and-android-only"></a>仅 iOS 和 Android
+
+**共享的筛选器**
+
+现在可以接收包含共享筛选器和切片器的报表。
+
+**背景图像支持**
+
+在移动设备上以横向模式查看报表时，可以看到在 Web 上的 Power BI 中查看到的相同背景图像。
+
 
 ## <a name="june-2018"></a>2018 年 6 月
 
