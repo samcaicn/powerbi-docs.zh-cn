@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5899274ba3cc8ce0a059978a9b83ae2a7fd08527
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249496"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280446"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>应如何在 Power BI 中开展协作并进行共享？
 
@@ -75,7 +75,7 @@ Power BI 服务中的应用
 
 有关从 iOS 和 Android 移动应用[添加注释并共享磁贴、报表和视觉对象](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)的详细信息。
 
-还可以通过适用于 Windows 10 设备的 Power BI 应用[共享磁贴快照](mobile-share-tile-windows-10-phone-app.md)。
+还可以通过适用于 Windows 10 设备的 Power BI 应用[共享磁贴快照](mobile-windows-10-phone-app-get-started.md)。
 
 ## <a name="publish-to-the-web"></a>发布到 Web
 可以通过在任意设备上将交互式视觉对象嵌入到博客文章、网站、社交媒体以及其他联机交流媒介，将 Power BI 报表发布到整个 Internet。 Internet 上的任何人都可以查看你的报表，并且你无法控制谁可以查看已发布的内容。 他们不需要 Power BI 许可证。 只能将可以编辑的报表发布到 Web。 如果是与你共享的报表或者报表位于应用内部，则无法将其发布到 Web。 有关[发布到 Web](service-publish-to-web.md) 的详细信息。

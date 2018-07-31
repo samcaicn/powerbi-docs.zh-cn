@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: c70a5c50a139423f6c5e69ed6ec9a416dfae8b4e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bb628f0cc6f723a195f3b90e6d20f4018d9f2709
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295252"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39279840"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>在 Power BI 移动应用中批注并共享磁贴、报表或视觉对象
 适用于：
@@ -31,7 +31,7 @@ ms.locfileid: "34295252"
 
 如果邮件包含磁贴、报表或视觉对象的快照，则还包括指向 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 上实际对象的链接。 如果你和你的收件人都具有 Power BI Pro 许可证并且你已与他们共享磁贴、报表或视觉对象，或该内容位于[高级容量](service-premium.md)中，则收件人可以单击该链接并直接跳到共享项。 
 
-还可以[共享适用于 Windows 10 设备的 Power BI 移动应用中的磁贴](mobile-share-tile-windows-10-phone-app.md)，但不能批注。
+还可以[共享适用于 Windows 10 设备的 Power BI 移动应用中的磁贴](mobile-windows-10-phone-app-get-started.md)，但不能批注。
 
 ## <a name="open-a-tile-for-annotating"></a>打开用于批注的磁贴
 1. 点击该磁贴以在焦点模式中将其打开。

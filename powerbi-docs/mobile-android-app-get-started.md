@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: ba6b8cb1ade1337a29e758a16db285dbea7c41db
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136516"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280170"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 设备上的 Power BI 移动应用入门
 Android 版 Microsoft Power BI 移动应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 
@@ -86,7 +86,7 @@ Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 
     默认情况下它将搜索所有仪表板和报表，但你可以仅搜索一个或另一个。
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查找内容
-仪表板和报表将存储在 Power BI 移动应用的不同位置，具体取决要于它们原来所在的位置。 了解如何[在移动应用中查找内容](mobile-apps-find-content-mobile-devices.md)。 此外，可以始终在 Power BI 移动应用中搜索你所拥有的内容。 
+仪表板和报表将存储在 Power BI 移动应用的不同位置，具体取决要于它们原来所在的位置。 了解如何[在移动应用中查找内容](mobile-apps-quickstart-view-dashboard-report.md)。 此外，可以始终在 Power BI 移动应用中搜索你所拥有的内容。 
 
 ![左侧导航窗格](media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 

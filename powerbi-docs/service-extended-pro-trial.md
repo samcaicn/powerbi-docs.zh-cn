@@ -103,8 +103,7 @@ Power BI Pro 没有任何更改。 2017 年 6 月 1 日及之后登陆服务的�
 不行。 管理员无法阻止用户激活延长 Pro 试用期或 Power BI Pro 的服务内 60 天试用期。
 
 ## <a name="next-steps"></a>后续步骤
-
-  [延长 Pro 试用期优惠的条款和条件](https://aka.ms/power-bi-trial)  
+[延长 Pro 试用期优惠的条款和条件](https://aka.ms/power-bi-trial)  
 [适用于个人用户的 Power BI 服务协议](https://powerbi.microsoft.com/terms-of-service/)  
 [Power BI Premium 公告](https://aka.ms/pbipremium-announcement)  
 [查找已登录的 Power BI 用户](service-admin-access-usage.md)

@@ -29,7 +29,7 @@ ms.locfileid: "34721446"
 自定义视觉对象可以采用 3 种部署形式：
 * 自定义视觉对象文件
 * 组织视觉对象
-* 商城视觉对象
+* 市场视觉对象
 
 ## <a name="custom-visual-files"></a>自定义视觉对象文件
 
@@ -46,15 +46,15 @@ Power BI 管理员可以将自定义视觉对象部署到他们的组织中，�
 
 若要详细了解组织自定义视觉对象，请[详细了解组织视觉对象](power-bi-custom-visuals-organization.md)。
 
-## <a name="marketplace-visuals"></a>商城视觉对象
+## <a name="marketplace-visuals"></a>市场视觉对象
 
-社区成员以及 Microsoft 已经将自定义视觉对象公开发布到 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) 商城。 可以下载这些视觉对象，并将它们添加到 Power BI 报表。 所有这些自定义视觉对象都已经过测试并通过 Microsoft 的功能和质量批准。
+社区成员以及 Microsoft 已经将自定义视觉对象公开发布到 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) 市场。 可以下载这些视觉对象，并将它们添加到 Power BI 报表。 所有这些自定义视觉对象都已经过测试并通过 Microsoft 的功能和质量批准。
 
 什么是 AppSource？ 简而言之，可以在其中查找 Microsoft 软件的应用、加载项和扩展。 [AppSource](https://appsource.microsoft.com/en-us/) 为 Office 365、Azure、Dynamics 365、Cortana 和 Power BI 等产品的数百万用户提供解决方案，帮助他们更高效、更有见地或更为完美地完成工作。
 
 ### <a name="certified-visuals"></a>已认证的视觉对象
 
-Power BI 取得认证的视觉对象是已通过其他严格质量测试的商城视觉对象，支持用于其他情形，如[电子邮件订阅](https://docs.microsoft.com/power-bi/service-report-subscribe)和[导出到 PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint)。
+Power BI 取得认证的视觉对象是已通过其他严格质量测试的市场视觉对象，支持用于其他情形，如[电子邮件订阅](https://docs.microsoft.com/power-bi/service-report-subscribe)和[导出到 PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint)。
 若要查看已认证的自定义视觉对象列表或提交你自己的自定义视觉对象，请参阅[已认证的自定义视觉对象](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified)。
 
 你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 AppSource 感兴趣吗？ 请参阅[开发人员工具入门](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools)，了解如何[将自定义视觉对象发布到 AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)。
@@ -79,7 +79,7 @@ Power BI 取得认证的视觉对象是已通过其他严格质量测试的商�
 
     ![](media/power-bi-custom-visuals/power-bi-visual-org-01.png)
 
-2. 在下拉列表中，选择“从商城导入”。
+2. 在下拉列表中，选择“从市场导入”。
 
     ![](media/power-bi-custom-visuals/power-bi-visual-org-02.png)
 
@@ -104,7 +104,7 @@ Power BI 取得认证的视觉对象是已通过其他严格质量测试的商�
 
     ![](media/power-bi-custom-visuals/power-bi-visualizations2.png)
 
-2. 在下拉列表中，选择“从商城导入”。
+2. 在下拉列表中，选择“从市场导入”。
 
     ![](media/power-bi-custom-visuals/power-bi-visual-org-02.png)
 

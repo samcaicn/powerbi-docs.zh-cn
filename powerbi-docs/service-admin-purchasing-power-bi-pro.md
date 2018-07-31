@@ -41,7 +41,7 @@ Power BI Pro 是单个许可证，允许访问 Power BI 服务中的所有内容
 
     ![订阅](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-02.png)
 
-4. 找到所需的订阅产品/服务：
+4. 找到所需的订阅套餐：
 
     在“企业套件”下选择“Office 365 企业版 E5”。
 

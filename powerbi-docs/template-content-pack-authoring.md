@@ -22,8 +22,7 @@ ms.locfileid: "39157293"
 * 查询功能允许你[连接](desktop-connect-to-data.md)和[转换](desktop-query-overview.md)数据，以及定义[参数](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)  
 * 用于创建[关系](desktop-create-and-manage-relationships.md)、[度量值](desktop-measures.md)和问题解答的改进的数据模型  
 * 报表[页](desktop-report-view.md)中包括视觉对象和筛选器，以帮助洞察你的数据  
-* 
-  [仪表板](service-dashboards.md)和[磁贴](service-dashboard-create.md)提供对内含见解的概览  
+* [仪表板](service-dashboards.md)和[磁贴](service-dashboard-create.md)提供对内含见解的概览  
 
 你可能熟悉其中每个部分（作为现有 Power BI 功能）。 在生成内容包时，还需考虑其中每个方面的其他一些事项。请参阅下一节了解有关详细信息。
 

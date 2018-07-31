@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 1700d5bb6a3c17b0a76e6cf04155050a01136e96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 9e5d878b676159db7990af983f53ce813ac44441
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136540"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280239"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 设备上的 Power BI 移动应用入门
 iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 在你的 [Apple Watch](mobile-apple-watch.md) 上保持最新的数据。  
@@ -73,11 +73,11 @@ iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 
    ![Power BI 移动应用中的 Reporting Services 示例](media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查找内容
-仪表板和报表将存储在 Power BI 移动应用的不同位置，具体取决要于它们原来所在的位置。 了解如何[在移动应用中查找内容](mobile-apps-find-content-mobile-devices.md)。 此外，可以始终在 Power BI 移动应用中搜索你所拥有的内容。 
+仪表板和报表将存储在 Power BI 移动应用的不同位置，具体取决要于它们原来所在的位置。 了解如何[在移动应用中查找内容](mobile-apps-quickstart-view-dashboard-report.md)。 此外，可以始终在 Power BI 移动应用中搜索你所拥有的内容。 
 
 ![左侧导航窗格](media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
-详细了解如何[在移动应用中查找内容](mobile-apps-find-content-mobile-devices.md)。
+详细了解如何[在移动应用中查找内容](mobile-apps-quickstart-view-dashboard-report.md)。
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>查看你收藏的仪表板、KPI 和报表
 移动应用中的“收藏夹”页上显示了你收藏的所有 Power BI 仪表板，以及 Power BI 报表服务器/Reporting Services KPI 和报表。 在 Power BI 移动应用中收藏某个仪表板后，可以从所有设备（包括浏览器中的 Power BI 服务）中访问该仪表板。 

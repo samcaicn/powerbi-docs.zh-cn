@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: ae6c7ba3603136aeea3daa412595b9f42ed13d6a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eb0d584e2383e1b878cfc26739e77d4e50d70a0f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286902"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280469"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>在适用于移动应用的 Power BI Desktop 中标记条形码
 在 Power BI Desktop 中，你可以针对列进行[数据分类](desktop-data-categorization.md)，以便 Power BI Desktop 知道如何处理报表中可视化对象的值。 此外还可将列分类为**条形码**。 当你或你的同事通过 iPhone [使用 Power BI 应用扫描产品上的条形码](mobile-apps-scan-barcode-iphone.md)时，你将看到所有包含此条形码的报表。 在移动应用中打开报表时，Power BI 将自动筛选报表中与该条形码相关的数据。
@@ -27,7 +27,7 @@ ms.locfileid: "34286902"
 4. 在“报表”视图中，将此字段添加到要通过条形码筛选的视觉对象。
 5. 保存报表并将其发布到 Power BI 服务。
 
-现在当你打开 [iPhone 的 Power BI 应用](mobile-ios-ipad-iphone-apps.md)上的扫描器并扫描条形码时，你将在报表列表上看到此报表。 当你打开报表时，将按你扫描的产品条形码筛选报表的视觉对象。
+现在当你打开 [iPhone 的 Power BI 应用](mobile-iphone-app-get-started.md)上的扫描器并扫描条形码时，你将在报表列表上看到此报表。 当你打开报表时，将按你扫描的产品条形码筛选报表的视觉对象。
 
 ## <a name="supported-barcode-formats"></a>受支持的条形码格式
 如果你可以将以下条形码标记在 Power BI 报表中，Power BI 将可识别它们： 

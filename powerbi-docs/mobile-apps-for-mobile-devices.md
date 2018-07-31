@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/26/2018
 ms.author: maggies
 ms.custom: ''
-ms.openlocfilehash: 4a3b5aec179eb9436f1d8ed8a58bcf97906e1c1f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75f64de25799488d85b4f9938fa134d0d277f222
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294700"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280032"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>什么是 Power BI 移动应用？
 Power BI 提供一组适用于 iOS、Android 和 Windows 10 移动设备的移动应用。 在移动应用中，可连接到云和本地数据并与之进行交互。 
@@ -42,6 +42,6 @@ Power BI 提供一组适用于 iOS、Android 和 Windows 10 移动设备的移�
 详细了解[如何使用 Microsoft Intune 配置适用于 Android 和 iOS 的 Power BI 移动应用](service-admin-mobile-intune.md)。 
 
 ## <a name="next-steps"></a>后续步骤
-[在移动应用中查看仪表板](mobile-apps-find-content-mobile-devices.md)
+[在移动应用中查看仪表板](mobile-apps-quickstart-view-dashboard-report.md)
 
 

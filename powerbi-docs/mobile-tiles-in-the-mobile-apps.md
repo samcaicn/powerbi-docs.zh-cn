@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598596"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280124"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览磁贴
 适用于：
@@ -92,7 +92,7 @@ ms.locfileid: "37598596"
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10tileellpslink.png)
    
-    [共享磁贴的快照](mobile-share-tile-windows-10-phone-app.md)。
+    [共享磁贴的快照](mobile-windows-10-phone-app-get-started.md)。
    
     点击“打开报表”![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) 以[查看基础报表](mobile-reports-in-the-mobile-apps.md)。
    
@@ -120,7 +120,7 @@ ms.locfileid: "37598596"
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    
-   点击共享快照图标 ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png) 以与他人[共享磁贴](mobile-share-tile-windows-10-phone-app.md)。   
+   点击共享快照图标 ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png) 以与他人[共享磁贴](mobile-windows-10-phone-app-get-started.md)。   
    
    点击打开报表图标 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) 以[查看磁贴所基于的报表](mobile-reports-in-the-mobile-apps.md)。 
 4. 点击后退箭头或后退按钮以关闭磁贴并返回到仪表板。
