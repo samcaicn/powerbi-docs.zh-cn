@@ -50,10 +50,8 @@ Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog
 
 还可以在网上找到其他培训选项，例如：
 
-* 
-  **edX.org** 提供免费课程[使用 Power BI 分析和直观呈现数据](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)。
-* 
-  **Lynda.com** 提供 [Power BI Pro 基础培训](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)等课程。
+* **edX.org** 提供免费课程[使用 Power BI 分析和直观呈现数据](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)。
+* **Lynda.com** 提供 [Power BI Pro 基础培训](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)等课程。
 * 查找“**从仪表板开始一天**”面对面培训会议。
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>提示 7：在 Power BI 社区中提问或搜索
