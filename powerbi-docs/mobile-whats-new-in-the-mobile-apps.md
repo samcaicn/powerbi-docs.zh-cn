@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: 7149fd43d4214ed756eff61a523805ec9f50e1ae
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182716"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280768"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -185,7 +185,7 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 
 新菜单：应用 - 应用是组织生成的仪表板和报表集合，用于交付关键指标以实现更快速方便的数据驱动型决策。
 
-详细了解[组织 Power BI 内容的方法](mobile-apps-find-content-mobile-devices.md)。
+详细了解[组织 Power BI 内容的方法](mobile-apps-quickstart-view-dashboard-report.md)。
 
 #### <a name="ios-and-android-devices"></a>iOS 和 Android 设备
 Power BI 报表服务器预览 - 在本地创建和发布 Power BI 报表。 然后，[在你的 iOS 或 Android 移动设备中查看并与之交互](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。 
@@ -241,7 +241,7 @@ Power BI 报表服务器预览 - 在本地创建和发布 Power BI 报表。 然
 现在可以同时连接最多五台 SQL Server Reporting Services (SSRS) 服务器。
 
 #### <a name="android-tablets"></a>Android 平板电脑
-现在适用于 Android 平板电脑的 Power BI 移动应用全局可用。 [Android 平板电脑上的的 Power BI](mobile-android-tablet-app-get-started.md)入门。
+现在适用于 Android 平板电脑的 Power BI 移动应用全局可用。 [Android 平板电脑上的的 Power BI](mobile-android-app-get-started.md)入门。
 
 #### <a name="ios-and-android-devices"></a>iOS 和 Android 设备
 仪表板磁贴的新菜单 - 导航到基础报表，展开该磁贴，或管理警报，所有这些操作均可直接通过仪表板磁贴上的菜单来执行。 
@@ -304,7 +304,7 @@ Apple Watch 改进
 #### <a name="android-tablets"></a>Android 平板电脑
 **适用于 Android 平板电脑的 Power BI 移动应用** 是的，现处于预览阶段。
 
-* 体验[适用于 Android 平板电脑的 Power BI 移动应用](mobile-android-tablet-app-get-started.md)
+* 体验[适用于 Android 平板电脑的 Power BI 移动应用](mobile-android-app-get-started.md)
 * [在 Android 平板电脑上浏览 Reporting Services 移动报表和 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)
 
 #### <a name="android-devices"></a>Android 设备
@@ -498,7 +498,7 @@ SQL Server 2016 移动报表和 KPI - [查看 SQL Server 2016 移动报表和 KP
 
 R 磁贴和 Web 小组件 - 在移动设备上的仪表板中查看新磁贴类型。
 
-必应仪表板 - 在 Power BI 服务中，你现在可以[使用必应搜索结果创建仪表板](service-connect-to-bing.md)，并在移动设备上查看它们。
+必应仪表板 - 在 Power BI 服务中，你现在可以[使用必应搜索结果创建仪表板](service-connect-to-services.md)，并在移动设备上查看它们。
 
 将报表页作为磁贴固定到仪表板 - 现在可以在 Power BI 服务中将整个报表页固定到仪表板，所以可以在 iPhone 或 Android 手机上的 Power BI 应用中查看报表页。
 
