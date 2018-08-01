@@ -11,10 +11,10 @@ ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
 ms.openlocfilehash: bc4dcc26ac2007e482b396139d572018c8a3acd3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 07/31/2018
 ms.locfileid: "34291894"
 ---
 # <a name="using-organization-custom-visuals-in-power-bi"></a>在 Power BI 中使用组织自定义视觉对象
@@ -55,4 +55,4 @@ ms.locfileid: "34291894"
 
 * Power BI 工作区集合不支持使用组织视觉对象
 
-* 如果来自 AppSource 商城的 Visio 视觉对象、PowerApps 视觉对象和 GlobeMap 视觉对象通过组织存储库部署，它们将不会呈现
+* 如果来自 AppSource 市场的 Visio 视觉对象、PowerApps 视觉对象和 GlobeMap 视觉对象通过组织存储库部署，它们将不会呈现
