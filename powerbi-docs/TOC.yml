@@ -1,6 +1,6 @@
 - name: 使用 Power BI
   items:
-    - name: 概述
+    - name: 概览
       items:
         - name: 什么是 Power BI？
           href: power-bi-overview.md
@@ -478,7 +478,7 @@
           href: whitepapers.md
 - name: Power BI Desktop
   items:
-    - name: 概述
+    - name: 概览
       items:
         - name: 什么是 Power BI Desktop？
           href: desktop-what-is-desktop.md
@@ -822,7 +822,7 @@
           href: desktop-admin-sign-in-form.md
 - name: Power BI 移动应用
   items:
-    - name: 概述
+    - name: 概览
       items:
         - name: 什么是移动应用？
           href: mobile-apps-for-mobile-devices.md
@@ -916,16 +916,20 @@
   items:
     - name: 嵌入式分析
       items:
-        - name: 概述
+        - name: 概览
           items:
-            - name: 使用 Power BI 嵌入
+            - name: 什么是使用 Power BI 嵌入
               href: developer/embedding.md
+            - name: Azure 中的 Power BI Embedded 是指什么
+              href: developer/azure-pbie-what-is-power-bi-embedded.md
         - name: 教程
           items:
             - name: 为客户嵌入内容
               href: developer/embed-sample-for-customers.md
             - name: 为组织嵌入内容
               href: developer/embed-sample-for-your-organization.md
+            - name: 将内容集成到主权云的应用程序
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: 概念
           items:
             - name: 行级别安全性 (RLS)
@@ -936,12 +940,8 @@
               href: developer/power-bi-permissions.md
         - name: 操作方法
           items:
-            - name: 内容的嵌入方式
-              href: developer/embedding-content.md
             - name: 如何从应用嵌入
               href: developer/embed-from-apps.md
-            - name: 将内容集成到主权云的应用程序（应用拥有数据）
-              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: 创建 Azure Active Directory 租户
               href: developer/create-an-azure-active-directory-tenant.md
             - name: 注册应用程序
@@ -950,18 +950,36 @@
               href: developer/get-azuread-access-token.md
             - name: 嵌入式常见问题解答
               href: developer/qanda.md
-            - name: 如何迁移 Power BI Embedded
-              href: developer/migrate-from-powerbi-embedded.md
             - name: 嵌入式应用程序疑难解答
               href: developer/embedded-troubleshoot.md
+            - name: 在 Azure 中管理容量
+              items:
+                - name: 在 Azure 中创建容量
+                  href: developer/azure-pbie-create-capacity.md
+                - name: 在 Azure 中扩展容量
+                  href: developer/azure-pbie-scale-capacity.md
+                - name: 在 Azure 中暂停和启动容量
+                  href: developer/azure-pbie-pause-start.md
+            - name: 从工作区集合进行迁移
+              items:
+                - name: 如何从 Power BI 工作区集合进行迁移
+                  href: developer/migrate-from-powerbi-embedded.md
+                - name: 迁移工具
+                  href: developer/migrate-tool.md
+                - name: 迁移代码片段
+                  href: developer/migrate-code-snippets.md
         - name: 参考
           items:
+            - name: API
+              items:
+                - name: Azure 资源管理器 REST API
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: Power BI REST API
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
             - name: .NET SDK 下载
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
             - name: 在应用中嵌入自定义布局
               href: developer/embedded-custom-layout.md
-            - name: 迁移代码片段
-              href: developer/migrate-code-snippets.md
         - name: 资源
           items:
             - name: 开发中心
@@ -978,15 +996,13 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: 示例
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-            - name: Power BI Embedded 迁移工具
-              href: developer/migrate-tool.md
             - name: Power BI 社区
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: Stack Overflow
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
     - name: 开发自定义视觉对象
       items:
-        - name: 概述
+        - name: 概览
           items:
             - name: 将自定义视觉对象添加到 Power BI 中
               href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/'
@@ -1028,7 +1044,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: 自动化
       items:
-        - name: 概述
+        - name: 概览
           items:
             - name: 借助 Power BI API 可以做什么？
               href: developer/overview-of-power-bi-rest-api.md
@@ -1064,8 +1080,6 @@
           items:
             - name: REST API
               href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Power BI REST API 引用
-              href: developer/rest-api-reference.md
             - name: 完整代码清单
               href: developer/walkthrough-push-data-complete-code.md
         - name: 资源
@@ -1078,7 +1092,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI 报表服务器
   items:
-    - name: 概述
+    - name: 概览
       items:
         - name: 什么是 Power BI 报表服务器？
           href: report-server/get-started.md
@@ -1180,7 +1194,7 @@
           href: report-server/capacity-planning.md
 - name: 网关
   items:
-    - name: 概述
+    - name: 概览
       items:
         - name: 什么是 Power BI 网关？
           href: service-gateway-getting-started.md
@@ -1222,13 +1236,13 @@
           href: service-gateway-onprem.md
         - name: 本地数据网关 - 深入了解
           href: service-gateway-onprem-indepth.md
-        - name: 本地数据网关（个人模型）
+        - name: 本地数据网关(个人模型)
           href: service-gateway-personal-mode.md
         - name: 本地数据网关故障排查
           href: service-gateway-onprem-tshoot.md
 - name: 管理
   items:
-    - name: 概述
+    - name: 概览
       items:
         - name: 什么是 Power BI 管理？
           href: service-admin-administering-power-bi-in-your-organization.md
