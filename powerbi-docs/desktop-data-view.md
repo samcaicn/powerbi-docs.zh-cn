@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/04/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2caa22152580d3de8c6ede585c43dedf4e624f88
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fad7b8453b6d5d29a1f6c5d9d9ed49b0a8b8a66f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813724"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280331"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop 中的数据视图
 数据视图有助于检查、浏览和了解 Power BI Desktop 模型中的数据。 它与你在**查询编辑器**中查看表、列和数据的方式不同。 在数据视图中，你所看到的数据是在将其加载到模型*之后*的样子。
@@ -46,4 +46,5 @@ ms.locfileid: "34813724"
 
 可根据列中的数据筛选各个值或使用高级筛选。 
 
-
+> [!NOTE]
+> 在与当前用户界面不同的区域性中创建 Power BI 模型时（例如，模型以美国英语创建，而你正在以西班牙语查看），除了用于搜索文本字段，搜索框不会出现在数据视图用户界面中。

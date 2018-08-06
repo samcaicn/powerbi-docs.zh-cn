@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6ac85bcaba34f705b0f21efc86ed1583e69c8c2c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721055"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280653"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>创建针对 Power BI 手机应用的优化报表
 [在 Power BI Desktop 中创建报表时](desktop-report-view.md)，通过创建专用于手机的报表版本，可以改善在手机的移动应用中使用此报表的体验。 通过重新排列和调整视觉对象（或许不包括所有视觉对象）可以为手机调整报表，以便获得最佳体验。 此外，还可以创建[响应式视觉对象](#optimize-a-visual-for-any-size)和[响应式切片器](#enhance-slicers-to-to-work-well-in-phone-reports)，它们可以流畅地重设大小，以供在手机上显示。 另外，如果向报表添加筛选器，这些筛选器会自动显示在手机报表中。 报表阅读者可以查看它们，并使用这些筛选器筛选报表。
@@ -72,7 +72,7 @@ ms.locfileid: "34721055"
   
    ![删除视觉对象](media/desktop-create-phone-report/desktop-create-phone-report-7.gif)
 
-## <a name="enhance-slicers-to-to-work-well-in-phone-reports"></a>增强切片器功能，使其在手机报表中正常运行
+## <a name="enhance-slicers-to-work-well-in-phone-reports"></a>增强切片器功能，使其在手机报表中正常运行
 切片器提供在画布上筛选报表数据的功能。 在常规报表创作模式下设计切片器时，可以修改某些切片器设置以使其在手机报表中更易于使用：
 
 * 确定报表读取器仅可以选择一个还是可以选择多个项。

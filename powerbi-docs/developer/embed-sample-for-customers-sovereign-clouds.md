@@ -2,24 +2,26 @@
 title: 为主权云客户将 Power BI 内容嵌入应用程序中
 description: 了解如何使用 Power BI API，为客户将仪表板、磁贴或报表集成到或嵌入 Web 应用中。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.topic: conceptual
-ms.date: 03/28/2018
-ms.author: maghan
-ms.openlocfilehash: ebbb004fe79bbae942243bc227e1c09fd51fa75f
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.topic: tutorial
+ms.date: 07/26/2018
+ms.openlocfilehash: 2d722428ce2029ef4689e6b4bf5dfcdd208baff8
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813701"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39255862"
 ---
-# <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>将 Power BI 仪表板、磁贴或报表嵌入主权云应用程序中
-了解如何在为客户嵌入内容时，通过调用 Power BI .Net SDK 和 Power BI JavaScript API，将仪表板、磁贴或报表集成到或嵌入 Web 应用中。 这通常是 ISV 方案。
+# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>教程：将 Power BI 仪表板、磁贴或报表嵌入主权云应用程序中
+了解如何在为客户嵌入内容时，通过调用 Power BI .Net SDK 和 Power BI JavaScript API，将仪表板、磁贴或报表集成到或嵌入 Web 应用中。 这通常是一种 ISV 方案。
 
-Power BI 还支持主权（私有）云。 每个主权云都有自己的附属关系。 不同主权云包括：
+Power BI 还支持主权（私有）云。
+
+不同主权云包括：
 
 * 美国政府社区云 (GCC)
 
@@ -29,81 +31,83 @@ Power BI 还支持主权（私有）云。 每个主权云都有自己的附属�
 
 * Power BI for Germany 云
 
+* Power BI for China 云
+
 ![嵌入的仪表板](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-若要开始本演练，需要一个 Power BI 帐户。 如果未设置帐户，则可以根据政府类型，[注册美国政府 Power BI 帐户](../service-govus-signup.md)或 [Power BI for Germany 云帐户](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)。
+若要开始本演练，需要一个 Power BI 帐户。 如果未设置帐户，则可以根据主权云类型，注册[美国政府 Power BI 帐户](../service-govus-signup.md)、[Power BI for Germany 云帐户](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)或 [Power BI for China 云帐户](http://www.21vbluecloud.com/powerbi/)。
 
 > [!NOTE]
 > 要改为为组织嵌入仪表板？ 请参阅[为组织将仪表板集成到应用中](integrate-dashboard.md)。
 >
 
-若要将仪表板集成到 Web 应用，请使用 **Power BI** API 和 Azure Active Directory (AD) 授权**访问令牌**来获取仪表板。 然后，使用嵌入令牌加载仪表板。 **Power BI** API 向某些 **Power BI** 资源提供了编程访问权限。 有关详细信息，请参阅 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)、[Power BI .NET SDK](https://github.com/Microsoft/PowerBI-CSharp) 和 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
+若要将仪表板集成到 Web 应用，请使用 **Power BI** API 和 Azure Active Directory (AD) 授权**访问令牌**来获取仪表板。 然后，使用嵌入令牌加载仪表板。 **Power BI** API 向特定 **Power BI** 资源提供编程访问权限。 有关详细信息，请参阅 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)、[Power BI .NET SDK](https://github.com/Microsoft/PowerBI-CSharp) 和 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
 
 ## <a name="download-the-sample"></a>下载示例
 本文展示了 GitHub 上[“为客户嵌入内容”示例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)中使用的代码。 若要按照此演练操作，可以下载这个示例。
 
 * 政府社区云 (GCC)：
     1. 使用 GCCCloud.config 内容覆盖 Cloud.config 文件。
-    2. 在 Web.config 文件中更新 clientid（本地应用客户端 ID）、groupid、用户（你的主用户）和密码。
+    2. 在 Web.config 文件中更新 clientid（本机应用客户端 ID）、groupid、用户（你的主用户）和密码。
     3. 如下所示，在 web.config 文件中添加 GCC 参数。
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.powerbigov.us" />
 ```
 
 * 军事承包商 (DoDCON)：
     1. 使用 TBCloud.config 内容覆盖 Cloud.config 文件。
-    2. 在 Web.config 文件中更新 clientid（本地应用客户端 ID）、groupid、用户（你的主用户）和密码。
+    2. 在 Web.config 文件中更新 clientid（本机应用客户端 ID）、groupid、用户（你的主用户）和密码。
     3. 如下所示，在 web.config 文件中添加 DoDCON 参数。
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.high.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.high.powerbigov.us" />
 ```
 
 * 军事 (DoD)：
     1. 使用 PFCloud.config 内容覆盖 Cloud.config 文件。
-    2. 在 Web.config 文件中更新 clientid（本地应用客户端 ID）、groupid、用户（你的主用户）和密码。
+    2. 在 Web.config 文件中更新 clientid（本机应用客户端 ID）、groupid、用户（你的主用户）和密码。
     3. 如下所示，在 web.config 文件中添加 DoDCON 参数。
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://mil.analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.mil.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.mil.powerbigov.us" />
 ```
 
 * Power BI for Germany 云参数
     1. 使用 Power BI for Germany 云内容覆盖 Cloud.config 文件。
-    2. 在 Web.config 文件中更新 clientid（本地应用客户端 ID）、groupid、用户（你的主用户）和密码。
+    2. 在 Web.config 文件中更新 clientid（本机应用客户端 ID）、groupid、用户（你的主用户）和密码。
     3. 在 web.config 文件中添加 Power BI for Germany 云参数，如下所示。
 
 ```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://analysis.cloudapi.de/powerbi/api" />
-
 <add key="apiUrl" value="https://api.powerbi.de/" />
-
 <add key="embedUrlBase" value="https://app.powerbi.de" />
 ```
 
+* Power BI for China 云参数
+    1. 使用 [Power BI for China](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) 云内容覆盖 Cloud.config 文件。
+    2. 在 Web.config 文件中更新 clientid（本机应用客户端 ID）、groupid、用户（你的主用户）和密码。
+    3. 在 web.config 文件中添加 Power BI for China 云参数，如下所示。
+
+```xml
+<add key="authorityUrl" value=https://login.chinacloudapi.cn/common/oauth2/authorize/" />
+<add key="resourceUrl" value="https://analysis.chinacloudapi.cn/powerbi/api" />
+<add key="apiUrl" value="https://api.powerbi.cn/" />
+<add key="embedUrlBase" value="https://app.powerbi.cn" />
+```
+
 ## <a name="step-1---register-an-app-in-azure-ad"></a>步骤 1 - 在 Azure AD 中注册应用
-必须向 Azure AD 注册应用，才能执行 REST API 调用。 有关详细信息，请参阅[注册 Azure AD 应用以便嵌入 Power BI 内容](register-app.md)。 由于存在不同的主权云附属关系，因此可以通过不同的 URL 来注册应用程序。
+必须先向 Azure AD 注册应用程序，才能执行 REST API 调用。 有关详细信息，请参阅[注册 Azure AD 应用以便嵌入 Power BI 内容](register-app.md)。 由于存在不同的主权云附属关系，因此可以通过不同的 URL 来注册应用程序。
 
 * 政府社区云 (GCC) - https://app.powerbigov.us/apps 
 
@@ -113,11 +117,13 @@ Power BI 还支持主权（私有）云。 每个主权云都有自己的附属�
 
 * Power BI for Germany 云 - https://app.powerbi.de/apps
 
-如果已下载[“为客户嵌入内容”示例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)，请使用注册后获取的客户端 ID，以便此示例能够进行 Azure AD 身份验证。 若要配置此示例，请在 web.config 文件中更改客户端 ID。
+* Power BI for China 云 - https://app.powerbi.cn/apps
+
+如果已下载[“为客户嵌入内容”示例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)，请使用注册后获取的**客户端 ID**，以便此示例能够进行 Azure AD 身份验证。 若要配置此示例，请在 web.config 文件中更改客户端 ID。
 
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>第 2 步 - 从 Azure AD 获取访问令牌
-在应用内，需要先从 Azure AD 获取访问令牌，再调用 Power BI REST API。 有关详细信息，请参阅[对用户进行身份验证并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。 由于存在不同的主权云附属关系，因此可以通过不同的 URL 来获取应用程序的访问令牌。
+在应用程序中，需要先从 Azure AD 获取**访问令牌**，然后才能调用 Power BI REST API。 有关详细信息，请参阅[对用户进行身份验证并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。 由于存在不同的主权云附属关系，因此可以通过不同的 URL 来获取应用程序的访问令牌。
 
 * 政府社区云 (GCC) - https://login.microsoftonline.com
 
@@ -127,13 +133,15 @@ Power BI 还支持主权（私有）云。 每个主权云都有自己的附属�
 
 * Power BI for Germany 云 - https://login.microsoftonline.de
 
+* Power BI for China 云 - https://login.microsoftonline.cn
+
 若要查看相关示例，可以参阅 Controllers\HomeController.cs 中的每个内容项任务。
 
 ## <a name="step-3---get-a-content-item"></a>第 3 步 - 获取内容项
-若要嵌入 Power BI 内容，需要执行几项操作，以确保能够正确嵌入内容。 虽然可以直接通过 REST API 完成所有这些步骤，但示例应用和本文中的示例都是使用 .NET SDK 执行这些操作。
+若要嵌入 Power BI 内容，需要执行几项操作，以确保能够正确嵌入内容。 虽然可以直接通过 REST API 完成所有这些步骤，但示例应用程序和本文中的示例都使用 .NET SDK。
 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>使用访问令牌创建 Power BI 客户端
-建议使用访问令牌创建 Power BI 客户端对象，以便能够与 Power BI API 进行交互。 为此，使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken。
+你希望使用访问令牌创建 Power BI 客户端对象，以便能够与 Power BI API 进行交互。 为此，使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -142,7 +150,7 @@ using Microsoft.PowerBI.Api.V2;
 
 var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 
-// Create a Power BI Client object. It will be used to call Power BI APIs.
+// Create a Power BI Client object. This is used to call the Power BI APIs.
 using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 {
     // Your code to embed items.
@@ -160,7 +168,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
 
 // Get the first report in the group.
@@ -175,7 +183,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // To retrieve the tile, you first need to retrieve the dashboard.
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
 
 // Get the first report in the group.
@@ -194,7 +202,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
 
 // Get the first report in the group.
@@ -400,7 +408,7 @@ var embedConfig = new EmbedConfig()
 
 * 可以参考 GitHub 上的示例应用。 上面的示例均以此示例为依据。 有关详细信息，请参阅[“为组织嵌入内容”示例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)。
 * 有关 JavaScript API 的详细信息，请参阅 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
-* 有关 Power BI for Germany 云的详细信息，请参阅 [Power BI for Germany 云常见问题](https://docs.microsoft.com/power-bi/service-govde-faq)
+* 有关 Power BI for Germany 云的详细信息，请参阅 [Power BI for Germany 云常见问题解答](https://docs.microsoft.com/power-bi/service-govde-faq)
 * [如何将 Power BI 工作区集合内容迁移到 Power BI](migrate-from-powerbi-embedded.md)
 
 限制和注意事项

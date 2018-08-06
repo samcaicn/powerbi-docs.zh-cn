@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e992152656a208c765743292e06b4d0d3708730
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 769e2adb30fb1969d16898db4bf954d2bcbad8c4
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600244"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280400"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>使用 Power BI 报表和仪表板中的表
 表是以逻辑序列的行和列表示的包含相关数据的网格。 它还包含标头和合计行。 表格可以进行数量比较，可以在其中查看单个类别的多个值。 例如，该表显示了**类别**的 5 个不同的度量值。

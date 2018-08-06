@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/26/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900045"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280193"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 连接器
 使用 Power BI Desktop 可以访问 SAP BusinessWarehouse (BW) 数据。
 
-有关 SAP 客户如何在连接 Power BI 和现有 SAP Business Warehouse (BW) 系统的过程中受益的信息，请参阅 [Power BI and SAP BW 白皮书](https://aka.ms/powerbiandsapbw)。
+有关 SAP 客户如何在连接 Power BI 和现有 SAP Business Warehouse (BW) 系统的过程中受益的信息，请参阅 [Power BI and SAP BW 白皮书](https://aka.ms/powerbiandsapbw)。 有关将 DirectQuery 与 SAP BW 结合使用的详细信息，请参阅 [DirectQuery 和 SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) 一文。
 
 从 Power BI Desktop 的 2018 年 6 月版本开始，可使用包含性能和功能重大改进的实现的 SAP BW 连接器。 SAP BW 连接器的此更新版本由 Microsoft 开发，称为 Implementation 2.0。 可选择 SAP BW 连接器版本 1 (v1) 或 Implementation 2.0 SAP 连接器。 以下部分依次介绍每个版本的安装。 从 Power BI Desktop 连接到 SAP BW 时，可选择其中一个连接器。
 
@@ -38,9 +38,9 @@ ms.locfileid: "37900045"
 
 ## <a name="installation-of-implementation-20-sap-connector"></a>Implementation 2.0 SAP 连接器的安装
 
-SAP 连接器的 Implementation 2.0 需要使用 SAP .NET 连接器 3.0。 可使用以下链接，从 SAP 的网站[下载 SAP .NET 连接器 3.0](https://go.microsoft.com/fwlink/?linkid=872300)：
+SAP 连接器的 Implementation 2.0 需要使用 SAP .NET 连接器 3.0。 可使用以下链接，从 SAP 的网站[下载 SAP .NET 连接器 3.0](https://support.sap.com/en/product/connectors/msnet.html)：
 
-* [SAP .NET 连接器 3.0](https://go.microsoft.com/fwlink/?linkid=872300)
+* [SAP .NET 连接器 3.0](https://support.sap.com/en/product/connectors/msnet.html)
 
 只有有效的 S 用户才能访问下载。 建议客户联系其 SAP 基础团队，获取 SAP .NET 连接器 3.0。 
 
@@ -207,6 +207,7 @@ Implementation 2.0 支持以下选项：
 有关 SAP 和 DirectQuery 的详细信息，请查看以下资源：
 
 * [DirectQuery 和 SAP HANA](desktop-directquery-sap-hana.md)
+* [DirectQuery 和 SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery 支持的数据源](desktop-directquery-data-sources.md)
 * [Power BI 和 SAP BW 白皮书](https://aka.ms/powerbiandsapbw)

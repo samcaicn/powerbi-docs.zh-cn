@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 0df9fc81c5e65f74fb7eba8b6699cb579e652b62
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da330e75642e243637f792cde706b6d34ce70062
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250334"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280722"
 ---
 # <a name="power-bi-pro-in-your-organization"></a>组织中的 Power BI Pro
 
@@ -29,7 +29,7 @@ Power BI Pro 是一种付费许可证，购买以后可以使用更多功能。 
 
 * **查看共享内容** - Pro 用户可以查看、交互和（如果允许）重新共享他们获得的共享仪表板和报表。 但是，Pro 用户无法编辑这些仪表板或报表。 有关详细信息，请参阅[与同事和他人共享 Power BI 仪表板和报表](service-share-dashboards.md)。
 
-* **与 Microsoft Teams 集成内容** - 可以在 Microsoft (MS) Teams 通道中添加 Power BI 选项卡。 MS Teams 会自动检测工作区中的所有报表。 有关详细信息，请参阅 [Power BI teams up with Microsoft Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)（Power BI 与 Microsoft Teams 结合）。 
+* **与 Microsoft Teams 集成内容**：可以在 Microsoft (MS) Teams 通道中添加 Power BI 选项卡。 MS Teams 会自动检测工作区中的所有报表。 有关详细信息，请参阅 [Power BI teams up with Microsoft Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)（Power BI 与 Microsoft Teams 结合）。 
 
 ## <a name="power-bi-pro-60-day-trial-for-individuals"></a>面向个人提供的 Power BI Pro 60 天试用版
 

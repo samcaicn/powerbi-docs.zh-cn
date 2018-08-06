@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: a8833cb6b41ea76d50814975ada6239690a0c196
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 781e34eadfccb89954c0a8548589e1bf89830079
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877409"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359745"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 报表、仪表板或磁贴嵌入应用程序中
 使用“Azure 中的 Power BI Embedded”，可以借助“应用拥有数据”将报表、仪表板或磁贴嵌入到应用程序中。 **应用拥有数据**是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 这通常是一种 ISV 开发者方案。 ISV 开发者可以创建 Power BI 内容以便在完全集成并交互的应用程序中显示报表、仪表板或磁贴，应用程序的用户无需 Power BI 许可证，甚至不必知道是在 Power BI 下操作。 本教程演示当针对使用“应用拥有数据”的客户使用“Azure 中的 Power BI Embedded”时，如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将报表集成到应用程序中。
@@ -323,13 +323,28 @@ var embedConfig = new EmbedConfig()
 现在你已完成应用程序的开发，接下来请回到应用工作区了解专用容量。 移动到生产环境需要专用容量。
 
 ### <a name="create-a-dedicated-capacity"></a>创建专用容量
-通过创建专用容量，可以利用好客户的专用资源。 未分配到专用容量的工作区，则使用共享容量。 可使用 Azure 中的 [Power BI Embedded 专用容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)解决方案创建专用容量。
+通过创建专用容量，可以利用好客户的专用资源。 可以在 [Microsoft Azure 门户](https://portal.azure.com)中购买专用容量。 有关如何创建 Power BI Embedded 容量的详细信息，请参阅[在 Azure 门户中创建 Power BI Embedded 容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)。
+
+使用下表确定哪种 Power BI Embedded 容量最适合你的需求。
+
+| 容量节点 | 总核心数<br/>（后端 + 前端） | 后端核心数 | 前端核心数 | DirectQuery/实时连接限制 | 高峰时间的最大显示页数 |
+| --- | --- | --- | --- | --- | --- |
+| A1 |1 个虚拟核心 |0.5 个核心，3GB RAM |0.5 个核心 | 每秒 5 个 |1-300 |
+| A2 |2 个虚拟核心 |1 个核心，5GB RAM |单核 | 每秒 10 个 |301-600 |
+| A3 |4 个虚拟核心 |2 个核心，10GB RAM |2 个核心 | 每秒 15 个 |601-1,200 |
+| A4 |8 个虚拟核心 |4 核，25 GB RAM |4 核 |每秒 30 个 |1,201-2,400 |
+| A5 |16 个虚拟核心 |8 核，50 GB RAM |8 核 |每秒 60 个 |2,401-4,800 |
+| A6 |32 个虚拟核心 |16 核，100 GB RAM |16 核 |每秒 120 个 |4,801-9600 |
+
+**_使用 A SKU 时，无法使用免费的 Power BI 许可证访问 Power BI 内容。_**
 
 使用 PRO 许可证的嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 必须购买专用容量才能嵌入到生产环境。 为专用容量生成嵌入令牌时，可生成的数量不受限制。 转到[可用功能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)查看使用量值，该值以百分比表示当前嵌入使用量。 使用量基于每个主帐户。
 
+有关详细信息，请参阅[嵌入式分析容量规划白皮书](https://aka.ms/pbiewhitepaper)。
+
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>为应用工作区分配专用容量
 
-创建专用容量后，请将该专用容量分配给应用工作区。 要完成此操作，请按照下列步骤执行。
+创建专用容量后，可将该专用容量分配给应用工作区。 要完成此操作，请按照下列步骤执行。
 
 1. 在“Power BI 服务”中，展开工作区并针对要嵌入内容的工作区选择相应省略号。 然后选择“编辑工作区”。
 
@@ -339,6 +354,14 @@ var embedConfig = new EmbedConfig()
 
     ![分配专用容量](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-有关 Power BI Embedded 的更多问题，请访问[常见问题](embedded-faq.md)页。  有关应用程序中的 Power Bi Embedded 的问题，请访问[排除故障](embedded-troubleshoot.md)页。
+3. 选择“保存”后，应用工作区名称旁边应显示一个钻石形状。
+
+    ![与容量绑定的应用工作区](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+
+## <a name="next-steps"></a>后续步骤
+在本教程中，你学习了如何将 Power BI 内容嵌入到客户的应用程序中。 你也可以尝试为组织嵌入 Power BI 内容。
+
+> [!div class="nextstepaction"]
+>[为组织嵌入内容](embed-sample-for-your-organization.md)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

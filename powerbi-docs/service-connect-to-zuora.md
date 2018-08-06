@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 57e1e8ce015db9b5f88f7b685c80092023540a6f
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 48246d61789a0b1e160109c1f2fb0e81838b3965
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599123"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39280308"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>使用 Power BI 连接到 Zuora
 借助适用于 Power BI 的 Zuora，可以将重要收入、帐单和订阅数据可视化。 使用默认的仪表板和报表来分析使用情况趋势、跟踪计帐和付款、监视定期收入或进行自定义以满足自己独特的仪表板和报表需求。
@@ -68,7 +68,7 @@ ms.locfileid: "37599123"
 | 度量值 | 说明 | 伪计算 |
 | --- | --- | --- |
 | 帐户：付款 |基于付款生效日期，某个时间段内的付款总额。 |SUM (Payment.Amount) <br>WHERE<br>Payment.EffectiveDate =< TimePeriod.EndDate<br>AND    Payment.EffectiveDate >= TimePeriod.StartDate |
-| 帐户：退款 |基于退款生效日期，某个时间段内的退款总额。 将金额报表为负数。 |-1*SUM(Refund.Amount)<br>WHERE<br>Refund.RefundDate =< TimePeriod.EndDate<br>AND    Refund.RefundDate >= TimePeriod.StartDate |
+| 帐户：退款 |基于退款日期，某个时间段内的退款总额。 将金额报表为负数。 |-1*SUM(Refund.Amount)<br>WHERE<br>Refund.RefundDate =< TimePeriod.EndDate<br>AND    Refund.RefundDate >= TimePeriod.StartDate |
 | 帐户：净付款 |某个时间段内的帐户付款加上帐户退款。 |Account.Payments + Account.Refunds |
 | 帐户：活动帐户 |某个时间段内活动帐户的计数。 订阅必须开始于某个时间段开始日期之前（或当天）。 |COUNT (Account.AccountNumber)<br>WHERE<br>    Subscription.Status != "Expired"<br>AND    Subscription.Status != "Draft"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    (Subscription.SubscriptionEndDate > TimePeriod.StartDate<br>OR<br>Subscription.SubscriptionEndDate = null) –长期有效订阅 |
 | 帐户：平均定期收入 |某个时间段内每活动帐户的毛 MRR。 |毛 MRR / Account.ActiveAccounts |

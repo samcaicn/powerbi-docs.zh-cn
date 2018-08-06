@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1e380a6821db7207d14e719fa5e070af38196b97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 135e6ff76a0972bdedbff3eaf7ab1222f82a94ab
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286925"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39331158"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>在 Power BI Desktop 中使用数值范围切片器
 借助**数值范围切片器**，可以将各种类型的筛选器应用于数据模型中的任意数值列。 可以选择“介于”（某数字范围）、“小于或等于”（某数字）或“大于或等于”（某数字）来进行筛选。 虽然这听起来可能很简单，但在筛选数据方面这却是功能十分强大的一种方法。
@@ -53,7 +53,7 @@ ms.locfileid: "34286925"
 
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>使用数值范围切片器对齐到整数
 
-数值范围切片器将对齐到整数，除非它属小数范围。 这样一来，切片器就可以清晰地对齐整数。 
+如果基础字段的数据类型为“整数”，数值范围切片器将对齐到整数。 这样一来，切片器就可以清晰地对齐整数。 “十进制数字”类型字段允许输入或选择数字的小数部分。 文本框中应用的格式与为该字段设置的格式匹配，即使可以键入或选择更精确的数字也是如此。
 
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
@@ -61,3 +61,4 @@ ms.locfileid: "34286925"
 
 * **数值范围切片器**目前筛选所有基础行数据，而不筛选任何汇总值。 例如，如果使用的是“*销售额*”字段，那么筛选的是每个交易的“*销售额*”，而不会筛选视觉对象中每个数据点的“*销售额*”总和。
 * 暂不支持度量值。
+* 可以在数值切片器的文本框中键入任何数字，即使它超出基础列中的值范围。 这样一来，你就可以在知道数据将来可能发生变化的情况下设置筛选器。

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: bec5bb108bc210f268db0392370e15d89c0352b7
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877322"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39330204"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常见查询任务
 使用 Power BI Desktop 的**查询编辑器**窗口时，可执行很多常用任务。 本文档演示了这些常见的任务，并提供其他信息的链接。 
@@ -31,7 +31,7 @@ ms.locfileid: "38877322"
 
 我们将使用几个数据连接来完成这些任务。 如果你想要自己逐步完成这些任务，可下载或连接到数据。
 
-第一个数据连接是 Excel 工作簿。 另一个是可从此处进行访问的 Web 资源（还用于其他 Power BI Desktop 帮助内容）：
+第一个数据连接是 Excel 工作簿，可以从[此链接](http://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx)下载该工作簿。 另一个是可从此处进行访问的 Web 资源（还用于其他 Power BI Desktop 帮助内容）：
 
 [*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 

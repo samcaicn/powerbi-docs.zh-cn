@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: cfc450216202f332f518955d28cb71df6aa0b800
-ms.sourcegitcommit: f2b106b5eb338a64f903e8ce6793bccb07f9440a
+ms.openlocfilehash: 544429528ed51dd2928eb82632f512ff3f7d5afd
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39105260"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359722"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 报表、仪表板或磁贴嵌入应用程序
 本教程演示在为组织将 Power BI 嵌入应用程序时，如何使用“Power BI .NET SDK”以及“Power BI JavaScript API”将报表集成到应用程序中。 通过 Power BI，可以使用“用户拥有数据”将报表、仪表板或磁贴嵌入应用程序。 借助“用户拥有数据”，应用程序可以扩展 Power BI 服务。
@@ -413,7 +413,24 @@ function updateEmbedReport() {
 现在你已完成应用程序的开发，接下来请回到应用工作区了解专用容量。
 
 ### <a name="create-a-dedicated-capacity"></a>创建专用容量
-通过创建专用容量，则可获得在应用工作区中拥有内容专用资源这一优势。 如果工作区未分配到专用容量，则视为使用共享容量。 可使用 [Power BI Premium](../service-admin-premium-purchase.md) 创建专用容量。
+通过创建专用容量，则可获得在应用工作区中拥有内容专用资源这一优势。 可使用 [Power BI Premium](../service-premium.md) 创建专用容量。
+
+下表列出了 [Office 365](../service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU。
+
+| 容量节点 | 总虚拟核心<br/>*（后端 + 前端）* | 后端 V 核心 | 前端 V 核心 | DirectQuery/实时连接限制 | 高峰时间的最大显示页数 |
+| --- | --- | --- | --- | --- | --- |
+| EM1 |1 个虚拟核心 |5 个 V 核心，10 GB RAM |0.5 个虚拟核心 |每秒 3.75 |150-300 |
+| EM2 |2 个虚拟核心 |1 个 V 核心，10 GB RAM |1 个虚拟核心 |每秒 7.5 |301-600 |
+| EM3 |4 个虚拟核心 |2 个虚拟核心，10 GB RAM |2 个虚拟核心 |每秒 15 个 |601-1,200 |
+| P1 |8 个虚拟核心 |4 个虚拟核心，25 GB RAM |4 个虚拟核心 |每秒 30 个 |1,201-2,400 |
+| P2 |16 个虚拟核心 |8 个虚拟核心，50 GB RAM |8 个虚拟核心 |每秒 60 个 |2,401-4,800 |
+| P3 |32 个虚拟核心 |16 个虚拟核心，100 GB RAM |16 个虚拟核心 |每秒 120 个 |4,801-9600 |
+| P4 |64 个 V 核心 |32 个 V 核心，200 GB RAM |32 个虚拟核心 |每秒 240 个 |9601-19200
+| P5 |128 个 V 核心 |64 个 V 核心，400 GB RAM |64 个 V 核心 |每秒 480 个 |19201-38400
+
+*借助 **_EM SKU_**，**可以**在尝试使用 **_MS Office 应用_** 嵌入内容时使用免费的 Power BI 许可证访问内容，但在使用 **_Powerbi.com_** 或 **_Power BI 移动版_** 时**不能使用免费的 Power BI 许可证访问内容**。*
+
+*借助 **_P SKU_**，**可以**在尝试使用 **_MS Office 应用_**、**_Powerbi.com_** 或 **_Power BI 移动版_** 嵌入内容时，使用免费的 Power BI 许可证访问内容。*
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>为应用工作区分配专用容量
 
@@ -431,13 +448,17 @@ function updateEmbedReport() {
 
     ![与容量绑定的应用工作区](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
+## <a name="admin-settings"></a>管理员设置
+
+全局管理员或 Power BI 服务管理员可以为租户启用或禁用 REST API。 Power BI 管理员可以为整个组织或各个安全组设定此设置。 默认情况下，为整个组织启用此功能。 可以通过 [Power BI 管理门户](../service-admin-portal.md)执行此操作。
+
 ## <a name="next-steps"></a>后续步骤
-本教程介绍了如何使用 Power BI 组织帐户将 Power BI 内容嵌入应用程序。 现在，你可以尝试使用应用将 Power BI 内容嵌入应用程序。  还可以尝试为第三方客户嵌入 Power BI 内容。
+本教程介绍了如何使用 Power BI 组织帐户将 Power BI 内容嵌入应用程序。 现在，你可以尝试使用应用将 Power BI 内容嵌入应用程序。  还可以尝试为客户嵌入 Power BI 内容。
 
 > [!div class="nextstepaction"]
 > [从应用嵌入内容](embed-from-apps.md)
 
 > [!div class="nextstepaction"]
->[为第三方客户嵌入内容](embed-sample-for-customers.md)
+>[为客户嵌入内容](embed-sample-for-customers.md)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

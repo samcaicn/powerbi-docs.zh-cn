@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/26/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4f882865271411d04a99c9213a68df24d000677d
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 2eb69896de8226fdf0033f980a8b4b5164c68c3d
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210553"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280147"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop 中的复合模型（预览）
 
@@ -112,7 +112,7 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 ## <a name="setting-storage-mode"></a>设置存储模式
 
-复合模型中的每个表都有一个存储模式，指示表是基于 DirectQuery 还是导入。 可以在“属性”窗格中查看和修改存储模式。 要进行此操作，请从“字段”列表选择“属性”，右键单击上下文菜单。 下图显示存储模式（由于窗格宽度，图中缩写为“存储...”）。
+**复合模型**中的每个表都有一个**存储模式**，指示表是基于 DirectQuery 还是导入。 可以在“属性”窗格中查看和修改存储模式。 要进行此操作，请从“字段”列表选择“属性”，右键单击上下文菜单。 下图显示存储模式（由于窗格宽度，图中缩写为“存储...”）。
 
 ![存储模式设置](media/desktop-composite-models/composite-models_15.png)
 

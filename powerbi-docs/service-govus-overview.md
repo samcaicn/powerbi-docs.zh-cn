@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f7c619a5696a6f432f24e5e2c875cfde335ab32c
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: f110464d435130a40666e61dd6a9c89ad6b10ccf
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256046"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39280423"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
@@ -93,7 +93,7 @@ Azure 分布在多个云中。 默认情况下，租户可以打开对云专属�
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
 
-问：我的帐户在多个主权云中预配。 使用 Power BI Desktop 时，如何选择连接到什么云？
+问：我的帐户在多个主权云中预配。 使用 **Power BI Desktop** 时，如何选择连接到什么云？
 
 答：从 Power BI Desktop 2018 年 7 月版开始，可在登录 Power BI Desktop 时选择要使用的云。
 

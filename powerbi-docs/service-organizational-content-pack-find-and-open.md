@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 20352a729b43e15fd1cd67cb5d52c321c3d150d4
-ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
+ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "34852247"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280216"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>查找并连接组织内容包
 > [!NOTE]
@@ -30,13 +30,13 @@ ms.locfileid: "34852247"
 ## <a name="find-an-organizational-content-pack"></a>查找组织内容包
 [Power BI Pro](https://powerbi.microsoft.com/pricing) 用户可以转到 AppSource，查看与整个组织、通讯组/安全组及其所属 Office 365 组共享的内容包。  
 
-1. 从左侧导航窗格中，选择**获取数据 \> 我的组织** \> **获取**。
+1. 从左侧导航窗格中，选择**获取数据 \> 我的组织**\>**获取**。
 2. 看不到你要寻找的内容包？ 在搜索框中点击，并键入关键字：  
     ![](media/service-organizational-content-pack-find-and-open/cp_searchbox.png)
 3. 选择内容包，以显示更多详细信息。
 
 ## <a name="connect-to-an-organizational-content-pack"></a>连接组织内容包
-* 选择“**立即获取**”，以连接内容包并将其添加到活动工作区中。 新建仪表板、报表、Excel 工作簿和数据集标有黄色星号。
+* 选择“立即获取”，以连接内容包并将其添加到活动工作区中。 新建仪表板、报表、Excel 工作簿和数据集标有黄色星号。
 
 如果内容包含有 Excel 工作簿，可能会看到一条警告，提醒你无权查看工作簿。 如果是这样，请要求内容包所有者[与你共享 OneDrive for Business 中的工作簿](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)。 
 

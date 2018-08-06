@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 828c5e8afc28b496b1920468097ce629fe646e37
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2ea6f2e557f26358ab6a93d33c890e90c96885f4
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34564641"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>如何查找报表服务器产品密钥
 了解如何查找 Power BI 报表服务器产品密钥，以便在生产环境中安装服务器。
@@ -33,7 +34,7 @@ ms.lasthandoff: 05/17/2018
 
 ![Power BI 报表服务器产品密钥](media/find-product-key/pbirs-product-key-dialog.png)
 
-## <a name="purchased-software-assurance-agreeemnt"></a>已购买软件保障协议
+## <a name="purchased-software-assurance-agreement"></a>已购买软件保障协议
 如果有 SQL Server Enterprise SA 协议，则可以从[批量许可服务中心](https://www.microsoft.com/Licensing/servicecenter/)获取产品密钥。 在最新服务包下查找最新版 SQL Server。 如果找不到，请在最新 RTM 版 SQL Server 下查找。
 
 > [!NOTE]

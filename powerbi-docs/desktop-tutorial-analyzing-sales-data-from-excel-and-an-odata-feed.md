@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: c6cd75efd44259c2812f98a37875cf716d4843ad
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0ec22bd142f7509935691ff7bfcd38cb51a04fb2
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34456194"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39280101"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>教程：合并来自 Excel 和 OData 源的销售数据
 
@@ -200,7 +200,7 @@ Power BI Desktop 不需要合并查询来建立报表。 但是，你可以使�
 
 在 Power BI Desktop“报表”视图中，可以创建多种可视化效果，以深入探索你的数据。 你可以生成多页报表，而且每页可以有多个视觉效果。 你可以与他人就可视化效果进行交互，以帮助分析和了解你的数据。 有关查看和编辑 Power BI 服务（站点）中的报表的详细信息，请参阅[编辑报表](service-interact-with-a-report-in-editing-view.md)。
 
-你可以使用这两个数据集以及它们之间的关系，帮助可视化和分析销售数据。 
+可以利用这两个数据集以及它们之间的关系，帮助可视化和分析销售数据。 
 
 首先，创建堆积柱形图，该图使用这两个查询的字段来显示每个订购产品的数量。 
 

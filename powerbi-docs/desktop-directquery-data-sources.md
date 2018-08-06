@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55d6259c3ae044d395bd0b077577856dd88ff43c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 61421db59a6488394cad0b8a921590a90b020bff
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34720756"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280630"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支持的数据源
 Power BI Desktop 和 Power BI 服务有多个可以连接并访问数据的数据源。 本文介绍了支持称为 DirectQuery 的连接方法的 Power BI 数据源。 有关 DirectQuery 的详细信息，请参阅 [Power BI 中的 DirectQuery](desktop-directquery-about.md)。
@@ -39,7 +39,7 @@ Power BI Desktop 和 Power BI 服务有多个可以连接并访问数据的数�
 * Teradata 数据库
 * Vertica (Beta)
 
-名称后带有 (Beta) 或（预览）的数据源会发生更改，不支持在生产环境中使用。 在将报表发布到 Power BI 服务后这些数据源可能还不受支持，这意味着打开已发布的报表或浏览数据集会导致错误。
+名称后带有 (Beta) 或（预览）的数据源会发生更改，不支持在生产环境中使用。 在将报表发布到 **Power BI 服务**后，这些数据源可能还不受支持，这意味着打开已发布的报表或浏览数据集会导致错误。
 
 (Beta) 与（预览）数据源之间的唯一区别是（预览）数据源必须先要作为预览功能启用，然后才可供使用。 要启用（预览）数据连接器，请在 Power BI Desktop 中转到“文件”>“选项和设置”>“选项”，然后选择“预览功能”。
 
