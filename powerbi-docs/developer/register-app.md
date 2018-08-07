@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/31/2018
+ms.date: 07/31/2018
 ms.author: maghan
-ms.openlocfilehash: 4242e2a88ab930c5f647bbfa4aa97fea1dc313ad
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 06e7c27579f559928dab822a7e0323cfb4abc1a1
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157116"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388585"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>注册 Azure AD 应用以便嵌入 Power BI 内容
 了解如何在 Azure Active Directory (Azure AD) 中注册应用程序，用于嵌入 Power BI 内容。
@@ -36,7 +36,7 @@ ms.locfileid: "39157116"
 3. 提供“应用名称”。
 4. 应用类型选择将取决于用户使用的应用程序的类型。
    
-   * 对在客户端设备上运行的应用使用“本机应用”。 若要为客户嵌入内容，而不考虑实际应用，需要选择“本机应用”。 甚至对于 Web 应用，也是如此。
+   * 对在客户端设备上运行的应用使用“本机应用”。 若要为客户嵌入内容，而不考虑实际应用程序（即使是 Web 应用），需要选择“本机应用”。
    * 对 Web 应用或 Web API 使用“服务器端 Web 应用”。
 
 5. 为“重定向 URL”和“主页 URL”输入一个值。 重定向 URL 适用于任何有效的 URL。
@@ -80,8 +80,8 @@ ms.locfileid: "39157116"
     ![](media/register-app/azuread-new-app-registration.png)
 5. 按照提示进行操作，并创建新的应用程序。
    
-   * 对于 Web 应用，请输入“登录 URL”，即用户可以登录的应用基 URL 例如 `http://localhost:13526`) 。
-   * 对于本机应用程序，请提供 **“重定向 URL”**，Azure AD 用其返回令牌响应。 输入特定于应用程序的值，例如 `http://myapplication/Redirect`
+   * 对于 Web 应用，请输入“登录 URL”，即用户可以登录的应用基 URL（例如 `http://localhost:13526`）。
+   * 对于本机应用程序，请提供 **“重定向 URL”**，Azure AD 用其返回令牌响应。 请务必输入特定于应用程序的值（例如 `http://myapplication/Redirect`）。
 
 有关如何在 Azure Active Directory 中注册应用程序的详细信息，请参阅 [Azure Active Directory 集成应用程序](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -93,7 +93,7 @@ ms.locfileid: "39157116"
 1. 登录到 [Azure 门户](https://portal.azure.com)。
 2. 在页面右上角选择你的帐户，从而选择你的 Azure AD 租户。
 3. 在左侧导航栏中，选择依次“更多服务”和“应用注册”。
-4. 选择需为其检索客户端 ID 的应用程序。
+4. 选择需为其检索要使用的客户端 ID 的应用程序。
 5. 此时，“应用 ID”列为 GUID。 这就是该应用程序的客户端 ID。
    
     ![“应用注册”内列为应用 ID 的客户端 ID](media/register-app/powerbi-embedded-app-registration-client-id.png)
@@ -128,7 +128,7 @@ ms.locfileid: "39157116"
     ![](media/register-app/powerbi-embedded-azuread-app-permissions04.png)
 5. 在“所需权限”中，选择“授予权限”。
    
-    必须为“主帐户”调用“授予权限”操作，以免 Azure AD 提示提供内容。 如果执行此操作的帐户是全局管理员，会向组织内此应用的所有用户授予权限。 如果执行此操作的帐户是主帐户，而不是全局管理员，将仅向此应用的主帐户授予权限。
+    需要为“主帐户”调用“授予权限”操作，以免 Azure AD 提示提供内容。 如果执行此操作的帐户是全局管理员，会向组织内此应用的所有用户授予权限。 如果执行此操作的帐户是主帐户，而不是全局管理员，将仅向此应用的主帐户授予权限。
    
     ![“必需权限”对话框中的“授予权限”](media/register-app/powerbi-embedded-azuread-app-grant-permissions.png)
 
@@ -160,19 +160,25 @@ ms.locfileid: "39157116"
     
      主帐户若要避免收到获取 Azure AD 同意的提示，需要“获取权限”，而这在进行非交互式登录情况下是不可能的。
    
-     ```
+     ```json
      Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
      Authorization: Bearer ey..qw
      Content-Type: application/json
      { 
      "clientId":"{Service_Plan_ID}",
      "consentType":"AllPrincipals",
-     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "resourceId":"c78a3685-1ce7-52cd-95f7-dc5aea8ec98e",
      "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
      "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
+    **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* 不是通用的，但它与租户相关。 此值是 AAD 租户中“Power BI 服务”应用程序的 objectId。
+
+    用户可在 Azure 门户中快速获取此值：
+    1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
+    2. 在搜索框中搜索“Power BI 服务”
+
 5. 向 Azure Active Directory (AAD) 授予应用权限
    
    consentType 值可提供 AllPrincipals 或 Principal。
@@ -182,7 +188,7 @@ ms.locfileid: "39157116"
     
    主帐户若要避免收到获取 Azure AD 同意的提示，需要“获取权限”，而这在进行非交互式登录情况下是不可能的。
 
-   ```
+   ```json
    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
    Authorization: Bearer ey..qw
    Content-Type: application/json
