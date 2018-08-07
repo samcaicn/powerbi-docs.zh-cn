@@ -38,7 +38,7 @@ Web 门户应用程序在浏览器中运行。 启动 Web 门户后看到的具�
     请参阅[支持的 Web 浏览器和版本](browser-support.md)列表。
 2. 在地址栏中，键入 Web 门户 URL。
    
-    默认情况下，URL 为 http://[ComputerName]/reports。
+    默认情况下，URL 为 <em>http://[ComputerName]/reports</em>。
    
     可以将报表服务器配置为使用特定端口。 例如， <em>http://[ComputerName]:80/reports</em> 或 <em>http://[ComputerName]:8080/reports</em>
    
