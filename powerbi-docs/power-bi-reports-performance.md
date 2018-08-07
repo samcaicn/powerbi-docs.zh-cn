@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "37598833"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582562"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 性能最佳做法 
 本文将介绍如何在 Power BI 中构建快速可靠的报表  
@@ -24,8 +24,8 @@ ms.locfileid: "37598833"
 
 视觉对象需要显示的数据越多，加载视觉对象的速度越慢。 虽然此道理显而易见，但很容易忘记。 例如：假设你有一个大型数据集。 基于此数据集，你可以使用该表的一个表生成报表。 最终用户在此页上使用切片器来获取他们所需的行 - 通常他们只对某几十行感兴趣。
 
-一个常见的错误是采用表未经筛选的默认视图 - 即显示全部的 100M+ 行。 这些行的数据必须加载到内存中并在每次刷新时解压缩。 这势必会产生大量的内存负载。 解决方案：使用“Top N”筛选器减少表显示的最大项数。 最大项数可以比用户所需行数大得多，例如 10,000。 因此，最终用户体验没有变化，但报表的内存使用率却下降了数个数量级，而且性能也相应得到提高。 
- 
+一个常见的错误是采用表未经筛选的默认视图 - 即显示全部的 100M+ 行。 这些行的数据必须加载到内存中并在每次刷新时解压缩。 这势必会产生大量的内存负载。 解决方案：使用“Top N”筛选器减少表显示的最大项数。 最大项数可以比用户所需行数大得多，例如 10,000。 因此，最终用户体验没有变化，但报表的内存使用率却下降了数个数量级，而且性能也相应得到提高。
+
 对于报表中的所有视觉对象，强烈建议采用以上类似的方法。 问问自己，是否需要此视觉对象中的所有数据？ 是否有方法可将视觉对象中显示的数据量滤除，而又不会对最终用户体验造成过多影响？ 请注意，尤其是表会产生大量费用。 
  
 ## <a name="limit-visuals-on-report-pages"></a>限制报表页上的视觉对象 
