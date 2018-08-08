@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 002c1c256a0d78601d112e4ee34326c0914f9ac1
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: d0449087715b1fac82276810397167d2a5de8f28
+ms.sourcegitcommit: 9c0f990ffb66256eb342af8528987bb108069af6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37599680"
+ms.lasthandoff: 08/03/2018
+ms.locfileid: "39501399"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>仪表板和报表的使用指标
 如果你创建仪表板和报表，使用指标可帮助你了解它们的影响。 运行仪表板使用情况指标或报表使用情况指标时，可查看整个组织使用这些仪表板和报表的情况 - 正在使用的内容、使用人员以及使用目的。  
@@ -149,6 +149,10 @@ ms.locfileid: "37599680"
 默认情况下，每个用户的数据都启用了使用指标并在指标报表中包含内容创建者帐户信息。 如果不希望某些或所有用户包含此信息，请为特定安全组或整个组织禁用此功能。 帐户信息随后会在报表中显示为“未命名”。
 
 当禁用其整个组织的使用指标时，管理员可以使用“删除所有现有的使用指标内容”选项删除通过使用指标报表和数据集构建的所有现有报表和仪表板磁贴。 此选项可以删除组织中可能已在使用的所有用户对使用指标数据的所有访问内容。 请谨慎操作，因为删除现有的使用指标内容是不可逆转的操作。
+
+## <a name="usage-metrics-in-national-clouds"></a>国家云中的使用情况指标
+
+Power BI 在单独的国家云中可用。 这些云提供与 Power BI 全局版本相同级别的安全性、隐私、符合性和透明度，以及服务交付、数据驻留、访问和控制相关地方法规的唯一模型。 由于本地法规的这种唯一模式，使用情况指标不适用于国家云。 有关详细信息，请参阅[国家云](https://powerbi.microsoft.com/en-us/clouds/)。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 问：我无法在仪表板或报表上运行使用情况指标    

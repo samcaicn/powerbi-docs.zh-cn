@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8fd04b6c7fe83e7047d2eaecf4fb4b0e564f0e9f
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329629"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475720"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>使用 Power BI Desktop 中的“问答”功能进行自然语言查询
 使用常用短语和自然语言来查询数据是一个非常有用的功能。 而数据在回答问题时的功能更为强大，这就是 **Power BI Desktop** 中的“问答”功能所实现的。
@@ -24,6 +24,11 @@ ms.locfileid: "39329629"
 
 > [!NOTE]
 > 仅在使用的模型包含已导入的数据时，才可使用“问答”功能。 不可实时连接到 SSAS 和 DirectQuery 模型。
+>
+>
+
+> [!NOTE]
+> 如果使用 Windows 10 之前的 Windows 版本，问答需要以下 C 运行时更新。 可以尝试通过 Windows 更新安装重要更新，也可以尝试通过 Microsoft (KB2999226) 手动安装必需组件。 https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
 >
 >
 

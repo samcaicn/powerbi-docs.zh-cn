@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/28/2018
+sktopms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 5f117bdeb4e37986884c6a1021db1f361bdcddd3
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145378"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582653"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
@@ -47,8 +47,8 @@ Power BI Desktop 是一款免费的桌面应用程序，可将其直接安装在
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>为什么必须使用我的工作电子邮件注册？
 Power BI 不支持由使用者电子邮件服务或电信提供商提供的电子邮件地址。 了解有关 [Power BI 自助服务注册过程](service-self-service-signup-for-power-bi.md)的详细信息。
 
-## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Power BI 是否提供政府部门、学术机构和非盈利组织定价？
-是的，从 Microsoft 直接购买时，可提供非盈利组织定价。 你可以了解详细信息，并通过 [Microsoft 产品捐赠](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/)站点注册。 政府部门和学术机构定价通过 MOSP/Direct、EA 和 Open 授权计划提供。 政府定价也适用于联合。 
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Power BI 是否提供政府部门、学术机构和非营利性组织定价？
+是的，从 Microsoft 直接购买时，可提供非营利性组织定价。 可通过 [Microsoft 非营利性组织](https://www.microsoft.com/en-us/nonprofits/power-bi)网站了解详细信息并注册。 政府部门和学术机构定价通过 MOSP/Direct、EA 和 Open 授权计划提供。 政府定价也适用于联合。 
 
 ## <a name="is-power-bi-available-on-premises"></a>Power BI 在本地可用吗？
 Power BI 服务 [https://powerbi.com](https://powerbi.com) 不可用作专用的内部云服务。 但是，还有其他三个选项可用于查看和处理本地数据。 

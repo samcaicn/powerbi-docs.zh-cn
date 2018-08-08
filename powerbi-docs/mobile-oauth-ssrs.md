@@ -9,19 +9,19 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3777d082d8e0d166abadd2ab89035d6895421f24
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852201"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415337"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 连接到 Power BI 报表服务器和 SSRS
 了解如何将环境配置为支持 OAuth 对 Power BI 移动应用进行身份验证以连接到 Power BI Report Server 和 SQL Server Reporting Services 2016 或更高版本。
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-可使用 OAuth 连接到 Power BI 报表服务器和 Reporting Services，以显示移动报表或 KPI。 Windows Server 2016 向 Web 应用程序代理 (WAP) 角色提供了一些改进，以允许此种类型的身份验证。 请注意，此配置不支持在 Power BI 移动应用中查看 Power BI 报表。 但是，可以在移动设备上使用浏览器查看它们。 若要在移动应用中查看 Power BI 报表，必须使用 Windows 身份验证。
+可使用 OAuth 连接到 Power BI 报表服务器和 Reporting Services，以显示移动报表或 KPI。 Windows Server 2016 向 Web 应用程序代理 (WAP) 角色提供了一些改进，以允许此种类型的身份验证。 请注意，此时不正式支持查看在使用 WAP 进行身份验证的 Power BI 报表服务器中托管的 Power BI 报表。
 
 ## <a name="requirements"></a>要求
 Windows Server 2016 是 Web 应用程序代理 (WAP) 和 Active Directory 联合身份验证服务 (ADFS) 服务器的必备组件。 无需具备 Windows 2016 功能级别的域。
