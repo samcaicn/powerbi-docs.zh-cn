@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: fb05b6fd2378c8fe2b6dec35250df31d227b7760
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135435"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39615996"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>创建指向 Power BI 移动应用中特定位置的链接
 可以创建和使用统一资源标识符 (URI) 链接到所有移动平台（iOS、Android 设备和 Windows 10）上 Power BI 移动应用中的特定位置（即 *深层链接* ）。
@@ -36,7 +36,7 @@ URI 链接可以直接指向仪表板、磁贴和报表。
 
 若要查找包含 36 个字符的仪表板对象 ID，请转到 Power BI 服务 (https://powerbi.com)) 中的特定仪表板。 有关示例，请参阅以下 URL 中的突出显示部分：
 
-https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**
+`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
 如果仪表板位于“我的工作区”以外的组中，请在仪表板 ID 前面或后面添加 `&GroupObjectId=<36-character-group-id>`。 例如： 
 
@@ -51,7 +51,7 @@ mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60
 
 若要查找包含 36 个字符的仪表板和磁贴对象 ID，请转到 Power BI 服务 (https://powerbi.com)) 中的特定仪表板，然后打开处于焦点模式的磁贴。 有关示例，请参阅以下 URL 中的突出显示部分：
 
-https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus
+`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
 
 对于此磁贴，URI 为：
 

@@ -9,19 +9,19 @@ ms.component: powerbi-mobile
 ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 3ad44bfaa4fe9fc2eb81adbaad17f6e5034d8b14
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 970bd7d2ba511b5b68fdac8bfc025133a117d0ae
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "34295758"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39615904"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>快速入门：浏览 Power BI 移动应用中的仪表板和报表
 在此快速入门中，将浏览 Android 手机上的 Power BI 移动应用中的示例仪表板和报表。 你也可以在其他移动应用中按照本文操作。 
 
 适用于：
 
-| ![iPhone](media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android ](media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Windows 10 设备](media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
+| ![iPhone](media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Windows 10 设备](media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone | iPad | Android | Windows 10 |
 

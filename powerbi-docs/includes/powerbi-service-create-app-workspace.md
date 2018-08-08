@@ -1,4 +1,4 @@
-1. 首先，创建工作区。 选择“工作区” > “创建应用工作区”。
+1. 首先，创建工作区。 选择“工作区” > “创建应用工作区”。 
    
      ![创建应用工作区](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    
