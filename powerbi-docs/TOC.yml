@@ -1,6 +1,6 @@
 - name: 使用 Power BI
   items:
-    - name: 概览
+    - name: 概述
       items:
         - name: 什么是 Power BI？
           href: power-bi-overview.md
@@ -112,8 +112,6 @@
                   href: service-install-use-apps.md
                 - name: 查找并连接组织内容包
                   href: service-organizational-content-pack-find-and-open.md
-                - name: 共享仪表板和报表
-                  href: service-share-dashboards.md
                 - name: Power BI 入门问答
                   href: power-bi-visualization-introduction-to-q-and-a.md
             - name: 连接到服务
@@ -306,9 +304,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: 共享工作
               items:
-                - name: 应如何针对仪表板及报表开展协作并进行共享？
+                - name: 应如何开展协作并进行共享？
                   href: service-how-to-collaborate-distribute-dashboards-reports.md
-                - name: 创建和分发包含仪表板和报表的应用
+                - name: 共享仪表板和报表
+                  href: service-share-dashboards.md
+                - name: 创建应用工作区
+                  href: service-create-workspaces.md
+                - name: 创建新工作区（预览）
+                  href: service-create-the-new-workspaces.md
+                - name: 发布包含仪表板和报表的应用
                   href: service-create-distribute-apps.md
                 - name: 共享筛选报表
                   href: service-share-reports.md
@@ -478,7 +482,7 @@
           href: whitepapers.md
 - name: Power BI Desktop
   items:
-    - name: 概览
+    - name: 概述
       items:
         - name: 什么是 Power BI Desktop？
           href: desktop-what-is-desktop.md
@@ -822,7 +826,7 @@
           href: desktop-admin-sign-in-form.md
 - name: Power BI 移动应用
   items:
-    - name: 概览
+    - name: 概述
       items:
         - name: 什么是移动应用？
           href: mobile-apps-for-mobile-devices.md
@@ -916,7 +920,7 @@
   items:
     - name: 嵌入式分析
       items:
-        - name: 概览
+        - name: 概述
           items:
             - name: 什么是使用 Power BI 嵌入
               href: developer/embedding.md
@@ -1002,7 +1006,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
     - name: 开发自定义视觉对象
       items:
-        - name: 概览
+        - name: 概述
           items:
             - name: 将自定义视觉对象添加到 Power BI 中
               href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/'
@@ -1044,7 +1048,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: 自动化
       items:
-        - name: 概览
+        - name: 概述
           items:
             - name: 借助 Power BI API 可以做什么？
               href: developer/overview-of-power-bi-rest-api.md
@@ -1092,7 +1096,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI 报表服务器
   items:
-    - name: 概览
+    - name: 概述
       items:
         - name: 什么是 Power BI 报表服务器？
           href: report-server/get-started.md
@@ -1194,7 +1198,7 @@
           href: report-server/capacity-planning.md
 - name: 网关
   items:
-    - name: 概览
+    - name: 概述
       items:
         - name: 什么是 Power BI 网关？
           href: service-gateway-getting-started.md
@@ -1242,7 +1246,7 @@
           href: service-gateway-onprem-tshoot.md
 - name: 管理
   items:
-    - name: 概览
+    - name: 概述
       items:
         - name: 什么是 Power BI 管理？
           href: service-admin-administering-power-bi-in-your-organization.md
