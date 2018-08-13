@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e176f82e106c531410b8e9233b983c6e321bddf4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299047"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624382"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>与同事和其他人共享 Power BI 仪表板和报表
 共享是一种使多人能够访问你的仪表板和报表的有效方式。 Power BI 还提供了[其他多种开展协作和分发仪表板及报表的方式](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -91,6 +91,8 @@ ms.locfileid: "34299047"
 
 4. 在“移除访问权限”对话框中，决定是否要同时删除对相关内容（例如报告和数据集）的访问权限。 如果删除带有警告图标 ![Power BI 警告图标](media/service-share-dashboards/power-bi-warning-icon.png)的项目，则最好删除相关内容，因为它将无法正常显示。
 
+    ![Power BI 共享警告对话框](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
+
 ## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>与组织外部的人员共享仪表板或报表
 与组织外的人员共享时，他们会收到带有指向共享仪表板或报表的链接的电子邮件，而且他们必须登录 Power BI 才能查看仪表板或报表。 如果他们没有 Power BI Pro 许可证，则可以在单击链接后注册一个许可证。
 
@@ -145,6 +147,8 @@ ms.locfileid: "34299047"
 ### <a name="i-cant-share-a-dashboard-or-report"></a>我无法共享仪表板或报表
 
 要共享仪表板或报表，你需要具有重新共享基础内容（任何相关的报表和数据集）的权限。 如果你看到一条消息，指示无法共享，请要求报表作者给予你重新共享这些报表和数据集的权限。
+
+![“无法共享”消息](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
 
 
 ## <a name="next-steps"></a>后续步骤

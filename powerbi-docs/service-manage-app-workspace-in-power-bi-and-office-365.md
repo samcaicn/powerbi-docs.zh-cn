@@ -3,22 +3,25 @@ title: 管理 Power BI 和 Office 365 中的应用工作区
 description: Power BI 中的应用工作区是以 Office 365 组为基础的协作体验。 管理 Power BI 和 Office 365 中的应用工作区。
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukasz
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965196"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624335"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>管理 Power BI 和 Office 365 中的应用工作区
 作为 [Power BI 或 Office 365 中应用工作区](service-install-use-apps.md)的创建者或管理员，可以在 Power BI 中管理工作区的某些方面。 你在 Office 365 中管理的其他方面。 
+
+> [!NOTE]
+> 新工作区体验预览将更改 Power BI 工作区与 Office 365 组之间的关系。 每次创建新工作区时，不会自动创建 Office 365 组。 了解如何[创建新工作区（预览版）](service-create-the-new-workspaces.md)
 
 **在 Power BI 中**，你可以：
 
@@ -38,7 +41,7 @@ ms.locfileid: "36965196"
 ## <a name="edit-your-app-workspace-in-power-bi"></a>编辑 Power BI 中的应用工作区
 1. 在 Power BI 服务中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的省略号（“…”），接下来选择“编辑工作区”。 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![在 Power BI 中编辑工作区](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    > [!NOTE]
    > 如果你是应用工作区管理员，则只能看到“编辑工作区”。
@@ -46,34 +49,34 @@ ms.locfileid: "36965196"
    > 
 2. 可以在此处重命名、添加或删除成员，或删除应用工作区。 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
+   ![编辑工作区对话框](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
 3. 选择**保存**或**取消**。
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>在 Office 365 中编辑 Power BI 应用工作区属性
 1. 在 Power BI 服务中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的省略号（“…”），接下来选择“成员”。 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![在 Power BI 中编辑工作区](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    这将打开应用工作区的 Outlook for Office 365 组视图。
    
    可能需要登录到你的公司帐户。
 2. 单击某个成员名旁边的省略号（“…”），使该成员成为管理员或从应用工作区中删除该成员。 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
+   ![在 Office 365 中编辑组](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ## <a name="add-an-image-and-set-other-workspace-properties-in-the-office-365-group"></a>在 Office 365 组中添加图像并设置其他工作区属性
-从应用工作区分发应用时，在此处添加的图像将成为应用的图像。 请参阅[在 Power BI 中创建和分发应用](service-create-distribute-apps.md)文章的[将图像添加到应用](service-create-distribute-apps.md#add-an-image-to-your-app-optional)部分。
+从应用工作区分发应用时，在此处添加的图像将成为应用的图像。 请参阅[创建新工作区](service-create-workspaces.md)文章的[将图像添加到应用](service-create-workspaces.md#add-an-image-to-your-office-365-app-workspace-optional)一节。
 
 1. 在应用工作区的 Outlook for Office 365 视图中，选择组图像以编辑组工作区属性。
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
+   ![编辑组图标](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 2. 可以在此处编辑名称、说明和语言，添加图像并设置其他属性。
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
+   ![编辑组对话框](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
 3. 选择**保存**或**放弃**。
 
 ## <a name="next-steps"></a>后续步骤
 * [Power BI 中的应用有哪些？](service-install-use-apps.md)
-* [在 Power BI 中创建应用和应用工作区](service-create-distribute-apps.md)
+* [在 Power BI 中发布包含仪表板和报表的应用](service-create-distribute-apps.md)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

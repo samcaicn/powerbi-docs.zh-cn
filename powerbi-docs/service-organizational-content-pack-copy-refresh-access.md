@@ -3,29 +3,29 @@ title: 组织内容包：访问和复制
 description: 阅读有关在 Power BI 中创建组织内容包的副本并对其访问权限进行故障排除的信息
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c2d7a878189542d8a477933f6c54390b2636787e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 37cfca811b7e60bde832396e67b246933d4e0a8e
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852224"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624197"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>组织内容包：复制、刷新和获取访问权限
-> [!NOTE]
-> 你知道新 *应用* 吗？ 应用是在 Power BI 中将内容分发给大型受众的新方法。 我们计划在不久后弃用组织内容包，因此建议你使用应用。 了解有关[应用的详细信息](service-install-use-apps.md)。
-> 
-> 
 
 组织内容包发布后，所有收件人都会看到相同的仪表板、报表、Excel 工作簿、数据集和数据（SQL Server Analysis Services (SSAS) 数据源除外）。  [只有内容包创建者可以编辑和重新发布](service-organizational-content-pack-manage-update-delete.md)内容包。  但是，所有收件人均可保存内容包的副本，该副本可与原始内容包并存。
 
 创建内容包不同于共享仪表板，也不同于在组中针对这些包开展协作。 阅读[应如何针对仪表板及报表开展协作并进行共享？](service-how-to-collaborate-distribute-dashboards-reports.md)以决定具体情况的最佳选项。
+
+> [!NOTE]
+> 无法在新工作区体验预览中创建或安装组织内容包。 现在正是将内容包升级到应用的最佳时机（如果尚未升级）。 详细了解[新工作区体验](service-create-the-new-workspaces.md)。
+> 
 
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>创建组织内容包的副本
 创建内容包的专属副本，并对其他用户不可见。

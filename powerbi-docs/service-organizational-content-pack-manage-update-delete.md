@@ -3,24 +3,23 @@ title: 组织内容包：管理和更新
 description: 详细了解如何在 Power BI 中管理、更新和删除组织内容包。
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: d00ad254e25f8806f6cf2bc944e849e32167b1f8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182785"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624312"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和删除组织内容包
 > [!NOTE]
-> 你知道新*应用*吗？ 应用是在 Power BI 中将内容分发给大型受众的新方法。 我们计划在不久后弃用组织内容包，因此建议你使用应用。 了解有关[应用的详细信息](service-install-use-apps.md)。
-> 
+> 无法在新工作区体验预览中创建或安装组织内容包。 现在正是将内容包升级到应用的最佳时机（如果尚未升级）。 详细了解[新工作区体验](service-create-the-new-workspaces.md)。
 > 
 
 可以将仪表板、报表、Excel 工作簿和数据集打包为[组织内容包](service-organizational-content-pack-introduction.md)，并与你的同事共享。 你的同事可以按原样使用它们，也可以创建其自己的副本。

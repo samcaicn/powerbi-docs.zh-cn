@@ -3,33 +3,30 @@ title: 创建和发布组织内容包 - Power BI
 description: 本教程创建一个组织内容包，限制对特定组的访问，并将其发布到 Power BI 上的组织内容包库。
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598589"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624243"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>创建和发布 Power BI 组织内容包（教程）
-> [!NOTE]
-> 你知道新 *应用* 吗？ 应用是在 Power BI 中将内容分发给大型受众的新方法。 我们计划在不久后弃用组织内容包，因此建议你使用应用。 了解有关[应用的详细信息](service-install-use-apps.md)。
-> 
-> 
 
 本教程介绍了如何创建组织内容包，授予对特定组的访问权限，并将组织内容包发布到你在 Power BI 上的组织内容包库。
 
 创建内容包不同于共享仪表板，也不同于在组中针对这些包开展协作。 阅读[应如何针对仪表板及报表开展协作并进行共享？](service-how-to-collaborate-distribute-dashboards-reports.md)以决定具体情况的最佳选项。
 
+你和你的同事需要具有 [Power BI Pro 帐户](https://powerbi.microsoft.com/pricing)才能创建组织内容包。 
+
 > [!NOTE]
-> 你和你的同事需要具有 [Power BI Pro 帐户](https://powerbi.microsoft.com/pricing)才能创建组织内容包。
-> 
+> 无法在新工作区体验预览中创建或安装组织内容包。 现在正是将内容包升级到应用的最佳时机（如果尚未升级）。 详细了解[新工作区体验](service-create-the-new-workspaces.md)。
 > 
 
 假设你是 Contoso 的发布经理，准备推出新产品。  你通过报表创建了仪表板，想要与其他管理发布的员工共享。 你想要对仪表板和报表进行打包的方法，使其作为你的同事使用的解决方案。 

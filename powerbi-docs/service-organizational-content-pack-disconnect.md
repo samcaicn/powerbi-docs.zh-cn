@@ -3,21 +3,26 @@ title: 与组织内容包断开连接 - Power BI
 description: 了解如何通过删除 Power BI 中的数据集来解除与组织内容包的连接。
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c0e7bddd23987377bfd8cf05bdfd1ab997e621ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2389ed542a43b28296faf2eed2b69b4e83d227f5
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247633"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624151"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>删除与 Power BI 组织内容包的连接
+
+> [!NOTE]
+> 无法在新工作区体验预览中创建或安装组织内容包。 现在正是将内容包升级到应用的最佳时机（如果尚未升级）。 详细了解[新工作区体验](service-create-the-new-workspaces.md)。
+> 
+
 一名同事已创建一个内容包。 你在 AppSource 中发现了此包，并将它添加到了 Power BI 工作区中。 现在你不再需要它。  如何删除它？
 
 要删除内容包，可以删除其数据集。  

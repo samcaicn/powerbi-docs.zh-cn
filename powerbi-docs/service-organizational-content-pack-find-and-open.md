@@ -3,34 +3,34 @@ title: 查找并连接到组织内容包 - Power BI
 description: 在 Power BI 中查找和打开组织内容包
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 67072d690f09e922601c6b14ad1c150e2298040b
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280216"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624266"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>查找并连接组织内容包
-> [!NOTE]
-> 你知道新*应用*吗？ 应用是在 Power BI 中将内容分发给大型受众的新方法。 我们计划在不久后弃用组织内容包，因此建议你使用应用。 了解有关[应用的详细信息](service-install-use-apps.md)。
-> 
-> 
 
 只要任何人向组织、通讯组/安全组或你所属的 [Office 365 组](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)发布组织内容包，它就会显示在 AppSource 中。  浏览或搜索 AppSource 可以查找和打开组织内容包。
 
 创建内容包不同于共享仪表板，也不同于在组中针对这些包开展协作。 阅读[应如何针对仪表板及报表开展协作并进行共享？](service-how-to-collaborate-distribute-dashboards-reports.md)以决定具体情况的最佳选项。
 
+> [!NOTE]
+> 无法在新工作区体验预览中创建或安装组织内容包。 现在正是将内容包升级到应用的最佳时机（如果尚未升级）。 详细了解[新工作区体验](service-create-the-new-workspaces.md)。
+> 
+
 ## <a name="find-an-organizational-content-pack"></a>查找组织内容包
 [Power BI Pro](https://powerbi.microsoft.com/pricing) 用户可以转到 AppSource，查看与整个组织、通讯组/安全组及其所属 Office 365 组共享的内容包。  
 
-1. 从左侧导航窗格中，选择**获取数据 \> 我的组织**\>**获取**。
+1. 从左侧导航窗格中，选择**获取数据 \> 我的组织** \> **获取**。
 2. 看不到你要寻找的内容包？ 在搜索框中点击，并键入关键字：  
     ![](media/service-organizational-content-pack-find-and-open/cp_searchbox.png)
 3. 选择内容包，以显示更多详细信息。
