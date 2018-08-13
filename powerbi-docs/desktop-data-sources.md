@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 203648affe06abe304d0e8a328b00189b42fa143
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39328387"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657865"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
@@ -39,7 +39,7 @@ ms.locfileid: "39328387"
 * 全部
 * 文件
 * 数据库
-* Excel
+* Power BI
 * Azure
 * Online Services
 * 其他
@@ -93,7 +93,6 @@ ms.locfileid: "39328387"
 “Power BI”类别提供下列数据连接：
 
 * Power BI 数据集
-* Power BI 数据池(Beta)
 
 下图显示 Power BI 的“获取数据”窗口。
 
@@ -168,7 +167,7 @@ ms.locfileid: "39328387"
 * Active Directory
 * Microsoft Exchange
 * Hadoop 文件 (HDFS)
-* Spark (Beta)
+* Spark
 * R 脚本
 * ODBC
 * OLE DB
