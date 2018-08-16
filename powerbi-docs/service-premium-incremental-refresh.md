@@ -100,7 +100,7 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部 5
 
 ![刷新范围](media/service-premium-incremental-refresh/refresh-ranges.png)
 
-如果上述范围的定义是你所需的全部内容，可直接转到下面的发布步骤。其他下拉菜单适用于高级功能。**
+如果上述范围的定义是你所需的全部内容，可直接转到下面的发布步骤。其他下拉菜单适用于高级功能。
 
 #### <a name="detect-data-changes"></a>检测数据更改
 

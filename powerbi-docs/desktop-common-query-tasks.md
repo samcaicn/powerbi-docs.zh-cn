@@ -63,7 +63,7 @@ ms.locfileid: "39330204"
 有关连接到 Power BI Desktop 中数据的分步演示，请参阅[连接到 Power BI Desktop 中的数据](https://docs.microsoft.com/power-bi/desktop-connect-to-data)。
 
 ## <a name="shape-and-combine-data"></a>调整和合并数据
-可使用查询编辑器轻松地调整和合并数据。 本部分包括几个有关数据调整方式的示例。 有关如何调整和合并数据的更完整演示，请参阅**[使用 Power BI Desktop 调整和合并数据](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**。
+可使用查询编辑器轻松地调整和合并数据。 本部分包括几个有关数据调整方式的示例。 有关如何调整和合并数据的更完整演示，请参阅 **[使用 Power BI Desktop 调整和合并数据](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**。
 
 上一节中，我们连接到两组数据 – Excel 工作簿和 Web 资源。 在“查询编辑器”中加载后，我们将看到以下结果，其中选中了网页中的查询（取自“查询编辑器”窗口左侧的“查询”窗格内列出的可用查询）。
 
