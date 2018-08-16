@@ -66,7 +66,7 @@ ms.locfileid: "34250045"
 ## <a name="finding-parameters"></a>查找参数
 可在“应用管理”之下转到“应用标识”页，以查找应用的应用程序 ID。
 
-应用程序 ID 位于你的 Windows 10 Store URL 的末尾处，https://www.microsoft.com/store/apps/ **{applicationId}**
+应用程序 ID 位于你的 Windows 10 Store URL 的末尾处， https://www.microsoft.com/store/apps/ **{applicationId}**
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 入门](service-get-started.md)
