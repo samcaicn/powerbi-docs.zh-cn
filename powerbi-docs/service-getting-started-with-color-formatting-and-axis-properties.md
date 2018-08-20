@@ -7,20 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 422f0ba97f5118ddc57e9102055a070deaf99b90
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 805487087de865c25f08a29243d672fafbc26ca2
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329606"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658028"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>颜色格式设置和轴属性入门
 在 Power BI 中，可以更改数据系列、数据点和可视化效果背景的颜色。 如果你能完全控制仪表板和报表的显示方式，你还可以更改 X 轴和 Y 轴的显示方式。
 
 若要开始，请从**我的工作区**窗格中选择**报表**。 然后从顶部菜单区域，选择**编辑报表**。  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
 
 在你编辑报表并已经选择了可视化效果时，将出现让你可添加或更改可视化效果的**可视化效果**窗格。 可用可视化效果的正下方有三个图标：“字段”图标（叠放的条形）、“格式”图标（滚筒刷）和“分析”图标（放大镜）。 以下图像中，**字段**图标处于选中状态，图标下方以黄色栏指示。
@@ -28,6 +29,7 @@ ms.locfileid: "39329606"
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
 
 当选择**格式**时，图标下方的区域将显示适用于当前所选可视化效果的颜色和轴自定义选项。  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_3a.png)
 
 你可以自定义每个可视化效果的多个元素：
@@ -47,14 +49,13 @@ ms.locfileid: "39329606"
 > [!NOTE]
 >  
 > 你将不会看到每个可视化效果类型的所有这些元素。 你选择的可视化效果将会对可用的自定义项有影响；例如，如果你选择了饼图，则不会看到 X 轴，因为饼图没有 X 轴。
-> 
-> 
 
 另请注意，如果没有选择任何可视化效果，**筛选器**将会在图标的位置出现，这让你可以将筛选器应用于页面上的所有可视化效果。
 
 我们来看两个示例：一个处理颜色，另一个更改轴的属性。 此处你应该随时准备好自定义颜色、轴和标签。
 
 ## <a name="working-with-colors"></a>处理颜色
+
 让我们逐步完成图表上自定义颜色所必需的步骤。
 
 1. 我从报表画布中选择**簇状柱形图**。
@@ -76,6 +77,7 @@ ms.locfileid: "39329606"
 不喜欢你刚刚进行的更改？ 使用 **CTRL+Z** 撤销操作，就像你之前操作的那样。
 
 ## <a name="changing-axis-properties"></a>更改轴属性
+
 修改 X 轴或 Y 轴通常很有用。 与处理颜色类似，可以通过选择想要更改的轴的左侧的向下箭头来修改轴，如下图所示。  
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
 
@@ -88,11 +90,15 @@ ms.locfileid: "39329606"
 > [!NOTE]
 >  
 > 这些颜色、轴以及相关的可用自定义项在选中**格式**图标时可用，在 Power BI Desktop 中也可用。
-> 
-> 
 
-## <a name="next-step"></a>下一步
+## <a name="setting-color-from-text-values"></a>设置文本值颜色
+
+从 2018 年 8 月版 Power BI Desktop 更新开始，对于给定报表元素，可按文本值设置颜色。 有关详细信息，请参阅[表格中的条件格式设置](desktop-conditional-table-formatting.md)。
+
+
+## <a name="next-steps"></a>后续步骤
 有关详细信息，请参阅以下文章：  
 
 * [Power BI 中颜色格式设置的提示和技巧](service-tips-and-tricks-for-color-formatting.md)  
+* [表格中的条件格式设置](desktop-conditional-table-formatting.md)
 

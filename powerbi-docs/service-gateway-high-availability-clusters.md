@@ -2,26 +2,26 @@
 title: 本地数据网关的高可用性群集
 description: 可以创建本地数据网关的群集来为企业提供高可用性。
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/05/2017
-ms.author: mblythe
+ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9777131c25974a2bc9936ef1c1ce285bb652028c
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: 5b89b53cab0f7e4df07b15a05cd74c7d99b1392a
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032016"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657980"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>本地数据网关的高可用性群集
+
 可以创建“本地数据网关”安装项目的“高可用性群集”，确保组织能够访问 Power BI 报表和仪表板中使用的本地数据资源。 网关管理员可通过此类群集将网关分组，以避免访问本地数据资源时出现单一故障点。 Power BI 服务始终使用群集中的主网关，除非该网关不可用。 在这种情况下，该服务将切换到群集中的下一个网关，依次类推。
 
 本文介绍创建本地数据网关的高可用性群集时可以执行的步骤，并分享有关设置此类群集的最佳做法。 高可用性网关群集要求对本地数据网关应用 2017 年 11 月更新或更高版本。
-
 
 ## <a name="setting-up-high-availability-clusters-of-gateways"></a>设置网关的高可用性群集
 
@@ -31,14 +31,19 @@ ms.locfileid: "39032016"
 
 若要将网关添加到现有群集，必须提供新网关要加入的群集的主网关实例的恢复密钥。 群集的主网关必须运行 2017 年 11 月网关更新或更高版本。 
 
-
 ## <a name="managing-a-gateway-cluster"></a>管理网关群集
 
-在某个网关群集中包含两个或更多个网关后，所有网关管理操作（例如添加数据源或授予对网关的管理权限）都将应用到该群集所属的所有网关。 
+在某个网关群集中包含两个或更多个网关后，所有网关管理操作（例如添加数据源或授予对网关的管理权限）都将应用到该群集所属的所有网关。
 
 当管理员使用“Power BI 服务”中齿轮图标下面的“管理网关”菜单项时，会看到已注册群集或各个网关的列表，但看不到属于群集的单个网关实例。
 
-所有新的“计划刷新”请求和 DirectQuery 操作将自动路由到给定网关群集的主实例。 如果主网关实例不处于联机状态，则请求将路由到群集中的另一个网关实例。
+所有新的“计划刷新”请求和 DirectQuery 操作都将自动路由到给定网关群集的主实例。 如果主网关实例不处于联机状态，则请求将路由到群集中的另一个网关实例。
+
+## <a name="distribute-requests-traffic-across-all-gateways-in-a-cluster"></a>跨群集中的所有网关分布请求流量
+
+可以选择允许跨群集中的所有网关分布流量。 在“Power BI 服务”的“管理网关”页中，单击左侧导航树上的列表中的网关群集时，可启动选项“跨此群集中的所有活动网关分布请求”。
+
+![负载均衡](media/service-gateway-high-availability-clusters/gateway-onprem-loadbalance.png)
 
 ## <a name="powershell-support-for-gateway-clusters"></a>网关群集的 PowerShell 支持
 
@@ -64,17 +69,16 @@ ms.locfileid: "39032016"
     Import-Module .\OnPremisesDataGatewayHAMgmt.psm1
     ```
 
-完成这些步骤后，可以使用下表中的命令来管理网关群集
+完成这些步骤后，可以使用下表中的命令来管理网关群集。
 
 | **命令** | **说明** | **参数** |
 | --- | --- | --- |
 | *Login-OnPremisesDataGateway* |此命令可让用户登录，以管理其本地数据网关群集。  只有运行此命令并登录之后，才可正常运行其他高可用性命令。 注意：在调用 Login 过程中获取的 AAD 身份验证令牌的有效期只有 1 个小时，之后将会失效。 可以重新运行 Login 命令获取新令牌。| AAD 用户名和密码（在执行命令而不是初始调用过程中提供）|
-| *Get-OnPremisesDataGatewayClusters* | 检索已登录用户的网关群集列表。 | （可选）可将格式设置参数传递给此命令以便于阅读，例如：*Format-Table -AutoSize -Wrap* |
+| *Get-OnPremisesDataGatewayClusters* | 检索已登录用户的网关群集列表。 | （可选）可将格式设置参数传递给此命令以便于阅读，例如：Format-Table -AutoSize -Wrap |
 | *Get-OnPremisesDataClusterGateways* | 检索指定群集中的网关列表，以及每个网关的其他信息（联机/脱机状态、计算机名称，等等） | *-ClusterObjectID xyz*（其中，*xyz* 需替换为实际群集对象 ID 值，可以使用 *Get-OnPremisesDataGatewayClusters* 命令检索该值）|
-| *Set-OnPremisesDataGateway* | 用于设置群集中给定网关的属性值，包括启用/禁用特定的网关实例  | *-ClusterObjectID xyz*（*xyz* 应替换为实际群集对象 ID 值，可以使用 *Get-OnPremisesDataGatewayClusters* 命令检索该值）*-GatewayObjectID abc*（*abc* 应替换为实际网关对象 ID 值，在指定了群集对象 ID 的情况下，可以使用 *Get-OnPremisesDataClusterGateways* 命令检索该值） |
+| *Set-OnPremisesDataGateway* | 用于设置群集中给定网关的属性值，包括启用/禁用特定的网关实例  | -ClusterObjectID xyz（xyz 应替换为实际群集对象 ID 值，可以使用 Get-OnPremisesDataGatewayClusters 命令检索该值）-GatewayObjectID abc（abc 应替换为实际网关对象 ID 值，在指定了群集对象 ID 的情况下，可以使用 Get-OnPremisesDataClusterGateways 命令检索该值） |
 | *Get-OnPremisesDataGatewayStatus* | 用于检索群集中给定网关实例的状态  | *-ClusterObjectID xyz*（*xyz* 应替换为实际群集对象 ID 值，可以使用 *Get-OnPremisesDataGatewayClusters* 命令检索该值）*-GatewayObjectID abc*（*abc* 应替换为实际网关对象 ID 值，在指定了群集对象 ID 的情况下，可以使用 *Get-OnPremisesDataClusterGateways* 命令检索该值） |
 | *Remove-OnPremisesDataGateway*  | 用于从群集中删除网关实例 - 请注意，只有在删除群集中的其他所有网关之后，才能删除群集中的主网关。| *-ClusterObjectID xyz*（*xyz* 应替换为实际群集对象 ID 值，可以使用 *Get-OnPremisesDataGatewayClusters* 命令检索该值）*-GatewayObjectID abc*（*abc* 应替换为实际网关对象 ID 值，在指定了群集对象 ID 的情况下，可以使用 *Get-OnPremisesDataClusterGateways* 命令检索该值） |
-
 
 ## <a name="next-steps"></a>后续步骤
 

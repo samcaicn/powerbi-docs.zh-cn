@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b8c4066f3128899d2c3c8121d7c5d41768f89dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327812"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657957"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用书签共享见解和创建情景 
 使用 Power BI 中的“书签”，可以帮助捕获当前配置的报表页视图（包括视觉对象的筛选器和状态），然后只需选择保存的书签即可恢复相应状态。 
@@ -113,6 +113,33 @@ ms.locfileid: "39327812"
 对于与书签相关联的对象，可以执行各种有意思的操作。 可以在报表页上创建可视内容表，也可以提供相同信息的不同视图（如视觉对象类型），只需单击对象即可。
 
 在编辑模式下，可以在按住 Ctrl 的同时单击，从而访问关联的书签；在非编辑模式下，只需单击对象，即可访问关联的书签。 
+
+## <a name="bookmark-groups"></a>书签组
+
+从 2018 年 8 月版 Power BI Desktop 开始，可以创建并使用书签组。 书签组是指定书签的集合，可按照组的形式显示和排列。 
+
+若要创建书签组，请按住 Ctrl 键并选择想要添加到组中的书签，单击任何选定书签旁边的省略号，然后从显示的菜单中选择“组”。
+
+![创建书签组](media/desktop-bookmarks/bookmarks_15.png)
+
+Power BI Desktop 自动将该组命名为组 1。 幸运的是，只需双击名称，然后将其重命名为所需的任何名称即可。
+
+![重命名书签组](media/desktop-bookmarks/bookmarks_16.png)
+
+对于任何书签组，单击书签组的名称仅展开或折叠书签组，其本身并不代表书签。 
+
+使用书签的“视图”功能时，以下内容适用：
+
+* 如果所选书签位于组中，在书签中选择“查看”时，查看会话中仅显示该组中的书签。 
+
+* 如果所选书签不是组，或位于最高级别（如书签组的名称），将播放整个报表的所有书签，包括所有组中的书签。 
+
+若要对书签取消分组，只需选择组中的任何书签，单击省略号，然后从显示的菜单中选择“取消分组”即可。 
+
+![取消分组书签组](media/desktop-bookmarks/bookmarks_17.png)
+
+请注意，对组中的任何书签选择“取消分组”，可将所有书签移出该组（会删除组，但不会删除书签本身）。 若要从组中删除一个书签，需要对该组中的任何成员取消分组（这将删除该分组），然后选择要加入新组的成员（使用 Ctrl 并单击每个书签），并再次选择“分组”。 
+
 
 ## <a name="using-spotlight"></a>使用“聚焦”
 与书签一起发布的另一项功能是“聚焦”。 使用“聚焦”，可以吸引用户注意特定图表。例如，在“查看”模式下呈现书签。

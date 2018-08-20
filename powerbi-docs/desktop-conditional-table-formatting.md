@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 70aa61d6a02bea1b7058a68b20718008ace1b8c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34480879"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657796"
 ---
 # <a name="conditional-formatting-in-tables"></a>表格中的条件格式设置 
 通过表格的条件格式设置，可根据单元格值或其他值/字段指定自定义单元格颜色，包括使用渐变色。 也可用数据条显示单元格值。 
@@ -24,7 +24,7 @@ ms.locfileid: "34480879"
 
 ![“条件格式”菜单](media/desktop-conditional-table-formatting/table-formatting-0-popup-menu.png)
 
-以下各节逐一介绍了这三个条件格式选项。 可在单个表列中使用一个选项或组合使用多个选项。
+以下各节逐一介绍了这些条件格式选项。 可在单个表列中使用一个选项或组合使用多个选项。
 
 > [!NOTE]
 > 应用到表后，条件格式将替代应用到已进行条件格式设置的单元格的任意自定义表格样式。
@@ -95,3 +95,43 @@ ms.locfileid: "34480879"
 如果“仅显示数据条”选项处于选中状态，表单元格将仅显示数据条。
 
 ![仅使用数据条的示例表](media/desktop-conditional-table-formatting/table-formatting-3-default-table-bars.png)
+
+## <a name="color-formatting-by-field-value"></a>按字段值设置颜色格式
+
+可以使用度量值或列指定一种颜色，或者使用文本值或十六进制代码，将该颜色应用于表或矩阵视觉对象的字体颜色背景。 此外，还可以为给定字段创建自定义逻辑，使该逻辑向字体或背景应用所需的颜色。
+
+例如，下表中包含与每个产品型号关联的颜色。 
+
+![具有颜色名称的 ProductName 字段](media/desktop-conditional-table-formatting/conditional-table-formatting_01.png)
+
+若要根据其字段值设置该单元格格式，可通过右键单击该视觉效果的“颜色列”选择“条件格式”对话框，在此例中，选择菜单中的“背景色”。 
+
+![选择菜单中的“背景色”](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
+
+在出现的对话框中，选择“格式设置依据”下拉区域中的“字段值”，如下图所示。
+
+![按字段值设置格式](media/desktop-conditional-table-formatting/conditional-table-formatting_03.png)
+
+可对字体颜色重复该过程，生成的视觉对象使用颜色列中的纯色，如下面的屏幕中所示。
+
+![按字段值设置格式](media/desktop-conditional-table-formatting/conditional-table-formatting_04.png)
+
+此外，还可以基于业务逻辑创建一个 DAX 计算，根据首选条件输出不同的十六进制代码。 这通常比在条件格式对话框中创建多个规则更容易。 请考虑以下示例图像中的 ColorKPI。
+
+![DAX 计算](media/desktop-conditional-table-formatting/conditional-table-formatting_05.png)
+
+然后，可通过以下方式设置“背景色”的字段值。
+
+![根据 KPI 设置字段颜色](media/desktop-conditional-table-formatting/conditional-table-formatting_06.png)
+
+然后可获得类似以下矩阵的结果。
+
+![带有基于 KPI 值的颜色的矩阵视觉对象](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
+
+可以创建多个版本，只需动用你的想象力和一点 DAX 即可。
+
+## <a name="next-steps"></a>后续步骤
+有关详细信息，请参阅以下文章：  
+
+* [Power BI 中颜色格式设置的提示和技巧](service-tips-and-tricks-for-color-formatting.md)  
+
