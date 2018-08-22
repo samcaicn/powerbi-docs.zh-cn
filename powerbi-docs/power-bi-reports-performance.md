@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
-ms.author: v-mamcge
+ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582562"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256948"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 性能最佳做法 
 本文将介绍如何在 Power BI 中构建快速可靠的报表  
@@ -46,10 +46,10 @@ ms.locfileid: "39582562"
  
 ## <a name="directquery-and-live-connection-understand-underlying-data-source-performance"></a>DirectQuery 和实时连接：了解基础数据源的性能 
 
-在 DirectQuery 或实时连接的情况下，当用户访问 Power BI 报表时，Power BI 会实时将查询发送到基础数据源。 数据源返回查询数据后，报表就会呈现。 因此，这些情况下的报表性能在很大程度上取决于基础数据源的性能。 
- 
-在这些情况下，了解基础数据源的性能非常重要。 不同的数据源具有用于理解查询性能的不同工具。 例如，SQL Server 和 Azure SQL 提供了查询数据存储，可以捕获查询历史记录及其运行时统计信息。 
- 
+在 DirectQuery 或实时连接的情况下，当用户访问 Power BI 报表时，Power BI 会实时将查询发送到基础数据源。 数据源返回查询数据后，报表就会呈现。 因此，这些情况下的报表性能在很大程度上取决于基础数据源的性能。
+
+在这些情况下，了解基础数据源的性能非常重要。 不同的数据源具有用于理解查询性能的不同工具。 例如，SQL Server 和 Azure SQL 提供了查询数据存储，可以捕获查询历史记录及其运行时统计信息。
+
 作为一条经验法则，当部署基于 DirectQuery 和实时连接构建的 Power BI 报表时，请试用最终用户在 Power BI Desktop 中所做的操作。 如果报表在 Power BI Desktop 中加载缓慢，那么为最终用户加载服务的速度几乎肯定会很慢。 
  
 ## <a name="directquery-best-practices"></a>DirectQuery 最佳做法 
