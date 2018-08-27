@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f9c6d161149a4c862636a13ad88d3c43f2dbcd8a
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: cbec15b472e6cfad6134cc48970977132d61dd36
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329302"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257205"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 Analysis Services 表格数据
 借助 Power BI Desktop，你有两种方法可以连接到 SQL Server Analysis Services 表格模型并从中获取数据：通过使用实时连接浏览或选择项目并将其导入到 Power BI Desktop。
@@ -24,7 +24,9 @@ ms.locfileid: "39329302"
 
 **通过使用实时连接浏览** – 使用实时连接时，表格模型或透视中的项目（如表格、列和度量值）会显示在 Power BI Desktop 字段列表中。 你可以使用 Power BI Desktop 的高级可视化效果和报表工具以全新且高度交互的方式浏览你的表格模型。
 
-在进行实时连接时，表格模型中的数据不会导入到 Power BI Desktop 中。 每次与可视化效果进行交互时，Power BI Desktop 都将查询表格模型，并计算你所看到的结果。 你看到的始终是最新的数据。 请记住，表格模型是高度安全的。 在 Power BI Desktop 中显示的项目取决于你对连接到的表格模型所具有的权限。
+在进行实时连接时，表格模型中的数据不会导入到 Power BI Desktop 中。 每次与可视化效果进行交互时，Power BI Desktop 都将查询表格模型，并计算你所看到的结果。 始终都可查看表格模型中提供的最新数据，可以从上次处理时间开始查看，也可以从表格模型中提供的直接查询表查看。 
+
+请记住，表格模型是高度安全的。 在 Power BI Desktop 中显示的项目取决于你对连接到的表格模型所具有的权限。
 
 当你在 Power BI Desktop 中创建了动态报表后，可以将它们发布到 Power BI 站点进行共享。 当使用与表格模型的实时连接将 Power BI Desktop 文件发布到 Power BI 站点时，管理员必须安装并配置本地数据网关。 若要了解详细信息，请参阅[本地数据网关](service-gateway-onprem.md)。
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/02/2018
+ms.date: 08/15/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965495"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257126"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理门户
 
@@ -100,36 +100,37 @@ ms.locfileid: "36965495"
 
 管理门户中的第三个选项卡是**租户设置**。 租户设置使你可以更好地控制向组织提供的功能。 如果你担心敏感数据、我们的某些功能可能不适合你的组织，或者你只需要为特定组提供给定的功能。 如果出现这种情况，则可以在租户中关闭它。
 
-例如，默认情况下，每个用户的数据都启用了使用指标并在指标报表中包含内容创建者帐户信息。 如果不希望某些或所有用户包含此信息，请为特定安全组或整个组织禁用此功能。 帐户信息随后会在报表中显示为“未命名”。
-
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
 > 可能需要 10 分钟才会使设置对租户中的每个人生效。
 
-根据你提供的设置，设置可以有三种状态。
+设置可以有三种状态：
 
-### <a name="disabled-for-the-entire-organization"></a>为整个组织禁用
+* **为整个组织禁用**：可禁用某个功能，使用户无法使用该功能。
 
-可以禁用某个功能，使用户不能使用它。
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+* **为整个组织启用**：可为整个组织启用某个功能，让所有用户都有权访问该功能。
 
-### <a name="enabled-for-the-entire-organization"></a>为整个组织启用
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-可以为整个组织启用某个功能，这会使所有用户拥有访问该功能的权限。
+* **为组织的子集启用**：还可为组织的一部分启用某个功能。 这可以以多种不同的方式来实现。 可以为除特定用户组之外的整个组织启用功能。
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-### <a name="enabled-for-a-subset-of-the-organization"></a>为组织的子集启用
+    还可以仅为特定用户组启用功能，还可以为某个用户组禁用功能。 这将确保即使某些用户属于允许的组，但仍没有访问该功能的权限。
 
-还可以为组织的一部分启用某个功能。 这可以以多种不同的方式来实现。 可以为除特定用户组之外的整个组织启用功能。
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+接下来的几节概述了不同类型的租户设置。
 
-还可以仅为特定用户组启用功能，还可以为某个用户组禁用功能。 这将确保即使某些用户属于允许的组，但仍没有访问该功能的权限。
+## <a name="workspace-settings"></a>工作区设置
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+### <a name="create-workspaces-preview"></a>创建工作区（预览）
+组织中的用户可创建应用工作区，以在仪表板、报表和其他内容上进行协作。
+
+有关详细信息，请参阅[创建新工作区](service-create-the-new-workspaces.md)。
 
 ## <a name="export-and-sharing-settings"></a>导出和共享设置
 
@@ -244,7 +245,7 @@ ms.locfileid: "36965495"
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
 
-## <a name="audit-settings"></a>审核设置
+## <a name="audit-and-usage-settings"></a>审核和使用情况设置
 
 ### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>为实现内部活动审核和符合性而创建审核日志
 
@@ -254,6 +255,25 @@ ms.locfileid: "36965495"
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
+
+### <a name="usage-metrics-for-content-creators"></a>内容创建者的使用指标
+组织中的用户可以查看他们创建的仪表板和报表的使用指标。 [了解详细信息](service-usage-metrics.md)。
+
+可将设置切换为“已启用”，然后指定可查看使用情况指标的用户（整个组织或特定安全组）。
+
+> [!NOTE]
+> 请记住，租户设置更改可能需要一些时间才能生效。
+
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>内容创建者的使用情况指标中的每用户数据
+内容创建者的使用情况指标将公开正在访问内容的用户的显示名称和电子邮件地址。 [了解详细信息](service-usage-metrics.md)。
+
+可将设置切换为“已启用”，然后指定可查看使用情况指标中的显示名称和电子邮件地址的用户（整个组织或特定安全组）。
+
+默认情况下，每个用户的数据都启用了使用指标并在指标报表中包含内容创建者帐户信息。 如果不希望某些或所有用户包含此信息，请为特定安全组或整个组织禁用此功能。 帐户信息随后会在报表中显示为“未命名”。
+
+> [!NOTE]
+> 请记住，租户设置更改可能需要一些时间才能生效。
+
 
 ## <a name="dashboard-settings"></a>仪表板设置
 
@@ -270,9 +290,9 @@ ms.locfileid: "36965495"
 
 组织中的用户可以在软件即服务 (SaaS) 应用程序中嵌入 Power BI 仪表板和报表。 禁用此设置将阻止用户使用 REST API 将 Power BI 内容嵌入到其应用程序中。
 
-## <a name="premium-settings"></a>Premium 设置
+## <a name="capacity-settings"></a>容量设置
 
-通过“Premium 设置”选项卡，可以管理已为组织购买的任何 Power BI Premium 容量。 组织中的所有用户将看到“Premium 设置”选项卡，但如果将他们分配为容量管理员或具有分配权限的用户，他们将只看到其中的内容。 如果用户没有任何权限，他们会看到以下消息。
+通过“容量设置”选项卡，可管理已为组织购买的任何 Power BI Premium 容量。 组织中的所有用户将看到“Premium 设置”选项卡，但如果将他们分配为容量管理员或具有分配权限的用户，他们将只看到其中的内容。 如果用户没有任何权限，他们会看到以下消息。
 
 ![](media/service-admin-portal/premium-settings-no-access.png "没有访问 Premium 设置的权限")
 

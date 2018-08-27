@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600361"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256994"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>使用开发人员工具创建自定义视觉对象
 自定义视觉对象可以满足用户的需求并匹配应用的设计。 了解如何使用开发人员工具为 Power BI 创建自定义视觉对象。
@@ -178,10 +178,10 @@ ms.locfileid: "37600361"
 可以通过运行以下命令创建新的可视化项目。
 
 ```
-pbiviz new My Visual name
+pbiviz new MyVisualName
 ```
 
-可以将“我的视觉对象名称”替换为要对此视觉对象命名的名称。 稍后可通过修改生成的 `pbiviz.json` 文件中的 `name` 和 `displayName` 字段更改此名称。
+可将“MyVisualName”替换为要对此视觉对象命名的名称。 稍后可通过修改生成的 `pbiviz.json` 文件中的 `name` 和 `displayName` 字段更改此名称。
 
 此命令在其运行的目录中创建新的文件夹。 此命令为视觉对象生成基本的启动器模板。 完成该命令后，可以打开目录并使用你喜欢的编辑器开始处理新的视觉对象。
 

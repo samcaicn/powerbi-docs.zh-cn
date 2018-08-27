@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 402a39ef9e52fe61d80940a5050997ba19930209
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: bf5120b1c4d787dd13e21245b234207123221fc4
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964828"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40256999"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 进行从 Power BI 到本地数据源的 SSO（单一登录）
 通过使用 Kerberos 配置本地数据网关，可以获得无缝的单一登录连接，从而使 Power BI 报表和仪表板可以从本地数据进行更新。 本地数据网关使用用于连接到本地数据源的 DirectQuery 实现单一登录 (SSO)。
@@ -51,9 +51,7 @@ ms.locfileid: "36964828"
    - 只有在网关服务帐户是域帐户（或服务 SID）并且已配置 Kerberos 约束委派以使数据库接受来自网关服务帐户的 Kerberos 票据时，用户模拟和数据库连接才会成功。  
    
    > [!NOTE]
-   > 对于服务 SID，如果配置了 AAD DirSync / Connect 并且用户帐户已同步，则网关服务不需要在运行时执行本地 AD 查找，并且可以将本地服务 SID（而不是请求域帐户）用于网关服务。  本文档所述的 Kerberos 约束委派配置步骤完全相同（只是基于服务 SID 而不是域帐户来应用）。
-   > 
-   > 
+   > 对于服务 SID：如果配置了 AAD DirSync/Connect 并且用户帐户已同步，则网关服务不需要在运行时执行本地 AD 查找，并且可以将本地服务 SID 用于网关服务（而不是请求域帐户）。 本文所述的 Kerberos 约束委派配置步骤与该配置相同（它们仅应用于 Active Directory 中的网关计算机对象，而不是域帐户）。
 
 
 > [!NOTE]

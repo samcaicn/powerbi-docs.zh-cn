@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: 33b88c728a5a79f2b1edf6e1728850723ce76fec
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926504"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40256998"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>教程：连接到 SQL Server 中的本地数据
 
@@ -107,7 +107,7 @@ ms.locfileid: "37926504"
 
     ![堆积柱形图](media/service-gateway-sql-tutorial/column-chart.png)    
 
-6. 在报表画布中选择柱形图后，在“字段”窗格中选择“类别”和“销售”字段。  
+6. 在报表画布中选择柱形图后，在“字段”窗格中选择“产品”和“销售”字段。  
 
     ![选择字段](media/service-gateway-sql-tutorial/select-fields.png)
 

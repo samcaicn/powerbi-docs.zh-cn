@@ -2,21 +2,21 @@
 title: 使用报表 Web 部件在 SharePoint Online 中嵌入报表
 description: 借助 Power BI 新推出的适用于 SharePoint Online 的报表 Web 部件，可以在 SharePoint Online 页面中轻松嵌入交互式 Power BI 报表。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.date: 08/16/2018
+ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032039"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256288"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>使用报表 Web 部件在 SharePoint Online 中嵌入报表
 
@@ -28,11 +28,12 @@ ms.locfileid: "39032039"
 
 若要让“**在 SharePoint Online 中嵌入**”报表正常呈现，需要满足一些要求。
 
+* 需要 Power BI Pro 许可证或具有 Power BI 许可证的 [Power BI Premium 容量（EM 或 P SKU）](service-premium.md#premium-capacity-nodes)。
 * 适用于 SharePoint Online 的 Power BI Web 部件要求使用[新式页面](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)。
 
 ## <a name="embed-your-report"></a>嵌入报表
 
-若要将报表嵌入 SharePoint Online，必须先获取报表 URL，然后才能在 SharePoint Online 中将此 URL 用于新 Power BI Web 部件。
+若要将报表嵌入 SharePoint Online，需要先获取报表 URL，然后才能在 SharePoint Online 中将此 URL 用于新 Power BI Web 部件。
 
 ### <a name="get-a-url-to-your-report"></a>获取报表的 URL
 
@@ -49,7 +50,7 @@ ms.locfileid: "39032039"
     ![](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
    > [!NOTE]
-   > 还可以使用在查看报表时 Web 浏览器地址栏中显示的 URL。 此 URL 包含当前查看的报表页名称。 若要嵌入不同的页，需要从 URL 中删除报表部分。
+   > 还可以使用在查看报表时 Web 浏览器地址栏中显示的 URL。 此 URL 包含当前查看的报表页。 若要使用不同的页，需要从 URL 中删除报表部分。
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>将 Power BI 报表复制到 SharePoint Online 页面
 
@@ -69,7 +70,7 @@ ms.locfileid: "39032039"
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. 将报表 URL 粘贴到属性窗格中。 这就是从上述步骤中复制的 URL。 此时，报表会自动加载。
+4. 将报表 URL 粘贴到属性窗格中。 这就是从上述步骤中复制的 URL。 报表会自动加载。
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
@@ -107,10 +108,10 @@ ms.locfileid: "39032039"
 
 ## <a name="multi-factor-authentication"></a>多重身份验证
 
-如果 Power BI 环境要求使用多重身份验证进行登录，系统可能会提示你使用安全设备登录，从而验证你的身份。 如果未使用多重身份验证登录 SharePoint Online，而 Power BI 环境又要求使用经过安全设备验证的帐户，就会发生这种情况。
+如果 Power BI 环境要求使用多重身份验证进行登录，系统可能会提示使用安全设备登录，从而验证身份。 如果未使用多重身份验证登录 SharePoint Online，而 Power BI 环境又要求使用经安全设备验证的帐户，就会发生这种情况。
 
 > [!NOTE]
-> Azure Active Directory 2.0 尚不支持多重身份验证。 用户会看到“*错误*”消息。 如果用户使用安全设备重新登录 SharePoint Online，则可以查看报表。
+> Azure Active Directory 2.0 尚不支持多重身份验证。 用户会看到错误消息。 如果用户使用安全设备重新登录 SharePoint Online，则可查看报表。
 
 ## <a name="reports-that-do-not-load"></a>报表没有加载
 
@@ -135,7 +136,7 @@ Power BI Web 部件中可能无法加载报表，并显示以下消息。
   
   1. 注销并重新登录 SharePoint。 请务必在重新登录前关闭所有浏览器窗口。
 
-  2. 如果用户帐户要求进行多重身份验证 (MFA)，请务必使用多重身份验证设备（如手机应用、智能卡等）登录 SharePoint
+  2. 如果用户帐户要求进行多重身份验证 (MFA)，请务必使用多重身份验证设备（如手机应用、智能卡等）登录 SharePoint。
   
   3. 不支持 Azure B2B 来宾用户帐户。 用户将看到 Power BI 徽标，显示该部件正在加载，但它不会显示报表。
 

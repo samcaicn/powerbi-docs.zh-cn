@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482121"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256297"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -22,6 +22,18 @@ ms.locfileid: "34482121"
 
 有关新功能的详细信息，请参阅[Power BI 报表服务器中的新增功能](whats-new.md)。 
 
+## <a name="august-2018"></a>2018 年 8 月
+- **Power BI 报表服务器**
+    - 版本 1.3.6801.38816（内部版本 15.0.2.540），发布日期：2018 年 8 月 15 日
+        - 功能
+            - Power BI 报表现在提供使用 Kerberos 的 SAP HANA SSO 直接查询支持
+            - 发布版附带的自定义视觉对象 API - 版本 1.13.0
+            - 自定义视觉对象回退到与当前版本的服务器 API 兼容的先前版本（如果可用）
+
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
+    - 版本：2.61.5192.64（2018 年 8 月），发布日期：2018 年 8 月15 日
+        - 包含与 Power BI 报表服务器连接所需的更改（2018 年 8 月）         
+        
 ## <a name="march-2018"></a>2018 年 3 月
 - **Power BI 报表服务器**
     - 版本 1.2.6690.34729（内部版本 15.0.2.402），发布日期：2018 年 4 月 27 日

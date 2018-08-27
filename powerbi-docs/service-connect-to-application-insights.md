@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3c1000eb48cfb53f5838f19f6c0ece4403e9d3ba
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244240"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40257229"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>使用 Power BI 连接到 Application Insights
 使用 Power BI 可通过 [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) 遥测创建功能强大的自定义仪表板。 可采用新方式来设想应用遥测。 将来自多个应用程序或组件服务的指标合并到一个仪表板上。 适用于 Application Insights 的 Power BI 内容包的此第一个版本包括用于常见使用情况相关指标（如活动用户、页面视图、会话、浏览器和操作系统版本以及地图中用户的地理分布）的小组件。
@@ -23,7 +23,7 @@ ms.locfileid: "34244240"
 连接到[适用于 Power BI 的 Application Insights 内容包](https://app.powerbi.com/getdata/services/application-insights)。
 
 >[!NOTE]
->若要进行连接，需要在 Azure 预览门户中访问应用程序的 Application Insights 概述边栏选项卡。 以下是有关要求的详细信息。
+>此集成方法现已弃用。 若要详细了解将 Application Insights 连接到 Power BI 的首选方法，请使用[导出分析查询功能](https://docs.microsoft.com/azure/application-insights/app-insights-export-power-bi#export-analytics-queries)。
 
 ## <a name="how-to-connect"></a>如何连接
 1. 选择左侧导航窗格底部的**获取数据**。
