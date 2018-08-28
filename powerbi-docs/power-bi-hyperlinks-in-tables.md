@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d696a7492f1295f2e2c9b39088b0eacdb66b15ca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
+ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310167"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42799036"
 ---
 # <a name="hyperlinks-in-tables"></a>表中的超链接
 本主题介绍如何使用 Power BI Desktop 创建超链接。 创建后，使用 Desktop 或 Power BI 服务将这些超链接添加到你的报表表格和矩形图。 
@@ -39,8 +39,10 @@ ms.locfileid: "34310167"
     ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
 3. 选择 **Web URL**。
 4. 切换到报表视图，并使用归类为 Web URL 的字段创建表或矩阵。 超链接为蓝色并带有下划线。
-   
     ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+> **请注意**：URL 必须以 **http:// 、 https://** 或 **www** 开头。
+> 
+>   
 5. 如果不想在表中显示长 URL，可以改为显示超链接图标 ![](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png)。 请注意，不能在矩阵中显示图标。
    
    * 选择图表，使其处于活动状态。
