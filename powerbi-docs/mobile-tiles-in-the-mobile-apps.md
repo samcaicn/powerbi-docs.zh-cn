@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 20bdd4731cd4aad3c6412d1959de3be088a3457a
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280124"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151943"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览磁贴
 适用于：
@@ -28,10 +28,6 @@ ms.locfileid: "39280124"
 然后，在 Power BI 移动应用中，以焦点模式打开磁贴并与之交互。 你可以打开包含所有类型的视觉对象的磁贴，包括基于必应和 R 的磁贴。
 
 ## <a name="tiles-in-the-ios-apps"></a>iOS 应用中的磁贴
-> [!NOTE]
-> 可以[使用 iPhone 应用创建图片磁贴](mobile-iphone-app-get-started.md)，并将它们保存到仪表板。
-> 
-> 
 
 1. [在适用于 iOS 的移动应用中打开仪表板](mobile-apps-view-dashboard.md)。
 2. 点击磁贴。 将会在焦点模式下打开磁贴，在其中可以很方便地查看和浏览磁贴数据。 在“焦点模式”下，你可以：
@@ -40,7 +36,7 @@ ms.locfileid: "39280124"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   例如，在此折线图中，所选的值为本年度和上年度八月份的销售额<em>*。  
+   *例如，在此折线图中，所选的值为**本年度**和**上年度****八月份**的销售额。*  
    
    在饼图中，点击饼图的一个扇区以显示饼图顶部扇区的值。  
    
@@ -107,7 +103,7 @@ ms.locfileid: "39280124"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   在此条形图中，Decor 条的值显示在图表的顶部。
+   在此条形图中，**Decor** 条的值显示在图表的顶部。
    
    点击“全屏”图标 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)，以全屏幕模式打开磁贴而不显示导航和菜单栏。
    
