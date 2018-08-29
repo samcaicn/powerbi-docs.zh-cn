@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: f56e05e51090f37fdb0bcd295ec877ee73b5dac0
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: dc29336754be008b541f146fff7c5f8609472cd0
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "40257999"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42702997"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>使用 Office Online Server (OOS) 将报表服务器配置为托管 Excel 工作簿
 
@@ -37,7 +37,7 @@ ms.locfileid: "40257999"
     ```
 
     **Windows Server 2016：**
-   
+
     ```
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
@@ -57,7 +57,7 @@ ms.locfileid: "40257999"
 1. 从[批量许可服务中心 (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) 下载 Office Online Server。 下载位置在 VLSC 门户上的 Office 产品下方。 出于开发目的，可以从 MSDN 订阅者下载页面下载 OOS。
 2. 运行 Setup.exe。
 3. 在“阅读 Microsoft 软件许可条款”页上，选择“我接受此协议的条款”，然后选择“继续”。
-4. 在“选择文件位置”页上，选择想要安装 Office Online Server 文件的文件夹（例如，C:\Program Files\Microsoft Office Web Apps），然后选择“立即安装”。 如果你指定的文件夹不存在，安装程序将为你创建一个。
+4. 在“选择文件位置”页上，选择想要安装 Office Online Server 文件的文件夹（例如，C:\Program Files\Microsoft Office Web Apps*），然后选择“立即安装”。 如果你指定的文件夹不存在，安装程序将为你创建一个。
 
     建议将 Office Online Server 安装在系统驱动器上。
 
@@ -180,7 +180,7 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 
-* 用户对工作簿将仅具有只读权限。
+* 但对工作簿仅具有只读权限。
 
 ## <a name="next-steps"></a>后续步骤
 

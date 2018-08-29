@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
-ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
+ms.openlocfilehash: cde28e7c41a35c3bbc37d0da56313ad7f8698110
+ms.sourcegitcommit: 15b877343540bb7e21f1d5bbd3d6f64e66fa138c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "40256926"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42914510"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>在 Power BI 中创建新工作区（预览）
 
@@ -29,12 +29,13 @@ Power BI 以预览的形式引入了新工作区体验。 工作区仍是与同�
 - 在 Power BI 中创建工作区，而无需创建 Office 365 组。
 - 使用更精细的工作区角色在工作区中实现更灵活的权限管理。
  
-创建一个新工作区时，无需创建关联的基础 Office 365 组。 所有工作区管理操作都在 Power BI 中进行，而不是在 Office 365 中。 仍可将 Office 365 组添加到工作区，继续通过 Office 365 组管理用户对内容的访问。 不过，还可在 Power BI 中使用安全组、通讯组列表以及直接添加个人，以灵活的方式来管理工作区访问
+创建一个新工作区时，无需创建关联的基础 Office 365 组。 所有工作区管理操作都在 Power BI 中进行，而不是在 Office 365 中。 仍可将 Office 365 组添加到工作区，继续通过 Office 365 组管理用户对内容的访问。 不过，还可在 Power BI 中使用安全组、通讯组列表以及直接添加个人，以灵活的方式来管理工作区访问。 因为工作区管理现在在 Power BI 中，所以将由 Power BI 管理员来决定组织中可创建工作区的用户。 请参阅 [Power BI 管理门户文章，工作区部分](service-admin-portal.md#workspace-settings)以了解详细信息。 
 
 可将用户组或个人作为成员、参与者或管理员添加到新工作区中。 用户组中的每个人都会获得定义的角色。 如果某个人是多个用户组的成员，则其获得角色提供的最高级别的权限。  有关不同角色的说明，请参阅后文的[新工作区中的角色](#roles-in-the-new-workspaces)。
 
 添加到应用工作区中的每个人都需要 Power BI Pro 许可证。 在工作区中，这些用户全都可协作处理计划向更广泛的受众甚至整个组织发布的仪表板和报表。 如果要将内容分发给组织内的其他人，可将 Power BI Pro 许可证分配给这些用户，或将工作区置于 Power BI 高级容量中。
-由于这是一项预览功能，因此应注意一些限制。 请参阅 <section link> 后文有关当前限制的说明。 我们正在重新设计新工作区的某些功能。 有关预览中预计永久保留的更改的说明，请参阅后文中的 <节链接>。
+
+我们正在重新设计新工作区的某些功能。 有关预览中预计永久保留的更改的说明，请参阅后文中的[工作方式不同的应用工作区功能](#app-workspace-features-that-work-differently)。 由于这是一项预览功能，因此应注意一些限制。 请参阅后文有关当前限制的说明的[已知问题](#known-issues)。 
 
 ## <a name="roll-out-new-app-workspaces"></a>推出新的应用工作区
 

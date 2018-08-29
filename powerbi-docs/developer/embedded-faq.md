@@ -2,30 +2,30 @@
 title: 有关 Power BI Embedded 的常见问题
 description: 浏览有关 Power BI Embedded 的常见问题和解答列表。
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/22/2018
-ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.date: 08/21/2018
+ms.openlocfilehash: 935932e92e5d95ae52957bf1360db8d2232286ad
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39415383"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42702951"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
-* 仍有问题？ 请访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)。
+* 仍有问题？ 访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)。
 
 ## <a name="general"></a>常规
 
 ### <a name="what-is-power-bi-embedded"></a>Power BI Embedded 是什么?
 
-通过 Microsoft Power BI Embedded，应用程序开发人员将令人震撼的完全交互式报表、仪表板和磁贴嵌入到应用程序中，无需花费时间和费用重新生成自己的数据可视化和控件。
+通过 Microsoft Power BI Embedded (PBIE)，应用程序开发人员将令人震撼的完全交互式报表嵌入到应用程序中，无需花费时间和费用重新生成自己的数据可视化和控件。
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Power BI Embedded 的目标受众是谁？
 
@@ -70,7 +70,7 @@ Power BI Embedded 是一组 API，可供开发人员在平台即服务产品中�
 | 在嵌入应用程序中使用 Power BI 报表 | 是 | 是 | 是 |
 | 在 SharePoint 中使用 Power BI 报表 | 否 | 是 | 是 |
 | 在 Dynamics 中使用 Power BI 报表 | 否 | 是 | 是 |
-| 在 Teams 中使用 Power BI 报表 | 否 | 是 | 是 |
+| 在 Teams 中使用 Power BI 报表（仅限桌面应用） | 否 | 是 | 是 |
 | 在 Powerbi.com 和 Power BI 移动版中使用免费的 Power BI 许可证访问内容 | 否 | 否 | 是 |
 | 使用 MS Office 应用中嵌入的免费 Power BI 许可证访问内容 | 否 | 是 | 是 |
 
@@ -79,10 +79,10 @@ Power BI Embedded 是一组 API，可供开发人员在平台即服务产品中�
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |购买     |Azure 门户 |Office |Office |
-|用例 |* 在自己的应用程序中嵌入内容 |* 在自己的应用程序中嵌入内容<br>* 在其他 MS Office 应用程序（[SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)）中嵌入内容 |* 在自己的应用程序中嵌入内容<br>* 在其他 MS Office 应用程序（[SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)）中嵌入内容<br>* 通过 [Power BI 服务](https://powerbi.microsoft.com/en-us/)与 Power BI 用户共享内容  |
+|用例 |* 在自己的应用程序中嵌入内容 |* 在自己的应用程序中嵌入内容<br>* 在其他 MS Office 应用程序（[SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams(仅限桌面应用)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)）中嵌入内容 |* 在自己的应用程序中嵌入内容<br>* 在其他 MS Office 应用程序（[SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams(仅限桌面应用)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)）中嵌入内容<br>* 通过 [Power BI 服务](https://powerbi.microsoft.com/en-us/)与 Power BI 用户共享内容  |
 |账单 |每小时 |每月 |每月 |
 |承诺  |无承诺 |每年  |每月/每年 |
-|区别 |全弹性 - 可以在 Azure 门户中或通过 API 纵向/横向扩展、暂停/恢复资源  |可用于在 SharePoint Online 和 Microsoft Teams 中嵌入内容 |合并嵌入在应用程序中并在相同的容量中使用 Power BI 服务 |
+|区别 |全弹性 - 可以在 Azure 门户中或通过 API 纵向/横向扩展、暂停/恢复资源  |可用于在 SharePoint Online 和 Microsoft Teams（仅限桌面应用）中嵌入内容 |合并嵌入在应用程序中并在相同的容量中使用 Power BI 服务 |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>在 Azure 中创建 PBIE 容量的先决条件是什么？
 
@@ -126,7 +126,7 @@ Power BI 要求使用组织帐户注册。 不支持使用 MSA（Microsoft 帐�
 
 ### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>是否可以使用 API 创建和管理 Azure 的容量？
 
-是，可使用 Powershell cmdlet 和 ARM API 创建和管理 PBIE 资源。
+是，可使用 Powershell cmdlet 和 Azure 资源管理器 (ARM) API 创建和管理 PBIE 资源。
 
 * Rest API - https://docs.microsoft.com/rest/api/power-bi-embedded/
 * Powershell cmdlet - https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
@@ -162,7 +162,7 @@ Power BI Embedded 将继续使用 Azure AD 对主用户（指定的 Power BI Pro
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>我的应用程序已使用 AAD 进行用户身份验证。 对“用户拥有数据”方案中的 Power BI 进行身份验证时，如何才能使用此标识？ 
 
-它是标准 OAuth 代理流 (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) 需要配置应用程序，使其具有访问 PowerBI 服务的权限（在要求的范围内），用户获得应用令牌后，只需使用用户访问令牌调用 ADAL API AcquireTokenAsync 并将 PowerBI 资源 URL 指定为资源 ID 即可，请参阅以下代码片段了解操作方法：
+它是标准 OAuth 代理流 (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) 需要配置应用程序，使其具有访问 Power BI 服务的权限（在要求的范围内），用户获得应用令牌后，只需使用用户访问令牌调用 ADAL API AcquireTokenAsync 并将 PowerBI 资源 URL 指定为资源 ID 即可，请参阅以下代码片段了解操作方法：
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -273,7 +273,7 @@ Power BI Embedded 解决方案中引入了 Power BI 工作区集合无法实现�
 
 一些功能为：
 * 支持所有 PBI 数据源，而 Power BI 工作区集合仅支持两个数据源。 
-* Power BI Embedded 解决方案支持诸如常见问题、刷新、书签、仪表板和磁贴嵌入、自定义菜单等新功能。
+* Power BI Embedded 解决方案仅支持诸如常见问题、刷新、书签、嵌入仪表板和磁贴以及自定义菜单等新功能。
 * 容量计费模型。
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>用于嵌入的载入体验工具
