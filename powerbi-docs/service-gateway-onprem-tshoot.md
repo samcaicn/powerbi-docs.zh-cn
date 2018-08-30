@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f0f29cb88c77f3d7775670c0869ee55938327763
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658003"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151897"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>本地数据网关故障排除
 
@@ -279,7 +279,7 @@ ms.locfileid: "39658003"
 | Mashup 开放式连接失败数/秒 |每秒 Mashup 开放式连接操作失败次数。 |
 | 执行的 Mashup 查询数/秒 |每秒执行的 Mashup 查询数量（成功或失败）。 |
 | Mashup 查询失败数/秒 |每秒执行的 Mashup 查询失败数。 |
-| 多结果集 OLEDB 查询失败数/秒 |每秒执行的多结果集 OLEDB 查询失败数。 |
+| OLEDB 多结果集查询失败数/秒 |每秒执行的多结果集 OLEDB 查询失败数。 |
 | 执行的 OLEDB 多结果集查询数/秒 |每秒执行的 OLEDB 多结果集查询数（成功或失败）。 |
 | 执行的 OLEDB 开放式连接次数/秒 |每秒执行的 OLEDB 开放式连接操作数量（成功或失败）。 |
 | OLEDB 开放式连接失败数/秒 |每秒 OLEDB 开放式连接操作失败次数。 |
