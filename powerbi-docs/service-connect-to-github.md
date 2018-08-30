@@ -93,7 +93,7 @@ ms.locfileid: "37137275"
 如有必要，可以验证你的 GitHub 凭据。  
 
 1. 在另一个浏览器窗口中，转到 GitHub 网站并登录到 GitHub。 将在 GitHub 网站的右上角看到你已登录。    
-2. 在 GitHub 中，导航到你计划要在 Power BI 中访问的存储库的 URL。 例如：https://github.com/dotnet/corefx。  
+2. 在 GitHub 中，导航到你计划要在 Power BI 中访问的存储库的 URL。 例如： https://github.com/dotnet/corefx。  
 3. 返回到 Power BI，尝试连接到 GitHub。 在“配置 GitHub”对话框中，使用相同存储库的存储库名称和存储库所有者。  
 
 ## <a name="next-steps"></a>后续步骤
