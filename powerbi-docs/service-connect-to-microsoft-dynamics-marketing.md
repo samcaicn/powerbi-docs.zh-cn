@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137004"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695101"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>使用 Power BI 连接到 Microsoft Dynamics Marketing
 通过 Power BI 的 Microsoft Dynamics Marketing 内容包，你可以轻松访问和分析来自 Dynamics Marketing 的数据 该内容包使用以 OData 数据源为基础的描述性模型，其中包括所有所需条目和度量值，例如程序、活动、市场营销联系人、公司、潜在客户、潜在客户互动、潜在客户分级、营销电子邮件和网站、行为观察、预算、财务交易、绩效 KPI 等。 
@@ -35,7 +35,7 @@ ms.locfileid: "37137004"
 3. 选择 **Microsoft Dynamics Marketing** \> **获取**。
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. 提供与你的帐户相关联的 OData URL。  应采用 “https:// [instance\_name].marketing.dynamics.com/analytics” 形式。
+4. 提供与你的帐户相关联的 OData URL。  它将采用“`https://[instance\_name].marketing.dynamics.com/analytics.`”形式
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. 出现提示时，请提供凭据（如果你已使用了浏览器登录，则可跳过此步骤）。 对于身份验证方法，输入 **oAuth2**，然后单击**登录**：
