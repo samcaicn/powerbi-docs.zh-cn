@@ -2,19 +2,19 @@
 title: 嵌入式应用程序疑难解答
 description: 本文介绍了从 Power BI 嵌入内容时可能会遇到的一些常见问题。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/09/2018
-ms.author: maghan
-ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.date: 08/31/2018
+ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877015"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241559"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -24,13 +24,13 @@ ms.locfileid: "38877015"
 
 ### <a name="fiddler-trace"></a>Fiddler 跟踪
 
-[Fiddler](http://www.telerik.com/fiddler) 是 Telerik 提供的一款用于监视 HTTP 流量的免费工具。  可以从客户端计算机通过 Power BI API 来回查看。 这可能会显示错误和其他相关的信息。
+[Fiddler](http://www.telerik.com/fiddler) 是 Telerik 提供的一款用于监视 HTTP 流量的免费工具。  可以从客户端计算机通过 Power BI API 进行通信。 此工具可能会显示错误和其他相关信息。
 
 ![Fiddler 跟踪](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
 
 ### <a name="f12-in-browser-for-front-end-debugging"></a>浏览器中的 F12，用于前端调试
 
-F12 将在你的浏览器中启动开发人员窗口。 它能够让你查看网络流量和其他信息。
+F12 在你的浏览器中启动开发人员窗口。 通过此工具可以查看网络流量和其他信息。
 
 ![F12 浏览器调试](media/embedded-troubleshoot/browser-f12.png)
 
@@ -38,7 +38,7 @@ F12 将在你的浏览器中启动开发人员窗口。 它能够让你查看网
 
 下面的代码片段展示了如何从 HTTP 异常中提取错误详细信息：
 
-```
+```csharp
 public static string GetExceptionText(this HttpOperationException exc)
 {
     var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
@@ -52,6 +52,7 @@ public static string GetExceptionText(this HttpOperationException exc)
     return errorText;
 }
 ```
+
 建议记录请求 ID（以及错误详细信息以供排查问题）。
 请在联系 Microsoft 支持部门时提供请求 ID。
 
@@ -59,7 +60,7 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 **应用注册失败**
 
-Azure 门户或 Power BI 应用注册页面中的错误消息将提到权限不足的问题。 为了注册应用程序，你必须是 Azure AD 租户中的管理员，或者必须为非管理员用户启用应用程序注册。
+Azure 门户或 Power BI 应用注册页面中的错误消息提到权限不足的问题。 要注册应用程序，必须是 Azure AD 租户中的管理员，或者必须为非管理员用户启用应用程序注册。
 
 **注册新应用时 Power BI 服务不会显示在 Azure 门户中**
 
@@ -100,9 +101,9 @@ Azure 门户或 Power BI 应用注册页面中的错误消息将提到权限不�
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>身份验证失败并显示 AADSTS70002 或 AADSTS50053
 
-**AADSTS70002: 验证凭据时出错。AADSTS50053: 你使用不正确的用户 ID 或密码尝试登录的次数过多）**
+**AADSTS70002: 验证凭据时出错。AADSTS50053: 使用不正确的用户 ID 或密码尝试登录的次数过多)**
 
-如果使用 Power BI Embedded 并利用 Azure AD 直接身份验证，则会收到以下形式的消息日志记录：***error:unauthorized_client,error_description:AADSTS70002: 验证凭据时出错。AADSTS50053：你使用不正确的用户 ID 或密码尝试登录的次数过多***，这是因为自 2018 年 6 月 14 日起已禁用直接身份验证。
+如果使用 Power BI Embedded 并利用 Azure AD 直接身份验证，则会收到以下形式的消息日志记录：error:unauthorized_client,error_description:AADSTS70002: 验证凭据时出错。AADSTS50053: 使用不正确的用户 ID 或密码尝试登录的次数过多，这是因为自 2018 年 6 月 14 日起已禁用直接身份验证。
 
 可以使用组织或[服务主体](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)范围内的 [Azure AD 策略](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)重新启用此功能。
 
@@ -112,7 +113,7 @@ Azure 门户或 Power BI 应用注册页面中的错误消息将提到权限不�
 
 1. 安装 [Azure AD 预览版 PowerShell 模块](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
 
-2. 逐行运行以下 powershell 命令（确保变量 $sp 的结果只有 1 个应用程序）。
+2. 逐行运行以下 PowerShell 命令（确保变量 $sp 的结果只有 1 个应用程序）。
 
 ```powershell
 Connect-AzureAD
@@ -194,6 +195,40 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 从 Power BI Desktop 或 powerbi.com 中打开该文件，验证性能是否可接受以排除应用程序或嵌入 API 的问题。
 
+## <a name="troubleshooting-your-embedded-application-with-the-ierror-object"></a>使用 IError 对象对嵌入式应用程序进行故障排查
+
+使用 [JavaScript SDK 的 error 事件中返回的 IError 对象 ](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts)调试应用程序，并更好地了解错误的原因。
+
+获取 IError 对象之后，应查找适合你使用的嵌入类型的对应常见错误表。 将 IError 属性与表中的该属性进行比较，查找失败的可能原因。
+
+### <a name="typical-errors-when-embedding-for-power-bi-users"></a>为 Power BI 用户嵌入内容时的典型错误
+
+| 消息 | 详细的消息 | 错误代码 | 可能的原因 |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------|
+| TokenExpired | 访问令牌已过期，请使用新的访问令牌重新提交 | 403 | 令牌已过期  |
+| PowerBIEntityNotFound | 获取报表失败 | 404 | <li> 报表 ID 错误 <li> 报表不存在  |
+| 参数无效 | 未指定 powerbiToken 参数 | 不适用 | <li> 未提供任何访问令牌 <li> 未提供任何报表 ID |
+| LoadReportFailed | 初始化失败，无法解析群集 | 403 | *访问令牌不正确* 嵌入类型与令牌类型不匹配 |
+| PowerBINotAuthorizedException | 获取报表失败 | 401 | <li> 组 ID 错误 <li> 组未经授权 |
+| TokenExpired | 访问令牌已过期，请使用新的访问令牌重新提交。 无法呈现以下标题的报表视觉对象：<visual title> | 不适用 | 查询数据令牌已过期 |
+| OpenConnectionError | 无法显示视觉对象。 无法呈现以下标题的报表视觉对象：<visual title> | 不适用 | 在会话中打开与容量相关的报表时，容量遭暂停或删除 |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | 无法加载与此报表关联的模型架构。 请确保你已连接到服务器，然后重试。 | 不适用 | <li> 容量已暂停 <li> 容量已删除 |
+
+### <a name="typical-errors-when-embedding-for-non-power-bi-users-using-an-embed-token"></a>（使用嵌入令牌）为非 Power BI 用户嵌入内容时的典型错误
+
+| 消息 | 详细的消息 | 错误代码 | 原因 |
+|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------|
+| TokenExpired | 访问令牌已过期，请使用新的访问令牌重新提交 | 403 | 令牌已过期  |
+| LoadReportFailed | 获取报表失败 | 404 | <li> 报表 ID 错误 <li> 报表不存在  |
+| LoadReportFailed | 获取报表失败 | 403 | 报表 ID 与令牌不匹配 |
+| LoadReportFailed | 获取报表失败 | 500 | 提供的报表 ID 不是 guid |
+| 参数无效 | 未指定 powerbiToken 参数 | 不适用 | <li> 未提供任何访问令牌 <li> 未提供任何报表 ID |
+| LoadReportFailed | 初始化失败，无法解析群集 | 403 | 令牌类型错误，令牌不正确 |
+| PowerBINotAuthorizedException | 获取报表失败 | 401 | 错误/为组 ID 取消授权 |
+| TokenExpired | 访问令牌已过期，请使用新的访问令牌重新提交。 无法呈现以下标题的报表视觉对象：<visual title> | 不适用 | 查询数据令牌已过期 |
+| OpenConnectionError | 无法显示视觉对象。 无法呈现以下标题的报表视觉对象：<visual title> | 不适用 | 在会话中打开与容量相关的报表时，容量遭暂停或删除 |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | 无法加载与此报表关联的模型架构。 请确保你已连接到服务器，然后重试。 | 不适用 | <li> 容量已暂停 <li> 容量已删除 |
+
 ## <a name="onboarding-experience-tool-for-embedding"></a>用于嵌入的载入体验工具
 
 可跟随[载入体验工具](https://aka.ms/embedsetup)进行操作，以便快速下载示例应用程序。 然后，即可将你的应用程序与示例进行比较。
@@ -244,3 +279,5 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 有关详细信息，请参阅 [Power BI Embedded 常见问题](embedded-faq.md)。
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+
+如需进一步的帮助，请[联系支持人员](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded)或[通过 Azure 门户创建支持票证](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)，并提供你遇到的错误消息。

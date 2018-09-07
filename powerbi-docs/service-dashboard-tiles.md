@@ -2,20 +2,20 @@
 title: Power BI 服务中的仪表板磁贴
 description: 关于 Power BI 中的仪表板磁贴的所有信息 这包括从 SQL Server Reporting Services (SSRS) 创建的磁贴。
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249059"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241582"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 中的仪表板磁贴
 仪表板和仪表板磁贴是 Power BI 服务的一项功能，而不是 Power BI Desktop 的功能。 虽然无法在 Power BI 移动设备中创建或固定仪表板磁贴，但可以[查看和共享](mobile-tiles-in-the-mobile-apps.md)这些磁贴。 在 Power BI 移动设备中，可以[使用 iPhone 应用将照片添加到仪表板](mobile-iphone-app-get-started.md)。
@@ -67,9 +67,9 @@ ms.locfileid: "34249059"
    
    * [打开用于创建此磁贴的工作表](service-reports.md) ![工作表图标](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [在焦点模式下查看](service-focus-mode.md) ![焦点图标](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+    * [在焦点模式下查看](service-focus-mode.md) ![焦点图标](media/service-dashboard-tiles/fullscreen-icon.jpg)  
      * [导出磁贴中使用的数据](power-bi-visualization-export-data.md) ![导出数据图标](media/service-dashboard-tiles/export-icon.png)
-     * [编辑标题和副标题、添加超链接、显示上次刷新时间](service-dashboard-edit-tile.md) ![编辑图标](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [编辑标题和副标题、添加超链接](service-dashboard-edit-tile.md) ![编辑图标](media/service-dashboard-tiles/pencil-icon.jpg)
      * [运行见解](service-insights.md) ![见解图标](media/service-dashboard-tiles/power-bi-insights.png)
      * [将磁贴固定到另一个仪表板](service-pin-tile-to-another-dashboard.md) 
        ![固定图标](media/service-dashboard-tiles/pin-icon.jpg)

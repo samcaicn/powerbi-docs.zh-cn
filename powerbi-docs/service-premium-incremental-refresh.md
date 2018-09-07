@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/30/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b6a3c35abeff33e2fb1e0fecdc5c2a5c88e1530
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: fd62e90d4a4f348ee7b3a524f85725d517180068
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34298173"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300129"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium 中的增量刷新
 
@@ -43,6 +43,12 @@ Power BI Desktop 可能不适合处理具有数十亿行的大型数据集，因
 
 要利用 Power BI 服务中的增量刷新，需要使用名称为 RangeStart 和 RangeEnd 的 Power Query 日期/时间参数进行筛选（其中名称为保留名称且不区分大小写）。
 
+发布后，Power BI 服务会自动替代参数值。 无需在服务的数据集设置中进行设置。
+ 
+在提交查询以执行刷新操作时，请务必将筛选器推送到源系统。 这意味着数据源应支持“查询折叠”。 由于已对每个数据源提供各种级别的查询折叠支持，建议验证源查询中是否包含筛选器逻辑。 如果不包含筛选器逻辑，则每个查询都会请求来自源的所有数据，这会使增量刷新对象失效。
+ 
+筛选器用于将数据分区到 Power BI 服务中的范围。 它不支持更新此筛选日期列。 更新将被解释为插入和删除（而不是更新）。 如果删除发生在历史范围内，而不是增量范围内，则不会被删除。
+
 在 Power Query 编辑器中，选择“管理参数”以使用默认值定义参数。
 
 ![管理参数](media/service-premium-incremental-refresh/manage-parameters.png)
@@ -61,9 +67,6 @@ Power BI Desktop 可能不适合处理具有数十亿行的大型数据集，因
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
 在 Power Query 编辑器中选择“关闭并应用”。 必须具备 Power BI Desktop 中数据集的子集。
-
-> [!NOTE]
-> 发布后，Power BI 服务会自动替代参数值。 无需在数据集设置中进行设置。
 
 ### <a name="define-the-refresh-policy"></a>定义刷新策略
 
@@ -102,9 +105,11 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部 5
 
 如果上述范围的定义是你所需的全部内容，可直接转到下面的发布步骤。其他下拉菜单适用于高级功能。
 
+### <a name="advanced-policy-options"></a>高级策略选项
+
 #### <a name="detect-data-changes"></a>检测数据更改
 
-10 天的增量刷新当然比 5 年的完全刷新更有效。 但是，我们可能能够进一步改进。 如果选中“检测数据更改”复选框，则可选择用于仅标识和刷新数据更改日期的日期/时间列。 此操作假定源系统中存在通常用于审核的列。 将针对增量范围中的每个周期评估此列的最大值。 如果自上次刷新后未更改，则无需刷新周期。 在示例中，这可将增量刷新的天数从 10 天进一步减少到 2 天。
+10 天的增量刷新当然比 5 年的完全刷新更有效。 但是，我们可能能够进一步改进。 如果选中“检测数据更改”复选框，则可选择用于仅标识和刷新数据更改日期的日期/时间列。 此操作假定源系统中存在通常用于审核的列。 这不应与用于使用 RangeStart/RangeEnd 参数对数据进行分区的列相同。 将针对增量范围中的每个周期评估此列的最大值。 如果自上次刷新后未更改，则无需刷新周期。 在示例中，这可将增量刷新的天数从 10 天进一步减少到 2 天。
 
 ![检测更改](media/service-premium-incremental-refresh/detect-changes.png)
 

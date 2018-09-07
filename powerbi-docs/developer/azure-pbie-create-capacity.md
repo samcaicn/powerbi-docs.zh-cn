@@ -10,12 +10,12 @@ ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: 222a6368bc717880fee4f6ce6958455959b491bd
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360142"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300037"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 门户中创建 Power BI Embedded 容量
 
@@ -54,7 +54,7 @@ ms.locfileid: "39360142"
     |**订阅**|想要为其创建容量的订阅。|
     |**资源组**|包含此新容量的资源组。 从现有资源组中选取，或创建其他资源组。 有关详细信息，请参阅 [Azure 资源管理器概述](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)。|
     |**Power BI 容量管理员**|Power BI 容量管理员可在 Power BI 管理门户中查看容量，并为其他用户提供分配权限。 默认情况下，容量管理员为你的帐户。 容量管理员必须位于 Power BI 租户内。|
-    |**位置**|为租户托管 Power BI 的位置。 此设置会自动解析，并且无法选择其他位置。|
+    |**位置**|为租户托管 Power BI 的位置。 你的默认位置位于主区域内，但可以使用 [Multi-Geo 选项](embedded-multi-geo.md)更改该位置。
     |**定价层**|选择满足需求的 SKU（v 核心数和内存大小）。  有关详细信息，请参阅 [Power BI Embedded 定价](https://azure.microsoft.com/pricing/details/power-bi-embedded/)|
 
 6. 选择“创建”。

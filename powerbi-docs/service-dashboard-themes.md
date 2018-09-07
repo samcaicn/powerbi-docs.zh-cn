@@ -2,20 +2,20 @@
 title: 在 Power BI 服务中使用仪表板主题
 description: 了解如何使用自定义调色板，并将其应用于 Power BI 服务中的整个仪表板
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 08/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 25bd28db7b31921d5f1a02ae72cee47207134f2a
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944643"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241467"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>在 Power BI 服务中使用仪表板主题
 借助“仪表板主题”，可以将颜色主题应用于整个仪表板，如企业品牌颜色、流行色或可能要应用的其他任何颜色主题。 应用“仪表板主题”时，仪表板中的所有视觉对象都会使用选定主题中的颜色（少数例外情况除外，本文稍后将进行介绍）。
@@ -46,7 +46,7 @@ Power BI 仪表板的默认主题是“浅色”。 如果想要自定义颜色�
 
 ![从下拉列表中选择“自定义”](media/service-dashboard-themes/power-bi-theme-custom.png)
 
-使用自定义选项创建自己的仪表板主题。 如果要添加背景图像，建议图像分辨率至少为 1920x1080。  
+使用自定义选项创建自己的仪表板主题。 如果要添加背景图像，建议图像分辨率至少为 1920x1080。 若要使用某个图像作为背景，请将该图像上传到公共网站、复制 URL，并将其粘贴到“图像 URL”字段。 
 
 ### <a name="using-json-themes"></a>使用 JSON 主题
 创建自定义主题的另一种方法是上传这样的 JSON 文件：它包含要用于仪表板的所有颜色的设置。 在 Power BI Desktop 中，报表创建者使用 JSON 文件[为报表创建主题](desktop-report-themes.md)。 可为仪表板上传这些 JSON 文件，或者在 Power BI 社区的[主题库页](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery)中查找并上传 JSON 文件 

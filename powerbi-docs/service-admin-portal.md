@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/15/2018
+ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
-ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
+ms.openlocfilehash: 592c3bf5fbd508d63236d16ca21164ee507df35b
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257126"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300106"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理门户
 
@@ -23,7 +23,7 @@ ms.locfileid: "40257126"
 
 针对公司的 Power BI 租户管理通过 Power BI 管理门户进行。 Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的用户都可以访问管理门户。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。
 
-所有用户都将看到齿轮图标下的“管理员门户”。 如果他们不是管理员，他们将只能看到“Premium 设置”部分，并且将只能看到他们有权管理的容量。
+所有用户都能看到齿轮图标下的“管理员门户”。 如果他们不是管理员，则只能看到“Premium 设置”部分，并且只能看到他们有权管理的容量。
 
 ## <a name="how-to-get-to-the-admin-portal"></a>如何访问管理门户
 
@@ -76,7 +76,7 @@ ms.locfileid: "40257126"
   
     ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-第二个部分显示相同类型的信息，不过是基于组。 这使你可以查看组织中最活跃的组以及它们所使用的信息种类。
+第二个部分显示相同类型的信息，不过是基于组。 这样，就可以查看组织中最活跃的组以及它们所使用的信息种类。
 
 借助此信息，你能够真正地深入了解用户在组织中如何使用 Power BI，并能够识别在组织中非常活跃的用户和组。
 
@@ -140,7 +140,7 @@ ms.locfileid: "40257126"
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
-与外部用户共享时将显示以下消息。
+与外部用户共享时会显示以下消息。
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
@@ -156,7 +156,7 @@ ms.locfileid: "40257126"
 |---------|---------|---------|---------|
 |报表“文件”菜单下的“发布到 Web”。|为所有对象启用|向所有对象隐藏|仅向已授权的用户或组显示。|
 |“设置”下的“管理嵌入代码”|为所有对象启用|为所有对象启用|为所有对象启用<br><br>仅向已授权的用户或组显示“删除”选项。* <br>为所有对象启用“获取代码”。* |
-|管理门户中的“嵌入代码”|“状态”将反映以下状态之一：<br>* 活动<br>* 不支持<br>* 已阻止|状态将显示“已禁用”|“状态”将反映以下状态之一：<br>* 活动<br>* 不支持<br>* 已阻止<br><br>如果未根据租户设置为某个用户授权，状态将显示为“侵权”。|
+|管理门户中的“嵌入代码”|“状态”反映以下状态之一：<br>* 活动<br>* 不支持<br>* 已阻止|状态显示“已禁用”|“状态”反映以下状态之一：<br>* 活动<br>* 不支持<br>* 已阻止<br><br>如果未根据租户设置为某个用户授权，状态将显示为“侵权”。|
 |现有的已发布报表|全部已启用|全部已禁用|继续向所有对象呈现报表。|
 
 ### <a name="export-data"></a>导出数据
@@ -210,16 +210,18 @@ ms.locfileid: "40257126"
 ## <a name="integration-settings"></a>集成设置
 
 ### <a name="ask-questions-about-data-using-cortana"></a>使用 Cortana 询问有关数据的问题
+
 组织中的用户可以使用 Cortana 询问有关其数据的问题。
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
 
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>结合使用“在 Excel 中分析”功能和本地数据集
+
 组织中的用户可以使用 Excel 查看本地 Power BI 数据集，并与其进行交互。 [了解详细信息](service-analyze-in-excel.md)
 
 > [!NOTE]
-> 禁用“**导出数据**”还会阻止用户使用“**在 Excel 中分析**”功能。
+> 禁用“导出数据”还会阻止用户使用“在 Excel 中分析”功能。
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>使用 ArcGIS Maps for Power BI
 
@@ -230,7 +232,9 @@ ms.locfileid: "40257126"
 组织中的用户可以使用依赖于 Azure 搜索的的外部搜索功能。 例如，用户可以使用 Cortana 直接从 Power BI 仪表板和报表检索关键信息。 [了解详细信息](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>自定义视觉对象设置
+
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>为整个组织启用自定义视觉对象
+
 组织中的用户可以与自定义视觉对象进行交互并共享。 [了解详细信息](power-bi-custom-visuals.md)
 
 > [!NOTE]
@@ -288,15 +292,27 @@ ms.locfileid: "40257126"
 
 ### <a name="embed-content-in-apps"></a>在应用中嵌入内容
 
-组织中的用户可以在软件即服务 (SaaS) 应用程序中嵌入 Power BI 仪表板和报表。 禁用此设置将阻止用户使用 REST API 将 Power BI 内容嵌入到其应用程序中。
+组织中的用户可以在软件即服务 (SaaS) 应用程序中嵌入 Power BI 仪表板和报表。 禁用此设置会阻止用户使用 REST API 将 Power BI 内容嵌入到其应用程序中。
 
 ## <a name="capacity-settings"></a>容量设置
 
-通过“容量设置”选项卡，可管理已为组织购买的任何 Power BI Premium 容量。 组织中的所有用户将看到“Premium 设置”选项卡，但如果将他们分配为容量管理员或具有分配权限的用户，他们将只看到其中的内容。 如果用户没有任何权限，他们会看到以下消息。
+### <a name="premium-settings"></a>Premium 版设置
 
-![](media/service-admin-portal/premium-settings-no-access.png "没有访问 Premium 设置的权限")
+通过“Premium 设置”选项卡，可以管理已为组织购买的任何 Power BI Premium（Em 或 P SKU）容量。 组织中的所有用户可以看到“Premium 设置”选项卡，但如果将他们分配为容量管理员或具有分配权限的用户，他们只能看到其中的内容。 如果用户没有任何权限，则显示以下消息。
+
+![Power BI Premium 管理员设置](media/service-admin-portal/premium-settings-no-access.png "没有对 Premium 设置的访问权限")
 
 有关如何管理 Premium 设置的详细信息，请参阅[管理 Power BI Premium](service-admin-premium-manage.md)。
+
+### <a name="power-bi-embedded-settings"></a>Power BI Embedded 设置
+
+使用 Power BI Embedded 的设置选项卡，可以查看为客户购买的 Power BI Embedded（A SKU）容量。 由于只能从 Azure 购买 A SKU，可以从 Azure 门户[管理 Azure 中嵌入的功能](developer/azure-pbie-create-capacity.md)。
+
+![Power BI Embedded 管理设置](media/service-admin-portal/manage-pbie-capacities-01.png)
+
+![Power BI Embedded 管理设置详细信息](media/service-admin-portal/manage-pbie-capacities-02.png)
+
+有关如何管理 Power BI Embedded (A SKU) 设置的详细信息，请参阅[什么是 Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md)。
 
 ## <a name="embed-codes"></a>嵌入代码
 
@@ -307,10 +323,10 @@ ms.locfileid: "40257126"
 ## <a name="organization-visuals"></a>组织视觉对象
 
 使用组织视觉对象选项卡，可以在组织内部署和管理自定义视觉对象，从而在组织中轻松部署专有自定义视觉对象，使报表作者能够轻松发现这些视觉对象并将其从 Power BI Desktop 直接导入报表。
- 
+
 该页面显示了组织存储库中当前部署的所有自定义视觉对象。
- 
-![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+![组织管理员视觉对象](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
 ### <a name="add-a-new-custom-visual"></a>添加新的自定义视觉对象
 
@@ -320,29 +336,41 @@ ms.locfileid: "40257126"
 
 > [!WARNING]
 > 自定义视觉对象可能包含存在安全或隐私风险的代码；在部署到组织存储库之前，请务必信任此自定义视觉对象的作者和来源。
-> 
 
 填写字段：
- 
+
 * 选择 .pbiviz 文件（必选）：选择要上传的自定义视觉对象文件。 仅支持经版本控制的 API 自定义视觉对象（阅读此处内容了解其含义）。
+
 在上传自定义视觉对象之前，应查看有关视觉对象的安全和隐私，确保它符合组织的标准。 详细了解自定义视觉对象安全性。
- 
+
 * 为自定义视觉对象命名（必选）：为视觉对象提供一个简短标题，以便 Power BI Desktop 用户可轻松理解它的内容
- 
-* 图标（必选）：将显示在 Power BI Desktop UI 中的图标文件。
- 
+
+* 图标（必选）：显示在 Power BI Desktop UI 中的图标文件。
+
 * 说明：视觉对象的简短描述，用于向用户提供更多上下文和说明
- 
-选择“应用”发起上传请求。 如果成功，将在列表中看到新项目。 如果失败，将会收到相应的错误消息
- 
+
+选择“应用”发起上传请求。 如果成功，可以在列表中看到新项目。 如果失败，会收到相应的错误消息
+
 ### <a name="delete-a-custom-visual-from-the-list"></a>从列表中删除自定义视觉对象
 
 选择回收站图标，从存储库中永久删除视觉对象。
-重要提示：删除操作不可逆。 一旦删除，此视觉对象将立即停止在现有报表中呈现。 即使再次上传相同的视觉对象，也不会替换之前被删除的视觉对象，用户必须再次导入新的视觉对象并替换其报表中的实例。
- 
+重要提示：删除操作不可逆。 一旦删除，此视觉对象会立即停止在现有报表中呈现。 即使再次上传相同的视觉对象，也不会替换之前被删除的视觉对象，用户必须再次导入新的视觉对象并替换其报表中的实例。
+
+### <a name="disable-a-custom-visual-in-the-list"></a>在列表中禁用自定义视觉对象
+
+若要禁用组织存储区中的视觉对象，请选择齿轮图标。 在“访问”部分中，禁用自定义视觉对象。
+
+禁用视觉对象后，视觉对象将不会在现有报表中呈现，并显示下面的错误消息。
+
+此自定义视觉对象不再可用。有关详细信息，请联系租户管理员。
+
+但是，设为书签的视觉对象仍正常工作。
+
+进行任何更新或管理员更改后，Power BI Desktop 用户应重新启动应用程序或刷新 Power BI 服务中的浏览器以查看更新。
+
 ### <a name="how-to-update-a-visual"></a>如何更新视觉对象
 
-如果要更新存储库中的视觉对象，原因是其中没有新版本的视觉对象（例如 bug 修复、新功能等），请选择“更新”图标，然后上传新文件。 确保视觉对象 ID 保持不变。 新文件将替换整个组织中所有报表的旧文件。 但是，如果新版本的视觉对象可能会破坏以前版本的视觉对象的任何使用情况或数据结构，则它们不会取代以前的版本。 相反，应创建新版本视觉对象的新列表。 例如，向新列出的视觉对象的标题添加新版本号（版本 X.X）。 通过这种方式，很明显可以看到，它还是相同的版本，只不过更新了版本号，因此现有报表不会破坏它们的功能。 同样，确保视觉对象 ID 保持不变。 然后，下一次用户从 Power BI Desktop 进入组织存储库时，他们就可以导入新版本，系统将提示他们替换报表中存在的当前版本。
+如果要更新存储库中的视觉对象，原因是其中没有新版本的视觉对象（例如 bug 修复、新功能等），请选择“更新”图标，然后上传新文件。 确保视觉对象 ID 保持不变。 新文件将替换整个组织中所有报表的旧文件。 但是，如果新版本的视觉对象可能会破坏以前版本的视觉对象的任何使用情况或数据结构，则它们不会取代以前的版本。 相反，应创建新版本视觉对象的新列表。 例如，向新列出的视觉对象的标题添加新版本号（版本 X.X）。 通过这种方式，很明显可以看到，它还是相同的版本，只不过更新了版本号，因此现有报表不会破坏它们的功能。 同样，确保视觉对象 ID 保持不变。 然后，下一次用户从 Power BI Desktop 进入组织存储库时，他们就可以导入新版本，系统会提示他们替换报表中存在的当前版本。
 
 ## <a name="next-steps"></a>后续步骤
 

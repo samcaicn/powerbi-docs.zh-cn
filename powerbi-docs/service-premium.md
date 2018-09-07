@@ -2,20 +2,20 @@
 title: Power BI Premium 有哪些特权？
 description: Power BI Premium 是适用于组织或团队的专用容量，提供了更可靠的性能和更大的数据卷，使你无需购买每用户许可证。
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2018
-ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 81a03c7728d92bcc78dba9a02cbe4c45f582fd3d
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: f7024b3e4827201edb4137eb513333030e39059f
+ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257231"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43250741"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium 有哪些特权？
 Power BI Premium 提供专用于为组织或团队运行 Power BI 服务的资源。 可提供更可靠的性能和更大的数据卷。 Premium 还可以广泛发布内容，无需为查看者购买许可证。
@@ -29,6 +29,7 @@ Power BI Premium 提供专用于为组织或团队运行 Power BI 服务的资�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="capacity-tiers"></a>容量层级
+
 Power BI 中有两种类型的容量。 共享容量和 Power BI 高级容量。 下面我们来看它们之间的区别。
 
 |  | 共享容量 | Power BI 高级容量 |
@@ -44,9 +45,10 @@ Power BI 中有两种类型的容量。 共享容量和 Power BI 高级容量。
 *<sup>2</sup> Power BI Premium 公开发布后推出的增强功能。*
 
 ### <a name="premium-capacity"></a>高级容量
+
 需要将工作区分配给某个容量，方可开始使用 Power BI 高级容量。 有关如何将工作区分配给高级容量的详细信息，请参阅[管理 Power BI Premium](service-admin-premium-manage.md)。
 
-工作区受高级容量支持时，可以享受 Power BI Premium 的权益。
+高级容量返回工作区时，可以享受 Power BI Premium 的权益。
 
 * **计划刷新**：通过共享容量，已导入模型的计划刷新限制为每天 8 次。 对于 Premium 工作区中的数据集，刷新次数增加到每天 48 次。 这不适用于 DirectQuery 的预定缓存刷新设置。 在高级容量和共享容量之间，这些设置保持相同。
 * **专用硬件隔离**：根据共享容量的性质，报表和仪表板的性能可能会受该容量中其他工作负载的资源需求影响，尽管我们对此有所防护。 相反，Premium 通过隔离不相关的工作负荷，为你的工作负荷提供更一致、更可靠的性能。
@@ -54,18 +56,20 @@ Power BI 中有两种类型的容量。 共享容量和 Power BI 高级容量。
 如果应用受高级容量支持（即，它是当前分配到 Premium 的应用工作区发布的），则此后组织中的任何用户都可以使用此发布的应用，而无需考虑分配给他们的许可证。
 
 ### <a name="shared-capacity"></a>共享容量
-默认情况下，你的工作区属于共享容量。 这包括你个人的“我的工作区”以及应用工作区。 “共享容量”是指在 Power BI 使用体验中，工作负荷在其他客户共享的计算资源上运行。
+
+默认情况下，你的工作区属于共享容量。 这包括你个人的“我的工作区”以及应用工作区。 “共享容量”是指在 Power BI 使用体验中，工作负载在其他客户共享的计算资源上运行。
 
 <a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>高级容量节点
+
 不同虚拟核心容量的节点配置中可使用 Power BI Premium。 有关特定 SKU 产品/服务和成本的详细信息，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)。 也可使用[成本计算器](https://powerbi.microsoft.com/calculator/)。 有关嵌入分析容量规划的信息，请参阅[“规划 Power BI Enterprise 部署”白皮书](https://aka.ms/pbienterprisedeploy)。
 
 * P 节点可用于嵌入式部署或服务部署。
 * EM 节点只能用于嵌入式部署。 EM 节点无权使用高级功能，如与没有 Power BI Pro 许可证的用户共享应用。
 
 >[!NOTE]
->只有充当 Office 365 全局管理员的用户才能正常运行此表中的链接 - 其他人会收到 404 错误。 
+>只有充当 Office 365 全局管理员的用户才能正常运行此表中的链接 - 其他人会收到 404 错误。
 
 | 容量节点 | 总虚拟核心<br/>（后端 + 前端） | 后端虚拟核心 | 前端虚拟核心 | DirectQuery/实时连接限制 | 高峰时间的最大显示页数 | 是否支持 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -92,4 +96,3 @@ Power BI Premium 包含在本地运行 Power BI 报表服务器的权限。 有�
 [在组织中管理 Power BI](service-admin-administering-power-bi-in-your-organization.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

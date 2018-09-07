@@ -2,33 +2,33 @@
 title: 从 Power BI 发布到 Web
 description: 借助 Power BI 发布到 Web，可在任何设备上通过电子邮件或社交媒体，轻松地将交互式 Power BI 可视化效果在线嵌入博客帖子、网站等处。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092336"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380327"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
 借助 Power BI **发布到 Web**，可在任何设备上通过电子邮件或社交媒体，轻松地将交互式 Power BI 可视化效果在线嵌入博客帖子、网站等处。
 
-可以方便地编辑、更新、刷新或取消共享已发布的视觉对象。
+还可以方便地编辑、更新、刷新或取消共享已发布的视觉对象。
 
 > [!WARNING]
 > 当使用“**发布到 Web**”时，发布的报表或视觉对象可被 Internet 上的所有人查看。 查看这些报表时没有使用身份验证。 仅对可供 Internet 上所有人（未经身份验证的公共成员）查看的报表和数据使用“发布到 Web”。 这包括在报表中聚合的详细级别数据。 在发布此报表前，请确保你有权公开共享此数据和视觉对象。 请勿发布机密或专有信息。 如果有任何疑问，请在发布前查看组织策略。
 
 ## <a name="how-to-use-publish-to-web"></a>如何使用发布到 Web
 
-可编辑的个人或组工作区中的报表上提供“发布到 Web” 功能。  无法对与你共享的报表或依赖于行级别安全性来保护数据的报表使用“发布到 Web”。 请参阅以下“限制”部分有关不支持“发布到 Web”的案例的完整列表。 使用“发布到 Web”前请查看本文之前所述的**警告**部分。
+可编辑的个人或组工作区中的报表上提供“发布到 Web” 功能。  无法对与你共享的报表或依赖于行级别安全性来保护数据的报表使用“发布到 Web”。 请参阅以下“限制”部分有关不支持“发布到 Web”的案例的完整列表。 使用“发布到 Web”前请查看本文之前所述的“警告”部分。
 
 可在下面*简短视频*中观看此功能的工作方式。 然后，按照以下步骤亲自尝试。
 
@@ -65,7 +65,7 @@ ms.locfileid: "37092336"
 
 | 视图模式 | 嵌入时外观 |
 | --- | --- |
-| ![](media/service-publish-to-web/publish_to_web6b.png) |**适应页面**将考虑报表的页面高度和宽度。 如果你将页面设置为“动态”比率，如 16:9 或 4:3，你的内容将在你提供的 iFrame 范围内缩放至合适的大小。 当嵌入在 iFrame 中时，使用“适应页面”可能会导致“宽屏”，内容在 iFrame 中调整至合适大小后，灰色背景会显示在 iFrame 的区域中。 为了尽量减少宽屏幕，请正确设置 iFrame 的高度/宽度。 |
+| ![](media/service-publish-to-web/publish_to_web6b.png) |**适应页面**将考虑报表的页面高度和宽度。 如果将页面设置为“动态”比率，如 16:9 或 4:3，内容将在你提供的 iFrame 范围内缩放至合适的大小。 当嵌入在 iFrame 中时，使用“适应页面”可能会导致“宽屏”，内容在 iFrame 中调整至合适大小后，灰色背景会显示在 iFrame 的区域中。 为了尽量减少宽屏幕，请正确设置 iFrame 的高度/宽度。 |
 | ![](media/service-publish-to-web/publish_to_web6d.png) |**实际大小**将确保报表保持其在报表页上设置的大小。 这可能导致 iFrame 中显示滚动条。 设置 iFrame 高度和宽度，以避免滚动条。 |
 | ![](media/service-publish-to-web/publish_to_web6c.png) |**适应宽度**可确保内容适合 iFrame 的水平区域。 仍会显示一个边框，但内容进行缩放，以便利用所有可用的水平空间。 |
 
@@ -128,15 +128,16 @@ ms.locfileid: "37092336"
 
 “发布到 Web”支持用于 Power BI 服务中绝大部分数据源和报表，但以下内容目前不受支持或不可用于“发布到 Web”：
 
-1. 使用行级别安全性的报表。
-2. 使用任何实时连接数据源的报表，包括在本地托管的 Analysis Services 表格、Analysis Services Multidimensional 以及 Azure Analysis Services。
-3. 直接或通过组织内容包共享的报表。
-4. 你不是编辑成员的组中的报表。
-5. “发布到 Web”报表中当前不支持“R”视觉对象。
-6. 从已发布到 Web 的报表中的视觉对象中导出数据
-7. ArcGIS Maps for Power BI 视觉对象
-8. 包含报表级别 DAX 度量值的报表
-9. [保护机密或专有信息](#publish-to-web-from-power-bi)
+- 使用行级别安全性的报表。
+- 使用任何实时连接数据源的报表，包括在本地托管的 Analysis Services 表格、Analysis Services Multidimensional 以及 Azure Analysis Services。
+- 直接或通过组织内容包共享的报表。
+- 你不是编辑成员的组中的报表。
+- “发布到 Web”报表中当前不支持“R”视觉对象。
+- 从已发布到 Web 的报表中的视觉对象中导出数据
+- ArcGIS Maps for Power BI 视觉对象
+- 包含报表级别 DAX 度量值的报表
+- 单一登录数据查询模型
+- [保护机密或专有信息](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>租户设置
 

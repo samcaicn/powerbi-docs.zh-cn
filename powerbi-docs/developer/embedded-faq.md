@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 935932e92e5d95ae52957bf1360db8d2232286ad
-ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
+ms.openlocfilehash: c1f9da598abee29a1d8eef0419fcb472f0a1467e
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42702951"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241513"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -70,7 +70,7 @@ Power BI Embedded 是一组 API，可供开发人员在平台即服务产品中�
 | 在嵌入应用程序中使用 Power BI 报表 | 是 | 是 | 是 |
 | 在 SharePoint 中使用 Power BI 报表 | 否 | 是 | 是 |
 | 在 Dynamics 中使用 Power BI 报表 | 否 | 是 | 是 |
-| 在 Teams 中使用 Power BI 报表（仅限桌面应用） | 否 | 是 | 是 |
+| 在 Teams 中使用 Power BI 报表（不包括移动应用） | 否 | 是 | 是 |
 | 在 Powerbi.com 和 Power BI 移动版中使用免费的 Power BI 许可证访问内容 | 否 | 否 | 是 |
 | 使用 MS Office 应用中嵌入的免费 Power BI 许可证访问内容 | 否 | 是 | 是 |
 
@@ -78,13 +78,13 @@ Power BI Embedded 是一组 API，可供开发人员在平台即服务产品中�
 
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
-|购买     |Azure 门户 |Office |Office |
-|用例 |* 在自己的应用程序中嵌入内容 |* 在自己的应用程序中嵌入内容<br>* 在其他 MS Office 应用程序（[SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams(仅限桌面应用)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)）中嵌入内容 |* 在自己的应用程序中嵌入内容<br>* 在其他 MS Office 应用程序（[SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams(仅限桌面应用)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)）中嵌入内容<br>* 通过 [Power BI 服务](https://powerbi.microsoft.com/en-us/)与 Power BI 用户共享内容  |
+|购买  |Azure 门户 |Office |Office |
+|用例 | 在自己的应用程序中嵌入内容 | <li> 在自己的应用程序中嵌入内容 <br><br></br> <li> 在 MS Office 应用程序中嵌入内容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams（不包括移动应用）](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 在自己的应用程序中嵌入内容 <br><br></br> <li> 在 MS Office 应用程序中嵌入内容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams（不包括移动应用）](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> 通过 [Power BI 服务](https://powerbi.microsoft.com/en-us/)与 Power BI 用户共享内容  |
 |账单 |每小时 |每月 |每月 |
 |承诺  |无承诺 |每年  |每月/每年 |
-|区别 |全弹性 - 可以在 Azure 门户中或通过 API 纵向/横向扩展、暂停/恢复资源  |可用于在 SharePoint Online 和 Microsoft Teams（仅限桌面应用）中嵌入内容 |合并嵌入在应用程序中并在相同的容量中使用 Power BI 服务 |
+|区别 |全弹性 - 可以在 Azure 门户中或通过 API 纵向/横向扩展、暂停/恢复资源  |可用于在 SharePoint Online 和 Microsoft Teams（不包括移动应用）中嵌入内容 |合并嵌入在应用程序中并在相同的容量中使用 Power BI 服务 |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>在 Azure 中创建 PBIE 容量的先决条件是什么？
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>在 Azure 中创建 PBIE 容量的先决条件是什么？ 
 
 * 需要登录到组织目录（不支持 MSA 帐户）。
 * 需要有 Power BI 租户，即目录中至少有一个用户注册了 Power BI。 
@@ -133,7 +133,7 @@ Power BI 要求使用组织帐户注册。 不支持使用 MSA（Microsoft 帐�
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解决方案中的 PBI Embedded 专用容量角色是什么？
 
-为了[将解决方案提升到生产](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)，需要 Power BI 内容（在要分配给专用容量的应用程序中使用的应用工作区）。
+为了[将解决方案提升到生产](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)，需要 Power BI 内容（在要分配给 Power BI Embedded (A SKU) 容量的应用程序中使用的应用工作区）。
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>什么是可使用 PBI Embedded 的 Azure 区域？
 
