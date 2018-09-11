@@ -2,21 +2,21 @@
 title: 在 Power BI 中创建 ESRI ArcGIS 地图
 description: '在 Power BI 中创建 ESRI ArcGIS 地图 '
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 85bf9630a8c272b513f27f38b24a5d8a77075444
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 127187367b2ae5680b50bc1e72de7214c522705e
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599611"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168057"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>在 Power BI 服务和 Power BI Desktop 中创建 ESRI ArcGIS 地图
 本教程是从 ArcGIS 地图创建者的角度进行编写。 创建者与同事共享 ArcGIS 地图后，此同事便可以查看相应的地图并与之交互，但无法保存更改。 若要详细了解如何查看 ArcGIS 地图，请参阅[与 ArcGIS 地图交互](power-bi-visualizations-arcgis.md)。

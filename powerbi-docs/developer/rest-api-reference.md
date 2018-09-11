@@ -2,21 +2,22 @@
 title: Power BI REST API 引用
 description: Power BI REST API 引用
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: maghan
-ms.openlocfilehash: 96675f8e96eef84a10684487f652c872405bf037
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: de28d498bf01da8e2abe5cd64742fb25f9a43a1c
+ms.sourcegitcommit: 37bb070a71a658cba7ed421feef65015e8b515ae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157139"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "43821745"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI REST API 引用
+
 Power BI 是一种基于云的服务，可用于构建自定义仪表板应用程序。 Power BI REST API 是基于 REST 的 API，它提供对 Power BI 中**仪表板**资源的编程式访问，这些资源包括**数据集**、**表**和**行**。
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
