@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 08ead2570602538218085327c6d385c36e0d7e8c
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256948"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343314"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 性能最佳做法 
 本文将介绍如何在 Power BI 中构建快速可靠的报表  
@@ -59,7 +59,7 @@ ms.locfileid: "40256948"
 - 在可能的情况下，将计算列和度量值推送到源 - 距离源越近，性能提升的可能性就越高。 
 - 优化！ 了解查询的执行计划，为常用筛选列等添加索引等。 
 
-### <a name="modelling-guidance"></a>建模指南 
+### <a name="modeling-guidance"></a>建模指南 
 - 从 Power BI Desktop 开始。 
 - 避免在查询编辑器中定义复杂的查询。 
 - 请勿在查询编辑器中使用相对日期筛选。  
@@ -110,7 +110,7 @@ ms.locfileid: "40256948"
 
    输出应该是应用程序及其开放端口的列表，例如：  
 
-   TCP    [::1]:55786            [::1]:55830            ESTABLISHED 
+   `TCP    [::1]:55786            [::1]:55830            ESTABLISHED`
 
    [msmdsrv.exe] 
 
