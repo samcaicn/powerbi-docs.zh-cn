@@ -684,7 +684,7 @@ items:
       - name: Power BI 中的树状图
         href: ../power-bi-visualization-treemaps.md
       - name: Power BI 中的瀑布图
-        href: ../power-bi-visualization-waterfall-charts.md
+        href: ../visuals/power-bi-visualization-waterfall-charts.md
       - name: Power BI 中的卡片（大数字磁贴）
         href: ../power-bi-visualization-card.md
       - name: 使用 Power BI 中的 R 脚本创建高级分析和可视化效果
@@ -1144,9 +1144,9 @@ items:
       href: ../service-admin-power-bi-security.md
     - name: Power BI for Office 365 已转换为 Power BI
       href: ../service-admin-o365portal-retired.md
-ms.openlocfilehash: a3df6001023dc9b02ce09c33068f232e46604c3a
-ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
+ms.openlocfilehash: d25fd05dc0ddd28498dec3b55f67404a10106047
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "44343554"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728263"
