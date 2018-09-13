@@ -178,7 +178,7 @@ items:
     - name: 适用于 Windows 10 设备的 Power BI 应用
       items:
       - name: 开始使用 Windows 10 版移动应用
-        href: ../../mobile-windows-10-phone-app-get-started.md
+        href: ../../consumer/mobile/mobile-windows-10-phone-app-get-started.md
       - name: 将仪表板固定到开始屏幕
         href: ../../mobile-pin-dashboard-start-screen-windows-10-phone-app.md
       - name: 在 Windows 10 版应用中查看 Reporting Services 移动报表和 KPI
@@ -189,9 +189,9 @@ items:
     items:
     - name: 移动应用中支持的语言
       href: ../../mobile-apps-supported-languages.md
-ms.openlocfilehash: bf5934cb6de5ee7c1252fbd871c02589dd377d58
-ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
+ms.openlocfilehash: 26018ef2bd80f8ac73c88e147dd950114ed1453f
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "44343545"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726423"
