@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4c5a50a5bab76fd856099a3c1430638dc9e33ea8
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 8463dc96a120e9bf26ff0718fb050304890a5cea
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257230"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728171"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
@@ -60,7 +60,7 @@ Power BI 服务 [https://powerbi.com](https://powerbi.com) 不可用作专用的
 Power BI 报表服务器是在自己的本地环境中部署的解决方案，用于创建、发布和管理报表，然后以不同的方式将报表传送给不同的用户：通过 Web 浏览器、移动设备或通过用户收件箱中电子邮件的形式。 详细了解 [Power BI 报表服务器](report-server/get-started.md)。
 
 ### <a name="power-bi-mobile-apps"></a>Power BI 移动应用
-还可以[通过 Power BI 移动应用查看本地 Power BI 报表、Reporting Services 移动报表和 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。
+还可以[通过 Power BI 移动应用查看本地 Power BI 报表、Reporting Services 移动报表和 KPI](consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI 是否支持移动设备？
 是的。 Power BI 拥有适用于 Android 手机和平板电脑、iOS 设备和 Windows 10 设备的本机应用。 从对应的应用商店下载以下 [Power BI 移动应用](https://powerbi.microsoft.com/mobile)之一：  

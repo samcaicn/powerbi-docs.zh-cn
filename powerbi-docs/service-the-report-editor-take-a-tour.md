@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ef05531ee6080593d232e48a2118a9be7e8cbd19
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34299461"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726630"
 ---
 # <a name="the-report-editortake-a-tour"></a>报表编辑器...教程
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>编辑 Power BI 服务和 Power BI Desktop 中的报表
@@ -65,7 +65,7 @@ Power BI 报表编辑器由 3 部分组成：
 
 ![从图例中删除 StoreType](media/service-the-report-editor-take-a-tour/deletefield.png)
 
-有关详细信息，请参阅[向 Power BI 报表添加可视化效果](power-bi-report-add-visualizations-i.md)。
+有关详细信息，请参阅[向 Power BI 报表添加可视化效果](visuals/power-bi-report-add-visualizations-i.md)。
 
 ### <a name="format-your-visuals"></a>格式化视觉对象
 选择滚动油漆刷图标，以显示“格式设置”窗格。 可用的选项取决于所选可视化效果的类型。
@@ -74,9 +74,9 @@ Power BI 报表编辑器由 3 部分组成：
 
 几乎可以进行任何格式设置。  若要了解详细信息，可以自行探索或参阅以下文章：
 
-* [自定义可视化效果的标题、背景和图例](power-bi-visualization-customize-title-background-and-legend.md)
-* [颜色格式](service-getting-started-with-color-formatting-and-axis-properties.md)
-* [自定义 X 轴和 Y 轴属性](power-bi-visualization-customize-x-axis-and-y-axis.md)
+* [自定义可视化效果的标题、背景和图例](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [颜色格式](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
+* [自定义 X 轴和 Y 轴属性](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>将分析添加到可视化效果
 选择放大镜图标以显示“分析”窗格。 可用的选项取决于所选可视化效果的类型。
@@ -126,7 +126,7 @@ Power BI 报表编辑器由 3 部分组成：
 ## <a name="next-steps"></a>后续步骤：
 [创建报表](service-report-create-new.md)
 
-有关报表的详细信息，请参阅 [Power BI 服务](service-reports.md)、[Power BI Desktop](desktop-report-view.md)，和 [Power BI 移动版](mobile-apps-view-phone-report.md)。
+有关报表的详细信息，请参阅 [Power BI 服务](service-reports.md)、[Power BI Desktop](desktop-report-view.md)，和 [Power BI 移动版](consumer/mobile/mobile-apps-view-phone-report.md)。
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

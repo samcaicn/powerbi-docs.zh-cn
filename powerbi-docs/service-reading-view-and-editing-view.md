@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 736d4b53f82255e84e3bd54a2177ae17c264039b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251658"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726745"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 服务报表中的“阅读视图”和“编辑视图”
 Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表和与其交互：“阅读视图”和“编辑视图”。 “阅读视图”可供所有用户使用且专为报表使用者设计，而“编辑视图”仅供报表创建者和所有者使用。
@@ -59,13 +59,13 @@ Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表
 | [复制报表页](power-bi-report-copy-paste-page.md) | 否  | 是 |
 | [删除报表页](service-delete.md) | 否 | 是 |
 |**使用报表可视化效果**|
-| [将可视化效果添加到报表](power-bi-report-add-visualizations-i.md) | 否  | 是 |
+| [将可视化效果添加到报表](visuals/power-bi-report-add-visualizations-i.md) | 否  | 是 |
 | [向报表添加文本框和形状](power-bi-reports-add-text-and-shapes.md) | 否  | 是 |
 | [使用报表“格式化”窗格](service-the-report-editor-take-a-tour.md) | 否 | 是 |
 | [设置视觉对象交互](service-reports-visual-interactions.md) | 否  | 是 |
 | [显示用于创建可视化效果的数据](service-reports-show-data.md) | 否  | 是 |
 | [配置钻取](power-bi-visualization-drill-down.md) | 否  | 是 |
-| [更改在用的可视化效果](power-bi-report-change-visualization-type.md) | 否 | 是|
+| [更改在用的可视化效果](visuals/power-bi-report-change-visualization-type.md) | 否 | 是|
 | [删除可视化效果、文本框或形状](service-delete.md)| 否 | 是 |
 
 

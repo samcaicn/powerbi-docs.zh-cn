@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2d8509c83ccce3d76926d926c64061ca78c100d
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: fc4d62134bccae1a1ac0fd10444dd47c84ecc945
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256161"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727021"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 服务中的 R 程序包
 可以使用功能强大的 [R 编程语言](https://www.r-project.org/)在 Power BI 服务中创建视觉对象。 许多 R 程序包在 Power BI 服务中受到支持（并且更多包始终受支持），某些包不受支持。
 
-以下各部分提供一个按字母顺序排列的表，分别介绍在 Power BI 中受支持和不受支持的 R 程序包。 有关 Power BI 中的 R 的详细信息，请参阅 [R 视觉对象](service-r-visuals.md)一文。
+以下各部分提供一个按字母顺序排列的表，分别介绍在 Power BI 中受支持和不受支持的 R 程序包。 有关 Power BI 中的 R 的详细信息，请参阅 [R 视觉对象](visuals/service-r-visuals.md)一文。
 
 ## <a name="request-support-for-a-new-r-package"></a>请求获取新的 R 程序包的支持
 可以在下一节中找到“**Power BI 服务**”支持的 R 程序包，标题为“**支持的程序包**”。 如果想要请求未在该列表中找到的 R 程序包的支持，可以将你的请求通过电子邮件发送至 [Power BI 中的 R 反馈团队](mailto:rinpbifb@microsoft.com)。
@@ -940,7 +940,7 @@ R 程序包存在大量要求和限制：
 ## <a name="next-steps"></a>后续步骤
 查看以下文章，了解有关 Power BI 中的 R 的详细信息：
 
-* [在 Power BI 服务中创建 R 视觉对象](service-r-visuals.md)
+* [在 Power BI 服务中创建 R 视觉对象](visuals/service-r-visuals.md)
 * [使用 R 创建 Power BI 视觉对象](desktop-r-visuals.md)
 * [在 Power BI Desktop 中运行 R 脚本](desktop-r-scripts.md)
 * [在查询编辑器中使用 R](desktop-r-in-query-editor.md)

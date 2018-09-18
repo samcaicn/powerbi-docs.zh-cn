@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b0bf5e54ad6486134eb641d276fc9233b001157
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: bb2cd0e26caaa7639020d51a0827390932e78b06
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249700"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726034"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>在 Power BI 中为磁贴创建 QR 码以供在移动应用中使用
 Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到相关的 BI 信息 &#151; 无需进行导航或搜索。
 
 可以在 Power BI 服务中为任何仪表板中的磁贴创建 QR 码，甚至包括无法编辑的仪表板。 然后将 QR 代码放在关键位置中。 例如，可以将代码粘贴到电子邮件，或将其打印出来并粘贴在特定位置。 
 
-与之共享仪表板的同事可以[直接使用他们的移动设备扫描 QR 码来访问磁贴](mobile-apps-qr-code.md)。 他们既可以使用 Power BI 应用中的 QR 码扫描程序，也可以使用自己设备上安装的其他任何 QR 码扫描程序。
+与之共享仪表板的同事可以[直接使用他们的移动设备扫描 QR 码来访问磁贴](consumer/mobile/mobile-apps-qr-code.md)。 他们既可以使用 Power BI 应用中的 QR 码扫描程序，也可以使用自己设备上安装的其他任何 QR 码扫描程序。
 
 
 ## <a name="create-a-qr-code-for-a-tile"></a>为磁贴创建 QR 代码
@@ -52,8 +52,8 @@ Power BI 可将 QR 代码生成为 JPG 文件，以备打印。
 3. 对 QR 码进行裁剪，并将其粘附到与磁贴相关的位置。 
 
 ## <a name="next-steps"></a>后续步骤
-* 使用移动应用[从真实世界连接到 Power BI 数据](mobile-apps-data-in-real-world-context.md)
-* [使用移动设备扫描 Power BI QR 码](mobile-apps-qr-code.md)
+* 使用移动应用[从真实世界连接到 Power BI 数据](consumer/mobile/mobile-apps-data-in-real-world-context.md)
+* [使用移动设备扫描 Power BI QR 码](consumer/mobile/mobile-apps-qr-code.md)
 * [创建报表的 QR 码](service-create-qr-code-for-report.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

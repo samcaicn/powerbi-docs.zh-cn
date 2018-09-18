@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944965"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726033"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>设计出色 Power BI 仪表板的提示
 现在，你已创建了一个仪表板并添加了一些磁贴，可考虑如何使你的仪表板不仅美观，而且实用。 一般来说，这意味着突出显示最重要的信息，使其整洁有序。
@@ -23,7 +23,7 @@ ms.locfileid: "36944965"
 以下是一些提示。
 
 > [!TIP]
-> 许多报表的设计原则也适用于仪表板。  阅读我们的白皮书[报表和可视化效果的最佳设计原则](power-bi-visualization-best-practices.md)。
+> 许多报表的设计原则也适用于仪表板。  阅读我们的白皮书[报表和可视化效果的最佳设计原则](visuals/power-bi-visualization-best-practices.md)。
 >
 >
 
@@ -51,7 +51,7 @@ ms.locfileid: "36944965"
 
 但请务必提供上下文。  
 
-了解有关[仅使用一个数字创建磁贴](power-bi-visualization-card.md) 的信息。
+了解有关[仅使用一个数字创建磁贴](visuals/power-bi-visualization-card.md) 的信息。
 
 ## <a name="put-the-most-important-information-in-the-upper-corner"></a>将最重要的信息置于顶部角落
 大多数人会从上到下阅读，因此将最高级别的详细信息置于顶部，并在你以受众阅读的方向移动时显示更多详细信息（从左到右、从右到左）。
@@ -68,7 +68,7 @@ ms.locfileid: "36944965"
 * 请注意如何[对图表进行排序](power-bi-report-change-sort.md)。  如果你想要将注意点放在最高或最低的数字，则通过度量值进行排序。  如果希望用户能够在许多其他类别中快速找到特定类别，则按轴进行排序。  
 * 如果类别少于八个，则饼图最佳。 由于不能并排比较值，所以在饼图中的比较值要比在条形图和柱形图中比较值更难。 饼图有助于查看部分对整体的关系，而不利于将部分进行比较。 仪表盘则非常适合用于在目标上下文中显示当前状态。
 
-有关更多可视化效果特定指南，请参阅 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)。  
+有关更多可视化效果特定指南，请参阅 [Power BI 中的可视化效果类型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。  
 
 ## <a name="learning-more-about-best-practice-dashboard-design"></a>了解更多关于最佳仪表板设计的信息
 若要掌握设计出色仪表板的技术，建议了解视觉感知的基本 Gestalt 原则以及清楚传达上下文中可操作信息的方法。 幸运的是，我们的博客中已分散有大量广泛可用的资源。 一些我们最喜爱的书籍有：

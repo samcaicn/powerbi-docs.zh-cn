@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
-ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
+ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40256994"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726676"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>使用开发人员工具创建自定义视觉对象
 自定义视觉对象可以满足用户的需求并匹配应用的设计。 了解如何使用开发人员工具为 Power BI 创建自定义视觉对象。
@@ -388,7 +388,7 @@ pbiviz update 1.2.0
 有关详细信息，请参阅[运行视觉对象](#running-your-visual)或[安装服务器证书](#ssl-setup)。
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的可视化效果](power-bi-report-visualizations.md)  
+[Power BI 中的可视化效果](visuals/power-bi-report-visualizations.md)  
 [Power BI 中的自定义可视化效果](power-bi-custom-visuals.md)  
 [将自定义视觉对象发布到 Office 应用商店](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  

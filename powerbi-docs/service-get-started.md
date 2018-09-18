@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 51c3fdbef345a0d6020abe35ba7c71aaa67882e4
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598612"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726837"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>教程：Power BI 服务入门 (app.powerbi.com)
 本教程将帮助你开启使用 ***Power BI 服务*** 之旅。 若要了解 Power BI 服务如何适应其他 Power BI 产品/服务，我们强烈建议你先阅读[什么是 Power BI](power-bi-overview.md)。
@@ -42,7 +42,7 @@ ms.locfileid: "37598612"
 
 ![登录或免费注册](media/service-get-started/power-bi-sign-up.png)
 
-如果你需要有关使用 Power BI Desktop 的帮助，请参阅 [Desktop 入门](desktop-getting-started.md)。 如果正在寻找有关 Power BI 移动端的帮助，请参阅[适用于移动设备的 Power BI 应用](mobile-apps-for-mobile-devices.md)。
+如果你需要有关使用 Power BI Desktop 的帮助，请参阅 [Desktop 入门](desktop-getting-started.md)。 如果正在寻找有关 Power BI 移动端的帮助，请参阅[适用于移动设备的 Power BI 应用](consumer/mobile/mobile-apps-for-mobile-devices.md)。
 
 > [!TIP]
 > 更喜欢可以自主掌控进度的免费培训课程？ [在 EdX 上注册学习我们的“数据分析和可视化”课程](http://aka.ms/edxpbi)。

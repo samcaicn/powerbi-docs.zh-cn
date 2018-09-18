@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dc79282a5c221e85fae7838009f6cecf91cbfdb8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a9dc1d0f87102cc5bf66a3fb21b8be7af6a66059
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246818"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726814"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 和 Power BI
 
@@ -110,7 +110,7 @@ ms.locfileid: "34246818"
 ## <a name="next-steps"></a>后续步骤
 * [开始使用 Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)
 * [在 Power BI 服务中设置数据警报](service-set-data-alerts.md)
-* [在 iPhone 上设置数据警报](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [在适用于 Windows 10 的 Power BI 移动应用中设置数据警报](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [在 iPhone 上设置数据警报](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [在适用于 Windows 10 的 Power BI 移动应用中设置数据警报](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

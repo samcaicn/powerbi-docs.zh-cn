@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a6216169eb50ca535b73b07f5553c9b3d5e17470
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: efc806787f2a1d5cd110439c1c5505bb7e77e980
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240953"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727458"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>如何有效结合使用 Excel 数据和 Power BI 问答
 如果你是创建数据模型或生成用于 Power BI 的 Excel 工作簿的人员，请阅读...
@@ -27,7 +27,7 @@ ms.locfileid: "34240953"
 ### <a name="how-qa-works-with-excel"></a>如何结合使用 Power BI 问答和 Excel
 “问答”具有一套核心的自然语言理解功能，可以处理你的数据。 它还具有针对 Excel 表、列和计算的字段名称的上下文相关关键字搜索功能。 它还内置了有关如何筛选、排序、聚合、分组和显示数据的信息。 
 
-例如，在名为“Sales”的 Excel 表中，其中含有“Product”、“Month”、“Units Sold”、“Gross Sales”和“Profit”列，你可以询问有关这些实体的问题。  你可以要求按月显示销售额和总利润、按销售件数对产品排序等其他功能。 详细了解[可以提问的问题种类](power-bi-q-and-a.md)和[可以在 Power BI 问答查询中指定的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)。
+例如，在名为“Sales”的 Excel 表中，其中含有“Product”、“Month”、“Units Sold”、“Gross Sales”和“Profit”列，你可以询问有关这些实体的问题。  你可以要求按月显示销售额和总利润、按销售件数对产品排序等其他功能。 详细了解[可以提问的问题种类](power-bi-q-and-a.md)和[可以在 Power BI 问答查询中指定的可视化效果类型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
 
 ### <a name="prepare-an-excel-dataset-for-qa"></a>准备 Excel 数据集以供 Power BI 问答使用
 “问答”依靠表格、列和计算字段的名称来回答特定于数据的问题，这意味着，实体在工作簿中的命名很重要！

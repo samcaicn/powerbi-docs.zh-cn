@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 15ca7461c1661b83e1fbb08b66e7d1843bdb1c9f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a86e9f93023e317ba665ec04bb3a67ebfbdfe8a1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298932"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727435"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>显示用于创建可视化效果的数据
 ## <a name="show-data"></a>显示数据
@@ -48,7 +48,7 @@ Power BI 可视化效果是使用数据集中的数据创建的。 如果你对�
 
 ### <a name="next-steps"></a>后续步骤
 [从 Power BI 可视化效果导出数据](power-bi-visualization-export-data.md)    
-[Power BI 报表中的可视化效果](power-bi-report-visualizations.md)    
+[Power BI 报表中的可视化效果](visuals/power-bi-report-visualizations.md)    
 [Power BI 报表](service-reports.md)    
 [Power BI - 基本概念](service-basic-concepts.md)    
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 5f34207640fe0db02d38464ce8600a44b6ffab4c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280653"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726446"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>创建针对 Power BI 手机应用的优化报表
 [在 Power BI Desktop 中创建报表时](desktop-report-view.md)，通过创建专用于手机的报表版本，可以改善在手机的移动应用中使用此报表的体验。 通过重新排列和调整视觉对象（或许不包括所有视觉对象）可以为手机调整报表，以便获得最佳体验。 此外，还可以创建[响应式视觉对象](#optimize-a-visual-for-any-size)和[响应式切片器](#enhance-slicers-to-to-work-well-in-phone-reports)，它们可以流畅地重设大小，以供在手机上显示。 另外，如果向报表添加筛选器，这些筛选器会自动显示在手机报表中。 报表阅读者可以查看它们，并使用这些筛选器筛选报表。
@@ -56,7 +56,7 @@ ms.locfileid: "39280653"
 
 ![响应式视觉对象重设大小](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-用户可自行选择是否为每个视觉对象启用响应式设置。 详细了解如何[优化视觉对象](desktop-create-responsive-visuals.md)。
+用户可自行选择是否为每个视觉对象启用响应式设置。 详细了解如何[优化视觉对象](visuals/desktop-create-responsive-visuals.md)。
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>创建手机报表布局时的注意事项
 * 对于多页报表，可以优化全部或部分页面。 
@@ -101,11 +101,11 @@ ms.locfileid: "39280653"
 
 ![手机页未优化](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
-报表读取器可使手机转向一侧，以查看横向模式页。 详细了解如何[与更适合在手机上显示的 Power BI 报表进行交互](mobile-apps-view-phone-report.md)。
+报表读取器可使手机转向一侧，以查看横向模式页。 详细了解如何[与更适合在手机上显示的 Power BI 报表进行交互](consumer/mobile/mobile-apps-view-phone-report.md)。
 
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中创建仪表板电话视图](service-create-dashboard-mobile-phone-view.md)
-* [查看针对你的电话进行优化的 Power BI 报表](mobile-apps-view-phone-report.md)
-* [创建优化为适应任意大小的响应式视觉对象](desktop-create-responsive-visuals.md)
+* [查看针对你的电话进行优化的 Power BI 报表](consumer/mobile/mobile-apps-view-phone-report.md)
+* [创建优化为适应任意大小的响应式视觉对象](visuals/desktop-create-responsive-visuals.md)
 * 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

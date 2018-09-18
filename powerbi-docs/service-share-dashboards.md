@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b34c16337158e784b0c41bd3e3fd93aca9504cd7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624382"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727297"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>与同事和其他人共享 Power BI 仪表板和报表
 共享是一种使多人能够访问你的仪表板和报表的有效方式。 Power BI 还提供了[其他多种开展协作和分发仪表板及报表的方式](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -27,7 +27,7 @@ ms.locfileid: "39624382"
 
 你可以从 Power BI 服务中的大多数位置共享仪表板和报表：收藏夹、最近浏览、与我共享（如果所有者允许）、我的工作区或其他工作区。 共享仪表板或报表时，你与之共享的人员可查看并与其交互，但不能编辑它。 除非应用[行级别安全性 (RLS)](service-admin-rls.md)，否则他们会看到你在仪表板或报表中看到的相同数据。 如果你允许，与之共享的同事还可以与其他同事共享。 组织外的人员也可以查看仪表板或报表并与之交互，但不能共享它。 
 
-你也可以[在任何 Power BI 移动应用中共享仪表板](mobile-share-dashboard-from-the-mobile-apps.md)。 可以从 Power BI 服务和 Power BI 移动应用（而非 Power BI Desktop）共享仪表板。
+你也可以[在任何 Power BI 移动应用中共享仪表板](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)。 可以从 Power BI 服务和 Power BI 移动应用（而非 Power BI Desktop）共享仪表板。
 
 ## <a name="video-share-a-dashboard"></a>视频：共享仪表板
 观看 Amanda 在她的公司内部和外部与同事共享她的仪表板。 然后按照视频下面的分步说明来自己尝试一下。

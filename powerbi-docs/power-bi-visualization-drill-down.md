@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dbe98d69ce800ef57e6def59003dce56b7be56cd
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 57e1285537854454504b0d2952068e5d9dc4f378
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600911"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726699"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI 可视化效果中的钻取模式
 
@@ -211,7 +211,7 @@ Power BI 使你可通过一个或所有子集扩展。 可以通向下钻取过�
 除了可视化效果，我们还可以看到每个报表呈现的数据中反映的层次结构。 下表显示向下钻取单个区域或所有区域的报告中“显示数据”的结果。 向下钻取时，你就会明白单个报表如何变得更为具体，“所有区域”如何包含更多数据。
 
 
-| 展开模式|区域|城市|邮政|名称|
+| 展开模式|区域|市/县|邮政|名称|
 | ---|:---:|:---:|:---:|---|
 |单向|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
 |全部|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
@@ -223,7 +223,7 @@ Power BI 使你可通过一个或所有子集扩展。 可以通向下钻取过�
   ![](media/power-bi-visualization-drill-down/power-bi-change-data-type2.png)
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 报表中的可视化效果](power-bi-report-visualizations.md)
+[Power BI 报表中的可视化效果](visuals/power-bi-report-visualizations.md)
 
 [Power BI 报表](service-reports.md)
 

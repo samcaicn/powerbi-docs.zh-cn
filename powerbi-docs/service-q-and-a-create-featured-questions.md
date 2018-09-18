@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f3a9e8aabbd45cb476866158165e2e37a3d8f652
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242378"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726308"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>创建 Power BI 问答的精选问题
 如果你拥有一个数据集，你可以向该数据集添加自己精选的问题。  Power BI 问答会向使用数据集的同事显示这些问题。  精选问题会让你的同事了解他们可以就数据集询问哪些类型的问题。 你添加的精选问题都由你决定 -- 可以添加常见问题、显示有趣结果的问题，或可能会很难组织描述的问题。
@@ -26,7 +26,7 @@ ms.locfileid: "34242378"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [iPad、iPhone 和 iPod Touch 设备上的 iOS 版 Microsoft Power BI 应用](mobile-apps-ios-qna.md)和 Power BI Desktop 问答预览版中提供了问答精选问题。 但只能在 Power BI 服务 (app.powerbi.com) 中创建问题。
+> [iPad、iPhone 和 iPod Touch 设备上的 iOS 版 Microsoft Power BI 应用](consumer/mobile/mobile-apps-ios-qna.md)和 Power BI Desktop 问答预览版中提供了问答精选问题。 但只能在 Power BI 服务 (app.powerbi.com) 中创建问题。
 > 
 
 本文使用[“零售分析销售额”示例](sample-datasets.md)。

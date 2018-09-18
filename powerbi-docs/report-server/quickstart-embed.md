@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 802107ce9c12075ffc51461375ca3e9a313f2be1
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293688"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558415"
 ---
 # <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>快速入门：在 SharePoint Server 中使用 iFrame 嵌入 Power BI 报表服务器报表
 
@@ -24,7 +24,7 @@ ms.locfileid: "34293688"
 ## <a name="prerequisites"></a>先决条件
 * 需要安装和配置 [Power BI 报表服务器](https://powerbi.microsoft.com/en-us/report-server/)。
 * 需要安装[更适合 Power BI 报表服务器的 Power BI Desktop](install-powerbi-desktop.md)。
-* 需要安装和配置 [SharePoint](https://docs.microsoft.com/en-us/sharepoint/install/install) 环境。
+* 需要安装和配置 [SharePoint](https://docs.microsoft.com/sharepoint/install/install) 环境。
 
 ## <a name="creating-the-power-bi-report-server-report-url"></a>创建 Power BI 报表服务器报表 URL
 

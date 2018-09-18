@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8e31d3128e38453212a8a0ecef2a139fa2d0f356
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 565c43be3489c23f26a98f99ce2d70022be965d2
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250536"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727987"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>使用 Microsoft Intune 配置移动应用
 Microsoft Intune 使组织可以管理设备和应用程序。 适用于 iOS 和 Android 的 Power BI 移动应用程序与 Intune 集成，以使你可以管理设备上的应用程序以及控制安全性。 通过配置策略，可以控制各个项目，如要求提供访问 PIN、控制应用程序如何处理数据，甚至是在无法使用应用时加密应用程序数据。
@@ -163,7 +163,7 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 [
 
 ## <a name="next-steps"></a>后续步骤
 [在 Microsoft Intune 控制台中配置和部署移动应用程序管理策略](https://technet.microsoft.com/library/dn878026.aspx)  
-[适用于移动设备的 Power BI 应用](mobile-apps-for-mobile-devices.md)  
+[适用于移动设备的 Power BI 应用](consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

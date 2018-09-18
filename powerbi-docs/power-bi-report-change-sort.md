@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 89891ead8eda1b8de4c7be943af2a9e9e98314c5
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561784"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726078"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>更改 Power BI 报表中的图表排序方式
 在 Power BI 报表中，可以按图表中类别名称的字母顺序，或者每个类别的数值对大多数可视化对象排序。 例如，下图按商店名称排序。
@@ -49,7 +49,7 @@ Power BI 报表可保留你对筛选器、切片器、排序和其他数据视�
 * 在 Excel 中，确保将数值列标记为“整数”或“小数”，而不是“文本”。
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 报表中的可视化对象](power-bi-report-visualizations.md)的详细信息。
+[Power BI 报表中的可视化对象](visuals/power-bi-report-visualizations.md)的详细信息。
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

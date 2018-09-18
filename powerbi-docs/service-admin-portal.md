@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 592c3bf5fbd508d63236d16ca21164ee507df35b
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300106"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726906"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理门户
 
@@ -244,7 +244,7 @@ ms.locfileid: "43300106"
 
 ### <a name="interact-with-and-share-r-visuals"></a>与 R 视觉对象进行交互并共享
 
-组织中的用户可以与使用 R 脚本创建的视觉对象进行交互并共享。 [了解详细信息](service-r-visuals.md)
+组织中的用户可以与使用 R 脚本创建的视觉对象进行交互并共享。 [了解详细信息](visuals/service-r-visuals.md)
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。

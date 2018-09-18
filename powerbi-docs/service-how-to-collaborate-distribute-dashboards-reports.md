@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 585c1c854ed3e95cc176d34f442fec6416f23dcd
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623944"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726653"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>应如何在 Power BI 中开展协作并进行共享？
 
@@ -83,9 +83,9 @@ Power BI 服务中的应用
 
 在共享磁贴、报表或视觉对象快照时，收件人看到的与你发送邮件时的内容完全一致。 邮件还包含仪表板或报表的链接。 如果他们有 Power BI Pro 许可证，或者该内容位于[高级容量](service-premium.md)中，并且你已与他们共享对象，则他们可以打开此对象。 可以向任何人（不仅仅是同一电子邮件域的同事）发送磁贴的快照。
 
-有关从 iOS 和 Android 移动应用[添加注释并共享磁贴、报表和视觉对象](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)的详细信息。
+有关从 iOS 和 Android 移动应用[添加注释并共享磁贴、报表和视觉对象](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)的详细信息。
 
-还可以通过适用于 Windows 10 设备的 Power BI 应用[共享磁贴快照](mobile-windows-10-phone-app-get-started.md)。
+还可以通过适用于 Windows 10 设备的 Power BI 应用[共享磁贴快照](consumer/mobile/mobile-windows-10-phone-app-get-started.md)。
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>打印或另存为 PDF 或其他静态文件
 可以在 Power BI 服务中打印整个仪表板、仪表板磁贴、报表页或可视化效果，或将其另存为 PDF（或其他静态文件格式）。 一次只能打印一页报表，而不能一次打印整个报表。 有关[打印或另存为静态文件](service-print.md)的详细信息。

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241559"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558555"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -105,13 +105,13 @@ Azure 门户或 Power BI 应用注册页面中的错误消息提到权限不足�
 
 如果使用 Power BI Embedded 并利用 Azure AD 直接身份验证，则会收到以下形式的消息日志记录：error:unauthorized_client,error_description:AADSTS70002: 验证凭据时出错。AADSTS50053: 使用不正确的用户 ID 或密码尝试登录的次数过多，这是因为自 2018 年 6 月 14 日起已禁用直接身份验证。
 
-可以使用组织或[服务主体](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)范围内的 [Azure AD 策略](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)重新启用此功能。
+可以使用组织或[服务主体](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object)范围内的 [Azure AD 策略](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)重新启用此功能。
 
 建议仅逐个应用地启用。
 
 需要是在其中创建和分配策略的目录中的全局管理员才能创建此策略。 以下为创建策略并将其分配到此应用程序的 SP 的示例脚本：
 
-1. 安装 [Azure AD 预览版 PowerShell 模块](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
+1. 安装 [Azure AD 预览版 PowerShell 模块](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
 
 2. 逐行运行以下 PowerShell 命令（确保变量 $sp 的结果只有 1 个应用程序）。
 
@@ -274,7 +274,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 如果想要编辑已注册的应用程序，请了解如何编辑[已向 AAD 注册的应用程序](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)，使应用程序可以向 Web API 提供访问权限。
 
-如果想要编辑 Power BI 用户配置文件或数据，请了解如何编辑 [Power BI 数据](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)。
+如果想要编辑 Power BI 用户配置文件或数据，请了解如何编辑 [Power BI 数据](https://docs.microsoft.com/power-bi/service-basic-concepts)。
 
 有关详细信息，请参阅 [Power BI Embedded 常见问题](embedded-faq.md)。
 

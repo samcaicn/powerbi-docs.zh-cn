@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 80e5b31f4fd8e59333848da26995388874d1746c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136953"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728033"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的报表
 ## <a name="what-is-a-power-bi-report"></a>什么是 Power BI 报表？
@@ -27,7 +27,7 @@ Power BI ***报表***是数据集的多角度视图，使用可视化效果表�
 
 如果你不熟悉 Power BI，可以通过阅读 [Power BI 基本概念](service-basic-concepts.md)详细了解基础知识
 
-报表是 Power BI 服务和 Power BI Desktop 的一项功能。 使用报表的体验几乎相同。 在移动设备中无法创建报表，但可以[查看、共享报表并对其添加批注](mobile-reports-in-the-mobile-apps.md)。
+报表是 Power BI 服务和 Power BI Desktop 的一项功能。 使用报表的体验几乎相同。 在移动设备中无法创建报表，但可以[查看、共享报表并对其添加批注](consumer/mobile/mobile-reports-in-the-mobile-apps.md)。
 
 ## <a name="advantages-of-reports"></a>报表的优点
 报表以单个数据集为基础。 报表中的可视化效果分别表示信息的一个功能。 此外，可视化效果不是静态的；你可以添加和删除数据，更改可视化效果类型，并在深入探究数据时应用筛选器和切片器，从而发现见解并寻找答案。 报表类似于仪表板，但它更具有高度互动性和高度可定制性，并且可视化效果随着基础数据的更改而更新。

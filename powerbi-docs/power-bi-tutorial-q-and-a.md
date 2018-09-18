@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599221"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727920"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>教程：如何使用 Power BI 问答创建可视化效果和生成报表
-[问答概述](power-bi-q-and-a.md)介绍了 Power BI 问答，并对使用者（与其共享了仪表板和报表）和创建者（拥有基础报表和数据集）进行了区分。 本教程的第一部分主要是面向通过 Power BI 服务使用仪表板的用户。 第二部分是面向使用 Power BI 服务或 Power BI Desktop 创建报表的用户。 [Power BI 问答和 Power BI 移动版](mobile-apps-ios-qna.md)以及 [Power BI Embedded 中的 Power BI 问答](developer/qanda.md)均通过单篇文章进行介绍。
+[问答概述](power-bi-q-and-a.md)介绍了 Power BI 问答，并对使用者（与其共享了仪表板和报表）和创建者（拥有基础报表和数据集）进行了区分。 本教程的第一部分主要是面向通过 Power BI 服务使用仪表板的用户。 第二部分是面向使用 Power BI 服务或 Power BI Desktop 创建报表的用户。 [Power BI 问答和 Power BI 移动版](consumer/mobile/mobile-apps-ios-qna.md)以及 [Power BI Embedded 中的 Power BI 问答](developer/qanda.md)均通过单篇文章进行介绍。
 
 问答是交互式的且十分有趣，而且一个问题会导致许多其他问题以可视化效果显示要查找的有趣路径。 请观看 Amanda 是如何使用 Power BI 问答创建可视化效果、向下钻取这些视觉对象，并将它们固定到仪表板的。
 
@@ -44,7 +44,7 @@ Power BI 问答的提问框位于仪表板的左上角，这就是用户使用�
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-list.png)
 
-3. 在用户键入问题的同时，Power BI 问答会挑选最佳[可视化效果](power-bi-visualization-types-for-reports-and-q-and-a.md)作为答案显示；并且可视化效果会随着用户修改问题而动态变化。
+3. 在用户键入问题的同时，Power BI 问答会挑选最佳[可视化效果](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)作为答案显示；并且可视化效果会随着用户修改问题而动态变化。
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-viz.png)
 
@@ -82,7 +82,7 @@ Power BI 问答的提问框位于仪表板的左上角，这就是用户使用�
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-suggestions.png)
 
-4. 在用户键入问题的同时，Power BI 问答会挑选最佳[可视化效果](power-bi-visualization-types-for-reports-and-q-and-a.md)作为答案显示；并且可视化效果会随着用户修改问题而动态变化。
+4. 在用户键入问题的同时，Power BI 问答会挑选最佳[可视化效果](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)作为答案显示；并且可视化效果会随着用户修改问题而动态变化。
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-visual.png)
 

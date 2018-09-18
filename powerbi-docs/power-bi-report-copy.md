@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247794"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725618"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>从现有报表中创建新报表（复制报表）
 你可能拥有已连接到数据集的报表，以及某些希望重新使用或修改的视觉效果。  为什么不复制该报表，作为新报表的基础？  若要执行此操作：
@@ -37,7 +37,7 @@ ms.locfileid: "34247794"
 5. 享受更新和编辑新报表的乐趣。
 
 ## <a name="next-steps"></a>后续步骤：
-[创建新的可视化效果](power-bi-report-add-visualizations-ii.md)
+[创建新的可视化效果](visuals/power-bi-report-add-visualizations-ii.md)
 
 [删除可视化效果](service-delete.md)（不需要的）
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4d237a308e059ce712872860031f122de9d6795c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3d2e5dcbfb5163e20dc60470c240378278bbcf1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34238412"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727228"
 ---
 # <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>创建更适合在移动电话上展示的 Power BI 仪表板的视图
 在手机上的 Power BI 移动应用中查看仪表板时，你会发现，仪表板磁贴采用相继布局的方式，所有磁贴的大小都一样。 在 Power BI 服务中，可以创建任何你拥有的仪表板的自定义视图，专用于在手机上查看。
@@ -58,6 +58,6 @@ ms.locfileid: "34238412"
 
 ## <a name="next-steps"></a>后续步骤
 * [创建针对 Power BI 手机应用的优化报表](desktop-create-phone-report.md)
-* [创建优化为适应任意大小的响应式视觉对象](desktop-create-responsive-visuals.md)
+* [创建优化为适应任意大小的响应式视觉对象](visuals/desktop-create-responsive-visuals.md)
 * 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

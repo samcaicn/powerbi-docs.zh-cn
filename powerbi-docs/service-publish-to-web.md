@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2018
+ms.date: 09/13/2018
 LocalizationGroup: Share your work
-ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 0ef3bd027c7fc14f88a569cab160f90044689784
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380327"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558530"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -61,7 +61,7 @@ ms.locfileid: "43380327"
 
 在博客帖子中嵌入内容时，通常需要调整以适合屏幕的特定大小。  还可根据需要调整 iFrame 标记中的高度和宽度，但可能还需要确保报表适合 iFrame 给定区域，因此还需在编辑报表时设置适当的视图模式。
 
-下表提供有关视图模式及其嵌入时外观的指导。
+下表提供有关视图模式及其嵌入时外观的指导。 
 
 | 视图模式 | 嵌入时外观 |
 | --- | --- |

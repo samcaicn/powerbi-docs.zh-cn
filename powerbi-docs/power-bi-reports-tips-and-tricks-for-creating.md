@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8305b9eab95e2b13f9104de6bcefe3f03a95d2f5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34254869"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726791"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>在 Power BI Desktop 和 Power BI 服务中创建报表的相关提示和技巧
 若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop、Power BI 服务，以及启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。
@@ -167,7 +167,7 @@ DAX 是 Power BI Desktop 中的计算公式语言。  它针对 BI 分析进行�
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 服务和 Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportspower-bi-visualization-best-practicesmd"></a>阅读白皮书：[Power BI 报表设计原则](power-bi-visualization-best-practices.md)
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>阅读白皮书：[Power BI 报表设计原则](visuals/power-bi-visualization-best-practices.md)
 本白皮书介绍了有关如何在 Power BI 中设计报表的最佳做法。 它从规划入手，介绍了可应用于报表及其页面和各个视觉对象的设计原则。 其中许多最佳做法同样适用于设计仪表板。
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>阅读和/或观看“如何在 Power BI 中设计视觉效果令人震撼的报表（和仪表板）”
@@ -209,7 +209,7 @@ DAX 是 Power BI Desktop 中的计算公式语言。  它针对 BI 分析进行�
 * 请注意如何[对图表进行排序](power-bi-report-change-sort.md)。  如果你想要将注意点放在最高或最低的数字，则通过度量值进行排序。  如果希望用户能够在许多其他类别中快速找到特定类别，则按轴进行排序。  
 * 如果类别少于八个，则饼图最佳。 由于不能并排比较值，所以在饼图中的比较值要比在条形图和柱形图中比较值更难。 饼图有助于查看部分对整体的关系，而不利于将部分进行比较。 仪表盘则非常适合用于在目标上下文中显示当前状态。    
 
-有关更多可视化效果特定指南，请参阅 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)。  
+有关更多可视化效果特定指南，请参阅 [Power BI 中的可视化效果类型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。  
 
 ### <a name="learn-more-about-best-practice-dashboard-design"></a>了解更多关于最佳仪表板设计的信息
 一些我们最喜爱的书籍有：

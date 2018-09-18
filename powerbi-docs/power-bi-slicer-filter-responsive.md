@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/04/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5d57525e8aab3a3f7bfa1806661c4bf6e3ff981
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3b1a6b9a0e95c6bbd628368d47b866da18643741
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293872"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725825"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>在 Power BI 中创建可以重设大小的响应式切片器
 
@@ -80,5 +80,5 @@ ms.locfileid: "34293872"
 
 ## <a name="next-steps"></a>后续步骤
 
-- [Power BI 服务中的切片器](power-bi-visualization-slicers.md)
+- [Power BI 服务中的切片器](visuals/power-bi-visualization-slicers.md)
 - 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

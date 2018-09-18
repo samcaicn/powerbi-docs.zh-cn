@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600347"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726860"
 ---
 # <a name="getting-a-custom-visual-certified"></a>让自定义视觉对象取得认证
 ## <a name="what-is-meant-by-certified"></a>取得认证是指什么？
@@ -142,7 +142,7 @@ Microsoft 可能会自行从“取得认证”列表中删除视觉对象。
 ## <a name="next-steps"></a>后续步骤
 [自定义视觉对象开发者工具（预览版）入门](service-custom-visuals-getting-started-with-developer-tools.md)      
 [YouTube 上的 Microsoft 自定义视觉对象播放列表](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Power BI 中的可视化效果](power-bi-report-visualizations.md)  
+[Power BI 中的可视化效果](visuals/power-bi-report-visualizations.md)  
 [Power BI 中的自定义可视化效果](power-bi-custom-visuals.md)  
 [将自定义视觉对象发布到 Microsoft AppSource](developer/office-store.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
