@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240201"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550043"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>从报表将磁贴固定到 Power BI 仪表板
 ## <a name="pinning-tiles-from-a-report"></a>从报表固定磁贴
-一种从 [Power BI 报表](service-reports.md)内添加新[仪表板磁贴](service-dashboard-tiles.md)的方法。 其实你可以从报表添加许多新磁贴。  单击时，所有这些磁贴都是回到报表的链接。
+一种从 [Power BI 报表](consumer/end-user-reports.md)内添加新[仪表板磁贴](consumer/end-user-tiles.md)的方法。 其实你可以从报表添加许多新磁贴。  单击时，所有这些磁贴都是回到报表的链接。
 
 而且可以将整个报表页固定到仪表板上。  这也称为固定*动态*磁贴。  *动态*是因为你可以使用仪表板上的磁贴进行交互，而且与单独的可视化磁贴不同，在报表中所做的更改可以与仪表板同步。 了解有关以下内容的详细信息。
 
@@ -58,15 +58,15 @@ Watch Amanda 通过从 Power BI 报表固定视觉对象和图像创建仪表板
 有关详细信息，请参阅[固定整个报表页](service-dashboard-pin-live-tile-from-report.md)
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的仪表板](service-dashboards.md)
+[Power BI 中的仪表板](consumer/end-user-dashboards.md)
 
-[Power BI 中的仪表板磁贴](service-dashboard-tiles.md)
+[Power BI 中的仪表板磁贴](consumer/end-user-tiles.md)
 
-[Power BI 中的报表](service-reports.md)
+[Power BI 中的报表](consumer/end-user-reports.md)
 
 [Power BI 中的数据刷新](refresh-data.md)
 
-[Power BI 基本概念](service-basic-concepts.md)
+[Power BI 基本概念](consumer/end-user-basic-concepts.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

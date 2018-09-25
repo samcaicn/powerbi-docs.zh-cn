@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bc5fe4c1e1fedc700fcbadd182f01e9e50348e3e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34257220"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545623"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>与同事共享筛选的 Power BI 报表
 共享是一种使多人能够访问你的仪表板和报表的有效方式。 Power BI 还提供了[其他多种开展协作和分发报表的方式](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -28,7 +28,7 @@ ms.locfileid: "34257220"
 ## <a name="filter-and-share-a-report"></a>筛选和共享报表
 如果你想要共享筛选的报表版本，该怎么办？ 也许一个报表仅显示特定城市或销售人员或年份的数据。 可以通过创建自定义 URL 来执行此操作。
 
-1. 打开[编辑视图](service-reading-view-and-editing-view.md)中的报表、应用筛选器并保存报表。
+1. 打开[编辑视图](consumer/end-user-reading-view.md)中的报表、应用筛选器并保存报表。
    
    在此示例中，我们正在筛选[零售分析示例](sample-tutorial-connect-to-the-samples.md)，从而仅显示“区域”等于“NC”的值。
    

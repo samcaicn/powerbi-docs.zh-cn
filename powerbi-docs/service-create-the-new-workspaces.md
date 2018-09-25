@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cde28e7c41a35c3bbc37d0da56313ad7f8698110
-ms.sourcegitcommit: 15b877343540bb7e21f1d5bbd3d6f64e66fa138c
+ms.openlocfilehash: 5a94b4c808dcb7cbb040f68c0de7588a3b99c155
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42914510"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548824"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>在 Power BI 中创建新工作区（预览）
 
@@ -130,7 +130,7 @@ Power BI 以预览的形式引入了新工作区体验。 工作区仍是与同�
 
 ## <a name="distribute-an-app"></a>分发应用
 
-内容准备好后，选择想要发布的仪表板和报表，然后将其作为应用发布。 可从每个工作区创建一个应用。 你的同事可通过几种不同的方式获取你的应用。 如果 Power BI 管理员已授予权限，则可将这些应用自动安装到同事的 Power BI 帐户中。 另外，他们可从 Microsoft AppSource 查找并安装应用，或者你可向他们发送一个直接链接。 他们将自动获得更新，你可以控制数据刷新的频率。 有关详细信息，请参阅[在 Power BI 中发布包含仪表板和报表的应用](service-create-distribute-apps.md)。
+内容准备好后，选择想要发布的仪表板和报表，然后将其作为应用发布。 可从每个工作区创建一个应用。 你的同事可通过几种不同的方式获取你的应用。 如果 Power BI 管理员已授予权限，则可将这些应用自动安装到同事的 Power BI 帐户中。 另外，他们可从 Microsoft AppSource 查找并安装应用，或者你可向他们发送一个直接链接。 他们将自动获得更新，你可以控制数据刷新的频率。 有关详细信息，请参阅[在 Power BI 中发布包含仪表板和报表的应用](consumer/end-user-create-apps.md)。
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>将旧应用工作区转换为新应用工作区
 
@@ -174,5 +174,5 @@ Power BI 以预览的形式引入了新工作区体验。 工作区仍是与同�
 ## <a name="next-steps"></a>后续步骤
 
 - [创建当前工作区](service-create-workspaces.md)
-* [在 Power BI 中安装并使用应用](service-install-use-apps.md)
+* [在 Power BI 中安装并使用应用](consumer/end-user-apps.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

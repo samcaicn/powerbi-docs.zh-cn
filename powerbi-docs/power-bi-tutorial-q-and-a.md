@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c90db1c08ba1d172acc4d0e82d23409d835879a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727920"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543581"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>教程：如何使用 Power BI 问答创建可视化效果和生成报表
-[问答概述](power-bi-q-and-a.md)介绍了 Power BI 问答，并对使用者（与其共享了仪表板和报表）和创建者（拥有基础报表和数据集）进行了区分。 本教程的第一部分主要是面向通过 Power BI 服务使用仪表板的用户。 第二部分是面向使用 Power BI 服务或 Power BI Desktop 创建报表的用户。 [Power BI 问答和 Power BI 移动版](consumer/mobile/mobile-apps-ios-qna.md)以及 [Power BI Embedded 中的 Power BI 问答](developer/qanda.md)均通过单篇文章进行介绍。
+[问答概述](consumer/end-user-q-and-a.md)介绍了 Power BI 问答，并对使用者（与其共享了仪表板和报表）和创建者（拥有基础报表和数据集）进行了区分。 本教程的第一部分主要是面向通过 Power BI 服务使用仪表板的用户。 第二部分是面向使用 Power BI 服务或 Power BI Desktop 创建报表的用户。 [Power BI 问答和 Power BI 移动版](consumer/mobile/mobile-apps-ios-qna.md)以及 [Power BI Embedded 中的 Power BI 问答](developer/qanda.md)均通过单篇文章进行介绍。
 
 问答是交互式的且十分有趣，而且一个问题会导致许多其他问题以可视化效果显示要查找的有趣路径。 请观看 Amanda 是如何使用 Power BI 问答创建可视化效果、向下钻取这些视觉对象，并将它们固定到仪表板的。
 
@@ -64,7 +64,7 @@ Power BI 问答的提问框位于仪表板的左上角，这就是用户使用�
 
 ![](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
-若要在报表中使用 Power BI 问答，必须拥有对报表和基础数据集的编辑权限。 [Power BI 问答概述](power-bi-q-and-a.md)主题将此区分为创建者方案。 因此，如果是使用与自己共享的报表，Power BI 问答则不可用。
+若要在报表中使用 Power BI 问答，必须拥有对报表和基础数据集的编辑权限。 [Power BI 问答概述](consumer/end-user-q-and-a.md)主题将此区分为创建者方案。 因此，如果是使用与自己共享的报表，Power BI 问答则不可用。
 
 1. 在编辑视图（Power BI 服务）或报表视图（Power BI Desktop）中打开报表，并选择菜单栏中的“提问”。
 
@@ -98,14 +98,14 @@ Power BI 问答的提问框位于仪表板的左上角，这就是用户使用�
 使用 Power BI 问答，不仅可以让数据为自己“发声”，还可以指示 Power BI 如何显示答案。 只需将“以<visualization type>显示”添加到问题的末尾即可。  例如，“显示工厂的库存量（以地图形式）”和“显示总库存（以卡片形式）”。  亲自动手。
 
 ##  <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-- 如果已使用实时连接或网关连接到数据集，需要[为相应数据集启用](service-q-and-a-direct-query.md) Power BI 问答。
+- 如果已使用实时连接或网关连接到数据集，需要[为相应数据集启用](consumer/end-user-q-and-a-direct-query.md) Power BI 问答。
 
 - 如果已打开报表，但看不到 Power BI 问答选项。 如果使用的是 Power BI 服务，请务必在编辑视图中打开报表。 如果无法打开编辑视图，即说明无权编辑此报表，因此无法对特定报表使用 Power BI 问答。
 
 ## <a name="next-steps"></a>后续步骤
-返回到 [Power BI 问答](power-bi-q-and-a.md)   
+返回到 [Power BI 问答](consumer/end-user-q-and-a.md)   
 [教程：通过“零售销售额示例”使用 Power BI 问答](power-bi-visualization-introduction-to-q-and-a.md)   
-[在 Power BI 问答中提问的提示](service-q-and-a-tips.md)   
+[在 Power BI 问答中提问的提示](consumer/end-user-q-and-a-tips.md)   
 [准备问答的工作簿](service-prepare-data-for-q-and-a.md)  
-[准备本地数据集以供 Power BI 问答使用](service-q-and-a-direct-query.md)
+[准备本地数据集以供 Power BI 问答使用](consumer/end-user-q-and-a-direct-query.md)
 [通过 Power BI 问答将磁贴固定到仪表板](service-dashboard-pin-tile-from-q-and-a.md)

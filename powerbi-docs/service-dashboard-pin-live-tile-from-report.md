@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7703709361a6233b6d04d6fb2131ba41f109ca36
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3466280a452c89539d288a3e7d0a123855604e7e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249861"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546363"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>将整个报表页以动态磁贴的形式固定到 Power BI 仪表板
-添加新[仪表板磁贴](service-dashboard-tiles.md)的另一种方法是固定整个报表页。 这是一种一次性固定多个可视化效果的简便方法。  此外，当固定整个页面时，磁贴是 *动态的* ；你可以就在仪表板上与它们进行交互。 并且你对报表编辑器中返回的任何可视化效果所做的更改（如添加筛选器或更改图表中使用的字段）也都会反映在仪表板磁贴中。  
+添加新[仪表板磁贴](consumer/end-user-tiles.md)的另一种方法是固定整个报表页。 这是一种一次性固定多个可视化效果的简便方法。  此外，当固定整个页面时，磁贴是 *动态的* ；你可以就在仪表板上与它们进行交互。 并且你对报表编辑器中返回的任何可视化效果所做的更改（如添加筛选器或更改图表中使用的字段）也都会反映在仪表板磁贴中。  
 
 仅在 Power BI 服务 (app.powerbi.com) 中可将动态磁贴从报表固定到仪表板。
 
@@ -53,7 +53,7 @@ ms.locfileid: "34249861"
     ![包含动态磁贴的仪表板](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的仪表板](service-dashboards.md)
+[Power BI 中的仪表板](consumer/end-user-dashboards.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

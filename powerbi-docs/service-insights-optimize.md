@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: eed9b668cccf3bc8252d70f1dee94675063a8844
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fbf49a9ddbec5f087a28e51144c782e2f1739db0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247748"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546920"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>面向 Power BI Quick Insights 优化数据
 想要改善快速见解结果吗？  如果你是数据集所有者，请尝试：
@@ -26,7 +26,7 @@ ms.locfileid: "34247748"
 * 你是否收到一条错误消息，说数据不具有统计意义？  这可能发生在非常简单的、没有太多数据的模型中，或者没有日期或数字列的模型中。 若要生成见解，数据集需要具有至少一个维度和一个度量值。
 
 ### <a name="next-steps"></a>后续步骤
-[Power BI 快速见解](service-insights.md)
+[Power BI 快速见解](consumer/end-user-insights.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

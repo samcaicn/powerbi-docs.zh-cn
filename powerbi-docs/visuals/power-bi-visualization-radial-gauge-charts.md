@@ -2,7 +2,7 @@
 title: Power BI 中的径向仪表图
 description: Power BI 中的径向仪表图
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097c7111e630b4c0c80e71d812be73cc232ea6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728926"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565537"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的径向仪表图
 径向仪表盘有一个圆弧，并且显示单个值，该值用于衡量针对目标/KPI 的进度。  使用直线（针）表示目标或目标值。 使用明暗度表示针对目标的进度。  表示进度的值在圆弧内以粗体显示。所有可能的值沿圆弧均匀分布，从最小值（最左边的值）到最大值（最右边的值）。
@@ -92,7 +92,7 @@ ms.locfileid: "44728926"
 
 ### <a name="step-5-save-your-report"></a>步骤 5：保存报表
 1. [保存报表](../service-report-save.md)。
-2. [将仪表盘添加为仪表板磁贴](../service-dashboard-tiles.md)。 
+2. [将仪表盘添加为仪表板磁贴](../consumer/end-user-tiles.md)。 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>使用格式选项手动设置最小值、最大值和目标值
 1. 将**最大总销售额**从**最大值**框中删除。
@@ -117,7 +117,7 @@ ms.locfileid: "44728926"
 
 [将可视化效果固定到仪表板](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

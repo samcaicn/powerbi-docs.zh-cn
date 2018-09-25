@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 81a8b5454e39088b8b406e600707d1d5073e14dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 1104c7f90f46252a74c4aa8e5ec573a159ef1c40
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330158"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550112"
 ---
 # <a name="using-directquery-in-power-bi"></a>在 Power BI 中使用 DirectQuery
 使用 Power BI Desktop 或 Power BI 服务时，可以连接各种类型的数据源，并且可以通过不同的方式连接这些数据。 可以将数据导入 Power BI，也可以在其原始源存储库中直接连接数据，前者是获取数据最常见的方法，后者称为 DirectQuery。 本文介绍 DirectQuery 及其功能，具体包括以下主题：
@@ -277,7 +277,7 @@ Power BI Desktop 支持所有数据源。 某些数据源还可直接在 Power B
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  在 DirectQuery 中，交叉筛选和交叉突出显示需要向基础源提交查询，所以如果响应用户选择所花费的时间太长，应关闭交互。 但是，可以为整个报表（如上面的查询缩减选项所述）或者按[本文](service-reports-visual-interactions.md)所述的具体情况关闭此交互。
+  在 DirectQuery 中，交叉筛选和交叉突出显示需要向基础源提交查询，所以如果响应用户选择所花费的时间太长，应关闭交互。 但是，可以为整个报表（如上面的查询缩减选项所述）或者按[本文](consumer/end-user-interactions.md)所述的具体情况关闭此交互。
 
 除了上述列表中的建议，请注意，以下每一种报表功能都会导致性能问题：
 

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5fe4212be55a42a6892a94e2a07da8af5c035b6d
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44730222"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547237"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -82,7 +82,7 @@ Power BI 报表作者可以创建专门针对手机进行优化的报表布局�
 * 若要反向排序，请依次重新点击省略号 (...) 和相同的字段名称。
 
 ## <a name="drill-down-and-up-in-a-visual"></a>在视觉对象中向下钻取和向上钻取
-如果报表作者已将向下钻取功能添加到视觉对象，则可以向下钻取视觉对象，查看其中所包含的值。 在 Power BI Desktop 或 Power BI 服务中[向视觉对象添加向下钻取功能](../../power-bi-visualization-drill-down.md)。 
+如果报表作者已将向下钻取功能添加到视觉对象，则可以向下钻取视觉对象，查看其中所包含的值。 在 Power BI Desktop 或 Power BI 服务中[向视觉对象添加向下钻取功能](../end-user-drill.md)。 
 
 * 点击并按住视觉对象中的特定栏或点以显示其工具提示。 如果它具有向下钻取功能，则工具提示底部具有可点击的箭头。 
   

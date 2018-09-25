@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f0337b26989b3d42e86339c4afc087579c2c3529
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44725618"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548778"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>从现有报表中创建新报表（复制报表）
 你可能拥有已连接到数据集的报表，以及某些希望重新使用或修改的视觉效果。  为什么不复制该报表，作为新报表的基础？  若要执行此操作：
 
-1. [打开报表](service-report-open.md)。
+1. [打开报表](consumer/end-user-report-open.md)。
 2. 从**文件**菜单中选择**另存为**。
    
    ![](media/power-bi-report-copy/powerbi-save-as.png)
@@ -39,6 +39,6 @@ ms.locfileid: "44725618"
 ## <a name="next-steps"></a>后续步骤：
 [创建新的可视化效果](visuals/power-bi-report-add-visualizations-ii.md)
 
-[删除可视化效果](service-delete.md)（不需要的）
+[删除可视化效果](consumer/end-user-delete.md)（不需要的）
 
 [使用 Power BI Desktop 创建报表](desktop-report-view.md)

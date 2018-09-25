@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: eaf70dab21bd35947582e343567bb1457b99cabc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624243"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547973"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>创建和发布 Power BI 组织内容包（教程）
 
@@ -92,7 +92,7 @@ ms.locfileid: "39624243"
 ### <a name="next-steps"></a>后续步骤
 * [组织内容包简介](service-organizational-content-pack-introduction.md)  
 * [管理、更新和删除组织内容包](service-organizational-content-pack-manage-update-delete.md)  
-* [在 Power BI 中创建组](service-create-distribute-apps.md)  
+* [在 Power BI 中创建组](consumer/end-user-create-apps.md)  
 * [什么是 OneDrive for Business？](https://support.office.com/en-us/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

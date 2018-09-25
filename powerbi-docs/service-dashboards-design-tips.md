@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726033"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544926"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>设计出色 Power BI 仪表板的提示
 现在，你已创建了一个仪表板并添加了一些磁贴，可考虑如何使你的仪表板不仅美观，而且实用。 一般来说，这意味着突出显示最重要的信息，使其整洁有序。
@@ -65,7 +65,7 @@ ms.locfileid: "44726033"
 * 不要混合精度和时间的级别。 确保时间范围易于理解。  不要将上个月的图表置于该年度特定月份的已筛选图表旁。
 * 不要在同一比例上（如在折线图或条形图上）混合大度量值和小度量值。  例如，一个度量值可能以百万计，其他度量值则以千计。  使用这种大比例，很难看出以千计的度量值的差异。  如果需要混合，则选择一个允许使用第二个轴的可视化效果。
 * 不要使用不需要的数据标签打乱图表。 条形图中的值通常易于了解，不显示实际数。
-* 请注意如何[对图表进行排序](power-bi-report-change-sort.md)。  如果你想要将注意点放在最高或最低的数字，则通过度量值进行排序。  如果希望用户能够在许多其他类别中快速找到特定类别，则按轴进行排序。  
+* 请注意如何[对图表进行排序](consumer/end-user-change-sort.md)。  如果你想要将注意点放在最高或最低的数字，则通过度量值进行排序。  如果希望用户能够在许多其他类别中快速找到特定类别，则按轴进行排序。  
 * 如果类别少于八个，则饼图最佳。 由于不能并排比较值，所以在饼图中的比较值要比在条形图和柱形图中比较值更难。 饼图有助于查看部分对整体的关系，而不利于将部分进行比较。 仪表盘则非常适合用于在目标上下文中显示当前状态。
 
 有关更多可视化效果特定指南，请参阅 [Power BI 中的可视化效果类型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。  
@@ -81,5 +81,5 @@ ms.locfileid: "44726033"
 
 ## <a name="next-steps"></a>后续步骤
 [从报表创建仪表板](service-dashboard-create.md)  
-[Power BI - 基本概念](service-basic-concepts.md)  
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

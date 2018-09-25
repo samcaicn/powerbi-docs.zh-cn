@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 0397921d239ec1d07312e69061890f8898e9687b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726791"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549951"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>在 Power BI Desktop 和 Power BI 服务中创建报表的相关提示和技巧
 若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop、Power BI 服务，以及启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。
@@ -206,7 +206,7 @@ DAX 是 Power BI Desktop 中的计算公式语言。  它针对 BI 分析进行�
 * 尽量避免混合精度级别和时间级别。 确保时间范围易于理解。  不要将上个月的图表置于该年度特定月份的已筛选图表旁。    
 * 此外，尽量避免在同一比例上（如在折线图或条形图上）混合大度量值和小度量值。  例如，一个度量值可能以百万计，其他度量值则以千计。  使用这种大比例，很难看出以千计的度量值的差异。  如果需要混合，则选择一个允许使用第二个轴的可视化效果，如组合图。    
 * 避免使用不需要的数据标签打乱图表。 条形图中的值（如果足够大）通常易于了解，而不显示实际数。   
-* 请注意如何[对图表进行排序](power-bi-report-change-sort.md)。  如果你想要将注意点放在最高或最低的数字，则通过度量值进行排序。  如果希望用户能够在许多其他类别中快速找到特定类别，则按轴进行排序。  
+* 请注意如何[对图表进行排序](consumer/end-user-change-sort.md)。  如果你想要将注意点放在最高或最低的数字，则通过度量值进行排序。  如果希望用户能够在许多其他类别中快速找到特定类别，则按轴进行排序。  
 * 如果类别少于八个，则饼图最佳。 由于不能并排比较值，所以在饼图中的比较值要比在条形图和柱形图中比较值更难。 饼图有助于查看部分对整体的关系，而不利于将部分进行比较。 仪表盘则非常适合用于在目标上下文中显示当前状态。    
 
 有关更多可视化效果特定指南，请参阅 [Power BI 中的可视化效果类型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。  
@@ -222,8 +222,8 @@ DAX 是 Power BI Desktop 中的计算公式语言。  它针对 BI 分析进行�
 * *Advanced Presentations Design*，Andrew Abela 著   
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI - 基本概念](service-basic-concepts.md)
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 
-[Power BI 中的报表](service-reports.md)
+[Power BI 中的报表](consumer/end-user-reports.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

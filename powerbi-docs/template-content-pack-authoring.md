@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 8b7c46ad1e9ea9c4c79a8f5a1b48c73ab3336306
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 7253a340ce0852039a08d0ed17c488fc8fdbfa69
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157293"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545913"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Power BI 中的作者模板内容包
 在创作模板内容包时需使用 Power BI Desktop 和 PowerBI.com。 内容包具有四个组件︰
@@ -22,7 +22,7 @@ ms.locfileid: "39157293"
 * 查询功能允许你[连接](desktop-connect-to-data.md)和[转换](desktop-query-overview.md)数据，以及定义[参数](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)  
 * 用于创建[关系](desktop-create-and-manage-relationships.md)、[度量值](desktop-measures.md)和问题解答的改进的数据模型  
 * 报表[页](desktop-report-view.md)中包括视觉对象和筛选器，以帮助洞察你的数据  
-* [仪表板](service-dashboards.md)和[磁贴](service-dashboard-create.md)提供对内含见解的概览  
+* [仪表板](consumer/end-user-dashboards.md)和[磁贴](service-dashboard-create.md)提供对内含见解的概览  
 
 你可能熟悉其中每个部分（作为现有 Power BI 功能）。 在生成内容包时，还需考虑其中每个方面的其他一些事项。请参阅下一节了解有关详细信息。
 

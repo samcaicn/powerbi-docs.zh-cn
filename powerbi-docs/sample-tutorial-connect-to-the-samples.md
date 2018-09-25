@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8b4a0605df348957c4adb0d8e02975f4cd752307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "36944597"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543770"
 ---
 # <a name="the-power-bi-samples"></a>Power BI 示例
 
@@ -79,7 +79,7 @@ Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我�
     ![突出显示匹配的视觉对象的报表页](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > 如果磁贴是使用 [Power BI 问答](power-bi-q-and-a.md)创建的，则会改为打开问答页面。 如果磁贴是[从 Excel 固定](service-dashboard-pin-tile-from-excel.md)的，则 Excel Online 将在 Power BI 内打开。
+   > 如果磁贴是使用 [Power BI 问答](consumer/end-user-q-and-a.md)创建的，则会改为打开问答页面。 如果磁贴是[从 Excel 固定](service-dashboard-pin-tile-from-excel.md)的，则 Excel Online 将在 Power BI 内打开。
    > 
    > 
 1. 重新返回“数据集”选项卡，你有多种选项可用于浏览数据集。  你将无法打开它和查看所有的行和列（在 Power BI Desktop 或 Excel 中可以执行这些操作）。  如果有人与同事共享内容包，他们通常想要共享见解，而不是让其同事直接访问数据。 但这并不意味着你不能浏览数据集。  
@@ -89,7 +89,7 @@ Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我�
    * 浏览数据集的一种方法是从头开始创建你自己的可视化效果和报表。  选择图表图标 ![报表图标](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) 打开处于报表编辑模式的数据集。
      
        ![全新报表](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * 浏览数据集的另一种方法是运行[快速见解](service-insights.md)。 选择省略号 (…) 并选择“获取见解”。 见解就绪后，选择“查看见解”。
+   * 浏览数据集的另一种方法是运行[快速见解](consumer/end-user-insights.md)。 选择省略号 (…) 并选择“获取见解”。 见解就绪后，选择“查看见解”。
      
        ![见解报表](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -130,7 +130,7 @@ Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我�
 
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 基本概念](service-basic-concepts.md)
+[Power BI 基本概念](consumer/end-user-basic-concepts.md)
 
 [Power BI 服务示例](sample-datasets.md)
 

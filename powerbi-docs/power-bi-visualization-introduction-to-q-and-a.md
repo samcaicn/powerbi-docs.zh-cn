@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c567921b765f03fbaa11f2b98724cea1a1ce1905
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 92506d4ce2f372a4535a0a178ef43791c6d94f83
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240976"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547950"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Power BI 入门问答
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>通过“零售分析示例”使用 Power BI 问答
@@ -57,7 +57,7 @@ ms.locfileid: "34240976"
 4. 要将图表固定到仪表板中，请选择固定图标 ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png)。
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的“问答”](power-bi-q-and-a.md)
+[Power BI 中的“问答”](consumer/end-user-q-and-a.md)
 
 [让你的数据在 Power BI 中很好地与“问答”协作](service-prepare-data-for-q-and-a.md)
 

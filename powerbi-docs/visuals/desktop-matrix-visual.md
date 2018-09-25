@@ -1,21 +1,21 @@
 ---
 title: 在 Power BI Desktop 中使用矩阵视觉对象
 description: 了解矩阵视觉对象如何在 Power BI Desktop 中实现阶梯布局和细化突出显示
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 396028e1bcb58e94e545d848cf3cae3101091326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e08eeed7b4adf1a392d2661613dd190cce1fb52f
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44730390"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565926"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>在 Power BI Desktop 中使用“矩阵”视觉对象
 借助“矩阵”视觉对象功能，可以在“Power BI Desktop”报表中创建矩阵视觉对象（有时亦称为“表”），并能使用其他视觉对象交叉突出显示矩阵内的元素。 此外，还可以选择行、列和各个单元格进行交叉突出显示。 最后，为了更好地利用布局空间，矩阵视觉对象支持阶梯布局。

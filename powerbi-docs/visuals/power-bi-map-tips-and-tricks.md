@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 487e53bae0fe872771b5ecbbe0458cd09dc48a4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44730381"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548502"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>用于 Power BI 地图可视化效果的提示和技巧
 Power BI 与必应地图集成，提供默认地图坐标（一种称为“地理位置编码”的过程），以便用户可以创建地图。 集成后，它们使用算法共同确定正确的位置，但有时只是一种最佳猜测。 如果 Power BI 无法尝试自行创建地图可视化效果，则会借助必应地图的帮助。 
@@ -89,7 +89,7 @@ Power BI 使用必应的[非结构化 URL 模板服务](https://msdn.microsoft.c
 * 第二个选项， ![使用地图向下钻取](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) 类似于向下钻取，但无需在地图上进行单击。  它会向下扩展到记住当前级别的上下文的下一级层次结构。 例如，如果你当前正在看国家/地区并选择此图标，则会在层次结构中向下移动到下一级：州。 对于地理编码，Power BI 会发送每个州的数据及其对应的国家/地区，帮助必应地图更准确地进行地理编码。 在大部分地图中会使用此选项或最右侧的“向下钻取”选项，以便能够向必应发送尽可能多的信息以获取准确的位置信息。 
 
 ## <a name="next-steps"></a>后续步骤
-[在 Power BI 可视化效果中向下钻取](../power-bi-visualization-drill-down.md)
+[在 Power BI 可视化效果中向下钻取](../consumer/end-user-drill.md)
 
 [Power BI 可视化效果](power-bi-report-visualizations.md)
 

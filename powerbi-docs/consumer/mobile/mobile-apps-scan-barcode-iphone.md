@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 42ba9b042209dfd717c58042834e8d7966f97ecf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d221cfdc849a18ba934ebacaf58ef40999ac0117
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728899"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543304"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>使用 iPhone 上的 Power BI 移动应用扫描条形码
 扫描现实生活中的条形码，直接转到在 Power BI 移动应用中筛选后的 BI 信息。
@@ -67,6 +67,6 @@ ms.locfileid: "44728899"
 
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI Desktop 中标记条形码字段](../../desktop-mobile-barcodes.md)
-* [Power BI 中的仪表板磁贴](../../service-dashboard-tiles.md)
-* [Power BI 中的仪表板](../../service-dashboards.md)
+* [Power BI 中的仪表板磁贴](../end-user-tiles.md)
+* [Power BI 中的仪表板](../end-user-dashboards.md)
 

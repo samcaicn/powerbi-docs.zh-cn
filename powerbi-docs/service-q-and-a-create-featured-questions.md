@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726308"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548226"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>创建 Power BI 问答的精选问题
 如果你拥有一个数据集，你可以向该数据集添加自己精选的问题。  Power BI 问答会向使用数据集的同事显示这些问题。  精选问题会让你的同事了解他们可以就数据集询问哪些类型的问题。 你添加的精选问题都由你决定 -- 可以添加常见问题、显示有趣结果的问题，或可能会很难组织描述的问题。
@@ -47,8 +47,8 @@ ms.locfileid: "44726308"
    ![地图可视化效果](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>后续步骤
-[Power BI 中的“问答”](power-bi-q-and-a.md)  
+[Power BI 中的“问答”](consumer/end-user-q-and-a.md)  
 [教程：Power BI 问答简介](power-bi-visualization-introduction-to-q-and-a.md)  
-[Power BI - 基本概念](service-basic-concepts.md)  
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

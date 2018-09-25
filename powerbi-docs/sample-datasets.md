@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: cd9762a5f9a46ab7d726a326c1b231f30c8e6271
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 91c08ab428852cc0fa8a721278e232400ed19bfa
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582491"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546478"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>有哪些示例数据可用于 Power BI？
 假设你初次接触 Power BI，想要试用但没有任何数据。  或者你有一个数据集，但由于你（尚）不了解 Power BI 的工作原理，担心由于某种原因可能损坏数据集？
@@ -191,7 +191,7 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
 4. 选择要在 Power BI Desktop 中打开的 .pbix 文件。
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 基本概念](service-basic-concepts.md)
+[Power BI 基本概念](consumer/end-user-basic-concepts.md)
 
 [教程：连接到 Power BI 示例](sample-tutorial-connect-to-the-samples.md)
 

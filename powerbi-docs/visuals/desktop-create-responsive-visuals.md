@@ -1,21 +1,21 @@
 ---
 title: 将 Power BI 视觉对象优化为适应任意大小
 description: 了解如何在 Power BI Desktop 和 Power BI 服务的现有报表中将视觉对象优化为更适合在 Power BI 手机应用中显示。
-author: maggiesMSFT
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/13/2018
-ms.author: maggies
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d85d4bd60c341ef588cf56b1345f28aa25b810de
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1c50bcf656f967502e8bb01f7ca5184996170bed
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44730347"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566317"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>将 Power BI 视觉对象优化为适应任意大小
 默认情况下，在创建新报表时，视觉对象为响应式：它们会动态缩放，尽可能显示最多的数据和见解，无论屏幕大小如何。 对于较旧的报表，也可以将其视觉对象设置为动态重设大小。

@@ -1,21 +1,21 @@
 ---
 title: 使用 Power BI Desktop 中的形状地图（预览版）
 description: 使用 Power BI Desktop 中的形状地图创建区域的相对比较
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: deb2d7c7ac7a43c625d5c5a15221d55cc38b11b6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ad9a3e73a90ff69f5d56e1e5c1fc487c855df74d
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729571"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566018"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop 中的形状地图（预览版）
 在 Power BI Desktop 中，可以创建**形状地图**视觉对象，以便通过向不同区域应用不同颜色，在地图上显示区域的相对比较。 与**地图**视觉对象相反，**形状地图**无法在地图上显示数据点的准确地理位置；其主要用途是通过对区域应用不同的颜色，在地图上显示其相对比较。

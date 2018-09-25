@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83aacb2c3ecf95d8daecc8e9c79bd312cefd6d86
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ddf08edf7494cd8b918a93d41b384b4e89376d95
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44730385"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543330"
 ---
 # <a name="basic-area-chart"></a>基本分区图
 基本面积图（又称为分层分区图）基于折线图。 轴和行之间的区域使用颜色进行填充以指示量。 
@@ -60,7 +60,7 @@ ms.locfileid: "44730385"
 ## <a name="highlighting-and-cross-filtering"></a>突出显示和交叉筛选
 若要了解如何使用“筛选器”窗格，请参阅[向报表添加筛选器](../power-bi-report-add-filter.md)。
 
-若要突出显示图表中的特定分区，请选择相应分区或其上边框。  与其他可视化效果类型不同，如果同一页面上还有其他可视化效果，突出显示基本分区图不会交叉筛选报表页上的其他可视化效果。 但是，面积图是报表页上其他可视化效果触发的交叉筛选的目标。 若要了解详细信息，请参阅[报表中的视觉对象交互](../service-reports-visual-interactions.md)
+若要突出显示图表中的特定分区，请选择相应分区或其上边框。  与其他可视化效果类型不同，如果同一页面上还有其他可视化效果，突出显示基本分区图不会交叉筛选报表页上的其他可视化效果。 但是，面积图是报表页上其他可视化效果触发的交叉筛选的目标。 若要了解详细信息，请参阅[报表中的视觉对象交互](../consumer/end-user-interactions.md)
 
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答   
@@ -68,8 +68,8 @@ ms.locfileid: "44730385"
 * 基本面积图对于比较值无效，因为分层区域上是封闭的。 Power BI 使用透明度指示区域的重叠。 但是，它只适用于两个或三个不同区域。 需要将趋势与三个以上的度量值进行比较时，请尝试使用折线图。 需要将量与三个以上的度量值进行比较时，请尝试使用树状图。
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的报表](../service-reports.md)  
+[Power BI 中的报表](../consumer/end-user-reports.md)  
 [Power BI 报表中的可视化效果](power-bi-report-visualizations.md)  
-[Power BI - 基本概念](../service-basic-concepts.md)  
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

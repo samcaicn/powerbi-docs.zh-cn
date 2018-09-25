@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b34c16337158e784b0c41bd3e3fd93aca9504cd7
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4d43ffb1f4e005830fd36da4e80cf4d0c7d86fed
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727297"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549928"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>与同事和其他人共享 Power BI 仪表板和报表
 共享是一种使多人能够访问你的仪表板和报表的有效方式。 Power BI 还提供了[其他多种开展协作和分发仪表板及报表的方式](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -110,7 +110,7 @@ ms.locfileid: "44727297"
 共享仪表板和报表的注意事项：
 
 * 通常，你和同事将在仪表板或报表中会看到相同的数据。 因此，如果你有权限比他们查看更多的数据，他们将能够在仪表板或报表中看到你的所有数据。 但是，如果[行级别安全性 (RLS)](service-admin-rls.md) 应用于仪表板或报表下面的数据集，则每个人的凭据将用于确定他们可以访问哪些数据。
-* 与之共享的每个人都可以查看仪表板，并在[阅读视图](service-reading-view-and-editing-view.md)中与相关报表交互。 他们不能创建报表或将更改保存到现有报表。
+* 与之共享的每个人都可以查看仪表板，并在[阅读视图](consumer/end-user-reading-view.md)中与相关报表交互。 他们不能创建报表或将更改保存到现有报表。
 * 没有人可以查看或下载数据集。
 * 每个人都可以手动[刷新数据](refresh-data.md)。
 * 如果使用 Office 365 收发电子邮件，可以通过输入与通讯组关联的电子邮件地址，与通讯组成员进行共享。

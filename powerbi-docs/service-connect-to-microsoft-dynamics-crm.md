@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38937253"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547053"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>使用 Power BI 连接到 Microsoft Dynamics CRM
 用于 Power BI 的 Microsoft Dynamics CRM Online 使你能够轻松地访问和分析数据。 Power BI 使用 OData 数据源以创建描述性模型，其中具有所需的所有实体和度量值，如帐户、活动、商机、产品、潜在客户、用户等。 安装应用后，可以在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 和 Power BI 移动应用中查看仪表板和报表。 
@@ -154,7 +154,7 @@ Power BI 仅支持 Dynamics CRM 2016 终结点。 该连接不适用于早期版
 如果看到错误“数据刷新失败，因为查询超过 100000 条记录的最大限制”，请考虑直接从 Power BI Desktop 连接或使用 CRM 解决方案模板。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 中的应用有哪些？](service-install-use-apps.md)
+* [Power BI 中的应用有哪些？](consumer/end-user-apps.md)
 * [在 Power BI 中获取数据](service-get-data.md)
 * 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

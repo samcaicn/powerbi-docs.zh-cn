@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726653"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545742"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>应如何在 Power BI 中开展协作并进行共享？
 
@@ -57,7 +57,7 @@ Power BI 服务中的应用
 
 ![“发布应用”图标](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-可以在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 中轻松找到应用并进行安装。 可以向业务用户发送应用的直接链接，或者他们可以在 AppSource 中搜索此应用。 如果 Power BI 管理员已授予你权限，则可以将应用自动安装到同事的 Power BI 帐户中。 阅读有关[发布应用](service-create-distribute-apps.md)的详细信息。 
+可以在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 中轻松找到应用并进行安装。 可以向业务用户发送应用的直接链接，或者他们可以在 AppSource 中搜索此应用。 如果 Power BI 管理员已授予你权限，则可以将应用自动安装到同事的 Power BI 帐户中。 阅读有关[发布应用](consumer/end-user-create-apps.md)的详细信息。 
 
 安装应用后，他们可以在浏览器或移动设备中查看应用。
 
@@ -88,7 +88,7 @@ Power BI 服务中的应用
 还可以通过适用于 Windows 10 设备的 Power BI 应用[共享磁贴快照](consumer/mobile/mobile-windows-10-phone-app-get-started.md)。
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>打印或另存为 PDF 或其他静态文件
-可以在 Power BI 服务中打印整个仪表板、仪表板磁贴、报表页或可视化效果，或将其另存为 PDF（或其他静态文件格式）。 一次只能打印一页报表，而不能一次打印整个报表。 有关[打印或另存为静态文件](service-print.md)的详细信息。
+可以在 Power BI 服务中打印整个仪表板、仪表板磁贴、报表页或可视化效果，或将其另存为 PDF（或其他静态文件格式）。 一次只能打印一页报表，而不能一次打印整个报表。 有关[打印或另存为静态文件](consumer/end-user-print.md)的详细信息。
 
 ## <a name="publish-to-the-web"></a>发布到 Web
 
@@ -99,7 +99,7 @@ Power BI 服务中的应用
 
 ## <a name="next-steps"></a>后续步骤
 * [与同事和他人共享仪表板](service-share-dashboards.md)
-* [在 Power BI 中构建和发布应用](service-create-distribute-apps.md)
+* [在 Power BI 中构建和发布应用](consumer/end-user-create-apps.md)
 * 想提供反馈？ 请转到 [Power BI 社区站点](https://community.powerbi.com/)提出你的建议。
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)。
 

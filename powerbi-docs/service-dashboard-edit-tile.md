@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598969"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546087"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>编辑或删除仪表板磁贴
 
@@ -36,7 +36,7 @@ ms.locfileid: "37598969"
 * [删除磁贴](#delete)
   
   > [!TIP]
-  > 若要更改磁贴本身显示的可视化效果，请删除磁贴，并添加新的 [仪表板磁贴](service-dashboard-tiles.md)。
+  > 若要更改磁贴本身显示的可视化效果，请删除磁贴，并添加新的 [仪表板磁贴](consumer/end-user-tiles.md)。
 
   
 ## <a name="prerequisites"></a>先决条件
@@ -142,11 +142,11 @@ ms.locfileid: "37598969"
 
 - - -
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的仪表板磁贴](service-dashboard-tiles.md)
+[Power BI 中的仪表板磁贴](consumer/end-user-tiles.md)
 
-[Power BI 中的仪表板](service-dashboards.md)
+[Power BI 中的仪表板](consumer/end-user-dashboards.md)
 
-[Power BI - 基本概念](service-basic-concepts.md)
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

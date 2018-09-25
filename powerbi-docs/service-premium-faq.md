@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/20/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 25340ac8349e112b2424496274441feedebe7052
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 85a5856d20781012f32d53c9468fdd6b77a0f685
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34298840"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546593"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常见问题解答
 浏览有关 Power BI Premium 服务的常见问题和解答列表。
@@ -102,7 +102,7 @@ Power BI 报表服务器作为 Power BI Premium 的一部分提供，它与 SQL 
 什么是 Power BI 应用？  
 我们将内容包扩展为 Power BI 应用，改进用户从企业层面上发现和探索见解的方法。 Power BI 应用现已可用，它简化了向指定人员、组或整个组织部署仪表板和报表的方式。 所有内容集中在一个位置并且自动更新，业务用户可轻松安装并导航这些引用。 
 
-有关应用的详细信息，请参阅 [Power BI 中的应用有哪些？](service-install-use-apps.md)。
+有关应用的详细信息，请参阅 [Power BI 中的应用有哪些？](consumer/end-user-apps.md)。
 
 在推出 Power BI Premium 的过程中，是否会对 Power BI Pro、Power BI（免费）和 Power BI Desktop 等进行更改？  
 现在，我们还在精简 Power BI Pro 和免费服务之间的区别。 我们收到的反馈表明，虽然免费服务供个人使用而 Power BI Pro 可实现协作，但是它们的功能区别仍使用户感到困惑。 今后，我们将改进免费服务，使其与 Power BI Pro 具有相同的功能，但共享和协作功能仅可供 Power BI Pro 用户使用。

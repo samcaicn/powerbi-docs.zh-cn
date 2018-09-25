@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "38924526"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544615"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>使用 Power BI 连接到 Adobe Analytics
 通过 Power BI 连接到 Adobe Analytics 首先会连接到你的 Adobe Analytics 市场营销云帐户。 你将获得一个带 Power BI 仪表板和一组 Power BI 报表的应用，这些报表会提供网站流量和用户维度的相关见解。 此数据每天自动刷新一次。 可以与仪表板和报表进行交互，但不能保存更改。
@@ -94,7 +94,7 @@ Power BI 使用 Adobe Analytics 报表 API 为以下表定义和运行报表：
 如果你在遇到错误之前已成功通过凭据屏幕，则可能是报表完成花费的时间太长。 常见错误形式如下：*“未能从 Adobe Analytics 报表获取数据。内容包括&quot;引用方，页面&quot;，大致持续时间为 xx 秒”*。 请查看“包含的内容”部分，并与 Adobe 实例的大小进行比较。 遗憾的是，目前尚无法解决此超时问题。 但我们正考虑进行更新以支持较大实例，请在 https://ideas.powerbi.com 向我们的 Power BI 团队提供反馈
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 中的应用有哪些？](service-install-use-apps.md)
+* [Power BI 中的应用有哪些？](consumer/end-user-apps.md)
 * [在 Power BI 中获取数据](service-get-data.md)
 * 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

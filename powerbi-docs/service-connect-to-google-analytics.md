@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b479c46ffe3e51ad5f15cc9884a2ea02626a4cc5
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: bd8a8b9a9aff451282c5cef8a6dd6f27b90335d7
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38876873"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548686"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>使用 Power BI 连接到 Google Analytics
 要通过 Power BI 连接到 Google Analytics，需首先连接到 Google Analytics 帐户。 你将获得一个 Power BI 仪表板和一组 Power BI 报表，这些报表会提供网站流量和用户维度的相关见解。 可以与仪表板和报表进行交互，但不能保存更改。 此数据将每天自动刷新一次。
@@ -69,7 +69,7 @@ ms.locfileid: "38876873"
 * 从 Power BI 技术支持网站（即你正在阅读此文章的地方）中选择页面右侧的**联系支持人员**。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 中的应用有哪些？](service-install-use-apps.md)
+* [Power BI 中的应用有哪些？](consumer/end-user-apps.md)
 * [在 Power BI 中获取数据](service-get-data.md)
 * 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

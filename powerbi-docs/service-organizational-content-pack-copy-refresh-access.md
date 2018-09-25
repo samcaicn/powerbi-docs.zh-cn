@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 37cfca811b7e60bde832396e67b246933d4e0a8e
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 1fbb49f55c4139845f806d590ffb4956abfe0dcd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624197"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543444"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>组织内容包：复制、刷新和获取访问权限
 
@@ -51,6 +51,6 @@ ms.locfileid: "39624197"
 
 ## <a name="next-steps"></a>后续步骤
 * [组织内容包简介](service-organizational-content-pack-introduction.md)
-* [在 Power BI 中创建组](service-create-distribute-apps.md)
+* [在 Power BI 中创建组](consumer/end-user-create-apps.md)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

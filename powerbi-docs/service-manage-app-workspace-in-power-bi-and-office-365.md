@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624335"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547559"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>管理 Power BI 和 Office 365 中的应用工作区
-作为 [Power BI 或 Office 365 中应用工作区](service-install-use-apps.md)的创建者或管理员，可以在 Power BI 中管理工作区的某些方面。 你在 Office 365 中管理的其他方面。 
+作为 [Power BI 或 Office 365 中应用工作区](consumer/end-user-apps.md)的创建者或管理员，可以在 Power BI 中管理工作区的某些方面。 你在 Office 365 中管理的其他方面。 
 
 > [!NOTE]
 > 新工作区体验预览将更改 Power BI 工作区与 Office 365 组之间的关系。 每次创建新工作区时，不会自动创建 Office 365 组。 了解如何[创建新工作区（预览版）](service-create-the-new-workspaces.md)
@@ -76,7 +76,7 @@ ms.locfileid: "39624335"
 3. 选择**保存**或**放弃**。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 中的应用有哪些？](service-install-use-apps.md)
-* [在 Power BI 中发布包含仪表板和报表的应用](service-create-distribute-apps.md)
+* [Power BI 中的应用有哪些？](consumer/end-user-apps.md)
+* [在 Power BI 中发布包含仪表板和报表的应用](consumer/end-user-create-apps.md)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

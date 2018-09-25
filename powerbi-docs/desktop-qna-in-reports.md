@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 507cc25d324f47f00434430461d78013baa7210f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475720"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546908"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>使用 Power BI Desktop 中的“问答”功能进行自然语言查询
 使用常用短语和自然语言来查询数据是一个非常有用的功能。 而数据在回答问题时的功能更为强大，这就是 **Power BI Desktop** 中的“问答”功能所实现的。
@@ -198,5 +198,5 @@ ms.locfileid: "39475720"
 有关 Power BI Desktop 中提供的功能的详细信息，请参阅以下文章：
 
 * [在 Power BI Desktop 中使用钻取](desktop-drillthrough.md)
-* [在“焦点”模式下显示仪表板磁贴或报表视觉对象](service-focus-mode.md)
+* [在“焦点”模式下显示仪表板磁贴或报表视觉对象](consumer/end-user-focus.md)
 

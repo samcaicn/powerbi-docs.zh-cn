@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f070b6649d8d120a889961fffd6b9b923422293e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44730384"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548456"
 ---
 # <a name="funnel-charts"></a>漏斗图
 漏斗图可帮助你可视化具有顺序连接的阶段的线性流程。 例如，销售漏斗图可跟踪各个阶段的客户：潜在客户 \> 合格的潜在客户 \> 预期客户 \> 已签订合同的客户 \> 已成交客户。  你可以一眼看出漏斗形状传达了你跟踪的流程的健康状况。
@@ -70,7 +70,7 @@ ms.locfileid: "44730384"
    * 一个阶段到另一个阶段的转化率（又称丢弃率）是指占上一阶段的百分比（在该例中为建议阶段/解决方案阶段）
      
      ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [将漏斗图添加为仪表板磁贴](../service-dashboard-tiles.md)。 
+5. [将漏斗图添加为仪表板磁贴](../consumer/end-user-tiles.md)。 
 6. [保存报表](../service-report-save.md)。
 
 ## <a name="highlighting-and-cross-filtering"></a>突出显示和交叉筛选
@@ -81,10 +81,10 @@ ms.locfileid: "44730384"
 1. 在漏斗图中，选择“建议”条。 这样可以交叉突出显示页面上的其他可视化效果。 使用 CTRL 键可选择多个。
    
    ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. 若要设置视觉对象如何相互交叉突出显示和交叉筛选的首选项，请参阅 [Visual interactions in Power BI（Power BI 中的可视化交互）](../service-reports-visual-interactions.md)
+2. 若要设置视觉对象如何相互交叉突出显示和交叉筛选的首选项，请参阅 [Visual interactions in Power BI（Power BI 中的可视化交互）](../consumer/end-user-interactions.md)
 
 ## <a name="create-a-funnel-chart-in-qa"></a>在问答中创建漏斗图
-打开“机会分析示例”仪表板，或者至少包含一个从“机会分析示例”数据集固定的可视化对象的任何其他仪表板。  在问答中键入一个问题时，Power BI 将在与所选仪表板关联（具有固定到所选仪表板的磁贴）的所有数据集中搜索答案。 有关详细信息，请参阅 [Power BI - basic concepts（Power BI - 基本概念）](../service-basic-concepts.md)。
+打开“机会分析示例”仪表板，或者至少包含一个从“机会分析示例”数据集固定的可视化对象的任何其他仪表板。  在问答中键入一个问题时，Power BI 将在与所选仪表板关联（具有固定到所选仪表板的磁贴）的所有数据集中搜索答案。 有关详细信息，请参阅 [Power BI - basic concepts（Power BI - 基本概念）](../consumer/end-user-basic-concepts.md)。
 
 1. 在“机会分析示例”仪表板中，开始在“问答”问题框中键入问题。
    
@@ -97,7 +97,7 @@ ms.locfileid: "44730384"
 
 [将可视化效果固定到仪表板](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

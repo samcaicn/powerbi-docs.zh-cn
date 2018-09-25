@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d09f9d9d0de8608a39111f24e6f605c3fbce55fb
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3bf0aa516f50d363b53d2ed91b86d999e7855c30
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728923"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545006"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Power BI 中的圆环图
 圆环图类似于饼图，因为它显示部分与整体的关系。 唯一的区别是中心为空，因而有空间可用于标签或图标。
@@ -43,13 +43,13 @@ ms.locfileid: "44728923"
 * 圆环图最适用于将特定部分与整体进行比较，而不是将各个部分相互比较。 
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的报表](../service-reports.md)
+[Power BI 中的报表](../consumer/end-user-reports.md)
 
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Power BI 报表中的可视化效果](power-bi-report-visualizations.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

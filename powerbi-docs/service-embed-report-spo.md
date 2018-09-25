@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 08/16/2018
-ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 6960945d878269344e8993577a8eac239d8ca4a4
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256288"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549882"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>使用报表 Web 部件在 SharePoint Online 中嵌入报表
 
@@ -85,7 +85,7 @@ ms.locfileid: "40256288"
 > [!IMPORTANT]
 > 请务必在 Power BI 中检查哪些人员可以查看报表，然后向未列出的人员授予访问权限。
 
-在 Power BI 服务中授予报表访问权限的方法有两种。 若要使用 Office 365 组生成 SharePoint Online 团队网站，请在 Power BI 服务和 SharePoint 页中将用户列为应用工作区的成员。 这样就能确保用户可以查看相应组的内容。 有关详细信息，请参阅[在 Power BI 中创建和分发应用](service-create-distribute-apps.md)。
+在 Power BI 服务中授予报表访问权限的方法有两种。 若要使用 Office 365 组生成 SharePoint Online 团队网站，请在 Power BI 服务和 SharePoint 页中将用户列为应用工作区的成员。 这样就能确保用户可以查看相应组的内容。 有关详细信息，请参阅[在 Power BI 中创建和分发应用](consumer/end-user-create-apps.md)。
 
 或者，可以按下列步骤来授予用户报表访问权限。
 
@@ -142,7 +142,7 @@ Power BI Web 部件中可能无法加载报表，并显示以下消息。
 
 * Power BI 不支持 SharePoint Online 支持的本地化语言。 因此，可能无法在嵌入的报表中看到正确的本地化内容。
 
-* 如果使用的是 Internet Explorer 10，可能会遇到问题。 可以查看 [Power BI 支持的浏览器](service-browser-support.md)和 [Office 365 支持的浏览器](https://products.office.com/office-system-requirements#Browsers-section)。
+* 如果使用的是 Internet Explorer 10，可能会遇到问题。 可以查看 [Power BI 支持的浏览器](consumer/end-user-browsers.md)和 [Office 365 支持的浏览器](https://products.office.com/office-system-requirements#Browsers-section)。
 
 * Power BI Web 部件在[主权云](https://powerbi.microsoft.com/en-us/clouds/)中不可用。
 
@@ -151,7 +151,7 @@ Power BI Web 部件中可能无法加载报表，并显示以下消息。
 ## <a name="next-steps"></a>后续步骤
 
 [允许或禁止最终用户创建新式网站页面](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[在 Power BI 中构建和分发应用](service-create-distribute-apps.md)  
+[在 Power BI 中构建和分发应用](consumer/end-user-create-apps.md)  
 [与同事和其他人共享仪表板](service-share-dashboards.md)  
 [Power BI Premium 有哪些特权？](service-premium.md)  
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b486ad6bc4027aa2122ee72fc7fb89f0fd80c875
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a219ad94725f8d5423597bd65321f0024f95c1bb
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728929"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545995"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>自定义可视化效果的标题、图例和背景
 在本教程中，你将学习一些用于自定义可视化效果的不同方式。   有许多选项用于自定义可视化效果，了解所有这些选项的最佳方法是：浏览格式设置窗格（选择 paintroller 图标）。  为了帮助你入门，本文演示了如何自定义可视化效果的标题、图例和背景。  
@@ -120,6 +120,6 @@ ms.locfileid: "44728929"
 ## <a name="next-steps"></a>后续步骤
 [自定义 X 轴和 Y 轴](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [自定义颜色和轴属性](service-getting-started-with-color-formatting-and-axis-properties.md)  
-[Power BI - 基本概念](../service-basic-concepts.md)  
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

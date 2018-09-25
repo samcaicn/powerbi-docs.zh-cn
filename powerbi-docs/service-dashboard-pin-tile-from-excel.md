@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3bb151de24a984406aa6fd40a70977f2e9eaf1be
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599585"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548042"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>从 Excel 将磁贴固定到 Power BI 仪表板
 若要从 Excel 工作簿固定磁贴，请将该工作簿连接到 Power BI 服务 (app.powerbi.com)。 实际上，连接工作簿会将该工作簿链接的只读版本引入 Power BI 服务，并允许用户将区域固定到仪表板。 甚至可以将整个工作表固定到仪表板。  
@@ -49,7 +49,7 @@ ms.locfileid: "37599585"
     ![Power BI 中的 Excel Online](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>将单元格的区域固定到仪表板
-添加新[仪表板磁贴](service-dashboard-tiles.md)的一种方法是从 Power BI 中的 Excel 工作簿内部进行添加。 可从已保存至你的 OneDrive for Business 或另一个组共享的文档库中的 Excel 工作簿中固定范围。 范围可包含数据、图表、表、数据透视表、数据透视图和其他 Excel 部分。
+添加新[仪表板磁贴](consumer/end-user-tiles.md)的一种方法是从 Power BI 中的 Excel 工作簿内部进行添加。 可从已保存至你的 OneDrive for Business 或另一个组共享的文档库中的 Excel 工作簿中固定范围。 范围可包含数据、图表、表、数据透视表、数据透视图和其他 Excel 部分。
 
 1. 突出显示你想要固定到仪表板的单元格。
    

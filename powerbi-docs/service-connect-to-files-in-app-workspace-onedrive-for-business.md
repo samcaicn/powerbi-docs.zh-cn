@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b1c68312f60761964194d7be810b5ee490785cb2
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: fa572b44445c4fcf929286b68222b2faf4f9d7d2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624105"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548272"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>连接到用于 Power BI 应用工作区的 OneDrive 中存储的文件
-[在 Power BI 中创建应用工作区](service-create-distribute-apps.md)后，可以将 Excel、CSV 和 Power BI Desktop 文件存储在 Power BI 应用工作区的 OneDrive for Business 上。 可以继续更新已存储在 OneDrive 中的文件，这些更新会按文件自动反映在 Power BI 报表和仪表板中。 
+[在 Power BI 中创建应用工作区](consumer/end-user-create-apps.md)后，可以将 Excel、CSV 和 Power BI Desktop 文件存储在 Power BI 应用工作区的 OneDrive for Business 上。 可以继续更新已存储在 OneDrive 中的文件，这些更新会按文件自动反映在 Power BI 报表和仪表板中。 
 
 > [!NOTE]
 > 新工作区体验预览将更改 Power BI 工作区与 Office 365 组之间的关系。 每次创建新工作区时，不会自动创建 Office 365 组。 了解如何[创建新工作区（预览版）](service-create-the-new-workspaces.md)
@@ -79,7 +79,7 @@ ms.locfileid: "39624105"
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>后续步骤
-* [在 Power BI 中创建应用和应用工作区](service-create-distribute-apps.md)
+* [在 Power BI 中创建应用和应用工作区](consumer/end-user-create-apps.md)
 * [从 Excel 工作簿导入数据](service-get-data-from-files.md)
 * [连接到整个 Excel 工作簿](service-excel-workbook-files.md)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

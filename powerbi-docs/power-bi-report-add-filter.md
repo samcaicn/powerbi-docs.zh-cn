@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c8f99cf9c4d0645638b2ef300606f89a2d28aa0d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561692"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545959"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>向 Power BI 服务报表添加筛选器（在“编辑视图”中）
 > [!TIP]
@@ -26,13 +26,13 @@ ms.locfileid: "34561692"
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>“编辑视图”和“阅读视图”中报表筛选器的区别是什么
-可使用下列两种模式与报表交互：[阅读视图](service-reading-view-and-editing-view.md)和[编辑视图](service-interact-with-a-report-in-editing-view.md)。  而筛选功能会根据你所用的模式来提供。
+可使用下列两种模式与报表交互：[阅读视图](consumer/end-user-reading-view.md)和[编辑视图](service-interact-with-a-report-in-editing-view.md)。  而筛选功能会根据你所用的模式来提供。
 
 * 在“编辑视图”中，可以添加报表、页面和视觉对象筛选器。 保存报表时，筛选器将随之一起保存。 在“读取视图”中查看报表的人可以与你添加的筛选器交互。
 * 在“读取视图”中，可以与报表中已存在的任意报表、钻取、页面和视觉对象筛选器交互，但不能添加新的筛选器。 但是，即使是在移动应用中查看报表，即使离开报表后返回，你在“筛选器”窗格中进行的更改也会随报表一起保存下列。  
 
 > [!NOTE]
-> 本文介绍了如何在报表“**编辑视图**”中创建筛选器。  有关“读取视图”中的筛选器的详细信息，请参阅[在报表“读取视图”中与筛选器交互](service-reading-view-and-editing-view.md)。
+> 本文介绍了如何在报表“**编辑视图**”中创建筛选器。  有关“读取视图”中的筛选器的详细信息，请参阅[在报表“读取视图”中与筛选器交互](consumer/end-user-reading-view.md)。
 
 
 ## <a name="filters-available-in-the-power-bi-filters-pane"></a>Power BI 筛选器窗格中可用的筛选器
@@ -58,7 +58,7 @@ ms.locfileid: "34561692"
 * 通过标识可视化效果尚未使用的字段，并将该字段直接添加到“视觉级筛选器”存储桶中。
 
 ### <a name="by-filtering-the-fields-already-in-the-visualization"></a>通过筛选可视化效果中已有的字段
-1. [在“编辑视图”中打开报表](service-reading-view-and-editing-view.md)。
+1. [在“编辑视图”中打开报表](consumer/end-user-reading-view.md)。
    
    ![](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. 打开“可视化效果和筛选器”窗格和“字段”窗格（如果尚未打开）。
@@ -72,7 +72,7 @@ ms.locfileid: "34561692"
    * 向下滚动到“**视觉对象级筛选器**”区域，然后选择箭头以展开要筛选的字段。 在本示例中，将筛选“StoreNumberName”
      
       ![](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
-   * 设置“基本”、“高级”或“前 N 个”筛选控件（请参阅[如何使用报表筛选器](power-bi-how-to-report-filter.md)）。 在本示例中，将选择“基本”筛选并在数值 10 、11 、15 和 18 旁放置选中标记。
+   * 设置“基本”、“高级”或“前 N 个”筛选控件（请参阅[如何使用报表筛选器](consumer/end-user-report-filter.md)）。 在本示例中，将选择“基本”筛选并在数值 10 、11 、15 和 18 旁放置选中标记。
      
       ![](media/power-bi-report-add-filter/power-bi-basic-filters.png) 
    * 视觉对象会随新的筛选器而变化。 如果将报表与筛选器一起保存，则报表读者可以在“阅读视图”中通过选择或清除值的方式与筛选器交互。
@@ -91,10 +91,10 @@ ms.locfileid: "34561692"
      ![](media/power-bi-report-add-filter/power-bi-filtered-andrew.png)
 
 ## <a name="add-a-filter-to-an-entire-page-aka-page-view-filter"></a>向整个页面添加筛选器（又称页面视图筛选器）
-1. [在“编辑视图”中打开报表](service-reading-view-and-editing-view.md)。
+1. [在“编辑视图”中打开报表](consumer/end-user-reading-view.md)。
 2. 打开“可视化效果和筛选器”窗格和“字段”窗格（如果尚未打开）。
 3. 在“字段”窗格中，选择要添加为新页面级筛选器的字段，然后将它拖动到“页面级筛选器”区域中。  
-4. 选择要筛选的值，设置“基本”或“高级”筛选控件（请参阅[如何使用报表筛选器](power-bi-how-to-report-filter.md)）。
+4. 选择要筛选的值，设置“基本”或“高级”筛选控件（请参阅[如何使用报表筛选器](consumer/end-user-report-filter.md)）。
    
    在此筛选器的影响下，将重新绘制页面上的所有可视化效果以反映更改。 
    
@@ -130,10 +130,10 @@ ms.locfileid: "34561692"
     ![](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 
 ## <a name="add-a-filter-to-an-entire-report-aka-report-filter"></a>向整个报表添加筛选器（又称报表筛选器）
-1. [在“编辑视图”中打开报表](service-reading-view-and-editing-view.md)。
+1. [在“编辑视图”中打开报表](consumer/end-user-reading-view.md)。
 2. 打开“可视化效果和筛选器”窗格和“字段”窗格（如果尚未打开）。
 3. 在“字段”窗格中，选择要添加为新报表级筛选器的字段，然后将它拖动到“报表级筛选器”区域中。  
-4. 选择要筛选的值（请参阅[如何使用报表筛选器](power-bi-how-to-report-filter.md)）。
+4. 选择要筛选的值（请参阅[如何使用报表筛选器](consumer/end-user-report-filter.md)）。
 
     活动页面上的视觉对象与报表中所有页面上的视觉对象都会随新的筛选器而变化。 如果将报表与筛选器一起保存，则报表读者可以在“阅读视图”中通过选择或清除值的方式与筛选器交互。
 
@@ -149,13 +149,13 @@ ms.locfileid: "34561692"
 - 如果对筛选器进行了大量更改，而希望返回报表作者的默认设置，请选择顶部菜单栏中的“重置为默认值”。
 
 ## <a name="next-steps"></a>后续步骤
- [如何使用报表筛选器](power-bi-how-to-report-filter.md)
+ [如何使用报表筛选器](consumer/end-user-report-filter.md)
 
   [报表中的筛选器和突出显示](power-bi-reports-filters-and-highlighting.md)
 
-[在报表的“阅读视图”中与筛选器和突出显示交互](service-reading-view-and-editing-view.md)
+[在报表的“阅读视图”中与筛选器和突出显示交互](consumer/end-user-reading-view.md)
 
-[更改报表视觉对象相互交叉筛选和交叉突出显示的方式](service-reports-visual-interactions.md)
+[更改报表视觉对象相互交叉筛选和交叉突出显示的方式](consumer/end-user-interactions.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

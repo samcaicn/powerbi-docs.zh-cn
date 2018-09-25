@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 6ec1c7d1e3417336e24e324ff12c3e10a84a8525
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 99d8faa7ba3e0e92f97e84bd52454ad44a472e71
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728933"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547283"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>适用于 Windows 10 的 Power BI 移动应用入门
 适用于 Windows 10 的 Power BI 移动应用让你可以在平板电脑或手机上使用 Power BI，可提供对业务信息的最新的、可触控移动式访问。 在任何地方查看公司仪表板并与之进行交互&#151;就在 [Windows 开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上查看。
@@ -108,7 +108,7 @@ ms.locfileid: "44728933"
 下面介绍了还可以在适用于 Windows 10 设备的 Power BI 应用中对 Power BI 中的仪表板和报表，以及 Reporting Services Web 门户中的 Reporting Services 移动报表和 KPI 执行哪些操作
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 仪表板和报表
-* 查看[你的应用](../../service-install-use-apps.md)。
+* 查看[你的应用](../end-user-apps.md)。
 * 查看你的[仪表板](mobile-apps-view-dashboard.md)。
 * [将 Power BI 磁贴和仪表板作为动态磁贴固定到设备的开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)。
 * [共享磁贴](mobile-windows-10-phone-app-get-started.md)。

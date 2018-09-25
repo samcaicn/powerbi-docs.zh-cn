@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aa73da576a64a3245a3e8a9deab124dcefbc79f8
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 946746b1c868ca5310edd929434cc852400b5bc3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44730341"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548065"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI 中的树状图
 树状图将分层数据显示为一组嵌套矩形。  一个有色矩形（通常称为“分支”）代表层次结构中的一个级别，该矩形包含其他矩形（“叶”）。  根据所测量的定量值分配每个矩形的内部空间，从左上方（最大）到右下方（最小）按大小排列矩形。
@@ -62,7 +62,7 @@ ms.locfileid: "44730341"
    > 
 5. 将鼠标悬停在**连锁店**区域上方以显示**类别**中该部分的工具提示。  例如，将鼠标悬停在 **040-Juniors** 矩形中的 **Lindseys** 上方可显示青少年类别的 Lindsey 部分的工具提示。  
    ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
-6. [将树状图添加为仪表板磁贴（固定视觉对象）](../service-dashboard-tiles.md)。 
+6. [将树状图添加为仪表板磁贴（固定视觉对象）](../consumer/end-user-tiles.md)。 
 7. [保存报表](../service-report-save.md)。
 
 ## <a name="highlighting-and-cross-filtering"></a>突出显示和交叉筛选
@@ -76,11 +76,11 @@ ms.locfileid: "44730341"
 2. 在按连锁店的上年度销售额饼图中，选择“Fashions Direct”切片，交叉筛选树状图。  
    ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
 
-3. 若要管理图表相互交叉突出显示和交叉筛选的方式，请参阅 [Visualization interactions in a Power BI report（Power BI 报表中的可视化效果交互）](../service-reports-visual-interactions.md)
+3. 若要管理图表相互交叉突出显示和交叉筛选的方式，请参阅 [Visualization interactions in a Power BI report（Power BI 报表中的可视化效果交互）](../consumer/end-user-interactions.md)
 
 ## <a name="next-steps"></a>后续步骤
 [将可视化效果固定到仪表板](../service-dashboard-pin-tile-from-report.md)  
-[Power BI - 基本概念](../service-basic-concepts.md)  
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)  
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)  
 

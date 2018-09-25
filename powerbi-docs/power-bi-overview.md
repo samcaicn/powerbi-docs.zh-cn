@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: c2e0dc401e5927e69ecb9b059042df646b238bd5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1d5f5b4458dca8fb9d45dfc938f16e5fa77f45db
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944390"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545374"
 ---
 # <a name="what-is-power-bi"></a>什么是 Power BI？
 **Power BI** 是软件服务、应用和连接器的集合，它们协同工作以将相关数据来源转换为连贯的视觉逼真的交互式见解。 无论你的数据是简单的 Excel 电子表格，还是基于云和本地混合数据仓库的集合，**Power BI** 都可让你轻松地连接到数据源，直观看到（或发现）重要内容，与任何所希望的人进行共享。
@@ -57,5 +57,5 @@ Power BI 包含 Windows 桌面应用程序（称为 **Power BI Desktop**）、�
 Power BI 报表服务器是在防火墙后部署的一种解决方案，然后以不同方式将报表交付给正确用户，无论是在 Web 浏览器、移动设备还是在电子邮件中查看它们。 Power BI 报表服务器与云中的 Power BI 兼容，因此可以在就绪时转到云。
 
 ## <a name="next-steps"></a>后续步骤
-[登录、获取数据并以自己的方式了解 Power BI 服务](service-the-new-power-bi-experience.md)   
+[登录、获取数据并以自己的方式了解 Power BI 服务](consumer/end-user-experience.md)   
 [教程：Power BI 服务入门](service-get-started.md)

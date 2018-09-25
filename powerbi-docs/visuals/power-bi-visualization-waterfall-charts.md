@@ -2,7 +2,7 @@
 title: Power BI 中的瀑布图
 description: Power BI 中的瀑布图
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: feb608455add8740d7894fa2cec3c54a8a26944e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728900"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565811"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布图
 瀑布图显示随着值的增加或减少的不断变化的总数。 该图对于了解一系列正值和负值更改如何影响初始值（例如，净收益）很有用。
@@ -74,13 +74,13 @@ ms.locfileid: "44728900"
 突出显示瀑布图中的列可交叉筛选报表页上的其他可视化效果，反之亦然。 但是，“汇总”列不会触发突出显示或响应交叉筛选。
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的报表](../service-reports.md)
+[Power BI 中的报表](../consumer/end-user-reports.md)
 
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Power BI 报表中的可视化效果](power-bi-report-visualizations.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

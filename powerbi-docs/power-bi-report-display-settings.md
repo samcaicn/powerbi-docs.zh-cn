@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a22bee33254e447f27f717b78a53fe3a5cc34fb2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242122"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545443"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 报表中的页面显示设置
 我们了解保持报表布局像素完美的重要性。 有时候这会有点困难，因为你和你的同事会使用纵横比和大小不同的屏幕查看这些报表。 
@@ -39,7 +39,7 @@ Power BI 服务和 Power BI Desktop 中都提供了页面视图设置，但界�
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-[阅读视图和编辑视图](service-reading-view-and-editing-view.md)中均提供了“页面视图”设置。 在“编辑视图”中，报表所有者可以将页面视图设置分配给个别报表页面，而这些设置会随报表一起保存。 当同事在“阅读视图”中打开该报表时，他们看到的是以所有者设置显示的报表页面。  在“阅读视图”中，同事可以更改某些页面视图设置，但退出报表时，所做的更改不会保存。
+[阅读视图和编辑视图](consumer/end-user-reading-view.md)中均提供了“页面视图”设置。 在“编辑视图”中，报表所有者可以将页面视图设置分配给个别报表页面，而这些设置会随报表一起保存。 当同事在“阅读视图”中打开该报表时，他们看到的是以所有者设置显示的报表页面。  在“阅读视图”中，同事可以更改某些页面视图设置，但退出报表时，所做的更改不会保存。
 
 ##    <a name="page-view-settings"></a>页面视图设置
 第一组“页面视图”设置可以控制报表页面相对于浏览器窗口的显示。  可以选择：
@@ -62,7 +62,7 @@ Power BI 服务和 Power BI Desktop 中都提供了页面视图设置，但界�
 ## <a name="page-size-settings"></a>“页面大小”设置
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-“页面大小”设置仅供报表所有者使用。 在 Power BI 服务 (app.powerbi.com) 中，这意味着可在 [“编辑视图”](service-reading-view-and-editing-view.md) 中打开报表。 这些设置控制报表画布的显示比例和实际大小（以像素为单位）。   
+“页面大小”设置仅供报表所有者使用。 在 Power BI 服务 (app.powerbi.com) 中，这意味着可在 [“编辑视图”](consumer/end-user-reading-view.md) 中打开报表。 这些设置控制报表画布的显示比例和实际大小（以像素为单位）。   
 
 * 4:3 比例
 * 16:9 比例（默认值）
@@ -71,11 +71,11 @@ Power BI 服务和 Power BI Desktop 中都提供了页面视图设置，但界�
 * 自定义（以像素为单位的高度和宽度）
 
 ## <a name="next-steps"></a>后续步骤
-[了解如何在自己的 Power BI 报表中使用“页面视图”和“页面大小”设置](power-bi-change-report-display-settings.md)。
+[了解如何在自己的 Power BI 报表中使用“页面视图”和“页面大小”设置](consumer/end-user-report-view.md)。
 
-了解有关 [Power BI 中的报表](service-reports.md)的详细信息
+了解有关 [Power BI 中的报表](consumer/end-user-reports.md)的详细信息
 
-[Power BI - 基本概念](service-basic-concepts.md)
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

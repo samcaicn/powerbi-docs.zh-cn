@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: v-thepet
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5758bb53fe4a8a3658d242c3bd72da0a78500579
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728980"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565075"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的切片器
 你希望报表读者能够查看总体销售指标，但同时突出显示各个地区经理和不同时间范围的业绩表现。 可以创建单独的报表或比较图表，也可以使用切片器。 切片器是另一种筛选方法，用于限制在报表的其他可视化效果中显示的部分数据集。 
@@ -98,7 +98,7 @@ Power BI 切片器存在以下限制：
 2. 选择“按财月和地区经理排列的总销售额方差”图表上的“无”图标，以停止切片器对其进行筛选。 
 3. 选择“月”切片器，然后再次选择“按财月和地区经理排列的总销售额方差”图表上的“无”图标，以停止此切片器对其进行筛选。 现在，当你在切片器中选择名称和日期范围时，“按财月和地区经理排列的总销售额方差”图表将保持不变。 
 
-有关编辑交互的详细信息，请参阅 [Power BI 报表中的视觉对象交互](../service-reports-visual-interactions.md)。
+有关编辑交互的详细信息，请参阅 [Power BI 报表中的视觉对象交互](../consumer/end-user-interactions.md)。
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>同步切片器并在其他页面上使用
 自 Power BI 2018 年 2 月更新起，可同步切片器并在报表的任意页面上使用。 
@@ -193,5 +193,5 @@ Power BI 切片器存在以下限制：
 
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 

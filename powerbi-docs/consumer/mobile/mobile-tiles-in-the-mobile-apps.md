@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 04a385d67a8cc462b21c16cf7daaa5aa675436d9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 72c51a6eae4acec5bfc0af7b471f98dfcb22da67
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728937"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549790"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览磁贴
 适用于：
@@ -23,7 +23,7 @@ ms.locfileid: "44728937"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手机 |Android 平板电脑 |Windows 10 设备 |
 
-磁贴是数据的实时快照，固定到仪表板中。 它们的值会随数据的变化而变化。 **可以[将磁贴添加到 Power BI 服务中的仪表板](../../service-dashboard-tiles.md)。** 
+磁贴是数据的实时快照，固定到仪表板中。 它们的值会随数据的变化而变化。 **可以[将磁贴添加到 Power BI 服务中的仪表板](../end-user-tiles.md)。** 
 
 然后，在 Power BI 移动应用中，以焦点模式打开磁贴并与之交互。 你可以打开包含所有类型的视觉对象的磁贴，包括基于必应和 R 的磁贴。
 

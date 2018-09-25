@@ -10,16 +10,16 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 45bd00877aadba2a84ac533add18b82337fa8403
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726860"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546248"
 ---
 # <a name="getting-a-custom-visual-certified"></a>让自定义视觉对象取得认证
 ## <a name="what-is-meant-by-certified"></a>取得认证是指什么？
-取得认证的自定义视觉对象是指已满足一系列代码要求且已通过严格的安全测试。  自定义视觉对象取得认证后，它可以[导出到 PowerPoint 中](service-publish-to-powerpoint.md)，并显示在用户[订阅报表页](service-report-subscribe.md)后收到的电子邮件中。 当然，它还可以用作[标准自定义视觉对象](power-bi-custom-visuals.md)，添加到 Power BI 服务和 Power BI Desktop 报表中，并在 Power BI 移动中查看和嵌入。
+取得认证的自定义视觉对象是指已满足一系列代码要求且已通过严格的安全测试。  自定义视觉对象取得认证后，它可以[导出到 PowerPoint 中](consumer/end-user-powerpoint.md)，并显示在用户[订阅报表页](consumer/end-user-subscribe.md)后收到的电子邮件中。 当然，它还可以用作[标准自定义视觉对象](power-bi-custom-visuals.md)，添加到 Power BI 服务和 Power BI Desktop 报表中，并在 Power BI 移动中查看和嵌入。
 
 你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 [Microsoft AppSource](https://appsource.microsoft.com) 感兴趣吗？ 请参阅[开发人员工具入门](service-custom-visuals-getting-started-with-developer-tools.md)，了解具体操作。
 

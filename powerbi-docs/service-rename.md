@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d19e0a77f603ce6b80ce70ba5df4506699bd0969
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a3a78c27ab8d6e7c321af3f5ba4144e8b320e4a9
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252131"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545719"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>在 Power BI 服务中重命名几乎所有内容
 本文介绍如何在 Power BI 服务中重命名仪表板、报表、报表页、工作簿、数据集、应用和工作区。
@@ -71,7 +71,7 @@ ms.locfileid: "34252131"
 ## <a name="rename-a-page-in-a-report"></a>重命名报表中的页
 不喜欢 Power BI 报表中页面的名称？  只需单击鼠标就可重新命名。 可以在[报表编辑视图](service-interact-with-a-report-in-editing-view.md)中重命名页。
 
-1. 在[编辑视图](service-reading-view-and-editing-view.md)中打开报表。
+1. 在[编辑视图](consumer/end-user-reading-view.md)中打开报表。
 2. 找到位于 Power BI 窗口底部的报表页选项卡。
    
     ![突出显示选项卡的报表](media/service-rename/report-page-tabs-new.png)

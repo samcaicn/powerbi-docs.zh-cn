@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 0762ee808c089b73c69be99a38bfad63c231bc54
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c33e7dd69d4bd0a0d09ebc124739d5d017c631bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728971"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550020"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 设备上的 Power BI 移动应用入门
 Android 版 Microsoft Power BI 移动应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 
@@ -119,11 +119,11 @@ Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 
 下面是可使用 Power BI 中的仪表板和报表在 Android 设备版 Power BI 应用中执行的一些其他操作，以及 Power BI 报表服务器或 Reporting Services Web 门户中的报表和 KPI。
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 仪表板和报表
-* 查看[你的应用](../../service-install-use-apps.md)。
+* 查看[你的应用](../end-user-apps.md)。
 * 查看你的[仪表板](../../mobile-apps-view-dashboard.md)。
 * 浏览[仪表板上的磁贴](../../mobile-tiles-in-the-mobile-apps.md)。
 * 打开 [Power BI 报表](../../mobile-reports-in-the-mobile-apps.md)。
-* 查看[你的应用](../../service-install-use-apps.md)。
+* 查看[你的应用](../end-user-apps.md)。
 * [对磁贴进行批注并共享磁贴](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
 * 共享[仪表板](../../mobile-share-dashboard-from-the-mobile-apps.md)。
 * 使用 Android 手机[扫描 Power BI QR 代码](../../mobile-apps-qr-code.md)以打开相关仪表板磁贴或报表。 

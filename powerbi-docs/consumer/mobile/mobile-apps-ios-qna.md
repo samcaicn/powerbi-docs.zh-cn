@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 320ab8cef7ba2b36846550dcdb3171c7fb4b788a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728932"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548090"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 应用中的问答虚拟分析师 - Power BI
 
@@ -137,11 +137,11 @@ ms.locfileid: "44728932"
 通过提问更具针对性的问题或改进数据集，可以改进你或客户对数据集使用问答虚拟分析师时获得的结果。
 
 ### <a name="how-to-ask-questions"></a>如何提问
-* 在 iOS 移动应用的 Power BI 服务或问答虚拟分析师中，按照[在问答中提问的提示](../../service-q-and-a-tips.md)进行操作。
+* 在 iOS 移动应用的 Power BI 服务或问答虚拟分析师中，按照[在问答中提问的提示](../end-user-q-and-a-tips.md)进行操作。
 
 ### <a name="how-to-enhance-the-dataset"></a>如何改进数据集
 * 改进 Power BI Desktop 或 Power BI 服务中的数据集，从而[让你的数据与问答和问答虚拟分析师很好地协作](../../service-prepare-data-for-q-and-a.md)。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 服务中的问答](../../power-bi-q-and-a.md)
+* [Power BI 服务中的问答](../end-user-q-and-a.md)
 * 是否有任何问题？ 查看 [Power BI 社区中的“移动应用”部分](https://go.microsoft.com/fwlink/?linkid=839277)

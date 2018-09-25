@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0216b5659548af0b69cdb1b94df887eec0bd4e0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83826e812f9173db522c929ae80c31fc7134e5bd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44730389"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549836"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI 中的着色地图（等值线图）
 着色地图使用明暗度、颜色或图案来显示不同地理位置或区域之间的值在比例上有何不同。  使用从浅（不太频繁/较低）到深（较频繁/较多）的明暗度快速显示这些相对差异。    
@@ -109,7 +109,7 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 有关地图可视化效果的更多帮助，请参阅 [Tips and tricks for map visualizations（地图可视化效果的提示和技巧）](power-bi-map-tips-and-tricks.md)。
 
 ## <a name="next-steps"></a>后续步骤
-[将着色地图添加为仪表板磁贴（固定视觉对象）](../service-dashboard-tiles.md)    
+[将着色地图添加为仪表板磁贴（固定视觉对象）](../consumer/end-user-tiles.md)    
  [向报表添加可视化效果](power-bi-report-add-visualizations-i.md)  
  [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [更改所使用的可视化效果类型](power-bi-report-change-visualization-type.md)      

@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ed882a339e1ee7d53302dc33a7cedb1a95709b8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 656f32dd28796ec58b7cfcf774248ee30de0085a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249105"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545890"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>将某个仪表板中的磁贴固定到另一个仪表板
-添加新的[仪表板磁贴](service-dashboard-tiles.md)的一种方法是从另一个仪表板中复制它。 每个磁贴在单击后都是一个返回到磁贴创建位置的链接 -- 在问答或报表中。 
+添加新的[仪表板磁贴](consumer/end-user-tiles.md)的一种方法是从另一个仪表板中复制它。 每个磁贴在单击后都是一个返回到磁贴创建位置的链接 -- 在问答或报表中。 
 
 > [!NOTE]
 > 你无法固定共享的仪表板中的磁贴。
 
 ## <a name="pin-a-tile-to-another-dashboard"></a>将磁贴固定到另一个仪表板
 1. [获取数据](service-get-data.md)。 本示例使用 [IT 支出分析示例](sample-it-spend.md)。
-2. 打开[仪表板](service-dashboards.md)。
+2. 打开[仪表板](consumer/end-user-dashboards.md)。
 3. 将鼠标悬停在想要固定的磁贴上方，选择省略号 (...) 并选择“固定磁贴”。  
    
    ![省略号菜单](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
@@ -42,7 +42,7 @@ ms.locfileid: "34249105"
 6. 选择“转到仪表板”以查看固定的磁贴。 在此处可以对已固定的可视化效果进行[重命名、重设大小、添加链接和移动](service-dashboard-edit-tile.md)。
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的磁贴](service-dashboard-tiles.md)  
-[Power BI 中的仪表板](service-dashboards.md)  
+[Power BI 中的磁贴](consumer/end-user-tiles.md)  
+[Power BI 中的仪表板](consumer/end-user-dashboards.md)  
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

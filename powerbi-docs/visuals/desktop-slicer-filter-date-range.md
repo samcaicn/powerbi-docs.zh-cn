@@ -1,21 +1,21 @@
 ---
 title: 在 Power BI Desktop 中使用相对日期切片器或筛选器
 description: 了解如何使用切片器或筛选器在 Power BI Desktop 中约束相对日期范围
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5b00e4cc291d8d68a18b5758b7bef98995c02e55
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 692d752756590945eb17e2f512929f7303727e94
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728919"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564799"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>在 Power BI Desktop 中使用相对日期切片器和筛选器
 借助相对日期切片器或筛选器，可以向数据模型中的任意日期列应用时间筛选器。 例如，可以使用相对日期切片器，仅显示过去 30 天（或月、日历月等）的销售数据。 刷新数据时，相对时间段会自动应用相应的相对日期约束。

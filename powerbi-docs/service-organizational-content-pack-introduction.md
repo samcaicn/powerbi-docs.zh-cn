@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624289"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547628"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的组织内容包简介
 > [!NOTE]
@@ -42,7 +42,7 @@ ms.locfileid: "39624289"
 
 * 若要查看 AppSource，请依次选择“获取数据” > “我的组织” > “获取”。
 
-阅读有关[查找和打开组织内容包](service-organizational-content-pack-find-and-open.md)的详细信息。
+阅读有关[查找和打开组织内容包](consumer/end-user-content-pack.md)的详细信息。
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>组织内容包的生命周期
 任何 Power BI Pro 用户都可以创建、发布和访问组织内容包。 只有内容包创建者才能修改工作簿和数据集、安排刷新以及删除内容包。
@@ -52,7 +52,7 @@ ms.locfileid: "39624289"
 1. 在 Power BI Pro 中，Nate 创建了内容包，并将它发布到“市场营销”通讯组。 数据集将继承刷新设置，只能由 Nate 修改这些设置。
    
    > [!NOTE]
-   > 如果 Nate 是在自己所属的 [Power BI 应用工作区](service-create-distribute-apps.md)内创建内容包，那么即使他离开此工作区，Power BI 工作区中的其他人也仍可接管所有权。
+   > 如果 Nate 是在自己所属的 [Power BI 应用工作区](consumer/end-user-create-apps.md)内创建内容包，那么即使他离开此工作区，Power BI 工作区中的其他人也仍可接管所有权。
    > 
    > 
 2. Nate 向通讯组发送邮件，告知通讯组成员有关新内容包的信息。
@@ -76,7 +76,7 @@ ms.locfileid: "39624289"
 
 ## <a name="next-steps"></a>后续步骤
 * [创建和发布组织内容包](service-organizational-content-pack-create-and-publish.md)
-* [在 Power BI 中构建和分发应用](service-create-distribute-apps.md) 
-* [Power BI - 基本概念](service-basic-concepts.md)
+* [在 Power BI 中构建和分发应用](consumer/end-user-create-apps.md) 
+* [Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

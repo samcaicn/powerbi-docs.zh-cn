@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 54cb45d1e9649fa761cfaf67aab708a2707e7516
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330480"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546732"
 ---
 # <a name="using-buttons-in-power-bi"></a>使用 Power BI 中的按钮
 使用 Power BI 中的“按钮”，可创建类似于应用的报表和仪表板，从而创建引人入胜的环境，以便用户可悬停鼠标在 Power BI 内容上、单击它并进一步与之交互。 可将按钮添加到 Power BI Desktop 中的报表，并将这些报表共享或发布到 Power BI 服务，以创建为用户提供行为类似于应用的仪表板。
@@ -41,7 +41,7 @@ Power BI 中的按钮有三种状态：默认状态（未悬停或选中时的�
 
 * 按钮文本
 * 图标
-* 分级显示
+* 轮廓线
 * 填充
 
 要为每种状态选择按钮的显示方式，请展开其中一张卡，然后选择卡顶部的下拉列表。 在下图中，将看到已展开的“边框”卡，且选中了下拉列表显示出三种状态：
@@ -75,6 +75,6 @@ Power BI 中的按钮有三种状态：默认状态（未悬停或选中时的�
 若要详细了解与按钮类似或与其交互的功能，请参阅以下文章：
 
 * [在 Power BI Desktop 中使用钻取](desktop-drillthrough.md)
-* [在“焦点”模式下显示仪表板磁贴或报表视觉对象](service-focus-mode.md)
+* [在“焦点”模式下显示仪表板磁贴或报表视觉对象](consumer/end-user-focus.md)
 * [在 Power BI 中使用书签共享见解和创建情景](desktop-bookmarks.md)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 732f27a8272c780d156912da904bab82de03f326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728962"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543994"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI 中的组合图
 在 Power BI 中，组合图是将折线图和柱形图合并在一起的单个可视化效果。 通过将两个图表合并为一个图表可以进行更快的数据比较。
@@ -103,13 +103,13 @@ Power BI 服务和 Power BI Desktop 均支持组合图。 本教程使用 Power 
 
 从这里你可能想要：
 
-* [将组合图添加为仪表板磁贴](../service-dashboard-tiles.md)。
+* [将组合图添加为仪表板磁贴](../consumer/end-user-tiles.md)。
 * [保存报表](../service-report-save.md)。
 * [残障人士能够更轻松地访问报表](../desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>交叉突出显示和交叉筛选
 
-突出显示组合图中的列或行可交叉突出显示和交叉筛选报表页上的其他可视化效果，反之亦然。 使用[视觉对象交互](../service-reports-visual-interactions.md)可以更改此默认行为。
+突出显示组合图中的列或行可交叉突出显示和交叉筛选报表页上的其他可视化效果，反之亦然。 使用[视觉对象交互](../consumer/end-user-interactions.md)可以更改此默认行为。
 
 ## <a name="next-steps"></a>后续步骤
 
@@ -117,6 +117,6 @@ Power BI 服务和 Power BI Desktop 均支持组合图。 本教程使用 Power 
 
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

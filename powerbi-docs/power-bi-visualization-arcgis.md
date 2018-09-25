@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728240"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548019"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>在 Power BI 服务和 Power BI Desktop 中创建 ESRI ArcGIS 地图
 本教程是从 ArcGIS 地图创建者的角度进行编写。 创建者与同事共享 ArcGIS 地图后，此同事便可以查看相应的地图并与之交互，但无法保存更改。 若要详细了解如何查看 ArcGIS 地图，请参阅[与 ArcGIS 地图交互](visuals/power-bi-visualizations-arcgis.md)。
@@ -61,7 +61,7 @@ ArcGIS 地图当前在 Power BI 服务、Power BI Desktop 和 Power BI 移动中
 2. 选择“ArcGIS Maps for Power BI”复选框。 完成选择后需要重启 Power BI。
    
     ![](media/power-bi-visualization-arcgis/power-bi-use-arcgis-new.png)
-3. 在[编辑视图](service-reading-view-and-editing-view.md)中打开报表，并从“可视化效果”窗格中选择适用于 Power BI 的 ArcGIS 地图图标。
+3. 在[编辑视图](consumer/end-user-reading-view.md)中打开报表，并从“可视化效果”窗格中选择适用于 Power BI 的 ArcGIS 地图图标。
    
     ![](media/power-bi-visualization-arcgis/power-bi-viz-pane2.png)
 4. Power BI 向报表画布中添加空的 ArcGIS 地图模板。

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 617809e072a492fb9887930e58bafd89ca8201e8
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310282"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544916"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Power BI 报表中的静态内容
 使用 Power BI 服务和 Power BI Desktop 可将文本框和形状添加到报表。 在这两种情况下，必须具有报表的编辑权限。 如果已在 Power BI 服务中与你共享报表，你将没有编辑权限。 
@@ -65,6 +65,6 @@ Watch Will 使用 Power BI Desktop [向报表添加静态图像](guided-learning
 ### <a name="next-steps"></a>后续步骤
 [向文本框添加超链接](service-add-hyperlink-to-text-box.md)
 
-[Power BI - 基本概念](service-basic-concepts.md)
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
