@@ -1,21 +1,21 @@
 ---
 title: 如何将超链接添加到表格
 description: 表中的超链接
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/22/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 869eb25b17233d6c926f759c09923f528a4eb72e
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9c1fc61d4a667b10728af8b7496e20803d024a83
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545190"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187550"
 ---
 # <a name="hyperlinks-in-tables"></a>表中的超链接
 本主题介绍如何使用 Power BI Desktop 创建超链接。 创建后，使用 Desktop 或 Power BI 服务将这些超链接添加到你的报表表格和矩形图。 

@@ -10,30 +10,30 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c50bcf656f967502e8bb01f7ca5184996170bed
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 1260f2c69a4ab913f7451671ab7821ee250998c0
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566317"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187228"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>将 Power BI 视觉对象优化为适应任意大小
 默认情况下，在创建新报表时，视觉对象为响应式：它们会动态缩放，尽可能显示最多的数据和见解，无论屏幕大小如何。 对于较旧的报表，也可以将其视觉对象设置为动态重设大小。
 
 在视觉对象缩放时，Power BI 会优先确保显示数据视图。例如，自动删除填充，并将图例移至视觉对象顶部，这样即便视觉对象变小，也仍可提供信息。 在手机上的 Power BI 移动应用中，响应式视觉对象尤为有用。
 
-![响应式视觉对象重设大小](./media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
+![响应式视觉对象重设大小](media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
 
 任何包含 X 轴、Y 轴和切片器的视觉对象都可以响应式重设大小。
 
 ## <a name="turn-on-responsiveness-in-power-bi-desktop"></a>在 Power BI Desktop 中启用响应式设置
 1. 在 Power BI Desktop 旧报表的“视图”选项卡上，确保自己处于“桌面设备布局”中。
    
-    ![“桌面布局”图标](./media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
+    ![“桌面布局”图标](media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
 2. 选择视觉对象，在“可视化效果”窗格中，选择“格式”部分。
 3. 展开“常规”，并将“响应式”滑至“开”。
    
-    ![“响应式”为“开”](././media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
+    ![“响应式”为“开”](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
      现在，[创建更适合在手机上显示的报表](../desktop-create-phone-report.md)并添加此视觉对象后，它可以流畅地重设大小。
 
@@ -44,7 +44,7 @@ ms.locfileid: "46566317"
 2. 选择视觉对象，在“可视化效果”窗格中，选择“格式”部分。
 3. 展开“常规”，并将“响应式”滑至“开”。
    
-    ![“响应式”为“开”](././media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
+    ![“响应式”为“开”](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
      现在，[创建此报表的手机视图](../desktop-create-phone-report.md)并添加此视觉对象后，它可以流畅地重设大小。
 

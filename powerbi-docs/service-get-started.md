@@ -1,7 +1,7 @@
 ---
 title: Power BI 服务（Power BI 在线版）入门
 description: Power BI 在线版入门 (app.powerbi.com)
-author: adamw
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c64a5e487725bdfedf03b496322a52e7664f5455
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6efef092002c0dc401c4c5328dd3e0d595beff66
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545054"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187113"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>教程：Power BI 服务入门 (app.powerbi.com)
 本教程将帮助你开启使用 ***Power BI 服务*** 之旅。 若要了解 Power BI 服务如何适应其他 Power BI 产品/服务，我们强烈建议你先阅读[什么是 Power BI](power-bi-overview.md)。

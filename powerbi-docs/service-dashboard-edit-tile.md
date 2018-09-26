@@ -1,7 +1,7 @@
 ---
 title: 编辑仪表板磁贴
 description: 本教程介绍了如何创建并将磁贴固定到仪表板，以及如何编辑此仪表板磁贴，包括重设大小、移动、重命名、固定、删除、添加超链接。
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 340f3d57c1ad860d4b0468085ff6a40c4013fa5c
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546087"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187596"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>编辑或删除仪表板磁贴
 

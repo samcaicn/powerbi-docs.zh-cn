@@ -1,21 +1,21 @@
 ---
 title: 将可视化效果、页面、钻取或报表筛选器添加到报表
 description: 在 Power BI 中将页面筛选器、可视化效果筛选器或报表筛选器添加到报表
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/26/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c8f99cf9c4d0645638b2ef300606f89a2d28aa0d
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 3758415dc41a5f94419193240d4ce71aa4aca1d8
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545959"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187205"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>向 Power BI 服务报表添加筛选器（在“编辑视图”中）
 > [!TIP]
