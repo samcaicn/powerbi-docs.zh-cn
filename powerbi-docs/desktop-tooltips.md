@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280745"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512147"
 ---
-# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>根据 Power BI Desktop（预览版）中的报表页创建工具提示
+# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>根据 Power BI Desktop 中的报表页创建工具提示
 根据 Power BI Desktop 中创建的报表页，可创建直观丰富的报表工具提示，这些提示在你将鼠标悬停在视觉对象上时显示。 通过创建用作工具提示的报表页，使自定义工具提示包含视觉对象、图像以及在报表页中创建的项的所有其他集合。 
 
 ![Power BI Desktop 的报表工具提示](media/desktop-tooltips/desktop-tooltips_00a.png)
@@ -27,11 +27,15 @@ ms.locfileid: "39280745"
 可通过报表工具提示执行各种有趣的操作。 接下来介绍如何创建工具提示以及配置工具提示时的必备操作。
 
 ### <a name="enable-the-tooltips-preview"></a>启用工具提示预览 
-由于报表工具提示当前处于预览状态，因此在创建报表工具提示之前，需要先启用它们。 若要启用报表工具提示预览功能，请在 Power BI Desktop 中依次选择“文件”>“选项和设置”>“选项”>“预览功能”，然后选择“报表页工具提示”旁的复选框。 
+从 2018 年 9 月版 Power BI Desktop 开始，工具提示将普遍可用，无需启用。 
+
+如果使用早期版本的 Power BI Desktop，可以通过在 Power BI Desktop 中选择“文件”>“选项和设置”>“选项”>“预览功能”，然后选择“报表页工具提示”旁边的复选框，将其作为预览功能启用。 
 
 ![启用报表工具提示的预览功能](media/desktop-tooltips/desktop-tooltips_01.png)
 
 选择启用报表工具提示的预览版本后，需重启 Power BI Desktop。
+
+始终建议升级到最新版 Power BI Desktop，可通过[获取 Power BI Desktop](desktop-get-the-desktop.md) 中的链接获取最新版。 
 
 ## <a name="create-a-report-tooltip-page"></a>创建报表工具提示页
 首先，通过单击 + 按钮创建新的报表页（该按钮位于页选项卡区域的 Power BI Desktop 画布底部）。 该按钮位于报表最后一页的旁边。 
@@ -117,8 +121,9 @@ ms.locfileid: "39280745"
 
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
-在这款报表工具提示预览版中需注意以下一些限制和事项。
+关于工具提示，有几点限制和注意事项需要牢记。
 
+* 从 2018 年 9 月版 Power BI Desktop 开始，工具提示将普遍可用，“卡片”视觉对象也支持工具提示。
 * 自 2018 年 7 月发布“Power BI Desktop”以来，工具提示支持表和矩阵视觉对象。 
 * 在移动应用或嵌入式环境（包括“发布到 Web”）中查看报表时，不支持报表工具提示。 
 * 自定义视觉对象不可使用报表工具提示。 

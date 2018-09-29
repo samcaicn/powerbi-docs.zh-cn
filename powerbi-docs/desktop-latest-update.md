@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 6f4e79746116d4a7add356a658ce12028b688dae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1d51a09094c6825570103ce3c0b51ebfe4b7d47f
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657911"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512078"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新 Power BI Desktop 更新中有哪些新增功能？
 
-## <a name="august-2018-update-2615192321"></a>2018 年 8 月更新 (2.61.5192.321)
+## <a name="september-2018-update-2625222582"></a>2018 年 9 月更新 (2.62.5222.582)
 
-8 月版更新包含自身具有的独特功能，并且紧跟 7 月大版本的步伐。 希望你觉得这些更新就像晴朗天气下的海滩，令人愉悦，来试一试吧，你会发现这些更新恰到好处。 
+9 月更新就像一门令人激动的新课程，在过去的体验基础增加了很多新内容，较之以往具有更强大、更全面的功能。 希望你能觉得这些更新就像刚削好 的 2 号铅笔一样有用。 
 
 你现在可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop。 无论采用哪种方式安装 Power BI Desktop，每月版本都相同。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
 
@@ -36,32 +36,31 @@ ms.locfileid: "39657911"
 
 下面介绍了本月新推出的 Power BI Desktop 更新：
 
-### <a name="modeling"></a>建模
-
-* 度量值的数据类别  [[视频]](https://youtu.be/dgv5HhHxxe8?t=15m27s)  [[文章]](desktop-measures.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dataCategory)
-* 统计 DAX 函数  [[视频]](https://youtu.be/dgv5HhHxxe8?t=18m56s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dax)
-
-
 ### <a name="reporting"></a>报表
 
-* 导出到 PDF，并打印报表  [[视频]](https://youtu.be/dgv5HhHxxe8?t=12s)  [[文章]](desktop-export-to-pdf.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#print) 
-* 创建书签组  [[视频]](https://youtu.be/dgv5HhHxxe8?t=4m4s)  [[文章]](desktop-bookmarks.md#bookmark-groups)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#bookmarks) 
-* 主题现已正式发布 [[视频]](https://youtu.be/dgv5HhHxxe8?t=7m9s)  [[文章]](desktop-report-themes.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Theming) 
-* 切片器重述 [[视频]](https://youtu.be/dgv5HhHxxe8?t=22m53s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#slicer) 
+* 散点图中的点图布局支持 [[视频]](https://youtu.be/Rzw2WyI09kY?t=30s) [[文章]](power-bi-visualization-scatter.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dotPlot) 
+* 复制表和矩阵视觉对象中的值和所选内容 [[视频]](https://youtu.be/Rzw2WyI09kY?t=2m33s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#copy) 
+* 内置报表主题选项 [[视频]](https://youtu.be/Rzw2WyI09kY?t=6m2s) [[文章]](desktop-report-themes.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* 报表页工具提示已正式发布，并新增卡片支持 [[视频]](https://youtu.be/Rzw2WyI09kY?t=8m10s) [[文章]](desktop-tooltips.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* 针对分析和格式设置窗格支持的辅助功能改进 [[视频]](https://youtu.be/Rzw2WyI09kY?t=9m29s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#accessibility)
 
 ### <a name="analytics"></a>分析
 
-* 按值的条件格式设置  [[视频]](https://youtu.be/dgv5HhHxxe8?t=7m54s)  [[文章]](desktop-conditional-table-formatting.md#color-formatting-by-field-value)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
-* Python 集成  [[视频]](https://youtu.be/dgv5HhHxxe8?t=11m14s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
-* 问答改进  [[视频]](https://youtu.be/dgv5HhHxxe8?t=13m1s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
+* 聚合（预览版）[[视频]](https://youtu.be/Rzw2WyI09kY?t=11m37s) [[文章]](desktop-aggregations.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
 
 ### <a name="custom-visuals"></a>自定义视觉对象
 
-* 五个新自定义视觉对象  [[视频]](https://youtu.be/dgv5HhHxxe8?t=19m48s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
+* 五个新自定义视觉对象  [[视频]](https://youtu.be/Rzw2WyI09kY?t=23m8s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>数据连接
 
-* Spark 连接器现已正式发布  [[视频]](https://youtu.be/dgv5HhHxxe8?t=31m41s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#spark) 
+* PDF 文件连接器（预览版）[[视频]](https://youtu.be/Rzw2WyI09kY?t=29m26s) [[文章]](desktop-connect-pdf.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* SAP BW 连接器（度量值属性支持）[[视频]](https://youtu.be/Rzw2WyI09kY?t=30m15s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#sapBW) 
+* 数据流连接器 (beta) [[文章]](desktop-connect-dataflows.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dataflows) 
+
+### <a name="data-preparation"></a>数据准备
+* M Intellisense [[视频]](https://youtu.be/Rzw2WyI09kY?t=30m42s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* 从示例中添加列（文本填充支持）[[视频]](https://youtu.be/Rzw2WyI09kY?t=32m27s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#addColumn) 
 
 
 > [!NOTE]
@@ -72,7 +71,7 @@ ms.locfileid: "39657911"
 
 以下视频介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dgv5HhHxxe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rzw2WyI09kY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
 > 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。

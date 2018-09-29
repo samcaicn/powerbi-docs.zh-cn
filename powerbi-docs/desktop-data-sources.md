@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657865"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512055"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
@@ -53,6 +53,7 @@ ms.locfileid: "39657865"
 * XML
 * JSON
 * 文件夹
+* PDF (Beta)
 * SharePoint 文件夹
 
 下图显示**文件**的**获取数据**窗口。
@@ -79,7 +80,8 @@ ms.locfileid: "39657865"
 * Impala
 * Google BigQuery
 * Snowflake
-* Exasol
+* Exasol (Beta)
+* Jethro (Beta)
 
 > [!NOTE]
 > 某些数据库连接器需要通过选择“文件”>“选项和设置”>“选项”，然后再选择“预览功能”才能启用。 如果你没有看到上面提到的某些连接器，但想使用它们，请检查“预览功能”设置。 另请注意，标记为 *Beta* 或*预览*的任何数据源所提供的支持和功能有限，不应在生产环境中使用。
@@ -93,6 +95,7 @@ ms.locfileid: "39657865"
 “Power BI”类别提供下列数据连接：
 
 * Power BI 数据集
+* Power BI 数据流 (Beta)
 
 下图显示 Power BI 的“获取数据”窗口。
 
@@ -108,7 +111,7 @@ ms.locfileid: "39657865"
 * Azure Cosmos DB (Beta)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
-* Azure HDInsight Spark (Beta)
+* Azure HDInsight Spark
 * HDInsight 交互式查询 (Beta)
 * Azure KustoDB (beta)
 
@@ -169,6 +172,7 @@ ms.locfileid: "39657865"
 * Hadoop 文件 (HDFS)
 * Spark
 * R 脚本
+* Python 脚本
 * ODBC
 * OLE DB
 * 空查询

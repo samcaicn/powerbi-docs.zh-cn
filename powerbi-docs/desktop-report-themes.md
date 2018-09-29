@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 4cc2c0ae14cf457c3a704b2891e070f4e4e00166
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657934"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512170"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用报表主题
 借助“报表主题”，可以将颜色主题应用于整个报表，如企业品牌颜色、流行色或可能要应用的其他任何颜色主题。 应用**报表主题**时，报表中的所有视觉对象都会使用选定主题中的颜色（少数例外情况除外，本文后面将予以介绍）。
@@ -36,7 +36,17 @@ ms.locfileid: "39657934"
 始终建议升级到最新版 Power BI Desktop，可通过[获取 Power BI Desktop](desktop-get-the-desktop.md) 中的链接获取最新版。 
 
 ## <a name="how-report-themes-work"></a>报表主题的工作原理
-若要将报表主题应用于 Power BI Desktop 报表，请选择“**开始**”功能区中的“**切换主题**”按钮，然后选择下拉列表中的“**导入主题**”。
+若要在 Power BI Desktop 报表中应用报表主题，可选择可用的内置报表主题，也可导入自定义主题。
+
+若要选择可用的内置报表主题，请在“主页”功能区中选择“切换主题”，然后从下拉列表菜单中一个主题。
+
+![选择报表主题](media/desktop-report-themes/report-themes_2a.png)
+
+报表主题将应用于报表，可开始操作。
+
+### <a name="importing-report-themes"></a>导入报表主题
+
+若要导入自定义报表主题，请在“主页”功能区中选择“切换主题”按钮，然后从下拉列表中选择“导入主题”。
 
 ![](media/desktop-report-themes/report-themes_3.png)
 

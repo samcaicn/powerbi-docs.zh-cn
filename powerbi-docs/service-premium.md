@@ -8,21 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2018
+ms.date: 09/11/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: f7024b3e4827201edb4137eb513333030e39059f
-ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
+ms.openlocfilehash: 87847575d4fff3d3530847246be5bc8f720b5141
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43250741"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512124"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium 有哪些特权？
 Power BI Premium 提供专用于为组织或团队运行 Power BI 服务的资源。 可提供更可靠的性能和更大的数据卷。 Premium 还可以广泛发布内容，无需为查看者购买许可证。
 
-可以将工作区分配到高级容量，从而充分利用 Power BI Premium。 “高级容量”是组织的专用资源。 未分配到高级容量的工作区，则属于共享容量。
-
-通过“共享容量”，工作负载可在其他客户共享的计算资源上运行。 在共享容量中，为了确保所有用户的体验质量，每个用户会受到更多的限制。
+可以将工作区分配到“高级容量”，从而充分利用 Power BI Premium。 高级容量是组织的专用资源。 未分配到高级容量的工作区属于“共享容量”。 通过共享容量，工作负载可在其他客户共享的计算资源上运行。 在共享容量中，为了确保所有用户的体验质量，每个用户会受到更多的限制。
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
@@ -42,18 +40,18 @@ Power BI 中有两种类型的容量。 共享容量和 Power BI 高级容量。
 | 在本地发布 Power BI 报表 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用") |
 
 *<sup>1</sup> 有关详细信息，请参阅 [Power BI Pro 和 Power BI Premium 的用户功能](service-free-vs-pro.md)中的功能。*  
-*<sup>2</sup> Power BI Premium 公开发布后推出的增强功能。*
+<sup>2</sup> Power BI Premium 即将推出的增强功能。
 
 ### <a name="premium-capacity"></a>高级容量
 
-需要将工作区分配给某个容量，方可开始使用 Power BI 高级容量。 有关如何将工作区分配给高级容量的详细信息，请参阅[管理 Power BI Premium](service-admin-premium-manage.md)。
+需要将工作区分配给某个容量，方可开始使用 Power BI 高级容量。 使用高级容量支持某工作区可获得：
 
-高级容量返回工作区时，可以享受 Power BI Premium 的权益。
+* **计划刷新**：使用共享容量，已导入模型数据集的计划刷新限制为每天 8 次。 而对于高级工作区中的数据集，每天可计划的刷新数多达 48 次。 增加的计划刷新不适用于 DirectQuery 的计划缓存刷新设置，后者在高级容量和共享容量中保持一致。
+* **专用硬件隔离**：鉴于共享容量的性质，报表和仪表板的性能可能会受该容量中其他工作负载的资源需求影响，尽管我们对此有所防护。 但是，高级容量通过隔离不相关的工作负载，为你的工作负载提供更一致、更可靠的性能。
 
-* **计划刷新**：通过共享容量，已导入模型的计划刷新限制为每天 8 次。 对于 Premium 工作区中的数据集，刷新次数增加到每天 48 次。 这不适用于 DirectQuery 的预定缓存刷新设置。 在高级容量和共享容量之间，这些设置保持相同。
-* **专用硬件隔离**：根据共享容量的性质，报表和仪表板的性能可能会受该容量中其他工作负载的资源需求影响，尽管我们对此有所防护。 相反，Premium 通过隔离不相关的工作负荷，为你的工作负荷提供更一致、更可靠的性能。
+如果应用受高级容量支持（即，是从当前分配到“高级”的应用工作区发布的该应用），则组织中的任何用户都可以使用此发布的应用，而无需考虑分配给他们的许可证。
 
-如果应用受高级容量支持（即，它是当前分配到 Premium 的应用工作区发布的），则此后组织中的任何用户都可以使用此发布的应用，而无需考虑分配给他们的许可证。
+若要深入了解如何将工作区分配到高级容量，请查阅[管理 Power BI Premium](service-admin-premium-manage.md)。
 
 ### <a name="shared-capacity"></a>共享容量
 
@@ -84,7 +82,7 @@ Power BI 中有两种类型的容量。 共享容量和 Power BI 高级容量。
 * 后端虚拟核心负责完成繁重的任务：查询处理、缓存管理、运行 R 服务器、数据刷新、自然语言处理、实时馈送和在服务器端绘制报表和图像。 后端虚拟核心也可保留一定的内存量。 处理大型数据模型或大量活动数据集时，内存充足尤为重要。
 
 ## <a name="power-bi-report-server"></a>Power BI 报表服务器
-Power BI Premium 包含在本地运行 Power BI 报表服务器的权限。 有关详细信息，请参阅[开始使用 Power BI 报表服务器](report-server/get-started.md)。
+Power BI Premium 还能在组织中本地运行 Power BI 报表服务器。 若要了解详细信息，请参阅 [Power BI 报表服务器入门](report-server/get-started.md)。
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI Premium 常见问题解答](service-premium-faq.md)  
