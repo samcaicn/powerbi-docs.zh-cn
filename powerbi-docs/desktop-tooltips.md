@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 69c0e6d253a1d8d8ecad9f562c0b992c01d4d577
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512147"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547100"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>根据 Power BI Desktop 中的报表页创建工具提示
 根据 Power BI Desktop 中创建的报表页，可创建直观丰富的报表工具提示，这些提示在你将鼠标悬停在视觉对象上时显示。 通过创建用作工具提示的报表页，使自定义工具提示包含视觉对象、图像以及在报表页中创建的项的所有其他集合。 
@@ -136,5 +136,5 @@ ms.locfileid: "44512147"
 若要详细了解与报表工具提示类似或与其交互的功能，请参阅以下文章：
 
 * [在 Power BI Desktop 中使用钻取](desktop-drillthrough.md)
-* [在“焦点”模式下显示仪表板磁贴或报表视觉对象](service-focus-mode.md)
+* [在“焦点”模式下显示仪表板磁贴或报表视觉对象](consumer/end-user-focus.md)
 

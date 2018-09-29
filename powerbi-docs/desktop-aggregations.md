@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dfb45be36516be9196fbdd4297209ce4bf15925c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512587"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974198"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop 中的聚合（预览）
 
@@ -243,7 +243,7 @@ AVERAGE 函数可以受益于聚合。 以下查询将命中聚合，因为 AVER
 
 下表显示了在“Sales Agg”表的“管理聚合”对话框中设置的项。 “Date”为详细信息表的 GroupBy 项为必选项，以命中用于按“Date”属性分组的查询的聚合。 如上一示例所示，因为存在关系（DISTINCTCOUNT 再次除外），所以 CustomerKey 和 ProductSubcategoryKey 的 GroupBy 项不会影响聚合命中。
 
-![“Sales Agg”聚合表](media/desktop-aggregations/aggregations-table_03.jpg)
+![“Sales Agg”聚合表](media/desktop-aggregations/aggregations-table_04.jpg)
 
 > 注意：由于“Date”表是详细信息表，此模型要求该表处于 DirectQuery 模式以填写管理聚合对话框。 这是预览版限制，我们计划在通用版中将其删除。
 

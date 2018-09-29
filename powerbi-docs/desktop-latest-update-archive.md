@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 40eefccbce19c8d6f4441e30e037e6e421a8dd5c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: e7eadadede8f342b25ea59dcd2053f53d654ffff
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512239"
+ms.locfileid: "44728309"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -137,7 +137,7 @@ ms.locfileid: "44512239"
 
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="june-2018-update-2595135101"></a>2018 年 6 月更新 (2.59.5135.101)
 
@@ -184,7 +184,7 @@ ms.locfileid: "44512239"
 
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="may-2018-update-2585103281"></a>2018 年 5 月更新 (2.58.5103.281)
 
@@ -238,7 +238,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-_GMCE1TLvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="april-2018-update-2575068501"></a>2018 年 4 月更新 (2.57.5068.501)
@@ -284,7 +284,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W_Nb73Od_AI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 
@@ -330,7 +330,7 @@ ms.locfileid: "44512239"
 
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 
@@ -352,7 +352,7 @@ ms.locfileid: "44512239"
 ### <a name="reporting"></a>报表
 
 * 在多个页中选择多个数据点 [[视频]](https://youtu.be/KeVB5RwMzJo?t=23s) [[文章]](desktop-multi-select.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
-* 多页报表中的同步切片器 [[视频]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[文章]](desktop-slicers.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
+* 多页报表中的同步切片器 [[视频]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[文章]](visuals/desktop-slicers.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
 * 数值范围切片器改进 - 整数对齐（预览）[[视频]](https://youtu.be/KeVB5RwMzJo?t=8m44s) [[文章]](desktop-slicer-numeric-range.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
 * 适用于必应地图的更快速地理编码（Web 预览）- 提高速度达 6 倍 [[视频]](https://youtu.be/KeVB5RwMzJo?t=10m18s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
 * 条形图和柱形图视觉对象的溢出数据标签 [[视频]](https://youtu.be/KeVB5RwMzJo?t=12m31s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
@@ -394,7 +394,7 @@ ms.locfileid: "44512239"
 
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="january-2018-update-2544970761"></a>2018 年 1 月更新 (2.54.4970.761)
@@ -443,7 +443,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 
@@ -499,7 +499,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="november-2017-update-2524921202"></a>2017 年 11 月更新 (2.52.4921.202)
@@ -555,7 +555,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 
@@ -613,7 +613,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jksjtR8GnBE" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="september-2017-update-2504859502"></a>2017 年 9 月更新 (2.50.4859.502)
@@ -623,7 +623,7 @@ ms.locfileid: "44512239"
 ### <a name="report-view"></a>报表视图：
 
 -   钻取到另一个报表页 [[视频]](https://youtu.be/moTQJlnClJw?t=19s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#drillthrough) [[文章]](desktop-drillthrough.md)
--   功能区图表 [[视频]](https://youtu.be/moTQJlnClJw?t=8m57s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[文章]](desktop-ribbon-charts.md)
+-   功能区图表 [[视频]](https://youtu.be/moTQJlnClJw?t=8m57s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[文章]](visuals/desktop-ribbon-charts.md)
 -   有关解释增加/解释减少的见解 [[视频]](https://youtu.be/moTQJlnClJw?t=13m37s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#insights) [[文章]](desktop-insights.md)
 -   主题预览更新 - 图表样式控件 [[视频]](https://youtu.be/moTQJlnClJw?t=19m25s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#theming) [[文章]](desktop-report-themes.md)
 -   辅助功能改进 [[视频]](https://youtu.be/moTQJlnClJw?t=27m25s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#accessibility) [[文章]](desktop-accessibility.md)
@@ -653,7 +653,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/moTQJlnClJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="august-2017-update-2494831222"></a>2017 年 8 月更新 (2.49.4831.222)
@@ -698,7 +698,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ND8U0yXroaQ" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="july-2017-update-2484792321"></a>2017 年 7 月更新 (2.48.4792.321)
@@ -748,7 +748,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4X96ow7FnSY" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="june-2017-update-2474766542"></a>2017 年 6 月更新 (2.47.4766.542)
@@ -762,7 +762,7 @@ ms.locfileid: "44512239"
 -   视觉对象字体系列设置[[视频]](https://youtu.be/YlNVE5dgcSI?t=6m59s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#fonts)
 -   水平图像切片器[[视频]](https://youtu.be/YlNVE5dgcSI?t=8m42s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#imageSlicer)
 -   组合图格式设置更新[[视频]](https://youtu.be/YlNVE5dgcSI?t=9m58s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#comboChart)
--   必应地图改进[[视频]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[文章]](power-bi-map-tips-and-tricks.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
+-   必应地图改进[[视频]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[文章]](visuals/power-bi-map-tips-and-tricks.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
 -   高密度行采样[[视频]](https://youtu.be/YlNVE5dgcSI?t=16m53s) [[文章]](desktop-high-density-sampling.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#highDensityLine)
 -   可访问的报表[[视频]](https://youtu.be/YlNVE5dgcSI?t=19m23s) [[文章]](desktop-accessibility.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#accessibility)
 
@@ -793,7 +793,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YlNVE5dgcSI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 
@@ -840,7 +840,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CKISVNHcHVA" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 
@@ -852,7 +852,7 @@ ms.locfileid: "44512239"
 ### <a name="report-view"></a>报表视图：
 
 -   重命名轴标题 [[视频]](https://youtu.be/AWMaIaI8G2Y?t=25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#renameAxisTitles)
--   新矩阵视觉对象增强功能：列排序、列重设大小和自动换行（预览功能）[[视频]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[文章]](desktop-matrix-visual.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
+-   新矩阵视觉对象增强功能：列排序、列重设大小和自动换行（预览功能）[[视频]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[文章]](visuals/desktop-matrix-visual.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
 
 ### <a name="analytics"></a>分析：
 
@@ -885,7 +885,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AWMaIaI8G2Y" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="march-2017-update-2444675422"></a>2017 年 3 月更新 (2.44.4675.422)
@@ -894,7 +894,7 @@ ms.locfileid: "44512239"
 
 ### <a name="report-view"></a>报表视图：
 
--   全新的矩阵视觉对象（预览阶段）[[视频]](https://youtu.be/CaRTON3lJqw?t=18s) [[文章]](desktop-matrix-visual.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
+-   全新的矩阵视觉对象（预览阶段）[[视频]](https://youtu.be/CaRTON3lJqw?t=18s) [[文章]](visuals/desktop-matrix-visual.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
 -   数值范围切片器（预览阶段）[[视频]](https://youtu.be/CaRTON3lJqw?t=8m20s) [[文章]](desktop-slicer-numeric-range.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#rangeSlicer)
 -   饼图和环形图视觉对象上的数据标签 - 占总数的百分比 [[视频]](https://youtu.be/CaRTON3lJqw?t=10m52s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#dataLabels)
 -   使用多个数据系列进行交叉突出显示 [[视频]](https://youtu.be/CaRTON3lJqw?t=11m57s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#crossHighlight)
@@ -928,7 +928,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaRTON3lJqw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 
@@ -976,7 +976,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mn75-LOPxMA" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="january-2017-update-2424611482"></a>2017 年 1 月更新 (2.42.4611.482)
@@ -1012,7 +1012,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C1-f0T8vZ7M" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 
@@ -1065,7 +1065,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kERJ_WOLuLk" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="october-2016-update-2404554361"></a>2016 年 10 月更新 (2.40.4554.361)
@@ -1118,7 +1118,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UXEYSvgvMaQ" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="september-2016-update-2394526362"></a>2016 年 9 月更新 (2.39.4526.362)
@@ -1176,7 +1176,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pcUr6E8g_KI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 
@@ -1237,7 +1237,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0VvG7Eqoke8" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="july-2016-update-2374464321"></a>2016 年 7 月更新 (2.37.4464.321)
@@ -1249,7 +1249,7 @@ ms.locfileid: "44512239"
 ### <a name="report-view"></a>报表视图：
 
 -   预定义的表格样式 [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[视频]](https://youtu.be/g8ccfjffWmw?t=1m25s)
--   形状地图更新 - 使用自定义地图 [[文章]](desktop-shape-map.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[视频]](https://youtu.be/g8ccfjffWmw?t=2m21s)
+-   形状地图更新 - 使用自定义地图 [[文章]](visuals/desktop-shape-map.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[视频]](https://youtu.be/g8ccfjffWmw?t=2m21s)
 
 ### <a name="data-connectors"></a>数据连接器：
 
@@ -1280,7 +1280,7 @@ ms.locfileid: "44512239"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g8ccfjffWmw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="june-2016-update-2364434362"></a>2016 年 6 月更新 (2.36.4434.362)
 
@@ -1290,7 +1290,7 @@ ms.locfileid: "44512239"
 
 ### <a name="report-view"></a>报表视图：
 
--   新视觉对象 - 调整映射[[video]](https://youtu.be/sZsL2l6oS4A?t=3m9s)[[article]](desktop-shape-map.md)
+-   新视觉对象 - 调整映射[[video]](https://youtu.be/sZsL2l6oS4A?t=3m9s)[[article]](visuals/desktop-shape-map.md)
 -   可搜索切片器[[video]](https://youtu.be/sZsL2l6oS4A?t=6m25s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   可配置行图表标签[[video]](https://youtu.be/sZsL2l6oS4A?t=7m21s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   新的登录入口点[[video]](https://youtu.be/sZsL2l6oS4A?t=2m30s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
@@ -1334,7 +1334,7 @@ ms.locfileid: "44512239"
 
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 
@@ -1390,7 +1390,7 @@ ms.locfileid: "44512239"
 
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="april-2016-update-2344372322"></a>2016 年 4 月更新 (2.34.4372.322)
 
@@ -1439,7 +1439,7 @@ ms.locfileid: "44512239"
 
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="march-2016-update-2334337281"></a>2016 年 3 月更新 (2.33.4337.281)
@@ -1491,7 +1491,7 @@ ms.locfileid: "44512239"
 
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 
@@ -1549,7 +1549,7 @@ ms.locfileid: "44512239"
 
 
 > [!NOTE]
-> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="january-2016-update-2314280361"></a>2016 年 1 月更新 (2.31.4280.361)
