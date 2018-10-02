@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e75cc0f7ca31257ea46af20b63c29d0d870ef7a0
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329675"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417363"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 中的数据刷新
 确保始终获得最新数据对于制定正确决策通常是至关重要的。 你可能已在 Power BI 中使用“获取数据”连接到并上载一些数据，创建了一些报表和仪表板。 现在，你要确保数据确实是最新且最好的。
@@ -212,9 +212,7 @@ Power BI 中有两种类型的内容包：
 | --- | --- | --- | --- |
 | 使用 Power BI Rest API 或 Microsoft Stream Analytics 开发的自定义应用 |是，实时流式处理 |否 |否 |
 
-若要了解详细信息，请参阅[在 Power BI 中创建实时仪表板](https://msdn.microsoft.com/library/mt267603.aspx)。
-
-## <a name="configure-scheduled-refresh"></a>配置计划的刷新
+## <a name="configure-scheduled-refresh"></a>配置计划刷新
 若要了解如何配置计划的刷新，请参阅[配置计划的刷新](refresh-scheduled-refresh.md)
 
 ## <a name="common-data-refresh-scenarios"></a>常见数据刷新方案
