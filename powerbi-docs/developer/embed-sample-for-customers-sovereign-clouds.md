@@ -4,17 +4,16 @@ description: 了解如何使用 Power BI API，为客户将仪表板、磁贴或
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
 ms.date: 07/26/2018
-ms.openlocfilehash: 2d722428ce2029ef4689e6b4bf5dfcdd208baff8
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: c9e38f3ca1c8ee43ab9d51d621dfc7d835c39db1
+ms.sourcegitcommit: 767c0d770e32e91ff28a176f79595fab523f69eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39255862"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48039430"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>教程：将 Power BI 仪表板、磁贴或报表嵌入主权云应用程序中
 了解如何在为客户嵌入内容时，通过调用 Power BI .Net SDK 和 Power BI JavaScript API，将仪表板、磁贴或报表集成到或嵌入 Web 应用中。 这通常是一种 ISV 方案。
@@ -415,3 +414,4 @@ var embedConfig = new EmbedConfig()
 * GCC 帐户现仅支持 P 和 EM 容量
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+
