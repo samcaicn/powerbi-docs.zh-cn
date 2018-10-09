@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c36034ad5e8175e08f1d16c2f5148c5dab0ebbd
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: 2536ea34cadae5f348e619d713420787db4c467a
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "42702877"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48799037"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>通过本地数据网关使用自定义数据连接器
 
@@ -45,8 +45,6 @@ ms.locfileid: "42702877"
 
 * 请确保所创建的文件夹可供后台网关服务访问。 通常情况下，无法访问用户的 Windows 文件夹或系统文件夹下的文件夹。 如果文件夹不可访问，网关配置器将显示一条消息（这不适用于个人版网关）
 * 若要配合使用自定义连接器和本地数据网关，需要在自定义连接器的代码中实现“TestConnection”部分。 如果将自定义连接器用于 Power BI Desktop，则无需实现此要求。 可以将自定义连接器用于 Desktop，但不可因此将其用于网关。 请参阅[本文档](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support)了解如何实现 TestConnection 部分。
-* 不支持使用 OAuth 身份验证的自定义连接器。
-* 不支持使用直接查询的自定义连接器。
 
 ## <a name="next-steps"></a>后续步骤
 

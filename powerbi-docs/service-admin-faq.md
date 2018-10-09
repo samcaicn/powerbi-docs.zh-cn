@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 60ac0a944b1eb54ab998fbf25cb5fb79d6dddbe6
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37926574"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271891"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常见问题 (FAQ)
 
@@ -120,7 +120,7 @@ ms.locfileid: "37926574"
     Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>如何阻止现有用户开始使用 Power BI？
-作为管理员，你可以执行一些步骤来阻止用户注册 Power BI。 如果阻止此操作，则用户进行注册的尝试会失败，系统会指示他们与其组织管理员联系。如果已禁用了自动许可证分发（例如 Office 365 教育版（学生、教职员工和员工）），则无需重复此过程。 [了解详细信息](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
+作为管理员，你可以执行一些步骤来阻止用户注册 Power BI。 如果阻止此操作，则用户进行注册的尝试会失败，系统会指示他们与其组织管理员联系。如果已禁用了自动许可证分发（例如 Office 365 教育版（学生、教职员工和员工）），则无需重复此过程。 [了解详细信息](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
 
 对此进行控制的 AAD 设置是 **AllowAdHocSubscriptions**。 大多数租户会将此设置设置为 true，这意味着它处于启用状态。 如果你是通过合作伙伴获取 Power BI，则这可能会在默认情况下设置为 false，这意味着它处于禁用状态。
 

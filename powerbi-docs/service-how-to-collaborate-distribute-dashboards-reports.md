@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545742"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271686"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>应如何在 Power BI 中开展协作并进行共享？
 
@@ -29,7 +29,7 @@ ms.locfileid: "46545742"
 - 打印报告。
 * 发布到公共网站，全球任何人都可以在其中查看并与之交互。
 
-无论选择了哪个选项，要共享仪表板，都需要 [Power BI Pro 许可证](service-free-vs-pro.md)，或者该内容需要位于[高级容量](service-premium.md)中。 许可证要求因查看仪表板的同事而各不相同，具体取决于所选择的选项。 以下各节将进行详细说明。 
+无论选择了哪个选项，要共享仪表板，都需要 [Power BI Pro 许可证](service-features-license-type.md)，或者该内容需要位于[高级容量](service-premium.md)中。 许可证要求因查看仪表板的同事而各不相同，具体取决于所选择的选项。 以下各节将进行详细说明。 
 
 ![Power BI 服务中的应用](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
