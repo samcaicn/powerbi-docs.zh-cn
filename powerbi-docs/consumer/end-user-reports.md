@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5268241c32112847c879407374b325dd63dd8aab
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564822"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908615"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的报表
 ## <a name="what-is-a-power-bi-report"></a>什么是 Power BI 报表？
@@ -67,7 +67,7 @@ Power BI ***报表***是数据集的多角度视图，使用可视化效果表�
 * 通过 [Power BI 服务教程](end-user-basic-concepts.md)入门，这样便知道从哪里找到报表和报表工具。
 * 了解如何[打开报表](end-user-report-open.md)以及[阅读视图](end-user-reading-view.md)中所有可用的交互。
 * 通过查看我们的任一[示例](../sample-tutorial-connect-to-the-samples.md)轻松了解报表的使用。  
-* 不再需要报表？ 可以将其[删除](end-user-delete.md)。
+<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
 * 若要查看报表正在使用哪个数据集及哪个仪表板从报表固定磁贴，请[查看相关内容](end-user-related.md)。
 
 > [!TIP]
@@ -79,6 +79,4 @@ Power BI ***报表***是数据集的多角度视图，使用可视化效果表�
 [什么是 Power BI？](../power-bi-overview.md) 
 
 [Power BI - 基本概念](end-user-basic-concepts.md)
-
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

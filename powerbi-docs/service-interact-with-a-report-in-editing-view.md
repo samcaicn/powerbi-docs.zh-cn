@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4c206e6b1abb37bdaeb0e03fbce31b7b12e356ba
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e03f6b4542c4f5f6c1d1a84892030520651ac9a3
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186644"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908298"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>在 Power BI 服务的“编辑视图”中与报表进行交互
 可在 Power BI 服务和 Power BI Desktop 中创建和编辑报表。 在 Power BI 服务中，可在“编辑视图”中创建和编辑报表。 而在 Power BI Desktop 中，可在“[报表视图](desktop-report-view.md)”中创建和编辑报表。 本文介绍了 Power BI 服务中的“编辑视图”。 
 
 Power BI 服务有两种与报表交互的模式 -- 针对报表使用者的[阅读视图](consumer/end-user-reading-view.md)以及针对报表所有者和创建者的“编辑视图”。  共享报告和编辑他人创建的报告需要 Power BI Pro 许可证。 如果没有 Power BI Pro 许可证，仍然能够创建报表，但无法[共享](service-share-reports.md)。    
 
-在报表的“编辑视图”中，你可以自由地浏览和设计报表。 所有[阅读视图](consumer/end-user-reading-view.md)中的功能都可用 -- 并且还有更多的功能。 “编辑视图”仅适用于报表的创建者，或者[作为应用工作区的成员或管理员共同拥有报表](consumer/end-user-create-apps.md)的同事。
+在报表的“编辑视图”中，你可以自由地浏览和设计报表。 所有[阅读视图](consumer/end-user-reading-view.md)中的功能都可用 -- 并且还有更多的功能。 “编辑视图”仅适用于报表的创建者，或者[作为应用工作区的成员或管理员共同拥有报表](service-create-distribute-apps.md)的同事。
 
 ## <a name="functionality-only-available-in-editing-view"></a>仅在编辑视图中可用的功能
 看看左侧目录中“报表”标题下的主题列表。 这是一个长列表，其中许多主题都涵盖 *仅适用于你拥有报表编辑权限* 的功能。  为了帮助你导航目录，以下操作将需要在“编辑视图”下执行：

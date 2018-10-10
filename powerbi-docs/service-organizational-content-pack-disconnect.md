@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2682dd9c4d64e3042273df88c86b146e07c681b3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: dc440c42692b1707649fadf415dfe32fd7b731c8
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549514"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48907892"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>删除与 Power BI 组织内容包的连接
 
@@ -35,7 +35,7 @@ ms.locfileid: "46549514"
 
 ## <a name="next-steps"></a>后续步骤
 * [组织内容包简介](service-organizational-content-pack-introduction.md) 
-* [在 Power BI 中构建和分发应用](consumer/end-user-create-apps.md) 
+* [在 Power BI 中构建和分发应用](service-create-distribute-apps.md) 
 * [Power BI 基本概念](consumer/end-user-basic-concepts.md)  
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

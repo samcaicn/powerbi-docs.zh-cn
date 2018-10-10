@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bd8a8b9a9aff451282c5cef8a6dd6f27b90335d7
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1bb1831d37dc3f8bfe5ee141859cbccec541735e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548686"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908776"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>使用 Power BI 连接到 Google Analytics
 要通过 Power BI 连接到 Google Analytics，需首先连接到 Google Analytics 帐户。 你将获得一个 Power BI 仪表板和一组 Power BI 报表，这些报表会提供网站流量和用户维度的相关见解。 可以与仪表板和报表进行交互，但不能保存更改。 此数据将每天自动刷新一次。
@@ -27,16 +27,16 @@ ms.locfileid: "46548686"
 ## <a name="how-to-connect"></a>如何连接
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. 依次选择“Google Analytics”\>“获取”。
+3. 依次选择“Google Analytics”\>“获取”。
    
    ![](media/service-connect-to-google-analytics/ga.png)
-2. 出现提示时，输入 Google Analytics 凭据。 选择“oAuth 2”作为身份验证机制，然后单击“登录”。 按照 Google 身份验证流进行操作。如果你配置了双因素身份验证，则其中可能包括双因素身份验证。
+4. 出现提示时，输入 Google Analytics 凭据。 选择“oAuth 2”作为身份验证机制，然后单击“登录”。 按照 Google 身份验证流进行操作。如果你配置了双因素身份验证，则其中可能包括双因素身份验证。
    
    ![](media/service-connect-to-google-analytics/creds.png)
-3. 单击“接受”以允许 Power BI 访问你的 Google Analytics 数据。
+5. 单击“接受”以允许 Power BI 访问你的 Google Analytics 数据。
    
    ![](media/service-connect-to-google-analytics/googleanalytics.png)
-4. Power BI 连接到特定的 Google Analytics 视图。 选择想要连接到的帐户名称、属性名称和视图名称。 此信息可在 Google Analytics 帐户的左上方或“主页”选项卡上获取。请参阅以下详细信息。 
+6. Power BI 连接到特定的 Google Analytics 视图。 选择想要连接到的帐户名称、属性名称和视图名称。 此信息可在 Google Analytics 帐户的左上方或“主页”选项卡上获取。请参阅以下详细信息。 
    
    ![](media/service-connect-to-google-analytics/params2.png)
 5. 单击“连接”以开始导入过程。 
@@ -44,7 +44,7 @@ ms.locfileid: "46548686"
 ## <a name="view-the-google-analytics-dashboard-and-reports"></a>查看 Google Analytics 仪表板和报表
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![](media/service-connect-to-google-analytics/googleanalytics2.png)
+   ![](media/service-connect-to-google-analytics/googleanalytics2.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -69,7 +69,7 @@ ms.locfileid: "46548686"
 * 从 Power BI 技术支持网站（即你正在阅读此文章的地方）中选择页面右侧的**联系支持人员**。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 中的应用有哪些？](consumer/end-user-apps.md)
+* [Power BI 中的应用有哪些？](service-create-distribute-apps.md)
 * [在 Power BI 中获取数据](service-get-data.md)
 * 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

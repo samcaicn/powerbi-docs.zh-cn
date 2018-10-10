@@ -7,17 +7,17 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f94fe8d82fe752d2e2d0f1290cdaa5193a75e0a9
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 4648d09e6ef58d84b85690062428f0515fa7ddae
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565351"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908059"
 ---
-# <a name="find-and-connect-to-an-organizational-content-pack"></a>查找并连接组织内容包
+# <a name="find-and-connect-to-an-organizational-content-pack"></a>查找并连接到组织内容包
 
 只要任何人向组织、通讯组/安全组或你所属的 [Office 365 组](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)发布组织内容包，它就会显示在 AppSource 中。  浏览或搜索 AppSource 可以查找和打开组织内容包。
 
@@ -50,6 +50,6 @@ ms.locfileid: "46565351"
 
 ## <a name="next-steps"></a>后续步骤
 * [组织内容包简介](../service-organizational-content-pack-introduction.md)  
-* [在 Power BI 中构建和分发应用](end-user-create-apps.md)
+* [在 Power BI 中构建和分发应用](../service-create-distribute-apps.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

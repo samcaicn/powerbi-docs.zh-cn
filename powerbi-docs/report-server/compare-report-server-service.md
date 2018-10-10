@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 2b39d9ab5b8bae32dde6eda66f09f69a9718d569
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548479"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908522"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
@@ -33,7 +33,7 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | 是否需要网关 | 否 | 对于本地数据源，则为“是” |  
 | 实时流式处理 | 否 | 是 | [Power BI 中的实时流式处理](../service-real-time-streaming.md)
 | 仪表板 | 否 | 是 | [Power BI 服务中的仪表板](../consumer/end-user-dashboards.md) 
-| 使用应用分发报表组 | 否 | 是 | [创建和发布包含仪表板和报表的应用](../consumer/end-user-create-apps.md) 
+| 使用应用分发报表组 | 否 | 是 | [创建和发布包含仪表板和报表的应用](../service-create-distribute-apps.md) 
 | 内容包 | 否 | 是 | [组织内容包：简介](../service-organizational-content-pack-introduction.md) 
 | 连接到 Salesforce 等服务 | 否 | 是 | 使用 Power BI 服务[连接到所使用的服务](../consumer/end-user-connect-to-services.md)
 | 问答 | 否 | 是 | [Power BI 服务和 Power BI Desktop 中的问答](../consumer/end-user-q-and-a.md) 

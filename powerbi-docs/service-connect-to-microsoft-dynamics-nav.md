@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a00913ea326f472993553910a79e3cc208356499
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546708"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908891"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>使用 Power BI 连接到 Microsoft Dynamics NAV
 借助 Power BI，轻松获得有关 Microsoft Dynamics NAV 数据的见解。 Power BI 会检索数据（销售和财务数据），然后基于该数据生成带仪表板和报表的应用。 Power BI 需要具有对从中检索数据（在本例中为销售和财务数据）的表的访问权限。 以下是有关要求的详细信息。 安装应用后，可以在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 和 Power BI 移动应用中查看仪表板和报表。 
@@ -25,9 +25,9 @@ ms.locfileid: "46546708"
 ## <a name="how-to-connect"></a>如何连接
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. 选择 **Microsoft Dynamics NAV**，然后选择 **获取**。  
+3. 选择 **Microsoft Dynamics NAV**，然后选择 **获取**。  
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
-2. 出现提示时，请输入你的 Microsoft Dynamics NAV OData URL。 URL 应与以下模式相匹配：
+4. 出现提示时，请输入你的 Microsoft Dynamics NAV OData URL。 URL 应与以下模式相匹配：
    
     `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
@@ -37,12 +37,12 @@ ms.locfileid: "46546708"
      
      获取此 URL 的一个简单的方法是在 Dynamics NAV 中转到 Web 服务，找到 powerbifinance Web 服务并复制 Odata URL，但是省去此 URL 字符串中的“/powerbifinance”。  
      ![](media/service-connect-to-microsoft-dynamics-nav/param.png)
-3. 选择**基本**并输入你的 Microsoft Dynamics NAV 凭据。
+5. 选择**基本**并输入你的 Microsoft Dynamics NAV 凭据。
    
     你需要 Microsoft Dynamics NAV 帐户的管理员凭据（或至少对销售和财务数据的访问权限）。  当前仅支持基本（用户名和密码）身份验证。
    
     ![](media/service-connect-to-microsoft-dynamics-nav/creds.png)
-4. Power BI 会检索 Microsoft Dynamics NAV 数据，并为你创建随时可用的仪表板和报表。   
+6. Power BI 会检索 Microsoft Dynamics NAV 数据，并为你创建随时可用的仪表板和报表。   
    ![](media/service-connect-to-microsoft-dynamics-nav/dashboard.png)
 
 ## <a name="view-the-dashboard-and-reports"></a>查看仪表板和报表
@@ -64,7 +64,7 @@ ms.locfileid: "46546708"
 ## <a name="system-requirements"></a>系统要求
 若要将 Microsoft Dynamics NAV 数据导入到 Power BI 中，则需要具有对从中检索数据的销售和财务数据表（上面已列出）的访问权限。 表中需要具有一些数据，当前不能导入空表。
 
-## <a name="troubleshooting"></a>故障排除
+## <a name="troubleshooting"></a>疑难解答
 Power BI 使用 Microsoft Dynamics NAV 的 Web 服务来检索数据。 如果 Microsoft Dynamics NAV 实例中有大量数据，将 Web 服务使用情况影响降到最低的建议：按需更改刷新频率。 另一个建议是让一个管理员创建应用并进行共享，而不是让每个管理员都创建自己的应用。
 
 **“参数验证失败，请确保所有参数都是有效的”**  
@@ -99,7 +99,7 @@ Power BI 使用 Microsoft Dynamics NAV 的 Web 服务来检索数据。 如果 M
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 中的应用有哪些？](consumer/end-user-apps.md)
+* [Power BI 中的应用有哪些？](service-create-distribute-apps.md)
 * [在 Power BI 中获取数据](service-get-data.md)
 * 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 
